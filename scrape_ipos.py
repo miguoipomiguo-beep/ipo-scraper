@@ -183,7 +183,12 @@ async def fetch_nasdaq_ipos() -> list:
                 data = resp.json().get("data", {})
 
                 for category in ["upcoming", "priced", "filed", "withdrawn"]:
-                    rows = data.get(category, {}).get("rows", [])
+                    cat_data = data.get(category, {})
+                    # upcomingは upcomingTable.rows、他は直接 rows
+                    if category == "upcoming":
+                        rows = cat_data.get("upcomingTable", {}).get("rows", [])
+                    else:
+                        rows = cat_data.get("rows", [])
                     for row in rows:
                         status_map = {"upcoming": "filed", "priced": "priced", "filed": "filed", "withdrawn": "withdrawn"}
 
