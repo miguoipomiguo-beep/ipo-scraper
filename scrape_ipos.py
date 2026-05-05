@@ -161,84 +161,85 @@ async def fetch_sec_rss() -> list:
 
 
 async def fetch_nasdaq_ipos() -> list:
-    """NASDAQ Upcoming IPOsページからスクレイピング"""
-    print("\n=== NASDAQ IPOs ===")
+    """NASDAQ Internal JSON APIからIPOデータ取得"""
+    print("\n=== NASDAQ IPOs (JSON API) ===")
     ipos = []
 
-    async with async_playwright() as p:
-        browser = await p.chromium.launch(
-            headless=True,
-            args=["--disable-blink-features=AutomationControlled", "--no-sandbox"]
-        )
-        context = await browser.new_context(
-            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
-            viewport={"width": 1920, "height": 1080},
-        )
-        page = await context.new_page()
-        await page.add_init_script("Object.defineProperty(navigator, 'webdriver', { get: () => undefined });")
+    async with httpx.AsyncClient(timeout=30, headers={
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+        "Accept": "application/json",
+    }) as client:
+        # 今月と来月のデータを取得
+        now = datetime.now()
+        months = [now.strftime("%Y-%m"), (now + timedelta(days=31)).strftime("%Y-%m")]
 
-        try:
-            await page.goto("https://www.nasdaq.com/market-activity/ipos", wait_until="domcontentloaded", timeout=45000)
-            await page.wait_for_timeout(5000)
+        for month in months:
+            try:
+                resp = await client.get(f"https://api.nasdaq.com/api/ipo/calendar?date={month}")
+                if resp.status_code != 200:
+                    print(f"  [{month}] HTTP {resp.status_code}")
+                    continue
 
-            # テーブル行を取得
-            rows = await page.query_selector_all("table tbody tr")
-            if not rows:
-                # alternative: divベースのレイアウト
-                rows = await page.query_selector_all("[class*='ipo'] [class*='row'], [data-testid*='ipo']")
+                data = resp.json().get("data", {})
 
-            html = await page.content()
-            soup = BeautifulSoup(html, "html.parser")
+                for category in ["upcoming", "priced", "filed", "withdrawn"]:
+                    rows = data.get(category, {}).get("rows", [])
+                    for row in rows:
+                        status_map = {"upcoming": "filed", "priced": "priced", "filed": "filed", "withdrawn": "withdrawn"}
 
-            # テーブルからデータ抽出
-            tables = soup.find_all("table")
-            for table in tables:
-                trs = table.find_all("tr")
-                for tr in trs[1:]:  # ヘッダースキップ
-                    tds = tr.find_all("td")
-                    if len(tds) >= 3:
-                        symbol = tds[0].get_text(strip=True)
-                        company = tds[1].get_text(strip=True) if len(tds) > 1 else ""
-                        price = tds[2].get_text(strip=True) if len(tds) > 2 else ""
-                        exp_date = tds[3].get_text(strip=True) if len(tds) > 3 else ""
-                        shares = tds[4].get_text(strip=True) if len(tds) > 4 else ""
+                        # 日付パース
+                        expected_date = None
+                        date_str = row.get("expectedPriceDate") or row.get("pricedDate") or row.get("filedDate")
+                        if date_str:
+                            for fmt in ["%m/%d/%Y", "%Y-%m-%d"]:
+                                try:
+                                    expected_date = datetime.strptime(date_str, fmt).strftime("%Y-%m-%d")
+                                    break
+                                except ValueError:
+                                    continue
 
-                        if symbol and company:
-                            # 価格レンジ抽出
-                            price_low = price_high = None
-                            price_match = re.search(r'\$?([\d.]+)\s*[-–]\s*\$?([\d.]+)', price)
+                        # 価格パース
+                        price_low = price_high = offer_price = None
+                        price_str = row.get("proposedSharePrice", "")
+                        if price_str:
+                            price_match = re.search(r"([\d.]+)\s*[-–]\s*([\d.]+)", price_str)
                             if price_match:
                                 price_low = float(price_match.group(1))
                                 price_high = float(price_match.group(2))
+                            else:
+                                single_match = re.search(r"([\d.]+)", price_str)
+                                if single_match:
+                                    offer_price = float(single_match.group(1))
 
-                            # 日付パース
-                            parsed_date = None
-                            if exp_date:
-                                for fmt in ["%m/%d/%Y", "%Y-%m-%d", "%b %d, %Y"]:
-                                    try:
-                                        parsed_date = datetime.strptime(exp_date, fmt).strftime("%Y-%m-%d")
-                                        break
-                                    except ValueError:
-                                        continue
+                        # 株数パース
+                        shares = None
+                        shares_str = row.get("sharesOffered", "")
+                        if shares_str:
+                            shares_clean = shares_str.replace(",", "")
+                            try:
+                                shares = int(shares_clean)
+                            except ValueError:
+                                pass
 
-                            ipos.append({
-                                "company_name": company,
-                                "ticker": symbol,
-                                "exchange": "NASDAQ",
-                                "expected_date": parsed_date,
-                                "price_range_low": price_low,
-                                "price_range_high": price_high,
-                                "status": "filed",
-                                "event_type": "exchange_filing",
-                            })
+                        ipos.append({
+                            "company_name": row.get("companyName"),
+                            "ticker": row.get("proposedTickerSymbol"),
+                            "exchange": row.get("proposedExchange", "NASDAQ"),
+                            "expected_date": expected_date,
+                            "price_range_low": price_low,
+                            "price_range_high": price_high,
+                            "offer_price": offer_price,
+                            "shares_offered": shares,
+                            "status": status_map.get(category, "filed"),
+                            "event_type": "exchange_filing",
+                        })
 
-            print(f"  NASDAQ: {len(ipos)} IPOs")
+                print(f"  [{month}] {len(data.get('upcoming',{}).get('rows',[]))} upcoming, {len(data.get('priced',{}).get('rows',[]))} priced, {len(data.get('filed',{}).get('rows',[]))} filed")
 
-        except Exception as e:
-            print(f"  NASDAQ Error: {e}")
-        finally:
-            await browser.close()
+            except Exception as e:
+                print(f"  [{month}] Error: {e}")
 
+    print(f"  NASDAQ total: {len(ipos)} IPOs")
     return ipos
 
 
