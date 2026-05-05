@@ -1,0 +1,4 @@
+httpx[http2]==0.27.0
+beautifulsoup4==4.12.3
+html2text==2024.2.26
+playwright==1.49.0
