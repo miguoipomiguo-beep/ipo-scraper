@@ -10,7 +10,7 @@
     "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=None&type=S-1/A&dateb=&owner=include&count=10",
     "status": "amended",
     "event_type": "amendment",
-    "description": "ARC Group Acquisition I Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with a target company in the technology sector. The company aims to leverage its management team's expertise to create value through strategic acquisitions.",
+    "description": "ARC Group Acquisition I Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with a target business in the technology sector. The company aims to leverage its management team's expertise to create value through strategic acquisitions.",
     "products_services": "Special purpose acquisition company (SPAC) services, merger and acquisition facilitation.",
     "industry": "Financial Services"
   },
@@ -26,7 +26,7 @@
     "status": "filed",
     "event_type": "filing",
     "description": "AI Strategy Inc. is a technology company specializing in artificial intelligence solutions that enhance business operations and decision-making processes. The company leverages advanced machine learning algorithms to provide data analytics, predictive modeling, and automation services to various industries.",
-    "products_services": "AI-driven analytics platforms, predictive modeling tools, and automation solutions.",
+    "products_services": "AI-driven analytics platforms, predictive modeling tools, automation software, and consulting services for AI integration.",
     "industry": "Technology"
   },
   {
@@ -40,8 +40,13 @@
     "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=None&type=S-1/A&dateb=&owner=include&count=10",
     "status": "amended",
     "event_type": "amendment",
-    "description": "Vernal Capital Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the technology sector. The company aims to leverage its management team's expertise to create value through strategic partnerships and growth initiatives.",
-    "products_services": "Special purpose acquisition company (SPAC) services, merger and acquisition facilitation.",
+    "ticker": "VECAU",
+    "exchange": "NYSE",
+    "expected_date": "2026-05-06",
+    "price_range_low": null,
+    "price_range_high": null,
+    "description": "Vernal Capital Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with a target business in the technology sector. The company aims to leverage its management team's expertise to create value through strategic partnerships and growth initiatives.",
+    "products_services": "Special purpose acquisition company services, merger and acquisition facilitation",
     "industry": "Financial Services"
   },
   {
@@ -55,8 +60,8 @@
     "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=None&type=S-1&dateb=&owner=include&count=10",
     "status": "filed",
     "event_type": "filing",
-    "description": "Oceanhawk Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the technology and consumer sectors. The company aims to leverage its management team's expertise to create value through strategic partnerships and growth initiatives.",
-    "products_services": "Special purpose acquisition and merger services",
+    "description": "Oceanhawk Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the technology and consumer sectors. The company aims to leverage its management team's expertise to drive growth and create value for shareholders.",
+    "products_services": "The main service offered is the facilitation of mergers and acquisitions with target companies, primarily in the technology and consumer industries.",
     "industry": "Financial Services"
   },
   {
@@ -70,8 +75,8 @@
     "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=None&type=S-1&dateb=&owner=include&count=10",
     "status": "filed",
     "event_type": "filing",
-    "description": "TRG Latin America Acquisitions Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with businesses in Latin America. The company aims to leverage its management team's expertise to drive growth and value creation in the region.",
-    "products_services": "The main service offered is the acquisition and merger of companies in Latin America, particularly in sectors with high growth potential.",
+    "description": "TRG Latin America Acquisitions Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with a Latin American business that has strong growth potential. The company aims to leverage its management team's expertise and network to create value for shareholders through strategic acquisitions.",
+    "products_services": "The company primarily offers capital for acquisitions and operational support to target businesses in Latin America.",
     "industry": "Financial Services"
   },
   {
@@ -90,8 +95,8 @@
     "expected_date": "2026-05-04",
     "price_range_low": null,
     "price_range_high": null,
-    "description": "Keystone Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with a high-growth company in the technology sector. The company aims to leverage its management team's expertise to create value for shareholders through strategic acquisitions.",
-    "products_services": "Special purpose acquisition services, merger facilitation, and investment in high-growth technology companies.",
+    "description": "Keystone Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with a target company in the technology sector. The company aims to leverage its management team's expertise to create value through strategic acquisitions.",
+    "products_services": "Special purpose acquisition services, merger facilitation, and investment in technology companies.",
     "industry": "Financial Services"
   },
   {
@@ -120,7 +125,7 @@
     "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=None&type=S-1&dateb=&owner=include&count=10",
     "status": "filed",
     "event_type": "filing",
-    "description": "Voyager Acquisition Corp. II is a special purpose acquisition company (SPAC) focused on identifying and merging with a target business in the technology sector. The company aims to leverage its management team's expertise to create value through strategic partnerships and growth initiatives.",
+    "description": "Voyager Acquisition Corp. II is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the technology sector. The company aims to leverage its management team's expertise to create value through strategic partnerships and growth initiatives.",
     "products_services": "Special purpose acquisition company services, merger and acquisition facilitation",
     "industry": "Financial Services"
   },
@@ -135,8 +140,8 @@
     "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=None&type=424B4&dateb=&owner=include&count=10",
     "status": "priced",
     "event_type": "pricing",
-    "description": "ARC Group Acquisition I Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the technology and consumer sectors. The company aims to leverage its management team's expertise to drive growth and create value for shareholders.",
-    "products_services": "Special purpose acquisition company (SPAC) services, merger and acquisition facilitation.",
+    "description": "ARC Group Acquisition I Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with a target company in the technology sector. The company aims to leverage its management team's expertise to create value through strategic acquisitions.",
+    "products_services": "Special purpose acquisition company (SPAC) services, merger and acquisition facilitation",
     "industry": "Financial Services"
   },
   {
@@ -150,9 +155,9 @@
     "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=None&type=S-1/A&dateb=&owner=include&count=10",
     "status": "amended",
     "event_type": "amendment",
-    "description": "Long Table Growth Corp. is a company focused on investing in and supporting innovative businesses within the food and beverage sector, aiming to drive sustainable growth and enhance consumer experiences. The company seeks to leverage its expertise to identify and capitalize on emerging trends in the market.",
-    "products_services": "Investment in food and beverage companies, strategic support for growth initiatives, and market analysis services.",
-    "industry": "Food and Beverage Investment"
+    "description": "Long Table Growth Corp. is a growth-focused investment company that seeks to identify and invest in innovative companies within the food and beverage sector. The company aims to leverage its expertise to drive value creation and foster sustainable growth in its portfolio.",
+    "products_services": "Investment in food and beverage companies, strategic advisory services, and growth capital funding.",
+    "industry": "Investment Management"
   },
   {
     "company_name": "Patriot Acquisition Corp./CI  (CIK 0002099095)",
@@ -181,22 +186,7 @@
     "status": "amended",
     "event_type": "amendment",
     "description": "Innovative Digital Investors Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative digital technology companies. The firm aims to leverage its expertise to drive growth and value creation in the digital investment space.",
-    "products_services": "SPAC mergers and acquisitions, investment in digital technology companies",
-    "industry": "Financial Services"
-  },
-  {
-    "company_name": "APEIRON ACQUISITION VEHICLE I  (CIK 0002085795)",
-    "cik": "",
-    "filing_type": "S-1",
-    "filing_date": "2026-02-04",
-    "sec_accession": [
-      "333-293174"
-    ],
-    "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=None&type=S-1&dateb=&owner=include&count=10",
-    "status": "filed",
-    "event_type": "filing",
-    "description": "APEIRON Acquisition Vehicle I is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in high-growth sectors. The company aims to provide a platform for businesses seeking to access public markets and accelerate their growth.",
-    "products_services": "SPAC mergers and capital raising for private companies",
+    "products_services": "The company primarily offers capital and strategic support to digital technology firms through mergers and acquisitions.",
     "industry": "Financial Services"
   },
   {
@@ -210,8 +200,23 @@
     "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=None&type=S-1/A&dateb=&owner=include&count=10",
     "status": "amended",
     "event_type": "amendment",
-    "description": "Iron Dome Acquisition I Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the technology sector. The company aims to leverage its management team's expertise to drive growth and create value for shareholders.",
-    "products_services": "SPAC formation and merger facilitation with target companies in the technology sector.",
+    "description": "Iron Dome Acquisition I Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the technology sector. The company aims to leverage its management team's expertise to drive growth and value creation post-merger.",
+    "products_services": "SPAC formation and capital raising for mergers and acquisitions",
+    "industry": "Financial Services"
+  },
+  {
+    "company_name": "APEIRON ACQUISITION VEHICLE I  (CIK 0002085795)",
+    "cik": "",
+    "filing_type": "S-1",
+    "filing_date": "2026-02-04",
+    "sec_accession": [
+      "333-293174"
+    ],
+    "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=None&type=S-1&dateb=&owner=include&count=10",
+    "status": "filed",
+    "event_type": "filing",
+    "description": "APEIRON Acquisition Vehicle I is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in high-growth sectors. The company aims to leverage its management team's expertise to create value through strategic partnerships and operational improvements.",
+    "products_services": "SPAC investment and merger facilitation services",
     "industry": "Financial Services"
   },
   {
@@ -225,7 +230,7 @@
     "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=None&type=S-1/A&dateb=&owner=include&count=10",
     "status": "amended",
     "event_type": "amendment",
-    "description": "Breeze Acquisition Corp. II is a special purpose acquisition company (SPAC) focused on identifying and merging with a target business in the technology or consumer sectors. The company aims to leverage its management team's expertise to create value through strategic partnerships and operational improvements.",
+    "description": "Breeze Acquisition Corp. II is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the technology and consumer sectors. The company aims to leverage its management team's expertise to create value through strategic partnerships and growth initiatives.",
     "products_services": "Special purpose acquisition company services, merger and acquisition facilitation",
     "industry": "Financial Services"
   },
@@ -455,7 +460,10 @@
     ],
     "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=None&type=F-1/A&dateb=&owner=include&count=10",
     "status": "amended",
-    "event_type": "amendment"
+    "event_type": "amendment",
+    "description": "Unitrend Entertainment Group Ltd is a dynamic entertainment company focused on producing and distributing innovative content across various media platforms. The company aims to engage audiences through high-quality films, television shows, and digital media experiences.",
+    "products_services": "Film production, television production, digital media distribution",
+    "industry": "Entertainment"
   },
   {
     "company_name": "Yesil Global Enerji A.S.  (CIK 0002087162)",
@@ -467,7 +475,10 @@
     ],
     "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=None&type=F-1&dateb=&owner=include&count=10",
     "status": "filed",
-    "event_type": "filing"
+    "event_type": "filing",
+    "description": "Yesil Global Enerji A.S. is a renewable energy company focused on developing and operating sustainable energy solutions. The company aims to contribute to the global transition towards clean energy through innovative technologies and projects.",
+    "products_services": "Renewable energy generation, energy efficiency solutions, and sustainable energy project development.",
+    "industry": "Renewable Energy"
   },
   {
     "company_name": "Pono Capital Four, Inc.  (PONO)  (CIK 0002108164)",
@@ -479,7 +490,10 @@
     ],
     "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=None&type=S-1/A&dateb=&owner=include&count=10",
     "status": "amended",
-    "event_type": "amendment"
+    "event_type": "amendment",
+    "description": "Pono Capital Four, Inc. is a special purpose acquisition company (SPAC) focused on identifying and merging with a target business in the technology sector. The company aims to leverage its management team's expertise to create value through strategic partnerships and growth initiatives.",
+    "products_services": "Special purpose acquisition company (SPAC) services, merger and acquisition facilitation",
+    "industry": "Financial Services"
   },
   {
     "company_name": "Texas Ventures Acquisition IV Corp  (TVIV)  (CIK 0002096755)",
@@ -491,7 +505,10 @@
     ],
     "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=None&type=S-1/A&dateb=&owner=include&count=10",
     "status": "amended",
-    "event_type": "amendment"
+    "event_type": "amendment",
+    "description": "Texas Ventures Acquisition IV Corp is a special purpose acquisition company (SPAC) focused on identifying and merging with a target business in the technology sector. The company aims to leverage its management team's expertise to create value for shareholders through strategic acquisitions.",
+    "products_services": "Special purpose acquisition company (SPAC) services, merger and acquisition facilitation.",
+    "industry": "Financial Services"
   },
   {
     "company_name": "Quantum Leap Acquisition Corp  (QLEP)  (CIK 0002102155)",
@@ -509,8 +526,8 @@
     "expected_date": "2026-05-01",
     "price_range_low": null,
     "price_range_high": null,
-    "description": "Quantum Leap Acquisition Corp is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the technology sector. The company aims to leverage its management team's expertise to drive growth and value creation post-merger.",
-    "products_services": "Special purpose acquisition services, merger facilitation, and investment in technology companies.",
+    "description": "Quantum Leap Acquisition Corp is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the technology sector. The company aims to leverage its expertise and resources to accelerate growth and create value for shareholders.",
+    "products_services": "SPAC mergers and acquisitions, investment in technology companies",
     "industry": "Financial Services"
   },
   {
@@ -524,8 +541,8 @@
     "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=None&type=S-1/A&dateb=&owner=include&count=10",
     "status": "amended",
     "event_type": "amendment",
-    "description": "Mercator Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with a technology-driven business in the financial services sector. The company aims to leverage its management team's expertise to create value through strategic partnerships and operational improvements.",
-    "products_services": "SPAC mergers and acquisitions, investment in technology-driven financial services companies",
+    "description": "Mercator Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the technology and consumer sectors. The company aims to leverage its management team's expertise to drive growth and create value for shareholders.",
+    "products_services": "Special purpose acquisition company services, merger and acquisition facilitation",
     "industry": "Financial Services"
   },
   {
@@ -539,8 +556,8 @@
     "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=None&type=S-1/A&dateb=&owner=include&count=10",
     "status": "amended",
     "event_type": "amendment",
-    "description": "Sky Acquisition Group is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the technology and consumer sectors. The company aims to leverage its management team's expertise to drive growth and value creation post-merger.",
-    "products_services": "Merger and acquisition services, investment in technology and consumer companies",
+    "description": "Sky Acquisition Group is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the technology and consumer sectors. The company aims to leverage its management team's expertise to create value for shareholders through strategic acquisitions.",
+    "products_services": "Special purpose acquisition company (SPAC) services, merger and acquisition facilitation.",
     "industry": "Financial Services"
   },
   {
@@ -554,8 +571,8 @@
     "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=None&type=S-1/A&dateb=&owner=include&count=10",
     "status": "amended",
     "event_type": "amendment",
-    "description": "Brookline Capital Acquisition Corp II is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the technology and healthcare sectors. The company aims to leverage its management team's expertise to create value through strategic partnerships and growth initiatives.",
-    "products_services": "Merger and acquisition services, investment in technology and healthcare companies",
+    "description": "Brookline Capital Acquisition Corp II is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the technology and healthcare sectors. The company aims to leverage its management team's expertise to drive growth and create value for shareholders.",
+    "products_services": "Capital raising through public offerings and mergers with target companies in technology and healthcare.",
     "industry": "Financial Services"
   },
   {
@@ -569,8 +586,8 @@
     "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=None&type=S-1/A&dateb=&owner=include&count=10",
     "status": "amended",
     "event_type": "amendment",
-    "description": "Aperture AC is a technology company focused on developing advanced artificial intelligence solutions for various industries. The company aims to enhance operational efficiency and decision-making through its innovative software products.",
-    "products_services": "AI software solutions, data analytics tools, and machine learning applications.",
+    "description": "Aperture AC is a technology-driven company focused on providing advanced solutions in the field of artificial intelligence and data analytics. The company aims to enhance operational efficiency and decision-making processes for businesses across various sectors.",
+    "products_services": "AI-driven analytics platforms, data management solutions, and consulting services for business optimization.",
     "industry": "Technology"
   },
   {
@@ -584,8 +601,8 @@
     "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=None&type=S-1/A&dateb=&owner=include&count=10",
     "status": "amended",
     "event_type": "amendment",
-    "description": "Inflection Point Acquisition Corp. VI is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in growth sectors. The firm aims to leverage its management team's expertise to create value through strategic partnerships and operational improvements.",
-    "products_services": "SPAC mergers and acquisitions, investment in growth companies",
+    "description": "Inflection Point Acquisition Corp. VI is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in growth sectors. The company aims to leverage its management team's expertise to create value through strategic partnerships and operational improvements.",
+    "products_services": "The main service offered is the facilitation of mergers and acquisitions with target companies, primarily in the technology and consumer sectors.",
     "industry": "Financial Services"
   },
   {
@@ -599,8 +616,8 @@
     "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=None&type=F-1/A&dateb=&owner=include&count=10",
     "status": "amended",
     "event_type": "amendment",
-    "description": "Antharas Inc is a technology company focused on developing innovative solutions in the field of artificial intelligence and machine learning. The company aims to enhance business operations and decision-making processes through its advanced software applications.",
-    "products_services": "AI-driven software solutions, machine learning platforms, and data analytics services.",
+    "description": "Antharas Inc is a technology company focused on developing innovative solutions in the field of artificial intelligence and machine learning. The company aims to enhance business operations through advanced data analytics and automation tools.",
+    "products_services": "AI-driven software solutions, machine learning platforms, data analytics tools, and automation services.",
     "industry": "Technology"
   },
   {
@@ -614,8 +631,8 @@
     "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=None&type=F-1/A&dateb=&owner=include&count=10",
     "status": "amended",
     "event_type": "amendment",
-    "description": "Optimi Health Corp. is a health and wellness company focused on the development and distribution of psychedelic and natural health products. The company aims to enhance mental health and well-being through innovative therapies and solutions.",
-    "products_services": "Psychedelic and natural health products, mental health therapies, wellness solutions.",
+    "description": "Optimi Health Corp. is a health and wellness company focused on the development and distribution of innovative products derived from psychedelic compounds. The company aims to enhance mental health and well-being through its therapeutic offerings.",
+    "products_services": "Psychedelic-based health products and therapies, including formulations for mental health treatment and wellness solutions.",
     "industry": "Health and Wellness"
   },
   {
@@ -644,9 +661,9 @@
     "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=None&type=424B4&dateb=&owner=include&count=10",
     "status": "priced",
     "event_type": "pricing",
-    "description": "Forgent Power Solutions, Inc. is a leading provider of innovative energy solutions, specializing in advanced power management systems and renewable energy technologies. The company focuses on delivering sustainable and efficient energy solutions to commercial and industrial clients.",
-    "products_services": "Power management systems, renewable energy technologies, energy efficiency consulting, and integrated energy solutions.",
-    "industry": "Energy and Power Management"
+    "description": "Forgent Power Solutions, Inc. is a leading provider of innovative energy solutions focused on enhancing efficiency and sustainability in power generation and distribution. The company leverages advanced technology to deliver reliable and cost-effective power solutions to various industries.",
+    "products_services": "Main products include energy management systems, renewable energy solutions, and power optimization services.",
+    "industry": "Energy and Power Solutions"
   },
   {
     "company_name": "Cantor Equity Partners VI, Inc.  (CEPS)  (CIK 0002089536)",
@@ -659,8 +676,8 @@
     "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=None&type=424B4&dateb=&owner=include&count=10",
     "status": "priced",
     "event_type": "pricing",
-    "description": "Cantor Equity Partners VI, Inc. is a private investment firm focused on acquiring and managing a diversified portfolio of assets across various sectors. The company aims to generate attractive returns for its investors through strategic investments and operational improvements.",
-    "products_services": "Investment management and asset acquisition services",
+    "description": "Cantor Equity Partners VI, Inc. is a private investment firm focused on acquiring and managing a diversified portfolio of companies across various sectors. The firm aims to generate long-term value for its investors through strategic investments and operational improvements.",
+    "products_services": "Investment management and private equity investments",
     "industry": "Financial Services"
   },
   {
@@ -673,10 +690,7 @@
     ],
     "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=None&type=424B4&dateb=&owner=include&count=10",
     "status": "priced",
-    "event_type": "pricing",
-    "description": "Columbus Circle Capital Corp II is a special purpose acquisition company (SPAC) focused on identifying and merging with a target business in the financial services sector. The company aims to leverage its management team's expertise to create value for shareholders through strategic acquisitions.",
-    "products_services": "Special purpose acquisition company (SPAC) services, merger and acquisition facilitation.",
-    "industry": "Financial Services"
+    "event_type": "pricing"
   },
   {
     "company_name": "Churchill Capital Corp XII  (CXII)  (CIK 0002114227)",
@@ -688,10 +702,7 @@
     ],
     "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=None&type=424B4&dateb=&owner=include&count=10",
     "status": "priced",
-    "event_type": "pricing",
-    "description": "Churchill Capital Corp XII is a special purpose acquisition company (SPAC) focused on identifying and merging with a high-growth company in the technology sector. The company aims to leverage its management team's expertise to create value for shareholders through strategic acquisitions.",
-    "products_services": "Special purpose acquisition company (SPAC) services, merger and acquisition facilitation.",
-    "industry": "Financial Services"
+    "event_type": "pricing"
   },
   {
     "company_name": "Elmet Group Co.  (ELMT)  (CIK 0002101698)",
@@ -703,10 +714,7 @@
     ],
     "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=None&type=424B4&dateb=&owner=include&count=10",
     "status": "priced",
-    "event_type": "pricing",
-    "description": "Elmet Group Co. is a leading manufacturer specializing in advanced materials and components for various industrial applications, focusing on precision and innovation. The company aims to enhance performance and sustainability in sectors such as aerospace, automotive, and electronics.",
-    "products_services": "Advanced materials, precision components, and custom manufacturing solutions.",
-    "industry": "Manufacturing"
+    "event_type": "pricing"
   },
   {
     "company_name": "SOLV Energy, Inc.  (MWH)  (CIK 0002065636)",
@@ -718,10 +726,7 @@
     ],
     "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=None&type=424B4&dateb=&owner=include&count=10",
     "status": "priced",
-    "event_type": "pricing",
-    "description": "SOLV Energy, Inc. is a leading provider of solar energy solutions, specializing in the development, engineering, procurement, and construction of large-scale solar projects. The company focuses on delivering sustainable energy solutions to commercial and utility-scale customers across the United States.",
-    "products_services": "Solar energy project development, engineering, procurement, construction, and maintenance services.",
-    "industry": "Renewable Energy"
+    "event_type": "pricing"
   },
   {
     "company_name": "AEVEX Corp.  (AVEX)  (CIK 0002096300)",
@@ -925,7 +930,144 @@
     ],
     "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=None&type=RW&dateb=&owner=include&count=10",
     "status": "withdrawn",
-    "event_type": "withdrawal"
+    "event_type": "withdrawal",
+    "ticker": "RIKU",
+    "exchange": "NASDAQ Capital",
+    "expected_date": "2026-05-15",
+    "price_range_low": 4.0,
+    "price_range_high": 6.0
+  },
+  {
+    "company_name": "EagleRock Land, LLC",
+    "ticker": "EROK",
+    "exchange": "NYSE",
+    "expected_date": "2026-05-14",
+    "price_range_low": 17.0,
+    "price_range_high": 20.0,
+    "offer_price": null,
+    "shares_offered": 17300000,
+    "status": "filed",
+    "event_type": "exchange_filing"
+  },
+  {
+    "company_name": "Blackstone Digital Infrastructure Trust Inc.",
+    "ticker": "BXDC",
+    "exchange": "NYSE",
+    "expected_date": "2026-05-14",
+    "price_range_low": null,
+    "price_range_high": null,
+    "offer_price": 20.0,
+    "shares_offered": 87500000,
+    "status": "filed",
+    "event_type": "exchange_filing"
+  },
+  {
+    "company_name": "Cerebras Systems Inc.",
+    "ticker": "CBRS",
+    "exchange": "NASDAQ Global Select",
+    "expected_date": "2026-05-14",
+    "price_range_low": 115.0,
+    "price_range_high": 125.0,
+    "offer_price": null,
+    "shares_offered": 28000000,
+    "status": "filed",
+    "event_type": "exchange_filing"
+  },
+  {
+    "company_name": "GMR Solutions Inc.",
+    "ticker": "GMRS",
+    "exchange": "NYSE",
+    "expected_date": "2026-05-13",
+    "price_range_low": 22.0,
+    "price_range_high": 25.0,
+    "offer_price": null,
+    "shares_offered": 31914893,
+    "status": "filed",
+    "event_type": "exchange_filing"
+  },
+  {
+    "company_name": "Fervo Energy Co",
+    "ticker": "FRVO",
+    "exchange": "NASDAQ Global Select",
+    "expected_date": "2026-05-13",
+    "price_range_low": 21.0,
+    "price_range_high": 24.0,
+    "offer_price": null,
+    "shares_offered": 55555555,
+    "status": "filed",
+    "event_type": "exchange_filing"
+  },
+  {
+    "company_name": "BW Industrial Holdings Inc.",
+    "ticker": "BWGC",
+    "exchange": "NYSE MKT",
+    "expected_date": "2026-05-12",
+    "price_range_low": 6.0,
+    "price_range_high": 7.0,
+    "offer_price": null,
+    "shares_offered": 2625000,
+    "status": "filed",
+    "event_type": "exchange_filing"
+  },
+  {
+    "company_name": "Mobia Medical, Inc.",
+    "ticker": "MOBI",
+    "exchange": "NASDAQ Global Select",
+    "expected_date": "2026-05-08",
+    "price_range_low": 14.0,
+    "price_range_high": 16.0,
+    "offer_price": null,
+    "shares_offered": 10000000,
+    "status": "filed",
+    "event_type": "exchange_filing"
+  },
+  {
+    "company_name": "Odyssey Therapeutics, Inc.",
+    "ticker": "ODTX",
+    "exchange": "NASDAQ Capital",
+    "expected_date": "2026-05-08",
+    "price_range_low": 16.0,
+    "price_range_high": 18.0,
+    "offer_price": null,
+    "shares_offered": 13240000,
+    "status": "filed",
+    "event_type": "exchange_filing"
+  },
+  {
+    "company_name": "SUJA LIFE, INC.",
+    "ticker": "SUJA",
+    "exchange": "NASDAQ Global Select",
+    "expected_date": "2026-05-07",
+    "price_range_low": 21.0,
+    "price_range_high": 24.0,
+    "offer_price": null,
+    "shares_offered": 8888889,
+    "status": "filed",
+    "event_type": "exchange_filing"
+  },
+  {
+    "company_name": "HawkEye 360, Inc.",
+    "ticker": "HAWK",
+    "exchange": "NYSE",
+    "expected_date": "2026-05-07",
+    "price_range_low": 24.0,
+    "price_range_high": 26.0,
+    "offer_price": null,
+    "shares_offered": 16000000,
+    "status": "filed",
+    "event_type": "exchange_filing"
+  },
+  {
+    "company_name": "Rare Earths Americas, Inc.",
+    "ticker": "REA",
+    "exchange": "NYSE MKT",
+    "expected_date": "2026-05-06",
+    "price_range_low": 17.0,
+    "price_range_high": 19.0,
+    "offer_price": null,
+    "shares_offered": 2777777,
+    "status": "filed",
+    "event_type": "exchange_filing"
   },
   {
     "company_name": "Seaport Therapeutics, Inc.",
