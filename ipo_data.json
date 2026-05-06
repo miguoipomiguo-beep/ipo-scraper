@@ -21,9 +21,9 @@
       }
     ],
     "status": "upcoming",
-    "description": "RIKU DINING GROUP Ltd. is a leading restaurant and dining management company specializing in innovative culinary experiences and exceptional customer service. With a diverse portfolio of dining establishments, the company aims to redefine the dining landscape through quality and creativity.",
-    "products_services": "Full-service restaurants, catering services, and culinary events.",
-    "industry": "Hospitality and Food Services"
+    "description": "RIKU DINING GROUP Ltd. is a leading restaurant management company specializing in innovative dining experiences across various cuisines. With a focus on quality and customer satisfaction, the group aims to expand its footprint in the competitive food and beverage industry.",
+    "products_services": "Full-service restaurants, catering services, and food delivery options.",
+    "industry": "Food and Beverage"
   },
   {
     "id": "EROK",
@@ -47,8 +47,8 @@
       }
     ],
     "status": "upcoming",
-    "description": "EagleRock Land, LLC is a leading land development company focused on sustainable and innovative real estate solutions. With a commitment to enhancing community living, the company specializes in residential and commercial land projects.",
-    "products_services": "Residential and commercial land development, site planning, and project management services.",
+    "description": "EagleRock Land, LLC is a leading land development company focused on creating sustainable and innovative residential and commercial properties. With a commitment to environmental stewardship and community engagement, EagleRock aims to transform landscapes while enhancing quality of life.",
+    "products_services": "Residential and commercial land development, property management, and consulting services.",
     "industry": "Real Estate Development"
   },
   {
@@ -74,7 +74,7 @@
     ],
     "status": "upcoming",
     "description": "Blackstone Digital Infrastructure Trust Inc. is a real estate investment trust focused on acquiring and managing digital infrastructure assets, including data centers and communication towers. The company aims to capitalize on the growing demand for digital connectivity and data storage solutions.",
-    "products_services": "Digital infrastructure assets such as data centers, communication towers, and fiber networks.",
+    "products_services": "Data centers, communication towers, and other digital infrastructure assets.",
     "industry": "Real Estate Investment Trust (REIT) / Digital Infrastructure"
   },
   {
@@ -125,9 +125,9 @@
       }
     ],
     "status": "upcoming",
-    "description": "GMR Solutions Inc. is a leading provider of innovative technology solutions aimed at enhancing operational efficiency for businesses across various sectors. With a focus on cutting-edge software development and IT consulting, the company is poised for significant growth in the digital transformation landscape.",
-    "products_services": "Custom software development, IT consulting, cloud solutions, and data analytics services.",
-    "industry": "Information Technology and Software Development"
+    "description": "GMR Solutions Inc. is a leading provider of innovative technology solutions designed to enhance operational efficiency and drive business growth. The company specializes in software development, data analytics, and IT consulting services.",
+    "products_services": "Software development, data analytics, IT consulting services",
+    "industry": "Information Technology"
   },
   {
     "id": "FRVO",
@@ -151,8 +151,8 @@
       }
     ],
     "status": "upcoming",
-    "description": "Fervo Energy Co. is a pioneering company focused on harnessing geothermal energy to provide sustainable and reliable power solutions. By utilizing advanced drilling techniques and innovative technology, Fervo aims to revolutionize the geothermal energy sector.",
-    "products_services": "Geothermal energy production, energy storage solutions, and consulting services for renewable energy projects.",
+    "description": "Fervo Energy Co. is an innovative geothermal energy company focused on harnessing the Earth's heat to provide sustainable and reliable power solutions. Their advanced technology aims to revolutionize the geothermal sector by enhancing energy efficiency and reducing carbon emissions.",
+    "products_services": "Geothermal energy production, advanced drilling technology, and energy storage solutions.",
     "industry": "Renewable Energy"
   },
   {
@@ -177,8 +177,8 @@
       }
     ],
     "status": "upcoming",
-    "description": "BW Industrial Holdings Inc. is a leading provider of industrial services and solutions, focusing on enhancing operational efficiency and sustainability for its clients. The company aims to leverage innovative technologies and expert insights to drive growth in the industrial sector.",
-    "products_services": "Industrial services, operational efficiency solutions, sustainability consulting, and technology integration.",
+    "description": "BW Industrial Holdings Inc. is a leading provider of industrial services and solutions, focusing on enhancing operational efficiency for various sectors. The company aims to leverage innovative technologies and expert knowledge to deliver high-quality services to its clients.",
+    "products_services": "Industrial maintenance, equipment rental, and specialized engineering services.",
     "industry": "Industrial Services"
   },
   {
@@ -203,8 +203,8 @@
       }
     ],
     "status": "upcoming",
-    "description": "Mobia Medical, Inc. is a pioneering healthcare technology company focused on developing innovative medical devices and solutions to enhance patient care and streamline clinical workflows. With a commitment to improving health outcomes, Mobia Medical leverages cutting-edge technology to address critical challenges in the medical field.",
-    "products_services": "The company offers a range of advanced medical devices, telehealth solutions, and data analytics platforms designed to support healthcare providers and improve patient engagement.",
+    "description": "Mobia Medical, Inc. is a pioneering healthcare technology company focused on developing innovative solutions to enhance patient care and streamline medical processes. With a commitment to improving health outcomes, Mobia leverages advanced technology to create user-friendly medical devices and software.",
+    "products_services": "Mobia Medical offers a range of products including telehealth platforms, remote patient monitoring devices, and integrated healthcare management software.",
     "industry": "Healthcare Technology"
   },
   {
@@ -230,7 +230,7 @@
     ],
     "status": "upcoming",
     "description": "Odyssey Therapeutics, Inc. is a biotechnology company focused on discovering and developing innovative therapies for patients with serious diseases. The company leverages advanced technologies to create targeted treatments that address unmet medical needs.",
-    "products_services": "Odyssey Therapeutics develops novel drug candidates aimed at various therapeutic areas, including oncology and autoimmune diseases.",
+    "products_services": "The company specializes in drug discovery and development, particularly in the fields of oncology and autoimmune diseases.",
     "industry": "Biotechnology"
   },
   {
@@ -281,8 +281,8 @@
       }
     ],
     "status": "upcoming",
-    "description": "HawkEye 360, Inc. is a technology company specializing in satellite-based radio frequency (RF) data collection and analysis, providing insights for various sectors including defense, maritime, and telecommunications. The company leverages its unique satellite constellation to deliver actionable intelligence from RF signals around the globe.",
-    "products_services": "Satellite-based RF data collection, analytics services, and geospatial intelligence solutions.",
+    "description": "HawkEye 360, Inc. is a technology company specializing in satellite-based radio frequency (RF) data collection and analysis. The company leverages its innovative satellite constellation to provide insights for various sectors, including defense, maritime, and telecommunications.",
+    "products_services": "HawkEye 360 offers RF geolocation services, data analytics, and insights derived from its satellite constellation, enabling clients to monitor and analyze RF signals globally.",
     "industry": "Aerospace and Defense"
   },
   {
@@ -307,8 +307,8 @@
       }
     ],
     "status": "upcoming",
-    "description": "Rare Earths Americas, Inc. is a leading company focused on the exploration and development of rare earth mineral resources in North America. The company aims to supply critical materials essential for various high-tech applications and green technologies.",
-    "products_services": "Rare earth minerals and materials, including neodymium, dysprosium, and other rare earth elements used in electronics, renewable energy, and defense applications.",
+    "description": "Rare Earths Americas, Inc. is a leading company focused on the exploration and development of rare earth element resources in North America. The company aims to provide sustainable and reliable sources of critical materials essential for various high-tech applications.",
+    "products_services": "Rare earth elements, mining and processing services, and supply chain solutions for high-tech industries.",
     "industry": "Mining and Minerals"
   },
   {
@@ -333,8 +333,8 @@
       }
     ],
     "status": "upcoming",
-    "description": "Vernal Capital Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the technology and healthcare sectors. The firm aims to leverage its management team's expertise to drive growth and create value for shareholders.",
-    "products_services": "SPAC mergers and acquisitions, investment management, and strategic advisory services.",
+    "description": "Vernal Capital Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the technology and consumer sectors. The firm aims to leverage its management team's expertise to drive growth and create value for shareholders.",
+    "products_services": "Vernal Capital Acquisition Corp. primarily engages in the acquisition and merger of companies, providing capital and strategic support to enhance their growth potential.",
     "industry": "Financial Services"
   },
   {
@@ -386,8 +386,8 @@
     ],
     "status": "listed",
     "description": "CH4 Natural Solutions Corp. is a pioneering company focused on innovative solutions for methane emissions reduction and sustainable agriculture. By leveraging advanced technologies, the company aims to transform waste into valuable resources, contributing to a greener planet.",
-    "products_services": "Methane reduction technologies, agricultural solutions, waste-to-resource systems.",
-    "industry": "Environmental Technology / Agriculture"
+    "products_services": "Methane reduction technologies, sustainable agricultural products, and waste-to-resource solutions.",
+    "industry": "Environmental Technology and Sustainable Agriculture"
   },
   {
     "id": "QLEPU",
