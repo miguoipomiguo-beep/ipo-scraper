@@ -473,7 +473,7 @@ async def enrich_with_llm(ipos: list) -> list:
     priority = [i for i in ipos if i.get("status") in ("upcoming", "listed") and not i.get("description")]
     priority += [i for i in ipos if i.get("status") not in ("upcoming", "listed") and not i.get("description")]
     async with httpx.AsyncClient(timeout=60) as client:
-        for ipo in priority[:50]:  # 最大50件（upcoming+undated）
+        for ipo in priority[:30]:  # 最大30件（タイムアウト回避）
             try:
                 resp = await client.post(GITHUB_MODELS_URL,
                     json={"model": "gpt-4o-mini", "messages": [{"role": "user", "content": f'Brief 2-sentence description for IPO company: {ipo["company_name"]}. JSON only: {{"description":"...","products_services":"...","industry":"..."}}'}], "temperature": 0.1, "max_tokens": 200},

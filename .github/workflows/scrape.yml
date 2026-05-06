@@ -2,8 +2,8 @@ name: IPO Scraper
 
 on:
   schedule:
-    - cron: '0 12 * * *'  # UTC 12:00 = EST 8:00 (市場開場前)
-    - cron: '0 0 * * *'   # UTC 0:00 = EST 20:00 (市場閉場後)
+    - cron: '0 12 * * *'
+    - cron: '0 0 * * *'
   workflow_dispatch:
 
 permissions:
@@ -12,7 +12,7 @@ permissions:
 jobs:
   scrape:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 45
 
     steps:
       - uses: actions/checkout@v4
