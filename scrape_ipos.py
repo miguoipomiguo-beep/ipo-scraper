@@ -473,19 +473,34 @@ async def enrich_with_llm(ipos: list) -> list:
     priority = [i for i in ipos if i.get("status") in ("upcoming", "listed") and not i.get("description")]
     priority += [i for i in ipos if i.get("status") not in ("upcoming", "listed") and not i.get("description")]
     async with httpx.AsyncClient(timeout=60) as client:
-        for ipo in priority[:30]:  # 最大30件（タイムアウト回避）
+        for ipo in priority[:30]:
             try:
+                name = ipo["company_name"]
                 resp = await client.post(GITHUB_MODELS_URL,
-                    json={"model": "gpt-4o-mini", "messages": [{"role": "user", "content": f'Brief 2-sentence description for IPO company: {ipo["company_name"]}. JSON only: {{"description":"...","products_services":"...","industry":"..."}}'}], "temperature": 0.1, "max_tokens": 200},
+                    json={"model": "gpt-4o-mini", "messages": [{"role": "user", "content": f'Brief 2-sentence description for IPO company: {name}. Respond with JSON only, no markdown: {{"description":"...","products_services":"...","industry":"..."}}'}], "temperature": 0.1, "max_tokens": 200},
                     headers={"Authorization": f"Bearer {GH_TOKEN}", "Content-Type": "application/json"})
                 if resp.status_code == 200:
                     c = resp.json()["choices"][0]["message"]["content"]
-                    if "```" in c: c = c.split("```json")[-1].split("```")[0] if "```json" in c else c.split("```")[1].split("```")[0]
-                    d = json.loads(c.strip())
+                    # マークダウンブロック除去
+                    if "```" in c:
+                        c = c.split("```json")[-1].split("```")[0] if "```json" in c else c.split("```")[1].split("```")[0]
+                    c = c.strip()
+                    # JSON抽出（{...}部分のみ）
+                    brace_start = c.find("{")
+                    brace_end = c.rfind("}") + 1
+                    if brace_start >= 0 and brace_end > brace_start:
+                        c = c[brace_start:brace_end]
+                    d = json.loads(c)
                     ipo.update({k: v for k, v in d.items() if v})
                     enriched += 1
+                elif resp.status_code == 429:
+                    print(f"  [LLM] Rate limited, pausing...")
+                    await asyncio.sleep(10)
+                else:
+                    print(f"  [LLM] {name[:20]}: HTTP {resp.status_code}")
                 await asyncio.sleep(1)
-            except: pass
+            except Exception as e:
+                print(f"  [LLM] {ipo.get('company_name','?')[:20]}: {e}")
     print(f"  Enriched: {enriched}")
     return ipos
 
