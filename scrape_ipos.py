@@ -195,8 +195,9 @@ async def fetch_nasdaq_data() -> dict:
 
                 data = resp.json().get("data", {})
 
-                # Upcoming (upcomingTable.rows)
-                for row in data.get("upcoming", {}).get("upcomingTable", {}).get("rows", []):
+                # Upcoming (upcomingTable.rows) - rows can be None in past months
+                upcoming_rows = data.get("upcoming", {}).get("upcomingTable", {}).get("rows") or []
+                for row in upcoming_rows:
                     result["upcoming"].append({
                         "ticker": row.get("proposedTickerSymbol"),
                         "company_name": row.get("companyName"),
@@ -206,8 +207,8 @@ async def fetch_nasdaq_data() -> dict:
                         "shares_offered": parse_shares(row.get("sharesOffered")),
                     })
 
-                # Priced (direct rows)
-                for row in data.get("priced", {}).get("rows", []):
+                # Priced (direct rows) - rows can be None
+                for row in (data.get("priced", {}).get("rows") or []):
                     result["priced"].append({
                         "ticker": row.get("proposedTickerSymbol"),
                         "company_name": row.get("companyName"),
@@ -218,7 +219,7 @@ async def fetch_nasdaq_data() -> dict:
                     })
 
                 # Filed
-                for row in data.get("filed", {}).get("rows", []):
+                for row in (data.get("filed", {}).get("rows") or []):
                     result["filed"].append({
                         "ticker": row.get("proposedTickerSymbol"),
                         "company_name": row.get("companyName"),
@@ -226,7 +227,7 @@ async def fetch_nasdaq_data() -> dict:
                     })
 
                 # Withdrawn
-                for row in data.get("withdrawn", {}).get("rows", []):
+                for row in (data.get("withdrawn", {}).get("rows") or []):
                     result["withdrawn"].append({
                         "ticker": row.get("proposedTickerSymbol"),
                         "company_name": row.get("companyName"),
@@ -234,8 +235,8 @@ async def fetch_nasdaq_data() -> dict:
                         "withdraw_date": parse_date(row.get("withdrawDate")),
                     })
 
-                up_count = len(data.get("upcoming", {}).get("upcomingTable", {}).get("rows", []))
-                pr_count = len(data.get("priced", {}).get("rows", []))
+                up_count = len(data.get("upcoming", {}).get("upcomingTable", {}).get("rows") or [])
+                pr_count = len(data.get("priced", {}).get("rows") or [])
                 print(f"  [{month}] upcoming={up_count}, priced={pr_count}")
             except Exception as e:
                 print(f"  [{month}] Error: {e}")
