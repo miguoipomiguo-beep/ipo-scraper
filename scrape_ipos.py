@@ -285,8 +285,16 @@ def merge_all(sec_companies: list, nasdaq_data: dict) -> list:
     # Step 3: SEC企業にNASDAQマッチング
     matched_keys = set()
     for cik, company in companies.items():
-        name_key = normalize_name(company["company_name"])
-        match = find_nasdaq_match(name_key, nasdaq_lookup)
+        match = None
+        # まずtickerで直接マッチ
+        if company.get("ticker"):
+            ticker_upper = company["ticker"].upper()
+            if ticker_upper in nasdaq_lookup:
+                match = nasdaq_lookup[ticker_upper]
+        # tickerで見つからなければ企業名で部分一致
+        if not match:
+            name_key = normalize_name(company["company_name"])
+            match = find_nasdaq_match(name_key, nasdaq_lookup)
         if match:
             apply_nasdaq_data(company, match)
             matched_keys.add(id(match))
@@ -519,13 +527,110 @@ def parse_shares(s: str) -> int:
 # メイン
 # ============================================================
 
+async def supplement_nasdaq_ciks(sec_companies: list, nasdaq_data: dict) -> list:
+    """NASDAQ Upcoming銘柄でSECに見つからないものをCIK補完取得"""
+    print("\n=== Supplement NASDAQ CIKs ===")
+    existing_tickers = {c.get("ticker") for c in sec_companies if c.get("ticker")}
+    existing_ciks = {c.get("cik") for c in sec_companies}
+
+    supplemented = 0
+    async with httpx.AsyncClient(timeout=30, headers=SEC_HEADERS) as client:
+        for item in nasdaq_data.get("upcoming", []) + nasdaq_data.get("priced", []):
+            ticker = item.get("ticker")
+            company_name = item.get("company_name", "")
+            if not ticker or ticker in existing_tickers:
+                continue
+
+            try:
+                # 企業名でSEC検索してCIKを取得
+                if WORKER_URL:
+                    resp = await client.get(f"{WORKER_URL}/api/admin/sec-proxy",
+                        params={"forms": "F-1,S-1", "startdt": "2024-01-01", "enddt": datetime.now().strftime("%Y-%m-%d")})
+                else:
+                    # 企業名の最初の2単語で検索
+                    search_term = " ".join(company_name.split()[:3])
+                    resp = await client.get("https://efts.sec.gov/LATEST/search-index",
+                        params={"q": f'"{search_term}"', "forms": "F-1,S-1"})
+
+                if resp.status_code != 200:
+                    continue
+
+                hits = resp.json().get("hits", {}).get("hits", [])
+                # tickerまたは企業名で一致するCIKを探す
+                for hit in hits:
+                    src = hit.get("_source", {})
+                    names = src.get("display_names", [])
+                    ciks = src.get("ciks", [])
+                    name_str = " ".join(names).lower()
+                    if (ticker.lower() in name_str or normalize_name(company_name) in normalize_name(name_str)) and ciks:
+                        cik = ciks[0]
+                        if cik not in existing_ciks:
+                            # Submissions APIでタイムライン取得
+                            if WORKER_URL:
+                                sub_resp = await client.get(f"{WORKER_URL}/api/admin/sec-submissions?cik={cik}")
+                            else:
+                                cik_padded = cik.lstrip("0").zfill(10)
+                                sub_resp = await client.get(f"https://data.sec.gov/submissions/CIK{cik_padded}.json")
+
+                            if sub_resp.status_code == 200:
+                                data = sub_resp.json()
+                                recent = data.get("filings", {}).get("recent", {})
+                                forms = recent.get("form", [])
+                                dates = recent.get("filingDate", [])
+                                accessions = recent.get("accessionNumber", [])
+                                descs = recent.get("primaryDocDescription", [])
+
+                                ipo_forms = {"S-1", "F-1", "S-1/A", "F-1/A", "RW", "424B4", "EFFECT"}
+                                event_type_map = {"S-1": "filing", "F-1": "filing", "S-1/A": "amendment", "F-1/A": "amendment", "424B4": "pricing", "RW": "withdrawal", "EFFECT": "effective"}
+
+                                events = []
+                                latest_form = None
+                                latest_date = None
+                                first_filing_date = None
+
+                                for i in range(len(forms)):
+                                    if forms[i] in ipo_forms:
+                                        ed = dates[i] if i < len(dates) else None
+                                        events.append({"event_type": event_type_map.get(forms[i], "filing"), "filing_type": forms[i], "event_date": ed, "sec_accession": accessions[i] if i < len(accessions) else None, "details": descs[i] if i < len(descs) else None})
+                                        if ed and (not latest_date or ed > latest_date):
+                                            latest_date = ed
+                                            latest_form = forms[i]
+                                        if forms[i] in ("S-1", "F-1") and not first_filing_date:
+                                            first_filing_date = ed
+
+                                if events:
+                                    sec_companies.append({
+                                        "cik": cik,
+                                        "company_name": data.get("name", company_name),
+                                        "ticker": ticker,
+                                        "filing_type": latest_form,
+                                        "filing_date": first_filing_date,
+                                        "events": events,
+                                    })
+                                    existing_ciks.add(cik)
+                                    existing_tickers.add(ticker)
+                                    supplemented += 1
+                                    print(f"  + {ticker} (CIK: {cik}) - {len(events)} events")
+                        break
+                await asyncio.sleep(0.3)
+            except Exception as e:
+                pass
+
+    print(f"  Supplemented: {supplemented} companies")
+    return sec_companies
+
+
 async def main():
     print(f"{'='*60}")
-    print(f"US IPO Calendar v2 - {datetime.now().isoformat()}")
+    print(f"US IPO Calendar v3 - {datetime.now().isoformat()}")
     print(f"{'='*60}")
 
     sec = await fetch_sec_filings()
     nasdaq = await fetch_nasdaq_data()
+
+    # NASDAQ Upcoming銘柄のCIK補完
+    sec = await supplement_nasdaq_ciks(sec, nasdaq)
+
     merged = merge_all(sec, nasdaq)
     enriched = await enrich_with_llm(merged)
 
