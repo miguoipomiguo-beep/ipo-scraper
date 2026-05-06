@@ -543,14 +543,16 @@ async def supplement_nasdaq_ciks(sec_companies: list, nasdaq_data: dict) -> list
 
             try:
                 # 企業名でSEC検索してCIKを取得
+                search_term = " ".join(company_name.split()[:3])
                 if WORKER_URL:
                     resp = await client.get(f"{WORKER_URL}/api/admin/sec-proxy",
-                        params={"forms": "F-1,S-1", "startdt": "2024-01-01", "enddt": datetime.now().strftime("%Y-%m-%d")})
+                        params={"q": f'"{search_term}"', "forms": "F-1,S-1",
+                                "startdt": "2024-01-01", "enddt": datetime.now().strftime("%Y-%m-%d")})
                 else:
-                    # 企業名の最初の2単語で検索
-                    search_term = " ".join(company_name.split()[:3])
                     resp = await client.get("https://efts.sec.gov/LATEST/search-index",
-                        params={"q": f'"{search_term}"', "forms": "F-1,S-1"})
+                        params={"q": f'"{search_term}"', "forms": "F-1,S-1",
+                                "dateRange": "custom", "startdt": "2024-01-01",
+                                "enddt": datetime.now().strftime("%Y-%m-%d")})
 
                 if resp.status_code != 200:
                     continue
