@@ -42,22 +42,29 @@ async def fetch_sec_filings() -> list:
     print("=== SEC EDGAR ===")
     filings = []
 
-    async with httpx.AsyncClient(timeout=30, headers=SEC_HEADERS) as client:
+    async with httpx.AsyncClient(timeout=60, headers=SEC_HEADERS) as client:
         for form_type in ["S-1", "F-1", "S-1/A", "F-1/A", "424B4", "RW"]:
             try:
                 start_date = (datetime.now() - timedelta(days=120)).strftime("%Y-%m-%d")
                 end_date = datetime.now().strftime("%Y-%m-%d")
 
-                resp = await client.get(
-                    "https://efts.sec.gov/LATEST/search-index",
-                    params={
-                        "q": '"initial public offering"',
-                        "forms": form_type,
-                        "dateRange": "custom",
-                        "startdt": start_date,
-                        "enddt": end_date,
-                    }
-                )
+                # Cloudflare Worker経由でSEC APIを呼ぶ（GitHub ActionsのIPブロック回避）
+                proxy_url = WORKER_URL + "/api/admin/sec-proxy" if WORKER_URL else None
+                if proxy_url:
+                    resp = await client.get(proxy_url, params={
+                        "forms": form_type, "startdt": start_date, "enddt": end_date,
+                    })
+                else:
+                    resp = await client.get(
+                        "https://efts.sec.gov/LATEST/search-index",
+                        params={
+                            "q": '"initial public offering"',
+                            "forms": form_type,
+                            "dateRange": "custom",
+                            "startdt": start_date,
+                            "enddt": end_date,
+                        }
+                    )
 
                 if resp.status_code != 200:
                     print(f"  [{form_type}] HTTP {resp.status_code}")
