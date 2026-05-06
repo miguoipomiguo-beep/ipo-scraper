@@ -420,17 +420,27 @@ async def update_worker(ipos: list):
     for ipo in ipos:
         payload.append({k: v for k, v in ipo.items() if k not in ("nasdaq_status", "_latest_date")})
 
-    print(f"\n=== Updating Worker ({len(payload)} IPOs) ===")
-    async with httpx.AsyncClient(timeout=60) as client:
-        try:
-            resp = await client.post(
-                f"{WORKER_URL}/api/admin/update",
-                json={"ipos": payload},
-                headers={"Authorization": f"Bearer {ADMIN_TOKEN}"}
-            )
-            print(f"  Worker: {resp.status_code}")
-        except Exception as e:
-            print(f"  Worker error: {e}")
+    # バッチ分割（20件ずつ、Worker CPU制限対策）
+    batch_size = 15
+    batches = [payload[i:i+batch_size] for i in range(0, len(payload), batch_size)]
+    print(f"\n=== Updating Worker ({len(payload)} IPOs in {len(batches)} batches) ===")
+
+    async with httpx.AsyncClient(timeout=90) as client:
+        for idx, batch in enumerate(batches):
+            try:
+                # 最初のバッチのみDELETE（clean=true）
+                body = {"ipos": batch}
+                if idx == 0:
+                    body["clean"] = True
+                resp = await client.post(
+                    f"{WORKER_URL}/api/admin/update",
+                    json=body,
+                    headers={"Authorization": f"Bearer {ADMIN_TOKEN}"}
+                )
+                print(f"  Batch {idx+1}/{len(batches)}: {resp.status_code}")
+                await asyncio.sleep(1)
+            except Exception as e:
+                print(f"  Batch {idx+1} error: {e}")
 
 
 # ============================================================
