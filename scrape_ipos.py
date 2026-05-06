@@ -68,7 +68,8 @@ async def fetch_sec_filings() -> list:
 
                 for hit in hits[:30]:
                     source = hit.get("_source", {})
-                    cik = str(source.get("entity_id", ""))
+                    ciks = source.get("ciks", [])
+                    cik = ciks[0] if ciks else ""
                     names = source.get("display_names", [])
                     name = names[0] if names else source.get("entity_name", "")
 
