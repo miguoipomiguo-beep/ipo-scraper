@@ -344,6 +344,8 @@ def merge_data(sec_filings: list, nasdaq_ipos: list, nyse_ipos: list) -> list:
                 existing["expected_date"] = existing.get("expected_date") or ipo.get("expected_date")
                 existing["price_range_low"] = existing.get("price_range_low") or ipo.get("price_range_low")
                 existing["price_range_high"] = existing.get("price_range_high") or ipo.get("price_range_high")
+                existing["offer_price"] = existing.get("offer_price") or ipo.get("offer_price")
+                existing["shares_offered"] = existing.get("shares_offered") or ipo.get("shares_offered")
                 matched = True
                 break
 
