@@ -324,7 +324,8 @@ def merge_data(sec_filings: list, nasdaq_ipos: list, nyse_ipos: list) -> list:
                 merged[key] = f
             else:
                 # より新しいステータスで更新
-                status_priority = {"withdrawn": 5, "priced": 4, "listed": 3, "amended": 2, "filed": 1}
+                # NASDAQのUpcomingにある = 撤回が取り消されている可能性
+                status_priority = {"listed": 5, "priced": 4, "amended": 2, "filed": 1, "withdrawn": 3}
                 if status_priority.get(f["status"], 0) > status_priority.get(merged[key]["status"], 0):
                     merged[key].update({k: v for k, v in f.items() if v is not None})
 
