@@ -1,1164 +1,438 @@
 [
   {
-    "company_name": "ARC Group Acquisition I Corp.  (CIK 0002073515)",
-    "cik": "",
-    "filing_type": "S-1/A",
-    "filing_date": "2026-02-18",
-    "sec_accession": [
-      "333-288410"
-    ],
-    "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=None&type=S-1/A&dateb=&owner=include&count=10",
-    "status": "amended",
-    "event_type": "amendment",
-    "description": "ARC Group Acquisition I Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with a target business in the technology sector. The company aims to leverage its management team's expertise to create value through strategic partnerships and growth initiatives.",
-    "products_services": "The main service offered is the facilitation of mergers and acquisitions, specifically targeting technology companies.",
-    "industry": "Financial Services"
-  },
-  {
-    "company_name": "AI STRATEGY INC.  (CIK 0002109082)",
-    "cik": "",
-    "filing_type": "S-1",
-    "filing_date": "2026-04-15",
-    "sec_accession": [
-      "333-295062"
-    ],
-    "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=None&type=S-1&dateb=&owner=include&count=10",
-    "status": "filed",
-    "event_type": "filing",
-    "description": "AI Strategy Inc. is a technology company specializing in artificial intelligence solutions that enhance business operations and decision-making processes. The company leverages advanced machine learning algorithms to provide data analytics, automation tools, and AI-driven consulting services.",
-    "products_services": "AI-driven analytics platforms, automation software, and consulting services for businesses.",
-    "industry": "Technology"
-  },
-  {
-    "company_name": "Vernal Capital Acquisition Corp.  (CIK 0002081690)",
-    "cik": "",
-    "filing_type": "S-1/A",
-    "filing_date": "2026-03-11",
-    "sec_accession": [
-      "333-290609"
-    ],
-    "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=None&type=S-1/A&dateb=&owner=include&count=10",
-    "status": "amended",
-    "event_type": "amendment",
-    "ticker": "VECAU",
-    "exchange": "NYSE",
-    "expected_date": "2026-05-06",
-    "price_range_low": null,
-    "price_range_high": null,
-    "offer_price": 10.0,
-    "shares_offered": 10000000,
-    "description": "Vernal Capital Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the technology and healthcare sectors. The company aims to leverage its management team's expertise to create value through strategic partnerships and growth initiatives.",
-    "products_services": "Special purpose acquisition company (SPAC) services, merger and acquisition facilitation.",
-    "industry": "Financial Services"
-  },
-  {
-    "company_name": "Oceanhawk Acquisition Corp.  (CIK 0002090787)",
-    "cik": "",
-    "filing_type": "S-1",
-    "filing_date": "2026-03-23",
-    "sec_accession": [
-      "333-294512"
-    ],
-    "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=None&type=S-1&dateb=&owner=include&count=10",
-    "status": "filed",
-    "event_type": "filing",
-    "description": "Oceanhawk Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the technology and consumer sectors. The company aims to leverage its management team's expertise to create value through strategic partnerships and growth initiatives.",
-    "products_services": "Special purpose acquisition company (SPAC) services, merger and acquisition facilitation.",
-    "industry": "Financial Services"
-  },
-  {
-    "company_name": "TRG Latin America Acquisitions Corp.  (CIK 0002098780)",
-    "cik": "",
-    "filing_type": "S-1",
-    "filing_date": "2026-02-10",
-    "sec_accession": [
-      "333-293354"
-    ],
-    "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=None&type=S-1&dateb=&owner=include&count=10",
-    "status": "filed",
-    "event_type": "filing",
-    "description": "TRG Latin America Acquisitions Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with a Latin American business that has strong growth potential. The company aims to leverage its management team's expertise and network to create value for shareholders through strategic acquisitions.",
-    "products_services": "The company primarily offers capital for mergers and acquisitions in the Latin American market.",
-    "industry": "Financial Services"
-  },
-  {
-    "company_name": "Keystone Acquisition Corp.  (CIK 0002102771)",
-    "cik": "",
-    "filing_type": "S-1",
-    "filing_date": "2026-05-04",
-    "sec_accession": [
-      "333-295539"
-    ],
-    "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=None&type=S-1&dateb=&owner=include&count=10",
-    "status": "filed",
-    "event_type": "filing",
-    "ticker": "KEYYU",
-    "exchange": "NASDAQ",
-    "expected_date": "2026-05-04",
-    "price_range_low": null,
-    "price_range_high": null,
-    "offer_price": null,
-    "shares_offered": null,
-    "description": "Keystone Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with a target company in the technology sector. The company aims to leverage its management team's expertise to create value through strategic acquisitions.",
-    "products_services": "Special purpose acquisition services, merger and acquisition facilitation",
-    "industry": "Financial Services"
-  },
-  {
-    "company_name": "Metals Acquisition Corp. II  (MTAL)  (CIK 0002107724)",
-    "cik": "",
-    "filing_type": "S-1/A",
-    "filing_date": "2026-02-27",
-    "sec_accession": [
-      "333-293143"
-    ],
-    "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=None&type=S-1/A&dateb=&owner=include&count=10",
-    "status": "amended",
-    "event_type": "amendment",
-    "description": "Metals Acquisition Corp. II is a special purpose acquisition company (SPAC) focused on identifying and acquiring businesses in the metals and mining sector. The company aims to leverage its management team's expertise to create value through strategic acquisitions.",
-    "products_services": "Acquisition of companies in the metals and mining industry.",
-    "industry": "Financial Services"
-  },
-  {
-    "company_name": "Voyager Acquisition Corp. II  (CIK 0002052096)",
-    "cik": "",
-    "filing_type": "S-1",
-    "filing_date": "2026-03-13",
-    "sec_accession": [
-      "333-294270"
-    ],
-    "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=None&type=S-1&dateb=&owner=include&count=10",
-    "status": "filed",
-    "event_type": "filing",
-    "description": "Voyager Acquisition Corp. II is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the technology and consumer sectors. The company aims to leverage its management team's expertise to create value through strategic partnerships and growth initiatives.",
-    "products_services": "Special purpose acquisition company (SPAC) services, merger and acquisition facilitation.",
-    "industry": "Financial Services"
-  },
-  {
-    "company_name": "ARC Group Acquisition I Corp.  (ARCL)  (CIK 0002073515)",
-    "cik": "",
-    "filing_type": "424B4",
-    "filing_date": "2026-04-30",
-    "sec_accession": [
-      "333-288410"
-    ],
-    "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=None&type=424B4&dateb=&owner=include&count=10",
-    "status": "priced",
-    "event_type": "pricing",
-    "description": "ARC Group Acquisition I Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the technology and consumer sectors. The company aims to leverage its management team's expertise to drive growth and create value for shareholders.",
-    "products_services": "Special purpose acquisition company (SPAC) services, merger and acquisition facilitation",
-    "industry": "Financial Services"
-  },
-  {
-    "company_name": "Long Table Growth Corp.  (LTGR)  (CIK 0002104177)",
-    "cik": "",
-    "filing_type": "S-1/A",
-    "filing_date": "2026-03-02",
-    "sec_accession": [
-      "333-292835"
-    ],
-    "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=None&type=S-1/A&dateb=&owner=include&count=10",
-    "status": "amended",
-    "event_type": "amendment",
-    "description": "Long Table Growth Corp. is a growth-oriented investment company focused on acquiring and managing a diversified portfolio of businesses in the food and beverage sector. The company aims to leverage its expertise to drive operational efficiencies and enhance value for its stakeholders.",
-    "products_services": "Investment management, portfolio acquisition, and operational support for food and beverage businesses.",
-    "industry": "Investment Management"
-  },
-  {
-    "company_name": "Patriot Acquisition Corp./CI  (CIK 0002099095)",
-    "cik": "",
-    "filing_type": "S-1",
-    "filing_date": "2026-03-06",
-    "sec_accession": [
-      "333-294090"
-    ],
-    "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=None&type=S-1&dateb=&owner=include&count=10",
-    "status": "filed",
-    "event_type": "filing",
-    "description": "Patriot Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with a target business in the technology sector. The company aims to leverage its management team's expertise to create value through strategic acquisitions.",
-    "products_services": "Merger and acquisition services, investment in technology companies",
-    "industry": "Financial Services"
-  },
-  {
-    "company_name": "Innovative Digital Investors Acquisition Corp.  (FGXC)  (CIK 0001997389)",
-    "cik": "",
-    "filing_type": "S-1/A",
-    "filing_date": "2026-04-01",
-    "sec_accession": [
-      "333-287670"
-    ],
-    "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=None&type=S-1/A&dateb=&owner=include&count=10",
-    "status": "amended",
-    "event_type": "amendment",
-    "description": "Innovative Digital Investors Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative digital technology firms. The company aims to leverage its expertise to drive growth and value creation in the digital investment space.",
-    "products_services": "The main service offered is the acquisition and merger of digital technology companies, facilitating their growth and expansion in the market.",
-    "industry": "Financial Services"
-  },
-  {
-    "company_name": "Iron Dome Acquisition I Corp.  (IDAC)  (CIK 0002090441)",
-    "cik": "",
-    "filing_type": "S-1/A",
-    "filing_date": "2026-02-20",
-    "sec_accession": [
-      "333-293108"
-    ],
-    "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=None&type=S-1/A&dateb=&owner=include&count=10",
-    "status": "amended",
-    "event_type": "amendment",
-    "description": "Iron Dome Acquisition I Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the technology and defense sectors. The company aims to leverage its expertise and network to create value through strategic partnerships and growth initiatives.",
-    "products_services": "SPAC mergers and acquisitions, investment in technology and defense companies",
-    "industry": "Financial Services"
-  },
-  {
-    "company_name": "Breeze Acquisition Corp. II  (BREZ)  (CIK 0002095443)",
-    "cik": "",
-    "filing_type": "S-1/A",
-    "filing_date": "2026-03-03",
-    "sec_accession": [
-      "333-291575"
-    ],
-    "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=None&type=S-1/A&dateb=&owner=include&count=10",
-    "status": "amended",
-    "event_type": "amendment",
-    "description": "Breeze Acquisition Corp. II is a special purpose acquisition company (SPAC) focused on identifying and merging with a promising business in the technology or consumer sectors. The company aims to leverage its management team's expertise to create value for shareholders through strategic acquisitions.",
-    "products_services": "The main service offered is the facilitation of mergers and acquisitions, specifically targeting high-growth companies in technology and consumer industries.",
-    "industry": "Financial Services"
-  },
-  {
-    "company_name": "Dune Acquisition Corp III  (CIK 0002095476)",
-    "cik": "",
-    "filing_type": "S-1",
-    "filing_date": "2026-02-24",
-    "sec_accession": [
-      "333-293667"
-    ],
-    "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=None&type=S-1&dateb=&owner=include&count=10",
-    "status": "filed",
-    "event_type": "filing",
-    "description": "Dune Acquisition Corp III is a special purpose acquisition company (SPAC) focused on identifying and merging with a target company in the technology sector. The company aims to leverage its management team's expertise to create value through strategic acquisitions.",
-    "products_services": "SPAC mergers and acquisitions",
-    "industry": "Financial Services"
-  },
-  {
-    "company_name": "Collective Acquisition Corp. II  (CIK 0002115404)",
-    "cik": "",
-    "filing_type": "S-1",
-    "filing_date": "2026-03-27",
-    "sec_accession": [
-      "333-294701"
-    ],
-    "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=None&type=S-1&dateb=&owner=include&count=10",
-    "status": "filed",
-    "event_type": "filing"
-  },
-  {
-    "company_name": "Forefront Tech Holdings Acquisition Corp  (CIK 0002097986)",
-    "cik": "",
-    "filing_type": "S-1",
-    "filing_date": "2026-02-19",
-    "sec_accession": [
-      "333-293592"
-    ],
-    "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=None&type=S-1&dateb=&owner=include&count=10",
-    "status": "filed",
-    "event_type": "filing"
-  },
-  {
-    "company_name": "CGL Logistics Holdings Ltd  (CGL)  (CIK 0001934387)",
-    "cik": "",
-    "filing_type": "F-1/A",
-    "filing_date": "2026-03-19",
-    "sec_accession": [
-      "333-291040"
-    ],
-    "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=None&type=F-1/A&dateb=&owner=include&count=10",
-    "status": "amended",
-    "event_type": "amendment"
-  },
-  {
-    "company_name": "I Bella Perfect Inc.  (IBL)  (CIK 0002075038)",
-    "cik": "",
-    "filing_type": "F-1/A",
-    "filing_date": "2026-03-10",
-    "sec_accession": [
-      "333-292474"
-    ],
-    "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=None&type=F-1/A&dateb=&owner=include&count=10",
-    "status": "amended",
-    "event_type": "amendment"
-  },
-  {
-    "company_name": "ANGIE HOLDINGS Ltd  (CIK 0002064555)",
-    "cik": "",
-    "filing_type": "F-1/A",
-    "filing_date": "2026-02-13",
-    "sec_accession": [
-      "333-290239"
-    ],
-    "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=None&type=F-1/A&dateb=&owner=include&count=10",
-    "status": "amended",
-    "event_type": "amendment"
-  },
-  {
-    "company_name": "Solar Strategy Holdings Ltd  (SSTR)  (CIK 0002067602)",
-    "cik": "",
-    "filing_type": "F-1",
-    "filing_date": "2026-02-13",
-    "sec_accession": [
-      "333-293450"
-    ],
-    "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=None&type=F-1&dateb=&owner=include&count=10",
-    "status": "filed",
-    "event_type": "filing"
-  },
-  {
-    "company_name": "Student Living EduVation (Holdings) Corp  (CIK 0002083843)",
-    "cik": "",
-    "filing_type": "F-1/A",
-    "filing_date": "2026-05-01",
-    "sec_accession": [
-      "333-292442"
-    ],
-    "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=None&type=F-1/A&dateb=&owner=include&count=10",
-    "status": "amended",
-    "event_type": "amendment"
-  },
-  {
-    "company_name": "Wealth Management System Inc.  (GIVE)  (CIK 0002074158)",
-    "cik": "",
-    "filing_type": "F-1/A",
-    "filing_date": "2026-05-01",
-    "sec_accession": [
-      "333-290679"
-    ],
-    "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=None&type=F-1/A&dateb=&owner=include&count=10",
-    "status": "amended",
-    "event_type": "amendment"
-  },
-  {
-    "company_name": "FG Holdings Ltd  (FGO)  (CIK 0002004385)",
-    "cik": "",
-    "filing_type": "F-1/A",
-    "filing_date": "2026-03-17",
-    "sec_accession": [
-      "333-283297"
-    ],
-    "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=None&type=F-1/A&dateb=&owner=include&count=10",
-    "status": "amended",
-    "event_type": "amendment"
-  },
-  {
-    "company_name": "Law's Business Group Holding Ltd  (CIK 0002075589)",
-    "cik": "",
-    "filing_type": "F-1/A",
-    "filing_date": "2026-03-25",
-    "sec_accession": [
-      "333-290728"
-    ],
-    "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=None&type=F-1/A&dateb=&owner=include&count=10",
-    "status": "amended",
-    "event_type": "amendment"
-  },
-  {
-    "company_name": "Turbogen Ltd.  (CIK 0002088375)",
-    "cik": "",
-    "filing_type": "F-1",
-    "filing_date": "2026-03-12",
-    "sec_accession": [
-      "333-294225"
-    ],
-    "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=None&type=F-1&dateb=&owner=include&count=10",
-    "status": "filed",
-    "event_type": "filing"
-  },
-  {
-    "company_name": "APEX Global Solutions Ltd  (APEX)  (CIK 0002069858)",
-    "cik": "",
-    "filing_type": "F-1",
-    "filing_date": "2026-02-27",
-    "sec_accession": [
-      "333-293833"
-    ],
-    "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=None&type=F-1&dateb=&owner=include&count=10",
-    "status": "filed",
-    "event_type": "filing"
-  },
-  {
-    "company_name": "C&K Group Ltd  (CIK 0002054947)",
-    "cik": "",
-    "filing_type": "RW",
-    "filing_date": "2026-02-13",
-    "sec_accession": [
-      "333-287713"
-    ],
-    "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=None&type=RW&dateb=&owner=include&count=10",
-    "status": "withdrawn",
-    "event_type": "withdrawal"
-  },
-  {
-    "company_name": "Gravity AI  (CIK 0002084806)",
-    "cik": "",
-    "filing_type": "F-1",
-    "filing_date": "2026-02-06",
-    "sec_accession": [
-      "333-293260"
-    ],
-    "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=None&type=F-1&dateb=&owner=include&count=10",
-    "status": "filed",
-    "event_type": "filing"
-  },
-  {
-    "company_name": "VISTEK LTD  (VTEK)  (CIK 0002013100)",
-    "cik": "",
-    "filing_type": "F-1/A",
-    "filing_date": "2026-03-30",
-    "sec_accession": [
-      "333-294194"
-    ],
-    "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=None&type=F-1/A&dateb=&owner=include&count=10",
-    "status": "amended",
-    "event_type": "amendment"
-  },
-  {
-    "company_name": "EvoNexus Group LTD  (EVON)  (CIK 0002075036)",
-    "cik": "",
-    "filing_type": "F-1/A",
-    "filing_date": "2026-03-19",
-    "sec_accession": [
-      "333-292763"
-    ],
-    "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=None&type=F-1/A&dateb=&owner=include&count=10",
-    "status": "amended",
-    "event_type": "amendment"
-  },
-  {
-    "company_name": "Neutrans Inc.  (NEUT)  (CIK 0002065741)",
-    "cik": "",
-    "filing_type": "F-1/A",
-    "filing_date": "2026-04-22",
-    "sec_accession": [
-      "333-290747"
-    ],
-    "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=None&type=F-1/A&dateb=&owner=include&count=10",
-    "status": "amended",
-    "event_type": "amendment"
-  },
-  {
-    "company_name": "Micware Co., Ltd.  (CIK 0002083526)",
-    "cik": "",
-    "filing_type": "F-1",
-    "filing_date": "2026-03-06",
-    "sec_accession": [
-      "333-294081"
-    ],
-    "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=None&type=F-1&dateb=&owner=include&count=10",
-    "status": "filed",
-    "event_type": "filing"
-  },
-  {
-    "company_name": "Unitrend Entertainment Group Ltd  (INHI)  (CIK 0001997950)",
-    "cik": "",
-    "filing_type": "F-1/A",
-    "filing_date": "2026-03-24",
-    "sec_accession": [
-      "333-292883"
-    ],
-    "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=None&type=F-1/A&dateb=&owner=include&count=10",
-    "status": "amended",
-    "event_type": "amendment"
-  },
-  {
-    "company_name": "Yesil Global Enerji A.S.  (CIK 0002087162)",
-    "cik": "",
-    "filing_type": "F-1",
-    "filing_date": "2026-03-10",
-    "sec_accession": [
-      "333-294160"
-    ],
-    "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=None&type=F-1&dateb=&owner=include&count=10",
-    "status": "filed",
-    "event_type": "filing"
-  },
-  {
-    "company_name": "Pono Capital Four, Inc.  (PONO)  (CIK 0002108164)",
-    "cik": "",
-    "filing_type": "S-1/A",
-    "filing_date": "2026-03-03",
-    "sec_accession": [
-      "333-293120"
-    ],
-    "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=None&type=S-1/A&dateb=&owner=include&count=10",
-    "status": "amended",
-    "event_type": "amendment"
-  },
-  {
-    "company_name": "Texas Ventures Acquisition IV Corp  (TVIV)  (CIK 0002096755)",
-    "cik": "",
-    "filing_type": "S-1/A",
-    "filing_date": "2026-03-10",
-    "sec_accession": [
-      "333-292010"
-    ],
-    "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=None&type=S-1/A&dateb=&owner=include&count=10",
-    "status": "amended",
-    "event_type": "amendment",
-    "description": "Texas Ventures Acquisition IV Corp is a special purpose acquisition company (SPAC) focused on identifying and merging with a target business in the technology sector. The company aims to leverage its management team's expertise to create value through strategic acquisitions.",
-    "products_services": "The company does not offer traditional products or services but seeks to acquire and merge with technology-focused businesses.",
-    "industry": "Special Purpose Acquisition Company (SPAC) / Technology"
-  },
-  {
-    "company_name": "Quantum Leap Acquisition Corp  (QLEP)  (CIK 0002102155)",
-    "cik": "",
-    "filing_type": "S-1/A",
-    "filing_date": "2026-02-27",
-    "sec_accession": [
-      "333-293359"
-    ],
-    "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=None&type=S-1/A&dateb=&owner=include&count=10",
-    "status": "amended",
-    "event_type": "amendment",
-    "ticker": "QLEPU",
-    "exchange": "NYSE",
-    "expected_date": "2026-05-01",
-    "price_range_low": null,
-    "price_range_high": null,
-    "offer_price": 10.0,
-    "shares_offered": 20000000,
-    "description": "Quantum Leap Acquisition Corp is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative technology companies. The firm aims to leverage its expertise to accelerate growth and create value in the technology sector.",
-    "products_services": "SPAC mergers and acquisitions, investment in technology companies",
-    "industry": "Financial Services"
-  },
-  {
-    "company_name": "Mercator Acquisition Corp.  (CIK 0002106436)",
-    "cik": "",
-    "filing_type": "S-1/A",
-    "filing_date": "2026-03-23",
-    "sec_accession": [
-      "333-293902"
-    ],
-    "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=None&type=S-1/A&dateb=&owner=include&count=10",
-    "status": "amended",
-    "event_type": "amendment",
-    "description": "Mercator Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the technology and consumer sectors. The company aims to leverage its management team's expertise to drive growth and create value for shareholders.",
-    "products_services": "Special purpose acquisition services, merger facilitation, investment in technology and consumer sectors.",
-    "industry": "Financial Services"
-  },
-  {
-    "company_name": "Sky Acquisition Group  (SKAI)  (CIK 0002103029)",
-    "cik": "",
-    "filing_type": "S-1/A",
-    "filing_date": "2026-03-04",
-    "sec_accession": [
-      "333-293008"
-    ],
-    "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=None&type=S-1/A&dateb=&owner=include&count=10",
-    "status": "amended",
-    "event_type": "amendment",
-    "description": "Sky Acquisition Group is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the technology and consumer sectors. The company aims to leverage its management team's expertise to create value through strategic partnerships and operational improvements.",
-    "products_services": "Special purpose acquisition services, merger facilitation, investment in technology and consumer sectors",
-    "industry": "Financial Services"
-  },
-  {
-    "company_name": "Brookline Capital Acquisition Corp II  (BCAC)  (CIK 0002102072)",
-    "cik": "",
-    "filing_type": "S-1/A",
-    "filing_date": "2026-02-23",
-    "sec_accession": [
-      "333-292285"
-    ],
-    "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=None&type=S-1/A&dateb=&owner=include&count=10",
-    "status": "amended",
-    "event_type": "amendment",
-    "description": "Brookline Capital Acquisition Corp II is a special purpose acquisition company (SPAC) focused on identifying and merging with a target company in the financial services sector. The company aims to leverage its management team's expertise to create value for shareholders through strategic acquisitions.",
-    "products_services": "Special purpose acquisition company (SPAC) services, merger and acquisition facilitation.",
-    "industry": "Financial Services"
-  },
-  {
-    "company_name": "Aperture AC  (APUR)  (CIK 0002093524)",
-    "cik": "",
-    "filing_type": "S-1/A",
-    "filing_date": "2026-04-23",
-    "sec_accession": [
-      "333-291583"
-    ],
-    "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=None&type=S-1/A&dateb=&owner=include&count=10",
-    "status": "amended",
-    "event_type": "amendment",
-    "description": "Aperture AC is a technology company focused on developing advanced artificial intelligence solutions for various industries. The company aims to enhance operational efficiency and decision-making through its innovative software products.",
-    "products_services": "AI software solutions, data analytics tools, and machine learning applications.",
-    "industry": "Technology"
-  },
-  {
-    "company_name": "Inflection Point Acquisition Corp. VI  (IPFX)  (CIK 0002102041)",
-    "cik": "",
-    "filing_type": "S-1/A",
-    "filing_date": "2026-02-26",
-    "sec_accession": [
-      "333-292443"
-    ],
-    "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=None&type=S-1/A&dateb=&owner=include&count=10",
-    "status": "amended",
-    "event_type": "amendment",
-    "description": "Inflection Point Acquisition Corp. VI is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in growth sectors. The company aims to leverage its management team's expertise to create value through strategic partnerships and operational improvements.",
-    "products_services": "SPAC mergers and acquisitions, investment in growth companies",
-    "industry": "Financial Services"
-  },
-  {
-    "company_name": "Antharas Inc  (AAS)  (CIK 0002010218)",
-    "cik": "",
-    "filing_type": "F-1/A",
-    "filing_date": "2026-03-27",
-    "sec_accession": [
-      "333-284297"
-    ],
-    "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=None&type=F-1/A&dateb=&owner=include&count=10",
-    "status": "amended",
-    "event_type": "amendment",
-    "description": "Antharas Inc is a technology company focused on developing innovative solutions in the field of artificial intelligence and machine learning. The company aims to enhance business operations through advanced data analytics and automation tools.",
-    "products_services": "AI-driven software solutions, machine learning platforms, data analytics tools, and automation services.",
-    "industry": "Technology"
-  },
-  {
-    "company_name": "Optimi Health Corp.  (OPTH, OPTHF)  (CIK 0002027329)",
-    "cik": "",
-    "filing_type": "F-1/A",
-    "filing_date": "2026-04-16",
-    "sec_accession": [
-      "333-290086"
-    ],
-    "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=None&type=F-1/A&dateb=&owner=include&count=10",
-    "status": "amended",
-    "event_type": "amendment",
-    "description": "Optimi Health Corp. is a health and wellness company focused on the development and distribution of psychedelic and natural health products. The company aims to enhance mental health and well-being through innovative therapies and solutions.",
-    "products_services": "Psychedelic therapies, natural health products, and wellness solutions.",
-    "industry": "Health and Wellness"
-  },
-  {
-    "company_name": "CyberScope Web3 Security Inc.  (CIK 0002081737)",
-    "cik": "",
-    "filing_type": "F-1/A",
-    "filing_date": "2026-02-20",
-    "sec_accession": [
-      "333-291995"
-    ],
-    "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=None&type=F-1/A&dateb=&owner=include&count=10",
-    "status": "amended",
-    "event_type": "amendment",
-    "description": "CyberScope Web3 Security Inc. is a cybersecurity firm specializing in securing decentralized applications and blockchain networks. The company aims to provide innovative security solutions tailored for the evolving Web3 landscape.",
-    "products_services": "Blockchain security audits, decentralized application security assessments, and smart contract vulnerability testing.",
-    "industry": "Cybersecurity"
-  },
-  {
-    "company_name": "Forgent Power Solutions, Inc.  (FPS)  (CIK 0002080126)",
-    "cik": "",
-    "filing_type": "424B4",
-    "filing_date": "2026-02-06",
-    "sec_accession": [
-      "333-292632"
-    ],
-    "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=None&type=424B4&dateb=&owner=include&count=10",
-    "status": "priced",
-    "event_type": "pricing",
-    "description": "Forgent Power Solutions, Inc. is a leading provider of innovative energy solutions focused on enhancing efficiency and sustainability in power generation and distribution. The company leverages advanced technology to deliver reliable and cost-effective power solutions to various sectors.",
-    "products_services": "Main products include energy management systems, renewable energy solutions, and power optimization services.",
-    "industry": "Energy and Power Solutions"
-  },
-  {
-    "company_name": "Cantor Equity Partners VI, Inc.  (CEPS)  (CIK 0002089536)",
-    "cik": "",
-    "filing_type": "424B4",
-    "filing_date": "2026-02-05",
-    "sec_accession": [
-      "333-292621"
-    ],
-    "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=None&type=424B4&dateb=&owner=include&count=10",
-    "status": "priced",
-    "event_type": "pricing",
-    "description": "Cantor Equity Partners VI, Inc. is a private equity firm focused on investing in growth-oriented companies across various sectors. The firm aims to leverage its expertise and network to drive value creation in its portfolio companies.",
-    "products_services": "Private equity investments and capital management services.",
-    "industry": "Financial Services"
-  },
-  {
-    "company_name": "Columbus Circle Capital Corp II  (CMII)  (CIK 0002088805)",
-    "cik": "",
-    "filing_type": "424B4",
-    "filing_date": "2026-02-11",
-    "sec_accession": [
-      "333-292861"
-    ],
-    "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=None&type=424B4&dateb=&owner=include&count=10",
-    "status": "priced",
-    "event_type": "pricing",
-    "description": "Columbus Circle Capital Corp II is a special purpose acquisition company (SPAC) focused on identifying and merging with a target business in the technology sector. The company aims to leverage its management team's expertise to create value for shareholders through strategic acquisitions.",
-    "products_services": "Special purpose acquisition company (SPAC) services, merger and acquisition facilitation",
-    "industry": "Financial Services"
-  },
-  {
-    "company_name": "Churchill Capital Corp XII  (CXII)  (CIK 0002114227)",
-    "cik": "",
-    "filing_type": "424B4",
-    "filing_date": "2026-04-28",
-    "sec_accession": [
-      "333-294851"
-    ],
-    "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=None&type=424B4&dateb=&owner=include&count=10",
-    "status": "priced",
-    "event_type": "pricing",
-    "description": "Churchill Capital Corp XII is a special purpose acquisition company (SPAC) focused on identifying and merging with a high-growth company in the technology sector. The company aims to leverage its management team's expertise to create value for shareholders through strategic partnerships and investments.",
-    "products_services": "Special purpose acquisition company (SPAC) services, merger and acquisition facilitation.",
-    "industry": "Financial Services"
-  },
-  {
-    "company_name": "Elmet Group Co.  (ELMT)  (CIK 0002101698)",
-    "cik": "",
-    "filing_type": "424B4",
-    "filing_date": "2026-04-23",
-    "sec_accession": [
-      "333-294725"
-    ],
-    "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=None&type=424B4&dateb=&owner=include&count=10",
-    "status": "priced",
-    "event_type": "pricing",
-    "description": "Elmet Group Co. is a leading manufacturer specializing in advanced materials and components for various industrial applications, focusing on precision and innovation. The company leverages cutting-edge technology to deliver high-quality products that meet the evolving needs of its customers.",
-    "products_services": "Advanced materials, precision components, and custom manufacturing solutions for industrial applications.",
-    "industry": "Manufacturing"
-  },
-  {
-    "company_name": "SOLV Energy, Inc.  (MWH)  (CIK 0002065636)",
-    "cik": "",
-    "filing_type": "424B4",
-    "filing_date": "2026-02-11",
-    "sec_accession": [
-      "333-292778"
-    ],
-    "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=None&type=424B4&dateb=&owner=include&count=10",
-    "status": "priced",
-    "event_type": "pricing"
-  },
-  {
-    "company_name": "AEVEX Corp.  (AVEX)  (CIK 0002096300)",
-    "cik": "",
-    "filing_type": "424B4",
-    "filing_date": "2026-04-20",
-    "sec_accession": [
-      "333-294524"
-    ],
-    "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=None&type=424B4&dateb=&owner=include&count=10",
-    "status": "priced",
-    "event_type": "pricing"
-  },
-  {
-    "company_name": "Plutonian Acquisition Corp. II  (PLUN)  (CIK 0002065661)",
-    "cik": "",
-    "filing_type": "424B4",
-    "filing_date": "2026-04-28",
-    "sec_accession": [
-      "333-293531"
-    ],
-    "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=None&type=424B4&dateb=&owner=include&count=10",
-    "status": "priced",
-    "event_type": "pricing"
-  },
-  {
-    "company_name": "Swarmer, Inc  (SWMR)  (CIK 0002092574)",
-    "cik": "",
-    "filing_type": "424B4",
-    "filing_date": "2026-03-17",
-    "sec_accession": [
-      "333-293123"
-    ],
-    "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=None&type=424B4&dateb=&owner=include&count=10",
-    "status": "priced",
-    "event_type": "pricing"
-  },
-  {
-    "company_name": "Arxis, Inc.  (ARXS)  (CIK 0002093536)",
-    "cik": "",
-    "filing_type": "424B4",
-    "filing_date": "2026-04-16",
-    "sec_accession": [
-      "333-294577"
-    ],
-    "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=None&type=424B4&dateb=&owner=include&count=10",
-    "status": "priced",
-    "event_type": "pricing"
-  },
-  {
-    "company_name": "Rank One Computing Corp  (ROC)  (CIK 0002077709)",
-    "cik": "",
-    "filing_type": "424B4",
-    "filing_date": "2026-02-20",
-    "sec_accession": [
-      "333-293601"
-    ],
-    "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=None&type=424B4&dateb=&owner=include&count=10",
-    "status": "priced",
-    "event_type": "pricing"
-  },
-  {
-    "company_name": "Madison Air Solutions Corp  (MAIR)  (CIK 0002098430)",
-    "cik": "",
-    "filing_type": "424B4",
-    "filing_date": "2026-04-17",
-    "sec_accession": [
-      "333-294156"
-    ],
-    "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=None&type=424B4&dateb=&owner=include&count=10",
-    "status": "priced",
-    "event_type": "pricing"
-  },
-  {
-    "company_name": "Twin Vee PowerCats, Co.  (VEEE)  (CIK 0001855509)",
-    "cik": "",
-    "filing_type": "424B4",
-    "filing_date": "2026-02-23",
-    "sec_accession": [
-      "333-292661"
-    ],
-    "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=None&type=424B4&dateb=&owner=include&count=10",
-    "status": "priced",
-    "event_type": "pricing"
-  },
-  {
-    "company_name": "X-Energy, Inc.  (XE)  (CIK 0002088896)",
-    "cik": "",
-    "filing_type": "424B4",
-    "filing_date": "2026-04-27",
-    "sec_accession": [
-      "333-294508"
-    ],
-    "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=None&type=424B4&dateb=&owner=include&count=10",
-    "status": "priced",
-    "event_type": "pricing"
-  },
-  {
-    "company_name": "Fitness Champs Holdings Ltd  (FCHL)  (CIK 0002023796)",
-    "cik": "",
-    "filing_type": "424B4",
-    "filing_date": "2026-04-20",
-    "sec_accession": [
-      "333-294575"
-    ],
-    "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=None&type=424B4&dateb=&owner=include&count=10",
-    "status": "priced",
-    "event_type": "pricing"
-  },
-  {
-    "company_name": "D. Boral Acquisition I Corp.  (DBCA)  (CIK 0002095161)",
-    "cik": "",
-    "filing_type": "424B4",
-    "filing_date": "2026-02-12",
-    "sec_accession": [
-      "333-291613"
-    ],
-    "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=None&type=424B4&dateb=&owner=include&count=10",
-    "status": "priced",
-    "event_type": "pricing"
-  },
-  {
-    "company_name": "Janus Living, Inc.  (JAN)  (CIK 0002100805)",
-    "cik": "",
-    "filing_type": "424B4",
-    "filing_date": "2026-03-23",
-    "sec_accession": [
-      "333-293835"
-    ],
-    "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=None&type=424B4&dateb=&owner=include&count=10",
-    "status": "priced",
-    "event_type": "pricing"
-  },
-  {
-    "company_name": "Alamar Biosciences, Inc.  (ALMR)  (CIK 0002104204)",
-    "cik": "",
-    "filing_type": "424B4",
-    "filing_date": "2026-04-17",
-    "sec_accession": [
-      "333-294697"
-    ],
-    "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=None&type=424B4&dateb=&owner=include&count=10",
-    "status": "priced",
-    "event_type": "pricing"
-  },
-  {
-    "company_name": "Liftoff Mobile, Inc.  (CIK 0001850351)",
-    "cik": "",
-    "filing_type": "RW",
-    "filing_date": "2026-02-17",
-    "sec_accession": [
-      "333-292700"
-    ],
-    "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=None&type=RW&dateb=&owner=include&count=10",
-    "status": "withdrawn",
-    "event_type": "withdrawal"
-  },
-  {
-    "company_name": "Clear Street Group Inc.  (CLRS)  (CIK 0001881567)",
-    "cik": "",
-    "filing_type": "RW",
-    "filing_date": "2026-02-19",
-    "sec_accession": [
-      "333-292822"
-    ],
-    "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=None&type=RW&dateb=&owner=include&count=10",
-    "status": "withdrawn",
-    "event_type": "withdrawal"
-  },
-  {
-    "company_name": "Edison Oncology Holding Corp  (EOHC)  (CIK 0001753347)",
-    "cik": "",
-    "filing_type": "RW",
-    "filing_date": "2026-02-27",
-    "sec_accession": [
-      "333-291852"
-    ],
-    "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=None&type=RW&dateb=&owner=include&count=10",
-    "status": "withdrawn",
-    "event_type": "withdrawal"
-  },
-  {
-    "company_name": "TDE GROUP Ltd  (TTEI)  (CIK 0002053475)",
-    "cik": "",
-    "filing_type": "RW",
-    "filing_date": "2026-02-26",
-    "sec_accession": [
-      "333-289968"
-    ],
-    "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=None&type=RW&dateb=&owner=include&count=10",
-    "status": "withdrawn",
-    "event_type": "withdrawal"
-  },
-  {
-    "company_name": "RIKU DINING GROUP Ltd  (RIKU)  (CIK 0002058976)",
-    "cik": "",
-    "filing_type": "RW",
-    "filing_date": "2026-03-16",
-    "sec_accession": [
-      "333-290212"
-    ],
-    "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=None&type=RW&dateb=&owner=include&count=10",
-    "status": "withdrawn",
-    "event_type": "withdrawal",
+    "id": "RIKU",
+    "cik": null,
+    "company_name": "RIKU DINING GROUP Ltd",
     "ticker": "RIKU",
     "exchange": "NASDAQ Capital",
     "expected_date": "2026-05-15",
+    "actual_date": null,
     "price_range_low": 4.0,
     "price_range_high": 6.0,
     "offer_price": null,
-    "shares_offered": 5000000
+    "shares_offered": 5000000,
+    "filing_type": null,
+    "filing_date": null,
+    "events": [
+      {
+        "event_type": "exchange_upcoming",
+        "filing_type": null,
+        "event_date": "2026-05-15"
+      }
+    ],
+    "status": "upcoming",
+    "description": "RIKU DINING GROUP Ltd. is a leading restaurant and dining management company specializing in innovative culinary experiences and exceptional customer service. With a diverse portfolio of dining establishments, the company aims to redefine the dining landscape through quality and creativity.",
+    "products_services": "Full-service restaurants, catering services, and culinary events.",
+    "industry": "Hospitality and Food Services"
   },
   {
+    "id": "EROK",
+    "cik": null,
     "company_name": "EagleRock Land, LLC",
     "ticker": "EROK",
     "exchange": "NYSE",
     "expected_date": "2026-05-14",
+    "actual_date": null,
     "price_range_low": 17.0,
     "price_range_high": 20.0,
     "offer_price": null,
     "shares_offered": 17300000,
-    "status": "filed",
-    "event_type": "exchange_filing"
+    "filing_type": null,
+    "filing_date": null,
+    "events": [
+      {
+        "event_type": "exchange_upcoming",
+        "filing_type": null,
+        "event_date": "2026-05-14"
+      }
+    ],
+    "status": "upcoming",
+    "description": "EagleRock Land, LLC is a leading land development company focused on sustainable and innovative real estate solutions. With a commitment to enhancing community living, the company specializes in residential and commercial land projects.",
+    "products_services": "Residential and commercial land development, site planning, and project management services.",
+    "industry": "Real Estate Development"
   },
   {
+    "id": "BXDC",
+    "cik": null,
     "company_name": "Blackstone Digital Infrastructure Trust Inc.",
     "ticker": "BXDC",
     "exchange": "NYSE",
     "expected_date": "2026-05-14",
-    "price_range_low": null,
-    "price_range_high": null,
-    "offer_price": 20.0,
+    "actual_date": null,
+    "price_range_low": 20.0,
+    "price_range_high": 20.0,
+    "offer_price": null,
     "shares_offered": 87500000,
-    "status": "filed",
-    "event_type": "exchange_filing"
+    "filing_type": null,
+    "filing_date": null,
+    "events": [
+      {
+        "event_type": "exchange_upcoming",
+        "filing_type": null,
+        "event_date": "2026-05-14"
+      }
+    ],
+    "status": "upcoming",
+    "description": "Blackstone Digital Infrastructure Trust Inc. is a real estate investment trust focused on acquiring and managing digital infrastructure assets, including data centers and communication towers. The company aims to capitalize on the growing demand for digital connectivity and data storage solutions.",
+    "products_services": "Digital infrastructure assets such as data centers, communication towers, and fiber networks.",
+    "industry": "Real Estate Investment Trust (REIT) / Digital Infrastructure"
   },
   {
+    "id": "CBRS",
+    "cik": null,
     "company_name": "Cerebras Systems Inc.",
     "ticker": "CBRS",
     "exchange": "NASDAQ Global Select",
     "expected_date": "2026-05-14",
+    "actual_date": null,
     "price_range_low": 115.0,
     "price_range_high": 125.0,
     "offer_price": null,
     "shares_offered": 28000000,
-    "status": "filed",
-    "event_type": "exchange_filing"
+    "filing_type": null,
+    "filing_date": null,
+    "events": [
+      {
+        "event_type": "exchange_upcoming",
+        "filing_type": null,
+        "event_date": "2026-05-14"
+      }
+    ],
+    "status": "upcoming",
+    "description": "Cerebras Systems Inc. is a technology company specializing in the development of advanced computing hardware designed to accelerate artificial intelligence and machine learning workloads. Their flagship product, the Wafer Scale Engine, is the largest chip ever built, enabling unprecedented performance for AI applications.",
+    "products_services": "Wafer Scale Engine, AI hardware solutions, software for AI model training and deployment.",
+    "industry": "Semiconductors, Artificial Intelligence, High-Performance Computing"
   },
   {
+    "id": "GMRS",
+    "cik": null,
     "company_name": "GMR Solutions Inc.",
     "ticker": "GMRS",
     "exchange": "NYSE",
     "expected_date": "2026-05-13",
+    "actual_date": null,
     "price_range_low": 22.0,
     "price_range_high": 25.0,
     "offer_price": null,
     "shares_offered": 31914893,
-    "status": "filed",
-    "event_type": "exchange_filing"
+    "filing_type": null,
+    "filing_date": null,
+    "events": [
+      {
+        "event_type": "exchange_upcoming",
+        "filing_type": null,
+        "event_date": "2026-05-13"
+      }
+    ],
+    "status": "upcoming",
+    "description": "GMR Solutions Inc. is a leading provider of innovative technology solutions aimed at enhancing operational efficiency for businesses across various sectors. With a focus on cutting-edge software development and IT consulting, the company is poised for significant growth in the digital transformation landscape.",
+    "products_services": "Custom software development, IT consulting, cloud solutions, and data analytics services.",
+    "industry": "Information Technology and Software Development"
   },
   {
+    "id": "FRVO",
+    "cik": null,
     "company_name": "Fervo Energy Co",
     "ticker": "FRVO",
     "exchange": "NASDAQ Global Select",
     "expected_date": "2026-05-13",
+    "actual_date": null,
     "price_range_low": 21.0,
     "price_range_high": 24.0,
     "offer_price": null,
     "shares_offered": 55555555,
-    "status": "filed",
-    "event_type": "exchange_filing"
+    "filing_type": null,
+    "filing_date": null,
+    "events": [
+      {
+        "event_type": "exchange_upcoming",
+        "filing_type": null,
+        "event_date": "2026-05-13"
+      }
+    ],
+    "status": "upcoming",
+    "description": "Fervo Energy Co. is a pioneering company focused on harnessing geothermal energy to provide sustainable and reliable power solutions. By utilizing advanced drilling techniques and innovative technology, Fervo aims to revolutionize the geothermal energy sector.",
+    "products_services": "Geothermal energy production, energy storage solutions, and consulting services for renewable energy projects.",
+    "industry": "Renewable Energy"
   },
   {
+    "id": "BWGC",
+    "cik": null,
     "company_name": "BW Industrial Holdings Inc.",
     "ticker": "BWGC",
     "exchange": "NYSE MKT",
     "expected_date": "2026-05-12",
+    "actual_date": null,
     "price_range_low": 6.0,
     "price_range_high": 7.0,
     "offer_price": null,
     "shares_offered": 2625000,
-    "status": "filed",
-    "event_type": "exchange_filing"
+    "filing_type": null,
+    "filing_date": null,
+    "events": [
+      {
+        "event_type": "exchange_upcoming",
+        "filing_type": null,
+        "event_date": "2026-05-12"
+      }
+    ],
+    "status": "upcoming",
+    "description": "BW Industrial Holdings Inc. is a leading provider of industrial services and solutions, focusing on enhancing operational efficiency and sustainability for its clients. The company aims to leverage innovative technologies and expert insights to drive growth in the industrial sector.",
+    "products_services": "Industrial services, operational efficiency solutions, sustainability consulting, and technology integration.",
+    "industry": "Industrial Services"
   },
   {
+    "id": "MOBI",
+    "cik": null,
     "company_name": "Mobia Medical, Inc.",
     "ticker": "MOBI",
     "exchange": "NASDAQ Global Select",
     "expected_date": "2026-05-08",
+    "actual_date": null,
     "price_range_low": 14.0,
     "price_range_high": 16.0,
     "offer_price": null,
     "shares_offered": 10000000,
-    "status": "filed",
-    "event_type": "exchange_filing"
+    "filing_type": null,
+    "filing_date": null,
+    "events": [
+      {
+        "event_type": "exchange_upcoming",
+        "filing_type": null,
+        "event_date": "2026-05-08"
+      }
+    ],
+    "status": "upcoming",
+    "description": "Mobia Medical, Inc. is a pioneering healthcare technology company focused on developing innovative medical devices and solutions to enhance patient care and streamline clinical workflows. With a commitment to improving health outcomes, Mobia Medical leverages cutting-edge technology to address critical challenges in the medical field.",
+    "products_services": "The company offers a range of advanced medical devices, telehealth solutions, and data analytics platforms designed to support healthcare providers and improve patient engagement.",
+    "industry": "Healthcare Technology"
   },
   {
+    "id": "ODTX",
+    "cik": null,
     "company_name": "Odyssey Therapeutics, Inc.",
     "ticker": "ODTX",
     "exchange": "NASDAQ Capital",
     "expected_date": "2026-05-08",
+    "actual_date": null,
     "price_range_low": 16.0,
     "price_range_high": 18.0,
     "offer_price": null,
     "shares_offered": 13240000,
-    "status": "filed",
-    "event_type": "exchange_filing"
+    "filing_type": null,
+    "filing_date": null,
+    "events": [
+      {
+        "event_type": "exchange_upcoming",
+        "filing_type": null,
+        "event_date": "2026-05-08"
+      }
+    ],
+    "status": "upcoming",
+    "description": "Odyssey Therapeutics, Inc. is a biotechnology company focused on discovering and developing innovative therapies for patients with serious diseases. The company leverages advanced technologies to create targeted treatments that address unmet medical needs.",
+    "products_services": "Odyssey Therapeutics develops novel drug candidates aimed at various therapeutic areas, including oncology and autoimmune diseases.",
+    "industry": "Biotechnology"
   },
   {
+    "id": "SUJA",
+    "cik": null,
     "company_name": "SUJA LIFE, INC.",
     "ticker": "SUJA",
     "exchange": "NASDAQ Global Select",
     "expected_date": "2026-05-07",
+    "actual_date": null,
     "price_range_low": 21.0,
     "price_range_high": 24.0,
     "offer_price": null,
     "shares_offered": 8888889,
-    "status": "filed",
-    "event_type": "exchange_filing"
+    "filing_type": null,
+    "filing_date": null,
+    "events": [
+      {
+        "event_type": "exchange_upcoming",
+        "filing_type": null,
+        "event_date": "2026-05-07"
+      }
+    ],
+    "status": "upcoming",
+    "description": "SUJA LIFE, INC. is a leading organic beverage company specializing in cold-pressed juices and functional drinks that promote health and wellness. The company focuses on providing high-quality, nutritious products made from organic ingredients.",
+    "products_services": "Cold-pressed juices, functional beverages, and wellness shots.",
+    "industry": "Beverages"
   },
   {
+    "id": "HAWK",
+    "cik": null,
     "company_name": "HawkEye 360, Inc.",
     "ticker": "HAWK",
     "exchange": "NYSE",
     "expected_date": "2026-05-07",
+    "actual_date": null,
     "price_range_low": 24.0,
     "price_range_high": 26.0,
     "offer_price": null,
     "shares_offered": 16000000,
-    "status": "filed",
-    "event_type": "exchange_filing"
+    "filing_type": null,
+    "filing_date": null,
+    "events": [
+      {
+        "event_type": "exchange_upcoming",
+        "filing_type": null,
+        "event_date": "2026-05-07"
+      }
+    ],
+    "status": "upcoming",
+    "description": "HawkEye 360, Inc. is a technology company specializing in satellite-based radio frequency (RF) data collection and analysis, providing insights for various sectors including defense, maritime, and telecommunications. The company leverages its unique satellite constellation to deliver actionable intelligence from RF signals around the globe.",
+    "products_services": "Satellite-based RF data collection, analytics services, and geospatial intelligence solutions.",
+    "industry": "Aerospace and Defense"
   },
   {
+    "id": "REA",
+    "cik": null,
     "company_name": "Rare Earths Americas, Inc.",
     "ticker": "REA",
     "exchange": "NYSE MKT",
     "expected_date": "2026-05-06",
+    "actual_date": null,
     "price_range_low": 17.0,
     "price_range_high": 19.0,
     "offer_price": null,
     "shares_offered": 2777777,
-    "status": "filed",
-    "event_type": "exchange_filing"
+    "filing_type": null,
+    "filing_date": null,
+    "events": [
+      {
+        "event_type": "exchange_upcoming",
+        "filing_type": null,
+        "event_date": "2026-05-06"
+      }
+    ],
+    "status": "upcoming",
+    "description": "Rare Earths Americas, Inc. is a leading company focused on the exploration and development of rare earth mineral resources in North America. The company aims to supply critical materials essential for various high-tech applications and green technologies.",
+    "products_services": "Rare earth minerals and materials, including neodymium, dysprosium, and other rare earth elements used in electronics, renewable energy, and defense applications.",
+    "industry": "Mining and Minerals"
   },
   {
+    "id": "VECAU",
+    "cik": null,
+    "company_name": "Vernal Capital Acquisition Corp.",
+    "ticker": "VECAU",
+    "exchange": "NYSE",
+    "expected_date": "2026-05-06",
+    "actual_date": null,
+    "price_range_low": 10.0,
+    "price_range_high": 10.0,
+    "offer_price": null,
+    "shares_offered": 10000000,
+    "filing_type": null,
+    "filing_date": null,
+    "events": [
+      {
+        "event_type": "exchange_upcoming",
+        "filing_type": null,
+        "event_date": "2026-05-06"
+      }
+    ],
+    "status": "upcoming",
+    "description": "Vernal Capital Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the technology and healthcare sectors. The firm aims to leverage its management team's expertise to drive growth and create value for shareholders.",
+    "products_services": "SPAC mergers and acquisitions, investment management, and strategic advisory services.",
+    "industry": "Financial Services"
+  },
+  {
+    "id": "SPTX",
+    "cik": null,
     "company_name": "Seaport Therapeutics, Inc.",
     "ticker": "SPTX",
     "exchange": "NASDAQ Global Select",
-    "expected_date": "2026-05-01",
+    "expected_date": null,
+    "actual_date": "2026-05-01",
     "price_range_low": null,
     "price_range_high": null,
     "offer_price": 18.0,
     "shares_offered": 14160000,
-    "status": "priced",
-    "event_type": "exchange_filing"
+    "filing_type": null,
+    "filing_date": null,
+    "events": [
+      {
+        "event_type": "exchange_listed",
+        "filing_type": null,
+        "event_date": "2026-05-01"
+      }
+    ],
+    "status": "listed",
+    "description": "Seaport Therapeutics, Inc. is a biotechnology company focused on developing innovative therapies for neurological disorders. The company aims to address unmet medical needs through its proprietary drug discovery platform.",
+    "products_services": "Therapeutic drug candidates targeting neurological conditions, research and development services.",
+    "industry": "Biotechnology"
   },
   {
+    "id": "MTNEU",
+    "cik": null,
     "company_name": "CH4 Natural Solutions Corp",
     "ticker": "MTNEU",
     "exchange": "NYSE",
-    "expected_date": "2026-05-01",
+    "expected_date": null,
+    "actual_date": "2026-05-01",
     "price_range_low": null,
     "price_range_high": null,
     "offer_price": 10.0,
     "shares_offered": 20000000,
-    "status": "priced",
-    "event_type": "exchange_filing"
+    "filing_type": null,
+    "filing_date": null,
+    "events": [
+      {
+        "event_type": "exchange_listed",
+        "filing_type": null,
+        "event_date": "2026-05-01"
+      }
+    ],
+    "status": "listed",
+    "description": "CH4 Natural Solutions Corp. is a pioneering company focused on innovative solutions for methane emissions reduction and sustainable agriculture. By leveraging advanced technologies, the company aims to transform waste into valuable resources, contributing to a greener planet.",
+    "products_services": "Methane reduction technologies, agricultural solutions, waste-to-resource systems.",
+    "industry": "Environmental Technology / Agriculture"
   },
   {
+    "id": "QLEPU",
+    "cik": null,
+    "company_name": "Quantum Leap Acquisition Corp",
+    "ticker": "QLEPU",
+    "exchange": "NYSE",
+    "expected_date": null,
+    "actual_date": "2026-05-01",
+    "price_range_low": null,
+    "price_range_high": null,
+    "offer_price": 10.0,
+    "shares_offered": 20000000,
+    "filing_type": null,
+    "filing_date": null,
+    "events": [
+      {
+        "event_type": "exchange_listed",
+        "filing_type": null,
+        "event_date": "2026-05-01"
+      }
+    ],
+    "status": "listed"
+  },
+  {
+    "id": "COAG",
+    "cik": null,
     "company_name": "Hemab Therapeutics Holdings, Inc.",
     "ticker": "COAG",
     "exchange": "NASDAQ Global Select",
-    "expected_date": "2026-05-01",
+    "expected_date": null,
+    "actual_date": "2026-05-01",
     "price_range_low": null,
     "price_range_high": null,
     "offer_price": 18.0,
     "shares_offered": 16750000,
-    "status": "priced",
-    "event_type": "exchange_filing"
-  },
-  {
-    "company_name": "MetaOptics Ltd",
-    "ticker": "MOT",
-    "exchange": "NASDAQ",
-    "expected_date": "2026-05-04",
-    "price_range_low": null,
-    "price_range_high": null,
-    "offer_price": null,
-    "shares_offered": null,
-    "status": "filed",
-    "event_type": "exchange_filing"
-  },
-  {
-    "company_name": "EUPEC International Group Ltd",
-    "ticker": null,
-    "exchange": null,
-    "expected_date": "2025-12-19",
-    "price_range_low": null,
-    "price_range_high": null,
-    "offer_price": null,
-    "shares_offered": 3750000,
-    "status": "withdrawn",
-    "event_type": "exchange_filing"
-  },
-  {
-    "company_name": "CCIS Acquisition Corp",
-    "ticker": null,
-    "exchange": null,
-    "expected_date": "2025-02-19",
-    "price_range_low": null,
-    "price_range_high": null,
-    "offer_price": null,
-    "shares_offered": 6000000,
-    "status": "withdrawn",
-    "event_type": "exchange_filing"
-  },
-  {
-    "company_name": "4/29/2026",
-    "ticker": "Nuclea Energy Inc.",
-    "exchange": "NYSE",
-    "expected_date": null,
-    "status": "filed",
-    "event_type": "exchange_filing",
-    "price_range_low": null,
-    "price_range_high": null,
-    "offer_price": null,
-    "shares_offered": null
+    "filing_type": null,
+    "filing_date": null,
+    "events": [
+      {
+        "event_type": "exchange_listed",
+        "filing_type": null,
+        "event_date": "2026-05-01"
+      }
+    ],
+    "status": "listed"
   }
 ]
