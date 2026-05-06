@@ -205,6 +205,7 @@ async def fetch_nasdaq_data() -> dict:
                         "expected_date": parse_date(row.get("expectedPriceDate")),
                         "price_range": row.get("proposedSharePrice"),
                         "shares_offered": parse_shares(row.get("sharesOffered")),
+                        "offer_amount": row.get("dollarValueOfSharesOffered"),
                     })
 
                 # Priced (direct rows) - rows can be None
@@ -216,6 +217,7 @@ async def fetch_nasdaq_data() -> dict:
                         "actual_date": parse_date(row.get("pricedDate")),
                         "offer_price": parse_single_price(row.get("proposedSharePrice")),
                         "shares_offered": parse_shares(row.get("sharesOffered")),
+                        "offer_amount": row.get("dollarValueOfSharesOffered"),
                     })
 
                 # Filed
@@ -359,6 +361,7 @@ def apply_nasdaq_data(company: dict, nasdaq_info: dict):
     company["actual_date"] = nasdaq_info.get("actual_date") or company.get("actual_date")
     company["shares_offered"] = nasdaq_info.get("shares_offered") or company.get("shares_offered")
     company["offer_price"] = nasdaq_info.get("offer_price") or company.get("offer_price")
+    company["offer_amount"] = nasdaq_info.get("offer_amount") or company.get("offer_amount")
     company["nasdaq_status"] = nasdaq_info["nasdaq_status"]
 
     # 価格レンジ
@@ -397,6 +400,7 @@ def build_from_nasdaq(ninfo: dict) -> dict:
         "price_range_high": high,
         "offer_price": ninfo.get("offer_price"),
         "shares_offered": ninfo.get("shares_offered"),
+        "offer_amount": ninfo.get("offer_amount"),
         "filing_type": None,
         "filing_date": ninfo.get("filing_date"),
         "nasdaq_status": ninfo["nasdaq_status"],
