@@ -38,18 +38,23 @@ GITHUB_MODELS_URL = "https://models.inference.ai.azure.com/chat/completions"
 # ============================================================
 
 async def fetch_sec_filings() -> list:
-    """SEC EDGAR APIからIPO関連書類を取得"""
+    """
+    SEC EDGAR 2段階取得:
+    Step 1: Worker Proxy経由でS-1/F-1の新規申請を検索→CIKリストを取得
+    Step 2: 各CIKに対してSubmissions APIでフルタイムラインを取得
+    """
     print("=== SEC EDGAR ===")
-    filings = []
 
+    # Step 1: 新規IPO申請のCIKを検索（Worker Proxy経由）
+    cik_set = set()
     async with httpx.AsyncClient(timeout=60, headers=SEC_HEADERS) as client:
-        for form_type in ["S-1", "F-1", "S-1/A", "F-1/A", "424B4", "RW"]:
+        proxy_url = WORKER_URL + "/api/admin/sec-proxy" if WORKER_URL else None
+
+        for form_type in ["S-1", "F-1"]:
             try:
                 start_date = (datetime.now() - timedelta(days=120)).strftime("%Y-%m-%d")
                 end_date = datetime.now().strftime("%Y-%m-%d")
 
-                # Cloudflare Worker経由でSEC APIを呼ぶ（GitHub ActionsのIPブロック回避）
-                proxy_url = WORKER_URL + "/api/admin/sec-proxy" if WORKER_URL else None
                 if proxy_url:
                     resp = await client.get(proxy_url, params={
                         "forms": form_type, "startdt": start_date, "enddt": end_date,
@@ -57,13 +62,8 @@ async def fetch_sec_filings() -> list:
                 else:
                     resp = await client.get(
                         "https://efts.sec.gov/LATEST/search-index",
-                        params={
-                            "q": '"initial public offering"',
-                            "forms": form_type,
-                            "dateRange": "custom",
-                            "startdt": start_date,
-                            "enddt": end_date,
-                        }
+                        params={"q": '"initial public offering"', "forms": form_type,
+                                "dateRange": "custom", "startdt": start_date, "enddt": end_date}
                     )
 
                 if resp.status_code != 200:
@@ -71,37 +71,99 @@ async def fetch_sec_filings() -> list:
                     continue
 
                 hits = resp.json().get("hits", {}).get("hits", [])
-                print(f"  [{form_type}] {len(hits)} filings")
-
-                for hit in hits[:30]:
+                for hit in hits[:50]:
                     source = hit.get("_source", {})
                     ciks = source.get("ciks", [])
-                    cik = ciks[0] if ciks else ""
-                    names = source.get("display_names", [])
-                    name = names[0] if names else source.get("entity_name", "")
+                    if ciks:
+                        cik_set.add(ciks[0])
 
-                    if not cik or not name:
-                        continue
-
-                    filings.append({
-                        "cik": cik,
-                        "company_name": name,
-                        "filing_type": form_type,
-                        "filing_date": source.get("file_date"),
-                        "sec_accession": source.get("file_num"),
-                        "event_type": {
-                            "S-1": "filing", "F-1": "filing",
-                            "S-1/A": "amendment", "F-1/A": "amendment",
-                            "424B4": "pricing", "RW": "withdrawal",
-                        }.get(form_type, "filing"),
-                    })
-
+                print(f"  [{form_type}] {len(hits)} hits → {len(cik_set)} CIKs so far")
                 await asyncio.sleep(0.3)
             except Exception as e:
                 print(f"  [{form_type}] Error: {e}")
 
-    print(f"  SEC total: {len(filings)} filings")
-    return filings
+    print(f"  Step 1 complete: {len(cik_set)} unique CIKs")
+
+    # Step 2: 各CIKのSubmissions APIでフルタイムライン取得
+    print(f"  Step 2: Fetching timelines...")
+    companies = []
+    ipo_forms = {"S-1", "F-1", "S-1/A", "F-1/A", "RW", "424B4", "EFFECT"}
+    event_type_map = {
+        "S-1": "filing", "F-1": "filing",
+        "S-1/A": "amendment", "F-1/A": "amendment",
+        "424B4": "pricing", "RW": "withdrawal", "EFFECT": "effective",
+    }
+
+    async with httpx.AsyncClient(timeout=30, headers=SEC_HEADERS) as client:
+        for cik in list(cik_set)[:80]:  # 最大80社（レート制限考慮）
+            try:
+                # Worker Proxy経由 or 直接
+                if WORKER_URL:
+                    url = f"{WORKER_URL}/api/admin/sec-submissions?cik={cik}"
+                else:
+                    cik_padded = cik.lstrip("0").zfill(10)
+                    url = f"https://data.sec.gov/submissions/CIK{cik_padded}.json"
+                resp = await client.get(url)
+
+                if resp.status_code != 200:
+                    continue
+
+                data = resp.json()
+                company_name = data.get("name", "")
+                tickers = data.get("tickers", [])
+                ticker = tickers[0] if tickers else None
+
+                # IPO関連のfiling履歴を抽出
+                recent = data.get("filings", {}).get("recent", {})
+                forms = recent.get("form", [])
+                dates = recent.get("filingDate", [])
+                accessions = recent.get("accessionNumber", [])
+                descs = recent.get("primaryDocDescription", [])
+
+                events = []
+                latest_form = None
+                latest_date = None
+
+                for i in range(len(forms)):
+                    if forms[i] in ipo_forms:
+                        event_date = dates[i] if i < len(dates) else None
+                        events.append({
+                            "event_type": event_type_map.get(forms[i], "filing"),
+                            "filing_type": forms[i],
+                            "event_date": event_date,
+                            "sec_accession": accessions[i] if i < len(accessions) else None,
+                            "details": descs[i] if i < len(descs) else None,
+                        })
+                        # 最新のfiling
+                        if event_date and (not latest_date or event_date > latest_date):
+                            latest_date = event_date
+                            latest_form = forms[i]
+
+                if not events:
+                    continue
+
+                # 最初のS-1/F-1の日付をfiling_dateとする
+                first_filing_date = None
+                for ev in reversed(events):
+                    if ev["filing_type"] in ("S-1", "F-1"):
+                        first_filing_date = ev["event_date"]
+                        break
+
+                companies.append({
+                    "cik": cik,
+                    "company_name": company_name,
+                    "ticker": ticker,
+                    "filing_type": latest_form,
+                    "filing_date": first_filing_date,
+                    "events": events,
+                })
+
+                await asyncio.sleep(0.15)  # SEC rate limit: ~10 req/sec
+            except Exception as e:
+                pass  # 個別エラーはスキップ
+
+    print(f"  Step 2 complete: {len(companies)} companies with timelines")
+    return companies
 
 
 # ============================================================
@@ -179,34 +241,24 @@ async def fetch_nasdaq_data() -> dict:
 # マージ（1企業=1レコード）
 # ============================================================
 
-def merge_all(sec_filings: list, nasdaq_data: dict) -> list:
+def merge_all(sec_companies: list, nasdaq_data: dict) -> list:
     """CIKベースで1企業1レコード。NASDAQステータス最優先"""
     print("\n=== Merge ===")
 
-    # Step 1: CIKごとにSEC filingを集約
+    # Step 1: SEC companiesをそのままCIK辞書に（Submissions API由来で既にCIK単位）
     companies = {}
-    for f in sec_filings:
-        cik = f["cik"]
-        if cik not in companies:
-            companies[cik] = {
-                "id": cik,
-                "cik": cik,
-                "company_name": f["company_name"],
-                "filing_type": f["filing_type"],
-                "filing_date": f["filing_date"],
-                "events": [],
-                "nasdaq_status": None,
-            }
-        companies[cik]["events"].append({
-            "event_type": f["event_type"],
-            "filing_type": f["filing_type"],
-            "event_date": f["filing_date"],
-            "sec_accession": f.get("sec_accession"),
-        })
-        # 最新filing_typeで更新
-        if f["filing_date"] and (not companies[cik].get("_latest_date") or f["filing_date"] > companies[cik]["_latest_date"]):
-            companies[cik]["filing_type"] = f["filing_type"]
-            companies[cik]["_latest_date"] = f["filing_date"]
+    for c in sec_companies:
+        cik = c["cik"]
+        companies[cik] = {
+            "id": c.get("ticker") or cik,  # ticker優先
+            "cik": cik,
+            "company_name": c["company_name"],
+            "ticker": c.get("ticker"),
+            "filing_type": c.get("filing_type"),
+            "filing_date": c.get("filing_date"),
+            "events": c.get("events", []),
+            "nasdaq_status": None,
+        }
 
     print(f"  SEC: {len(companies)} unique companies")
 
