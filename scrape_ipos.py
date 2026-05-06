@@ -177,7 +177,15 @@ async def fetch_nasdaq_data() -> dict:
 
     async with httpx.AsyncClient(timeout=30, headers=NASDAQ_HEADERS) as client:
         now = datetime.now()
-        months = [now.strftime("%Y-%m"), (now + timedelta(days=31)).strftime("%Y-%m")]
+        # 過去3ヶ月+今月+来月（Listedの価格・日付を確実に取得）
+        months = [
+            (now - timedelta(days=90)).strftime("%Y-%m"),
+            (now - timedelta(days=60)).strftime("%Y-%m"),
+            (now - timedelta(days=30)).strftime("%Y-%m"),
+            now.strftime("%Y-%m"),
+            (now + timedelta(days=31)).strftime("%Y-%m"),
+        ]
+        months = list(dict.fromkeys(months))  # 重複除去
 
         for month in months:
             try:
