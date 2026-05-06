@@ -1,5 +1,1591 @@
 [
   {
+    "id": "0002083910",
+    "cik": "0002083910",
+    "company_name": "Archimedes Tech SPAC Partners III Co.  (CIK 0002083910)",
+    "filing_type": "S-1",
+    "filing_date": "2026-01-15",
+    "events": [
+      {
+        "event_type": "filing",
+        "filing_type": "S-1",
+        "event_date": "2026-01-15",
+        "sec_accession": [
+          "333-292419"
+        ]
+      },
+      {
+        "event_type": "filing",
+        "filing_type": "S-1",
+        "event_date": "2026-01-15",
+        "sec_accession": [
+          "333-292419"
+        ]
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2026-01-15",
+        "sec_accession": [
+          "333-292419"
+        ]
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2026-01-15",
+        "sec_accession": [
+          "333-292419"
+        ]
+      }
+    ],
+    "status": "filed"
+  },
+  {
+    "id": "0002073515",
+    "cik": "0002073515",
+    "company_name": "ARC Group Acquisition I Corp.  (CIK 0002073515)",
+    "filing_type": "S-1",
+    "filing_date": "2026-02-18",
+    "events": [
+      {
+        "event_type": "filing",
+        "filing_type": "S-1",
+        "event_date": "2026-02-18",
+        "sec_accession": [
+          "333-288410"
+        ]
+      },
+      {
+        "event_type": "filing",
+        "filing_type": "S-1",
+        "event_date": "2026-02-18",
+        "sec_accession": [
+          "333-288410"
+        ]
+      },
+      {
+        "event_type": "filing",
+        "filing_type": "S-1",
+        "event_date": "2026-04-09",
+        "sec_accession": [
+          "333-288410"
+        ]
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2026-02-18",
+        "sec_accession": [
+          "333-288410"
+        ]
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2026-02-18",
+        "sec_accession": [
+          "333-288410"
+        ]
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2026-04-09",
+        "sec_accession": [
+          "333-288410"
+        ]
+      }
+    ],
+    "status": "filed"
+  },
+  {
+    "id": "0002109082",
+    "cik": "0002109082",
+    "company_name": "AI STRATEGY INC.  (CIK 0002109082)",
+    "filing_type": "S-1",
+    "filing_date": "2026-04-15",
+    "events": [
+      {
+        "event_type": "filing",
+        "filing_type": "S-1",
+        "event_date": "2026-04-15",
+        "sec_accession": [
+          "333-295062"
+        ]
+      }
+    ],
+    "status": "filed"
+  },
+  {
+    "id": "VECAU",
+    "cik": "0002081690",
+    "company_name": "Vernal Capital Acquisition Corp.  (CIK 0002081690)",
+    "filing_type": "S-1",
+    "filing_date": "2026-03-11",
+    "events": [
+      {
+        "event_type": "filing",
+        "filing_type": "S-1",
+        "event_date": "2026-03-11",
+        "sec_accession": [
+          "333-290609"
+        ]
+      },
+      {
+        "event_type": "filing",
+        "filing_type": "S-1",
+        "event_date": "2026-04-21",
+        "sec_accession": [
+          "333-290609"
+        ]
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2026-03-11",
+        "sec_accession": [
+          "333-290609"
+        ]
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2026-04-21",
+        "sec_accession": [
+          "333-290609"
+        ]
+      },
+      {
+        "event_type": "exchange_upcoming",
+        "filing_type": null,
+        "event_date": "2026-05-06"
+      }
+    ],
+    "ticker": "VECAU",
+    "exchange": "NYSE",
+    "expected_date": "2026-05-06",
+    "actual_date": null,
+    "shares_offered": 10000000,
+    "offer_price": null,
+    "price_range_low": 10.0,
+    "price_range_high": 10.0,
+    "status": "upcoming",
+    "description": "Vernal Capital Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the technology and consumer sectors. The company aims to leverage its management team's expertise to create value for shareholders through strategic partnerships and growth opportunities.",
+    "products_services": "As a SPAC, Vernal Capital Acquisition Corp. does not offer traditional products or services but seeks to acquire and merge with a target company to facilitate its growth and expansion.",
+    "industry": "Financial Services"
+  },
+  {
+    "id": "0002090787",
+    "cik": "0002090787",
+    "company_name": "Oceanhawk Acquisition Corp.  (CIK 0002090787)",
+    "filing_type": "S-1",
+    "filing_date": "2026-03-23",
+    "events": [
+      {
+        "event_type": "filing",
+        "filing_type": "S-1",
+        "event_date": "2026-03-23",
+        "sec_accession": [
+          "333-294512"
+        ]
+      },
+      {
+        "event_type": "filing",
+        "filing_type": "S-1",
+        "event_date": "2026-03-23",
+        "sec_accession": [
+          "333-294512"
+        ]
+      }
+    ],
+    "status": "filed"
+  },
+  {
+    "id": "0002098780",
+    "cik": "0002098780",
+    "company_name": "TRG Latin America Acquisitions Corp.  (CIK 0002098780)",
+    "filing_type": "S-1",
+    "filing_date": "2026-02-10",
+    "events": [
+      {
+        "event_type": "filing",
+        "filing_type": "S-1",
+        "event_date": "2026-02-10",
+        "sec_accession": [
+          "333-293354"
+        ]
+      }
+    ],
+    "status": "filed"
+  },
+  {
+    "id": "0002102771",
+    "cik": "0002102771",
+    "company_name": "Keystone Acquisition Corp.  (CIK 0002102771)",
+    "filing_type": "S-1",
+    "filing_date": "2026-05-04",
+    "events": [
+      {
+        "event_type": "filing",
+        "filing_type": "S-1",
+        "event_date": "2026-05-04",
+        "sec_accession": [
+          "333-295539"
+        ]
+      }
+    ],
+    "status": "filed"
+  },
+  {
+    "id": "0002082119",
+    "cik": "0002082119",
+    "company_name": "KRAKacquisition Corp  (CIK 0002082119)",
+    "filing_type": "S-1",
+    "filing_date": "2026-01-12",
+    "events": [
+      {
+        "event_type": "filing",
+        "filing_type": "S-1",
+        "event_date": "2026-01-12",
+        "sec_accession": [
+          "333-292681"
+        ]
+      }
+    ],
+    "status": "filed"
+  },
+  {
+    "id": "0002091176",
+    "cik": "0002091176",
+    "company_name": "Idea Acquisition Corp.  (CIK 0002091176)",
+    "filing_type": "S-1",
+    "filing_date": "2026-01-06",
+    "events": [
+      {
+        "event_type": "filing",
+        "filing_type": "S-1",
+        "event_date": "2026-01-06",
+        "sec_accession": [
+          "333-291010"
+        ]
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2026-01-06",
+        "sec_accession": [
+          "333-291010"
+        ]
+      }
+    ],
+    "status": "filed"
+  },
+  {
+    "id": "0002107724",
+    "cik": "0002107724",
+    "company_name": "Metals Acquisition Corp. II  (MTAL)  (CIK 0002107724)",
+    "filing_type": "S-1",
+    "filing_date": "2026-02-27",
+    "events": [
+      {
+        "event_type": "filing",
+        "filing_type": "S-1",
+        "event_date": "2026-02-27",
+        "sec_accession": [
+          "333-293143"
+        ]
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2026-02-27",
+        "sec_accession": [
+          "333-293143"
+        ]
+      }
+    ],
+    "status": "filed"
+  },
+  {
+    "id": "0002100125",
+    "cik": "0002100125",
+    "company_name": "Cambridge Acquisition Corp.  (CAQ)  (CIK 0002100125)",
+    "filing_type": "S-1",
+    "filing_date": "2026-01-30",
+    "events": [
+      {
+        "event_type": "filing",
+        "filing_type": "S-1",
+        "event_date": "2026-01-30",
+        "sec_accession": [
+          "333-292147"
+        ]
+      },
+      {
+        "event_type": "filing",
+        "filing_type": "S-1",
+        "event_date": "2026-01-30",
+        "sec_accession": [
+          "333-292147"
+        ]
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2026-01-30",
+        "sec_accession": [
+          "333-292147"
+        ]
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2026-01-30",
+        "sec_accession": [
+          "333-292147"
+        ]
+      }
+    ],
+    "status": "filed"
+  },
+  {
+    "id": "0002052096",
+    "cik": "0002052096",
+    "company_name": "Voyager Acquisition Corp. II  (CIK 0002052096)",
+    "filing_type": "S-1",
+    "filing_date": "2026-03-13",
+    "events": [
+      {
+        "event_type": "filing",
+        "filing_type": "S-1",
+        "event_date": "2026-03-13",
+        "sec_accession": [
+          "333-294270"
+        ]
+      }
+    ],
+    "status": "filed"
+  },
+  {
+    "id": "0002087361",
+    "cik": "0002087361",
+    "company_name": "M Evo Global Acquisition Corp II  (MEVO)  (CIK 0002087361)",
+    "filing_type": "S-1",
+    "filing_date": "2026-01-26",
+    "events": [
+      {
+        "event_type": "filing",
+        "filing_type": "S-1",
+        "event_date": "2026-01-26",
+        "sec_accession": [
+          "333-292138"
+        ]
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2026-01-26",
+        "sec_accession": [
+          "333-292138"
+        ]
+      }
+    ],
+    "status": "filed"
+  },
+  {
+    "id": "0002104177",
+    "cik": "0002104177",
+    "company_name": "Long Table Growth Corp.  (LTGR)  (CIK 0002104177)",
+    "filing_type": "S-1",
+    "filing_date": "2026-03-02",
+    "events": [
+      {
+        "event_type": "filing",
+        "filing_type": "S-1",
+        "event_date": "2026-03-02",
+        "sec_accession": [
+          "333-292835"
+        ]
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2026-03-02",
+        "sec_accession": [
+          "333-292835"
+        ]
+      }
+    ],
+    "status": "filed"
+  },
+  {
+    "id": "0002099095",
+    "cik": "0002099095",
+    "company_name": "Patriot Acquisition Corp./CI  (CIK 0002099095)",
+    "filing_type": "S-1",
+    "filing_date": "2026-03-06",
+    "events": [
+      {
+        "event_type": "filing",
+        "filing_type": "S-1",
+        "event_date": "2026-03-06",
+        "sec_accession": [
+          "333-294090"
+        ]
+      }
+    ],
+    "status": "filed"
+  },
+  {
+    "id": "0001997389",
+    "cik": "0001997389",
+    "company_name": "Innovative Digital Investors Acquisition Corp.  (FGXC)  (CIK 0001997389)",
+    "filing_type": "S-1",
+    "filing_date": "2026-04-01",
+    "events": [
+      {
+        "event_type": "filing",
+        "filing_type": "S-1",
+        "event_date": "2026-04-01",
+        "sec_accession": [
+          "333-287670"
+        ]
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2026-04-01",
+        "sec_accession": [
+          "333-287670"
+        ]
+      }
+    ],
+    "status": "filed"
+  },
+  {
+    "id": "0002088807",
+    "cik": "0002088807",
+    "company_name": "Xsolla SPAC 1  (CIK 0002088807)",
+    "filing_type": "S-1",
+    "filing_date": "2026-01-23",
+    "events": [
+      {
+        "event_type": "filing",
+        "filing_type": "S-1",
+        "event_date": "2026-01-23",
+        "sec_accession": [
+          "333-290802"
+        ]
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2026-01-23",
+        "sec_accession": [
+          "333-290802"
+        ]
+      }
+    ],
+    "status": "filed"
+  },
+  {
+    "id": "0002084396",
+    "cik": "0002084396",
+    "company_name": "Infinite Eagle Acquisition Corp.  (IEAG)  (CIK 0002084396)",
+    "filing_type": "S-1",
+    "filing_date": "2026-01-12",
+    "events": [
+      {
+        "event_type": "filing",
+        "filing_type": "S-1",
+        "event_date": "2026-01-12",
+        "sec_accession": [
+          "333-291679"
+        ]
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2026-01-12",
+        "sec_accession": [
+          "333-291679"
+        ]
+      }
+    ],
+    "status": "filed"
+  },
+  {
+    "id": "0002085795",
+    "cik": "0002085795",
+    "company_name": "APEIRON ACQUISITION VEHICLE I  (CIK 0002085795)",
+    "filing_type": "S-1",
+    "filing_date": "2026-02-04",
+    "events": [
+      {
+        "event_type": "filing",
+        "filing_type": "S-1",
+        "event_date": "2026-02-04",
+        "sec_accession": [
+          "333-293174"
+        ]
+      }
+    ],
+    "status": "filed"
+  },
+  {
+    "id": "0002090441",
+    "cik": "0002090441",
+    "company_name": "Iron Dome Acquisition I Corp.  (IDAC)  (CIK 0002090441)",
+    "filing_type": "S-1",
+    "filing_date": "2026-02-20",
+    "events": [
+      {
+        "event_type": "filing",
+        "filing_type": "S-1",
+        "event_date": "2026-02-20",
+        "sec_accession": [
+          "333-293108"
+        ]
+      },
+      {
+        "event_type": "filing",
+        "filing_type": "S-1",
+        "event_date": "2026-01-30",
+        "sec_accession": [
+          "333-293108"
+        ]
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2026-02-20",
+        "sec_accession": [
+          "333-293108"
+        ]
+      }
+    ],
+    "status": "filed"
+  },
+  {
+    "id": "0002087446",
+    "cik": "0002087446",
+    "company_name": "Proem Acquisition Corp. I  (PAAC)  (CIK 0002087446)",
+    "filing_type": "S-1",
+    "filing_date": "2026-01-29",
+    "events": [
+      {
+        "event_type": "filing",
+        "filing_type": "S-1",
+        "event_date": "2026-01-29",
+        "sec_accession": [
+          "333-292217"
+        ]
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2026-01-29",
+        "sec_accession": [
+          "333-292217"
+        ]
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2026-01-29",
+        "sec_accession": [
+          "333-292217"
+        ]
+      }
+    ],
+    "status": "filed"
+  },
+  {
+    "id": "0002080126",
+    "cik": "0002080126",
+    "company_name": "Forgent Power Solutions, Inc.  (CIK 0002080126)",
+    "filing_type": "S-1",
+    "filing_date": "2026-01-26",
+    "events": [
+      {
+        "event_type": "filing",
+        "filing_type": "S-1",
+        "event_date": "2026-01-26",
+        "sec_accession": [
+          "333-292632"
+        ]
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2026-01-26",
+        "sec_accession": [
+          "333-292632"
+        ]
+      }
+    ],
+    "status": "filed"
+  },
+  {
+    "id": "0002088805",
+    "cik": "0002088805",
+    "company_name": "Columbus Circle Capital Corp II  (CIK 0002088805)",
+    "filing_type": "S-1",
+    "filing_date": "2026-01-21",
+    "events": [
+      {
+        "event_type": "filing",
+        "filing_type": "S-1",
+        "event_date": "2026-01-21",
+        "sec_accession": [
+          "333-292861"
+        ]
+      }
+    ],
+    "status": "filed"
+  },
+  {
+    "id": "0002004385",
+    "cik": "0002004385",
+    "company_name": "FG Holdings Ltd  (FGO)  (CIK 0002004385)",
+    "filing_type": "F-1",
+    "filing_date": "2026-01-06",
+    "events": [
+      {
+        "event_type": "filing",
+        "filing_type": "F-1",
+        "event_date": "2026-01-06",
+        "sec_accession": [
+          "333-283297"
+        ]
+      },
+      {
+        "event_type": "filing",
+        "filing_type": "F-1",
+        "event_date": "2026-03-17",
+        "sec_accession": [
+          "333-283297"
+        ]
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "F-1/A",
+        "event_date": "2026-01-06",
+        "sec_accession": [
+          "333-283297"
+        ]
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "F-1/A",
+        "event_date": "2026-03-17",
+        "sec_accession": [
+          "333-283297"
+        ]
+      }
+    ],
+    "status": "filed"
+  },
+  {
+    "id": "0001934387",
+    "cik": "0001934387",
+    "company_name": "CGL Logistics Holdings Ltd  (CGL)  (CIK 0001934387)",
+    "filing_type": "F-1/A",
+    "filing_date": "2026-03-19",
+    "events": [
+      {
+        "event_type": "filing",
+        "filing_type": "F-1",
+        "event_date": "2026-03-19",
+        "sec_accession": [
+          "333-291040"
+        ]
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "F-1/A",
+        "event_date": "2026-03-19",
+        "sec_accession": [
+          "333-291040"
+        ]
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "F-1/A",
+        "event_date": "2026-03-19",
+        "sec_accession": [
+          "333-291040"
+        ]
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "F-1/A",
+        "event_date": "2026-04-17",
+        "sec_accession": [
+          "333-291040"
+        ]
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "F-1/A",
+        "event_date": "2026-03-19",
+        "sec_accession": [
+          "333-291040"
+        ]
+      }
+    ],
+    "status": "amended"
+  },
+  {
+    "id": "0002020932",
+    "cik": "0002020932",
+    "company_name": "Agomab Therapeutics NV  (AGMB)  (CIK 0002020932)",
+    "filing_type": "F-1",
+    "filing_date": "2026-01-29",
+    "events": [
+      {
+        "event_type": "filing",
+        "filing_type": "F-1",
+        "event_date": "2026-01-29",
+        "sec_accession": [
+          "333-292790"
+        ]
+      },
+      {
+        "event_type": "filing",
+        "filing_type": "F-1",
+        "event_date": "2026-01-16",
+        "sec_accession": [
+          "333-292790"
+        ]
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "F-1/A",
+        "event_date": "2026-01-29",
+        "sec_accession": [
+          "333-292790"
+        ]
+      }
+    ],
+    "status": "filed"
+  },
+  {
+    "id": "0002075038",
+    "cik": "0002075038",
+    "company_name": "I Bella Perfect Inc.  (IBL)  (CIK 0002075038)",
+    "filing_type": "F-1",
+    "filing_date": "2026-03-10",
+    "events": [
+      {
+        "event_type": "filing",
+        "filing_type": "F-1",
+        "event_date": "2026-03-10",
+        "sec_accession": [
+          "333-292474"
+        ]
+      },
+      {
+        "event_type": "filing",
+        "filing_type": "F-1",
+        "event_date": "2026-04-29",
+        "sec_accession": [
+          "333-292474"
+        ]
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "F-1/A",
+        "event_date": "2026-03-10",
+        "sec_accession": [
+          "333-292474"
+        ]
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "F-1/A",
+        "event_date": "2026-04-29",
+        "sec_accession": [
+          "333-292474"
+        ]
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "F-1/A",
+        "event_date": "2026-03-25",
+        "sec_accession": [
+          "333-292474"
+        ]
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "F-1/A",
+        "event_date": "2026-03-10",
+        "sec_accession": [
+          "333-292474"
+        ]
+      }
+    ],
+    "status": "filed"
+  },
+  {
+    "id": "0002065149",
+    "cik": "0002065149",
+    "company_name": "SunHo BioTech Group Ltd  (CIK 0002065149)",
+    "filing_type": "F-1",
+    "filing_date": "2026-01-22",
+    "events": [
+      {
+        "event_type": "filing",
+        "filing_type": "F-1",
+        "event_date": "2026-01-22",
+        "sec_accession": [
+          "333-290188"
+        ]
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "F-1/A",
+        "event_date": "2026-01-22",
+        "sec_accession": [
+          "333-290188"
+        ]
+      }
+    ],
+    "status": "filed"
+  },
+  {
+    "id": "0002064555",
+    "cik": "0002064555",
+    "company_name": "ANGIE HOLDINGS Ltd  (CIK 0002064555)",
+    "filing_type": "F-1",
+    "filing_date": "2026-02-13",
+    "events": [
+      {
+        "event_type": "filing",
+        "filing_type": "F-1",
+        "event_date": "2026-02-13",
+        "sec_accession": [
+          "333-290239"
+        ]
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "F-1/A",
+        "event_date": "2026-02-13",
+        "sec_accession": [
+          "333-290239"
+        ]
+      }
+    ],
+    "status": "filed"
+  },
+  {
+    "id": "0002083345",
+    "cik": "0002083345",
+    "company_name": "Optimal AI Ltd  (CIK 0002083345)",
+    "filing_type": "F-1",
+    "filing_date": "2026-01-26",
+    "events": [
+      {
+        "event_type": "filing",
+        "filing_type": "F-1",
+        "event_date": "2026-01-26",
+        "sec_accession": [
+          "333-292484"
+        ]
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "F-1/A",
+        "event_date": "2026-01-26",
+        "sec_accession": [
+          "333-292484"
+        ]
+      }
+    ],
+    "status": "filed"
+  },
+  {
+    "id": "0002067602",
+    "cik": "0002067602",
+    "company_name": "Solar Strategy Holdings Ltd  (SSTR)  (CIK 0002067602)",
+    "filing_type": "F-1",
+    "filing_date": "2026-02-13",
+    "events": [
+      {
+        "event_type": "filing",
+        "filing_type": "F-1",
+        "event_date": "2026-02-13",
+        "sec_accession": [
+          "333-293450"
+        ]
+      }
+    ],
+    "status": "filed"
+  },
+  {
+    "id": "0002078035",
+    "cik": "0002078035",
+    "company_name": "Medikra Inc.  (CIK 0002078035)",
+    "filing_type": "F-1",
+    "filing_date": "2026-01-20",
+    "events": [
+      {
+        "event_type": "filing",
+        "filing_type": "F-1",
+        "event_date": "2026-01-20",
+        "sec_accession": [
+          "333-292816"
+        ]
+      }
+    ],
+    "status": "filed"
+  },
+  {
+    "id": "0002083843",
+    "cik": "0002083843",
+    "company_name": "Student Living EduVation (Holdings) Corp  (CIK 0002083843)",
+    "filing_type": "F-1",
+    "filing_date": "2026-05-01",
+    "events": [
+      {
+        "event_type": "filing",
+        "filing_type": "F-1",
+        "event_date": "2026-05-01",
+        "sec_accession": [
+          "333-292442"
+        ]
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "F-1/A",
+        "event_date": "2026-05-01",
+        "sec_accession": [
+          "333-292442"
+        ]
+      }
+    ],
+    "status": "filed"
+  },
+  {
+    "id": "0002043392",
+    "cik": "0002043392",
+    "company_name": "SIBO HOLDING Ltd  (SIBO)  (CIK 0002043392)",
+    "filing_type": "F-1",
+    "filing_date": "2026-01-14",
+    "events": [
+      {
+        "event_type": "filing",
+        "filing_type": "F-1",
+        "event_date": "2026-01-14",
+        "sec_accession": [
+          "333-292738"
+        ]
+      }
+    ],
+    "status": "filed"
+  },
+  {
+    "id": "0002074158",
+    "cik": "0002074158",
+    "company_name": "Wealth Management System Inc.  (GIVE)  (CIK 0002074158)",
+    "filing_type": "F-1",
+    "filing_date": "2026-05-01",
+    "events": [
+      {
+        "event_type": "filing",
+        "filing_type": "F-1",
+        "event_date": "2026-05-01",
+        "sec_accession": [
+          "333-290679"
+        ]
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "F-1/A",
+        "event_date": "2026-05-01",
+        "sec_accession": [
+          "333-290679"
+        ]
+      }
+    ],
+    "status": "filed"
+  },
+  {
+    "id": "0002075589",
+    "cik": "0002075589",
+    "company_name": "Law's Business Group Holding Ltd  (CIK 0002075589)",
+    "filing_type": "F-1",
+    "filing_date": "2026-03-25",
+    "events": [
+      {
+        "event_type": "filing",
+        "filing_type": "F-1",
+        "event_date": "2026-03-25",
+        "sec_accession": [
+          "333-290728"
+        ]
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "F-1/A",
+        "event_date": "2026-03-25",
+        "sec_accession": [
+          "333-290728"
+        ]
+      }
+    ],
+    "status": "filed"
+  },
+  {
+    "id": "0001974476",
+    "cik": "0001974476",
+    "company_name": "Suke Ltd  (CIK 0001974476)",
+    "filing_type": "F-1",
+    "filing_date": "2026-01-08",
+    "events": [
+      {
+        "event_type": "filing",
+        "filing_type": "F-1",
+        "event_date": "2026-01-08",
+        "sec_accession": [
+          "333-277857"
+        ]
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "F-1/A",
+        "event_date": "2026-01-08",
+        "sec_accession": [
+          "333-277857"
+        ]
+      }
+    ],
+    "status": "filed"
+  },
+  {
+    "id": "0002088375",
+    "cik": "0002088375",
+    "company_name": "Turbogen Ltd.  (CIK 0002088375)",
+    "filing_type": "F-1",
+    "filing_date": "2026-03-12",
+    "events": [
+      {
+        "event_type": "filing",
+        "filing_type": "F-1",
+        "event_date": "2026-03-12",
+        "sec_accession": [
+          "333-294225"
+        ]
+      }
+    ],
+    "status": "filed"
+  },
+  {
+    "id": "0001997950",
+    "cik": "0001997950",
+    "company_name": "Unitrend Entertainment Group Ltd  (INHI)  (CIK 0001997950)",
+    "filing_type": "F-1",
+    "filing_date": "2026-01-22",
+    "events": [
+      {
+        "event_type": "filing",
+        "filing_type": "F-1",
+        "event_date": "2026-01-22",
+        "sec_accession": [
+          "333-292883"
+        ]
+      },
+      {
+        "event_type": "filing",
+        "filing_type": "F-1",
+        "event_date": "2026-03-24",
+        "sec_accession": [
+          "333-292883"
+        ]
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "F-1/A",
+        "event_date": "2026-03-24",
+        "sec_accession": [
+          "333-292883"
+        ]
+      }
+    ],
+    "status": "filed"
+  },
+  {
+    "id": "0002069858",
+    "cik": "0002069858",
+    "company_name": "APEX Global Solutions Ltd  (APEX)  (CIK 0002069858)",
+    "filing_type": "F-1",
+    "filing_date": "2026-02-27",
+    "events": [
+      {
+        "event_type": "filing",
+        "filing_type": "F-1",
+        "event_date": "2026-02-27",
+        "sec_accession": [
+          "333-293833"
+        ]
+      }
+    ],
+    "status": "filed"
+  },
+  {
+    "id": "0002054947",
+    "cik": "0002054947",
+    "company_name": "C&K Group Ltd  (CIK 0002054947)",
+    "filing_type": "F-1",
+    "filing_date": "2026-02-13",
+    "events": [
+      {
+        "event_type": "filing",
+        "filing_type": "F-1",
+        "event_date": "2026-02-13",
+        "sec_accession": [
+          "333-293437"
+        ]
+      },
+      {
+        "event_type": "filing",
+        "filing_type": "F-1",
+        "event_date": "2026-02-13",
+        "sec_accession": [
+          "333-293437"
+        ]
+      }
+    ],
+    "status": "filed"
+  },
+  {
+    "id": "0002084806",
+    "cik": "0002084806",
+    "company_name": "Gravity AI  (CIK 0002084806)",
+    "filing_type": "F-1",
+    "filing_date": "2026-02-06",
+    "events": [
+      {
+        "event_type": "filing",
+        "filing_type": "F-1",
+        "event_date": "2026-02-06",
+        "sec_accession": [
+          "333-293260"
+        ]
+      }
+    ],
+    "status": "filed"
+  },
+  {
+    "id": "0002013100",
+    "cik": "0002013100",
+    "company_name": "VISTEK LTD  (VTEK)  (CIK 0002013100)",
+    "filing_type": "F-1",
+    "filing_date": "2026-03-30",
+    "events": [
+      {
+        "event_type": "filing",
+        "filing_type": "F-1",
+        "event_date": "2026-03-30",
+        "sec_accession": [
+          "333-294194"
+        ]
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "F-1/A",
+        "event_date": "2026-03-30",
+        "sec_accession": [
+          "333-294194"
+        ]
+      }
+    ],
+    "status": "filed"
+  },
+  {
+    "id": "0002075036",
+    "cik": "0002075036",
+    "company_name": "EvoNexus Group LTD  (EVON)  (CIK 0002075036)",
+    "filing_type": "F-1",
+    "filing_date": "2026-03-19",
+    "events": [
+      {
+        "event_type": "filing",
+        "filing_type": "F-1",
+        "event_date": "2026-03-19",
+        "sec_accession": [
+          "333-292763"
+        ]
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "F-1/A",
+        "event_date": "2026-03-19",
+        "sec_accession": [
+          "333-292763"
+        ]
+      }
+    ],
+    "status": "filed"
+  },
+  {
+    "id": "0002037916",
+    "cik": "0002037916",
+    "company_name": "GEBE Environmental Technology Ltd  (CIK 0002037916)",
+    "filing_type": "F-1",
+    "filing_date": "2026-01-20",
+    "events": [
+      {
+        "event_type": "filing",
+        "filing_type": "F-1",
+        "event_date": "2026-01-20",
+        "sec_accession": [
+          "333-288017"
+        ]
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "F-1/A",
+        "event_date": "2026-01-20",
+        "sec_accession": [
+          "333-288017"
+        ]
+      }
+    ],
+    "status": "filed"
+  },
+  {
+    "id": "0002065741",
+    "cik": "0002065741",
+    "company_name": "Neutrans Inc.  (NEUT)  (CIK 0002065741)",
+    "filing_type": "F-1",
+    "filing_date": "2026-04-22",
+    "events": [
+      {
+        "event_type": "filing",
+        "filing_type": "F-1",
+        "event_date": "2026-04-22",
+        "sec_accession": [
+          "333-290747"
+        ]
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "F-1/A",
+        "event_date": "2026-04-22",
+        "sec_accession": [
+          "333-290747"
+        ]
+      }
+    ],
+    "status": "filed"
+  },
+  {
+    "id": "0002083526",
+    "cik": "0002083526",
+    "company_name": "Micware Co., Ltd.  (CIK 0002083526)",
+    "filing_type": "F-1",
+    "filing_date": "2026-03-06",
+    "events": [
+      {
+        "event_type": "filing",
+        "filing_type": "F-1",
+        "event_date": "2026-03-06",
+        "sec_accession": [
+          "333-294081"
+        ]
+      }
+    ],
+    "status": "filed"
+  },
+  {
+    "id": "0002087162",
+    "cik": "0002087162",
+    "company_name": "Yesil Global Enerji A.S.  (CIK 0002087162)",
+    "filing_type": "F-1",
+    "filing_date": "2026-03-10",
+    "events": [
+      {
+        "event_type": "filing",
+        "filing_type": "F-1",
+        "event_date": "2026-03-10",
+        "sec_accession": [
+          "333-294160"
+        ]
+      }
+    ],
+    "status": "filed"
+  },
+  {
+    "id": "0002095443",
+    "cik": "0002095443",
+    "company_name": "Breeze Acquisition Corp. II  (BREZ)  (CIK 0002095443)",
+    "filing_type": "S-1/A",
+    "filing_date": "2026-03-03",
+    "events": [
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2026-03-03",
+        "sec_accession": [
+          "333-291575"
+        ]
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2026-02-23",
+        "sec_accession": [
+          "333-291575"
+        ]
+      }
+    ],
+    "status": "amended"
+  },
+  {
+    "id": "0002108164",
+    "cik": "0002108164",
+    "company_name": "Pono Capital Four, Inc.  (PONO)  (CIK 0002108164)",
+    "filing_type": "S-1/A",
+    "filing_date": "2026-03-03",
+    "events": [
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2026-03-03",
+        "sec_accession": [
+          "333-293120"
+        ]
+      }
+    ],
+    "status": "amended"
+  },
+  {
+    "id": "0002093912",
+    "cik": "0002093912",
+    "company_name": "Praetorian Acquisition Corp.  (PTOR)  (CIK 0002093912)",
+    "filing_type": "S-1/A",
+    "filing_date": "2026-01-20",
+    "events": [
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2026-01-20",
+        "sec_accession": [
+          "333-291569"
+        ]
+      }
+    ],
+    "status": "amended"
+  },
+  {
+    "id": "0002094265",
+    "cik": "0002094265",
+    "company_name": "Mountain Lake Acquisition Corp. II  (MLAA)  (CIK 0002094265)",
+    "filing_type": "S-1/A",
+    "filing_date": "2026-01-21",
+    "events": [
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2026-01-21",
+        "sec_accession": [
+          "333-291833"
+        ]
+      }
+    ],
+    "status": "amended"
+  },
+  {
+    "id": "0002092897",
+    "cik": "0002092897",
+    "company_name": "Armada Acquisition Corp. III  (CIK 0002092897)",
+    "filing_type": "S-1/A",
+    "filing_date": "2026-01-28",
+    "events": [
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2026-01-28",
+        "sec_accession": [
+          "333-291013"
+        ]
+      }
+    ],
+    "status": "amended"
+  },
+  {
+    "id": "0002096755",
+    "cik": "0002096755",
+    "company_name": "Texas Ventures Acquisition IV Corp  (TVIV)  (CIK 0002096755)",
+    "filing_type": "S-1/A",
+    "filing_date": "2026-03-10",
+    "events": [
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2026-03-10",
+        "sec_accession": [
+          "333-292010"
+        ]
+      }
+    ],
+    "status": "amended"
+  },
+  {
+    "id": "0002095161",
+    "cik": "0002095161",
+    "company_name": "D. Boral Acquisition I Corp.  (DBCA)  (CIK 0002095161)",
+    "filing_type": "S-1/A",
+    "filing_date": "2026-01-26",
+    "events": [
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2026-01-26",
+        "sec_accession": [
+          "333-291613"
+        ]
+      }
+    ],
+    "status": "amended"
+  },
+  {
+    "id": "0002093484",
+    "cik": "0002093484",
+    "company_name": "Muzero Acquisition Corp  (CIK 0002093484)",
+    "filing_type": "S-1/A",
+    "filing_date": "2026-01-28",
+    "events": [
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2026-01-28",
+        "sec_accession": [
+          "333-291923"
+        ]
+      }
+    ],
+    "status": "amended"
+  },
+  {
+    "id": "0002089982",
+    "cik": "0002089982",
+    "company_name": "HCM IV Acquisition Corp.  (CIK 0002089982)",
+    "filing_type": "S-1/A",
+    "filing_date": "2026-01-20",
+    "events": [
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2026-01-20",
+        "sec_accession": [
+          "333-291343"
+        ]
+      }
+    ],
+    "status": "amended"
+  },
+  {
+    "id": "0002010218",
+    "cik": "0002010218",
+    "company_name": "Antharas Inc  (AAS)  (CIK 0002010218)",
+    "filing_type": "F-1/A",
+    "filing_date": "2026-03-27",
+    "events": [
+      {
+        "event_type": "amendment",
+        "filing_type": "F-1/A",
+        "event_date": "2026-03-27",
+        "sec_accession": [
+          "333-284297"
+        ]
+      }
+    ],
+    "status": "amended"
+  },
+  {
+    "id": "0002073819",
+    "cik": "0002073819",
+    "company_name": "Nihon Shintatsu Co., Ltd.  (JSTT)  (CIK 0002073819)",
+    "filing_type": "F-1/A",
+    "filing_date": "2026-01-15",
+    "events": [
+      {
+        "event_type": "amendment",
+        "filing_type": "F-1/A",
+        "event_date": "2026-01-15",
+        "sec_accession": [
+          "333-290030"
+        ]
+      }
+    ],
+    "status": "amended"
+  },
+  {
+    "id": "0002027329",
+    "cik": "0002027329",
+    "company_name": "Optimi Health Corp.  (OPTH, OPTHF)  (CIK 0002027329)",
+    "filing_type": "F-1/A",
+    "filing_date": "2026-04-16",
+    "events": [
+      {
+        "event_type": "amendment",
+        "filing_type": "F-1/A",
+        "event_date": "2026-04-16",
+        "sec_accession": [
+          "333-290086"
+        ]
+      }
+    ],
+    "status": "amended"
+  },
+  {
+    "id": "0002081737",
+    "cik": "0002081737",
+    "company_name": "CyberScope Web3 Security Inc.  (CIK 0002081737)",
+    "filing_type": "F-1/A",
+    "filing_date": "2026-01-14",
+    "events": [
+      {
+        "event_type": "amendment",
+        "filing_type": "F-1/A",
+        "event_date": "2026-01-14",
+        "sec_accession": [
+          "333-291995"
+        ]
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "F-1/A",
+        "event_date": "2026-02-20",
+        "sec_accession": [
+          "333-291995"
+        ]
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "F-1/A",
+        "event_date": "2026-01-22",
+        "sec_accession": [
+          "333-291995"
+        ]
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "F-1/A",
+        "event_date": "2026-01-13",
+        "sec_accession": [
+          "333-291995"
+        ]
+      }
+    ],
+    "status": "amended"
+  },
+  {
     "id": "RIKU",
     "cik": null,
     "company_name": "RIKU DINING GROUP Ltd",
@@ -47,8 +1633,8 @@
       }
     ],
     "status": "upcoming",
-    "description": "EagleRock Land, LLC is a leading land development company focused on creating sustainable and innovative residential and commercial properties. With a commitment to environmental stewardship and community engagement, EagleRock aims to transform landscapes while enhancing quality of life.",
-    "products_services": "Residential and commercial land development, property management, and consulting services.",
+    "description": "EagleRock Land, LLC is a leading land development company focused on sustainable and innovative real estate solutions. With a commitment to enhancing community living, the company specializes in residential and commercial land projects.",
+    "products_services": "Land development, real estate project management, and sustainable community planning.",
     "industry": "Real Estate Development"
   },
   {
@@ -74,7 +1660,7 @@
     ],
     "status": "upcoming",
     "description": "Blackstone Digital Infrastructure Trust Inc. is a real estate investment trust focused on acquiring and managing digital infrastructure assets, including data centers and communication towers. The company aims to capitalize on the growing demand for digital connectivity and data storage solutions.",
-    "products_services": "Data centers, communication towers, and other digital infrastructure assets.",
+    "products_services": "Digital infrastructure assets such as data centers, communication towers, and fiber networks.",
     "industry": "Real Estate Investment Trust (REIT) / Digital Infrastructure"
   },
   {
@@ -125,8 +1711,8 @@
       }
     ],
     "status": "upcoming",
-    "description": "GMR Solutions Inc. is a leading provider of innovative technology solutions designed to enhance operational efficiency and drive business growth. The company specializes in software development, data analytics, and IT consulting services.",
-    "products_services": "Software development, data analytics, IT consulting services",
+    "description": "GMR Solutions Inc. is a leading provider of innovative technology solutions, specializing in software development and IT consulting services. The company focuses on delivering tailored solutions to enhance operational efficiency and drive digital transformation for businesses across various sectors.",
+    "products_services": "Custom software development, IT consulting, cloud solutions, and digital transformation services.",
     "industry": "Information Technology"
   },
   {
@@ -151,8 +1737,8 @@
       }
     ],
     "status": "upcoming",
-    "description": "Fervo Energy Co. is an innovative geothermal energy company focused on harnessing the Earth's heat to provide sustainable and reliable power solutions. Their advanced technology aims to revolutionize the geothermal sector by enhancing energy efficiency and reducing carbon emissions.",
-    "products_services": "Geothermal energy production, advanced drilling technology, and energy storage solutions.",
+    "description": "Fervo Energy Co. is an innovative geothermal energy company focused on harnessing the Earth's heat to provide sustainable and reliable power solutions. By utilizing advanced drilling techniques and proprietary technology, Fervo aims to revolutionize the geothermal sector and contribute to a cleaner energy future.",
+    "products_services": "Geothermal energy production, advanced drilling technology, and energy consulting services.",
     "industry": "Renewable Energy"
   },
   {
@@ -177,8 +1763,8 @@
       }
     ],
     "status": "upcoming",
-    "description": "BW Industrial Holdings Inc. is a leading provider of industrial services and solutions, focusing on enhancing operational efficiency for various sectors. The company aims to leverage innovative technologies and expert knowledge to deliver high-quality services to its clients.",
-    "products_services": "Industrial maintenance, equipment rental, and specialized engineering services.",
+    "description": "BW Industrial Holdings Inc. is a leading provider of industrial services and solutions, focusing on enhancing operational efficiency and sustainability for its clients. The company aims to leverage innovative technologies and expert insights to drive growth in the industrial sector.",
+    "products_services": "Industrial services, operational efficiency solutions, sustainability consulting, and technology integration.",
     "industry": "Industrial Services"
   },
   {
@@ -203,7 +1789,7 @@
       }
     ],
     "status": "upcoming",
-    "description": "Mobia Medical, Inc. is a pioneering healthcare technology company focused on developing innovative solutions to enhance patient care and streamline medical processes. With a commitment to improving health outcomes, Mobia leverages advanced technology to create user-friendly medical devices and software.",
+    "description": "Mobia Medical, Inc. is a pioneering healthcare technology company focused on developing innovative solutions to enhance patient care and streamline medical processes. With a commitment to improving health outcomes, the company leverages advanced technology to create user-friendly medical devices and software.",
     "products_services": "Mobia Medical offers a range of products including telehealth platforms, remote patient monitoring devices, and integrated healthcare management software.",
     "industry": "Healthcare Technology"
   },
@@ -230,7 +1816,7 @@
     ],
     "status": "upcoming",
     "description": "Odyssey Therapeutics, Inc. is a biotechnology company focused on discovering and developing innovative therapies for patients with serious diseases. The company leverages advanced technologies to create targeted treatments that address unmet medical needs.",
-    "products_services": "The company specializes in drug discovery and development, particularly in the fields of oncology and autoimmune diseases.",
+    "products_services": "Odyssey Therapeutics develops novel drug candidates aimed at various therapeutic areas, including oncology and autoimmune diseases.",
     "industry": "Biotechnology"
   },
   {
@@ -281,8 +1867,8 @@
       }
     ],
     "status": "upcoming",
-    "description": "HawkEye 360, Inc. is a technology company specializing in satellite-based radio frequency (RF) data collection and analysis. The company leverages its innovative satellite constellation to provide insights for various sectors, including defense, maritime, and telecommunications.",
-    "products_services": "HawkEye 360 offers RF geolocation services, data analytics, and insights derived from its satellite constellation, enabling clients to monitor and analyze RF signals globally.",
+    "description": "HawkEye 360, Inc. is a technology company specializing in satellite-based radio frequency (RF) data collection and analysis. The company aims to provide actionable insights for various sectors, including defense, maritime, and telecommunications.",
+    "products_services": "Satellite-based RF data collection, analytics software, and geospatial intelligence services.",
     "industry": "Aerospace and Defense"
   },
   {
@@ -309,33 +1895,7 @@
     "status": "upcoming",
     "description": "Rare Earths Americas, Inc. is a leading company focused on the exploration and development of rare earth element resources in North America. The company aims to provide sustainable and reliable sources of critical materials essential for various high-tech applications.",
     "products_services": "Rare earth elements, mining and processing services, and supply chain solutions for high-tech industries.",
-    "industry": "Mining and Minerals"
-  },
-  {
-    "id": "VECAU",
-    "cik": null,
-    "company_name": "Vernal Capital Acquisition Corp.",
-    "ticker": "VECAU",
-    "exchange": "NYSE",
-    "expected_date": "2026-05-06",
-    "actual_date": null,
-    "price_range_low": 10.0,
-    "price_range_high": 10.0,
-    "offer_price": null,
-    "shares_offered": 10000000,
-    "filing_type": null,
-    "filing_date": null,
-    "events": [
-      {
-        "event_type": "exchange_upcoming",
-        "filing_type": null,
-        "event_date": "2026-05-06"
-      }
-    ],
-    "status": "upcoming",
-    "description": "Vernal Capital Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the technology and consumer sectors. The firm aims to leverage its management team's expertise to drive growth and create value for shareholders.",
-    "products_services": "Vernal Capital Acquisition Corp. primarily engages in the acquisition and merger of companies, providing capital and strategic support to enhance their growth potential.",
-    "industry": "Financial Services"
+    "industry": "Mining and Materials"
   },
   {
     "id": "SPTX",
@@ -359,8 +1919,8 @@
       }
     ],
     "status": "listed",
-    "description": "Seaport Therapeutics, Inc. is a biotechnology company focused on developing innovative therapies for neurological disorders. The company aims to address unmet medical needs through its proprietary drug discovery platform.",
-    "products_services": "Therapeutic drug candidates targeting neurological conditions, research and development services.",
+    "description": "Seaport Therapeutics, Inc. is a biotechnology company focused on developing innovative therapies for neurological disorders. The company aims to leverage its proprietary platform to address unmet medical needs in the treatment of conditions such as chronic pain and neurodegenerative diseases.",
+    "products_services": "Therapeutic drug candidates targeting neurological disorders and chronic pain management solutions.",
     "industry": "Biotechnology"
   },
   {
@@ -385,8 +1945,8 @@
       }
     ],
     "status": "listed",
-    "description": "CH4 Natural Solutions Corp. is a pioneering company focused on innovative solutions for methane emissions reduction and sustainable agriculture. By leveraging advanced technologies, the company aims to transform waste into valuable resources, contributing to a greener planet.",
-    "products_services": "Methane reduction technologies, sustainable agricultural products, and waste-to-resource solutions.",
+    "description": "CH4 Natural Solutions Corp. is a pioneering company focused on innovative solutions for methane emissions reduction and sustainable agriculture. By leveraging advanced technologies, the company aims to transform waste into valuable resources, contributing to environmental sustainability.",
+    "products_services": "Methane reduction technologies, agricultural waste management solutions, and carbon offset programs.",
     "industry": "Environmental Technology and Sustainable Agriculture"
   },
   {
