@@ -138,5 +138,145 @@
     "description": "Illumination Acquisition Corp. I is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the technology and media sectors. The company aims to leverage its management team's expertise to drive growth and create value for shareholders post-merger.",
     "products_services": "As a SPAC, Illumination Acquisition Corp. I does not offer traditional products or services but seeks to acquire a target company that will provide growth opportunities in technology and media.",
     "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)"
+  },
+  "CMIIU": {
+    "description": "Columbus Circle Capital Corp II is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative businesses in high-growth sectors. The company aims to leverage its management team's expertise to create value for shareholders through strategic acquisitions.",
+    "products_services": "The company primarily engages in the acquisition of businesses and assets, with a focus on sectors such as technology, healthcare, and consumer products.",
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)"
+  },
+  "PLUNU": {
+    "description": "Plutonian Acquisition Corp. II is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in high-growth sectors. The firm aims to leverage its expertise to create value for shareholders through strategic partnerships and acquisitions.",
+    "products_services": "As a SPAC, Plutonian Acquisition Corp. II primarily offers capital and resources to target companies for merger or acquisition, facilitating their growth and expansion.",
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)"
+  },
+  "GENB": {
+    "description": "Generate Biomedicines, Inc. is a biotechnology company focused on harnessing the power of generative biology to create novel therapeutic proteins and biologics. The company aims to revolutionize drug discovery and development through its innovative platform that combines machine learning and synthetic biology.",
+    "products_services": "Therapeutic proteins, biologics, drug discovery platform.",
+    "industry": "Biotechnology"
+  },
+  "FVAV": {
+    "description": "Fortress Value Acquisition Corp. V is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in high-growth sectors. The firm aims to leverage its management team's expertise to create value for shareholders through strategic acquisitions.",
+    "products_services": "The company primarily engages in the acquisition of businesses and assets in various industries, with a focus on technology and consumer sectors.",
+    "industry": "Financial Services / SPACs"
+  },
+  "TRADU": {
+    "description": "APEX Tech Acquisition Inc. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative technology firms. The company aims to leverage its expertise to accelerate growth and create value for shareholders.",
+    "products_services": "Investment and acquisition services targeting technology companies.",
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)"
+  },
+  "CTAAU": {
+    "description": "Clearthink 1 Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in high-growth sectors. The firm aims to leverage its expertise to create value for shareholders through strategic partnerships and acquisitions.",
+    "products_services": "As a SPAC, Clearthink 1 Acquisition Corp. primarily offers capital and strategic guidance to target companies in the process of going public.",
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)"
+  },
+  "ROC": {
+    "description": "Rank One Computing Corp. specializes in advanced artificial intelligence and machine learning solutions, focusing on enhancing data processing capabilities for various industries.",
+    "products_services": "The company offers AI-driven software tools, data analytics platforms, and custom machine learning models tailored to client needs.",
+    "industry": "Technology and Artificial Intelligence"
+  },
+  "AACOU": {
+    "description": "Abony Acquisition Corp. I is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in growth sectors. The firm aims to leverage its management team's expertise to drive value creation post-merger.",
+    "products_services": "As a SPAC, Abony Acquisition Corp. I does not offer traditional products or services but seeks to acquire a target company to facilitate its growth and expansion.",
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)"
+  },
+  "PALOU": {
+    "description": "Paloma Acquisition Corp I is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in high-growth sectors. The company aims to leverage its management team's expertise to create value for shareholders through strategic acquisitions.",
+    "products_services": "As a SPAC, Paloma Acquisition Corp I does not offer traditional products or services but seeks to acquire a target company to bring it public.",
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)"
+  },
+  "AIDX": {
+    "description": "20/20 Biolabs, Inc. is a biotechnology company focused on providing advanced genomic testing and analysis services to enhance personalized medicine. The company aims to revolutionize healthcare by offering innovative solutions that improve patient outcomes through precise genetic insights.",
+    "products_services": "Genomic testing services, DNA sequencing, personalized medicine solutions, and bioinformatics analysis.",
+    "industry": "Biotechnology"
+  },
+  "SHAZ": {
+    "description": "SharonAI Holdings Inc. is an innovative technology company focused on developing advanced artificial intelligence solutions for various industries. The company aims to enhance operational efficiency and decision-making processes through its cutting-edge AI products.",
+    "products_services": "AI-driven software solutions, machine learning platforms, and data analytics tools.",
+    "industry": "Technology / Artificial Intelligence"
+  },
+  "RFAMU": {
+    "description": "RF Acquisition Corp III is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in high-growth sectors.",
+    "products_services": "The company aims to provide capital and strategic support to its target businesses, facilitating their growth and expansion.",
+    "industry": "Financial Services / SPACs"
+  },
+  "WLIIU": {
+    "description": "Willow Lane Acquisition Corp. II is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in high-growth sectors. The firm aims to leverage its management team's expertise to create value for shareholders through strategic acquisitions.",
+    "products_services": "As a SPAC, Willow Lane Acquisition Corp. II does not offer traditional products or services but seeks to acquire and operate a target company in a high-growth industry.",
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)"
+  },
+  "APC": {
+    "description": "ARKO Petroleum Corp. is a leading energy company focused on the exploration and production of oil and natural gas resources. The company aims to leverage innovative technologies and sustainable practices to enhance its operational efficiency and environmental stewardship.",
+    "products_services": "Exploration and production of oil and natural gas, as well as related energy services.",
+    "industry": "Energy and Oil & Gas Exploration"
+  },
+  "HACQU": {
+    "description": "HCM IV Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the healthcare sector. The company aims to leverage its expertise and resources to drive growth and create value for shareholders.",
+    "products_services": "As a SPAC, HCM IV Acquisition Corp. does not offer traditional products or services but seeks to acquire a target company in the healthcare industry to facilitate its growth and expansion.",
+    "industry": "Healthcare"
+  },
+  "IACOU": {
+    "description": "Idea Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in high-growth sectors. The firm aims to leverage its expertise to create value for shareholders through strategic acquisitions.",
+    "products_services": "As a SPAC, Idea Acquisition Corp. primarily offers capital and strategic guidance to target companies, facilitating their transition to public markets.",
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)"
+  },
+  "TMTSU": {
+    "description": "Spartacus Acquisition Corp. II is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in high-growth sectors. The firm aims to leverage its management team's expertise to create value for shareholders through strategic acquisitions.",
+    "products_services": "The company primarily engages in the acquisition and merger of businesses, providing capital and operational support to facilitate growth and expansion.",
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)"
+  },
+  "AGBK": {
+    "description": "AGI Inc. is a leading provider of advanced geospatial solutions, specializing in data analytics and mapping technologies. The company aims to enhance decision-making processes across various sectors by delivering innovative software and services.",
+    "products_services": "Geospatial analytics software, mapping solutions, data visualization tools, and consulting services.",
+    "industry": "Geospatial Technology"
+  },
+  "MWH": {
+    "description": "SOLV Energy, Inc. is a leading provider of solar energy solutions, specializing in the development, engineering, and construction of large-scale solar projects. The company aims to accelerate the transition to renewable energy through innovative technologies and sustainable practices.",
+    "products_services": "SOLV Energy offers a range of services including solar project development, engineering, procurement, construction, and operations and maintenance for solar energy systems.",
+    "industry": "Renewable Energy/Solar Energy"
+  },
+  "SVIVU": {
+    "description": "Spring Valley Acquisition Corp. IV is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the technology and sustainability sectors. The firm aims to leverage its expertise to drive growth and create value for shareholders post-merger.",
+    "products_services": "As a SPAC, Spring Valley Acquisition Corp. IV does not offer traditional products or services but seeks to acquire and support companies that provide innovative solutions in technology and sustainability.",
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)"
+  },
+  "JAGU": {
+    "description": "Jaguar Uranium Corp. is a resource exploration company focused on the acquisition and development of uranium properties in North America. The company aims to capitalize on the growing demand for uranium as a clean energy source.",
+    "products_services": "Uranium exploration and development services, including geological surveys and resource assessments.",
+    "industry": "Mining and Minerals"
+  },
+  "SGP": {
+    "description": "SpyGlass Pharma, Inc. is a biopharmaceutical company focused on developing innovative therapies for rare and complex diseases. The company leverages advanced drug delivery systems to enhance treatment efficacy and patient outcomes.",
+    "products_services": "Innovative drug delivery systems and therapeutic solutions for rare diseases.",
+    "industry": "Biopharmaceuticals"
+  },
+  "EIKN": {
+    "description": "Eikon Therapeutics, Inc. is a biotechnology company focused on developing innovative therapies using its proprietary technology platform to target and modulate protein interactions in cells. The company aims to address unmet medical needs in various diseases through its advanced drug discovery and development processes.",
+    "products_services": "Eikon Therapeutics specializes in protein modulation therapies and drug discovery technologies, leveraging its unique platform to create targeted treatments for complex diseases.",
+    "industry": "Biotechnology"
+  },
+  "HCICU": {
+    "description": "Hennessy Capital Investment Corp. VIII is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the transportation and logistics sectors. The firm aims to leverage its management team's expertise to drive growth and create value for shareholders.",
+    "products_services": "Investment and acquisition of companies in the transportation and logistics industries.",
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)"
+  },
+  "CEPS": {
+    "description": "Cantor Equity Partners VI, Inc. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in high-growth sectors. The firm aims to leverage its extensive network and industry expertise to create value for shareholders through strategic partnerships and investments.",
+    "products_services": "Investment and acquisition services targeting high-growth companies, primarily in technology and healthcare sectors.",
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)"
+  },
+  "BOBS": {
+    "description": "Bob's Discount Furniture, Inc. is a leading retailer specializing in affordable and stylish home furnishings. The company offers a wide range of products including sofas, beds, dining sets, and home decor, catering to budget-conscious consumers.",
+    "products_services": "Home furniture, including sofas, beds, dining sets, and home decor items.",
+    "industry": "Retail Furniture"
+  },
+  "MANE": {
+    "description": "Veradermics, Inc. is an innovative biotechnology company focused on developing advanced dermatological treatments to enhance skin health and appearance. With a commitment to research and development, the company aims to revolutionize the skincare industry through cutting-edge solutions.",
+    "products_services": "Veradermics offers a range of products including topical treatments, serums, and skincare devices designed to address various skin conditions and improve overall skin quality.",
+    "industry": "Biotechnology / Dermatology"
+  },
+  "OBAI": {
+    "description": "Our Bond, Inc. is a pioneering financial technology company focused on revolutionizing the bond issuance process through innovative digital solutions. By streamlining transactions and enhancing transparency, the company aims to make bond markets more accessible to a wider range of investors.",
+    "products_services": "Digital bond issuance platform, investment analytics tools, and market data services.",
+    "industry": "Financial Technology (FinTech)"
   }
 }
