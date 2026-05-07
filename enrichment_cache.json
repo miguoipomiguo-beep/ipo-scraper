@@ -868,5 +868,10 @@
     "description": "Maywood Acquisition Corp. 2 is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in high-growth sectors. The company aims to leverage its management team's expertise to create value for shareholders through strategic acquisitions.",
     "products_services": "As a SPAC, Maywood Acquisition Corp. 2 does not offer traditional products or services but seeks to acquire and operate a target company in a high-potential industry.",
     "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)"
+  },
+  "0002084806": {
+    "description": "Gravity AI is a pioneering technology company focused on harnessing artificial intelligence to drive innovative solutions across various sectors. With a commitment to enhancing operational efficiency and decision-making, Gravity AI aims to empower businesses through advanced AI-driven tools and platforms.",
+    "products_services": "AI-driven analytics platforms, machine learning solutions, and custom AI application development services.",
+    "industry": "Artificial Intelligence and Technology"
   }
 }
