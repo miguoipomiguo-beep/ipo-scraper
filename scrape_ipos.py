@@ -652,6 +652,36 @@ async def supplement_nasdaq_ciks(sec_companies: list, nasdaq_data: dict) -> list
     return sec_companies
 
 
+ENRICHMENT_CACHE = Path(__file__).parent / "enrichment_cache.json"
+
+
+def load_enrichment_cache() -> dict:
+    """過去のLLM補完結果を読み込む（id → {description, products_services, industry}）"""
+    if ENRICHMENT_CACHE.exists():
+        try:
+            with open(ENRICHMENT_CACHE, "r") as f:
+                return json.load(f)
+        except:
+            pass
+    return {}
+
+
+def save_enrichment_cache(cache: dict):
+    with open(ENRICHMENT_CACHE, "w") as f:
+        json.dump(cache, f, ensure_ascii=False, indent=2)
+
+
+def apply_enrichment_cache(ipos: list, cache: dict):
+    """キャッシュからdescription等を復元"""
+    applied = 0
+    for ipo in ipos:
+        ipo_id = ipo.get("id") or ipo.get("ticker") or ipo.get("cik")
+        if ipo_id and ipo_id in cache and not ipo.get("description"):
+            ipo.update(cache[ipo_id])
+            applied += 1
+    print(f"  Cache applied: {applied} companies")
+
+
 async def main():
     print(f"{'='*60}")
     print(f"US IPO Calendar v3 - {datetime.now().isoformat()}")
@@ -664,7 +694,26 @@ async def main():
     sec = await supplement_nasdaq_ciks(sec, nasdaq)
 
     merged = merge_all(sec, nasdaq)
+
+    # 過去のLLM結果をキャッシュから復元
+    cache = load_enrichment_cache()
+    if cache:
+        print(f"\n=== Enrichment Cache ({len(cache)} entries) ===")
+        apply_enrichment_cache(merged, cache)
+
+    # LLMで未補完分を補完
     enriched = await enrich_with_llm(merged)
+
+    # キャッシュを更新保存
+    for ipo in enriched:
+        ipo_id = ipo.get("id") or ipo.get("ticker") or ipo.get("cik")
+        if ipo_id and ipo.get("description"):
+            cache[ipo_id] = {
+                "description": ipo.get("description"),
+                "products_services": ipo.get("products_services"),
+                "industry": ipo.get("industry"),
+            }
+    save_enrichment_cache(cache)
 
     with open("ipo_data.json", "w") as f:
         json.dump([{k:v for k,v in i.items() if k not in ("nasdaq_status","_latest_date")} for i in enriched], f, ensure_ascii=False, indent=2, default=str)
