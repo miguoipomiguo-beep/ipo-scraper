@@ -426,9 +426,9 @@ def determine_status(company: dict) -> str:
     ft = company.get("filing_type")
     events = company.get("events", [])
 
-    # REIT（S-11系）は除外対象
+    # REIT（S-11系）でNASDAQに未掲載 = 除外
     is_reit = any(e.get("filing_type") in ("S-11", "S-11/A") for e in events)
-    if is_reit:
+    if is_reit and not ns:
         return "excluded"
 
     # EFFECT + 424B4あり or EFFECT複数回 = 既に上場済み
