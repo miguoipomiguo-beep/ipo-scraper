@@ -724,7 +724,7 @@ async def main():
         apply_enrichment_cache(merged, cache)
 
     # LLMで未補完分を補完
-    enriched = await enrich_with_llm(merged)
+    enriched = await enrich_with_llm(merged) or merged
 
     # キャッシュを更新保存
     for ipo in enriched:
