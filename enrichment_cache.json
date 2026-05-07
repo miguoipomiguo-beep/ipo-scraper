@@ -278,5 +278,520 @@
     "description": "Our Bond, Inc. is a pioneering financial technology company focused on revolutionizing the bond issuance process through innovative digital solutions. By streamlining transactions and enhancing transparency, the company aims to make bond markets more accessible to a wider range of investors.",
     "products_services": "Digital bond issuance platform, investment analytics tools, and market data services.",
     "industry": "Financial Technology (FinTech)"
+  },
+  "CGL": {
+    "description": "CGL Logistics Holdings Ltd. is a leading provider of integrated logistics solutions, specializing in supply chain management and transportation services. The company aims to enhance operational efficiency for businesses through innovative logistics strategies and technology-driven solutions.",
+    "products_services": "Integrated logistics solutions, supply chain management, transportation services, warehousing, and distribution.",
+    "industry": "Logistics and Supply Chain Management"
+  },
+  "APEX": {
+    "description": "APEX Global Solutions Ltd. is a leading provider of innovative technology solutions aimed at enhancing operational efficiency for businesses worldwide. With a focus on cutting-edge software development and IT consulting, the company is poised for significant growth in the rapidly evolving tech landscape.",
+    "products_services": "Custom software development, IT consulting, cloud solutions, and cybersecurity services.",
+    "industry": "Information Technology"
+  },
+  "NEUT": {
+    "description": "Neutrans Inc. is an innovative technology company focused on developing advanced solutions for sustainable transportation and logistics. By leveraging cutting-edge software and data analytics, Neutrans aims to optimize supply chain efficiency and reduce carbon footprints.",
+    "products_services": "Advanced logistics software, data analytics tools, and sustainable transportation solutions.",
+    "industry": "Transportation and Logistics Technology"
+  },
+  "CAPI": {
+    "description": "CAPSTONE 72, INC. is a dynamic company focused on innovative solutions in the technology sector, aiming to enhance operational efficiency for businesses. With a commitment to sustainability and cutting-edge advancements, the company is poised for significant growth in the market.",
+    "products_services": "The company offers a range of technology-driven products and services, including software solutions, consulting, and support for businesses looking to optimize their operations.",
+    "industry": "Technology"
+  },
+  "0002109082": {
+    "description": "AI Strategy Inc. is a cutting-edge technology firm specializing in artificial intelligence solutions that enhance business decision-making and operational efficiency. The company leverages advanced algorithms and machine learning techniques to provide innovative tools for various industries.",
+    "products_services": "AI-driven analytics platforms, machine learning consulting, and custom AI solution development.",
+    "industry": "Technology / Artificial Intelligence"
+  },
+  "TTEI": {
+    "description": "TDE GROUP Ltd. is a leading provider of innovative technology solutions aimed at enhancing operational efficiency for businesses across various sectors. With a focus on sustainability and digital transformation, the company is poised for significant growth in the evolving tech landscape.",
+    "products_services": "The company offers a range of products and services including cloud computing solutions, data analytics, and enterprise software development.",
+    "industry": "Technology"
+  },
+  "0002102771": {
+    "description": "Keystone Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in high-growth sectors. The firm aims to leverage its management team's expertise to create value for shareholders through strategic acquisitions.",
+    "products_services": "As a SPAC, Keystone Acquisition Corp. primarily offers capital and strategic guidance to target companies in the process of going public through a merger.",
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)"
+  },
+  "0002099095": {
+    "description": "Patriot Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative businesses in the technology and consumer sectors. The company aims to leverage its management team's expertise to drive growth and create value for shareholders.",
+    "products_services": "As a SPAC, Patriot Acquisition Corp. does not offer traditional products or services but seeks to acquire and support companies in their growth journey post-merger.",
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)"
+  },
+  "JSTT": {
+    "description": "Nihon Shintatsu Co., Ltd. is a leading Japanese company specializing in the development and manufacturing of advanced industrial equipment and systems. With a strong focus on innovation and quality, the company serves various sectors including manufacturing, construction, and logistics.",
+    "products_services": "Industrial equipment, automation systems, and engineering solutions.",
+    "industry": "Manufacturing and Industrial Equipment"
+  },
+  "0002081737": {
+    "description": "CyberScope Web3 Security Inc. specializes in providing advanced security solutions for decentralized applications and blockchain networks, ensuring the integrity and safety of digital assets. The company leverages cutting-edge technology to protect users from cyber threats in the rapidly evolving Web3 landscape.",
+    "products_services": "Blockchain security audits, smart contract vulnerability assessments, decentralized application security solutions, and threat intelligence services.",
+    "industry": "Cybersecurity and Blockchain Technology"
+  },
+  "APAT": {
+    "description": "AsiaPac AdTechinno Group Ltd. is a leading provider of innovative advertising technology solutions in the Asia-Pacific region, focusing on enhancing digital marketing effectiveness for businesses. The company leverages advanced analytics and AI-driven tools to optimize ad placements and improve customer engagement.",
+    "products_services": "Digital advertising solutions, programmatic advertising platforms, data analytics services, and AI-driven marketing tools.",
+    "industry": "Advertising Technology (AdTech)"
+  },
+  "0001939433": {
+    "description": "Cohen & Steers Income Opportunities REIT, Inc. is a real estate investment trust focused on generating income through investments in a diversified portfolio of real estate-related assets. The company aims to provide attractive risk-adjusted returns to its shareholders by leveraging its expertise in real estate markets.",
+    "products_services": "The company primarily invests in income-producing real estate properties and real estate-related securities, including commercial properties and mortgage-backed securities.",
+    "industry": "Real Estate Investment Trust (REIT)"
+  },
+  "0002083843": {
+    "description": "Student Living EduVation (Holdings) Corp. is a leading provider of innovative housing solutions tailored for students, focusing on enhancing their living and learning experiences. The company aims to revolutionize student accommodation through modern amenities and community-driven environments.",
+    "products_services": "Student housing developments, property management services, and community engagement programs.",
+    "industry": "Real Estate / Student Housing"
+  },
+  "0001974476": {
+    "description": "Suke Ltd. is an innovative technology company focused on developing cutting-edge software solutions for businesses. With a commitment to enhancing operational efficiency, Suke Ltd. aims to transform the way organizations leverage technology.",
+    "products_services": "Suke Ltd. offers a range of software products including project management tools, data analytics platforms, and customer relationship management systems.",
+    "industry": "Technology"
+  },
+  "NHP": {
+    "description": "National Healthcare Properties, Inc. is a real estate investment trust (REIT) focused on acquiring and managing healthcare-related properties across the United States. The company aims to provide stable returns to investors through its diversified portfolio of senior housing, skilled nursing facilities, and other healthcare properties.",
+    "products_services": "Acquisition and management of healthcare-related real estate properties, including senior housing and skilled nursing facilities.",
+    "industry": "Real Estate Investment Trust (REIT) - Healthcare"
+  },
+  "CFTR-PA": {
+    "description": "Cantor Fitzgerald Income Trust, Inc. is a real estate investment trust (REIT) focused on generating income through investments in a diversified portfolio of commercial real estate properties. The company aims to provide attractive risk-adjusted returns to its investors by leveraging Cantor Fitzgerald's extensive market expertise and resources.",
+    "products_services": "The company primarily invests in income-producing commercial real estate assets, including office buildings, retail spaces, and multifamily properties, while also offering investment opportunities in real estate debt.",
+    "industry": "Real Estate Investment Trust (REIT)"
+  },
+  "TVIV": {
+    "description": "Texas Ventures Acquisition IV Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the technology and consumer sectors. The company aims to leverage its management team's expertise to drive growth and create value for shareholders.",
+    "products_services": "The company primarily engages in identifying and acquiring businesses in the technology and consumer sectors, facilitating their growth through strategic partnerships and operational improvements.",
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)"
+  },
+  "TRBG": {
+    "description": "Turbogen Ltd. is an innovative energy solutions company specializing in the development of advanced turbine technologies for efficient power generation. With a focus on sustainability, Turbogen aims to revolutionize the energy sector by providing cleaner and more efficient alternatives to traditional energy sources.",
+    "products_services": "Advanced turbine systems, energy efficiency solutions, and renewable energy technologies.",
+    "industry": "Energy and Power Generation"
+  },
+  "SWDR": {
+    "description": "Starwood Real Estate Income Trust, Inc. is a non-traded real estate investment trust (REIT) focused on generating attractive risk-adjusted returns for its investors through a diversified portfolio of income-producing real estate assets. The company primarily invests in commercial real estate properties and real estate-related debt investments.",
+    "products_services": "Income-producing real estate investments, real estate-related debt investments, and portfolio management services.",
+    "industry": "Real Estate Investment Trust (REIT)"
+  },
+  "OPTH": {
+    "description": "Optimi Health Corp. is a leading provider of psychedelic and wellness solutions, focusing on the development and commercialization of innovative therapies for mental health and well-being. The company aims to harness the therapeutic potential of psychedelics to address various mental health challenges.",
+    "products_services": "Psychedelic-assisted therapies, wellness products, and mental health solutions.",
+    "industry": "Healthcare and Pharmaceuticals"
+  },
+  "0002054947": {
+    "description": "C&K Group Ltd. is a leading provider of high-quality electromechanical switches and components, catering to various industries including automotive, consumer electronics, and industrial applications. The company focuses on innovation and reliability, delivering advanced solutions to meet the evolving needs of its global customer base.",
+    "products_services": "Electromechanical switches, connectors, and related components for diverse applications.",
+    "industry": "Electronics and Electrical Components"
+  },
+  "JAN": {
+    "description": "Janus Living, Inc. is an innovative company focused on providing sustainable and modular housing solutions designed to address the growing demand for affordable living spaces. With a commitment to environmental responsibility, Janus Living aims to revolutionize the housing market through its unique construction methods and designs.",
+    "products_services": "Modular housing units, sustainable living solutions, and customizable home designs.",
+    "industry": "Real Estate / Construction"
+  },
+  "NCLA": {
+    "description": "Nuclea Energy Inc. is a pioneering company focused on developing advanced nuclear energy solutions aimed at providing sustainable and efficient power generation. With a commitment to innovation, Nuclea is positioned to lead the transition to cleaner energy sources through its cutting-edge technologies.",
+    "products_services": "Nuclea Energy Inc. offers advanced nuclear reactor designs, fuel technologies, and energy management systems that enhance the safety and efficiency of nuclear power generation.",
+    "industry": "Energy/Nuclear Energy"
+  },
+  "0002095476": {
+    "description": "Dune Acquisition Corp III is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in high-growth sectors. The firm aims to leverage its management team's expertise to create value for shareholders through strategic acquisitions.",
+    "products_services": "As a SPAC, Dune Acquisition Corp III does not offer traditional products or services but seeks to acquire and operate a target company in a high-potential industry.",
+    "industry": "Finance/Investment (SPACs)"
+  },
+  "0001997389": {
+    "description": "Innovative Digital Investors Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative digital technology firms. The company aims to leverage its expertise to drive growth and value creation in the digital investment landscape.",
+    "products_services": "The company primarily engages in identifying and acquiring businesses in the digital technology sector, facilitating their growth through strategic partnerships and capital investment.",
+    "industry": "Financial Services / Technology"
+  },
+  "JOSS": {
+    "description": "JOSS Realty REIT, Inc. is a real estate investment trust focused on acquiring and managing high-quality commercial properties in key markets across the United States. The company aims to provide attractive risk-adjusted returns to its investors through strategic property investments and active asset management.",
+    "products_services": "Real estate investment and management, focusing on commercial properties such as office buildings and retail spaces.",
+    "industry": "Real Estate Investment Trust (REIT)"
+  },
+  "BXDC": {
+    "description": "Blackstone Digital Infrastructure Trust Inc. is a real estate investment trust focused on acquiring and managing digital infrastructure assets, including data centers and communication towers. The company aims to capitalize on the growing demand for digital connectivity and data storage solutions.",
+    "products_services": "The company invests in and operates digital infrastructure assets such as data centers, cell towers, and fiber networks, providing essential services for cloud computing and telecommunications.",
+    "industry": "Real Estate Investment Trust (REIT) / Digital Infrastructure"
+  },
+  "SIBO": {
+    "description": "SIBO HOLDING Ltd. is a dynamic company poised for growth in the financial technology sector, focusing on innovative solutions for digital asset management. With a commitment to enhancing user experience and security, SIBO aims to revolutionize the way individuals and businesses interact with digital currencies.",
+    "products_services": "SIBO offers a range of products including a digital wallet, asset trading platform, and blockchain-based financial services designed to simplify transactions and improve accessibility to digital assets.",
+    "industry": "Financial Technology (FinTech)"
+  },
+  "PASW": {
+    "description": "Ping An Biomedical Co., Ltd. is a leading biotechnology company focused on innovative healthcare solutions and advanced medical technologies. The company aims to enhance patient outcomes through its cutting-edge research and development in the biomedical field.",
+    "products_services": "The company offers a range of products and services including diagnostic tools, therapeutic solutions, and health management systems.",
+    "industry": "Biotechnology"
+  },
+  "GIVE": {
+    "description": "Wealth Management System Inc. is a financial technology company that provides innovative solutions for wealth management and investment advisory services. The company aims to enhance client engagement and streamline portfolio management through its advanced software platform.",
+    "products_services": "Wealth management software, investment advisory tools, client engagement solutions, portfolio management systems.",
+    "industry": "Financial Technology (FinTech)"
+  },
+  "OHAC": {
+    "description": "Oceanhawk Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the technology and consumer sectors. The firm aims to leverage its management team's expertise to drive growth and create value for shareholders.",
+    "products_services": "As a SPAC, Oceanhawk Acquisition Corp. does not offer traditional products or services but seeks to acquire and support companies that provide innovative solutions in various industries.",
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)"
+  },
+  "PWRU": {
+    "description": "Yesil Global Enerji A.S. is a renewable energy company focused on sustainable energy solutions and innovative technologies. The company aims to contribute to the global transition towards clean energy through its diverse portfolio of projects.",
+    "products_services": "Renewable energy solutions, solar energy systems, wind energy projects, energy efficiency consulting, and sustainable technology development.",
+    "industry": "Renewable Energy"
+  },
+  "BREZ": {
+    "description": "Breeze Acquisition Corp. II is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in high-growth sectors. The company aims to leverage its management team's expertise to create value for shareholders through strategic acquisitions.",
+    "products_services": "As a SPAC, Breeze Acquisition Corp. II does not offer traditional products or services but seeks to acquire a target company to bring it public.",
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)"
+  },
+  "MLAA": {
+    "description": "Mountain Lake Acquisition Corp. II is a special purpose acquisition company (SPAC) focused on identifying and merging with a promising target in the technology or healthcare sectors. The company aims to leverage its management team's expertise to create value for shareholders through strategic acquisitions.",
+    "products_services": "As a SPAC, Mountain Lake Acquisition Corp. II does not offer traditional products or services but seeks to acquire and operate a business in the technology or healthcare industries.",
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)"
+  },
+  "0002037916": {
+    "description": "GEBE Environmental Technology Ltd. specializes in innovative solutions for waste management and environmental sustainability, focusing on reducing ecological footprints through advanced technologies. The company aims to revolutionize the environmental sector by providing efficient and eco-friendly products and services.",
+    "products_services": "Waste management systems, recycling technologies, environmental consulting, and sustainable energy solutions.",
+    "industry": "Environmental Technology"
+  },
+  "IBL": {
+    "description": "I Bella Perfect Inc. is a beauty and wellness company focused on providing innovative skincare solutions and beauty products. The company aims to enhance personal care through high-quality, effective formulations that cater to diverse consumer needs.",
+    "products_services": "Skincare products, beauty tools, wellness supplements, and personalized beauty consultations.",
+    "industry": "Beauty and Personal Care"
+  },
+  "0001893262": {
+    "description": "J.P. Morgan Real Estate Income Trust, Inc. is a real estate investment trust that focuses on generating income through investments in a diversified portfolio of commercial real estate properties. The company aims to provide attractive risk-adjusted returns to its investors by leveraging J.P. Morgan's extensive market expertise and resources.",
+    "products_services": "The company primarily invests in income-producing commercial real estate properties, including office buildings, retail spaces, and industrial facilities, while also offering investment opportunities in real estate-related securities.",
+    "industry": "Real Estate Investment Trust (REIT)"
+  },
+  "LSBA": {
+    "description": "Law's Business Group Holding Ltd. is a diversified company focused on providing innovative legal and business solutions. With a commitment to excellence, it aims to streamline legal processes and enhance business operations for its clients.",
+    "products_services": "Legal consulting, business advisory services, and technology solutions for legal practices.",
+    "industry": "Legal Services and Business Consulting"
+  },
+  "0002064555": {
+    "description": "ANGIE HOLDINGS Ltd. is a technology-driven company focused on providing innovative solutions for home services and improvements. With a commitment to enhancing customer experiences, the company leverages digital platforms to connect homeowners with service providers.",
+    "products_services": "Home improvement services, digital platform for service provider connections, customer support solutions.",
+    "industry": "Home Services and Technology"
+  },
+  "0002083345": {
+    "description": "Optimal AI Ltd. is a cutting-edge technology company specializing in artificial intelligence solutions that enhance business efficiency and decision-making. With a focus on innovative algorithms and machine learning applications, the company aims to transform industries through intelligent automation.",
+    "products_services": "AI-driven software solutions, machine learning platforms, data analytics tools, and consulting services for businesses.",
+    "industry": "Technology / Artificial Intelligence"
+  },
+  "ARCI": {
+    "description": "Archimedes Tech SPAC Partners III Co. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative technology companies. The firm aims to leverage its expertise in the tech sector to drive growth and create value for shareholders.",
+    "products_services": "Investment and merger facilitation with technology-focused companies.",
+    "industry": "Financial Services / SPACs"
+  },
+  "LTGR": {
+    "description": "Long Table Growth Corp. is a dynamic investment firm focused on identifying and nurturing high-potential companies in the food and beverage sector. With a commitment to sustainable growth and innovation, the company aims to revolutionize the industry through strategic partnerships and investments.",
+    "products_services": "Investment in food and beverage companies, strategic advisory services, and growth capital funding.",
+    "industry": "Investment and Finance, Food and Beverage"
+  },
+  "FGO": {
+    "description": "FG Holdings Ltd. is a diversified investment company focused on acquiring and managing a portfolio of businesses across various sectors. The company aims to drive growth and enhance value through strategic investments and operational improvements.",
+    "products_services": "FG Holdings Ltd. offers investment management services, strategic consulting, and operational support to its portfolio companies.",
+    "industry": "Investment Management"
+  },
+  "AAS": {
+    "description": "Antharas Inc. is an innovative technology company focused on developing advanced artificial intelligence solutions for various industries. With a commitment to enhancing operational efficiency and decision-making processes, Antharas aims to revolutionize the way businesses leverage data.",
+    "products_services": "AI-driven software solutions, data analytics platforms, and machine learning tools designed for enterprise applications.",
+    "industry": "Technology / Artificial Intelligence"
+  },
+  "EVON": {
+    "description": "EvoNexus Group LTD is a leading technology incubator that supports early-stage startups by providing resources, mentorship, and access to capital. The company focuses on fostering innovation in various sectors, including software, hardware, and life sciences.",
+    "products_services": "Startup incubation, mentorship programs, access to funding, and networking opportunities.",
+    "industry": "Technology Incubation and Startup Development"
+  },
+  "INHI": {
+    "description": "Unitrend Entertainment Group Ltd. is a dynamic company focused on creating innovative entertainment experiences that engage audiences worldwide. With a commitment to quality and creativity, Unitrend aims to redefine the entertainment landscape through cutting-edge technology and storytelling.",
+    "products_services": "Unitrend offers a diverse range of products and services including film production, digital media content, and interactive entertainment solutions.",
+    "industry": "Entertainment and Media"
+  },
+  "0002065149": {
+    "description": "SunHo BioTech Group Ltd. is a pioneering biotechnology company focused on developing innovative solutions for healthcare and agriculture. With a commitment to sustainability and cutting-edge research, the company aims to enhance the quality of life through advanced biotechnological applications.",
+    "products_services": "The company offers a range of products including biopharmaceuticals, agricultural biotech solutions, and diagnostic tools designed to improve health outcomes and crop yields.",
+    "industry": "Biotechnology"
+  },
+  "0002070237": {
+    "description": "Hacker Interstellar Inc. is a cutting-edge technology company focused on developing advanced cybersecurity solutions for businesses navigating the complexities of the digital landscape. With a mission to protect organizations from evolving cyber threats, the company leverages innovative technologies and expert insights to deliver robust security services.",
+    "products_services": "Cybersecurity software, threat intelligence solutions, and consulting services for businesses.",
+    "industry": "Cybersecurity and Information Technology"
+  },
+  "0002111038": {
+    "description": "Disciplined Growth Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative growth-oriented businesses. The company aims to leverage its management team's expertise to drive value creation and foster sustainable growth in its target sectors.",
+    "products_services": "As a SPAC, Disciplined Growth Acquisition Corp. does not offer traditional products or services but seeks to acquire and support companies in various industries that demonstrate strong growth potential.",
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)"
+  },
+  "IDAC": {
+    "description": "Iron Dome Acquisition I Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the technology and defense sectors. The company aims to leverage its expertise and network to drive growth and value creation post-merger.",
+    "products_services": "As a SPAC, Iron Dome Acquisition I Corp. does not offer traditional products or services but seeks to acquire a target company that will provide innovative solutions in technology and defense.",
+    "industry": "Special Purpose Acquisition Companies (SPACs), Technology, Defense"
+  },
+  "VTEK": {
+    "description": "VISTEK LTD. is a leading provider of innovative imaging solutions, specializing in advanced camera systems and software for various applications. The company focuses on enhancing visual technology to meet the needs of industries such as healthcare, security, and entertainment.",
+    "products_services": "Advanced camera systems, imaging software, and custom imaging solutions.",
+    "industry": "Imaging Technology and Solutions"
+  },
+  "VAII": {
+    "description": "Voyager Acquisition Corp. II is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the technology and consumer sectors. The company aims to leverage its management team's expertise to drive growth and create value for shareholders post-merger.",
+    "products_services": "As a SPAC, Voyager Acquisition Corp. II does not offer traditional products or services but seeks to acquire a target company to bring it public and facilitate its growth.",
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)"
+  },
+  "KRAQ": {
+    "description": "KRAKacquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in high-growth sectors. The firm aims to leverage its expertise to drive value creation and accelerate the growth of its target businesses.",
+    "products_services": "KRAKacquisition Corp. primarily offers capital and strategic guidance to emerging companies, facilitating their transition to public markets through mergers and acquisitions.",
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)"
+  },
+  "PTOR": {
+    "description": "Praetorian Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the technology sector. The firm aims to leverage its expertise to drive growth and create value for shareholders through strategic partnerships.",
+    "products_services": "Investment and acquisition services targeting technology companies.",
+    "industry": "Financial Services / SPACs"
+  },
+  "XSLL": {
+    "description": "Xsolla SPAC 1 is a special purpose acquisition company focused on merging with innovative companies in the gaming and entertainment sectors. The company aims to leverage its expertise to drive growth and enhance value for stakeholders in the rapidly evolving digital landscape.",
+    "products_services": "Xsolla offers a comprehensive suite of tools and services for game developers, including payment processing, distribution, and marketing solutions tailored for the gaming industry.",
+    "industry": "Gaming and Entertainment"
+  },
+  "MWC": {
+    "description": "Micware Co., Ltd. is a technology company specializing in innovative software solutions for various industries. With a focus on enhancing operational efficiency and user experience, Micware aims to revolutionize the way businesses leverage technology.",
+    "products_services": "Software development, cloud solutions, and IT consulting services.",
+    "industry": "Information Technology"
+  },
+  "OTAI": {
+    "description": "Starlink AI Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative technology firms in the artificial intelligence sector. The company aims to leverage advancements in AI to drive growth and create value for its shareholders.",
+    "products_services": "Investment in and acquisition of technology companies, particularly those specializing in artificial intelligence and related fields.",
+    "industry": "Special Purpose Acquisition Companies (SPACs) / Technology / Artificial Intelligence"
+  },
+  "BRAI": {
+    "description": "Braiin Ltd. is an innovative technology company focused on developing advanced artificial intelligence solutions for various industries. The company aims to enhance decision-making processes and operational efficiency through its cutting-edge AI products.",
+    "products_services": "AI software solutions, machine learning platforms, data analytics tools",
+    "industry": "Technology / Artificial Intelligence"
+  },
+  "DBCAU": {
+    "description": "D. Boral Acquisition I Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in growth sectors. The firm aims to leverage its management team's expertise to create value for shareholders through strategic acquisitions.",
+    "products_services": "As a SPAC, D. Boral Acquisition I Corp. does not offer traditional products or services but seeks to acquire a target company to bring it public.",
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)"
+  },
+  "SSACU": {
+    "description": "SPACSphere Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in high-growth sectors. The company aims to provide a streamlined path to public markets for its target businesses, leveraging its management team's expertise and network.",
+    "products_services": "SPACSphere Acquisition Corp. offers capital and strategic support to companies seeking to go public through a merger or acquisition. It provides access to public market resources and investor networks to facilitate growth and expansion.",
+    "industry": "Financial Services / SPACs"
+  },
+  "PLYX": {
+    "description": "Polaryx Therapeutics, Inc. is a biotechnology company focused on developing innovative therapies for rare diseases and unmet medical needs. The company's proprietary platform aims to advance treatments that target specific biological pathways to improve patient outcomes.",
+    "products_services": "Polaryx Therapeutics develops novel therapeutics for rare diseases, leveraging its proprietary drug discovery platform to create targeted treatments.",
+    "industry": "Biotechnology"
+  },
+  "WPACU": {
+    "description": "White Pearl Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in high-growth sectors. The firm aims to leverage its expertise and network to create value for shareholders through strategic partnerships and acquisitions.",
+    "products_services": "As a SPAC, White Pearl Acquisition Corp. does not offer traditional products or services but seeks to acquire and support companies in various industries, particularly those with disruptive technologies or business models.",
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)"
+  },
+  "KPETU": {
+    "description": "KPET Ultra Paceline Corp. is an innovative technology company specializing in advanced packaging solutions for various industries. With a focus on sustainability and efficiency, the company aims to revolutionize the packaging landscape through cutting-edge materials and processes.",
+    "products_services": "Advanced packaging solutions, sustainable materials, custom packaging design, and supply chain optimization services.",
+    "industry": "Packaging and Materials Technology"
+  },
+  "IPFXU": {
+    "description": "Inflection Point Acquisition Corp. VI is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in high-growth sectors. The firm aims to leverage its expertise to create value for shareholders through strategic partnerships and operational improvements.",
+    "products_services": "As a SPAC, Inflection Point Acquisition Corp. VI does not offer traditional products or services but seeks to acquire and enhance the operations of target companies in various industries.",
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)"
+  },
+  "QADRU": {
+    "description": "QDRO Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the technology sector. The firm aims to leverage its expertise to drive growth and create value for shareholders post-merger.",
+    "products_services": "Investment and acquisition services targeting technology companies.",
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)"
+  },
+  "FMACU": {
+    "description": "Future Money Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative financial technology firms. The company aims to leverage its expertise to drive growth and create value in the evolving financial services landscape.",
+    "products_services": "Future Money Acquisition Corp. does not offer traditional products or services but seeks to acquire and support companies in the fintech sector.",
+    "industry": "Financial Technology (Fintech)"
+  },
+  "BWIVU": {
+    "description": "Blue Water Acquisition Corp. IV is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in high-growth sectors. The firm aims to leverage its management team's expertise to create value for shareholders through strategic acquisitions.",
+    "products_services": "The company primarily engages in the acquisition of businesses in various industries, with a focus on technology and consumer sectors.",
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)"
+  },
+  "GMTL": {
+    "description": "Guardian Metal Resources PLC is a mining and exploration company focused on the sustainable extraction of valuable metal resources. The company aims to leverage innovative technologies to enhance efficiency and minimize environmental impact in the mining sector.",
+    "products_services": "Mining and exploration of metal resources, including precious and base metals.",
+    "industry": "Mining and Metals"
+  },
+  "BHAVU": {
+    "description": "BHAV Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative businesses in high-growth sectors. The company aims to leverage its management team's expertise to create value for shareholders through strategic acquisitions.",
+    "products_services": "BHAV Acquisition Corp. primarily engages in the acquisition of companies in the technology, healthcare, and consumer sectors, providing them with capital and operational support to accelerate growth.",
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)"
+  },
+  "SWMR": {
+    "description": "Swarmer, Inc. is an innovative technology company focused on developing advanced automation solutions for various industries. With a commitment to enhancing operational efficiency, Swarmer leverages cutting-edge robotics and AI to streamline processes and reduce costs.",
+    "products_services": "Automation solutions, robotics systems, AI-driven software for operational efficiency.",
+    "industry": "Technology, Automation, Robotics"
+  },
+  "PAYP": {
+    "description": "PayPay Corp. is a leading digital payment platform in Japan, enabling seamless transactions through mobile wallets and QR code payments. The company aims to enhance consumer convenience and drive cashless adoption across various sectors.",
+    "products_services": "Mobile payment solutions, QR code payments, digital wallets, and financial services.",
+    "industry": "Financial Technology (FinTech)"
+  },
+  "CAST": {
+    "description": "FreeCast, Inc. is a technology company that provides a comprehensive streaming platform designed to aggregate and deliver content from various sources to consumers. The company aims to simplify the viewing experience by offering a unified interface for accessing live TV, on-demand content, and streaming services.",
+    "products_services": "FreeCast offers a range of products including the SelectTV platform, which combines live TV, streaming services, and on-demand content into a single interface, along with various content aggregation and distribution solutions.",
+    "industry": "Technology / Media / Streaming Services"
+  },
+  "MMED": {
+    "description": "MiniMed Group, Inc. is a medical technology company focused on developing innovative solutions for diabetes management. The company aims to improve patient outcomes through advanced insulin delivery systems and continuous glucose monitoring.",
+    "products_services": "Insulin pumps, continuous glucose monitoring systems, diabetes management software.",
+    "industry": "Medical Technology"
+  },
+  "GLEDU": {
+    "description": "GalaxyEdge Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative technology firms in the space and aerospace sectors. The company aims to leverage its expertise to drive growth and create value for shareholders through strategic partnerships and acquisitions.",
+    "products_services": "GalaxyEdge Acquisition Corp. does not offer products or services directly but seeks to acquire companies that provide advanced technologies and solutions in the aerospace and space industries.",
+    "industry": "Aerospace and Technology"
+  },
+  "KCACU": {
+    "description": "Kensington Capital Acquisition Corp. VI is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the automotive and mobility sectors. The company aims to leverage its management team's expertise to drive growth and create value for shareholders.",
+    "products_services": "The company primarily engages in the acquisition of businesses in the automotive and mobility industries, with a focus on electric vehicles, autonomous driving technologies, and related services.",
+    "industry": "Financial Services / SPACs / Automotive and Mobility"
+  },
+  "MCAHU": {
+    "description": "Mountain Crest Acquisition 6 Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with a target company in the technology sector. The company aims to leverage its management team's expertise to drive growth and create value for shareholders.",
+    "products_services": "As a SPAC, Mountain Crest Acquisition 6 Corp. does not offer traditional products or services but seeks to acquire a private company to take public.",
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)"
+  },
+  "RREVU": {
+    "description": "RRE Ventures Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative technology companies. The firm aims to leverage its expertise in venture capital to drive growth and value creation in its target acquisitions.",
+    "products_services": "Investment and acquisition services targeting technology companies.",
+    "industry": "Financial Services / SPACs"
+  },
+  "GCGRU": {
+    "description": "General Catalyst Global Resilience Merger Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies that enhance global resilience. The firm aims to leverage its expertise to drive growth in sectors that address critical challenges such as climate change, cybersecurity, and public health.",
+    "products_services": "Investment and merger facilitation for companies in resilience-focused sectors.",
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)"
+  },
+  "AVLN": {
+    "description": "Avalyn Pharma Inc. is a clinical-stage biopharmaceutical company focused on developing innovative therapies for patients with rare and serious diseases. The company's lead product candidates target conditions related to pulmonary and other systemic diseases.",
+    "products_services": "Avalyn Pharma is developing therapies for pulmonary diseases, including its lead candidate aimed at treating pulmonary alveolar proteinosis (PAP).",
+    "industry": "Biopharmaceuticals"
+  },
+  "PS": {
+    "description": "Pershing Square Inc. is a special purpose acquisition company (SPAC) focused on identifying and merging with high-quality businesses to create long-term value for shareholders.",
+    "products_services": "The company primarily engages in investment activities and may provide capital to target companies in various sectors.",
+    "industry": "Financial Services"
+  },
+  "XE": {
+    "description": "X-Energy, Inc. is a pioneering energy company focused on developing advanced nuclear reactor technology to provide clean, reliable, and sustainable energy solutions. The company aims to revolutionize the energy sector by offering innovative nuclear power systems that significantly reduce carbon emissions.",
+    "products_services": "Advanced nuclear reactor technology, energy solutions, and clean energy systems.",
+    "industry": "Energy and Nuclear Technology"
+  },
+  "LABT": {
+    "description": "Lakewood-Amedex Biotherapeutics Inc. is a biotechnology company focused on developing innovative therapies for infectious diseases and cancer. The company leverages its proprietary technology to create novel biotherapeutic products that aim to improve patient outcomes.",
+    "products_services": "Biotherapeutic products targeting infectious diseases and cancer treatments.",
+    "industry": "Biotechnology"
+  },
+  "ELMT": {
+    "description": "Elmet Group Co. is a leading provider of advanced materials and manufacturing solutions, specializing in precision-engineered products for various industries. The company focuses on delivering high-quality, innovative solutions that enhance performance and efficiency for its clients.",
+    "products_services": "Precision-engineered materials, manufacturing solutions, and advanced material technologies.",
+    "industry": "Advanced materials and manufacturing."
+  },
+  "YSWY": {
+    "description": "Yesway, Inc. is a convenience store chain focused on providing a wide range of products and services to meet the everyday needs of customers. The company aims to enhance the shopping experience through quality offerings and a commitment to community engagement.",
+    "products_services": "Convenience store retailing, fuel sales, food and beverage offerings, and various consumer goods.",
+    "industry": "Retail/Convenience Stores"
+  },
+  "DETX": {
+    "description": "Liberty Defense Holdings, Ltd. is a technology company focused on providing advanced security solutions for the defense and public safety sectors. The company specializes in developing innovative detection systems to enhance security measures in various environments.",
+    "products_services": "Liberty Defense offers products such as advanced threat detection systems, including 3D imaging and artificial intelligence technologies for identifying concealed weapons and other threats.",
+    "industry": "Defense and Security Technology"
+  },
+  "KLRA": {
+    "description": "Kailera Therapeutics, Inc. is a biotechnology company focused on developing innovative therapies for genetic diseases through advanced gene editing technologies. The company aims to address unmet medical needs by leveraging its proprietary platform to create targeted treatments.",
+    "products_services": "Gene editing therapies for genetic disorders, research and development of innovative biopharmaceuticals.",
+    "industry": "Biotechnology"
+  },
+  "JATT": {
+    "description": "JATT II Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative businesses in the technology and consumer sectors. The company aims to leverage its management team's expertise to drive growth and create value for shareholders.",
+    "products_services": "As a SPAC, JATT II Acquisition Corp. does not offer traditional products or services but seeks to acquire a target company to bring it public and support its growth initiatives.",
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)"
+  },
+  "AVEX": {
+    "description": "AEVEX Corp. is a leading provider of advanced intelligence, surveillance, and reconnaissance solutions, specializing in the integration of cutting-edge technologies for defense and commercial applications.",
+    "products_services": "The company offers a range of products and services including aerial intelligence systems, data analytics, and mission support services.",
+    "industry": "Aerospace and Defense"
+  },
+  "ARXS": {
+    "description": "Arxis, Inc. is an innovative technology company focused on developing advanced software solutions for data analytics and business intelligence. With a commitment to enhancing operational efficiency, Arxis empowers organizations to make data-driven decisions through its cutting-edge platforms.",
+    "products_services": "Data analytics software, business intelligence solutions, cloud-based platforms.",
+    "industry": "Technology"
+  },
+  "MAIR": {
+    "description": "Madison Air Solutions Corp. specializes in innovative air quality management systems designed to enhance indoor environments for both residential and commercial applications. The company focuses on sustainable technologies that improve air purification and ventilation efficiency.",
+    "products_services": "Air purification systems, ventilation solutions, indoor air quality monitoring devices, and energy-efficient HVAC systems.",
+    "industry": "Environmental Technology / HVAC (Heating, Ventilation, and Air Conditioning)"
+  },
+  "TMCR": {
+    "description": "Metals Royalty Co Inc. is a company focused on acquiring and managing precious and base metal royalties and streams. It aims to provide investors with exposure to the mining sector while minimizing risk through its diversified portfolio of royalty interests.",
+    "products_services": "Royalty and streaming agreements on precious and base metals, including gold, silver, and copper.",
+    "industry": "Mining and Metals"
+  },
+  "AACPU": {
+    "description": "Apogee Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in high-growth sectors. The firm aims to leverage its management team's expertise to drive value creation post-merger.",
+    "products_services": "As a SPAC, Apogee Acquisition Corp. does not offer traditional products or services but seeks to acquire a target company to bring it public and enhance its growth potential.",
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)"
+  },
+  "ACGCU": {
+    "description": "ACP Holdings Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the technology and consumer sectors. The company aims to leverage its management team's expertise to drive growth and create value for shareholders.",
+    "products_services": "As a SPAC, ACP Holdings does not offer traditional products or services but seeks to acquire and support companies that provide innovative solutions in various industries.",
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)"
+  },
+  "HMH": {
+    "description": "HMH Holding Inc. is a diversified holding company focused on strategic investments across various sectors, aiming to drive growth and innovation. With a commitment to sustainability and operational excellence, HMH seeks to enhance value for its stakeholders through a portfolio of dynamic businesses.",
+    "products_services": "HMH Holding Inc. offers a range of products and services including investment management, consulting, and operational support across its subsidiary companies.",
+    "industry": "Investment and Holding Companies"
+  },
+  "SPTX": {
+    "description": "Seaport Therapeutics, Inc. is a biotechnology company focused on developing innovative therapies for neurological disorders. The company aims to address unmet medical needs through its proprietary drug development platform.",
+    "products_services": "Therapeutic drug development for neurological conditions, including pain management and neurodegenerative diseases.",
+    "industry": "Biotechnology"
+  },
+  "MTNEU": {
+    "description": "CH4 Natural Solutions Corp. is a pioneering company focused on innovative solutions for reducing methane emissions through advanced technologies. The company aims to enhance sustainability in the agricultural and waste management sectors by converting methane into valuable products.",
+    "products_services": "Methane reduction technologies, carbon credits, agricultural solutions, waste management services.",
+    "industry": "Environmental Technology, Renewable Energy."
+  },
+  "QLEPU": {
+    "description": "Quantum Leap Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative technology firms. The company aims to leverage its expertise to accelerate growth and create value for shareholders.",
+    "products_services": "SPAC mergers and acquisitions, investment in technology firms, and capital raising for growth initiatives.",
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)"
+  },
+  "COAG": {
+    "description": "Hemab Therapeutics Holdings, Inc. is a biotechnology company focused on developing innovative therapies for rare bleeding disorders. The company leverages its proprietary technology platform to create targeted treatments aimed at improving patient outcomes.",
+    "products_services": "Hemab Therapeutics specializes in developing therapies for hemophilia and other rare blood disorders, utilizing advanced biologics and gene therapy approaches.",
+    "industry": "Biotechnology"
+  },
+  "XFLHU": {
+    "description": "XFLH Capital Corp. is a financial services company focused on providing innovative investment solutions and capital management strategies. The firm aims to empower investors through a diverse range of financial products and services tailored to meet their unique needs.",
+    "products_services": "Investment management, capital raising, financial advisory services, and portfolio management solutions.",
+    "industry": "Financial Services"
+  },
+  "OFRM": {
+    "description": "Once Upon a Farm, PBC is a mission-driven company that specializes in providing organic, fresh, and nutritious baby food and snacks made from high-quality ingredients. The company focuses on sustainability and transparency in its operations, aiming to promote healthy eating habits from an early age.",
+    "products_services": "Organic baby food, snacks, and smoothies made from fresh fruits and vegetables.",
+    "industry": "Food and Beverage, Baby Food Industry"
+  },
+  "CXIIU": {
+    "description": "Churchill Capital Corp XII is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in high-growth sectors.",
+    "products_services": "The company aims to provide capital and strategic support to its target businesses, facilitating their growth and expansion.",
+    "industry": "Financial Services / SPACs"
+  },
+  "IACQU": {
+    "description": "Irenic Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the technology sector. The firm aims to leverage its expertise to drive growth and create value for shareholders post-merger.",
+    "products_services": "As a SPAC, Irenic Acquisition Corp. does not offer traditional products or services but seeks to facilitate mergers and acquisitions with target companies in the technology industry.",
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)"
+  },
+  "ALMR": {
+    "description": "Alamar Biosciences, Inc. is a biotechnology company focused on developing innovative solutions for drug discovery and development through advanced biosensing technologies. Their proprietary platforms enable real-time monitoring of cellular responses, enhancing the efficiency of pharmaceutical research.",
+    "products_services": "The company offers biosensing platforms and assays that facilitate drug discovery, toxicity testing, and therapeutic development.",
+    "industry": "Biotechnology"
   }
 }
