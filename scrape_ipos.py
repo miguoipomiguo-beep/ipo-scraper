@@ -335,10 +335,12 @@ def merge_all(sec_companies: list, nasdaq_data: dict) -> list:
         company.pop("nasdaq_status", None)
         company.pop("_latest_date", None)
 
-    result = list(companies.values())
+    # excluded（REIT等）を除外
+    result = [c for c in companies.values() if c.get("status") != "excluded"]
+    excluded_count = sum(1 for c in companies.values() if c.get("status") == "excluded")
     upcoming_count = sum(1 for c in result if c["status"] == "upcoming")
     listed_count = sum(1 for c in result if c["status"] == "listed")
-    print(f"  Final: {len(result)} IPOs (upcoming={upcoming_count}, listed={listed_count})")
+    print(f"  Final: {len(result)} IPOs (upcoming={upcoming_count}, listed={listed_count}, excluded={excluded_count})")
     return result
 
 
@@ -420,12 +422,30 @@ def determine_status(company: dict) -> str:
     if ns == "withdrawn":
         return "withdrawn"
 
+    # SEC filingベースの判定
     ft = company.get("filing_type")
+    events = company.get("events", [])
+
+    # REIT（S-11系）は除外対象
+    is_reit = any(e.get("filing_type") in ("S-11", "S-11/A") for e in events)
+    if is_reit:
+        return "excluded"
+
+    # EFFECT + 424B4あり or EFFECT複数回 = 既に上場済み
+    effect_count = sum(1 for e in events if e.get("filing_type") == "EFFECT")
+    has_424 = any(e.get("filing_type") == "424B4" for e in events)
+    if (effect_count >= 2) or (has_424 and effect_count >= 1):
+        return "listed"
+
+    # NASDAQのUpcomingにない + EFFECTのみ = 既上場
+    if ft == "EFFECT" and effect_count >= 1:
+        return "listed"
+
     if ft == "RW":
         return "withdrawn"
     if ft == "424B4":
-        return "priced"
-    if ft in ("S-1/A", "F-1/A"):
+        return "listed"  # 424B4 = 価格確定 = 上場完了
+    if ft in ("S-1/A", "F-1/A", "S-11/A"):
         return "amended"
     return "filed"
 
