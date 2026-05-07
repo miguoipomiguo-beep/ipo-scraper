@@ -482,11 +482,9 @@ async def enrich_with_llm(ipos: list) -> list:
         return ipos
     print("\n=== LLM ===")
     enriched = 0
-    # upcoming/listed(最大10件) + undated(最大20件) = 最大30件
-    upcoming_need = [i for i in ipos if i.get("status") in ("upcoming", "listed") and not i.get("description")][:10]
-    undated_need = [i for i in ipos if i.get("status") not in ("upcoming", "listed") and not i.get("description")][:20]
-    priority = upcoming_need + undated_need
-    print(f"  Priority: {len(upcoming_need)} upcoming/listed + {len(undated_need)} undated = {len(priority)}")
+    # 構築中: description未補完の全件を処理
+    priority = [i for i in ipos if not i.get("description")]
+    print(f"  Priority: {len(priority)} companies without description")
     async with httpx.AsyncClient(timeout=60) as client:
         for ipo in priority:
             try:
