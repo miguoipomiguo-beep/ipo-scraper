@@ -50,7 +50,7 @@ async def fetch_sec_filings() -> list:
     async with httpx.AsyncClient(timeout=60, headers=SEC_HEADERS) as client:
         proxy_url = WORKER_URL + "/api/admin/sec-proxy" if WORKER_URL else None
 
-        for form_type in ["S-1", "F-1"]:
+        for form_type in ["S-1", "F-1", "S-11"]:
             try:
                 start_date = (datetime.now() - timedelta(days=120)).strftime("%Y-%m-%d")
                 end_date = datetime.now().strftime("%Y-%m-%d")
@@ -87,10 +87,10 @@ async def fetch_sec_filings() -> list:
     # Step 2: 各CIKのSubmissions APIでフルタイムライン取得
     print(f"  Step 2: Fetching timelines...")
     companies = []
-    ipo_forms = {"S-1", "F-1", "S-1/A", "F-1/A", "RW", "424B4", "EFFECT"}
+    ipo_forms = {"S-1", "F-1", "S-1/A", "F-1/A", "S-11", "S-11/A", "RW", "424B4", "EFFECT"}
     event_type_map = {
-        "S-1": "filing", "F-1": "filing",
-        "S-1/A": "amendment", "F-1/A": "amendment",
+        "S-1": "filing", "F-1": "filing", "S-11": "filing",
+        "S-1/A": "amendment", "F-1/A": "amendment", "S-11/A": "amendment",
         "424B4": "pricing", "RW": "withdrawal", "EFFECT": "effective",
     }
 
@@ -612,7 +612,7 @@ async def supplement_nasdaq_ciks(sec_companies: list, nasdaq_data: dict) -> list
                                 accessions = recent.get("accessionNumber", [])
                                 descs = recent.get("primaryDocDescription", [])
 
-                                ipo_forms = {"S-1", "F-1", "S-1/A", "F-1/A", "RW", "424B4", "EFFECT"}
+                                ipo_forms = {"S-1", "F-1", "S-1/A", "F-1/A", "S-11", "S-11/A", "RW", "424B4", "EFFECT"}
                                 event_type_map = {"S-1": "filing", "F-1": "filing", "S-1/A": "amendment", "F-1/A": "amendment", "424B4": "pricing", "RW": "withdrawal", "EFFECT": "effective"}
 
                                 events = []
