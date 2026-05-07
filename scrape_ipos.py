@@ -513,6 +513,7 @@ async def enrich_with_llm(ipos: list) -> list:
             await asyncio.sleep(0.5)
 
     print(f"  Enriched: {enriched} (GitHub failures: {github_failures})")
+    return ipos
 
 
 async def _call_llm(client, url: str, model: str, prompt: str, headers: dict) -> dict:
@@ -537,7 +538,6 @@ async def _call_llm(client, url: str, model: str, prompt: str, headers: dict) ->
     except:
         pass
     return None
-    return ipos
 
 
 # ============================================================
