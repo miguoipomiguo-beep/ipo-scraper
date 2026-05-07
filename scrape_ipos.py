@@ -31,6 +31,8 @@ NASDAQ_HEADERS = {
 }
 
 GITHUB_MODELS_URL = "https://models.inference.ai.azure.com/chat/completions"
+OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions"
+OPENROUTER_KEY = os.environ.get("OPENROUTER_KEY", "")
 
 
 # ============================================================
@@ -485,36 +487,56 @@ async def enrich_with_llm(ipos: list) -> list:
     # 構築中: description未補完の全件を処理
     priority = [i for i in ipos if not i.get("description")]
     print(f"  Priority: {len(priority)} companies without description")
+    github_failures = 0
+
     async with httpx.AsyncClient(timeout=60) as client:
         for ipo in priority:
-            try:
-                name = ipo["company_name"]
-                resp = await client.post(GITHUB_MODELS_URL,
-                    json={"model": "gpt-4o-mini", "messages": [{"role": "user", "content": f'Brief 2-sentence description for IPO company: {name}. Respond with JSON only, no markdown: {{"description":"...","products_services":"...","industry":"..."}}'}], "temperature": 0.1, "max_tokens": 200},
-                    headers={"Authorization": f"Bearer {GH_TOKEN}", "Content-Type": "application/json"})
-                if resp.status_code == 200:
-                    c = resp.json()["choices"][0]["message"]["content"]
-                    # マークダウンブロック除去
-                    if "```" in c:
-                        c = c.split("```json")[-1].split("```")[0] if "```json" in c else c.split("```")[1].split("```")[0]
-                    c = c.strip()
-                    # JSON抽出（{...}部分のみ）
-                    brace_start = c.find("{")
-                    brace_end = c.rfind("}") + 1
-                    if brace_start >= 0 and brace_end > brace_start:
-                        c = c[brace_start:brace_end]
-                    d = json.loads(c)
-                    ipo.update({k: v for k, v in d.items() if v})
-                    enriched += 1
-                elif resp.status_code == 429:
-                    print(f"  [LLM] Rate limited, pausing...")
-                    await asyncio.sleep(10)
-                else:
-                    print(f"  [LLM] {name[:20]}: HTTP {resp.status_code}")
-                await asyncio.sleep(1)
-            except Exception as e:
-                print(f"  [LLM] {ipo.get('company_name','?')[:20]}: {e}")
-    print(f"  Enriched: {enriched}")
+            name = ipo["company_name"]
+            prompt = f'Brief 2-sentence description for IPO company: {name}. Respond with JSON only, no markdown: {{"description":"...","products_services":"...","industry":"..."}}'
+
+            result = None
+            # Try 1: GitHub Models
+            if GH_TOKEN and github_failures < 5:
+                result = await _call_llm(client, GITHUB_MODELS_URL, "gpt-4o-mini",
+                    prompt, {"Authorization": f"Bearer {GH_TOKEN}", "Content-Type": "application/json"})
+                if result is None:
+                    github_failures += 1
+
+            # Try 2: OpenRouter fallback
+            if result is None and OPENROUTER_KEY:
+                result = await _call_llm(client, OPENROUTER_URL, "google/gemini-2.0-flash-001",
+                    prompt, {"Authorization": f"Bearer {OPENROUTER_KEY}", "Content-Type": "application/json"})
+
+            if result:
+                ipo.update(result)
+                enriched += 1
+            await asyncio.sleep(0.5)
+
+    print(f"  Enriched: {enriched} (GitHub failures: {github_failures})")
+
+
+async def _call_llm(client, url: str, model: str, prompt: str, headers: dict) -> dict:
+    """LLM APIを呼び出してJSONを返す。失敗時はNone"""
+    try:
+        resp = await client.post(url,
+            json={"model": model, "messages": [{"role": "user", "content": prompt}], "temperature": 0.1, "max_tokens": 200},
+            headers=headers)
+        if resp.status_code == 200:
+            c = resp.json()["choices"][0]["message"]["content"]
+            if "```" in c:
+                c = c.split("```json")[-1].split("```")[0] if "```json" in c else c.split("```")[1].split("```")[0]
+            c = c.strip()
+            brace_start = c.find("{")
+            brace_end = c.rfind("}") + 1
+            if brace_start >= 0 and brace_end > brace_start:
+                c = c[brace_start:brace_end]
+            d = json.loads(c)
+            return {k: v for k, v in d.items() if v}
+        elif resp.status_code == 429:
+            return None
+    except:
+        pass
+    return None
     return ipos
 
 
