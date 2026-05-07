@@ -482,11 +482,13 @@ async def enrich_with_llm(ipos: list) -> list:
         return ipos
     print("\n=== LLM ===")
     enriched = 0
-    # upcoming/listed優先、その後undated（全銘柄に企業概要を付与）
-    priority = [i for i in ipos if i.get("status") in ("upcoming", "listed") and not i.get("description")]
-    priority += [i for i in ipos if i.get("status") not in ("upcoming", "listed") and not i.get("description")]
+    # upcoming/listed(最大10件) + undated(最大20件) = 最大30件
+    upcoming_need = [i for i in ipos if i.get("status") in ("upcoming", "listed") and not i.get("description")][:10]
+    undated_need = [i for i in ipos if i.get("status") not in ("upcoming", "listed") and not i.get("description")][:20]
+    priority = upcoming_need + undated_need
+    print(f"  Priority: {len(upcoming_need)} upcoming/listed + {len(undated_need)} undated = {len(priority)}")
     async with httpx.AsyncClient(timeout=60) as client:
-        for ipo in priority[:30]:
+        for ipo in priority:
             try:
                 name = ipo["company_name"]
                 resp = await client.post(GITHUB_MODELS_URL,
