@@ -514,8 +514,8 @@ async def extract_s1_financials(ipos: list) -> list:
     print("\n=== S-1 Financial Extraction ===")
     extracted = 0
 
-    # Pending銘柄で価格未取得のもののみ対象
-    targets = [i for i in ipos if not i.get("proposed_price_low") and not i.get("price_range_low")
+    # shares_outstandingが未取得の全銘柄が対象（Upcoming含む）
+    targets = [i for i in ipos if not i.get("shares_outstanding")
                and i.get("latest_s1_accession") and i.get("cik")]
 
     print(f"  Targets: {len(targets)} companies")
