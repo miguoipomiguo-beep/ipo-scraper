@@ -515,8 +515,21 @@ async def extract_s1_financials(ipos: list) -> list:
     extracted = 0
 
     # shares_outstandingが未取得の全銘柄が対象（Upcoming含む）
-    targets = [i for i in ipos if not i.get("shares_outstanding")
-               and i.get("latest_s1_accession") and i.get("cik")]
+    # latest_s1_accessionがなくてもeventsからaccessionを取得
+    targets = []
+    for i in ipos:
+        if i.get("shares_outstanding") or not i.get("cik"):
+            continue
+        # eventsから最新のS-1系accessionを取得
+        accession = i.get("latest_s1_accession")
+        if not accession:
+            for ev in i.get("events", []):
+                if ev.get("filing_type") in ("S-1", "S-1/A", "F-1", "F-1/A", "S-11", "S-11/A") and ev.get("sec_accession"):
+                    accession = ev["sec_accession"]
+                    break
+        if accession:
+            i["_accession_for_extract"] = accession
+            targets.append(i)
 
     print(f"  Targets: {len(targets)} companies")
 
@@ -524,19 +537,33 @@ async def extract_s1_financials(ipos: list) -> list:
         for ipo in targets[:20]:  # 最大20件
             try:
                 cik = ipo["cik"].lstrip("0").zfill(10)
-                accession = ipo["latest_s1_accession"].replace("-", "")
+                accession = ipo["_accession_for_extract"].replace("-", "")
                 # S-1のindex pageを取得してプライマリドキュメントURLを構築
                 index_url = f"https://www.sec.gov/Archives/edgar/data/{cik.lstrip('0')}/{accession}/"
 
-                if WORKER_URL:
-                    # Worker proxy経由でindex取得
-                    resp = await client.get(f"{WORKER_URL}/api/admin/sec-submissions?cik={ipo['cik']}")
-                    if resp.status_code != 200:
-                        continue
-                    # 最新S-1の書類URLを構築
-                    doc_url = f"https://www.sec.gov/Archives/edgar/data/{cik.lstrip('0')}/{accession}/0.htm"
+                # filing index pageから主要ドキュメントを取得
+                idx_resp = await client.get(index_url, headers={
+                    "User-Agent": "usaipocalendarapp miguoipomiguo@gmail.com"
+                })
+                if idx_resp.status_code != 200:
+                    continue
+                # indexページから最初のhtmファイルを探す
+                from bs4 import BeautifulSoup as BS
+                idx_soup = BS(idx_resp.text, "html.parser")
+                doc_link = None
+                for a in idx_soup.find_all("a"):
+                    href = a.get("href", "")
+                    if href.endswith(".htm") and "index" not in href.lower():
+                        doc_link = href
+                        break
+                if not doc_link:
+                    # fallback: 最初の.htmリンク
+                    doc_url = f"{index_url}0.htm"
                 else:
-                    doc_url = index_url
+                    if doc_link.startswith("http"):
+                        doc_url = doc_link
+                    else:
+                        doc_url = f"https://www.sec.gov{doc_link}" if doc_link.startswith("/") else f"{index_url}{doc_link}"
 
                 # 書類のテキストを取得（最初の5000文字のみ — Cover Page + Prospect Summary）
                 doc_resp = await client.get(doc_url, headers={
