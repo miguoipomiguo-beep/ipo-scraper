@@ -151,6 +151,13 @@ async def fetch_sec_filings() -> list:
                         first_filing_date = ev["event_date"]
                         break
 
+                # 最新のS-1/S-1A/F-1/F-1AのaccessionNumberを取得（書類解析用）
+                latest_s1_accession = None
+                for ev in events:
+                    if ev["filing_type"] in ("S-1", "S-1/A", "F-1", "F-1/A", "S-11", "S-11/A"):
+                        latest_s1_accession = ev.get("sec_accession")
+                        break  # 最新順なので最初の1件
+
                 companies.append({
                     "cik": cik,
                     "company_name": company_name,
@@ -158,6 +165,7 @@ async def fetch_sec_filings() -> list:
                     "filing_type": latest_form,
                     "filing_date": first_filing_date,
                     "events": events,
+                    "latest_s1_accession": latest_s1_accession,
                 })
 
                 await asyncio.sleep(0.15)  # SEC rate limit: ~10 req/sec
@@ -499,8 +507,92 @@ async def update_worker(ipos: list):
 # LLM
 # ============================================================
 
+async def extract_s1_financials(ipos: list) -> list:
+    """S-1/F-1書類からProposed Offering PriceとShares Outstandingを抽出"""
+    if not GH_TOKEN and not OPENROUTER_KEY:
+        return ipos
+    print("\n=== S-1 Financial Extraction ===")
+    extracted = 0
+
+    # Pending銘柄で価格未取得のもののみ対象
+    targets = [i for i in ipos if not i.get("proposed_price_low") and not i.get("price_range_low")
+               and i.get("latest_s1_accession") and i.get("cik")]
+
+    print(f"  Targets: {len(targets)} companies")
+
+    async with httpx.AsyncClient(timeout=60, headers=SEC_HEADERS) as client:
+        for ipo in targets[:20]:  # 最大20件
+            try:
+                cik = ipo["cik"].lstrip("0").zfill(10)
+                accession = ipo["latest_s1_accession"].replace("-", "")
+                # S-1のindex pageを取得してプライマリドキュメントURLを構築
+                index_url = f"https://www.sec.gov/Archives/edgar/data/{cik.lstrip('0')}/{accession}/"
+
+                if WORKER_URL:
+                    # Worker proxy経由でindex取得
+                    resp = await client.get(f"{WORKER_URL}/api/admin/sec-submissions?cik={ipo['cik']}")
+                    if resp.status_code != 200:
+                        continue
+                    # 最新S-1の書類URLを構築
+                    doc_url = f"https://www.sec.gov/Archives/edgar/data/{cik.lstrip('0')}/{accession}/0.htm"
+                else:
+                    doc_url = index_url
+
+                # 書類のテキストを取得（最初の5000文字のみ — Cover Page + Prospect Summary）
+                doc_resp = await client.get(doc_url, headers={
+                    "User-Agent": "usaipocalendarapp miguoipomiguo@gmail.com"
+                })
+                if doc_resp.status_code != 200:
+                    continue
+
+                from bs4 import BeautifulSoup
+                import html2text
+                soup = BeautifulSoup(doc_resp.text[:50000], "html.parser")
+                for tag in soup.find_all(["script", "style"]):
+                    tag.decompose()
+                converter = html2text.HTML2Text()
+                converter.ignore_links = True
+                converter.body_width = 0
+                text = converter.handle(str(soup))[:5000]
+
+                # LLMで抽出
+                prompt = f"""From this SEC S-1/F-1 filing text, extract:
+1. Proposed offering price range (e.g. $18-$20)
+2. Shares outstanding after offering (total shares post-IPO)
+
+Return JSON only:
+{{"proposed_price_low": 18.0, "proposed_price_high": 20.0, "shares_outstanding": 50000000}}
+If not found, use null.
+
+Text:
+{text[:3000]}"""
+
+                result = await _call_llm(client, GITHUB_MODELS_URL, "gpt-4o-mini", prompt,
+                    {"Authorization": f"Bearer {GH_TOKEN}", "Content-Type": "application/json"})
+                if not result and OPENROUTER_KEY:
+                    result = await _call_llm(client, OPENROUTER_URL, "google/gemini-2.0-flash-001", prompt,
+                        {"Authorization": f"Bearer {OPENROUTER_KEY}", "Content-Type": "application/json"})
+
+                if result:
+                    if result.get("proposed_price_low"):
+                        ipo["proposed_price_low"] = result["proposed_price_low"]
+                    if result.get("proposed_price_high"):
+                        ipo["proposed_price_high"] = result["proposed_price_high"]
+                    if result.get("shares_outstanding"):
+                        ipo["shares_outstanding"] = result["shares_outstanding"]
+                    extracted += 1
+                    print(f"  + {ipo.get('ticker','?')}: ${result.get('proposed_price_low')}-${result.get('proposed_price_high')}, {result.get('shares_outstanding')} shares")
+
+                await asyncio.sleep(1)
+            except Exception as e:
+                pass
+
+    print(f"  Extracted: {extracted}")
+    return ipos
+
+
 async def enrich_with_llm(ipos: list) -> list:
-    if not GH_TOKEN:
+    if not GH_TOKEN and not OPENROUTER_KEY:
         return ipos
     print("\n=== LLM ===")
     enriched = 0
@@ -742,6 +834,9 @@ async def main():
     if cache:
         print(f"\n=== Enrichment Cache ({len(cache)} entries) ===")
         apply_enrichment_cache(merged, cache)
+
+    # S-1書類から価格レンジ・発行済株式数を抽出（Pending銘柄のみ）
+    merged = await extract_s1_financials(merged)
 
     # LLMで未補完分を補完
     enriched = await enrich_with_llm(merged) or merged
