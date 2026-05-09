@@ -549,22 +549,19 @@ async def extract_s1_financials(ipos: list) -> list:
                 if idx_resp.status_code != 200:
                     print(f"  ! {ipo.get('ticker','?')}: index page {idx_resp.status_code}")
                     continue
-                # indexページから最初のhtmファイルを探す
+                # indexページからS-1ドキュメントのリンクを探す
                 from bs4 import BeautifulSoup as BS
                 idx_soup = BS(idx_resp.text, "html.parser")
                 doc_link = None
                 for a in idx_soup.find_all("a"):
                     href = a.get("href", "")
-                    if href.endswith(".htm") and "index" not in href.lower():
+                    if "/Archives/edgar/data/" in href and href.endswith(".htm") and "ex-" not in href.lower() and "R" not in href.split("/")[-1][:1]:
                         doc_link = href
                         break
                 if not doc_link:
-                    doc_url = f"{index_url}0.htm"
-                else:
-                    if doc_link.startswith("http"):
-                        doc_url = doc_link
-                    else:
-                        doc_url = f"https://www.sec.gov{doc_link}" if doc_link.startswith("/") else f"{index_url}{doc_link}"
+                    print(f"  ! {ipo.get('ticker','?')}: no filing doc link found in index")
+                    continue
+                doc_url = f"https://www.sec.gov{doc_link}" if doc_link.startswith("/") else doc_link
 
                 # 書類のテキストを取得（Worker proxy経由）
                 if WORKER_URL:
