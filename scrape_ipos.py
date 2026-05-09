@@ -585,14 +585,23 @@ async def extract_s1_financials(ipos: list) -> list:
                 converter.body_width = 0
                 text = converter.handle(str(soup))[:5000]
 
-                # LLMで抽出
-                prompt = f"""From this SEC S-1/F-1 filing text, extract:
-1. Proposed offering price range (e.g. $18-$20)
-2. Shares outstanding after offering (total shares post-IPO)
+                # デバッグ: 最初の1件のテキスト先頭を表示
+                if extracted == 0 and targets.index(ipo) == 0:
+                    print(f"  [DEBUG] doc_url: {doc_url}")
+                    print(f"  [DEBUG] text[:200]: {text[:200]}")
 
-Return JSON only:
-{{"proposed_price_low": 18.0, "proposed_price_high": 20.0, "shares_outstanding": 50000000}}
-If not found, use null.
+                # LLMで抽出
+                if len(text.strip()) < 100:
+                    print(f"  ! {ipo.get('ticker','?')}: text too short ({len(text)} chars)")
+                    continue
+
+                prompt = f"""From this SEC S-1/F-1 filing text, extract the ACTUAL values:
+1. Proposed offering price range (low and high price per share)
+2. Total shares outstanding after the offering (post-IPO shares outstanding)
+
+IMPORTANT: Extract the REAL numbers from the document. Do NOT use example values.
+Return JSON only with actual values from the text:
+{{"proposed_price_low": <number or null>, "proposed_price_high": <number or null>, "shares_outstanding": <integer or null>}}
 
 Text:
 {text[:3000]}"""
