@@ -534,7 +534,7 @@ async def extract_s1_financials(ipos: list) -> list:
     print(f"  Targets: {len(targets)} companies")
 
     async with httpx.AsyncClient(timeout=60, headers=SEC_HEADERS) as client:
-        for ipo in targets[:20]:  # 最大20件
+        for ipo in targets[:40]:  # 最大40件
             try:
                 cik_raw = ipo["cik"].lstrip("0")
                 accession_raw = ipo["_accession_for_extract"]
@@ -602,11 +602,6 @@ async def extract_s1_financials(ipos: list) -> list:
                 converter.ignore_links = True
                 converter.body_width = 0
                 text = converter.handle(str(soup))[:8000]
-
-                # デバッグ: 最初の1件のテキスト先頭を表示
-                if extracted == 0 and targets.index(ipo) == 0:
-                    print(f"  [DEBUG] doc_url: {doc_url}")
-                    print(f"  [DEBUG] text[:200]: {text[:200]}")
 
                 # LLMで抽出
                 if len(text.strip()) < 100:
