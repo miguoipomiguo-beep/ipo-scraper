@@ -546,6 +546,7 @@ async def extract_s1_financials(ipos: list) -> list:
                     "User-Agent": "usaipocalendarapp miguoipomiguo@gmail.com"
                 })
                 if idx_resp.status_code != 200:
+                    print(f"  ! {ipo.get('ticker','?')}: index page {idx_resp.status_code}")
                     continue
                 # indexページから最初のhtmファイルを探す
                 from bs4 import BeautifulSoup as BS
@@ -570,6 +571,7 @@ async def extract_s1_financials(ipos: list) -> list:
                     "User-Agent": "usaipocalendarapp miguoipomiguo@gmail.com"
                 })
                 if doc_resp.status_code != 200:
+                    print(f"  ! {ipo.get('ticker','?')}: doc page {doc_resp.status_code} ({doc_url[:80]})")
                     continue
 
                 from bs4 import BeautifulSoup
@@ -612,7 +614,7 @@ Text:
 
                 await asyncio.sleep(1)
             except Exception as e:
-                pass
+                print(f"  ! {ipo.get('ticker','?')}: {e}")
 
     print(f"  Extracted: {extracted}")
     return ipos
