@@ -541,10 +541,11 @@ async def extract_s1_financials(ipos: list) -> list:
                 # S-1のindex pageを取得してプライマリドキュメントURLを構築
                 index_url = f"https://www.sec.gov/Archives/edgar/data/{cik.lstrip('0')}/{accession}/"
 
-                # filing index pageから主要ドキュメントを取得
-                idx_resp = await client.get(index_url, headers={
-                    "User-Agent": "usaipocalendarapp miguoipomiguo@gmail.com"
-                })
+                # filing index pageから主要ドキュメントを取得（Worker proxy経由）
+                if WORKER_URL:
+                    idx_resp = await client.get(f"{WORKER_URL}/api/admin/sec-fetch", params={"url": index_url})
+                else:
+                    idx_resp = await client.get(index_url, headers={"User-Agent": "usaipocalendarapp miguoipomiguo@gmail.com"})
                 if idx_resp.status_code != 200:
                     print(f"  ! {ipo.get('ticker','?')}: index page {idx_resp.status_code}")
                     continue
@@ -558,7 +559,6 @@ async def extract_s1_financials(ipos: list) -> list:
                         doc_link = href
                         break
                 if not doc_link:
-                    # fallback: 最初の.htmリンク
                     doc_url = f"{index_url}0.htm"
                 else:
                     if doc_link.startswith("http"):
@@ -566,10 +566,11 @@ async def extract_s1_financials(ipos: list) -> list:
                     else:
                         doc_url = f"https://www.sec.gov{doc_link}" if doc_link.startswith("/") else f"{index_url}{doc_link}"
 
-                # 書類のテキストを取得（最初の5000文字のみ — Cover Page + Prospect Summary）
-                doc_resp = await client.get(doc_url, headers={
-                    "User-Agent": "usaipocalendarapp miguoipomiguo@gmail.com"
-                })
+                # 書類のテキストを取得（Worker proxy経由）
+                if WORKER_URL:
+                    doc_resp = await client.get(f"{WORKER_URL}/api/admin/sec-fetch", params={"url": doc_url})
+                else:
+                    doc_resp = await client.get(doc_url, headers={"User-Agent": "usaipocalendarapp miguoipomiguo@gmail.com"})
                 if doc_resp.status_code != 200:
                     print(f"  ! {ipo.get('ticker','?')}: doc page {doc_resp.status_code} ({doc_url[:80]})")
                     continue
