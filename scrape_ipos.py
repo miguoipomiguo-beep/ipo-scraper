@@ -516,7 +516,8 @@ async def extract_s1_financials(ipos: list) -> list:
 
     # shares_outstandingが未取得の全銘柄が対象（Upcoming含む）
     # latest_s1_accessionがなくてもeventsからaccessionを取得
-    targets = []
+    targets_upcoming = []
+    targets_other = []
     for i in ipos:
         if i.get("shares_outstanding") or not i.get("cik"):
             continue
@@ -529,9 +530,14 @@ async def extract_s1_financials(ipos: list) -> list:
                     break
         if accession:
             i["_accession_for_extract"] = accession
-            targets.append(i)
+            # expected_dateありを優先（Upcoming）
+            if i.get("expected_date"):
+                targets_upcoming.append(i)
+            else:
+                targets_other.append(i)
 
-    print(f"  Targets: {len(targets)} companies")
+    targets = targets_upcoming + targets_other
+    print(f"  Targets: {len(targets)} companies ({len(targets_upcoming)} upcoming)")
 
     async with httpx.AsyncClient(timeout=60, headers=SEC_HEADERS) as client:
         for ipo in targets[:40]:  # 最大40件
