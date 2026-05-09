@@ -588,13 +588,20 @@ async def extract_s1_financials(ipos: list) -> list:
 
                 from bs4 import BeautifulSoup
                 import html2text
-                soup = BeautifulSoup(doc_resp.text[:50000], "html.parser")
+                # SGMLラッパー(<DOCUMENT>...</DOCUMENT>)を除去してHTML部分のみ取得
+                raw = doc_resp.text
+                html_start = raw.find("<HTML")
+                if html_start == -1:
+                    html_start = raw.find("<html")
+                if html_start >= 0:
+                    raw = raw[html_start:]
+                soup = BeautifulSoup(raw[:100000], "html.parser")
                 for tag in soup.find_all(["script", "style"]):
                     tag.decompose()
                 converter = html2text.HTML2Text()
                 converter.ignore_links = True
                 converter.body_width = 0
-                text = converter.handle(str(soup))[:5000]
+                text = converter.handle(str(soup))[:8000]
 
                 # デバッグ: 最初の1件のテキスト先頭を表示
                 if extracted == 0 and targets.index(ipo) == 0:
@@ -615,7 +622,7 @@ Return JSON only with actual values from the text:
 {{"proposed_price_low": <number or null>, "proposed_price_high": <number or null>, "shares_outstanding": <integer or null>}}
 
 Text:
-{text[:3000]}"""
+{text[:5000]}"""
 
                 result = await _call_llm(client, GITHUB_MODELS_URL, "gpt-4o-mini", prompt,
                     {"Authorization": f"Bearer {GH_TOKEN}", "Content-Type": "application/json"})
