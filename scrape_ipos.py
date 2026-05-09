@@ -536,34 +536,38 @@ async def extract_s1_financials(ipos: list) -> list:
     async with httpx.AsyncClient(timeout=60, headers=SEC_HEADERS) as client:
         for ipo in targets[:20]:  # 最大20件
             try:
-                cik = ipo["cik"].lstrip("0").zfill(10)
-                accession = ipo["_accession_for_extract"].replace("-", "")
-                # S-1のindex pageを取得してプライマリドキュメントURLを構築
-                index_url = f"https://www.sec.gov/Archives/edgar/data/{cik.lstrip('0')}/{accession}/"
+                cik_raw = ipo["cik"].lstrip("0")
+                accession_raw = ipo["_accession_for_extract"]
+                accession_nodash = accession_raw.replace("-", "")
 
-                # filing index pageから主要ドキュメントを取得（Worker proxy経由）
+                # Submissions APIからprimaryDocumentファイル名を取得
                 if WORKER_URL:
-                    idx_resp = await client.get(f"{WORKER_URL}/api/admin/sec-fetch", params={"url": index_url})
+                    sub_resp = await client.get(f"{WORKER_URL}/api/admin/sec-submissions", params={"cik": ipo["cik"]})
                 else:
-                    idx_resp = await client.get(index_url, headers={"User-Agent": "usaipocalendarapp miguoipomiguo@gmail.com"})
-                if idx_resp.status_code != 200:
-                    print(f"  ! {ipo.get('ticker','?')}: index page {idx_resp.status_code}")
+                    cik_padded = cik_raw.zfill(10)
+                    sub_resp = await client.get(f"https://data.sec.gov/submissions/CIK{cik_padded}.json",
+                                               headers={"User-Agent": "usaipocalendarapp miguoipomiguo@gmail.com"})
+                if sub_resp.status_code != 200:
+                    print(f"  ! {ipo.get('ticker','?')}: submissions API {sub_resp.status_code}")
                     continue
-                # indexページからS-1ドキュメントのリンクを探す
-                from bs4 import BeautifulSoup as BS
-                idx_soup = BS(idx_resp.text, "html.parser")
-                doc_link = None
-                for a in idx_soup.find_all("a"):
-                    href = a.get("href", "")
-                    if "/Archives/edgar/data/" in href and href.endswith(".htm") and "ex-" not in href.lower() and "R" not in href.split("/")[-1][:1]:
-                        doc_link = href
-                        break
-                if not doc_link:
-                    print(f"  ! {ipo.get('ticker','?')}: no filing doc link found in index")
-                    continue
-                doc_url = f"https://www.sec.gov{doc_link}" if doc_link.startswith("/") else doc_link
 
-                # 書類のテキストを取得（Worker proxy経由）
+                sub_data = sub_resp.json()
+                recent = sub_data.get("filings", {}).get("recent", {})
+                accession_list = recent.get("accessionNumber", [])
+                primary_docs = recent.get("primaryDocument", [])
+
+                # accession番号でprimaryDocumentを探す
+                primary_doc = None
+                for idx, acc in enumerate(accession_list):
+                    if acc == accession_raw:
+                        primary_doc = primary_docs[idx] if idx < len(primary_docs) else None
+                        break
+                if not primary_doc:
+                    print(f"  ! {ipo.get('ticker','?')}: primaryDocument not found for {accession_raw}")
+                    continue
+
+                # ドキュメントURL構築 & 取得
+                doc_url = f"https://www.sec.gov/Archives/edgar/data/{cik_raw}/{accession_nodash}/{primary_doc}"
                 if WORKER_URL:
                     doc_resp = await client.get(f"{WORKER_URL}/api/admin/sec-fetch", params={"url": doc_url})
                 else:
