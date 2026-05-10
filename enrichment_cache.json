@@ -878,5 +878,10 @@
     "description": "Starlink AI Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the artificial intelligence sector. The company aims to leverage advancements in AI technology to drive growth and create value for shareholders.",
     "products_services": "Investment in and acquisition of AI-focused companies, technology development, and strategic partnerships.",
     "industry": "Special Purpose Acquisition Companies (SPACs) / Artificial Intelligence"
+  },
+  "HQ": {
+    "description": "Horizon Quantum Holdings Ltd. is a pioneering company focused on advancing quantum computing technologies and solutions. The company aims to leverage quantum mechanics to revolutionize various industries through enhanced computational capabilities.",
+    "products_services": "Quantum computing hardware, software solutions, and consulting services for businesses looking to integrate quantum technologies.",
+    "industry": "Quantum Computing and Technology"
   }
 }
