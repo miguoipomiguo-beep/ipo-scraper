@@ -572,9 +572,9 @@ async def extract_s1_financials(ipos: list) -> list:
                     print(f"  ! {ipo.get('ticker','?')}: primaryDocument not found for {accession_raw}")
                     continue
 
-                await asyncio.sleep(3)  # SEC rate limit対策
+                await asyncio.sleep(5)  # SEC rate limit対策
 
-                # ドキュメントURL構築 & 取得（403ならリトライ）
+                # ドキュメントURL構築 & 取得（403/429ならリトライ）
                 doc_url = f"https://www.sec.gov/Archives/edgar/data/{cik_raw}/{accession_nodash}/{primary_doc}"
                 doc_resp = None
                 for attempt in range(3):
@@ -584,9 +584,9 @@ async def extract_s1_financials(ipos: list) -> list:
                         doc_resp = await client.get(doc_url, headers={"User-Agent": "usaipocalendarapp miguoipomiguo@gmail.com"})
                     if doc_resp.status_code == 200:
                         break
-                    if doc_resp.status_code == 403 and attempt < 2:
-                        wait = 30 * (attempt + 1)
-                        print(f"  ! {ipo.get('ticker','?')}: 403, retrying in {wait}s...")
+                    if doc_resp.status_code in (403, 429) and attempt < 2:
+                        wait = 60 * (attempt + 1)
+                        print(f"  ! {ipo.get('ticker','?')}: {doc_resp.status_code}, retrying in {wait}s...")
                         await asyncio.sleep(wait)
                 if doc_resp.status_code != 200:
                     print(f"  ! {ipo.get('ticker','?')}: doc page {doc_resp.status_code} ({doc_url[:80]})")
@@ -894,8 +894,8 @@ async def main():
         apply_enrichment_cache(merged, cache)
 
     # S-1書類から価格レンジ・発行済株式数を抽出
-    print("\n⏳ Waiting 60s before SEC document fetch (rate limit cooldown)...")
-    await asyncio.sleep(60)
+    print("\n⏳ Waiting 120s before SEC document fetch (rate limit cooldown)...")
+    await asyncio.sleep(120)
     merged = await extract_s1_financials(merged)
 
     # LLMで未補完分を補完
