@@ -615,15 +615,16 @@ async def extract_s1_financials(ipos: list) -> list:
                     continue
 
                 prompt = f"""From this SEC S-1/F-1 filing text, extract the ACTUAL values:
-1. Proposed offering price range (low and high price per share)
-2. Total shares outstanding after the offering (post-IPO shares outstanding)
+1. Proposed offering price per share or price range (low and high). For SPACs, this is typically "$10.00 per unit".
+2. Total shares that will be outstanding after the offering (post-IPO). Look for "shares outstanding after this offering", "shares to be outstanding", or in the Capitalization table.
 
-IMPORTANT: Extract the REAL numbers from the document. Do NOT use example values.
-Return JSON only with actual values from the text:
+IMPORTANT: Extract the REAL numbers from the document. Do NOT guess or use placeholder values.
+If price is a single number (e.g. "$10.00 per unit"), use that for both low and high.
+Return JSON only:
 {{"proposed_price_low": <number or null>, "proposed_price_high": <number or null>, "shares_outstanding": <integer or null>}}
 
 Text:
-{text[:5000]}"""
+{text[:6000]}"""
 
                 result = await _call_llm(client, GITHUB_MODELS_URL, "gpt-4o-mini", prompt,
                     {"Authorization": f"Bearer {GH_TOKEN}", "Content-Type": "application/json"})
