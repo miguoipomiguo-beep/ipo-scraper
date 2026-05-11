@@ -865,13 +865,23 @@ def save_enrichment_cache(cache: dict):
 
 
 def apply_enrichment_cache(ipos: list, cache: dict):
-    """キャッシュからdescription等を復元"""
+    """キャッシュからdescription, shares_outstanding等を復元"""
     applied = 0
     for ipo in ipos:
         ipo_id = ipo.get("id") or ipo.get("ticker") or ipo.get("cik")
-        if ipo_id and ipo_id in cache and not ipo.get("description"):
-            ipo.update(cache[ipo_id])
-            applied += 1
+        if ipo_id and ipo_id in cache:
+            cached = cache[ipo_id]
+            changed = False
+            for key in ("description", "products_services", "industry"):
+                if not ipo.get(key) and cached.get(key):
+                    ipo[key] = cached[key]
+                    changed = True
+            for key in ("shares_outstanding", "proposed_price_low", "proposed_price_high"):
+                if not ipo.get(key) and cached.get(key):
+                    ipo[key] = cached[key]
+                    changed = True
+            if changed:
+                applied += 1
     print(f"  Cache applied: {applied} companies")
 
 
@@ -905,12 +915,15 @@ async def main():
     # キャッシュを更新保存
     for ipo in enriched:
         ipo_id = ipo.get("id") or ipo.get("ticker") or ipo.get("cik")
-        if ipo_id and ipo.get("description"):
-            cache[ipo_id] = {
-                "description": ipo.get("description"),
-                "products_services": ipo.get("products_services"),
-                "industry": ipo.get("industry"),
-            }
+        if ipo_id and (ipo.get("description") or ipo.get("shares_outstanding")):
+            entry = cache.get(ipo_id, {})
+            for key in ("description", "products_services", "industry"):
+                if ipo.get(key):
+                    entry[key] = ipo[key]
+            for key in ("shares_outstanding", "proposed_price_low", "proposed_price_high"):
+                if ipo.get(key):
+                    entry[key] = ipo[key]
+            cache[ipo_id] = entry
     save_enrichment_cache(cache)
 
     with open("ipo_data.json", "w") as f:
