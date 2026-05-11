@@ -600,7 +600,7 @@ async def extract_s1_financials(ipos: list) -> list:
 
                 # テキスト先頭 + キーワード周辺を抽出してLLMに渡す
                 excerpts = [full_text[:3000]]
-                keywords = [r'\$[\d,.]+\s*per\s*(share|unit)', r'shares?\s*(outstanding|to be outstanding)', r'(offering|IPO)\s*price', r'shares?\s*after\s*(this|the)\s*offering']
+                keywords = [r'\$[\d,.]+\s*per\s*(share|unit)', r'per\s*share\s*price\s*of\s*\$', r'shares?\s*(outstanding|to be outstanding)', r'(offering|IPO)\s*price', r'shares?\s*after\s*(this|the)\s*offering', r'shares?\s*of\s*(Class\s*[A-Z]\s*)?(common|ordinary)\s*stock']
                 for kw in keywords:
                     for m in re.finditer(kw, full_text, re.IGNORECASE):
                         s = max(0, m.start() - 200)
