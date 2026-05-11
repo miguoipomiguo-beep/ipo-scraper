@@ -898,6 +898,22 @@ async def main():
 
     merged = merge_all(sec, nasdaq)
 
+    # 前回データから消失した銘柄を補完（SEC API一時障害対策）
+    try:
+        with open("ipo_data.json") as f:
+            prev_data = json.load(f)
+        merged_ids = {i.get("id") for i in merged}
+        restored = 0
+        for prev in prev_data:
+            pid = prev.get("id")
+            if pid and pid not in merged_ids and prev.get("status") not in ("listed", "excluded"):
+                merged.append(prev)
+                restored += 1
+        if restored:
+            print(f"  Restored {restored} companies from previous data")
+    except Exception:
+        pass
+
     # 過去のLLM結果をキャッシュから復元
     cache = load_enrichment_cache()
     if cache:
