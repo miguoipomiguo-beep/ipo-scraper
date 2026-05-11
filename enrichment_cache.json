@@ -883,5 +883,10 @@
     "description": "Horizon Quantum Holdings Ltd. is a pioneering company focused on advancing quantum computing technologies and solutions. The company aims to leverage quantum mechanics to revolutionize various industries through enhanced computational capabilities.",
     "products_services": "Quantum computing hardware, software solutions, and consulting services for businesses looking to integrate quantum technologies.",
     "industry": "Quantum Computing and Technology"
+  },
+  "DGAC": {
+    "description": "Disciplined Growth Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative growth-oriented businesses. The company aims to leverage its management team's expertise to drive value creation in the rapidly evolving market landscape.",
+    "products_services": "The company primarily engages in identifying and acquiring businesses in the technology, healthcare, and consumer sectors, providing them with the necessary resources to scale and succeed.",
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)"
   }
 }
