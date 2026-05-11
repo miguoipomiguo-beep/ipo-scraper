@@ -20,7 +20,8 @@
     "products_services": "The company primarily engages in the acquisition of businesses within the metals and mining industry, potentially including companies involved in the extraction, processing, and distribution of various metals.",
     "industry": "Metals and Mining",
     "proposed_price_low": 10.0,
-    "proposed_price_high": 10.0
+    "proposed_price_high": 10.0,
+    "shares_outstanding": 23000000
   },
   "AGMB": {
     "description": "Agomab Therapeutics NV is a clinical-stage biopharmaceutical company focused on developing innovative therapies for serious diseases with high unmet medical needs. The company's proprietary platform leverages its expertise in protein engineering to create targeted treatments for fibrotic diseases and cancer.",
@@ -65,35 +66,42 @@
   "FPS": {
     "description": "Forgent Power Solutions, Inc. is a leading provider of innovative energy solutions focused on enhancing efficiency and sustainability in power generation. The company leverages cutting-edge technology to deliver reliable and eco-friendly power systems for various industries.",
     "products_services": "Forgent offers a range of products and services including advanced power management systems, renewable energy solutions, and energy efficiency consulting.",
-    "industry": "Energy Solutions and Power Management"
+    "industry": "Energy Solutions and Power Management",
+    "shares_outstanding": 64400000,
+    "proposed_price_low": 27.0,
+    "proposed_price_high": 27.0
   },
   "TRGSU": {
     "description": "TRG Latin America Acquisitions Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative businesses in Latin America. The company aims to leverage its management team's expertise to drive growth and create value in the region's dynamic markets.",
     "products_services": "As a SPAC, TRG Latin America Acquisitions Corp. does not offer traditional products or services but seeks to acquire and support growth in target companies across various sectors in Latin America.",
     "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)",
     "proposed_price_low": 10.0,
-    "proposed_price_high": 10.0
+    "proposed_price_high": 10.0,
+    "shares_outstanding": 23000000
   },
   "CAQUU": {
     "description": "Cambridge Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in high-growth sectors. The firm aims to leverage its expertise to create value for shareholders through strategic partnerships and operational improvements.",
     "products_services": "As a SPAC, Cambridge Acquisition Corp. primarily offers capital and strategic guidance to target companies, facilitating their transition to public markets.",
     "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)",
     "proposed_price_low": 10.0,
-    "proposed_price_high": 10.0
+    "proposed_price_high": 10.0,
+    "shares_outstanding": 20000000
   },
   "ARCLU": {
     "description": "ARC Group Acquisition I Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the technology and consumer sectors. The company aims to leverage its management team's expertise to drive growth and create value for shareholders.",
     "products_services": "As a SPAC, ARC Group Acquisition I Corp. does not offer traditional products or services but seeks to acquire and support companies in their growth journey post-merger.",
     "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)",
     "proposed_price_low": 10.0,
-    "proposed_price_high": 10.0
+    "proposed_price_high": 10.0,
+    "shares_outstanding": 12075000
   },
   "AACIU": {
     "description": "Armada Acquisition Corp. III is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the technology and consumer sectors. The company aims to leverage its management team's expertise to drive growth and create value for shareholders post-merger.",
     "products_services": "As a SPAC, Armada Acquisition Corp. III does not offer traditional products or services but seeks to acquire and operate a target company in the technology or consumer industries.",
     "industry": "Special Purpose Acquisition Company (SPAC)",
     "proposed_price_low": 10.0,
-    "proposed_price_high": 10.0
+    "proposed_price_high": 10.0,
+    "shares_outstanding": 22500000
   },
   "ACAAU": {
     "description": "Averin Capital Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in high-growth sectors. The firm aims to leverage its expertise and network to create value for shareholders through strategic partnerships and investments.",
@@ -212,7 +220,8 @@
     "products_services": "As a SPAC, Illumination Acquisition Corp. I does not offer traditional products or services but seeks to acquire a target company that will provide growth opportunities in technology and media.",
     "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)",
     "proposed_price_low": 10.0,
-    "proposed_price_high": 10.0
+    "proposed_price_high": 10.0,
+    "shares_outstanding": 200000000
   },
   "CMIIU": {
     "description": "Columbus Circle Capital Corp II is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative businesses in high-growth sectors. The company aims to leverage its management team's expertise to create value for shareholders through strategic acquisitions.",
@@ -278,7 +287,8 @@
     "products_services": "As a SPAC, Paloma Acquisition Corp I does not offer traditional products or services but seeks to acquire a target company to bring it public.",
     "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)",
     "proposed_price_low": 10.0,
-    "proposed_price_high": 10.0
+    "proposed_price_high": 10.0,
+    "shares_outstanding": 150000000
   },
   "AIDX": {
     "description": "20/20 Biolabs, Inc. is a biotechnology company focused on providing advanced genomic testing and analysis services to enhance personalized medicine. The company aims to revolutionize healthcare by offering innovative solutions that improve patient outcomes through precise genetic insights.",
@@ -314,7 +324,9 @@
   "APC": {
     "description": "ARKO Petroleum Corp. is a leading energy company focused on the exploration and production of oil and natural gas resources. The company aims to leverage innovative technologies and sustainable practices to enhance its operational efficiency and environmental stewardship.",
     "products_services": "Exploration and production of oil and natural gas, as well as related energy services.",
-    "industry": "Energy and Oil & Gas Exploration"
+    "industry": "Energy and Oil & Gas Exploration",
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
   },
   "HACQU": {
     "description": "HCM IV Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the healthcare sector. The company aims to leverage its expertise and resources to drive growth and create value for shareholders.",
@@ -329,7 +341,8 @@
     "products_services": "As a SPAC, Idea Acquisition Corp. primarily offers capital and strategic guidance to target companies, facilitating their transition to public markets.",
     "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)",
     "proposed_price_low": 10.0,
-    "proposed_price_high": 10.0
+    "proposed_price_high": 10.0,
+    "shares_outstanding": 350000000
   },
   "TMTSU": {
     "description": "Spartacus Acquisition Corp. II is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in high-growth sectors. The firm aims to leverage its management team's expertise to create value for shareholders through strategic acquisitions.",
@@ -391,7 +404,8 @@
     "products_services": "Investment and acquisition of companies in the transportation and logistics industries.",
     "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)",
     "proposed_price_low": 10.0,
-    "proposed_price_high": 10.0
+    "proposed_price_high": 10.0,
+    "shares_outstanding": 17500000
   },
   "CEPS": {
     "description": "Cantor Equity Partners VI, Inc. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in high-growth sectors. The firm aims to leverage its extensive network and industry expertise to create value for shareholders through strategic partnerships and investments.",
@@ -624,7 +638,9 @@
   "GIVE": {
     "description": "Wealth Management System Inc. is a financial technology company that provides innovative solutions for wealth management and investment advisory services. The company aims to enhance client engagement and streamline portfolio management through its advanced software platform.",
     "products_services": "Wealth management software, investment advisory tools, client engagement solutions, portfolio management systems.",
-    "industry": "Financial Technology (FinTech)"
+    "industry": "Financial Technology (FinTech)",
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
   },
   "OHAC": {
     "description": "Oceanhawk Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the technology and consumer sectors. The firm aims to leverage its management team's expertise to drive growth and create value for shareholders.",
@@ -831,7 +847,8 @@
     "products_services": "As a SPAC, D. Boral Acquisition I Corp. does not offer traditional products or services but seeks to acquire a target company to bring it public.",
     "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)",
     "proposed_price_low": 10.0,
-    "proposed_price_high": 10.0
+    "proposed_price_high": 10.0,
+    "shares_outstanding": 2000000
   },
   "SSACU": {
     "description": "SPACSphere Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in high-growth sectors. The company aims to provide a streamlined path to public markets for its target businesses, leveraging its management team's expertise and network.",
@@ -868,28 +885,32 @@
     "products_services": "As a SPAC, Inflection Point Acquisition Corp. VI does not offer traditional products or services but seeks to acquire and enhance the operations of target companies in various industries.",
     "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)",
     "proposed_price_low": 10.0,
-    "proposed_price_high": 10.0
+    "proposed_price_high": 10.0,
+    "shares_outstanding": 220000000
   },
   "QADRU": {
     "description": "QDRO Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the technology sector. The firm aims to leverage its expertise to drive growth and create value for shareholders post-merger.",
     "products_services": "Investment and acquisition services targeting technology companies.",
     "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)",
     "proposed_price_low": 10.0,
-    "proposed_price_high": 10.0
+    "proposed_price_high": 10.0,
+    "shares_outstanding": 200000000
   },
   "FMACU": {
     "description": "Future Money Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative financial technology firms. The company aims to leverage its expertise to drive growth and create value in the evolving financial services landscape.",
     "products_services": "Future Money Acquisition Corp. does not offer traditional products or services but seeks to acquire and support companies in the fintech sector.",
     "industry": "Financial Technology (Fintech)",
-    "proposed_price_low": 9.09,
-    "proposed_price_high": 9.09
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0,
+    "shares_outstanding": 10000000
   },
   "BWIVU": {
     "description": "Blue Water Acquisition Corp. IV is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in high-growth sectors. The firm aims to leverage its management team's expertise to create value for shareholders through strategic acquisitions.",
     "products_services": "The company primarily engages in the acquisition of businesses in various industries, with a focus on technology and consumer sectors.",
     "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)",
     "proposed_price_low": 10.0,
-    "proposed_price_high": 10.0
+    "proposed_price_high": 10.0,
+    "shares_outstanding": 125000000
   },
   "GMTL": {
     "description": "Guardian Metal Resources PLC is a mining and exploration company focused on the sustainable extraction of valuable metal resources. The company aims to leverage innovative technologies to enhance efficiency and minimize environmental impact in the mining sector.",
@@ -959,7 +980,8 @@
     "products_services": "Investment and acquisition services targeting technology companies.",
     "industry": "Financial Services / SPACs",
     "proposed_price_low": 10.0,
-    "proposed_price_high": 10.0
+    "proposed_price_high": 10.0,
+    "shares_outstanding": 250000000
   },
   "GCGRU": {
     "description": "General Catalyst Global Resilience Merger Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies that enhance global resilience. The firm aims to leverage its expertise to drive growth in sectors that address critical challenges such as climate change, cybersecurity, and public health.",
@@ -972,14 +994,18 @@
   "AVLN": {
     "description": "Avalyn Pharma Inc. is a clinical-stage biopharmaceutical company focused on developing innovative therapies for patients with rare and serious diseases. The company's lead product candidates target conditions related to pulmonary and other systemic diseases.",
     "products_services": "Avalyn Pharma is developing therapies for pulmonary diseases, including its lead candidate aimed at treating pulmonary alveolar proteinosis (PAP).",
-    "industry": "Biopharmaceuticals"
+    "industry": "Biopharmaceuticals",
+    "shares_outstanding": 14800000,
+    "proposed_price_low": 17.0,
+    "proposed_price_high": 17.0
   },
   "PS": {
     "description": "Pershing Square Inc. is a special purpose acquisition company (SPAC) focused on identifying and merging with high-quality businesses to create long-term value for shareholders.",
     "products_services": "The company primarily engages in investment activities and may provide capital to target companies in various sectors.",
     "industry": "Financial Services",
-    "proposed_price_low": 10.0,
-    "proposed_price_high": 10.0
+    "proposed_price_low": 50.0,
+    "proposed_price_high": 50.0,
+    "shares_outstanding": 56300000
   },
   "XE": {
     "description": "X-Energy, Inc. is a pioneering energy company focused on developing advanced nuclear reactor technology to provide clean, reliable, and sustainable energy solutions. The company aims to revolutionize the energy sector by offering innovative nuclear power systems that significantly reduce carbon emissions.",
@@ -1019,7 +1045,10 @@
   "KLRA": {
     "description": "Kailera Therapeutics, Inc. is a biotechnology company focused on developing innovative therapies for genetic diseases through advanced gene editing technologies. The company aims to address unmet medical needs by leveraging its proprietary platform to create targeted treatments.",
     "products_services": "Gene editing therapies for genetic disorders, research and development of innovative biopharmaceuticals.",
-    "industry": "Biotechnology"
+    "industry": "Biotechnology",
+    "shares_outstanding": 33333334,
+    "proposed_price_low": 14.0,
+    "proposed_price_high": 16.0
   },
   "JATT": {
     "description": "JATT II Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative businesses in the technology and consumer sectors. The company aims to leverage its management team's expertise to drive growth and create value for shareholders.",
@@ -1132,7 +1161,10 @@
   "IACQU": {
     "description": "Irenic Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the technology sector. The firm aims to leverage its expertise to drive growth and create value for shareholders post-merger.",
     "products_services": "As a SPAC, Irenic Acquisition Corp. does not offer traditional products or services but seeks to facilitate mergers and acquisitions with target companies in the technology industry.",
-    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)"
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)",
+    "shares_outstanding": 25300000,
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
   },
   "ALMR": {
     "description": "Alamar Biosciences, Inc. is a biotechnology company focused on developing innovative solutions for drug discovery and development through advanced biosensing technologies. Their proprietary platforms enable real-time monitoring of cellular responses, enhancing the efficiency of pharmaceutical research.",
@@ -1176,7 +1208,8 @@
     "products_services": "The company primarily engages in the acquisition of businesses in the technology and healthcare industries, facilitating their growth through strategic partnerships and operational enhancements.",
     "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)",
     "proposed_price_low": 10.0,
-    "proposed_price_high": 10.0
+    "proposed_price_high": 10.0,
+    "shares_outstanding": 25000000
   },
   "TPTA": {
     "description": "Terra Property Trust, Inc. is a real estate investment trust (REIT) focused on acquiring, financing, and managing a diversified portfolio of commercial real estate properties. The company aims to provide attractive risk-adjusted returns to its investors through strategic investments in high-quality properties.",
@@ -1212,7 +1245,8 @@
     "products_services": "As a SPAC, Iris Acquisition Corp II primarily offers capital and resources to target companies for merger or acquisition, facilitating their growth and expansion.",
     "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)",
     "proposed_price_low": 10.0,
-    "proposed_price_high": 10.0
+    "proposed_price_high": 10.0,
+    "shares_outstanding": 15000000
   },
   "SBMT": {
     "description": "Silver Bow Mining Corp. is a mining company focused on the exploration and development of silver and other precious metal resources. The company aims to leverage advanced mining technologies to enhance production efficiency and sustainability in the mining sector.",
@@ -1286,5 +1320,10 @@
     "description": "AIAI Holdings Corp. is a technology-driven company focused on developing innovative artificial intelligence solutions for various industries. The company aims to enhance operational efficiency and decision-making through advanced AI applications.",
     "products_services": "AI software solutions, machine learning platforms, data analytics services, and consulting for AI integration.",
     "industry": "Artificial Intelligence and Technology"
+  },
+  "0002109150": {
+    "description": "INNIO Holding GmbH is a leading provider of innovative energy solutions, specializing in the development and manufacturing of gas engines and power generation systems. The company focuses on sustainable energy technologies to support the transition to a low-carbon economy.",
+    "products_services": "Gas engines, power generation systems, energy solutions, and services for various applications including distributed energy and backup power.",
+    "industry": "Energy and Power Generation"
   }
 }
