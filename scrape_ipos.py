@@ -580,39 +580,50 @@ async def extract_s1_financials(ipos: list) -> list:
                     print(f"  ! {ipo.get('ticker','?')}: doc page {doc_resp.status_code} ({doc_url[:80]})")
                     continue
 
+                import re
                 from bs4 import BeautifulSoup
                 import html2text
-                # SGMLラッパー(<DOCUMENT>...</DOCUMENT>)を除去してHTML部分のみ取得
+                # SGMLラッパーを除去してHTML部分のみ取得
                 raw = doc_resp.text
                 html_start = raw.find("<HTML")
                 if html_start == -1:
                     html_start = raw.find("<html")
                 if html_start >= 0:
                     raw = raw[html_start:]
-                soup = BeautifulSoup(raw[:100000], "html.parser")
+                soup = BeautifulSoup(raw[:500000], "html.parser")
                 for tag in soup.find_all(["script", "style"]):
                     tag.decompose()
                 converter = html2text.HTML2Text()
                 converter.ignore_links = True
                 converter.body_width = 0
-                text = converter.handle(str(soup))[:8000]
+                full_text = converter.handle(str(soup))
+
+                # テキスト先頭 + キーワード周辺を抽出してLLMに渡す
+                excerpts = [full_text[:3000]]
+                keywords = [r'\$[\d,.]+\s*per\s*(share|unit)', r'shares?\s*(outstanding|to be outstanding)', r'(offering|IPO)\s*price', r'shares?\s*after\s*(this|the)\s*offering']
+                for kw in keywords:
+                    for m in re.finditer(kw, full_text, re.IGNORECASE):
+                        s = max(0, m.start() - 200)
+                        e = min(len(full_text), m.end() + 200)
+                        excerpts.append(full_text[s:e])
+                combined = "\n---\n".join(excerpts)[:6000]
 
                 # LLMで抽出
-                if len(text.strip()) < 100:
-                    print(f"  ! {ipo.get('ticker','?')}: text too short ({len(text)} chars)")
+                if len(combined.strip()) < 100:
+                    print(f"  ! {ipo.get('ticker','?')}: text too short ({len(combined)} chars)")
                     continue
 
-                prompt = f"""From this SEC S-1/F-1 filing text, extract the ACTUAL values:
+                prompt = f"""From these excerpts of an SEC S-1/F-1 filing, extract the ACTUAL values:
 1. Proposed offering price per share or price range (low and high). For SPACs, this is typically "$10.00 per unit".
 2. Total shares that will be outstanding after the offering (post-IPO). Look for "shares outstanding after this offering", "shares to be outstanding", or in the Capitalization table.
 
 IMPORTANT: Extract the REAL numbers from the document. Do NOT guess or use placeholder values.
-If price is a single number (e.g. "$10.00 per unit"), use that for both low and high.
+If price is a single number (e.g. "$10.00 per unit" or "$20 per share"), use that for both low and high.
 Return JSON only:
 {{"proposed_price_low": <number or null>, "proposed_price_high": <number or null>, "shares_outstanding": <integer or null>}}
 
-Text:
-{text[:6000]}"""
+Filing excerpts:
+{combined}"""
 
                 result = await _call_llm(client, GITHUB_MODELS_URL, "gpt-4o-mini", prompt,
                     {"Authorization": f"Bearer {GH_TOKEN}", "Content-Type": "application/json"})
