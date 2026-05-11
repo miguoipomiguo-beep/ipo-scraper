@@ -477,19 +477,7 @@ async def update_worker(ipos: list):
     print(f"\n=== Updating Worker ({len(payload)} IPOs in {len(batches)} batches) ===")
 
     async with httpx.AsyncClient(timeout=90) as client:
-        # まず全データ削除
-        try:
-            resp = await client.post(
-                f"{WORKER_URL}/api/admin/update",
-                json={"ipos": [], "clean": True},
-                headers={"Authorization": f"Bearer {ADMIN_TOKEN}"}
-            )
-            print(f"  Clean: {resp.status_code}")
-            await asyncio.sleep(1)
-        except Exception as e:
-            print(f"  Clean error: {e}")
-
-        # 各バッチをINSERT
+        # upsertのみ（clean削除は行わない — 途中でDBが空になるのを防止）
         for idx, batch in enumerate(batches):
             try:
                 resp = await client.post(
@@ -540,7 +528,7 @@ async def extract_s1_financials(ipos: list) -> list:
     print(f"  Targets: {len(targets)} companies ({len(targets_upcoming)} upcoming)")
 
     async with httpx.AsyncClient(timeout=60, headers=SEC_HEADERS) as client:
-        for ipo in targets:  # 全件処理
+        for ipo in targets[:50]:  # 最大50件/回
             try:
                 cik_raw = ipo["cik"].lstrip("0")
                 accession_raw = ipo["_accession_for_extract"]
