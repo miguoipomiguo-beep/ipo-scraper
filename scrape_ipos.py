@@ -540,7 +540,7 @@ async def extract_s1_financials(ipos: list) -> list:
     print(f"  Targets: {len(targets)} companies ({len(targets_upcoming)} upcoming)")
 
     async with httpx.AsyncClient(timeout=60, headers=SEC_HEADERS) as client:
-        for ipo in targets[:40]:  # 最大40件
+        for ipo in targets:  # 全件処理
             try:
                 cik_raw = ipo["cik"].lstrip("0")
                 accession_raw = ipo["_accession_for_extract"]
