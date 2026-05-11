@@ -257,14 +257,18 @@
   "TRADU": {
     "description": "APEX Tech Acquisition Inc. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative technology firms. The company aims to leverage its expertise to accelerate growth and create value for shareholders.",
     "products_services": "Investment and acquisition services targeting technology companies.",
-    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)"
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)",
+    "shares_outstanding": 600000000,
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
   },
   "CTAAU": {
     "description": "Clearthink 1 Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in high-growth sectors. The firm aims to leverage its expertise to create value for shareholders through strategic partnerships and acquisitions.",
     "products_services": "As a SPAC, Clearthink 1 Acquisition Corp. primarily offers capital and strategic guidance to target companies in the process of going public.",
     "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)",
     "proposed_price_low": 10.0,
-    "proposed_price_high": 10.0
+    "proposed_price_high": 10.0,
+    "shares_outstanding": 17250000
   },
   "ROC": {
     "description": "Rank One Computing Corp. specializes in advanced artificial intelligence and machine learning solutions, focusing on enhancing data processing capabilities for various industries.",
@@ -311,7 +315,8 @@
     "products_services": "The company aims to provide capital and strategic support to its target businesses, facilitating their growth and expansion.",
     "industry": "Financial Services / SPACs",
     "proposed_price_low": 10.0,
-    "proposed_price_high": 10.0
+    "proposed_price_high": 10.0,
+    "shares_outstanding": 3833333
   },
   "WLIIU": {
     "description": "Willow Lane Acquisition Corp. II is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in high-growth sectors. The firm aims to leverage its management team's expertise to create value for shareholders through strategic acquisitions.",
@@ -431,7 +436,10 @@
   "OBAI": {
     "description": "Our Bond, Inc. is a pioneering financial technology company focused on revolutionizing the bond issuance process through innovative digital solutions. By streamlining transactions and enhancing transparency, the company aims to make bond markets more accessible to a wider range of investors.",
     "products_services": "Digital bond issuance platform, investment analytics tools, and market data services.",
-    "industry": "Financial Technology (FinTech)"
+    "industry": "Financial Technology (FinTech)",
+    "shares_outstanding": 7500000,
+    "proposed_price_low": 1.46,
+    "proposed_price_high": 1.46
   },
   "CGL": {
     "description": "CGL Logistics Holdings Ltd. is a leading provider of integrated logistics solutions, specializing in supply chain management and transportation services. The company aims to enhance operational efficiency for businesses through innovative logistics strategies and technology-driven solutions.",
@@ -945,7 +953,10 @@
   "CAST": {
     "description": "FreeCast, Inc. is a technology company that provides a comprehensive streaming platform designed to aggregate and deliver content from various sources to consumers. The company aims to simplify the viewing experience by offering a unified interface for accessing live TV, on-demand content, and streaming services.",
     "products_services": "FreeCast offers a range of products including the SelectTV platform, which combines live TV, streaming services, and on-demand content into a single interface, along with various content aggregation and distribution solutions.",
-    "industry": "Technology / Media / Streaming Services"
+    "industry": "Technology / Media / Streaming Services",
+    "shares_outstanding": 8756073,
+    "proposed_price_low": 3.78,
+    "proposed_price_high": 3.78
   },
   "MMED": {
     "description": "MiniMed Group, Inc. is a medical technology company focused on developing innovative solutions for diabetes management. The company aims to improve patient outcomes through advanced insulin delivery systems and continuous glucose monitoring.",
@@ -960,12 +971,16 @@
     "products_services": "GalaxyEdge Acquisition Corp. does not offer products or services directly but seeks to acquire companies that provide advanced technologies and solutions in the aerospace and space industries.",
     "industry": "Aerospace and Technology",
     "proposed_price_low": 10.0,
-    "proposed_price_high": 10.0
+    "proposed_price_high": 10.0,
+    "shares_outstanding": 10000000
   },
   "KCACU": {
     "description": "Kensington Capital Acquisition Corp. VI is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the automotive and mobility sectors. The company aims to leverage its management team's expertise to drive growth and create value for shareholders.",
     "products_services": "The company primarily engages in the acquisition of businesses in the automotive and mobility industries, with a focus on electric vehicles, autonomous driving technologies, and related services.",
-    "industry": "Financial Services / SPACs / Automotive and Mobility"
+    "industry": "Financial Services / SPACs / Automotive and Mobility",
+    "shares_outstanding": 20000000,
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
   },
   "MCAHU": {
     "description": "Mountain Crest Acquisition 6 Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with a target company in the technology sector. The company aims to leverage its management team's expertise to drive growth and create value for shareholders.",
@@ -1032,7 +1047,10 @@
   "YSWY": {
     "description": "Yesway, Inc. is a convenience store chain focused on providing a wide range of products and services to meet the everyday needs of customers. The company aims to enhance the shopping experience through quality offerings and a commitment to community engagement.",
     "products_services": "Convenience store retailing, fuel sales, food and beverage offerings, and various consumer goods.",
-    "industry": "Retail/Convenience Stores"
+    "industry": "Retail/Convenience Stores",
+    "shares_outstanding": 146195604,
+    "proposed_price_low": 21.5,
+    "proposed_price_high": 21.5
   },
   "DETX": {
     "description": "Liberty Defense Holdings, Ltd. is a technology company focused on providing advanced security solutions for the defense and public safety sectors. The company specializes in developing innovative detection systems to enhance security measures in various environments.",
@@ -1053,7 +1071,10 @@
   "JATT": {
     "description": "JATT II Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative businesses in the technology and consumer sectors. The company aims to leverage its management team's expertise to drive growth and create value for shareholders.",
     "products_services": "As a SPAC, JATT II Acquisition Corp. does not offer traditional products or services but seeks to acquire a target company to bring it public and support its growth initiatives.",
-    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)"
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)",
+    "shares_outstanding": 6000000,
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
   },
   "AVEX": {
     "description": "AEVEX Corp. is a leading provider of advanced intelligence, surveillance, and reconnaissance solutions, specializing in the integration of cutting-edge technologies for defense and commercial applications.",
@@ -1156,7 +1177,10 @@
   "CXIIU": {
     "description": "Churchill Capital Corp XII is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in high-growth sectors.",
     "products_services": "The company aims to provide capital and strategic support to its target businesses, facilitating their growth and expansion.",
-    "industry": "Financial Services / SPACs"
+    "industry": "Financial Services / SPACs",
+    "shares_outstanding": 300000000,
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
   },
   "IACQU": {
     "description": "Irenic Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the technology sector. The firm aims to leverage its expertise to drive growth and create value for shareholders post-merger.",
@@ -1169,7 +1193,10 @@
   "ALMR": {
     "description": "Alamar Biosciences, Inc. is a biotechnology company focused on developing innovative solutions for drug discovery and development through advanced biosensing technologies. Their proprietary platforms enable real-time monitoring of cellular responses, enhancing the efficiency of pharmaceutical research.",
     "products_services": "The company offers biosensing platforms and assays that facilitate drug discovery, toxicity testing, and therapeutic development.",
-    "industry": "Biotechnology"
+    "industry": "Biotechnology",
+    "shares_outstanding": 9375000,
+    "proposed_price_low": 15.0,
+    "proposed_price_high": 17.0
   },
   "SKAI": {
     "description": "Sky Acquisition Group is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in high-growth sectors. The firm aims to leverage its expertise to create value for shareholders through strategic acquisitions.",
