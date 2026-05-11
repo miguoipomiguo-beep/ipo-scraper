@@ -253,7 +253,9 @@
   "CTAAU": {
     "description": "Clearthink 1 Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in high-growth sectors. The firm aims to leverage its expertise to create value for shareholders through strategic partnerships and acquisitions.",
     "products_services": "As a SPAC, Clearthink 1 Acquisition Corp. primarily offers capital and strategic guidance to target companies in the process of going public.",
-    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)"
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)",
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
   },
   "ROC": {
     "description": "Rank One Computing Corp. specializes in advanced artificial intelligence and machine learning solutions, focusing on enhancing data processing capabilities for various industries.",
@@ -304,7 +306,10 @@
   "WLIIU": {
     "description": "Willow Lane Acquisition Corp. II is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in high-growth sectors. The firm aims to leverage its management team's expertise to create value for shareholders through strategic acquisitions.",
     "products_services": "As a SPAC, Willow Lane Acquisition Corp. II does not offer traditional products or services but seeks to acquire and operate a target company in a high-growth industry.",
-    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)"
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)",
+    "shares_outstanding": 12500000,
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
   },
   "APC": {
     "description": "ARKO Petroleum Corp. is a leading energy company focused on the exploration and production of oil and natural gas resources. The company aims to leverage innovative technologies and sustainable practices to enhance its operational efficiency and environmental stewardship.",
@@ -314,7 +319,10 @@
   "HACQU": {
     "description": "HCM IV Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the healthcare sector. The company aims to leverage its expertise and resources to drive growth and create value for shareholders.",
     "products_services": "As a SPAC, HCM IV Acquisition Corp. does not offer traditional products or services but seeks to acquire a target company in the healthcare industry to facilitate its growth and expansion.",
-    "industry": "Healthcare"
+    "industry": "Healthcare",
+    "shares_outstanding": 25000000,
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
   },
   "IACOU": {
     "description": "Idea Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in high-growth sectors. The firm aims to leverage its expertise to create value for shareholders through strategic acquisitions.",
@@ -334,22 +342,33 @@
   "AGBK": {
     "description": "AGI Inc. is a leading provider of advanced geospatial solutions, specializing in data analytics and mapping technologies. The company aims to enhance decision-making processes across various sectors by delivering innovative software and services.",
     "products_services": "Geospatial analytics software, mapping solutions, data visualization tools, and consulting services.",
-    "industry": "Geospatial Technology"
+    "industry": "Geospatial Technology",
+    "shares_outstanding": 43636364,
+    "proposed_price_low": 15.0,
+    "proposed_price_high": 18.0
   },
   "MWH": {
     "description": "SOLV Energy, Inc. is a leading provider of solar energy solutions, specializing in the development, engineering, and construction of large-scale solar projects. The company aims to accelerate the transition to renewable energy through innovative technologies and sustainable practices.",
     "products_services": "SOLV Energy offers a range of services including solar project development, engineering, procurement, construction, and operations and maintenance for solar energy systems.",
-    "industry": "Renewable Energy/Solar Energy"
+    "industry": "Renewable Energy/Solar Energy",
+    "shares_outstanding": 20500000,
+    "proposed_price_low": 22.0,
+    "proposed_price_high": 25.0
   },
   "SVIVU": {
     "description": "Spring Valley Acquisition Corp. IV is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the technology and sustainability sectors. The firm aims to leverage its expertise to drive growth and create value for shareholders post-merger.",
     "products_services": "As a SPAC, Spring Valley Acquisition Corp. IV does not offer traditional products or services but seeks to acquire and support companies that provide innovative solutions in technology and sustainability.",
-    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)"
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)",
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
   },
   "JAGU": {
     "description": "Jaguar Uranium Corp. is a resource exploration company focused on the acquisition and development of uranium properties in North America. The company aims to capitalize on the growing demand for uranium as a clean energy source.",
     "products_services": "Uranium exploration and development services, including geological surveys and resource assessments.",
-    "industry": "Mining and Minerals"
+    "industry": "Mining and Minerals",
+    "shares_outstanding": 6000000,
+    "proposed_price_low": 4.0,
+    "proposed_price_high": 6.0
   },
   "SGP": {
     "description": "SpyGlass Pharma, Inc. is a biopharmaceutical company focused on developing innovative therapies for rare and complex diseases. The company leverages advanced drug delivery systems to enhance treatment efficacy and patient outcomes.",
@@ -362,7 +381,10 @@
   "EIKN": {
     "description": "Eikon Therapeutics, Inc. is a biotechnology company focused on developing innovative therapies using its proprietary technology platform to target and modulate protein interactions in cells. The company aims to address unmet medical needs in various diseases through its advanced drug discovery and development processes.",
     "products_services": "Eikon Therapeutics specializes in protein modulation therapies and drug discovery technologies, leveraging its unique platform to create targeted treatments for complex diseases.",
-    "industry": "Biotechnology"
+    "industry": "Biotechnology",
+    "shares_outstanding": 17648000,
+    "proposed_price_low": 16.0,
+    "proposed_price_high": 18.0
   },
   "HCICU": {
     "description": "Hennessy Capital Investment Corp. VIII is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the transportation and logistics sectors. The firm aims to leverage its management team's expertise to drive growth and create value for shareholders.",
@@ -381,12 +403,16 @@
   "BOBS": {
     "description": "Bob's Discount Furniture, Inc. is a leading retailer specializing in affordable and stylish home furnishings. The company offers a wide range of products including sofas, beds, dining sets, and home decor, catering to budget-conscious consumers.",
     "products_services": "Home furniture, including sofas, beds, dining sets, and home decor items.",
-    "industry": "Retail Furniture"
+    "industry": "Retail Furniture",
+    "shares_outstanding": 19450000,
+    "proposed_price_low": 17.0,
+    "proposed_price_high": 19.0
   },
   "MANE": {
     "description": "Veradermics, Inc. is an innovative biotechnology company focused on developing advanced dermatological treatments to enhance skin health and appearance. With a commitment to research and development, the company aims to revolutionize the skincare industry through cutting-edge solutions.",
     "products_services": "Veradermics offers a range of products including topical treatments, serums, and skincare devices designed to address various skin conditions and improve overall skin quality.",
-    "industry": "Biotechnology / Dermatology"
+    "industry": "Biotechnology / Dermatology",
+    "shares_outstanding": 3350000
   },
   "OBAI": {
     "description": "Our Bond, Inc. is a pioneering financial technology company focused on revolutionizing the bond issuance process through innovative digital solutions. By streamlining transactions and enhancing transparency, the company aims to make bond markets more accessible to a wider range of investors.",
@@ -496,7 +522,10 @@
   "NHP": {
     "description": "National Healthcare Properties, Inc. is a real estate investment trust (REIT) focused on acquiring and managing healthcare-related properties across the United States. The company aims to provide stable returns to investors through its diversified portfolio of senior housing, skilled nursing facilities, and other healthcare properties.",
     "products_services": "Acquisition and management of healthcare-related real estate properties, including senior housing and skilled nursing facilities.",
-    "industry": "Real Estate Investment Trust (REIT) - Healthcare"
+    "industry": "Real Estate Investment Trust (REIT) - Healthcare",
+    "shares_outstanding": 38500000,
+    "proposed_price_low": 13.0,
+    "proposed_price_high": 16.0
   },
   "CFTR-PA": {
     "description": "Cantor Fitzgerald Income Trust, Inc. is a real estate investment trust (REIT) focused on generating income through investments in a diversified portfolio of commercial real estate properties. The company aims to provide attractive risk-adjusted returns to its investors by leveraging Cantor Fitzgerald's extensive market expertise and resources.",
@@ -538,7 +567,10 @@
   "JAN": {
     "description": "Janus Living, Inc. is an innovative company focused on providing sustainable and modular housing solutions designed to address the growing demand for affordable living spaces. With a commitment to environmental responsibility, Janus Living aims to revolutionize the housing market through its unique construction methods and designs.",
     "products_services": "Modular housing units, sustainable living solutions, and customizable home designs.",
-    "industry": "Real Estate / Construction"
+    "industry": "Real Estate / Construction",
+    "shares_outstanding": 37000000,
+    "proposed_price_low": 18.0,
+    "proposed_price_high": 20.0
   },
   "NCLA": {
     "description": "Nuclea Energy Inc. is a pioneering company focused on developing advanced nuclear energy solutions aimed at providing sustainable and efficient power generation. With a commitment to innovation, Nuclea is positioned to lead the transition to cleaner energy sources through its cutting-edge technologies.",
@@ -789,7 +821,10 @@
   "BRAI": {
     "description": "Braiin Ltd. is an innovative technology company focused on developing advanced artificial intelligence solutions for various industries. The company aims to enhance decision-making processes and operational efficiency through its cutting-edge AI products.",
     "products_services": "AI software solutions, machine learning platforms, data analytics tools",
-    "industry": "Technology / Artificial Intelligence"
+    "industry": "Technology / Artificial Intelligence",
+    "shares_outstanding": 68696076,
+    "proposed_price_low": 40.68,
+    "proposed_price_high": 40.68
   },
   "DBCAU": {
     "description": "D. Boral Acquisition I Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in growth sectors. The firm aims to leverage its management team's expertise to create value for shareholders through strategic acquisitions.",
@@ -817,12 +852,16 @@
     "products_services": "As a SPAC, White Pearl Acquisition Corp. does not offer traditional products or services but seeks to acquire and support companies in various industries, particularly those with disruptive technologies or business models.",
     "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)",
     "proposed_price_low": 10.0,
-    "proposed_price_high": 10.0
+    "proposed_price_high": 10.0,
+    "shares_outstanding": 10000000
   },
   "KPETU": {
     "description": "KPET Ultra Paceline Corp. is an innovative technology company specializing in advanced packaging solutions for various industries. With a focus on sustainability and efficiency, the company aims to revolutionize the packaging landscape through cutting-edge materials and processes.",
     "products_services": "Advanced packaging solutions, sustainable materials, custom packaging design, and supply chain optimization services.",
-    "industry": "Packaging and Materials Technology"
+    "industry": "Packaging and Materials Technology",
+    "shares_outstanding": 20000000,
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
   },
   "IPFXU": {
     "description": "Inflection Point Acquisition Corp. VI is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in high-growth sectors. The firm aims to leverage its expertise to create value for shareholders through strategic partnerships and operational improvements.",
@@ -898,7 +937,9 @@
   "GLEDU": {
     "description": "GalaxyEdge Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative technology firms in the space and aerospace sectors. The company aims to leverage its expertise to drive growth and create value for shareholders through strategic partnerships and acquisitions.",
     "products_services": "GalaxyEdge Acquisition Corp. does not offer products or services directly but seeks to acquire companies that provide advanced technologies and solutions in the aerospace and space industries.",
-    "industry": "Aerospace and Technology"
+    "industry": "Aerospace and Technology",
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
   },
   "KCACU": {
     "description": "Kensington Capital Acquisition Corp. VI is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the automotive and mobility sectors. The company aims to leverage its management team's expertise to drive growth and create value for shareholders.",
@@ -1078,7 +1119,10 @@
   "OFRM": {
     "description": "Once Upon a Farm, PBC is a mission-driven company that specializes in providing organic, fresh, and nutritious baby food and snacks made from high-quality ingredients. The company focuses on sustainability and transparency in its operations, aiming to promote healthy eating habits from an early age.",
     "products_services": "Organic baby food, snacks, and smoothies made from fresh fruits and vegetables.",
-    "industry": "Food and Beverage, Baby Food Industry"
+    "industry": "Food and Beverage, Baby Food Industry",
+    "shares_outstanding": 10997209,
+    "proposed_price_low": 17.0,
+    "proposed_price_high": 19.0
   },
   "CXIIU": {
     "description": "Churchill Capital Corp XII is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in high-growth sectors.",
@@ -1160,7 +1204,8 @@
     "products_services": "As a SPAC, Colombier Acquisition Corp. III does not offer traditional products or services but seeks to acquire a target company to bring it public.",
     "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)",
     "proposed_price_low": 10.0,
-    "proposed_price_high": 10.0
+    "proposed_price_high": 10.0,
+    "shares_outstanding": 26000000
   },
   "IRABU": {
     "description": "Iris Acquisition Corp II is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in high-growth sectors. The firm aims to leverage its management team's expertise to create value for shareholders through strategic acquisitions.",
