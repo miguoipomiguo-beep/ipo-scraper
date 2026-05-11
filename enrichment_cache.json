@@ -1346,7 +1346,10 @@
   "AIAI": {
     "description": "AIAI Holdings Corp. is a technology-driven company focused on developing innovative artificial intelligence solutions for various industries. The company aims to enhance operational efficiency and decision-making through advanced AI applications.",
     "products_services": "AI software solutions, machine learning platforms, data analytics services, and consulting for AI integration.",
-    "industry": "Artificial Intelligence and Technology"
+    "industry": "Artificial Intelligence and Technology",
+    "shares_outstanding": 69483430,
+    "proposed_price_low": 20.0,
+    "proposed_price_high": 20.0
   },
   "0002109150": {
     "description": "INNIO Holding GmbH is a leading provider of innovative energy solutions, specializing in the development and manufacturing of gas engines and power generation systems. The company focuses on sustainable energy technologies to support the transition to a low-carbon economy.",
