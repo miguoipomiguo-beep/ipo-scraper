@@ -924,6 +924,13 @@ async def main():
     await asyncio.sleep(120)
     merged = await extract_s1_financials(merged)
 
+    # proposed_priceでprice_rangeを補完（NASDAQに価格がない場合）
+    for ipo in merged:
+        if not ipo.get("price_range_low") and ipo.get("proposed_price_low"):
+            ipo["price_range_low"] = ipo["proposed_price_low"]
+        if not ipo.get("price_range_high") and ipo.get("proposed_price_high"):
+            ipo["price_range_high"] = ipo["proposed_price_high"]
+
     # LLMで未補完分を補完
     enriched = await enrich_with_llm(merged) or merged
 
