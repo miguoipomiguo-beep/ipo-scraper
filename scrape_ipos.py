@@ -590,6 +590,30 @@ async def detect_and_notify(ipos: list):
                 "body": f"{ipo.get('company_name', '')} is scheduled to go public tomorrow ({tomorrow})."
             })
 
+    # 7. 新規IPO追加通知（全ユーザー向け、無料）
+    broadcasts = []
+    for ipo in ipos:
+        ipo_id = ipo.get("id", "")
+        if not ipo_id or ipo_id in prev_snapshot:
+            continue
+        status = ipo.get("status", "")
+        if status in ("listed", "excluded", "withdrawn"):
+            continue
+        ticker = ipo.get("ticker") or ""
+        name = ipo.get("company_name", "")
+        if ipo.get("expected_date"):
+            broadcasts.append({
+                "ipo_id": ipo_id, "type": "new_upcoming",
+                "title": f"New IPO: {ticker or name[:20]}",
+                "body": f"{name} has been added to upcoming IPOs ({ipo.get('expected_date')})."
+            })
+        else:
+            broadcasts.append({
+                "ipo_id": ipo_id, "type": "new_pending",
+                "title": f"New Filing: {ticker or name[:20]}",
+                "body": f"{name} has filed for an IPO (date TBD)."
+            })
+
     # スナップショットをWorkerに保存
     try:
         async with httpx.AsyncClient(timeout=30) as client:
@@ -599,20 +623,22 @@ async def detect_and_notify(ipos: list):
     except Exception:
         pass
 
-    if not changes:
+    if not changes and not broadcasts:
         print("  No changes detected")
         return
 
-    print(f"  {len(changes)} changes detected")
+    print(f"  {len(changes)} changes, {len(broadcasts)} new IPO broadcasts")
     for c in changes:
         print(f"    {c['type']}: {c['title']}")
+    for b in broadcasts[:5]:
+        print(f"    [broadcast] {b['title']}")
 
     # Worker経由でAPNs通知送信
     try:
         async with httpx.AsyncClient(timeout=30) as client:
             resp = await client.post(
                 f"{WORKER_URL}/api/admin/notify",
-                json={"changes": changes},
+                json={"changes": changes, "broadcasts": broadcasts},
                 headers={"Authorization": f"Bearer {ADMIN_TOKEN}"}
             )
             print(f"  Notify response: {resp.status_code} {resp.text[:100]}")
