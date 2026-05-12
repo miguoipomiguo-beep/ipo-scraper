@@ -1278,7 +1278,9 @@
   "SBMT": {
     "description": "Silver Bow Mining Corp. is a mining company focused on the exploration and development of silver and other precious metal resources. The company aims to leverage advanced mining technologies to enhance production efficiency and sustainability in the mining sector.",
     "products_services": "Silver Bow Mining Corp. primarily engages in the extraction and processing of silver, along with other precious metals, offering high-quality mineral resources to the market.",
-    "industry": "Mining and Metals"
+    "industry": "Mining and Metals",
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
   },
   "WENCU": {
     "description": "West Enclave Merger Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in high-growth sectors. The firm aims to leverage its expertise to create value for shareholders through strategic partnerships and operational enhancements.",
@@ -1355,5 +1357,28 @@
     "description": "INNIO Holding GmbH is a leading provider of innovative energy solutions, specializing in the development and manufacturing of gas engines and power generation systems. The company focuses on sustainable energy technologies to support the transition to a low-carbon economy.",
     "products_services": "Gas engines, power generation systems, energy solutions, and services for various applications including distributed energy and backup power.",
     "industry": "Energy and Power Generation"
+  },
+  "GSRV": {
+    "description": "GSR V Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in high-growth sectors. The company aims to leverage its management team's expertise to create value for shareholders through strategic acquisitions.",
+    "products_services": "As a SPAC, GSR V Acquisition Corp. does not offer traditional products or services but seeks to acquire a target company to bring it public.",
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)",
+    "shares_outstanding": 20000000,
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
+  },
+  "CNXU": {
+    "description": "Conexeu Sciences Inc. is a pioneering technology company focused on developing innovative solutions for data analytics and artificial intelligence applications. With a commitment to enhancing decision-making processes across various sectors, the company leverages advanced algorithms and machine learning techniques to deliver actionable insights.",
+    "products_services": "Data analytics platforms, AI-driven decision support tools, and custom software solutions for businesses.",
+    "industry": "Technology and Data Analytics",
+    "shares_outstanding": 2449962,
+    "proposed_price_low": 8.0,
+    "proposed_price_high": 8.0
+  },
+  "LCLN": {
+    "description": "Lincoln International, Inc. is a global investment banking advisory firm that specializes in mergers and acquisitions, capital raising, and financial advisory services. The company focuses on providing tailored solutions to clients across various sectors, leveraging its extensive industry expertise and global reach.",
+    "products_services": "Mergers and acquisitions advisory, capital raising, financial advisory services, and valuation services.",
+    "industry": "Investment Banking and Financial Services",
+    "proposed_price_low": 18.0,
+    "proposed_price_high": 20.0
   }
 }
