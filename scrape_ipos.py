@@ -491,6 +491,127 @@ async def update_worker(ipos: list):
                 print(f"  Batch {idx+1} error: {e}")
 
 
+async def detect_and_notify(ipos: list):
+    """前回のスナップショットと比較して変化を検知、プッシュ通知を送信"""
+    if not WORKER_URL or not ADMIN_TOKEN:
+        return
+
+    print("\n=== Change Detection & Notifications ===")
+    prev_snapshot = {}
+
+    # 前回のスナップショットファイルを読み込み
+    try:
+        with open("ipo_snapshot.json") as f:
+            prev_snapshot = json.load(f)
+    except Exception:
+        pass
+
+    changes = []
+    new_snapshot = {}
+
+    for ipo in ipos:
+        ipo_id = ipo.get("id", "")
+        if not ipo_id:
+            continue
+
+        status = ipo.get("status", "")
+        expected_date = ipo.get("expected_date")
+        price_low = ipo.get("price_range_low")
+        price_high = ipo.get("price_range_high")
+        offer_price = ipo.get("offer_price")
+        event_count = len(ipo.get("events", []))
+        ticker = ipo.get("ticker") or ipo.get("company_name", "")[:20]
+
+        new_snapshot[ipo_id] = {
+            "status": status,
+            "expected_date": expected_date,
+            "price_low": price_low,
+            "price_high": price_high,
+            "offer_price": offer_price,
+            "event_count": event_count,
+        }
+
+        prev = prev_snapshot.get(ipo_id)
+        if not prev:
+            continue  # 新規銘柄は通知しない
+
+        # 1. ステータス変更 → withdrawn
+        if status == "withdrawn" and prev.get("status") != "withdrawn":
+            changes.append({
+                "ipo_id": ipo_id, "type": "withdrawn",
+                "title": f"{ticker} - IPO Withdrawn",
+                "body": f"{ipo.get('company_name', '')} has withdrawn their IPO filing."
+            })
+
+        # 2. 上場日決定（undated → dated）
+        if expected_date and not prev.get("expected_date"):
+            changes.append({
+                "ipo_id": ipo_id, "type": "date_announced",
+                "title": f"{ticker} - Date Announced",
+                "body": f"{ipo.get('company_name', '')} IPO scheduled for {expected_date}."
+            })
+
+        # 3. 上場日変更（延期）
+        if expected_date and prev.get("expected_date") and expected_date != prev["expected_date"]:
+            changes.append({
+                "ipo_id": ipo_id, "type": "postponed",
+                "title": f"{ticker} - Date Changed",
+                "body": f"IPO date changed from {prev['expected_date']} to {expected_date}."
+            })
+
+        # 4. 価格決定
+        if offer_price and not prev.get("offer_price"):
+            changes.append({
+                "ipo_id": ipo_id, "type": "priced",
+                "title": f"{ticker} - Priced at ${offer_price}",
+                "body": f"{ipo.get('company_name', '')} IPO priced at ${offer_price} per share."
+            })
+
+        # 5. タイムライン更新（新しいイベントが追加された）
+        if event_count > prev.get("event_count", 0):
+            changes.append({
+                "ipo_id": ipo_id, "type": "timeline_update",
+                "title": f"{ticker} - New Filing",
+                "body": f"{ipo.get('company_name', '')} has a new SEC filing update."
+            })
+
+    # 6. 上場前日通知（明日上場する銘柄）
+    tomorrow = (datetime.now() + timedelta(days=1)).strftime("%Y-%m-%d")
+    for ipo in ipos:
+        if ipo.get("expected_date") == tomorrow:
+            ipo_id = ipo.get("id", "")
+            ticker = ipo.get("ticker") or ipo.get("company_name", "")[:20]
+            changes.append({
+                "ipo_id": ipo_id, "type": "day_before",
+                "title": f"{ticker} - IPO Tomorrow",
+                "body": f"{ipo.get('company_name', '')} is scheduled to go public tomorrow ({tomorrow})."
+            })
+
+    # スナップショット保存
+    with open("ipo_snapshot.json", "w") as f:
+        json.dump(new_snapshot, f)
+
+    if not changes:
+        print("  No changes detected")
+        return
+
+    print(f"  {len(changes)} changes detected")
+    for c in changes:
+        print(f"    {c['type']}: {c['title']}")
+
+    # Worker経由でAPNs通知送信
+    try:
+        async with httpx.AsyncClient(timeout=30) as client:
+            resp = await client.post(
+                f"{WORKER_URL}/api/admin/notify",
+                json={"changes": changes},
+                headers={"Authorization": f"Bearer {ADMIN_TOKEN}"}
+            )
+            print(f"  Notify response: {resp.status_code} {resp.text[:100]}")
+    except Exception as e:
+        print(f"  Notify error: {e}")
+
+
 # ============================================================
 # LLM
 # ============================================================
@@ -952,6 +1073,7 @@ async def main():
         json.dump([{k:v for k,v in i.items() if k not in ("nasdaq_status","_latest_date")} for i in enriched], f, ensure_ascii=False, indent=2, default=str)
 
     await update_worker(enriched)
+    await detect_and_notify(enriched)
     print(f"\nDone: {len(merged)} IPOs")
 
 if __name__ == "__main__":
