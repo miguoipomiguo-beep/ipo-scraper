@@ -499,10 +499,13 @@ async def detect_and_notify(ipos: list):
     print("\n=== Change Detection & Notifications ===")
     prev_snapshot = {}
 
-    # 前回のスナップショットファイルを読み込み
+    # 前回のスナップショットをWorkerから取得
     try:
-        with open("ipo_snapshot.json") as f:
-            prev_snapshot = json.load(f)
+        async with httpx.AsyncClient(timeout=15) as client:
+            resp = await client.get(f"{WORKER_URL}/api/admin/snapshot",
+                                    headers={"Authorization": f"Bearer {ADMIN_TOKEN}"})
+            if resp.status_code == 200:
+                prev_snapshot = resp.json()
     except Exception:
         pass
 
@@ -587,9 +590,14 @@ async def detect_and_notify(ipos: list):
                 "body": f"{ipo.get('company_name', '')} is scheduled to go public tomorrow ({tomorrow})."
             })
 
-    # スナップショット保存
-    with open("ipo_snapshot.json", "w") as f:
-        json.dump(new_snapshot, f)
+    # スナップショットをWorkerに保存
+    try:
+        async with httpx.AsyncClient(timeout=30) as client:
+            await client.post(f"{WORKER_URL}/api/admin/snapshot",
+                              json=new_snapshot,
+                              headers={"Authorization": f"Bearer {ADMIN_TOKEN}"})
+    except Exception:
+        pass
 
     if not changes:
         print("  No changes detected")
