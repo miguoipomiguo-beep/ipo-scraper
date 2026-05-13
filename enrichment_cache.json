@@ -777,7 +777,10 @@
   "0002070237": {
     "description": "Hacker Interstellar Inc. is a cutting-edge technology company focused on developing advanced cybersecurity solutions for businesses navigating the complexities of the digital landscape. With a mission to protect organizations from evolving cyber threats, the company leverages innovative technologies and expert insights to deliver robust security services.",
     "products_services": "Cybersecurity software, threat intelligence solutions, and consulting services for businesses.",
-    "industry": "Cybersecurity and Information Technology"
+    "industry": "Cybersecurity and Information Technology",
+    "shares_outstanding": 29401904,
+    "proposed_price_low": 10.5,
+    "proposed_price_high": 11.5
   },
   "0002111038": {
     "description": "Disciplined Growth Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative growth-oriented businesses. The company aims to leverage its management team's expertise to drive value creation and foster sustainable growth in its target sectors.",
