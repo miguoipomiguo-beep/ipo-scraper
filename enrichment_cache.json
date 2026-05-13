@@ -1383,5 +1383,21 @@
     "industry": "Investment Banking and Financial Services",
     "proposed_price_low": 18.0,
     "proposed_price_high": 20.0
+  },
+  "BREZU": {
+    "description": "Breeze Acquisition Corp. II is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in high-growth sectors. The firm aims to leverage its management team's expertise to create value for shareholders through strategic acquisitions.",
+    "products_services": "As a SPAC, Breeze Acquisition Corp. II does not offer traditional products or services but seeks to acquire and operate a target company in a high-growth industry.",
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)",
+    "shares_outstanding": 14375000,
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
+  },
+  "0002091521": {
+    "description": "Web3Labs Global Inc. is a pioneering technology company focused on developing decentralized applications and blockchain solutions to empower users in the Web3 ecosystem. The company aims to bridge traditional industries with innovative blockchain technologies, enhancing transparency and security.",
+    "products_services": "Decentralized applications, blockchain development services, smart contract solutions, and Web3 infrastructure tools.",
+    "industry": "Technology, Blockchain, Web3",
+    "shares_outstanding": 25000000,
+    "proposed_price_low": 4.0,
+    "proposed_price_high": 5.0
   }
 }
