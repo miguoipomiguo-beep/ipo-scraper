@@ -565,7 +565,10 @@
   "TRBG": {
     "description": "Turbogen Ltd. is an innovative energy solutions company specializing in the development of advanced turbine technologies for efficient power generation. With a focus on sustainability, Turbogen aims to revolutionize the energy sector by providing cleaner and more efficient alternatives to traditional energy sources.",
     "products_services": "Advanced turbine systems, energy efficiency solutions, and renewable energy technologies.",
-    "industry": "Energy and Power Generation"
+    "industry": "Energy and Power Generation",
+    "shares_outstanding": 22400821,
+    "proposed_price_low": 5.77,
+    "proposed_price_high": 5.77
   },
   "SWDR": {
     "description": "Starwood Real Estate Income Trust, Inc. is a non-traded real estate investment trust (REIT) focused on generating attractive risk-adjusted returns for its investors through a diversified portfolio of income-producing real estate assets. The company primarily invests in commercial real estate properties and real estate-related debt investments.",
@@ -1399,5 +1402,37 @@
     "shares_outstanding": 25000000,
     "proposed_price_low": 4.0,
     "proposed_price_high": 5.0
+  },
+  "GSRVU": {
+    "description": "GSR V Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the technology and financial sectors. The company aims to leverage its expertise to create value for shareholders through strategic partnerships and growth opportunities.",
+    "products_services": "As a SPAC, GSR V Acquisition Corp. does not offer traditional products or services but seeks to acquire a target company to bring it public and enhance its market presence.",
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)",
+    "shares_outstanding": 20000000,
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
+  },
+  "FFGG": {
+    "description": "FF Global Holdings Ltd. is a diversified investment holding company focused on acquiring and managing a portfolio of businesses across various sectors. The company aims to leverage its expertise to drive growth and enhance value for its stakeholders.",
+    "products_services": "FF Global Holdings Ltd. invests in and manages companies in industries such as technology, healthcare, and consumer goods, providing strategic support and operational guidance to enhance performance.",
+    "industry": "Investment Holdings",
+    "shares_outstanding": 15000000,
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
+  },
+  "CCIL": {
+    "description": "CALM Chain International Ltd. is a pioneering technology company focused on providing innovative blockchain solutions for various industries. The company aims to enhance transparency and efficiency in supply chain management through its advanced decentralized platform.",
+    "products_services": "Blockchain technology solutions, supply chain management software, and consulting services.",
+    "industry": "Technology and Blockchain.",
+    "shares_outstanding": 17500000,
+    "proposed_price_low": 5.0,
+    "proposed_price_high": 7.0
+  },
+  "PTACU": {
+    "description": "Patriot Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the technology and consumer sectors. The firm aims to leverage its expertise to drive growth and create value for shareholders post-merger.",
+    "products_services": "Investment and acquisition services, focusing on technology and consumer sectors.",
+    "industry": "Financial Services / SPACs",
+    "shares_outstanding": 200000000,
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
   }
 }
