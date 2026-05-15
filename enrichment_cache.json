@@ -1434,5 +1434,28 @@
     "shares_outstanding": 200000000,
     "proposed_price_low": 10.0,
     "proposed_price_high": 10.0
+  },
+  "APURU": {
+    "shares_outstanding": 9000000,
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
+  },
+  "GUACU": {
+    "shares_outstanding": 7187500,
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
+  },
+  "VIDA": {
+    "description": "VIDA Global Inc. is a technology company focused on developing and deploying innovative solutions for the healthcare and wellness industries. They aim to improve patient outcomes and streamline healthcare processes through their technology platforms.",
+    "products_services": "VIDA Global offers a suite of digital health solutions, including telehealth platforms, remote patient monitoring systems, and data analytics tools designed to enhance healthcare delivery and personalized wellness programs.",
+    "industry": "Healthcare Technology",
+    "shares_outstanding": 1049148,
+    "proposed_price_low": 4.75,
+    "proposed_price_high": 4.75
+  },
+  "EXYN": {
+    "description": "Exyn Technologies pioneers autonomous aerial robots for complex, GPS-denied environments, enabling data collection and exploration in challenging locations. Their technology empowers industries to operate more safely and efficiently by automating tasks previously impossible or dangerous for humans.",
+    "products_services": "Autonomous aerial robots, ExynAero autonomy software platform, data analytics and visualization tools, custom solutions for specific industry needs.",
+    "industry": "Robotics, Artificial Intelligence, Mining, Construction, Logistics, Infrastructure Inspection"
   }
 }
