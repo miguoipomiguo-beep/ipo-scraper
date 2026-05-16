@@ -1438,12 +1438,18 @@
   "APURU": {
     "shares_outstanding": 9000000,
     "proposed_price_low": 10.0,
-    "proposed_price_high": 10.0
+    "proposed_price_high": 10.0,
+    "description": "Aperture AC is an innovative technology company specializing in advanced air conditioning solutions designed for energy efficiency and sustainability. With a focus on smart climate control systems, the company aims to revolutionize the HVAC industry by integrating cutting-edge technology into everyday comfort.",
+    "products_services": "Smart air conditioning units, energy management systems, and IoT-enabled climate control solutions.",
+    "industry": "HVAC (Heating, Ventilation, and Air Conditioning)"
   },
   "GUACU": {
     "shares_outstanding": 7187500,
     "proposed_price_low": 10.0,
-    "proposed_price_high": 10.0
+    "proposed_price_high": 10.0,
+    "description": "Berto Acquisition Corp. II is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in high-growth sectors. The firm aims to leverage its management team's expertise to create value for shareholders through strategic acquisitions.",
+    "products_services": "The company primarily engages in the acquisition of businesses and assets in various industries, with a focus on technology and consumer sectors.",
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)"
   },
   "VIDA": {
     "description": "VIDA Global Inc. is a technology company focused on developing and deploying innovative solutions for the healthcare and wellness industries. They aim to improve patient outcomes and streamline healthcare processes through their technology platforms.",
@@ -1457,5 +1463,18 @@
     "description": "Exyn Technologies pioneers autonomous aerial robots for complex, GPS-denied environments, enabling data collection and exploration in challenging locations. Their technology empowers industries to operate more safely and efficiently by automating tasks previously impossible or dangerous for humans.",
     "products_services": "Autonomous aerial robots, ExynAero autonomy software platform, data analytics and visualization tools, custom solutions for specific industry needs.",
     "industry": "Robotics, Artificial Intelligence, Mining, Construction, Logistics, Infrastructure Inspection"
+  },
+  "0002129056": {
+    "description": "Jones Ventures INTL Acquisition1 Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative businesses in high-growth sectors. The company aims to leverage its expertise and network to drive value creation for shareholders through strategic acquisitions.",
+    "products_services": "The company primarily engages in identifying and acquiring businesses in various sectors, with a focus on technology, healthcare, and consumer products.",
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)",
+    "shares_outstanding": 20000000,
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
+  },
+  "IDACU": {
+    "description": "Iron Dome Acquisition I Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the technology and defense sectors. The company aims to leverage its expertise and network to drive growth and value creation post-merger.",
+    "products_services": "As a SPAC, Iron Dome Acquisition I Corp. does not offer traditional products or services but seeks to acquire and support companies that provide advanced technology solutions, particularly in defense and security.",
+    "industry": "Finance / Special Purpose Acquisition Companies (SPACs)"
   }
 }
