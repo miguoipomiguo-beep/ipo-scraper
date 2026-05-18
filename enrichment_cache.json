@@ -1498,5 +1498,13 @@
     "shares_outstanding": 761905,
     "proposed_price_low": 10.5,
     "proposed_price_high": 10.5
+  },
+  "TARX": {
+    "description": "Tarsier Pharma Ltd. is a biotechnology company focused on developing innovative therapies for rare neurological disorders. The company's proprietary platform aims to address unmet medical needs through advanced drug development.",
+    "products_services": "Innovative therapies for rare neurological disorders, drug development platform.",
+    "industry": "Biotechnology",
+    "shares_outstanding": 28736270,
+    "proposed_price_low": 8.0,
+    "proposed_price_high": 10.0
   }
 }
