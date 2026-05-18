@@ -1462,7 +1462,10 @@
   "EXYN": {
     "description": "Exyn Technologies pioneers autonomous aerial robots for complex, GPS-denied environments, enabling data collection and exploration in challenging locations. Their technology empowers industries to operate more safely and efficiently by automating tasks previously impossible or dangerous for humans.",
     "products_services": "Autonomous aerial robots, ExynAero autonomy software platform, data analytics and visualization tools, custom solutions for specific industry needs.",
-    "industry": "Robotics, Artificial Intelligence, Mining, Construction, Logistics, Infrastructure Inspection"
+    "industry": "Robotics, Artificial Intelligence, Mining, Construction, Logistics, Infrastructure Inspection",
+    "shares_outstanding": 2500000,
+    "proposed_price_low": 7.75,
+    "proposed_price_high": 8.75
   },
   "0002129056": {
     "description": "Jones Ventures INTL Acquisition1 Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative businesses in high-growth sectors. The company aims to leverage its expertise and network to drive value creation for shareholders through strategic acquisitions.",
@@ -1475,6 +1478,25 @@
   "IDACU": {
     "description": "Iron Dome Acquisition I Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the technology and defense sectors. The company aims to leverage its expertise and network to drive growth and value creation post-merger.",
     "products_services": "As a SPAC, Iron Dome Acquisition I Corp. does not offer traditional products or services but seeks to acquire and support companies that provide advanced technology solutions, particularly in defense and security.",
-    "industry": "Finance / Special Purpose Acquisition Companies (SPACs)"
+    "industry": "Finance / Special Purpose Acquisition Companies (SPACs)",
+    "shares_outstanding": 15075000,
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
+  },
+  "ETSSU": {
+    "description": "Energy Transition Special Opportunities focuses on investing in companies and projects that facilitate the transition to sustainable energy solutions. The firm aims to capitalize on emerging opportunities in the renewable energy sector, driving innovation and growth.",
+    "products_services": "Investment management services targeting renewable energy and sustainable technologies.",
+    "industry": "Investment Management / Renewable Energy",
+    "shares_outstanding": 15075000,
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
+  },
+  "DUKR": {
+    "description": "DUKE Robotics Corp. is a pioneering technology company specializing in advanced robotic solutions for various industries. Their innovative products enhance operational efficiency and safety in sectors such as healthcare and manufacturing.",
+    "products_services": "Robotic surgical systems, automation solutions, and AI-driven robotic applications.",
+    "industry": "Robotics and Automation",
+    "shares_outstanding": 761905,
+    "proposed_price_low": 10.5,
+    "proposed_price_high": 10.5
   }
 }
