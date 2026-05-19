@@ -1514,5 +1514,18 @@
     "shares_outstanding": 290648260,
     "proposed_price_low": 8.15,
     "proposed_price_high": 8.15
+  },
+  "AMSS": {
+    "description": "AMASS BRANDS is a consumer goods company focused on creating innovative and sustainable products that enhance everyday living. The company aims to disrupt traditional markets with its unique approach to branding and product development.",
+    "products_services": "AMASS BRANDS offers a range of products including personal care items, home goods, and wellness products, all designed with a commitment to sustainability and quality.",
+    "industry": "Consumer Goods",
+    "shares_outstanding": 250000000,
+    "proposed_price_low": 16.0,
+    "proposed_price_high": 16.0
+  },
+  "AMAN": {
+    "description": "Amanat Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the education and healthcare sectors. The company aims to leverage its expertise to drive growth and create value for shareholders.",
+    "products_services": "Amanat Acquisition Corp. primarily engages in identifying and acquiring businesses in the education and healthcare industries, facilitating their growth through strategic partnerships and investments.",
+    "industry": "Finance / Special Purpose Acquisition Companies (SPACs)"
   }
 }
