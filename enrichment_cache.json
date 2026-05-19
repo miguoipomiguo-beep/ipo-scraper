@@ -1506,5 +1506,13 @@
     "shares_outstanding": 28736270,
     "proposed_price_low": 8.0,
     "proposed_price_high": 10.0
+  },
+  "MOT": {
+    "description": "MetaOptics Ltd. is a pioneering technology company specializing in advanced optical solutions for various applications, including telecommunications and consumer electronics. The company focuses on developing innovative optical components that enhance performance and efficiency in light-based technologies.",
+    "products_services": "MetaOptics offers a range of products including high-performance lenses, optical filters, and custom optical systems designed for integration into various devices and systems.",
+    "industry": "Optical Technology",
+    "shares_outstanding": 290648260,
+    "proposed_price_low": 8.15,
+    "proposed_price_high": 8.15
   }
 }
