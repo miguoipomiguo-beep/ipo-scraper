@@ -1527,5 +1527,12 @@
     "description": "Amanat Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the education and healthcare sectors. The company aims to leverage its expertise to drive growth and create value for shareholders.",
     "products_services": "Amanat Acquisition Corp. primarily engages in identifying and acquiring businesses in the education and healthcare industries, facilitating their growth through strategic partnerships and investments.",
     "industry": "Finance / Special Purpose Acquisition Companies (SPACs)"
+  },
+  "0002131853": {
+    "description": "FutureCorp Space Acquisition is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the aerospace and space technology sectors. The company aims to accelerate growth and development in the burgeoning space industry through strategic partnerships and investments.",
+    "products_services": "FutureCorp Space Acquisition provides capital and strategic support to emerging space technology firms, facilitating their growth and market entry. The company also engages in the acquisition of companies that are pioneering advancements in satellite technology, space exploration, and related services.",
+    "industry": "Aerospace and Space Technology",
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
   }
 }
