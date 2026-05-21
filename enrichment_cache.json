@@ -1553,5 +1553,28 @@
     "industry": "Healthcare / Life Sciences",
     "proposed_price_low": 10.0,
     "proposed_price_high": 10.0
+  },
+  "OHACU": {
+    "description": "Oceanhawk Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the technology and consumer sectors. The firm aims to leverage its management team's expertise to drive growth and create value for shareholders.",
+    "products_services": "As a SPAC, Oceanhawk Acquisition Corp. does not offer traditional products or services but seeks to acquire and support companies that provide innovative solutions in their respective markets.",
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)",
+    "shares_outstanding": 15000000,
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
+  },
+  "BRKHU": {
+    "description": "BurTech Acquisition Corp II is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative technology companies. The firm aims to leverage its expertise to drive growth and create value in the rapidly evolving tech landscape.",
+    "products_services": "As a SPAC, BurTech Acquisition Corp II does not offer traditional products or services but seeks to acquire and support technology-focused businesses.",
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)",
+    "shares_outstanding": 10000000,
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
+  },
+  "PECEU": {
+    "description": "Peace Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the technology and sustainability sectors. The company aims to leverage its expertise to drive growth and create value for shareholders through strategic partnerships.",
+    "products_services": "As a SPAC, Peace Acquisition Corp. does not offer traditional products or services but seeks to acquire and support companies that provide innovative solutions in technology and sustainability.",
+    "industry": "Finance/Investment (SPACs)",
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
   }
 }
