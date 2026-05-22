@@ -1576,5 +1576,13 @@
     "industry": "Finance/Investment (SPACs)",
     "proposed_price_low": 10.0,
     "proposed_price_high": 10.0
+  },
+  "0001926314": {
+    "description": "Ocean Capital Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the ocean economy. The firm aims to leverage its expertise and network to drive growth and create value in sustainable ocean-related ventures.",
+    "products_services": "The company primarily engages in the acquisition and merger of businesses within the ocean economy, including sectors such as marine technology, sustainable fisheries, and ocean-based renewable energy.",
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)",
+    "shares_outstanding": 3833333,
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
   }
 }
