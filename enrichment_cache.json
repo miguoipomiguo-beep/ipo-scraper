@@ -1584,5 +1584,29 @@
     "shares_outstanding": 3833333,
     "proposed_price_low": 10.0,
     "proposed_price_high": 10.0
+  },
+  "0002000208": {
+    "description": "Kepler Group Ltd. is a data-driven marketing and analytics company that specializes in optimizing digital advertising strategies for brands. With a focus on leveraging advanced technology and insights, Kepler helps clients enhance their marketing performance and achieve measurable results.",
+    "products_services": "Digital marketing analytics, programmatic advertising, media buying, and performance optimization services.",
+    "industry": "Marketing and Advertising",
+    "shares_outstanding": 25000000,
+    "proposed_price_low": 6.0,
+    "proposed_price_high": 8.0
+  },
+  "SEAH": {
+    "description": "Seahawk Recycling Holdings, Inc. is a leading provider of innovative recycling solutions focused on sustainability and environmental responsibility. The company specializes in the processing and repurposing of various recyclable materials to support a circular economy.",
+    "products_services": "Recycling services for plastics, metals, and electronic waste; consulting on waste management and sustainability practices.",
+    "industry": "Recycling and Waste Management",
+    "shares_outstanding": 26250500,
+    "proposed_price_low": 4.0,
+    "proposed_price_high": 6.0
+  },
+  "0002082729": {
+    "description": "Coolbit Technologies Ltd. is an innovative company specializing in advanced cooling solutions for electronic devices and systems. With a focus on sustainability and efficiency, they aim to revolutionize thermal management in various industries.",
+    "products_services": "Advanced cooling systems, thermal management solutions, and energy-efficient cooling technologies.",
+    "industry": "Technology and Electronics",
+    "shares_outstanding": 26250080,
+    "proposed_price_low": 4.0,
+    "proposed_price_high": 5.0
   }
 }
