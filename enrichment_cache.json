@@ -228,7 +228,8 @@
     "products_services": "The company primarily engages in the acquisition of businesses and assets, with a focus on sectors such as technology, healthcare, and consumer products.",
     "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)",
     "proposed_price_low": 10.0,
-    "proposed_price_high": 10.0
+    "proposed_price_high": 10.0,
+    "shares_outstanding": 20000000
   },
   "PLUNU": {
     "description": "Plutonian Acquisition Corp. II is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in high-growth sectors. The firm aims to leverage its expertise to create value for shareholders through strategic partnerships and acquisitions.",
@@ -1149,7 +1150,8 @@
     "products_services": "Methane reduction technologies, carbon credits, agricultural solutions, waste management services.",
     "industry": "Environmental Technology, Renewable Energy.",
     "proposed_price_low": 10.0,
-    "proposed_price_high": 10.0
+    "proposed_price_high": 10.0,
+    "shares_outstanding": 20000000
   },
   "QLEPU": {
     "description": "Quantum Leap Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative technology firms. The company aims to leverage its expertise to accelerate growth and create value for shareholders.",
@@ -1608,5 +1610,13 @@
     "shares_outstanding": 26250080,
     "proposed_price_low": 4.0,
     "proposed_price_high": 5.0
+  },
+  "INIO": {
+    "description": "INNIO Holding GmbH is a global energy solution provider specializing in sustainable and decentralized power generation. They offer gas engines, generator sets, and related services for various applications.",
+    "products_services": "Gas engines, generator sets, digital solutions for power plants, lifecycle services, and biogas upgrading solutions.",
+    "industry": "Energy, Power Generation, Gas Engine Technology",
+    "shares_outstanding": 750000000,
+    "proposed_price_low": 24.0,
+    "proposed_price_high": 27.0
   }
 }
