@@ -712,7 +712,9 @@
   "0002064555": {
     "description": "ANGIE HOLDINGS Ltd. is a technology-driven company focused on providing innovative solutions for home services and improvements. With a commitment to enhancing customer experiences, the company leverages digital platforms to connect homeowners with service providers.",
     "products_services": "Home improvement services, digital platform for service provider connections, customer support solutions.",
-    "industry": "Home Services and Technology"
+    "industry": "Home Services and Technology",
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
   },
   "0002083345": {
     "description": "Optimal AI Ltd. is a cutting-edge technology company specializing in artificial intelligence solutions that enhance business efficiency and decision-making. With a focus on innovative algorithms and machine learning applications, the company aims to transform industries through intelligent automation.",
@@ -1295,7 +1297,8 @@
     "products_services": "As a SPAC, West Enclave Merger Corp. primarily offers capital and strategic support to target companies in the process of going public through a merger.",
     "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)",
     "proposed_price_low": 10.0,
-    "proposed_price_high": 10.0
+    "proposed_price_high": 10.0,
+    "shares_outstanding": 425000
   },
   "NHIVU": {
     "description": "NewHold Investment Corp IV is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the technology and industrial sectors.",
@@ -1618,5 +1621,54 @@
     "shares_outstanding": 750000000,
     "proposed_price_low": 24.0,
     "proposed_price_high": 27.0
+  },
+  "FISN": {
+    "description": "Deep Fission, Inc. is an innovative biotechnology company focused on developing advanced gene editing technologies to enhance therapeutic applications. The company aims to revolutionize the treatment of genetic disorders through its proprietary platform.",
+    "products_services": "Gene editing technologies, therapeutic solutions for genetic disorders, research and development services.",
+    "industry": "Biotechnology",
+    "shares_outstanding": 6000000,
+    "proposed_price_low": 24.0,
+    "proposed_price_high": 26.0
+  },
+  "DGACU": {
+    "description": "DISCIPLINED GROWTH ACQUISITION Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with high-growth companies in dynamic sectors. The firm aims to leverage its management team's expertise to drive value creation and sustainable growth post-merger.",
+    "products_services": "As a SPAC, the company primarily offers capital and strategic guidance to target companies, facilitating their growth and expansion through mergers and acquisitions.",
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)",
+    "shares_outstanding": 15000000,
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
+  },
+  "WHK": {
+    "description": "WhiteHawk Income Corp. is a financial services company focused on generating income through strategic investments in various asset classes. The company aims to provide attractive returns to its investors while managing risk effectively.",
+    "products_services": "Investment management, income generation strategies, and portfolio diversification services.",
+    "industry": "Financial Services",
+    "proposed_price_low": 25.0,
+    "proposed_price_high": 27.0
+  },
+  "SFPT": {
+    "description": "Safepoint Holdings, Inc. is a technology-driven company focused on providing innovative solutions for risk management and insurance services. The company aims to enhance safety and reduce losses for businesses through its advanced analytics and data-driven approach.",
+    "products_services": "Risk management solutions, insurance services, data analytics tools.",
+    "industry": "Insurance and Risk Management",
+    "shares_outstanding": 9150000,
+    "proposed_price_low": 16.0,
+    "proposed_price_high": 16.0
+  },
+  "QNT": {
+    "description": "Quantinuum Inc. is a leading quantum computing company that focuses on developing advanced quantum hardware and software solutions. The company aims to revolutionize industries by harnessing the power of quantum technology for complex problem-solving.",
+    "products_services": "Quantum computing hardware, quantum software platforms, and quantum-as-a-service offerings.",
+    "industry": "Quantum Computing and Technology",
+    "shares_outstanding": 21052632,
+    "proposed_price_low": 45.0,
+    "proposed_price_high": 50.0
+  },
+  "SSMR": {
+    "description": "Sunshine Silver Mining & Refining Co. is focused on the exploration and development of silver mining projects, primarily in North America. The company aims to leverage its expertise in mining and refining to deliver high-quality silver products to the market.",
+    "products_services": "Silver mining and refining, exploration of silver resources, and production of silver bullion.",
+    "industry": "Mining and Metals"
+  },
+  "AADX": {
+    "description": "Applied Aerospace & Defense, Inc. is a leading provider of innovative solutions for the aerospace and defense sectors, focusing on advanced technology and engineering services. The company aims to enhance operational efficiency and mission success for its clients through cutting-edge products and strategic partnerships.",
+    "products_services": "The company offers a range of products and services including aerospace engineering, defense systems integration, and advanced manufacturing solutions.",
+    "industry": "Aerospace and Defense"
   }
 }
