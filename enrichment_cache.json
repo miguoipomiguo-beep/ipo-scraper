@@ -1664,11 +1664,17 @@
   "SSMR": {
     "description": "Sunshine Silver Mining & Refining Co. is focused on the exploration and development of silver mining projects, primarily in North America. The company aims to leverage its expertise in mining and refining to deliver high-quality silver products to the market.",
     "products_services": "Silver mining and refining, exploration of silver resources, and production of silver bullion.",
-    "industry": "Mining and Metals"
+    "industry": "Mining and Metals",
+    "shares_outstanding": 20000000,
+    "proposed_price_low": 13.5,
+    "proposed_price_high": 16.5
   },
   "AADX": {
     "description": "Applied Aerospace & Defense, Inc. is a leading provider of innovative solutions for the aerospace and defense sectors, focusing on advanced technology and engineering services. The company aims to enhance operational efficiency and mission success for its clients through cutting-edge products and strategic partnerships.",
     "products_services": "The company offers a range of products and services including aerospace engineering, defense systems integration, and advanced manufacturing solutions.",
-    "industry": "Aerospace and Defense"
+    "industry": "Aerospace and Defense",
+    "shares_outstanding": 32500000,
+    "proposed_price_low": 18.0,
+    "proposed_price_high": 21.0
   }
 }
