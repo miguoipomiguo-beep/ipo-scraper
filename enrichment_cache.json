@@ -1676,5 +1676,13 @@
     "shares_outstanding": 32500000,
     "proposed_price_low": 18.0,
     "proposed_price_high": 21.0
+  },
+  "IDIAU": {
+    "description": "Innovative Digital Investors Acquisition Corp. is a blank check company formed for the purpose of effecting a merger, capital stock exchange, asset acquisition, stock purchase, reorganization or similar business combination with one or more businesses.",
+    "products_services": "N/A (Blank Check Company)",
+    "industry": "Financial Services (Special Purpose Acquisition Company)",
+    "shares_outstanding": 23000000,
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
   }
 }
