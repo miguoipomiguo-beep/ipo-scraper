@@ -1684,5 +1684,18 @@
     "shares_outstanding": 23000000,
     "proposed_price_low": 10.0,
     "proposed_price_high": 10.0
+  },
+  "KEYY": {
+    "description": "Keystone Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in high-growth sectors. The firm aims to leverage its management team's expertise to create value for shareholders through strategic acquisitions.",
+    "products_services": "Keystone Acquisition Corp. primarily engages in identifying and acquiring businesses in various industries, with a focus on technology and consumer sectors.",
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)",
+    "shares_outstanding": 25062500,
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
+  },
+  "0002104296": {
+    "description": "Ticketplus Ltd. is an innovative ticketing platform that streamlines the process of purchasing and managing event tickets for consumers and organizers alike. With a focus on user experience and advanced technology, the company aims to revolutionize the way people access live events.",
+    "products_services": "Ticketing solutions for concerts, sports events, and festivals, including mobile ticketing, event management tools, and customer engagement features.",
+    "industry": "Entertainment and Event Management"
   }
 }
