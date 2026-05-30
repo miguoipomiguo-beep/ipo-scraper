@@ -1705,5 +1705,69 @@
     "shares_outstanding": 140000000,
     "proposed_price_low": 10.0,
     "proposed_price_high": 10.0
+  },
+  "CAQ": {
+    "description": "Cambridge Acquisition Corp. is a blank check company formed for the purpose of effecting a merger, capital stock exchange, asset acquisition, stock purchase, reorganization or similar business combination with one or more businesses. They intend to focus their search on companies in the technology, media and telecommunications (TMT) industries.",
+    "products_services": "N/A (Blank Check Company)",
+    "industry": "Special Purpose Acquisition Company (SPAC)",
+    "shares_outstanding": 20000000,
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
+  },
+  "ACAA": {
+    "description": "Averin Capital Acquisition Corp. is a blank check company formed for the purpose of effecting a merger, capital stock exchange, asset acquisition, stock purchase, reorganization or similar business combination with one or more businesses.",
+    "products_services": "N/A - Blank Check Company",
+    "industry": "Financial Services - Special Purpose Acquisition Company (SPAC)",
+    "shares_outstanding": 25000000,
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
+  },
+  "TRGS": {
+    "description": "TRG Latin America Acquisitions Corp. is a blank check company formed for the purpose of effecting a merger, share exchange, asset acquisition, share purchase, reorganization or similar business combination with one or more businesses.",
+    "products_services": "N/A (Blank Check Company)",
+    "industry": "Blank Check / SPAC",
+    "shares_outstanding": 23000000,
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
+  },
+  "MZYX": {
+    "description": "MOZAYYX Acquisition Corp. is a blank check company formed for the purpose of effecting a merger, capital stock exchange, asset acquisition, stock purchase, reorganization or similar business combination with one or more businesses. They intend to focus their search on companies in the technology, media and telecommunications (TMT) industries.",
+    "products_services": "N/A (Blank Check Company)",
+    "industry": "Special Purpose Acquisition Company (SPAC)",
+    "shares_outstanding": 250000000,
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
+  },
+  "0002129659": {
+    "description": "Freedom Metals Acquisition Corp. is a blank check company formed for the purpose of effecting a merger, capital stock exchange, asset acquisition, stock purchase, reorganization or similar business combination with one or more businesses.",
+    "products_services": "N/A - Blank check company; no current products or services.",
+    "industry": "Special Purpose Acquisition Company (SPAC)",
+    "shares_outstanding": 275000000,
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
+  },
+  "0002123471": {
+    "description": "Columbus Circle Capital Corp. III is a blank check company formed for the purpose of effecting a merger, capital stock exchange, asset acquisition, stock purchase, reorganization or similar business combination with one or more businesses. They intend to focus their search on companies in the financial services, technology, and real estate industries.",
+    "products_services": "N/A (Blank Check Company)",
+    "industry": "Financial Services (Special Purpose Acquisition Company - SPAC)",
+    "shares_outstanding": 200000000,
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
+  },
+  "0002098142": {
+    "description": "Dynamix Corp IV is a special purpose acquisition company (SPAC) focused on merging with a private company. They aim to identify and acquire a business with high growth potential and strong management.",
+    "products_services": "N/A - SPACs do not have products or services until they acquire a target company.",
+    "industry": "N/A - SPACs are industry agnostic until they acquire a target company.",
+    "shares_outstanding": 175000000,
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
+  },
+  "0002077714": {
+    "description": "KLA-iBotics Holdings Ltd. is a robotics and automation solutions provider specializing in AI-powered robotic systems. They offer advanced robotic platforms and software for various industries, enhancing efficiency and productivity.",
+    "products_services": "Robotics platforms, AI-powered software, automation solutions, system integration, maintenance and support.",
+    "industry": "Robotics, Automation, Artificial Intelligence",
+    "shares_outstanding": 37500000,
+    "proposed_price_low": 4.0,
+    "proposed_price_high": 6.0
   }
 }
