@@ -1769,5 +1769,21 @@
     "shares_outstanding": 37500000,
     "proposed_price_low": 4.0,
     "proposed_price_high": 6.0
+  },
+  "0002123475": {
+    "description": "Snow Rothschild Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the technology and financial sectors. The firm aims to leverage its expertise and network to drive growth and value creation for its stakeholders.",
+    "products_services": "As a SPAC, it primarily offers capital and strategic support to target companies through mergers and acquisitions.",
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)",
+    "shares_outstanding": 20000000,
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
+  },
+  "0002101470": {
+    "description": "Wilco 63 Corp. is a cutting-edge technology firm specializing in innovative software solutions for businesses. With a focus on enhancing operational efficiency and data analytics, the company aims to transform how organizations leverage technology.",
+    "products_services": "Custom software development, data analytics platforms, and cloud-based solutions.",
+    "industry": "Technology",
+    "shares_outstanding": 200000000,
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
   }
 }
