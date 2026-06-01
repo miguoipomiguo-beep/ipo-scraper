@@ -1785,5 +1785,18 @@
     "shares_outstanding": 200000000,
     "proposed_price_low": 10.0,
     "proposed_price_high": 10.0
+  },
+  "IDIA": {
+    "description": "Innovative Digital Investors Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative digital technology firms. The company aims to leverage its expertise to drive growth and value creation in the digital investment landscape.",
+    "products_services": "The company primarily engages in identifying and acquiring companies in the digital technology sector, facilitating their growth through strategic partnerships and investments.",
+    "industry": "Financial Services / Technology",
+    "shares_outstanding": 5500000,
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
+  },
+  "AESPU": {
+    "description": "Aeon Acquisition I Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative businesses in the technology and consumer sectors. The company aims to leverage its management team's expertise to drive growth and create value for shareholders.",
+    "products_services": "The company primarily engages in the acquisition and merger of businesses, with a focus on technology and consumer sectors.",
+    "industry": "Financial Services / SPACs"
   }
 }
