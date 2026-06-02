@@ -1801,5 +1801,18 @@
     "shares_outstanding": 12500000,
     "proposed_price_low": 10.0,
     "proposed_price_high": 10.0
+  },
+  "EROC": {
+    "description": "ERock, Inc. is an innovative technology company specializing in advanced rock drilling solutions for the construction and mining industries. With a focus on efficiency and sustainability, ERock aims to revolutionize traditional drilling methods through cutting-edge technology.",
+    "products_services": "Advanced rock drilling equipment, drilling software solutions, and maintenance services.",
+    "industry": "Construction and Mining Technology",
+    "shares_outstanding": 27906977,
+    "proposed_price_low": 20,
+    "proposed_price_high": 23
+  },
+  "LFTO": {
+    "description": "Liftoff Mobile, Inc. is a leading mobile marketing platform that specializes in user acquisition and engagement for app developers and marketers. The company leverages advanced data analytics and machine learning to optimize advertising campaigns and drive growth for mobile applications.",
+    "products_services": "Mobile marketing platform, user acquisition services, app engagement solutions, data analytics tools.",
+    "industry": "Mobile Advertising and Marketing"
   }
 }
