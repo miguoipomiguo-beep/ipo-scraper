@@ -1813,6 +1813,22 @@
   "LFTO": {
     "description": "Liftoff Mobile, Inc. is a leading mobile marketing platform that specializes in user acquisition and engagement for app developers and marketers. The company leverages advanced data analytics and machine learning to optimize advertising campaigns and drive growth for mobile applications.",
     "products_services": "Mobile marketing platform, user acquisition services, app engagement solutions, data analytics tools.",
-    "industry": "Mobile Advertising and Marketing"
+    "industry": "Mobile Advertising and Marketing",
+    "shares_outstanding": 19000000,
+    "proposed_price_low": 20.0,
+    "proposed_price_high": 22.0
+  },
+  "0002013100": {
+    "description": "VISTEK LTD. is a leading provider of innovative imaging solutions, specializing in advanced camera systems and software for various applications. The company focuses on delivering high-quality products that enhance visual technology across multiple industries.",
+    "products_services": "Advanced camera systems, imaging software, and custom imaging solutions.",
+    "industry": "Imaging Technology and Solutions"
+  },
+  "FTRA": {
+    "description": "FutureCorp Space Acquisition is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the space industry. The company aims to accelerate growth and development in space exploration and technology through strategic partnerships and investments.",
+    "products_services": "FutureCorp Space Acquisition provides capital and resources to emerging space technology firms, facilitating their growth and market entry. The company also offers advisory services to help portfolio companies navigate the complexities of the space sector.",
+    "industry": "Aerospace and Defense",
+    "shares_outstanding": 200000000,
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
   }
 }
