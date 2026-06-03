@@ -1830,5 +1830,34 @@
     "shares_outstanding": 200000000,
     "proposed_price_low": 10.0,
     "proposed_price_high": 10.0
+  },
+  "0002088383": {
+    "description": "Chromarie International Ltd. is a leading provider of innovative technology solutions aimed at enhancing operational efficiency across various sectors. The company focuses on delivering cutting-edge software and hardware products tailored to meet the evolving needs of its clients.",
+    "products_services": "Software development, hardware solutions, IT consulting, and system integration services.",
+    "industry": "Technology and Information Services",
+    "shares_outstanding": 10395000,
+    "proposed_price_low": 3.0,
+    "proposed_price_high": 3.0
+  },
+  "KEYYU": {
+    "description": "Keystone Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in high-growth sectors. The firm aims to leverage its management team's expertise to drive value creation post-merger.",
+    "products_services": "As a SPAC, Keystone Acquisition Corp. primarily offers capital and strategic guidance to target companies, facilitating their growth and expansion through a public listing.",
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)",
+    "shares_outstanding": 25062500,
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
+  },
+  "FRBT": {
+    "description": "Forbright, Inc. is a financial technology company focused on providing innovative solutions for sustainable energy financing. The company aims to facilitate the transition to clean energy by offering tailored financial products and services to businesses and consumers.",
+    "products_services": "Sustainable energy financing solutions, including loans and investment products for renewable energy projects.",
+    "industry": "Financial Technology / Renewable Energy Financing",
+    "shares_outstanding": 40847557,
+    "proposed_price_low": 18.0,
+    "proposed_price_high": 20.0
+  },
+  "APMCU": {
+    "description": "AmperCap Acquisition Co. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in high-growth sectors. The firm aims to leverage its expertise to create value for shareholders through strategic partnerships and acquisitions.",
+    "products_services": "Investment and acquisition services targeting high-growth companies.",
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)"
   }
 }
