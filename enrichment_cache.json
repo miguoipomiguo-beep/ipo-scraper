@@ -1858,6 +1858,9 @@
   "APMCU": {
     "description": "AmperCap Acquisition Co. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in high-growth sectors. The firm aims to leverage its expertise to create value for shareholders through strategic partnerships and acquisitions.",
     "products_services": "Investment and acquisition services targeting high-growth companies.",
-    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)"
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)",
+    "shares_outstanding": 12625000,
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
   }
 }
