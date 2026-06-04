@@ -1862,5 +1862,21 @@
     "shares_outstanding": 12625000,
     "proposed_price_low": 10.0,
     "proposed_price_high": 10.0
+  },
+  "LTGRU": {
+    "description": "Long Table Growth Corp. is a dynamic investment firm focused on identifying and nurturing innovative companies in the food and beverage sector. With a commitment to sustainable growth and consumer-centric solutions, the company aims to revolutionize the way people experience food.",
+    "products_services": "Investment in food and beverage startups, strategic advisory services, and growth capital for emerging brands.",
+    "industry": "Food and Beverage Investment",
+    "shares_outstanding": 15075000,
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
+  },
+  "IPVVU": {
+    "description": "InterPrivate Investment Partners V, Inc. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the technology and consumer sectors. The firm aims to leverage its management team's expertise to drive growth and create value for shareholders.",
+    "products_services": "The company primarily engages in the acquisition and merger of private companies, providing them with access to public markets and capital for expansion.",
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)",
+    "shares_outstanding": 175000000,
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
   }
 }
