@@ -1878,5 +1878,29 @@
     "shares_outstanding": 175000000,
     "proposed_price_low": 10.0,
     "proposed_price_high": 10.0
+  },
+  "0002136530": {
+    "description": "Meridian3 Industrials Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative industrial firms. The company aims to leverage its expertise to drive growth and operational efficiencies in the industrial sector.",
+    "products_services": "Meridian3 Industrials Acquisition Corp. does not offer products or services directly but seeks to acquire and enhance the operations of target industrial companies.",
+    "industry": "Industrial Acquisition and Investment",
+    "shares_outstanding": 175000000,
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
+  },
+  "YICC": {
+    "description": "Yorkville International Capital Corp. is a financial services firm specializing in providing innovative investment solutions and capital market services to a diverse range of clients.",
+    "products_services": "The company offers a variety of financial products including private equity investments, asset management services, and strategic advisory solutions.",
+    "industry": "Financial Services",
+    "shares_outstanding": 200000000,
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
+  },
+  "CBAI": {
+    "description": "Coolbit Technologies Ltd. is an innovative company specializing in advanced cooling solutions for electronic devices, enhancing performance and longevity. With a focus on sustainability and efficiency, the company aims to revolutionize thermal management in various industries.",
+    "products_services": "Advanced cooling systems, thermal management solutions, and energy-efficient cooling technologies.",
+    "industry": "Technology and Electronics",
+    "shares_outstanding": 26250080,
+    "proposed_price_low": 4.0,
+    "proposed_price_high": 5.0
   }
 }
