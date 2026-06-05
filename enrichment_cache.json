@@ -1902,5 +1902,26 @@
     "shares_outstanding": 26250080,
     "proposed_price_low": 4.0,
     "proposed_price_high": 5.0
+  },
+  "FTRAU": {
+    "description": "FutureCorp Space Acquisition is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the space industry. The company aims to accelerate growth and development in space exploration and technology through strategic partnerships and investments.",
+    "products_services": "FutureCorp Space Acquisition offers investment opportunities in emerging space technologies, satellite communications, and space exploration ventures.",
+    "industry": "Aerospace and Defense",
+    "shares_outstanding": 200000000,
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
+  },
+  "SPCX": {
+    "description": "Space Exploration Technologies Corp., commonly known as SpaceX, is a private aerospace manufacturer and space transportation company founded by Elon Musk. The company aims to reduce space transportation costs and enable the colonization of Mars through innovative rocket technology and spacecraft.",
+    "products_services": "SpaceX designs, manufactures, and launches advanced rockets and spacecraft, including the Falcon 1, Falcon 9, Falcon Heavy, and the Starship vehicle, as well as providing satellite internet services through Starlink.",
+    "industry": "Aerospace and Defense",
+    "shares_outstanding": 555555555,
+    "proposed_price_low": 135.0,
+    "proposed_price_high": 135.0
+  },
+  "PBLS": {
+    "description": "Parabilis Medicines, Inc. is a biopharmaceutical company focused on developing innovative therapies for rare and complex diseases. The company leverages advanced drug discovery technologies to create targeted treatments that address unmet medical needs.",
+    "products_services": "Parabilis Medicines develops novel therapeutics and drug candidates aimed at treating rare diseases, with a focus on precision medicine.",
+    "industry": "Biopharmaceuticals"
   }
 }
