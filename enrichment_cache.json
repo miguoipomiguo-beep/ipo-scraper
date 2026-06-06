@@ -1922,6 +1922,9 @@
   "PBLS": {
     "description": "Parabilis Medicines, Inc. is a biopharmaceutical company focused on developing innovative therapies for rare and complex diseases. The company leverages advanced drug discovery technologies to create targeted treatments that address unmet medical needs.",
     "products_services": "Parabilis Medicines develops novel therapeutics and drug candidates aimed at treating rare diseases, with a focus on precision medicine.",
-    "industry": "Biopharmaceuticals"
+    "industry": "Biopharmaceuticals",
+    "shares_outstanding": 4629629,
+    "proposed_price_low": 18.0,
+    "proposed_price_high": 18.0
   }
 }
