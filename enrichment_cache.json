@@ -1934,5 +1934,40 @@
     "shares_outstanding": 20000000,
     "proposed_price_low": 10.0,
     "proposed_price_high": 10.0
+  },
+  "ISNRU": {
+    "description": "Snow Rothschild Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the technology and financial sectors. The firm aims to leverage its expertise and network to drive growth and value creation for its stakeholders.",
+    "products_services": "As a SPAC, it primarily offers capital and strategic support to target companies through mergers and acquisitions.",
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)",
+    "shares_outstanding": 20000000,
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
+  },
+  "OCACU": {
+    "description": "Ocean Capital Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the ocean and marine sectors. The company aims to leverage its expertise to drive growth and create value in the blue economy.",
+    "products_services": "Ocean Capital Acquisition Corp. does not offer traditional products or services but seeks to acquire and support companies within the ocean-related industries, including marine technology, sustainable fisheries, and ocean conservation.",
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)",
+    "shares_outstanding": 3833333,
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
+  },
+  "RGNT": {
+    "description": "REGENTIS BIOMATERIALS LTD. is a biotechnology company focused on developing innovative biomaterials for regenerative medicine applications. Their flagship product aims to enhance tissue repair and regeneration in orthopedic and dental procedures.",
+    "products_services": "Biomaterials for tissue regeneration, specifically designed for orthopedic and dental applications.",
+    "industry": "Biotechnology",
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
+  },
+  "JABU": {
+    "description": "JAB Acquisition Corp I is a special purpose acquisition company (SPAC) focused on identifying and merging with high-growth companies in the consumer sector. The company aims to leverage its management team's expertise to create long-term value for shareholders.",
+    "products_services": "Investment and acquisition services targeting consumer brands and companies.",
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)",
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
+  },
+  "FCBM": {
+    "description": "First Carolina Financial Services, Inc. is a financial institution focused on providing a range of banking and financial services to individuals and businesses. The company aims to enhance customer experience through innovative solutions and personalized service.",
+    "products_services": "The company offers services including personal and business banking, loans, mortgages, and investment services.",
+    "industry": "Financial Services"
   }
 }
