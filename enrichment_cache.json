@@ -1968,7 +1968,10 @@
   "FCBM": {
     "description": "First Carolina Financial Services, Inc. is a financial institution focused on providing a range of banking and financial services to individuals and businesses. The company aims to enhance customer experience through innovative solutions and personalized service.",
     "products_services": "The company offers services including personal and business banking, loans, mortgages, and investment services.",
-    "industry": "Financial Services"
+    "industry": "Financial Services",
+    "shares_outstanding": 30245752,
+    "proposed_price_low": 14.0,
+    "proposed_price_high": 16.0
   },
   "MDAT": {
     "description": "Web3Labs Global Inc. is a pioneering technology company focused on developing decentralized applications and solutions leveraging blockchain technology. The company aims to empower businesses and individuals by providing innovative tools and platforms that enhance digital interactions and transactions.",
@@ -1985,5 +1988,28 @@
     "shares_outstanding": 175000000,
     "proposed_price_low": 10.0,
     "proposed_price_high": 10.0
+  },
+  "SHOTU": {
+    "description": "RMG ML Sports Holdings is a dynamic company focused on leveraging technology and media to enhance the sports and entertainment experience. With a commitment to innovation, it aims to create engaging platforms for fans and stakeholders in the sports industry.",
+    "products_services": "Sports media and technology solutions, fan engagement platforms, and digital content creation.",
+    "industry": "Sports and Entertainment",
+    "shares_outstanding": 7666667,
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
+  },
+  "GRVT": {
+    "description": "GreenVector Holdings Ltd. is a pioneering company focused on sustainable technology solutions aimed at reducing environmental impact. With a commitment to innovation, the company develops products that enhance energy efficiency and promote renewable resources.",
+    "products_services": "GreenVector offers a range of products including energy management systems, renewable energy solutions, and eco-friendly materials designed for various industries.",
+    "industry": "Sustainable Technology and Renewable Energy",
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
+  },
+  "ELOX": {
+    "description": "Eloxx Pharmaceuticals, Inc. is a clinical-stage biopharmaceutical company focused on developing novel therapies for genetic diseases caused by nonsense mutations. The company's lead product candidate, ELX-02, aims to treat cystic fibrosis and other rare diseases by restoring protein synthesis.",
+    "products_services": "Eloxx Pharmaceuticals develops therapies targeting genetic disorders, with a primary focus on ELX-02 for cystic fibrosis and other conditions caused by nonsense mutations.",
+    "industry": "Biopharmaceuticals",
+    "shares_outstanding": 10200000,
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 12.0
   }
 }
