@@ -1969,5 +1969,21 @@
     "description": "First Carolina Financial Services, Inc. is a financial institution focused on providing a range of banking and financial services to individuals and businesses. The company aims to enhance customer experience through innovative solutions and personalized service.",
     "products_services": "The company offers services including personal and business banking, loans, mortgages, and investment services.",
     "industry": "Financial Services"
+  },
+  "MDAT": {
+    "description": "Web3Labs Global Inc. is a pioneering technology company focused on developing decentralized applications and solutions leveraging blockchain technology. The company aims to empower businesses and individuals by providing innovative tools and platforms that enhance digital interactions and transactions.",
+    "products_services": "Decentralized applications (dApps), blockchain development services, smart contract solutions, and Web3 infrastructure tools.",
+    "industry": "Blockchain Technology and Decentralized Finance (DeFi)",
+    "shares_outstanding": 25000000,
+    "proposed_price_low": 4.0,
+    "proposed_price_high": 5.0
+  },
+  "MIAC": {
+    "description": "Meridian3 Industrials Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative industrial firms. The company aims to leverage its expertise to drive growth and operational efficiencies in the industrial sector.",
+    "products_services": "Meridian3 Industrials Acquisition Corp. does not offer products or services directly but seeks to acquire and enhance industrial companies that provide manufacturing, logistics, and technology solutions.",
+    "industry": "Industrial Acquisition and Investment",
+    "shares_outstanding": 175000000,
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
   }
 }
