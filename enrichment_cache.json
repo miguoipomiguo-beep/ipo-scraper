@@ -2011,5 +2011,10 @@
     "shares_outstanding": 10200000,
     "proposed_price_low": 10.0,
     "proposed_price_high": 12.0
+  },
+  "JABRU": {
+    "description": "JAB Acquisition Corp I is a special purpose acquisition company (SPAC) focused on identifying and merging with high-growth consumer brands. The company aims to leverage its management team's expertise to create value through strategic acquisitions in the consumer sector.",
+    "products_services": "Investment in consumer brands and potential mergers with target companies.",
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)"
   }
 }
