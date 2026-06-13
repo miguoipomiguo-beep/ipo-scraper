@@ -2018,5 +2018,13 @@
     "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)",
     "proposed_price_low": 10.0,
     "proposed_price_high": 10.0
+  },
+  "TP": {
+    "description": "Ticketplus Ltd. is a leading ticketing platform that provides seamless access to events, concerts, and experiences worldwide. With a focus on user-friendly technology and customer satisfaction, the company aims to revolutionize the ticketing industry.",
+    "products_services": "Online ticket sales, event management solutions, and mobile ticketing services.",
+    "industry": "Entertainment and Ticketing",
+    "shares_outstanding": 11975525,
+    "proposed_price_low": 13.0,
+    "proposed_price_high": 15.0
   }
 }
