@@ -2027,5 +2027,29 @@
     "shares_outstanding": 11975525,
     "proposed_price_low": 13.0,
     "proposed_price_high": 15.0
+  },
+  "TVIVU": {
+    "description": "Texas Ventures Acquisition IV Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the technology and consumer sectors. The company aims to leverage its management team's expertise to drive growth and create value for shareholders.",
+    "products_services": "The company primarily engages in the acquisition of businesses and assets, with a focus on technology and consumer sectors, to facilitate their growth and expansion.",
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)",
+    "shares_outstanding": 150000000,
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
+  },
+  "SOUD": {
+    "description": "Hacker Interstellar Inc. is a pioneering technology company focused on developing advanced cybersecurity solutions for businesses navigating the complexities of the digital landscape. With a commitment to innovation and security, the company aims to protect organizations from evolving cyber threats while enhancing their operational efficiency.",
+    "products_services": "Cybersecurity software, threat detection systems, and consulting services for businesses.",
+    "industry": "Cybersecurity and Information Technology",
+    "shares_outstanding": 29401904,
+    "proposed_price_low": 10.5,
+    "proposed_price_high": 11.5
+  },
+  "KARD": {
+    "description": "Kardigan, Inc. is an innovative apparel company specializing in stylish and comfortable knitwear designed for modern lifestyles. With a focus on sustainability and quality, Kardigan aims to redefine casual fashion for consumers seeking both comfort and elegance.",
+    "products_services": "Kardigan offers a range of knitwear products including cardigans, sweaters, and accessories made from eco-friendly materials.",
+    "industry": "Apparel and Fashion",
+    "shares_outstanding": 23333334,
+    "proposed_price_low": 15.0,
+    "proposed_price_high": 15.0
   }
 }
