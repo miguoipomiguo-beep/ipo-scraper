@@ -1557,7 +1557,8 @@
     "products_services": "The company primarily engages in the acquisition and development of businesses in the life sciences, biotechnology, and healthcare sectors.",
     "industry": "Healthcare / Life Sciences",
     "proposed_price_low": 10.0,
-    "proposed_price_high": 10.0
+    "proposed_price_high": 10.0,
+    "shares_outstanding": 7500000
   },
   "OHACU": {
     "description": "Oceanhawk Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the technology and consumer sectors. The firm aims to leverage its management team's expertise to drive growth and create value for shareholders.",
