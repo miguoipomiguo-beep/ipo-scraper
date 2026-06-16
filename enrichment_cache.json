@@ -2059,5 +2059,10 @@
     "shares_outstanding": 10254000,
     "proposed_price_low": 10.0,
     "proposed_price_high": 10.0
+  },
+  "YICCU": {
+    "shares_outstanding": 200000000,
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
   }
 }
