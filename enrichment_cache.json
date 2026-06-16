@@ -2051,5 +2051,13 @@
     "shares_outstanding": 23333334,
     "proposed_price_low": 15.0,
     "proposed_price_high": 15.0
+  },
+  "0002113481": {
+    "description": "Osprey Acquisition Corp. III is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the technology and healthcare sectors. The firm aims to leverage its management team's expertise to drive growth and create value for shareholders post-merger.",
+    "products_services": "As a SPAC, Osprey Acquisition Corp. III does not offer traditional products or services but seeks to acquire and support companies in their growth journey.",
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)",
+    "shares_outstanding": 10254000,
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
   }
 }
