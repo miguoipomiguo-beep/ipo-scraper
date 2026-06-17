@@ -2076,5 +2076,10 @@
     "shares_outstanding": 138470227,
     "proposed_price_low": 28.0,
     "proposed_price_high": 32.0
+  },
+  "CAES": {
+    "description": "Cantor Equity Partners VII, Inc. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in high-growth sectors. The firm aims to leverage its extensive network and industry expertise to drive value creation for shareholders.",
+    "products_services": "Investment and acquisition services targeting high-growth companies.",
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)"
   }
 }
