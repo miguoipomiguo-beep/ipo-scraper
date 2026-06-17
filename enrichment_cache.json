@@ -2002,8 +2002,9 @@
     "description": "GreenVector Holdings Ltd. is a pioneering company focused on sustainable technology solutions aimed at reducing environmental impact. With a commitment to innovation, the company develops products that enhance energy efficiency and promote renewable resources.",
     "products_services": "GreenVector offers a range of products including energy management systems, renewable energy solutions, and eco-friendly materials designed for various industries.",
     "industry": "Sustainable Technology and Renewable Energy",
-    "proposed_price_low": 10.0,
-    "proposed_price_high": 10.0
+    "proposed_price_low": 1.0,
+    "proposed_price_high": 1.0,
+    "shares_outstanding": 10000000
   },
   "ELOX": {
     "description": "Eloxx Pharmaceuticals, Inc. is a clinical-stage biopharmaceutical company focused on developing novel therapies for genetic diseases caused by nonsense mutations. The company's lead product candidate, ELX-02, aims to treat cystic fibrosis and other rare diseases by restoring protein synthesis.",
@@ -2063,6 +2064,17 @@
   "YICCU": {
     "shares_outstanding": 200000000,
     "proposed_price_low": 10.0,
-    "proposed_price_high": 10.0
+    "proposed_price_high": 10.0,
+    "description": "Yorkville International Capital Corp. is a financial services firm specializing in providing innovative capital solutions to emerging growth companies. The company focuses on facilitating access to funding through various investment strategies and financial products.",
+    "products_services": "Investment advisory, capital raising, and financial consulting services.",
+    "industry": "Financial Services"
+  },
+  "DPC": {
+    "description": "DPC Holdings Ltd. is a dynamic investment firm focused on acquiring and managing a diverse portfolio of companies across various sectors. With a commitment to sustainable growth and innovation, DPC aims to enhance shareholder value through strategic investments and operational excellence.",
+    "products_services": "Investment management, portfolio diversification, strategic acquisitions, and operational support for subsidiary companies.",
+    "industry": "Investment and asset management.",
+    "shares_outstanding": 138470227,
+    "proposed_price_low": 28.0,
+    "proposed_price_high": 32.0
   }
 }
