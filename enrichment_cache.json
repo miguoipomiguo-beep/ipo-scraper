@@ -2097,5 +2097,10 @@
     "shares_outstanding": 60000000,
     "proposed_price_low": 16.0,
     "proposed_price_high": 18.0
+  },
+  "WLCOU": {
+    "description": "Wilco 63 Corp. is an innovative technology company focused on developing cutting-edge software solutions for various industries. With a commitment to enhancing operational efficiency and user experience, the company aims to revolutionize the way businesses leverage technology.",
+    "products_services": "Wilco 63 Corp. offers a range of software products including enterprise resource planning (ERP) systems, customer relationship management (CRM) tools, and data analytics platforms.",
+    "industry": "Technology"
   }
 }
