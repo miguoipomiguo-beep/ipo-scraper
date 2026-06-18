@@ -2081,5 +2081,21 @@
     "description": "Cantor Equity Partners VII, Inc. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in high-growth sectors. The firm aims to leverage its extensive network and industry expertise to drive value creation for shareholders.",
     "products_services": "Investment and acquisition services targeting high-growth companies.",
     "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)"
+  },
+  "WLCO": {
+    "description": "Wilco 63 Corp. is an innovative technology company focused on developing cutting-edge software solutions for various industries. With a commitment to enhancing operational efficiency and user experience, the company aims to revolutionize the way businesses leverage technology.",
+    "products_services": "Wilco 63 Corp. offers a range of software products including enterprise resource planning (ERP) systems, customer relationship management (CRM) tools, and data analytics platforms.",
+    "industry": "Technology",
+    "shares_outstanding": 200000000,
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
+  },
+  "0001966041": {
+    "description": "DSC Holdings Ltd. is a diversified investment company focused on acquiring and managing a portfolio of businesses across various sectors. The company aims to create long-term value for its shareholders through strategic investments and operational improvements.",
+    "products_services": "DSC Holdings Ltd. offers investment management services and operates in sectors including real estate, technology, and consumer goods.",
+    "industry": "Investment Management",
+    "shares_outstanding": 60000000,
+    "proposed_price_low": 16.0,
+    "proposed_price_high": 18.0
   }
 }
