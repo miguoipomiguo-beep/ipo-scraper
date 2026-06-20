@@ -2101,7 +2101,10 @@
   "WLCOU": {
     "description": "Wilco 63 Corp. is an innovative technology company focused on developing cutting-edge software solutions for various industries. With a commitment to enhancing operational efficiency and user experience, the company aims to revolutionize the way businesses leverage technology.",
     "products_services": "Wilco 63 Corp. offers a range of software products including enterprise resource planning (ERP) systems, customer relationship management (CRM) tools, and data analytics platforms.",
-    "industry": "Technology"
+    "industry": "Technology",
+    "shares_outstanding": 200000000,
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
   },
   "0002128045": {
     "description": "Bleichroeder Acquisition Corp. III is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in growth sectors. The firm aims to leverage its management team's expertise to drive value creation post-acquisition.",
