@@ -2080,7 +2080,9 @@
   "CAES": {
     "description": "Cantor Equity Partners VII, Inc. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in high-growth sectors. The firm aims to leverage its extensive network and industry expertise to drive value creation for shareholders.",
     "products_services": "Investment and acquisition services targeting high-growth companies.",
-    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)"
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)",
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
   },
   "WLCO": {
     "description": "Wilco 63 Corp. is an innovative technology company focused on developing cutting-edge software solutions for various industries. With a commitment to enhancing operational efficiency and user experience, the company aims to revolutionize the way businesses leverage technology.",
