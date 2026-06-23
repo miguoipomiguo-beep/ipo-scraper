@@ -2134,5 +2134,35 @@
     "description": "Alpex Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in high-growth sectors. The firm aims to leverage its expertise to create value for shareholders through strategic partnerships and acquisitions.",
     "products_services": "As a SPAC, Alpex Acquisition Corp. does not offer traditional products or services but seeks to acquire and support companies in various industries.",
     "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)"
+  },
+  "CCCT": {
+    "description": "Columbus Circle Capital Corp III is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in high-growth sectors. The firm aims to leverage its management team's expertise to create value for shareholders through strategic acquisitions.",
+    "products_services": "The company primarily engages in the acquisition and merger of businesses, providing capital and operational support to enhance growth and profitability.",
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)",
+    "shares_outstanding": 200000000,
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
+  },
+  "ITG": {
+    "description": "ITG, Inc. is a technology company specializing in innovative software solutions for data analytics and business intelligence. The company aims to enhance operational efficiency and decision-making processes for its clients across various sectors.",
+    "products_services": "ITG, Inc. offers a range of products including data analytics platforms, business intelligence tools, and customized software solutions tailored to meet specific client needs.",
+    "industry": "Technology / Software Development",
+    "proposed_price_low": 19.0,
+    "proposed_price_high": 22.0
+  },
+  "DSC": {
+    "description": "DSC Holdings Ltd. is a diversified investment company focused on acquiring and managing a portfolio of businesses across various sectors. The company aims to create long-term value for its shareholders through strategic investments and operational efficiencies.",
+    "products_services": "Investment management, portfolio diversification, and strategic business acquisitions.",
+    "industry": "Investment and asset management."
+  },
+  "GHXIU": {
+    "description": "Gores Holdings XI, Inc. is a special purpose acquisition company (SPAC) focused on identifying and merging with a high-growth company in the technology sector. The company aims to leverage its management team's expertise to create value for shareholders through strategic acquisitions.",
+    "products_services": "As a SPAC, Gores Holdings XI, Inc. does not offer traditional products or services but seeks to acquire a target company to bring it public.",
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)"
+  },
+  "LIME": {
+    "description": "Neutron Holdings, Inc. is a technology company focused on providing innovative solutions for urban mobility through its electric scooter and bike-sharing services. The company aims to enhance transportation options in cities while promoting sustainability and reducing traffic congestion.",
+    "products_services": "Electric scooters and bike-sharing services, mobile application for rentals, and urban mobility solutions.",
+    "industry": "Transportation and Mobility Services"
   }
 }
