@@ -2163,6 +2163,9 @@
   "LIME": {
     "description": "Neutron Holdings, Inc. is a technology company focused on providing innovative solutions for urban mobility through its electric scooter and bike-sharing services. The company aims to enhance transportation options in cities while promoting sustainability and reducing traffic congestion.",
     "products_services": "Electric scooters and bike-sharing services, mobile application for rentals, and urban mobility solutions.",
-    "industry": "Transportation and Mobility Services"
+    "industry": "Transportation and Mobility Services",
+    "shares_outstanding": 16436019,
+    "proposed_price_low": 24.0,
+    "proposed_price_high": 26.0
   }
 }
