@@ -2153,7 +2153,10 @@
   "DSC": {
     "description": "DSC Holdings Ltd. is a diversified investment company focused on acquiring and managing a portfolio of businesses across various sectors. The company aims to create long-term value for its shareholders through strategic investments and operational efficiencies.",
     "products_services": "Investment management, portfolio diversification, and strategic business acquisitions.",
-    "industry": "Investment and asset management."
+    "industry": "Investment and asset management.",
+    "shares_outstanding": 941449847,
+    "proposed_price_low": 16.0,
+    "proposed_price_high": 18.0
   },
   "GHXIU": {
     "description": "Gores Holdings XI, Inc. is a special purpose acquisition company (SPAC) focused on identifying and merging with a high-growth company in the technology sector. The company aims to leverage its management team's expertise to create value for shareholders through strategic acquisitions.",
@@ -2167,5 +2170,26 @@
     "shares_outstanding": 16436019,
     "proposed_price_low": 24.0,
     "proposed_price_high": 26.0
+  },
+  "CUX": {
+    "description": "CopperTech Metals Inc. is a leading provider of innovative copper-based solutions aimed at enhancing efficiency and sustainability in various industries. The company focuses on the extraction, processing, and distribution of high-quality copper products to meet the growing demand for advanced materials.",
+    "products_services": "Copper extraction and processing, copper alloys, and custom copper solutions for industrial applications.",
+    "industry": "Metals and Mining",
+    "shares_outstanding": 1098677473,
+    "proposed_price_low": 16.0,
+    "proposed_price_high": 18.0
+  },
+  "SIND": {
+    "description": "Sinda Ltd. is a leading technology company specializing in innovative software solutions for various industries. With a focus on enhancing operational efficiency and driving digital transformation, Sinda aims to empower businesses through cutting-edge technology.",
+    "products_services": "Software development, cloud computing solutions, data analytics, and enterprise resource planning (ERP) systems.",
+    "industry": "Technology",
+    "shares_outstanding": 93400000,
+    "proposed_price_low": 11.25,
+    "proposed_price_high": 13.25
+  },
+  "BSP": {
+    "description": "Bending Spoons S.p.A. is a leading mobile app development company known for creating innovative and user-friendly applications. With a focus on enhancing user experience, the company has gained significant traction in the tech industry.",
+    "products_services": "Mobile applications, app development services, and digital solutions.",
+    "industry": "Technology / Mobile Applications"
   }
 }
