@@ -2161,7 +2161,9 @@
   "GHXIU": {
     "description": "Gores Holdings XI, Inc. is a special purpose acquisition company (SPAC) focused on identifying and merging with a high-growth company in the technology sector. The company aims to leverage its management team's expertise to create value for shareholders through strategic acquisitions.",
     "products_services": "As a SPAC, Gores Holdings XI, Inc. does not offer traditional products or services but seeks to acquire a target company to bring it public.",
-    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)"
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)",
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
   },
   "LIME": {
     "description": "Neutron Holdings, Inc. is a technology company focused on providing innovative solutions for urban mobility through its electric scooter and bike-sharing services. The company aims to enhance transportation options in cities while promoting sustainability and reducing traffic congestion.",
@@ -2190,6 +2192,9 @@
   "BSP": {
     "description": "Bending Spoons S.p.A. is a leading mobile app development company known for creating innovative and user-friendly applications. With a focus on enhancing user experience, the company has gained significant traction in the tech industry.",
     "products_services": "Mobile applications, app development services, and digital solutions.",
-    "industry": "Technology / Mobile Applications"
+    "industry": "Technology / Mobile Applications",
+    "shares_outstanding": 324978625,
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
   }
 }
