@@ -2196,5 +2196,15 @@
     "shares_outstanding": 324978625,
     "proposed_price_low": 10.0,
     "proposed_price_high": 10.0
+  },
+  "CGCFU": {
+    "shares_outstanding": 25000000,
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
+  },
+  "FWACU": {
+    "shares_outstanding": 7500000,
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
   }
 }
