@@ -2200,11 +2200,25 @@
   "CGCFU": {
     "shares_outstanding": 25000000,
     "proposed_price_low": 10.0,
-    "proposed_price_high": 10.0
+    "proposed_price_high": 10.0,
+    "description": "Cartesian Growth Corp IV is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the technology and healthcare sectors. The firm aims to leverage its management team's expertise to drive growth and create value for shareholders.",
+    "products_services": "As a SPAC, Cartesian Growth Corp IV does not offer traditional products or services but seeks to acquire and support companies in their growth journey post-merger.",
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)"
   },
   "FWACU": {
     "shares_outstanding": 7500000,
     "proposed_price_low": 10.0,
-    "proposed_price_high": 10.0
+    "proposed_price_high": 10.0,
+    "description": "Futurewave Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in high-growth sectors. The firm aims to leverage its expertise to create value for shareholders through strategic partnerships and acquisitions.",
+    "products_services": "Futurewave Acquisition Corp. primarily offers capital and strategic guidance to target companies, facilitating their growth and expansion through mergers and acquisitions.",
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)"
+  },
+  "0002095150": {
+    "description": "ChainOn Group Ltd. is a technology-driven company specializing in blockchain solutions for supply chain management. The company aims to enhance transparency and efficiency in logistics through innovative digital platforms.",
+    "products_services": "Blockchain-based supply chain management solutions, logistics optimization software, and data analytics services.",
+    "industry": "Technology and Supply Chain Management",
+    "shares_outstanding": 6250000,
+    "proposed_price_low": 4,
+    "proposed_price_high": 6
   }
 }
