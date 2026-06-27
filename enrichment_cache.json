@@ -2163,7 +2163,8 @@
     "products_services": "As a SPAC, Gores Holdings XI, Inc. does not offer traditional products or services but seeks to acquire a target company to bring it public.",
     "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)",
     "proposed_price_low": 10.0,
-    "proposed_price_high": 10.0
+    "proposed_price_high": 10.0,
+    "shares_outstanding": 225000
   },
   "LIME": {
     "description": "Neutron Holdings, Inc. is a technology company focused on providing innovative solutions for urban mobility through its electric scooter and bike-sharing services. The company aims to enhance transportation options in cities while promoting sustainability and reducing traffic congestion.",
@@ -2220,5 +2221,29 @@
     "shares_outstanding": 6250000,
     "proposed_price_low": 4,
     "proposed_price_high": 6
+  },
+  "0002095509": {
+    "description": "Gold Stone Technical Inc. is a leading provider of innovative technology solutions focused on enhancing operational efficiency and performance for businesses across various sectors. The company specializes in advanced software development, data analytics, and IT consulting services.",
+    "products_services": "Software development, data analytics, IT consulting services, and technology integration solutions.",
+    "industry": "Information Technology and Software Development",
+    "shares_outstanding": 46250000,
+    "proposed_price_low": 4.0,
+    "proposed_price_high": 5.0
+  },
+  "0002110119": {
+    "description": "AMR Resources Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the technology and energy sectors. The company aims to leverage its expertise to drive growth and create value for shareholders.",
+    "products_services": "As a SPAC, AMR Resources Acquisition Corp. does not offer traditional products or services but seeks to acquire and support companies in their growth and operational strategies post-merger.",
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)",
+    "shares_outstanding": 250000000,
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
+  },
+  "0002032274": {
+    "description": "Gifts International Holdings Ltd. is a leading provider of innovative gift solutions, specializing in the design and distribution of a wide range of gift products. The company aims to enhance customer experiences through unique offerings and exceptional service.",
+    "products_services": "Gift products including personalized items, seasonal gifts, and corporate gifting solutions.",
+    "industry": "Retail and Consumer Goods",
+    "shares_outstanding": 11780900,
+    "proposed_price_low": 5.0,
+    "proposed_price_high": 6.0
   }
 }
