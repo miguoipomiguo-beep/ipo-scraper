@@ -2245,5 +2245,13 @@
     "shares_outstanding": 11780900,
     "proposed_price_low": 5.0,
     "proposed_price_high": 6.0
+  },
+  "KPL": {
+    "description": "Kepler Group Ltd. is a data-driven marketing and analytics company that specializes in optimizing digital advertising strategies for brands. With a focus on leveraging advanced technology and insights, Kepler helps clients enhance their marketing performance and achieve measurable results.",
+    "products_services": "Digital marketing analytics, advertising optimization, data strategy consulting, and performance measurement solutions.",
+    "industry": "Marketing Technology",
+    "shares_outstanding": 25000000,
+    "proposed_price_low": 6.0,
+    "proposed_price_high": 8.0
   }
 }
