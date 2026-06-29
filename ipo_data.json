@@ -1,533 +1,5 @@
 [
   {
-    "id": "BXDC",
-    "cik": "0002100161",
-    "company_name": "Blackstone Digital Infrastructure Trust Inc.",
-    "ticker": "BXDC",
-    "filing_type": "424B4",
-    "filing_date": null,
-    "events": [
-      {
-        "event_type": "pricing",
-        "filing_type": "424B4",
-        "event_date": "2026-05-15",
-        "sec_accession": "0001193125-26-225090",
-        "details": "424B4"
-      },
-      {
-        "event_type": "effective",
-        "filing_type": "EFFECT",
-        "event_date": "2026-05-13",
-        "sec_accession": "9999999995-26-001611",
-        "details": ""
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "S-11/A",
-        "event_date": "2026-05-04",
-        "sec_accession": "0001193125-26-202510",
-        "details": "S-11/A"
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "S-11/A",
-        "event_date": "2026-04-29",
-        "sec_accession": "0001193125-26-192110",
-        "details": "S-11/A"
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "S-11/A",
-        "event_date": "2026-04-17",
-        "sec_accession": "0001193125-26-161593",
-        "details": "S-11/A"
-      },
-      {
-        "event_type": "filing",
-        "filing_type": "S-11",
-        "event_date": "2026-04-10",
-        "sec_accession": "0001193125-26-151238",
-        "details": "S-11"
-      },
-      {
-        "event_type": "exchange_listed",
-        "filing_type": null,
-        "event_date": "2026-05-14"
-      }
-    ],
-    "exchange": "NYSE",
-    "expected_date": null,
-    "actual_date": "2026-05-14",
-    "shares_offered": 87500000,
-    "offer_price": 20.0,
-    "offer_amount": "$1,750,000,000",
-    "status": "listed",
-    "description": "Blackstone Digital Infrastructure Trust Inc. is a real estate investment trust focused on acquiring and managing digital infrastructure assets, including data centers and communication towers. The company aims to capitalize on the growing demand for digital connectivity and data storage solutions.",
-    "products_services": "The company invests in and operates digital infrastructure assets such as data centers, cell towers, and fiber networks, providing essential services for cloud computing and telecommunications.",
-    "industry": "Real Estate Investment Trust (REIT) / Digital Infrastructure",
-    "shares_outstanding": 87500000,
-    "proposed_price_low": 20.0,
-    "proposed_price_high": 20.0,
-    "price_range_low": 20.0,
-    "price_range_high": 20.0
-  },
-  {
-    "id": "NHP",
-    "cik": "0001561032",
-    "company_name": "National Healthcare Properties, Inc.",
-    "ticker": "NHP",
-    "filing_type": "424B4",
-    "filing_date": null,
-    "events": [
-      {
-        "event_type": "pricing",
-        "filing_type": "424B4",
-        "event_date": "2026-04-22",
-        "sec_accession": "0001628280-26-026541",
-        "details": "424B4"
-      },
-      {
-        "event_type": "effective",
-        "filing_type": "EFFECT",
-        "event_date": "2026-04-21",
-        "sec_accession": "9999999995-26-001272",
-        "details": ""
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "S-11/A",
-        "event_date": "2026-04-13",
-        "sec_accession": "0001628280-26-024827",
-        "details": "S-11/A"
-      },
-      {
-        "event_type": "filing",
-        "filing_type": "S-11",
-        "event_date": "2026-04-06",
-        "sec_accession": "0001561032-26-000012",
-        "details": "S-11"
-      },
-      {
-        "event_type": "effective",
-        "filing_type": "EFFECT",
-        "event_date": "2021-11-17",
-        "sec_accession": "9999999995-21-004372",
-        "details": ""
-      },
-      {
-        "event_type": "pricing",
-        "filing_type": "424B4",
-        "event_date": "2021-10-04",
-        "sec_accession": "0001104659-21-122569",
-        "details": "424B4"
-      },
-      {
-        "event_type": "effective",
-        "filing_type": "EFFECT",
-        "event_date": "2021-10-01",
-        "sec_accession": "9999999995-21-003744",
-        "details": ""
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "S-11/A",
-        "event_date": "2021-09-29",
-        "sec_accession": "0001104659-21-120733",
-        "details": "S-11/A"
-      },
-      {
-        "event_type": "filing",
-        "filing_type": "S-11",
-        "event_date": "2021-09-13",
-        "sec_accession": "0001104659-21-115112",
-        "details": "S-11"
-      },
-      {
-        "event_type": "effective",
-        "filing_type": "EFFECT",
-        "event_date": "2021-08-20",
-        "sec_accession": "9999999995-21-003259",
-        "details": ""
-      },
-      {
-        "event_type": "pricing",
-        "filing_type": "424B4",
-        "event_date": "2021-05-07",
-        "sec_accession": "0001104659-21-063158",
-        "details": "S-11/A"
-      },
-      {
-        "event_type": "effective",
-        "filing_type": "EFFECT",
-        "event_date": "2021-05-06",
-        "sec_accession": "9999999995-21-001829",
-        "details": ""
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "S-11/A",
-        "event_date": "2021-05-05",
-        "sec_accession": "0001104659-21-061239",
-        "details": "S-11/A"
-      },
-      {
-        "event_type": "filing",
-        "filing_type": "S-11",
-        "event_date": "2021-04-23",
-        "sec_accession": "0001104659-21-054492",
-        "details": "S-11"
-      },
-      {
-        "event_type": "effective",
-        "filing_type": "EFFECT",
-        "event_date": "2020-09-25",
-        "sec_accession": "9999999995-20-002584",
-        "details": ""
-      },
-      {
-        "event_type": "filing",
-        "filing_type": "S-11",
-        "event_date": "2020-09-15",
-        "sec_accession": "0001104659-20-105294",
-        "details": "S-11"
-      },
-      {
-        "event_type": "pricing",
-        "filing_type": "424B4",
-        "event_date": "2019-12-06",
-        "sec_accession": "0001104659-19-070584",
-        "details": "424B4"
-      },
-      {
-        "event_type": "effective",
-        "filing_type": "EFFECT",
-        "event_date": "2019-12-05",
-        "sec_accession": "9999999995-19-002743",
-        "details": ""
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "S-11/A",
-        "event_date": "2019-11-27",
-        "sec_accession": "0001104659-19-068323",
-        "details": "S-11/A"
-      },
-      {
-        "event_type": "filing",
-        "filing_type": "S-11",
-        "event_date": "2019-11-04",
-        "sec_accession": "0001104659-19-059585",
-        "details": "FORM S-11"
-      },
-      {
-        "event_type": "effective",
-        "filing_type": "EFFECT",
-        "event_date": "2015-05-13",
-        "sec_accession": "9999999995-15-001310",
-        "details": ""
-      },
-      {
-        "event_type": "effective",
-        "filing_type": "EFFECT",
-        "event_date": "2014-11-10",
-        "sec_accession": "9999999995-14-003284",
-        "details": ""
-      },
-      {
-        "event_type": "effective",
-        "filing_type": "EFFECT",
-        "event_date": "2014-07-30",
-        "sec_accession": "9999999995-14-002296",
-        "details": ""
-      },
-      {
-        "event_type": "effective",
-        "filing_type": "EFFECT",
-        "event_date": "2014-05-21",
-        "sec_accession": "9999999995-14-001535",
-        "details": ""
-      },
-      {
-        "event_type": "effective",
-        "filing_type": "EFFECT",
-        "event_date": "2014-04-11",
-        "sec_accession": "9999999995-14-000963",
-        "details": ""
-      },
-      {
-        "event_type": "effective",
-        "filing_type": "EFFECT",
-        "event_date": "2014-01-06",
-        "sec_accession": "9999999995-14-000043",
-        "details": ""
-      },
-      {
-        "event_type": "effective",
-        "filing_type": "EFFECT",
-        "event_date": "2013-11-18",
-        "sec_accession": "9999999995-13-003297",
-        "details": ""
-      },
-      {
-        "event_type": "effective",
-        "filing_type": "EFFECT",
-        "event_date": "2013-08-20",
-        "sec_accession": "9999999995-13-002453",
-        "details": ""
-      },
-      {
-        "event_type": "effective",
-        "filing_type": "EFFECT",
-        "event_date": "2013-04-29",
-        "sec_accession": "9999999995-13-001198",
-        "details": ""
-      },
-      {
-        "event_type": "effective",
-        "filing_type": "EFFECT",
-        "event_date": "2013-02-14",
-        "sec_accession": "9999999995-13-000508",
-        "details": ""
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "S-11/A",
-        "event_date": "2013-02-13",
-        "sec_accession": "0001144204-13-007911",
-        "details": "AMENDMENT TO FORM S-11"
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "S-11/A",
-        "event_date": "2013-02-08",
-        "sec_accession": "0001144204-13-006887",
-        "details": "PRE-EFFECTIVE AMENDMENT NO. 3 TO FORM S-11"
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "S-11/A",
-        "event_date": "2013-01-11",
-        "sec_accession": "0001144204-13-001796",
-        "details": "FORM S-11/A"
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "S-11/A",
-        "event_date": "2012-12-07",
-        "sec_accession": "0001144204-12-066830",
-        "details": "FORM S-11/A"
-      },
-      {
-        "event_type": "filing",
-        "filing_type": "S-11",
-        "event_date": "2012-10-31",
-        "sec_accession": "0001144204-12-058682",
-        "details": "S-11"
-      },
-      {
-        "event_type": "exchange_listed",
-        "filing_type": null,
-        "event_date": "2026-04-22"
-      }
-    ],
-    "exchange": "NASDAQ Global",
-    "expected_date": null,
-    "actual_date": "2026-04-22",
-    "shares_offered": 38500000,
-    "offer_price": 12.0,
-    "offer_amount": "$462,000,000",
-    "status": "listed",
-    "description": "National Healthcare Properties, Inc. is a real estate investment trust (REIT) focused on acquiring and managing healthcare-related properties across the United States. The company aims to provide stable returns to investors through its diversified portfolio of senior housing, skilled nursing facilities, and other healthcare properties.",
-    "products_services": "Acquisition and management of healthcare-related real estate properties, including senior housing and skilled nursing facilities.",
-    "industry": "Real Estate Investment Trust (REIT) - Healthcare",
-    "shares_outstanding": 38500000,
-    "proposed_price_low": 13.0,
-    "proposed_price_high": 16.0,
-    "price_range_low": 13.0,
-    "price_range_high": 16.0
-  },
-  {
-    "id": "JAN",
-    "cik": "0002100805",
-    "company_name": "Janus Living, Inc.",
-    "ticker": "JAN",
-    "filing_type": "424B4",
-    "filing_date": null,
-    "events": [
-      {
-        "event_type": "pricing",
-        "filing_type": "424B4",
-        "event_date": "2026-06-03",
-        "sec_accession": "0001104659-26-070188",
-        "details": "424B4"
-      },
-      {
-        "event_type": "effective",
-        "filing_type": "EFFECT",
-        "event_date": "2026-06-02",
-        "sec_accession": "9999999995-26-001859",
-        "details": ""
-      },
-      {
-        "event_type": "filing",
-        "filing_type": "S-11",
-        "event_date": "2026-06-01",
-        "sec_accession": "0001104659-26-068606",
-        "details": "S-11"
-      },
-      {
-        "event_type": "pricing",
-        "filing_type": "424B4",
-        "event_date": "2026-03-23",
-        "sec_accession": "0001104659-26-032901",
-        "details": "424B4"
-      },
-      {
-        "event_type": "effective",
-        "filing_type": "EFFECT",
-        "event_date": "2026-03-19",
-        "sec_accession": "9999999995-26-000873",
-        "details": ""
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "S-11/A",
-        "event_date": "2026-03-17",
-        "sec_accession": "0001104659-26-029610",
-        "details": "S-11/A"
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "S-11/A",
-        "event_date": "2026-03-16",
-        "sec_accession": "0001104659-26-027908",
-        "details": "S-11/A"
-      },
-      {
-        "event_type": "filing",
-        "filing_type": "S-11",
-        "event_date": "2026-02-27",
-        "sec_accession": "0001104659-26-020934",
-        "details": "S-11"
-      },
-      {
-        "event_type": "exchange_listed",
-        "filing_type": null,
-        "event_date": "2026-03-20"
-      }
-    ],
-    "exchange": "NYSE",
-    "expected_date": null,
-    "actual_date": "2026-03-20",
-    "shares_offered": 42000000,
-    "offer_price": 20.0,
-    "offer_amount": "$840,000,000",
-    "status": "listed",
-    "description": "Janus Living, Inc. is an innovative company focused on providing sustainable and modular housing solutions designed to address the growing demand for affordable living spaces. With a commitment to environmental responsibility, Janus Living aims to revolutionize the housing market through its unique construction methods and designs.",
-    "products_services": "Modular housing units, sustainable living solutions, and customizable home designs.",
-    "industry": "Real Estate / Construction",
-    "shares_outstanding": 37000000,
-    "proposed_price_low": 18.0,
-    "proposed_price_high": 20.0,
-    "price_range_low": 18.0,
-    "price_range_high": 20.0
-  },
-  {
-    "id": "ITG",
-    "cik": "0002110117",
-    "company_name": "ITG, Inc./DE/",
-    "ticker": "ITG",
-    "filing_type": "S-1/A",
-    "filing_date": "2026-06-05",
-    "events": [
-      {
-        "event_type": "amendment",
-        "filing_type": "S-1/A",
-        "event_date": "2026-06-26",
-        "sec_accession": "0001193125-26-285598",
-        "details": "S-1/A"
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "S-1/A",
-        "event_date": "2026-06-22",
-        "sec_accession": "0001193125-26-276672",
-        "details": "S-1/A"
-      },
-      {
-        "event_type": "filing",
-        "filing_type": "S-1",
-        "event_date": "2026-06-05",
-        "sec_accession": "0001193125-26-259828",
-        "details": "S-1"
-      },
-      {
-        "event_type": "exchange_upcoming",
-        "filing_type": null,
-        "event_date": "2026-07-01"
-      }
-    ],
-    "exchange": "NASDAQ Global Select",
-    "expected_date": "2026-07-01",
-    "actual_date": null,
-    "shares_offered": 19512196,
-    "offer_price": null,
-    "offer_amount": "$493,658,550",
-    "price_range_low": 19.0,
-    "price_range_high": 22.0,
-    "status": "upcoming",
-    "description": "ITG, Inc. is a technology company specializing in innovative software solutions for data analytics and business intelligence. The company aims to enhance operational efficiency and decision-making processes for its clients across various sectors.",
-    "products_services": "ITG, Inc. offers a range of products including data analytics platforms, business intelligence tools, and customized software solutions tailored to meet specific client needs.",
-    "industry": "Technology / Software Development",
-    "proposed_price_low": 19.0,
-    "proposed_price_high": 22.0,
-    "_accession_for_extract": "0001193125-26-285598"
-  },
-  {
-    "id": "CUX",
-    "cik": "0002093018",
-    "company_name": "CopperTech Metals Inc.",
-    "ticker": "CUX",
-    "filing_type": "S-1/A",
-    "filing_date": "2026-06-02",
-    "events": [
-      {
-        "event_type": "amendment",
-        "filing_type": "S-1/A",
-        "event_date": "2026-06-23",
-        "sec_accession": "0001575872-26-000437",
-        "details": "FORM S-1/A"
-      },
-      {
-        "event_type": "filing",
-        "filing_type": "S-1",
-        "event_date": "2026-06-02",
-        "sec_accession": "0001575872-26-000392",
-        "details": "FORM S-1"
-      },
-      {
-        "event_type": "exchange_upcoming",
-        "filing_type": null,
-        "event_date": "2026-07-01"
-      }
-    ],
-    "exchange": "NYSE",
-    "expected_date": "2026-07-01",
-    "actual_date": null,
-    "shares_offered": 23529412,
-    "offer_price": null,
-    "offer_amount": "$487,058,814",
-    "price_range_low": 16.0,
-    "price_range_high": 18.0,
-    "status": "upcoming",
-    "description": "CopperTech Metals Inc. is a leading provider of innovative copper-based solutions aimed at enhancing efficiency and sustainability in various industries. The company focuses on the extraction, processing, and distribution of high-quality copper products to meet the growing demand for advanced materials.",
-    "products_services": "Copper extraction and processing, copper alloys, and custom copper solutions for industrial applications.",
-    "industry": "Metals and Mining",
-    "shares_outstanding": 1098677473,
-    "proposed_price_low": 16.0,
-    "proposed_price_high": 18.0
-  },
-  {
     "id": "SIND",
     "cik": "0002096861",
     "company_name": "Sinda Ltd.",
@@ -1095,6 +567,71 @@
     "shares_outstanding": 72111177
   },
   {
+    "id": "BHAVU",
+    "cik": "0002097288",
+    "company_name": "BHAV Acquisition Corp",
+    "ticker": "BHAVU",
+    "filing_type": "424B4",
+    "filing_date": "2026-02-11",
+    "events": [
+      {
+        "event_type": "pricing",
+        "filing_type": "424B4",
+        "event_date": "2026-03-20",
+        "sec_accession": "0001213900-26-032071",
+        "details": "PROSPECTUS"
+      },
+      {
+        "event_type": "effective",
+        "filing_type": "EFFECT",
+        "event_date": "2026-03-18",
+        "sec_accession": "9999999995-26-000862",
+        "details": ""
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2026-03-12",
+        "sec_accession": "0001213900-26-027084",
+        "details": "REGISTRATION STATEMENT"
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2026-02-25",
+        "sec_accession": "0001213900-26-020436",
+        "details": "REGISTRATION STATEMENT"
+      },
+      {
+        "event_type": "filing",
+        "filing_type": "S-1",
+        "event_date": "2026-02-11",
+        "sec_accession": "0001213900-26-015021",
+        "details": "REGISTRATION STATEMENT"
+      },
+      {
+        "event_type": "exchange_listed",
+        "filing_type": null,
+        "event_date": "2026-03-19"
+      }
+    ],
+    "exchange": "NASDAQ Global",
+    "expected_date": null,
+    "actual_date": "2026-03-19",
+    "shares_offered": 10000000,
+    "offer_price": 10.0,
+    "offer_amount": "$100,000,000",
+    "status": "listed",
+    "description": "BHAV Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative businesses in high-growth sectors. The company aims to leverage its management team's expertise to create value for shareholders through strategic acquisitions.",
+    "products_services": "BHAV Acquisition Corp. primarily engages in the acquisition of companies in the technology, healthcare, and consumer sectors, providing them with capital and operational support to accelerate growth.",
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)",
+    "shares_outstanding": 10000000,
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0,
+    "price_range_low": 10.0,
+    "price_range_high": 10.0
+  },
+  {
     "id": "SWMR",
     "cik": "0002092574",
     "company_name": "Swarmer, Inc",
@@ -1295,6 +832,334 @@
     "proposed_price_high": 10.0,
     "price_range_low": 10.0,
     "price_range_high": 10.0
+  },
+  {
+    "id": "PAYP",
+    "cik": "0002080845",
+    "company_name": "PayPay Corp",
+    "ticker": "PAYP",
+    "filing_type": "424B4",
+    "filing_date": "2026-02-12",
+    "events": [
+      {
+        "event_type": "pricing",
+        "filing_type": "424B4",
+        "event_date": "2026-03-12",
+        "sec_accession": "0002080845-26-000001",
+        "details": "424B4"
+      },
+      {
+        "event_type": "effective",
+        "filing_type": "EFFECT",
+        "event_date": "2026-03-11",
+        "sec_accession": "9999999995-26-000792",
+        "details": ""
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "F-1/A",
+        "event_date": "2026-03-02",
+        "sec_accession": "0001193125-26-085389",
+        "details": "AMENDMENT NO. 1 TO FORM F-1"
+      },
+      {
+        "event_type": "filing",
+        "filing_type": "F-1",
+        "event_date": "2026-02-12",
+        "sec_accession": "0001193125-26-047933",
+        "details": "FORM F-1"
+      },
+      {
+        "event_type": "exchange_listed",
+        "filing_type": null,
+        "event_date": "2026-03-12"
+      }
+    ],
+    "exchange": "NASDAQ Global Select",
+    "expected_date": null,
+    "actual_date": "2026-03-12",
+    "shares_offered": 54987214,
+    "offer_price": 16.0,
+    "offer_amount": "$879,795,424",
+    "status": "listed",
+    "description": "PayPay Corp. is a leading digital payment platform in Japan, enabling seamless transactions through mobile wallets and QR code payments. The company aims to enhance consumer convenience and drive cashless adoption across various sectors.",
+    "products_services": "Mobile payment solutions, QR code payments, digital wallets, and financial services.",
+    "industry": "Financial Technology (FinTech)",
+    "shares_outstanding": 54987214,
+    "proposed_price_low": 17.0,
+    "proposed_price_high": 20.0,
+    "price_range_low": 17.0,
+    "price_range_high": 20.0
+  },
+  {
+    "id": "SUMAU",
+    "cik": "0002105838",
+    "company_name": "SUMA Acquisition Corp",
+    "ticker": "SUMAU",
+    "filing_type": "424B4",
+    "filing_date": "2026-01-20",
+    "events": [
+      {
+        "event_type": "pricing",
+        "filing_type": "424B4",
+        "event_date": "2026-03-11",
+        "sec_accession": "0001213900-26-026225",
+        "details": "PROSPECTUS"
+      },
+      {
+        "event_type": "effective",
+        "filing_type": "EFFECT",
+        "event_date": "2026-03-10",
+        "sec_accession": "9999999995-26-000759",
+        "details": ""
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2026-03-09",
+        "sec_accession": "0001213900-26-024996",
+        "details": "REGISTRATION STATEMENT"
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2026-03-02",
+        "sec_accession": "0001213900-26-022146",
+        "details": "REGISTRATION STATEMENT"
+      },
+      {
+        "event_type": "filing",
+        "filing_type": "S-1",
+        "event_date": "2026-01-20",
+        "sec_accession": "0001213900-26-005720",
+        "details": "REGISTRATION STATEMENT"
+      },
+      {
+        "event_type": "exchange_listed",
+        "filing_type": null,
+        "event_date": "2026-03-11"
+      }
+    ],
+    "exchange": "NASDAQ Global",
+    "expected_date": null,
+    "actual_date": "2026-03-11",
+    "shares_offered": 15000000,
+    "offer_price": 10.0,
+    "offer_amount": "$150,000,000",
+    "status": "listed",
+    "description": "SUMA Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in high-growth sectors. The company aims to leverage its management team's expertise to create value for shareholders through strategic acquisitions.",
+    "products_services": "As a SPAC, SUMA Acquisition Corp. does not offer traditional products or services but seeks to acquire a target company to bring it public.",
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)",
+    "shares_outstanding": 15000000,
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0,
+    "price_range_low": 10.0,
+    "price_range_high": 10.0
+  },
+  {
+    "id": "CAST",
+    "cik": "0001633369",
+    "company_name": "FreeCast, Inc.",
+    "ticker": "CAST",
+    "filing_type": "EFFECT",
+    "filing_date": "2026-04-17",
+    "events": [
+      {
+        "event_type": "effective",
+        "filing_type": "EFFECT",
+        "event_date": "2026-05-06",
+        "sec_accession": "9999999995-26-001524",
+        "details": ""
+      },
+      {
+        "event_type": "filing",
+        "filing_type": "S-1",
+        "event_date": "2026-04-17",
+        "sec_accession": "0001213900-26-045218",
+        "details": "REGISTRATION STATEMENT"
+      },
+      {
+        "event_type": "pricing",
+        "filing_type": "424B4",
+        "event_date": "2026-03-04",
+        "sec_accession": "0001213900-26-023677",
+        "details": "PROSPECTUS"
+      },
+      {
+        "event_type": "effective",
+        "filing_type": "EFFECT",
+        "event_date": "2026-02-11",
+        "sec_accession": "9999999995-26-000524",
+        "details": ""
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2026-01-23",
+        "sec_accession": "0001213900-26-007255",
+        "details": "AMENDMENT NO. 11 TO FORM S-1"
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2025-12-31",
+        "sec_accession": "0001213900-25-127028",
+        "details": "AMENDMENT NO. 10 TO FORM S-1"
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2025-12-09",
+        "sec_accession": "0001213900-25-119397",
+        "details": "AMENDMENT NO. 9 TO FORM S-1"
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2025-09-30",
+        "sec_accession": "0001213900-25-093241",
+        "details": "AMENDMENT NO. 8 TO FORM S-1"
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2025-08-06",
+        "sec_accession": "0001213900-25-072256",
+        "details": "AMENDMENT NO. 7 TO FORM S-1"
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2025-03-07",
+        "sec_accession": "0001213900-25-021833",
+        "details": "AMENDMENT NO. 6 TO FORM S-1"
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2025-01-14",
+        "sec_accession": "0001213900-25-003084",
+        "details": "AMENDMENT NO. 5 TO FORM S-1"
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2024-11-01",
+        "sec_accession": "0001213900-24-093217",
+        "details": "AMENDMENT NO. 4 TO FORM S-1"
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2024-07-24",
+        "sec_accession": "0001013762-24-000771",
+        "details": "AMENDMENT NO. 3 TO FORM S-1"
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2024-02-12",
+        "sec_accession": "0001213900-24-012515",
+        "details": "AMENDMENT NO. 2 TO FORM S-1"
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2024-01-05",
+        "sec_accession": "0001213900-24-001312",
+        "details": "AMENDMENT NO. 1 TO FORM S-1"
+      },
+      {
+        "event_type": "filing",
+        "filing_type": "S-1",
+        "event_date": "2023-11-13",
+        "sec_accession": "0001213900-23-086181",
+        "details": "REGISTRATION STATEMENT"
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2022-11-07",
+        "sec_accession": "0001213900-22-069798",
+        "details": "AMENDMENT NO. 8 TO FORM S-1"
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2022-04-04",
+        "sec_accession": "0001213900-22-017596",
+        "details": "AMENDMENT NO. 7 TO FORM S-1"
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2022-01-31",
+        "sec_accession": "0001213900-22-004326",
+        "details": "AMENDMENT NO. 6 TO FORM S-1"
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2021-11-01",
+        "sec_accession": "0001213900-21-055704",
+        "details": "AMENDMENT NO. 5 TO FORM S-1"
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2020-06-08",
+        "sec_accession": "0001213900-20-014303",
+        "details": "AMENDMENT NO. 4 TO FORM S-1"
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2020-05-07",
+        "sec_accession": "0001213900-20-011307",
+        "details": "AMENDMENT NO. 3 TO REGISTRATION STATEMENT"
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2020-04-30",
+        "sec_accession": "0001213900-20-010641",
+        "details": "AMENDMENT NO. 2 TO FORM S-1"
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2020-04-10",
+        "sec_accession": "0001213900-20-008972",
+        "details": "AMENDMENT NO. 1 TO FORM S-1"
+      },
+      {
+        "event_type": "filing",
+        "filing_type": "S-1",
+        "event_date": "2020-02-18",
+        "sec_accession": "0001213900-20-004123",
+        "details": "REGISTRATION STATEMENT"
+      },
+      {
+        "event_type": "exchange_listed",
+        "filing_type": null,
+        "event_date": "2026-03-10"
+      }
+    ],
+    "exchange": "NASDAQ Global",
+    "expected_date": null,
+    "actual_date": "2026-03-10",
+    "shares_offered": 19782084,
+    "offer_price": null,
+    "offer_amount": null,
+    "status": "listed",
+    "description": "FreeCast, Inc. is a technology company that provides a comprehensive streaming platform designed to aggregate and deliver content from various sources to consumers. The company aims to simplify the viewing experience by offering a unified interface for accessing live TV, on-demand content, and streaming services.",
+    "products_services": "FreeCast offers a range of products including the SelectTV platform, which combines live TV, streaming services, and on-demand content into a single interface, along with various content aggregation and distribution solutions.",
+    "industry": "Technology / Media / Streaming Services",
+    "shares_outstanding": 8756073,
+    "proposed_price_low": 3.78,
+    "proposed_price_high": 3.78,
+    "price_range_low": 3.78,
+    "price_range_high": 3.78
   },
   {
     "id": "MMED",
@@ -1764,122 +1629,6 @@
     "price_range_high": 10.0
   },
   {
-    "id": "WENCU",
-    "cik": "0002104260",
-    "company_name": "West Enclave Merger Corp.",
-    "ticker": "WENCU",
-    "filing_type": "424B4",
-    "filing_date": "2026-03-09",
-    "events": [
-      {
-        "event_type": "pricing",
-        "filing_type": "424B4",
-        "event_date": "2026-04-30",
-        "sec_accession": "0001193125-26-194920",
-        "details": "424B4"
-      },
-      {
-        "event_type": "effective",
-        "filing_type": "EFFECT",
-        "event_date": "2026-04-29",
-        "sec_accession": "9999999995-26-001380",
-        "details": ""
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "S-1/A",
-        "event_date": "2026-04-20",
-        "sec_accession": "0001193125-26-163902",
-        "details": "S-1/A"
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "S-1/A",
-        "event_date": "2026-03-20",
-        "sec_accession": "0001193125-26-117909",
-        "details": "S-1/A"
-      },
-      {
-        "event_type": "filing",
-        "filing_type": "S-1",
-        "event_date": "2026-03-09",
-        "sec_accession": "0001193125-26-098270",
-        "details": "S-1"
-      },
-      {
-        "event_type": "exchange_listed",
-        "filing_type": null,
-        "event_date": "2026-04-30"
-      }
-    ],
-    "exchange": "NYSE",
-    "expected_date": null,
-    "actual_date": "2026-04-30",
-    "shares_offered": 10000000,
-    "offer_price": 10.0,
-    "offer_amount": "$100,000,000",
-    "status": "listed",
-    "description": "West Enclave Merger Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in high-growth sectors. The firm aims to leverage its expertise to create value for shareholders through strategic partnerships and operational enhancements.",
-    "products_services": "As a SPAC, West Enclave Merger Corp. primarily offers capital and strategic support to target companies in the process of going public through a merger.",
-    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)",
-    "shares_outstanding": 425000,
-    "proposed_price_low": 10.0,
-    "proposed_price_high": 10.0,
-    "price_range_low": 10.0,
-    "price_range_high": 10.0
-  },
-  {
-    "id": "MCAHU",
-    "cik": "0002109876",
-    "company_name": "Mountain Crest Acquisition 6 Corp.",
-    "ticker": "MCAHU",
-    "filing_type": "424B4",
-    "filing_date": "2026-04-06",
-    "events": [
-      {
-        "event_type": "pricing",
-        "filing_type": "424B4",
-        "event_date": "2026-04-30",
-        "sec_accession": "0001829126-26-004283",
-        "details": "424B4"
-      },
-      {
-        "event_type": "effective",
-        "filing_type": "EFFECT",
-        "event_date": "2026-04-29",
-        "sec_accession": "9999999995-26-001381",
-        "details": ""
-      },
-      {
-        "event_type": "filing",
-        "filing_type": "S-1",
-        "event_date": "2026-04-06",
-        "sec_accession": "0001829126-26-003167",
-        "details": "S-1"
-      },
-      {
-        "event_type": "exchange_listed",
-        "filing_type": null,
-        "event_date": "2026-04-30"
-      }
-    ],
-    "exchange": "NASDAQ Global",
-    "expected_date": null,
-    "actual_date": "2026-04-30",
-    "shares_offered": 6000000,
-    "offer_price": 10.0,
-    "offer_amount": "$60,000,000",
-    "status": "listed",
-    "description": "Mountain Crest Acquisition 6 Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with a target company in the technology sector. The company aims to leverage its management team's expertise to drive growth and create value for shareholders.",
-    "products_services": "As a SPAC, Mountain Crest Acquisition 6 Corp. does not offer traditional products or services but seeks to acquire a private company to take public.",
-    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)",
-    "shares_outstanding": 6000000,
-    "proposed_price_low": 10.0,
-    "proposed_price_high": 10.0,
-    "price_range_low": 10.0,
-    "price_range_high": 10.0
-  },
-  {
     "id": "RREVU",
     "cik": "0002123969",
     "company_name": "RRE Ventures Acquisition Corp.",
@@ -2120,150 +1869,6 @@
     "products_services": "As a SPAC, Collective Acquisition Corp. II primarily offers capital and strategic support to target companies, facilitating their transition to public markets.",
     "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)",
     "shares_outstanding": 22000000,
-    "proposed_price_low": 10.0,
-    "proposed_price_high": 10.0,
-    "price_range_low": 10.0,
-    "price_range_high": 10.0
-  },
-  {
-    "id": "PS",
-    "cik": "0002026053",
-    "company_name": "PERSHING SQUARE INC.",
-    "ticker": "PS",
-    "filing_type": "424B4",
-    "filing_date": "2026-03-10",
-    "events": [
-      {
-        "event_type": "pricing",
-        "filing_type": "424B4",
-        "event_date": "2026-04-30",
-        "sec_accession": "0001140361-26-018103",
-        "details": "424B4"
-      },
-      {
-        "event_type": "effective",
-        "filing_type": "EFFECT",
-        "event_date": "2026-04-28",
-        "sec_accession": "9999999995-26-001355",
-        "details": ""
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "S-1/A",
-        "event_date": "2026-04-23",
-        "sec_accession": "0001140361-26-016419",
-        "details": "S-1/A"
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "S-1/A",
-        "event_date": "2026-04-20",
-        "sec_accession": "0001140361-26-015515",
-        "details": "S-1/A"
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "S-1/A",
-        "event_date": "2026-04-13",
-        "sec_accession": "0001140361-26-014335",
-        "details": "S-1/A"
-      },
-      {
-        "event_type": "filing",
-        "filing_type": "S-1",
-        "event_date": "2026-03-10",
-        "sec_accession": "0001140361-26-008560",
-        "details": "S-1"
-      },
-      {
-        "event_type": "exchange_listed",
-        "filing_type": null,
-        "event_date": "2026-04-29"
-      }
-    ],
-    "exchange": "NYSE",
-    "expected_date": null,
-    "actual_date": "2026-04-29",
-    "shares_offered": 40516960,
-    "offer_price": 50.0,
-    "offer_amount": "$2,025,848,000",
-    "status": "listed",
-    "description": "Pershing Square Inc. is a special purpose acquisition company (SPAC) focused on identifying and merging with high-quality businesses to create long-term value for shareholders.",
-    "products_services": "The company primarily engages in investment activities and may provide capital to target companies in various sectors.",
-    "industry": "Financial Services",
-    "shares_outstanding": 56300000,
-    "proposed_price_low": 50.0,
-    "proposed_price_high": 50.0,
-    "price_range_low": 50.0,
-    "price_range_high": 50.0
-  },
-  {
-    "id": "PLUNU",
-    "cik": "0002065661",
-    "company_name": "Plutonian Acquisition Corp. II",
-    "ticker": "PLUNU",
-    "filing_type": "424B4",
-    "filing_date": "2026-02-17",
-    "events": [
-      {
-        "event_type": "pricing",
-        "filing_type": "424B4",
-        "event_date": "2026-04-28",
-        "sec_accession": "0001477932-26-002617",
-        "details": "424B4"
-      },
-      {
-        "event_type": "effective",
-        "filing_type": "EFFECT",
-        "event_date": "2026-04-27",
-        "sec_accession": "9999999995-26-001337",
-        "details": ""
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "S-1/A",
-        "event_date": "2026-04-21",
-        "sec_accession": "0001477932-26-002429",
-        "details": "FORM S-1/A"
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "S-1/A",
-        "event_date": "2026-04-01",
-        "sec_accession": "0001477932-26-001930",
-        "details": "FORM S-1/A"
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "S-1/A",
-        "event_date": "2026-03-20",
-        "sec_accession": "0001477932-26-001513",
-        "details": "FORM S-1/A"
-      },
-      {
-        "event_type": "filing",
-        "filing_type": "S-1",
-        "event_date": "2026-02-17",
-        "sec_accession": "0001477932-26-000869",
-        "details": "FORM S-1"
-      },
-      {
-        "event_type": "exchange_listed",
-        "filing_type": null,
-        "event_date": "2026-04-28"
-      }
-    ],
-    "exchange": "NYSE",
-    "expected_date": null,
-    "actual_date": "2026-04-28",
-    "shares_offered": 10000000,
-    "offer_price": 10.0,
-    "offer_amount": "$100,000,000",
-    "status": "listed",
-    "description": "Plutonian Acquisition Corp. II is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in high-growth sectors. The firm aims to leverage its expertise to create value for shareholders through strategic partnerships and acquisitions.",
-    "products_services": "As a SPAC, Plutonian Acquisition Corp. II primarily offers capital and resources to target companies for merger or acquisition, facilitating their growth and expansion.",
-    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)",
-    "shares_outstanding": 10000000,
     "proposed_price_low": 10.0,
     "proposed_price_high": 10.0,
     "price_range_low": 10.0,
@@ -2573,64 +2178,6 @@
     "products_services": "Biotherapeutic products targeting infectious diseases and cancer treatments.",
     "industry": "Biotechnology",
     "shares_outstanding": 9647726
-  },
-  {
-    "id": "ELMT",
-    "cik": "0002101698",
-    "company_name": "Elmet Group Co.",
-    "ticker": "ELMT",
-    "filing_type": "424B4",
-    "filing_date": "2026-03-30",
-    "events": [
-      {
-        "event_type": "pricing",
-        "filing_type": "424B4",
-        "event_date": "2026-04-23",
-        "sec_accession": "0001213900-26-047144",
-        "details": "PROSPECTUS"
-      },
-      {
-        "event_type": "effective",
-        "filing_type": "EFFECT",
-        "event_date": "2026-04-22",
-        "sec_accession": "9999999995-26-001297",
-        "details": ""
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "S-1/A",
-        "event_date": "2026-04-14",
-        "sec_accession": "0001213900-26-043190",
-        "details": "REGISTRATION STATEMENT"
-      },
-      {
-        "event_type": "filing",
-        "filing_type": "S-1",
-        "event_date": "2026-03-30",
-        "sec_accession": "0001213900-26-035970",
-        "details": "REGISTRATION STATEMENT"
-      },
-      {
-        "event_type": "exchange_listed",
-        "filing_type": null,
-        "event_date": "2026-04-23"
-      }
-    ],
-    "exchange": "NASDAQ Capital",
-    "expected_date": null,
-    "actual_date": "2026-04-23",
-    "shares_offered": 8571428,
-    "offer_price": 14.0,
-    "offer_amount": "$119,999,992",
-    "status": "listed",
-    "description": "Elmet Group Co. is a leading provider of advanced materials and manufacturing solutions, specializing in precision-engineered products for various industries. The company focuses on delivering high-quality, innovative solutions that enhance performance and efficiency for its clients.",
-    "products_services": "Precision-engineered materials, manufacturing solutions, and advanced material technologies.",
-    "industry": "Advanced materials and manufacturing.",
-    "shares_outstanding": 7692307,
-    "proposed_price_low": 12.0,
-    "proposed_price_high": 14.0,
-    "price_range_low": 12.0,
-    "price_range_high": 14.0
   },
   {
     "id": "YSWY",
@@ -4109,6 +3656,57 @@
     "price_range_high": 10.0
   },
   {
+    "id": "BRKHU",
+    "cik": "0002098707",
+    "company_name": "Burtech Acquisition Corp II",
+    "ticker": "BRKHU",
+    "filing_type": "424B4",
+    "filing_date": "2026-04-22",
+    "events": [
+      {
+        "event_type": "pricing",
+        "filing_type": "424B4",
+        "event_date": "2026-05-26",
+        "sec_accession": "0001213900-26-060733",
+        "details": "PROSPECTUS"
+      },
+      {
+        "event_type": "effective",
+        "filing_type": "EFFECT",
+        "event_date": "2026-05-13",
+        "sec_accession": "9999999995-26-001617",
+        "details": ""
+      },
+      {
+        "event_type": "filing",
+        "filing_type": "S-1",
+        "event_date": "2026-04-22",
+        "sec_accession": "0001213900-26-046316",
+        "details": "REGISTRATION STATEMENT"
+      },
+      {
+        "event_type": "exchange_listed",
+        "filing_type": null,
+        "event_date": "2026-05-22"
+      }
+    ],
+    "exchange": "NASDAQ Capital",
+    "expected_date": null,
+    "actual_date": "2026-05-22",
+    "shares_offered": 8000000,
+    "offer_price": 10.0,
+    "offer_amount": "$80,000,000",
+    "status": "listed",
+    "description": "BurTech Acquisition Corp II is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative technology companies. The firm aims to leverage its expertise to drive growth and create value in the rapidly evolving tech landscape.",
+    "products_services": "As a SPAC, BurTech Acquisition Corp II does not offer traditional products or services but seeks to acquire and support technology-focused businesses.",
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)",
+    "shares_outstanding": 10000000,
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0,
+    "price_range_low": 10.0,
+    "price_range_high": 10.0
+  },
+  {
     "id": "OHACU",
     "cik": "0002090787",
     "company_name": "Oceanhawk Acquisition Corp.",
@@ -4516,6 +4114,201 @@
     "proposed_price_high": 8.0,
     "price_range_low": 6.0,
     "price_range_high": 8.0
+  },
+  {
+    "id": "RACC",
+    "cik": "0002118032",
+    "company_name": "Research Alliance Corp III",
+    "ticker": "RACC",
+    "filing_type": "424B4",
+    "filing_date": "2026-03-24",
+    "events": [
+      {
+        "event_type": "pricing",
+        "filing_type": "424B4",
+        "event_date": "2026-05-20",
+        "sec_accession": "0001193125-26-232525",
+        "details": "424B4"
+      },
+      {
+        "event_type": "effective",
+        "filing_type": "EFFECT",
+        "event_date": "2026-05-19",
+        "sec_accession": "9999999995-26-001699",
+        "details": ""
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2026-05-13",
+        "sec_accession": "0001193125-26-220331",
+        "details": "S-1/A"
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2026-04-23",
+        "sec_accession": "0001193125-26-173973",
+        "details": "S-1/A"
+      },
+      {
+        "event_type": "filing",
+        "filing_type": "S-1",
+        "event_date": "2026-03-24",
+        "sec_accession": "0001193125-26-120705",
+        "details": "S-1"
+      },
+      {
+        "event_type": "exchange_listed",
+        "filing_type": null,
+        "event_date": "2026-05-20"
+      }
+    ],
+    "exchange": "NASDAQ Capital",
+    "expected_date": null,
+    "actual_date": "2026-05-20",
+    "shares_offered": 7500000,
+    "offer_price": 10.0,
+    "offer_amount": "$75,000,000",
+    "status": "listed",
+    "description": "Research Alliance Corp III is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the life sciences sector. The company aims to leverage its expertise to drive growth and value creation in the healthcare industry.",
+    "products_services": "The company primarily engages in the acquisition and development of businesses in the life sciences, biotechnology, and healthcare sectors.",
+    "industry": "Healthcare / Life Sciences",
+    "shares_outstanding": 7500000,
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0,
+    "price_range_low": 10.0,
+    "price_range_high": 10.0
+  },
+  {
+    "id": "LCLN",
+    "cik": "0001925283",
+    "company_name": "Lincoln International, Inc.",
+    "ticker": "LCLN",
+    "filing_type": "424B4",
+    "filing_date": "2026-04-24",
+    "events": [
+      {
+        "event_type": "pricing",
+        "filing_type": "424B4",
+        "event_date": "2026-05-21",
+        "sec_accession": "0001628280-26-037044",
+        "details": "424B4"
+      },
+      {
+        "event_type": "effective",
+        "filing_type": "EFFECT",
+        "event_date": "2026-05-19",
+        "sec_accession": "9999999995-26-001702",
+        "details": ""
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2026-05-14",
+        "sec_accession": "0001628280-26-035230",
+        "details": "S-1/A"
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2026-05-11",
+        "sec_accession": "0001628280-26-033128",
+        "details": "S-1/A"
+      },
+      {
+        "event_type": "filing",
+        "filing_type": "S-1",
+        "event_date": "2026-04-24",
+        "sec_accession": "0001628280-26-027260",
+        "details": "S-1"
+      },
+      {
+        "event_type": "exchange_listed",
+        "filing_type": null,
+        "event_date": "2026-05-20"
+      }
+    ],
+    "exchange": "NYSE",
+    "expected_date": null,
+    "actual_date": "2026-05-20",
+    "shares_offered": 21049988,
+    "offer_price": 20.0,
+    "offer_amount": "$420,999,760",
+    "status": "listed",
+    "description": "Lincoln International, Inc. is a global investment banking advisory firm that specializes in mergers and acquisitions, capital raising, and financial advisory services. The company focuses on providing tailored solutions to clients across various sectors, leveraging its extensive industry expertise and global reach.",
+    "products_services": "Mergers and acquisitions advisory, capital raising, financial advisory services, and valuation services.",
+    "industry": "Investment Banking and Financial Services",
+    "proposed_price_low": 18.0,
+    "proposed_price_high": 20.0,
+    "_accession_for_extract": "0001628280-26-035230",
+    "price_range_low": 18.0,
+    "price_range_high": 20.0
+  },
+  {
+    "id": "AMAN",
+    "cik": "0002112457",
+    "company_name": "Amanat Acquisition Corp.",
+    "ticker": "AMAN",
+    "filing_type": "424B4",
+    "filing_date": "2026-04-17",
+    "events": [
+      {
+        "event_type": "pricing",
+        "filing_type": "424B4",
+        "event_date": "2026-05-20",
+        "sec_accession": "0001213900-26-059197",
+        "details": "PROSPECTUS"
+      },
+      {
+        "event_type": "effective",
+        "filing_type": "EFFECT",
+        "event_date": "2026-05-18",
+        "sec_accession": "9999999995-26-001687",
+        "details": ""
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2026-05-14",
+        "sec_accession": "0001213900-26-056558",
+        "details": "REGISTRATION STATEMENT"
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2026-05-04",
+        "sec_accession": "0001213900-26-051091",
+        "details": "REGISTRATION STATEMENT"
+      },
+      {
+        "event_type": "filing",
+        "filing_type": "S-1",
+        "event_date": "2026-04-17",
+        "sec_accession": "0001213900-26-045252",
+        "details": "REGISTRATION STATEMENT"
+      },
+      {
+        "event_type": "exchange_listed",
+        "filing_type": null,
+        "event_date": "2026-05-19"
+      }
+    ],
+    "exchange": "NASDAQ Capital",
+    "expected_date": null,
+    "actual_date": "2026-05-19",
+    "shares_offered": 7500000,
+    "offer_price": 10.0,
+    "offer_amount": "$75,000,000",
+    "status": "listed",
+    "description": "Amanat Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the education and healthcare sectors. The company aims to leverage its expertise to drive growth and create value for shareholders.",
+    "products_services": "Amanat Acquisition Corp. primarily engages in identifying and acquiring businesses in the education and healthcare industries, facilitating their growth through strategic partnerships and investments.",
+    "industry": "Finance / Special Purpose Acquisition Companies (SPACs)",
+    "shares_outstanding": 7500000,
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0,
+    "price_range_low": 10.0,
+    "price_range_high": 10.0
   },
   {
     "id": "PTACU",
@@ -5538,78 +5331,6 @@
     "price_range_high": 25.0
   },
   {
-    "id": "FRVO",
-    "cik": "0001853868",
-    "company_name": "Fervo Energy Co",
-    "ticker": "FRVO",
-    "filing_type": "424B4",
-    "filing_date": "2026-04-17",
-    "events": [
-      {
-        "event_type": "pricing",
-        "filing_type": "424B4",
-        "event_date": "2026-05-14",
-        "sec_accession": "0001628280-26-034849",
-        "details": "424B4"
-      },
-      {
-        "event_type": "effective",
-        "filing_type": "EFFECT",
-        "event_date": "2026-05-12",
-        "sec_accession": "9999999995-26-001586",
-        "details": ""
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "S-1/A",
-        "event_date": "2026-05-11",
-        "sec_accession": "0001628280-26-033127",
-        "details": "S-1/A"
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "S-1/A",
-        "event_date": "2026-05-08",
-        "sec_accession": "0001628280-26-032540",
-        "details": "S-1/A"
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "S-1/A",
-        "event_date": "2026-05-04",
-        "sec_accession": "0001628280-26-029515",
-        "details": "S-1/A"
-      },
-      {
-        "event_type": "filing",
-        "filing_type": "S-1",
-        "event_date": "2026-04-17",
-        "sec_accession": "0001628280-26-025821",
-        "details": "S-1"
-      },
-      {
-        "event_type": "exchange_listed",
-        "filing_type": null,
-        "event_date": "2026-05-13"
-      }
-    ],
-    "exchange": "NASDAQ Global Select",
-    "expected_date": null,
-    "actual_date": "2026-05-13",
-    "shares_offered": 70000000,
-    "offer_price": 27.0,
-    "offer_amount": "$1,890,000,000",
-    "status": "listed",
-    "description": "Fervo Energy Co. is an innovative geothermal energy company focused on harnessing the Earth's heat to provide sustainable and reliable energy solutions. By utilizing advanced drilling techniques and proprietary technology, Fervo aims to revolutionize the geothermal sector and contribute to a cleaner energy future.",
-    "products_services": "Geothermal energy production, advanced drilling technology, energy storage solutions.",
-    "industry": "Renewable Energy",
-    "shares_outstanding": 70000000,
-    "proposed_price_low": 25.0,
-    "proposed_price_high": 26.0,
-    "price_range_low": 25.0,
-    "price_range_high": 26.0
-  },
-  {
     "id": "BREZU",
     "cik": "0002095443",
     "company_name": "Breeze Acquisition Corp. II",
@@ -5961,85 +5682,6 @@
     "proposed_price_high": 26.0,
     "price_range_low": 24.0,
     "price_range_high": 26.0
-  },
-  {
-    "id": "SAGUU",
-    "cik": "0002083452",
-    "company_name": "Shreya Acquisition Group",
-    "ticker": "SAGUU",
-    "filing_type": "424B4",
-    "filing_date": "2025-09-12",
-    "events": [
-      {
-        "event_type": "pricing",
-        "filing_type": "424B4",
-        "event_date": "2026-05-07",
-        "sec_accession": "0001829126-26-004652",
-        "details": "424B4"
-      },
-      {
-        "event_type": "effective",
-        "filing_type": "EFFECT",
-        "event_date": "2026-05-06",
-        "sec_accession": "9999999995-26-001511",
-        "details": ""
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "S-1/A",
-        "event_date": "2026-04-24",
-        "sec_accession": "0001829126-26-004029",
-        "details": "S-1/A"
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "S-1/A",
-        "event_date": "2026-03-10",
-        "sec_accession": "0001829126-26-002163",
-        "details": "S-1/A"
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "S-1/A",
-        "event_date": "2026-01-16",
-        "sec_accession": "0001829126-26-000382",
-        "details": "S-1/A"
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "S-1/A",
-        "event_date": "2025-12-09",
-        "sec_accession": "0001829126-25-009819",
-        "details": "S-1/A"
-      },
-      {
-        "event_type": "filing",
-        "filing_type": "S-1",
-        "event_date": "2025-09-12",
-        "sec_accession": "0001829126-25-007368",
-        "details": "S-1"
-      },
-      {
-        "event_type": "exchange_listed",
-        "filing_type": null,
-        "event_date": "2026-05-07"
-      }
-    ],
-    "exchange": "NYSE",
-    "expected_date": null,
-    "actual_date": "2026-05-07",
-    "shares_offered": 10000000,
-    "offer_price": 10.0,
-    "offer_amount": "$100,000,000",
-    "status": "listed",
-    "description": "Shreya Acquisition Group is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in high-growth sectors. The firm aims to leverage its expertise to create value for shareholders through strategic acquisitions.",
-    "products_services": "Investment and acquisition services targeting high-potential companies.",
-    "industry": "Financial Services / SPACs",
-    "shares_outstanding": 10000000,
-    "proposed_price_low": 10.0,
-    "proposed_price_high": 10.0,
-    "price_range_low": 10.0,
-    "price_range_high": 10.0
   },
   {
     "id": "SUJA",
@@ -6769,51 +6411,51 @@
     "price_range_high": 18.0
   },
   {
-    "id": "CGCFU",
-    "cik": "0002126043",
-    "company_name": "Cartesian Growth Corp IV",
-    "ticker": "CGCFU",
+    "id": "GHXIU",
+    "cik": "0002086438",
+    "company_name": "Gores Holdings XI, Inc.",
+    "ticker": "GHXIU",
     "filing_type": "424B4",
-    "filing_date": "2026-06-08",
+    "filing_date": "2026-06-03",
     "events": [
       {
         "event_type": "pricing",
         "filing_type": "424B4",
-        "event_date": "2026-06-25",
-        "sec_accession": "0001185185-26-002653",
-        "details": "FORM 424B4"
+        "event_date": "2026-06-23",
+        "sec_accession": "0001193125-26-279710",
+        "details": "424B4"
       },
       {
         "event_type": "effective",
         "filing_type": "EFFECT",
-        "event_date": "2026-06-24",
-        "sec_accession": "9999999995-26-002108",
+        "event_date": "2026-06-22",
+        "sec_accession": "9999999995-26-002078",
         "details": ""
       },
       {
         "event_type": "filing",
         "filing_type": "S-1",
-        "event_date": "2026-06-08",
-        "sec_accession": "0001185185-26-002415",
-        "details": "FORM S-1"
+        "event_date": "2026-06-03",
+        "sec_accession": "0001193125-26-255548",
+        "details": "S-1"
       },
       {
         "event_type": "exchange_listed",
         "filing_type": null,
-        "event_date": "2026-06-25"
+        "event_date": "2026-06-23"
       }
     ],
     "exchange": "NASDAQ Global",
     "expected_date": null,
-    "actual_date": "2026-06-25",
-    "shares_offered": 25000000,
+    "actual_date": "2026-06-23",
+    "shares_offered": 31200000,
     "offer_price": 10.0,
-    "offer_amount": "$250,000,000",
+    "offer_amount": "$312,000,000",
     "status": "listed",
-    "description": "Cartesian Growth Corp IV is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the technology and healthcare sectors. The firm aims to leverage its management team's expertise to drive growth and create value for shareholders.",
-    "products_services": "As a SPAC, Cartesian Growth Corp IV does not offer traditional products or services but seeks to acquire and support companies in their growth journey post-merger.",
+    "description": "Gores Holdings XI, Inc. is a special purpose acquisition company (SPAC) focused on identifying and merging with a high-growth company in the technology sector. The company aims to leverage its management team's expertise to create value for shareholders through strategic acquisitions.",
+    "products_services": "As a SPAC, Gores Holdings XI, Inc. does not offer traditional products or services but seeks to acquire a target company to bring it public.",
     "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)",
-    "shares_outstanding": 25000000,
+    "shares_outstanding": 225000,
     "proposed_price_low": 10.0,
     "proposed_price_high": 10.0,
     "price_range_low": 10.0,
@@ -6883,6 +6525,64 @@
     "proposed_price_high": 16.0,
     "price_range_low": 14.0,
     "price_range_high": 16.0
+  },
+  {
+    "id": "KARD",
+    "cik": "0002123613",
+    "company_name": "Kardigan, Inc.",
+    "ticker": "KARD",
+    "filing_type": "424B4",
+    "filing_date": "2026-05-26",
+    "events": [
+      {
+        "event_type": "pricing",
+        "filing_type": "424B4",
+        "event_date": "2026-06-18",
+        "sec_accession": "0001193125-26-276096",
+        "details": "FINAL PROSPECTUS 424(B)(4)"
+      },
+      {
+        "event_type": "effective",
+        "filing_type": "EFFECT",
+        "event_date": "2026-06-17",
+        "sec_accession": "9999999995-26-002044",
+        "details": ""
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2026-06-11",
+        "sec_accession": "0001193125-26-266629",
+        "details": "S-1/A"
+      },
+      {
+        "event_type": "filing",
+        "filing_type": "S-1",
+        "event_date": "2026-05-26",
+        "sec_accession": "0001193125-26-239298",
+        "details": "S-1"
+      },
+      {
+        "event_type": "exchange_listed",
+        "filing_type": null,
+        "event_date": "2026-06-18"
+      }
+    ],
+    "exchange": "NASDAQ Global",
+    "expected_date": null,
+    "actual_date": "2026-06-18",
+    "shares_offered": 25000000,
+    "offer_price": 16.0,
+    "offer_amount": "$400,000,000",
+    "status": "listed",
+    "description": "Kardigan, Inc. is an innovative apparel company specializing in stylish and comfortable knitwear designed for modern lifestyles. With a focus on sustainability and quality, Kardigan aims to redefine casual fashion for consumers seeking both comfort and elegance.",
+    "products_services": "Kardigan offers a range of knitwear products including cardigans, sweaters, and accessories made from eco-friendly materials.",
+    "industry": "Apparel and Fashion",
+    "shares_outstanding": 23333334,
+    "proposed_price_low": 15.0,
+    "proposed_price_high": 15.0,
+    "price_range_low": 15.0,
+    "price_range_high": 15.0
   },
   {
     "id": "FISN",
@@ -7605,6 +7305,85 @@
     "price_range_high": 10.0
   },
   {
+    "id": "WHK",
+    "cik": "0001921603",
+    "company_name": "WhiteHawk Minerals Corp.",
+    "ticker": "WHK",
+    "filing_type": "424B4",
+    "filing_date": "2026-05-11",
+    "events": [
+      {
+        "event_type": "pricing",
+        "filing_type": "424B4",
+        "event_date": "2026-06-09",
+        "sec_accession": "0001193125-26-264014",
+        "details": "424B4"
+      },
+      {
+        "event_type": "effective",
+        "filing_type": "EFFECT",
+        "event_date": "2026-06-08",
+        "sec_accession": "9999999995-26-001919",
+        "details": ""
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2026-06-05",
+        "sec_accession": "0001193125-26-258901",
+        "details": "S-1/A"
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2026-06-02",
+        "sec_accession": "0001193125-26-252895",
+        "details": "S-1/A"
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2026-05-26",
+        "sec_accession": "0001193125-26-237902",
+        "details": "S-1/A"
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2026-05-21",
+        "sec_accession": "0001193125-26-233140",
+        "details": "S-1/A"
+      },
+      {
+        "event_type": "filing",
+        "filing_type": "S-1",
+        "event_date": "2026-05-11",
+        "sec_accession": "0001193125-26-215605",
+        "details": "S-1"
+      },
+      {
+        "event_type": "exchange_listed",
+        "filing_type": null,
+        "event_date": "2026-06-09"
+      }
+    ],
+    "exchange": "NYSE",
+    "expected_date": null,
+    "actual_date": "2026-06-09",
+    "shares_offered": 7700000,
+    "offer_price": 26.0,
+    "offer_amount": "$200,200,000",
+    "status": "listed",
+    "description": "WhiteHawk Income Corp. is a financial services company focused on generating income through strategic investments in various asset classes. The company aims to provide attractive returns to its investors while managing risk effectively.",
+    "products_services": "Investment management, income generation strategies, and portfolio diversification services.",
+    "industry": "Financial Services",
+    "proposed_price_low": 25.0,
+    "proposed_price_high": 27.0,
+    "_accession_for_extract": "0001193125-26-258901",
+    "price_range_low": 25.0,
+    "price_range_high": 27.0
+  },
+  {
     "id": "OCACU",
     "cik": "0001926314",
     "company_name": "Ocean Capital Acquisition Corp",
@@ -8110,6 +7889,120 @@
     "proposed_price_high": 10.0,
     "price_range_low": 10.0,
     "price_range_high": 10.0
+  },
+  {
+    "id": "LFTO",
+    "cik": "0001850351",
+    "company_name": "Liftoff Mobile, Inc.",
+    "ticker": "LFTO",
+    "filing_type": "424B4",
+    "filing_date": "2026-04-17",
+    "events": [
+      {
+        "event_type": "pricing",
+        "filing_type": "424B4",
+        "event_date": "2026-06-04",
+        "sec_accession": "0001193125-26-257410",
+        "details": "424B4"
+      },
+      {
+        "event_type": "effective",
+        "filing_type": "EFFECT",
+        "event_date": "2026-06-03",
+        "sec_accession": "9999999995-26-001864",
+        "details": ""
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2026-06-02",
+        "sec_accession": "0001193125-26-253016",
+        "details": "S-1/A"
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2026-05-29",
+        "sec_accession": "0001193125-26-247996",
+        "details": "S-1/A"
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2026-05-04",
+        "sec_accession": "0001193125-26-202384",
+        "details": "S-1/A"
+      },
+      {
+        "event_type": "filing",
+        "filing_type": "S-1",
+        "event_date": "2026-04-17",
+        "sec_accession": "0001193125-26-161596",
+        "details": "S-1"
+      },
+      {
+        "event_type": "withdrawal",
+        "filing_type": "RW",
+        "event_date": "2026-02-17",
+        "sec_accession": "0001193125-26-052860",
+        "details": "RW"
+      },
+      {
+        "event_type": "effective",
+        "filing_type": "EFFECT",
+        "event_date": "2026-01-30",
+        "sec_accession": "9999999995-26-000410",
+        "details": ""
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2026-01-29",
+        "sec_accession": "0001193125-26-028579",
+        "details": "S-1/A"
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2026-01-28",
+        "sec_accession": "0001193125-26-026752",
+        "details": "S-1/A"
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2026-01-16",
+        "sec_accession": "0001193125-26-014813",
+        "details": "S-1/A"
+      },
+      {
+        "event_type": "filing",
+        "filing_type": "S-1",
+        "event_date": "2026-01-13",
+        "sec_accession": "0001193125-26-011825",
+        "details": "S-1"
+      },
+      {
+        "event_type": "exchange_listed",
+        "filing_type": null,
+        "event_date": "2026-06-04"
+      }
+    ],
+    "exchange": "NASDAQ Global Select",
+    "expected_date": null,
+    "actual_date": "2026-06-04",
+    "shares_offered": 19000000,
+    "offer_price": 23.0,
+    "offer_amount": "$437,000,000",
+    "status": "listed",
+    "description": "Liftoff Mobile, Inc. is a leading mobile marketing platform that specializes in user acquisition and engagement for app developers and marketers. The company leverages advanced data analytics and machine learning to optimize advertising campaigns and drive growth for mobile applications.",
+    "products_services": "Mobile marketing platform, user acquisition services, app engagement solutions, data analytics tools.",
+    "industry": "Mobile Advertising and Marketing",
+    "shares_outstanding": 19000000,
+    "proposed_price_low": 20.0,
+    "proposed_price_high": 22.0,
+    "price_range_low": 20.0,
+    "price_range_high": 22.0
   },
   {
     "id": "SSMR",
@@ -8625,13 +8518,102 @@
     "price_range_high": 10.0
   },
   {
-    "id": "BHAVU",
+    "id": "ITG",
     "cik": null,
-    "company_name": "BHAV Acquisition Corp",
-    "ticker": "BHAVU",
-    "exchange": "NASDAQ Global",
+    "company_name": "ITG, Inc./DE/",
+    "ticker": "ITG",
+    "exchange": "NASDAQ Global Select",
+    "expected_date": "2026-07-01",
+    "actual_date": null,
+    "price_range_low": 19.0,
+    "price_range_high": 22.0,
+    "offer_price": null,
+    "shares_offered": 19512196,
+    "offer_amount": "$493,658,550",
+    "filing_type": null,
+    "filing_date": null,
+    "events": [
+      {
+        "event_type": "exchange_upcoming",
+        "filing_type": null,
+        "event_date": "2026-07-01"
+      }
+    ],
+    "status": "upcoming",
+    "description": "ITG, Inc. is a technology company specializing in innovative software solutions for data analytics and business intelligence. The company aims to enhance operational efficiency and decision-making processes for its clients across various sectors.",
+    "products_services": "ITG, Inc. offers a range of products including data analytics platforms, business intelligence tools, and customized software solutions tailored to meet specific client needs.",
+    "industry": "Technology / Software Development",
+    "proposed_price_low": 19.0,
+    "proposed_price_high": 22.0
+  },
+  {
+    "id": "CUX",
+    "cik": null,
+    "company_name": "CopperTech Metals Inc.",
+    "ticker": "CUX",
+    "exchange": "NYSE",
+    "expected_date": "2026-07-01",
+    "actual_date": null,
+    "price_range_low": 16.0,
+    "price_range_high": 18.0,
+    "offer_price": null,
+    "shares_offered": 23529412,
+    "offer_amount": "$487,058,814",
+    "filing_type": null,
+    "filing_date": null,
+    "events": [
+      {
+        "event_type": "exchange_upcoming",
+        "filing_type": null,
+        "event_date": "2026-07-01"
+      }
+    ],
+    "status": "upcoming",
+    "description": "CopperTech Metals Inc. is a leading provider of innovative copper-based solutions aimed at enhancing efficiency and sustainability in various industries. The company focuses on the extraction, processing, and distribution of high-quality copper products to meet the growing demand for advanced materials.",
+    "products_services": "Copper extraction and processing, copper alloys, and custom copper solutions for industrial applications.",
+    "industry": "Metals and Mining",
+    "shares_outstanding": 1098677473,
+    "proposed_price_low": 16.0,
+    "proposed_price_high": 18.0
+  },
+  {
+    "id": "JAN",
+    "cik": null,
+    "company_name": "Janus Living, Inc.",
+    "ticker": "JAN",
+    "exchange": "NYSE",
     "expected_date": null,
-    "actual_date": "2026-03-19",
+    "actual_date": "2026-03-20",
+    "price_range_low": 18.0,
+    "price_range_high": 20.0,
+    "offer_price": 20.0,
+    "shares_offered": 42000000,
+    "offer_amount": "$840,000,000",
+    "filing_type": null,
+    "filing_date": null,
+    "events": [
+      {
+        "event_type": "exchange_listed",
+        "filing_type": null,
+        "event_date": "2026-03-20"
+      }
+    ],
+    "status": "listed",
+    "description": "Janus Living, Inc. is an innovative company focused on providing sustainable and modular housing solutions designed to address the growing demand for affordable living spaces. With a commitment to environmental responsibility, Janus Living aims to revolutionize the housing market through its unique construction methods and designs.",
+    "products_services": "Modular housing units, sustainable living solutions, and customizable home designs.",
+    "industry": "Real Estate / Construction",
+    "shares_outstanding": 37000000,
+    "proposed_price_low": 18.0,
+    "proposed_price_high": 20.0
+  },
+  {
+    "id": "WENCU",
+    "cik": null,
+    "company_name": "West Enclave Merger Corp.",
+    "ticker": "WENCU",
+    "exchange": "NYSE",
+    "expected_date": null,
+    "actual_date": "2026-04-30",
     "price_range_low": 10.0,
     "price_range_high": 10.0,
     "offer_price": 10.0,
@@ -8643,223 +8625,254 @@
       {
         "event_type": "exchange_listed",
         "filing_type": null,
-        "event_date": "2026-03-19"
+        "event_date": "2026-04-30"
       }
     ],
     "status": "listed",
-    "description": "BHAV Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative businesses in high-growth sectors. The company aims to leverage its management team's expertise to create value for shareholders through strategic acquisitions.",
-    "products_services": "BHAV Acquisition Corp. primarily engages in the acquisition of companies in the technology, healthcare, and consumer sectors, providing them with capital and operational support to accelerate growth.",
+    "description": "West Enclave Merger Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in high-growth sectors. The firm aims to leverage its expertise to create value for shareholders through strategic partnerships and operational enhancements.",
+    "products_services": "As a SPAC, West Enclave Merger Corp. primarily offers capital and strategic support to target companies in the process of going public through a merger.",
     "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)",
-    "shares_outstanding": 10000000,
+    "shares_outstanding": 425000,
     "proposed_price_low": 10.0,
     "proposed_price_high": 10.0
   },
   {
-    "id": "PAYP",
+    "id": "MCAHU",
     "cik": null,
-    "company_name": "PayPay Corp",
-    "ticker": "PAYP",
-    "exchange": "NASDAQ Global Select",
-    "expected_date": null,
-    "actual_date": "2026-03-12",
-    "price_range_low": 17.0,
-    "price_range_high": 20.0,
-    "offer_price": 16.0,
-    "shares_offered": 54987214,
-    "offer_amount": "$879,795,424",
-    "filing_type": null,
-    "filing_date": null,
-    "events": [
-      {
-        "event_type": "exchange_listed",
-        "filing_type": null,
-        "event_date": "2026-03-12"
-      }
-    ],
-    "status": "listed",
-    "description": "PayPay Corp. is a leading digital payment platform in Japan, enabling seamless transactions through mobile wallets and QR code payments. The company aims to enhance consumer convenience and drive cashless adoption across various sectors.",
-    "products_services": "Mobile payment solutions, QR code payments, digital wallets, and financial services.",
-    "industry": "Financial Technology (FinTech)",
-    "shares_outstanding": 54987214,
-    "proposed_price_low": 17.0,
-    "proposed_price_high": 20.0
-  },
-  {
-    "id": "SUMAU",
-    "cik": null,
-    "company_name": "SUMA Acquisition Corp",
-    "ticker": "SUMAU",
+    "company_name": "Mountain Crest Acquisition 6 Corp.",
+    "ticker": "MCAHU",
     "exchange": "NASDAQ Global",
     "expected_date": null,
-    "actual_date": "2026-03-11",
+    "actual_date": "2026-04-30",
     "price_range_low": 10.0,
     "price_range_high": 10.0,
     "offer_price": 10.0,
-    "shares_offered": 15000000,
-    "offer_amount": "$150,000,000",
+    "shares_offered": 6000000,
+    "offer_amount": "$60,000,000",
     "filing_type": null,
     "filing_date": null,
     "events": [
       {
         "event_type": "exchange_listed",
         "filing_type": null,
-        "event_date": "2026-03-11"
+        "event_date": "2026-04-30"
       }
     ],
     "status": "listed",
-    "description": "SUMA Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in high-growth sectors. The company aims to leverage its management team's expertise to create value for shareholders through strategic acquisitions.",
-    "products_services": "As a SPAC, SUMA Acquisition Corp. does not offer traditional products or services but seeks to acquire a target company to bring it public.",
+    "description": "Mountain Crest Acquisition 6 Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with a target company in the technology sector. The company aims to leverage its management team's expertise to drive growth and create value for shareholders.",
+    "products_services": "As a SPAC, Mountain Crest Acquisition 6 Corp. does not offer traditional products or services but seeks to acquire a private company to take public.",
     "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)",
-    "shares_outstanding": 15000000,
+    "shares_outstanding": 6000000,
     "proposed_price_low": 10.0,
     "proposed_price_high": 10.0
   },
   {
-    "id": "CAST",
+    "id": "PS",
     "cik": null,
-    "company_name": "Freecast, Inc.",
-    "ticker": "CAST",
-    "exchange": "NASDAQ Global",
-    "expected_date": null,
-    "actual_date": "2026-03-10",
-    "price_range_low": 3.78,
-    "price_range_high": 3.78,
-    "offer_price": null,
-    "shares_offered": 19782084,
-    "offer_amount": "",
-    "filing_type": null,
-    "filing_date": null,
-    "events": [
-      {
-        "event_type": "exchange_listed",
-        "filing_type": null,
-        "event_date": "2026-03-10"
-      }
-    ],
-    "status": "listed",
-    "description": "FreeCast, Inc. is a technology company that provides a comprehensive streaming platform designed to aggregate and deliver content from various sources to consumers. The company aims to simplify the viewing experience by offering a unified interface for accessing live TV, on-demand content, and streaming services.",
-    "products_services": "FreeCast offers a range of products including the SelectTV platform, which combines live TV, streaming services, and on-demand content into a single interface, along with various content aggregation and distribution solutions.",
-    "industry": "Technology / Media / Streaming Services",
-    "shares_outstanding": 8756073,
-    "proposed_price_low": 3.78,
-    "proposed_price_high": 3.78
-  },
-  {
-    "id": "BRKHU",
-    "cik": null,
-    "company_name": "BurTech Acquisition Corp II",
-    "ticker": "BRKHU",
-    "exchange": "NASDAQ Capital",
-    "expected_date": null,
-    "actual_date": "2026-05-22",
-    "price_range_low": 10.0,
-    "price_range_high": 10.0,
-    "offer_price": 10.0,
-    "shares_offered": 8000000,
-    "offer_amount": "$80,000,000",
-    "filing_type": null,
-    "filing_date": null,
-    "events": [
-      {
-        "event_type": "exchange_listed",
-        "filing_type": null,
-        "event_date": "2026-05-22"
-      }
-    ],
-    "status": "listed",
-    "description": "BurTech Acquisition Corp II is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative technology companies. The firm aims to leverage its expertise to drive growth and create value in the rapidly evolving tech landscape.",
-    "products_services": "As a SPAC, BurTech Acquisition Corp II does not offer traditional products or services but seeks to acquire and support technology-focused businesses.",
-    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)",
-    "shares_outstanding": 10000000,
-    "proposed_price_low": 10.0,
-    "proposed_price_high": 10.0
-  },
-  {
-    "id": "RACC",
-    "cik": null,
-    "company_name": "Research Alliance Corp III",
-    "ticker": "RACC",
-    "exchange": "NASDAQ Capital",
-    "expected_date": null,
-    "actual_date": "2026-05-20",
-    "price_range_low": 10.0,
-    "price_range_high": 10.0,
-    "offer_price": 10.0,
-    "shares_offered": 7500000,
-    "offer_amount": "$75,000,000",
-    "filing_type": null,
-    "filing_date": null,
-    "events": [
-      {
-        "event_type": "exchange_listed",
-        "filing_type": null,
-        "event_date": "2026-05-20"
-      }
-    ],
-    "status": "listed",
-    "description": "Research Alliance Corp III is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the life sciences sector. The company aims to leverage its expertise to drive growth and value creation in the healthcare industry.",
-    "products_services": "The company primarily engages in the acquisition and development of businesses in the life sciences, biotechnology, and healthcare sectors.",
-    "industry": "Healthcare / Life Sciences",
-    "shares_outstanding": 7500000,
-    "proposed_price_low": 10.0,
-    "proposed_price_high": 10.0
-  },
-  {
-    "id": "LCLN",
-    "cik": null,
-    "company_name": "Lincoln International, Inc.",
-    "ticker": "LCLN",
+    "company_name": "PERSHING SQUARE INC.",
+    "ticker": "PS",
     "exchange": "NYSE",
     "expected_date": null,
-    "actual_date": "2026-05-20",
-    "price_range_low": 18.0,
-    "price_range_high": 20.0,
-    "offer_price": 20.0,
-    "shares_offered": 21049988,
-    "offer_amount": "$420,999,760",
+    "actual_date": "2026-04-29",
+    "price_range_low": 50.0,
+    "price_range_high": 50.0,
+    "offer_price": 50.0,
+    "shares_offered": 40516960,
+    "offer_amount": "$2,025,848,000",
     "filing_type": null,
     "filing_date": null,
     "events": [
       {
         "event_type": "exchange_listed",
         "filing_type": null,
-        "event_date": "2026-05-20"
+        "event_date": "2026-04-29"
       }
     ],
     "status": "listed",
-    "description": "Lincoln International, Inc. is a global investment banking advisory firm that specializes in mergers and acquisitions, capital raising, and financial advisory services. The company focuses on providing tailored solutions to clients across various sectors, leveraging its extensive industry expertise and global reach.",
-    "products_services": "Mergers and acquisitions advisory, capital raising, financial advisory services, and valuation services.",
-    "industry": "Investment Banking and Financial Services",
-    "proposed_price_low": 18.0,
-    "proposed_price_high": 20.0
+    "description": "Pershing Square Inc. is a special purpose acquisition company (SPAC) focused on identifying and merging with high-quality businesses to create long-term value for shareholders.",
+    "products_services": "The company primarily engages in investment activities and may provide capital to target companies in various sectors.",
+    "industry": "Financial Services",
+    "shares_outstanding": 56300000,
+    "proposed_price_low": 50.0,
+    "proposed_price_high": 50.0
   },
   {
-    "id": "AMAN",
+    "id": "PLUNU",
     "cik": null,
-    "company_name": "Amanat Acquisition Corp.",
-    "ticker": "AMAN",
-    "exchange": "NASDAQ Capital",
+    "company_name": "Plutonian Acquisition Corp. II",
+    "ticker": "PLUNU",
+    "exchange": "NYSE",
     "expected_date": null,
-    "actual_date": "2026-05-19",
+    "actual_date": "2026-04-28",
     "price_range_low": 10.0,
     "price_range_high": 10.0,
     "offer_price": 10.0,
-    "shares_offered": 7500000,
-    "offer_amount": "$75,000,000",
+    "shares_offered": 10000000,
+    "offer_amount": "$100,000,000",
     "filing_type": null,
     "filing_date": null,
     "events": [
       {
         "event_type": "exchange_listed",
         "filing_type": null,
-        "event_date": "2026-05-19"
+        "event_date": "2026-04-28"
       }
     ],
     "status": "listed",
-    "description": "Amanat Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the education and healthcare sectors. The company aims to leverage its expertise to drive growth and create value for shareholders.",
-    "products_services": "Amanat Acquisition Corp. primarily engages in identifying and acquiring businesses in the education and healthcare industries, facilitating their growth through strategic partnerships and investments.",
-    "industry": "Finance / Special Purpose Acquisition Companies (SPACs)",
-    "shares_outstanding": 7500000,
+    "description": "Plutonian Acquisition Corp. II is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in high-growth sectors. The firm aims to leverage its expertise to create value for shareholders through strategic partnerships and acquisitions.",
+    "products_services": "As a SPAC, Plutonian Acquisition Corp. II primarily offers capital and resources to target companies for merger or acquisition, facilitating their growth and expansion.",
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)",
+    "shares_outstanding": 10000000,
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
+  },
+  {
+    "id": "ELMT",
+    "cik": null,
+    "company_name": "Elmet Group Co.",
+    "ticker": "ELMT",
+    "exchange": "NASDAQ Capital",
+    "expected_date": null,
+    "actual_date": "2026-04-23",
+    "price_range_low": 12.0,
+    "price_range_high": 14.0,
+    "offer_price": 14.0,
+    "shares_offered": 8571428,
+    "offer_amount": "$119,999,992",
+    "filing_type": null,
+    "filing_date": null,
+    "events": [
+      {
+        "event_type": "exchange_listed",
+        "filing_type": null,
+        "event_date": "2026-04-23"
+      }
+    ],
+    "status": "listed",
+    "description": "Elmet Group Co. is a leading provider of advanced materials and manufacturing solutions, specializing in precision-engineered products for various industries. The company focuses on delivering high-quality, innovative solutions that enhance performance and efficiency for its clients.",
+    "products_services": "Precision-engineered materials, manufacturing solutions, and advanced material technologies.",
+    "industry": "Advanced materials and manufacturing.",
+    "shares_outstanding": 7692307,
+    "proposed_price_low": 12.0,
+    "proposed_price_high": 14.0
+  },
+  {
+    "id": "NHP",
+    "cik": null,
+    "company_name": "National Healthcare Properties, Inc.",
+    "ticker": "NHP",
+    "exchange": "NASDAQ Global",
+    "expected_date": null,
+    "actual_date": "2026-04-22",
+    "price_range_low": 13.0,
+    "price_range_high": 16.0,
+    "offer_price": 12.0,
+    "shares_offered": 38500000,
+    "offer_amount": "$462,000,000",
+    "filing_type": null,
+    "filing_date": null,
+    "events": [
+      {
+        "event_type": "exchange_listed",
+        "filing_type": null,
+        "event_date": "2026-04-22"
+      }
+    ],
+    "status": "listed",
+    "description": "National Healthcare Properties, Inc. is a real estate investment trust (REIT) focused on acquiring and managing healthcare-related properties across the United States. The company aims to provide stable returns to investors through its diversified portfolio of senior housing, skilled nursing facilities, and other healthcare properties.",
+    "products_services": "Acquisition and management of healthcare-related real estate properties, including senior housing and skilled nursing facilities.",
+    "industry": "Real Estate Investment Trust (REIT) - Healthcare",
+    "shares_outstanding": 38500000,
+    "proposed_price_low": 13.0,
+    "proposed_price_high": 16.0
+  },
+  {
+    "id": "BXDC",
+    "cik": null,
+    "company_name": "Blackstone Digital Infrastructure Trust Inc.",
+    "ticker": "BXDC",
+    "exchange": "NYSE",
+    "expected_date": null,
+    "actual_date": "2026-05-14",
+    "price_range_low": 20.0,
+    "price_range_high": 20.0,
+    "offer_price": 20.0,
+    "shares_offered": 87500000,
+    "offer_amount": "$1,750,000,000",
+    "filing_type": null,
+    "filing_date": null,
+    "events": [
+      {
+        "event_type": "exchange_listed",
+        "filing_type": null,
+        "event_date": "2026-05-14"
+      }
+    ],
+    "status": "listed",
+    "description": "Blackstone Digital Infrastructure Trust Inc. is a real estate investment trust focused on acquiring and managing digital infrastructure assets, including data centers and communication towers. The company aims to capitalize on the growing demand for digital connectivity and data storage solutions.",
+    "products_services": "The company invests in and operates digital infrastructure assets such as data centers, cell towers, and fiber networks, providing essential services for cloud computing and telecommunications.",
+    "industry": "Real Estate Investment Trust (REIT) / Digital Infrastructure",
+    "shares_outstanding": 87500000,
+    "proposed_price_low": 20.0,
+    "proposed_price_high": 20.0
+  },
+  {
+    "id": "FRVO",
+    "cik": null,
+    "company_name": "Fervo Energy Co",
+    "ticker": "FRVO",
+    "exchange": "NASDAQ Global Select",
+    "expected_date": null,
+    "actual_date": "2026-05-13",
+    "price_range_low": 25.0,
+    "price_range_high": 26.0,
+    "offer_price": 27.0,
+    "shares_offered": 70000000,
+    "offer_amount": "$1,890,000,000",
+    "filing_type": null,
+    "filing_date": null,
+    "events": [
+      {
+        "event_type": "exchange_listed",
+        "filing_type": null,
+        "event_date": "2026-05-13"
+      }
+    ],
+    "status": "listed",
+    "description": "Fervo Energy Co. is an innovative geothermal energy company focused on harnessing the Earth's heat to provide sustainable and reliable energy solutions. By utilizing advanced drilling techniques and proprietary technology, Fervo aims to revolutionize the geothermal sector and contribute to a cleaner energy future.",
+    "products_services": "Geothermal energy production, advanced drilling technology, energy storage solutions.",
+    "industry": "Renewable Energy",
+    "shares_outstanding": 70000000,
+    "proposed_price_low": 25.0,
+    "proposed_price_high": 26.0
+  },
+  {
+    "id": "SAGUU",
+    "cik": null,
+    "company_name": "Shreya Acquisition Group",
+    "ticker": "SAGUU",
+    "exchange": "NYSE",
+    "expected_date": null,
+    "actual_date": "2026-05-07",
+    "price_range_low": 10.0,
+    "price_range_high": 10.0,
+    "offer_price": 10.0,
+    "shares_offered": 10000000,
+    "offer_amount": "$100,000,000",
+    "filing_type": null,
+    "filing_date": null,
+    "events": [
+      {
+        "event_type": "exchange_listed",
+        "filing_type": null,
+        "event_date": "2026-05-07"
+      }
+    ],
+    "status": "listed",
+    "description": "Shreya Acquisition Group is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in high-growth sectors. The firm aims to leverage its expertise to create value for shareholders through strategic acquisitions.",
+    "products_services": "Investment and acquisition services targeting high-potential companies.",
+    "industry": "Financial Services / SPACs",
+    "shares_outstanding": 10000000,
     "proposed_price_low": 10.0,
     "proposed_price_high": 10.0
   },
@@ -8891,64 +8904,34 @@
     "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)"
   },
   {
-    "id": "GHXIU",
+    "id": "CGCFU",
     "cik": null,
-    "company_name": "Gores Holdings XI, Inc.",
-    "ticker": "GHXIU",
+    "company_name": "Cartesian Growth Corp IV",
+    "ticker": "CGCFU",
     "exchange": "NASDAQ Global",
     "expected_date": null,
-    "actual_date": "2026-06-23",
+    "actual_date": "2026-06-25",
     "price_range_low": 10.0,
     "price_range_high": 10.0,
     "offer_price": 10.0,
-    "shares_offered": 31200000,
-    "offer_amount": "$312,000,000",
+    "shares_offered": 25000000,
+    "offer_amount": "$250,000,000",
     "filing_type": null,
     "filing_date": null,
     "events": [
       {
         "event_type": "exchange_listed",
         "filing_type": null,
-        "event_date": "2026-06-23"
+        "event_date": "2026-06-25"
       }
     ],
     "status": "listed",
-    "description": "Gores Holdings XI, Inc. is a special purpose acquisition company (SPAC) focused on identifying and merging with a high-growth company in the technology sector. The company aims to leverage its management team's expertise to create value for shareholders through strategic acquisitions.",
-    "products_services": "As a SPAC, Gores Holdings XI, Inc. does not offer traditional products or services but seeks to acquire a target company to bring it public.",
+    "description": "Cartesian Growth Corp IV is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the technology and healthcare sectors. The firm aims to leverage its management team's expertise to drive growth and create value for shareholders.",
+    "products_services": "As a SPAC, Cartesian Growth Corp IV does not offer traditional products or services but seeks to acquire and support companies in their growth journey post-merger.",
     "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)",
-    "shares_outstanding": 225000,
+    "shares_outstanding": 25000000,
     "proposed_price_low": 10.0,
     "proposed_price_high": 10.0
-  },
-  {
-    "id": "KARD",
-    "cik": null,
-    "company_name": "Kardigan, Inc.",
-    "ticker": "KARD",
-    "exchange": "NASDAQ Global",
-    "expected_date": null,
-    "actual_date": "2026-06-18",
-    "price_range_low": 15.0,
-    "price_range_high": 15.0,
-    "offer_price": 16.0,
-    "shares_offered": 25000000,
-    "offer_amount": "$400,000,000",
-    "filing_type": null,
-    "filing_date": null,
-    "events": [
-      {
-        "event_type": "exchange_listed",
-        "filing_type": null,
-        "event_date": "2026-06-18"
-      }
-    ],
-    "status": "listed",
-    "description": "Kardigan, Inc. is an innovative apparel company specializing in stylish and comfortable knitwear designed for modern lifestyles. With a focus on sustainability and quality, Kardigan aims to redefine casual fashion for consumers seeking both comfort and elegance.",
-    "products_services": "Kardigan offers a range of knitwear products including cardigans, sweaters, and accessories made from eco-friendly materials.",
-    "industry": "Apparel and Fashion",
-    "shares_outstanding": 23333334,
-    "proposed_price_low": 15.0,
-    "proposed_price_high": 15.0
   },
   {
     "id": "WLCOU",
@@ -8979,65 +8962,6 @@
     "shares_outstanding": 200000000,
     "proposed_price_low": 10.0,
     "proposed_price_high": 10.0
-  },
-  {
-    "id": "WHK",
-    "cik": null,
-    "company_name": "WhiteHawk Minerals Corp.",
-    "ticker": "WHK",
-    "exchange": "NYSE",
-    "expected_date": null,
-    "actual_date": "2026-06-09",
-    "price_range_low": 25.0,
-    "price_range_high": 27.0,
-    "offer_price": 26.0,
-    "shares_offered": 7700000,
-    "offer_amount": "$200,200,000",
-    "filing_type": null,
-    "filing_date": null,
-    "events": [
-      {
-        "event_type": "exchange_listed",
-        "filing_type": null,
-        "event_date": "2026-06-09"
-      }
-    ],
-    "status": "listed",
-    "description": "WhiteHawk Income Corp. is a financial services company focused on generating income through strategic investments in various asset classes. The company aims to provide attractive returns to its investors while managing risk effectively.",
-    "products_services": "Investment management, income generation strategies, and portfolio diversification services.",
-    "industry": "Financial Services",
-    "proposed_price_low": 25.0,
-    "proposed_price_high": 27.0
-  },
-  {
-    "id": "LFTO",
-    "cik": null,
-    "company_name": "Liftoff Mobile, Inc.",
-    "ticker": "LFTO",
-    "exchange": "NASDAQ Global Select",
-    "expected_date": null,
-    "actual_date": "2026-06-04",
-    "price_range_low": 20.0,
-    "price_range_high": 22.0,
-    "offer_price": 23.0,
-    "shares_offered": 19000000,
-    "offer_amount": "$437,000,000",
-    "filing_type": null,
-    "filing_date": null,
-    "events": [
-      {
-        "event_type": "exchange_listed",
-        "filing_type": null,
-        "event_date": "2026-06-04"
-      }
-    ],
-    "status": "listed",
-    "description": "Liftoff Mobile, Inc. is a leading mobile marketing platform that specializes in user acquisition and engagement for app developers and marketers. The company leverages advanced data analytics and machine learning to optimize advertising campaigns and drive growth for mobile applications.",
-    "products_services": "Mobile marketing platform, user acquisition services, app engagement solutions, data analytics tools.",
-    "industry": "Mobile Advertising and Marketing",
-    "shares_outstanding": 19000000,
-    "proposed_price_low": 20.0,
-    "proposed_price_high": 22.0
   },
   {
     "id": "0002128045",
