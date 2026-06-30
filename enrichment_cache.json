@@ -2253,5 +2253,34 @@
     "shares_outstanding": 25000000,
     "proposed_price_low": 6.0,
     "proposed_price_high": 8.0
+  },
+  "SNSC": {
+    "description": "SunScout Holding Ltd. is an innovative company focused on sustainable energy solutions, leveraging advanced technology to optimize solar energy production.",
+    "products_services": "The company offers solar energy management systems, energy storage solutions, and consulting services for renewable energy projects.",
+    "industry": "Renewable Energy",
+    "shares_outstanding": 20000000,
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
+  },
+  "0002070087": {
+    "description": "Koei Group Co., Ltd. is a leading company specializing in innovative technology solutions and services aimed at enhancing operational efficiency across various sectors. With a strong commitment to research and development, Koei Group focuses on delivering cutting-edge products that meet the evolving needs of its clients.",
+    "products_services": "Technology solutions, software development, consulting services, and operational efficiency tools.",
+    "industry": "Technology and Consulting"
+  },
+  "PONO": {
+    "description": "Pono Capital Four, Inc. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative businesses in high-growth sectors. The company aims to leverage its management team's expertise to create value for shareholders through strategic acquisitions.",
+    "products_services": "Pono Capital Four, Inc. does not offer traditional products or services but seeks to acquire and support companies in various industries.",
+    "industry": "Financial Services / Special Purpose Acquisition Company (SPAC)",
+    "shares_outstanding": 15000000,
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
+  },
+  "0002062925": {
+    "description": "Smart Pointer Group Holdings Ltd. is a technology-driven company specializing in innovative solutions for navigation and positioning systems. The company aims to enhance user experience through advanced technologies in various applications.",
+    "products_services": "Smart Pointer offers a range of products including GPS tracking devices, navigation software, and location-based services tailored for both consumer and enterprise markets.",
+    "industry": "Technology / Navigation and Positioning Systems",
+    "shares_outstanding": 5000000,
+    "proposed_price_low": 5.0,
+    "proposed_price_high": 6.0
   }
 }
