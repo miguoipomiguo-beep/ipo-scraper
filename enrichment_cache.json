@@ -2282,5 +2282,21 @@
     "shares_outstanding": 5000000,
     "proposed_price_low": 5.0,
     "proposed_price_high": 6.0
+  },
+  "0002081641": {
+    "description": "Worldstar Engineering Holdings Ltd. is a leading provider of innovative engineering solutions, specializing in advanced manufacturing and technology integration. The company focuses on delivering high-quality products and services to various sectors, including aerospace, automotive, and industrial applications.",
+    "products_services": "Advanced manufacturing solutions, engineering consulting, technology integration, and custom machinery design.",
+    "industry": "Engineering and Manufacturing",
+    "shares_outstanding": 5000000,
+    "proposed_price_low": 5.0,
+    "proposed_price_high": 6.0
+  },
+  "OSPRU": {
+    "description": "Osprey Acquisition Corp. III is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the technology and consumer sectors. The firm aims to leverage its management team's expertise to drive growth and create value for shareholders post-merger.",
+    "products_services": "As a SPAC, Osprey Acquisition Corp. III does not offer traditional products or services but seeks to acquire and support companies that provide innovative solutions in various industries.",
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)",
+    "shares_outstanding": 10254000,
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
   }
 }
