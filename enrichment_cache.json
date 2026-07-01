@@ -2298,5 +2298,18 @@
     "shares_outstanding": 10254000,
     "proposed_price_low": 10.0,
     "proposed_price_high": 10.0
+  },
+  "FDMM": {
+    "description": "Freedom Metals Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the metals and materials sector. The company aims to leverage its expertise to drive growth and create value in the rapidly evolving market.",
+    "products_services": "The company primarily seeks to acquire businesses involved in the production, processing, and distribution of metals and materials, including but not limited to sustainable and advanced materials technologies.",
+    "industry": "Metals and Materials",
+    "shares_outstanding": 275000000,
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
+  },
+  "AAC'U": {
+    "description": "Ares Acquisition Corp III is a special purpose acquisition company (SPAC) focused on identifying and merging with a high-growth company in the technology or financial services sectors. The company aims to leverage the expertise of its management team to create value for shareholders through strategic acquisitions.",
+    "products_services": "As a SPAC, Ares Acquisition Corp III does not offer traditional products or services but seeks to acquire a target company to bring it public and enhance its growth potential.",
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)"
   }
 }
