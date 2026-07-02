@@ -2310,6 +2310,17 @@
   "AAC'U": {
     "description": "Ares Acquisition Corp III is a special purpose acquisition company (SPAC) focused on identifying and merging with a high-growth company in the technology or financial services sectors. The company aims to leverage the expertise of its management team to create value for shareholders through strategic acquisitions.",
     "products_services": "As a SPAC, Ares Acquisition Corp III does not offer traditional products or services but seeks to acquire a target company to bring it public and enhance its growth potential.",
-    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)"
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)",
+    "shares_outstanding": 30000000,
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
+  },
+  "OSPR": {
+    "description": "Osprey Acquisition Corp. III is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the technology and healthcare sectors. The firm aims to leverage its management team's expertise to drive growth and create value for shareholders post-merger.",
+    "products_services": "As a SPAC, Osprey Acquisition Corp. III does not offer traditional products or services but seeks to acquire and support companies in their growth journey.",
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)",
+    "shares_outstanding": 10254000,
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
   }
 }
