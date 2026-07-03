@@ -2334,6 +2334,25 @@
   "VIIU": {
     "description": "Viking Acquisition Corp. II is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the technology and consumer sectors. The firm aims to leverage its management team's expertise to drive growth and create value for shareholders post-merger.",
     "products_services": "As a SPAC, Viking Acquisition Corp. II does not offer traditional products or services but seeks to acquire and support growth-stage companies in various industries.",
-    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)"
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)",
+    "shares_outstanding": 30000000,
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
+  },
+  "MRCO": {
+    "description": "Mercator Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the technology and consumer sectors. The company aims to leverage its management team's expertise to drive growth and create value for shareholders.",
+    "products_services": "As a SPAC, Mercator Acquisition Corp. does not offer traditional products or services but seeks to acquire and support growth-stage companies in its target sectors.",
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)",
+    "shares_outstanding": 150000000,
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
+  },
+  "0002140589": {
+    "description": "Laris Growth Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative growth-oriented businesses. The company aims to leverage its expertise and network to drive value creation in the companies it partners with.",
+    "products_services": "As a SPAC, Laris Growth Acquisition Corp. does not offer traditional products or services but seeks to acquire and support growth companies across various sectors.",
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)",
+    "shares_outstanding": 200000000,
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
   }
 }
