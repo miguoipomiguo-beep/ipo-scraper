@@ -2354,5 +2354,13 @@
     "shares_outstanding": 200000000,
     "proposed_price_low": 10.0,
     "proposed_price_high": 10.0
+  },
+  "EWAV": {
+    "description": "East West Ave Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the technology and consumer sectors. The company aims to leverage its management team's expertise to drive growth and create value for shareholders.",
+    "products_services": "As a SPAC, East West Ave Acquisition Corp. does not offer traditional products or services but seeks to acquire and support growth-stage companies in various industries.",
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)",
+    "shares_outstanding": 11500000,
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
   }
 }
