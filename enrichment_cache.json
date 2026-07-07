@@ -2362,5 +2362,23 @@
     "shares_outstanding": 11500000,
     "proposed_price_low": 10.0,
     "proposed_price_high": 10.0
+  },
+  "BCCQU": {
+    "description": "Bleichroeder Acquisition Corp. III is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in growth sectors. The firm aims to leverage its management team's expertise to drive value creation post-acquisition.",
+    "products_services": "As a SPAC, Bleichroeder Acquisition Corp. III does not offer traditional products or services but seeks to acquire and support companies in various industries.",
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)",
+    "shares_outstanding": 300000000,
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
+  },
+  "CSQR": {
+    "description": "Csquare, Inc. is an innovative technology company focused on providing cutting-edge solutions for data analytics and cloud computing. With a commitment to enhancing business intelligence, Csquare empowers organizations to make data-driven decisions efficiently.",
+    "products_services": "Data analytics platforms, cloud computing solutions, and business intelligence tools.",
+    "industry": "Technology"
+  },
+  "SKHY": {
+    "description": "SK hynix Inc. is a leading global semiconductor manufacturer specializing in memory chips and storage solutions. The company plays a crucial role in the technology supply chain, providing essential components for various electronic devices.",
+    "products_services": "DRAM, NAND flash memory, and other semiconductor products.",
+    "industry": "Semiconductors"
   }
 }
