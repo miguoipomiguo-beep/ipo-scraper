@@ -2391,5 +2391,28 @@
     "shares_outstanding": 20000000,
     "proposed_price_low": 10.0,
     "proposed_price_high": 10.0
+  },
+  "0002104391": {
+    "description": "Catalyst Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in high-growth sectors. The firm aims to leverage its management team's expertise to drive value creation post-merger.",
+    "products_services": "Catalyst Acquisition Corp. primarily offers capital and strategic support to target companies through its merger and acquisition activities.",
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)"
+  },
+  "FDMMU": {
+    "description": "Freedom Metals Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the metals and materials sector. The company aims to leverage its expertise to drive growth and create value in the evolving landscape of sustainable materials.",
+    "products_services": "The company primarily seeks to engage in mergers and acquisitions with businesses involved in the production, processing, and distribution of metals and materials, particularly those emphasizing sustainability and innovation.",
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)",
+    "shares_outstanding": 275000000,
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
+  },
+  "ENRD": {
+    "description": "Einride AB is a Swedish technology company specializing in electric and autonomous transport solutions, aiming to revolutionize freight logistics. The company focuses on developing self-driving electric trucks and a digital platform for managing transportation operations.",
+    "products_services": "Electric and autonomous trucks, transportation management software, logistics solutions.",
+    "industry": "Transportation and Logistics"
+  },
+  "STDN": {
+    "description": "Standard Nuclear, Inc. is a pioneering company focused on advancing nuclear technology and sustainable energy solutions. With a commitment to safety and innovation, it aims to revolutionize the nuclear power industry.",
+    "products_services": "Nuclear reactor design, safety systems, and consulting services for nuclear energy projects.",
+    "industry": "Nuclear Energy"
   }
 }
