@@ -2443,5 +2443,13 @@
     "shares_outstanding": 150000000,
     "proposed_price_low": 10.0,
     "proposed_price_high": 10.0
+  },
+  "0002080216": {
+    "description": "BOA Acquisition Corp. II is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in high-growth sectors. The company aims to leverage its management team's expertise to create value for shareholders through strategic acquisitions.",
+    "products_services": "As a SPAC, BOA Acquisition Corp. II does not offer traditional products or services but seeks to acquire a target company to bring it public.",
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)",
+    "shares_outstanding": 12500000,
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
   }
 }
