@@ -2467,5 +2467,13 @@
     "shares_outstanding": 200000000,
     "proposed_price_low": 10.0,
     "proposed_price_high": 10.0
+  },
+  "0001745648": {
+    "description": "Apnimed, Inc. is a clinical-stage biopharmaceutical company focused on developing innovative therapies for the treatment of sleep disorders, particularly obstructive sleep apnea. The company's lead product candidate aims to address unmet medical needs in this growing market.",
+    "products_services": "Pharmaceutical therapies for sleep disorders, specifically targeting obstructive sleep apnea.",
+    "industry": "Biopharmaceuticals",
+    "shares_outstanding": 5370007,
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
   }
 }
