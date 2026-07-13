@@ -2475,5 +2475,10 @@
     "shares_outstanding": 5370007,
     "proposed_price_low": 10.0,
     "proposed_price_high": 10.0
+  },
+  "EWAVU": {
+    "shares_outstanding": 11500000,
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
   }
 }
