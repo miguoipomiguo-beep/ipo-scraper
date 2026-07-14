@@ -2479,6 +2479,32 @@
   "EWAVU": {
     "shares_outstanding": 11500000,
     "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0,
+    "description": "East West Ave Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative businesses in the technology and consumer sectors. The company aims to leverage its management team's expertise to drive growth and create value for shareholders.",
+    "products_services": "As a SPAC, East West Ave Acquisition Corp. does not offer traditional products or services but seeks to acquire and operate a target company in the technology or consumer industries.",
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)"
+  },
+  "RACD": {
+    "description": "Research Alliance Corp IV is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the technology and healthcare sectors. The company aims to leverage its expertise and network to drive growth and create value for shareholders.",
+    "products_services": "As a SPAC, Research Alliance Corp IV does not offer traditional products or services but seeks to acquire and support companies in the technology and healthcare industries.",
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)",
+    "proposed_price_low": 10.0,
     "proposed_price_high": 10.0
+  },
+  "SAMOU": {
+    "description": "Samos Energy Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the energy sector. The company aims to leverage its expertise to drive growth and sustainability in the energy market.",
+    "products_services": "As a SPAC, Samos Energy Acquisition Corp. does not offer traditional products or services but seeks to acquire and support companies within the energy industry.",
+    "industry": "Energy",
+    "shares_outstanding": 20000000,
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
+  },
+  "SKHYV": {
+    "description": "SK hynix Inc. is a leading global semiconductor company specializing in memory chips and storage solutions. The company plays a crucial role in the technology supply chain, providing innovative products that power a wide range of electronic devices.",
+    "products_services": "DRAM, NAND flash memory, and other semiconductor products.",
+    "industry": "Semiconductors",
+    "shares_outstanding": 728865500,
+    "proposed_price_low": 158.14,
+    "proposed_price_high": 158.14
   }
 }
