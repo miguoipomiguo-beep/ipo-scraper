@@ -302,6 +302,12 @@ def merge_all(sec_companies: list, nasdaq_data: dict) -> list:
         key = normalize_name(item.get("company_name", ""))
         if key not in nasdaq_lookup:
             nasdaq_lookup[key] = {**item, "nasdaq_status": "withdrawn"}
+        # Also index withdrawn items by ticker (like upcoming/priced) so an SEC company can
+        # match its withdrawal by ticker, not just by name. Without this the withdrawal fails
+        # to link and gets added as a separate 'nq_' row (the withdrawn-doesn't-link symptom).
+        tk = (item.get("ticker") or "").upper()
+        if tk and tk not in nasdaq_lookup:
+            nasdaq_lookup[tk] = {**item, "nasdaq_status": "withdrawn"}
 
     # Step 3: SEC企業にNASDAQマッチング
     matched_keys = set()
