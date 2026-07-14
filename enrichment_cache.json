@@ -2512,5 +2512,70 @@
     "products_services": "Verdera Energy Corp. offers a range of products and services including solar energy systems, energy storage solutions, and consulting for renewable energy projects.",
     "industry": "Renewable Energy",
     "shares_outstanding": 110757993
+  },
+  "goinginternationalho": {
+    "description": "Going International Holding Co Ltd. is a company focused on expanding its market presence globally, leveraging innovative strategies to enhance its international operations.",
+    "products_services": "The company offers a range of services including international trade facilitation, logistics solutions, and market entry consulting for businesses looking to expand abroad.",
+    "industry": "International Trade and Logistics"
+  },
+  "envoytechnologiesinc": {
+    "description": "Envoy Technologies, Inc. is a leading provider of innovative transportation solutions, focusing on electric vehicle technology and sustainable mobility options. The company aims to revolutionize urban transportation by offering eco-friendly alternatives that enhance efficiency and reduce carbon footprints.",
+    "products_services": "Electric vehicle technology, sustainable transportation solutions, mobility-as-a-service platforms.",
+    "industry": "Transportation and Mobility Technology"
+  },
+  "globalthrivefulfillg": {
+    "description": "Global Thrive Fulfill Group Inc. is a dynamic company focused on enhancing supply chain efficiency and sustainability across various sectors. With innovative solutions and a commitment to environmental responsibility, the company aims to revolutionize the way businesses manage their logistics and fulfillment processes.",
+    "products_services": "Supply chain management solutions, logistics optimization, fulfillment services, and sustainability consulting.",
+    "industry": "Logistics and Supply Chain Management"
+  },
+  "ultratrexinc": {
+    "description": "Ultratrex Inc. is a cutting-edge technology company specializing in advanced materials and innovative manufacturing solutions. With a focus on sustainability and efficiency, Ultratrex aims to revolutionize various industries through its proprietary technologies.",
+    "products_services": "Advanced materials, manufacturing solutions, and sustainable technology innovations.",
+    "industry": "Technology and Manufacturing"
+  },
+  "eupecinternationalgr": {
+    "description": "EUPEC International Group Ltd. is a leading provider of innovative solutions in the energy sector, focusing on sustainable technologies and infrastructure development. The company aims to enhance energy efficiency and reduce environmental impact through its advanced products and services.",
+    "products_services": "EUPEC offers a range of products and services including energy management systems, renewable energy solutions, and consulting services for energy efficiency improvements.",
+    "industry": "Energy and Utilities"
+  },
+  "ccisacquisitioncorp": {
+    "description": "CCIS Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the technology sector. The firm aims to leverage its expertise to drive growth and create value for shareholders through strategic acquisitions.",
+    "products_services": "As a SPAC, CCIS Acquisition Corp. does not offer traditional products or services but seeks to acquire and support companies in the technology industry.",
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)"
+  },
+  "safepointholdingsinc": {
+    "description": "Safepoint Holdings, Inc. is a technology-driven company focused on providing innovative solutions for risk management and insurance services. The company aims to enhance safety and efficiency in various sectors through its advanced platforms and tools.",
+    "products_services": "Risk management solutions, insurance technology platforms, safety assessment tools.",
+    "industry": "Insurance and Risk Management"
+  },
+  "kilcoyglobalfoodsltd": {
+    "description": "Kilcoy Global Foods, Ltd. is a leading provider of high-quality beef products, specializing in sustainable and ethical sourcing practices. The company focuses on delivering premium meat solutions to both domestic and international markets.",
+    "products_services": "Beef products, including fresh and processed meat, as well as value-added meat solutions.",
+    "industry": "Food and Beverage, specifically Meat Processing and Distribution."
+  },
+  "rpminteractiveinc": {
+    "description": "RPM Interactive, Inc. is a cutting-edge technology company specializing in digital marketing solutions that enhance brand engagement and customer interaction. With a focus on data-driven strategies, RPM Interactive empowers businesses to optimize their online presence and drive growth.",
+    "products_services": "Digital marketing solutions, data analytics, customer engagement tools, and brand strategy services.",
+    "industry": "Digital Marketing and Technology"
+  },
+  "camerrynewmaterialte": {
+    "description": "Camerry New Material Tech Ltd. specializes in the development and production of advanced materials for various industrial applications. The company aims to innovate and enhance material performance to meet the evolving needs of its clients.",
+    "products_services": "Advanced composite materials, specialty coatings, and high-performance polymers.",
+    "industry": "Materials Science and Manufacturing"
+  },
+  "medeibyholdingcoltd": {
+    "description": "MED EIBY Holding Co., Ltd. is a healthcare-focused company specializing in innovative medical technologies and solutions. The company aims to enhance patient care and streamline healthcare processes through its advanced products and services.",
+    "products_services": "Medical devices, healthcare software solutions, telemedicine platforms, and patient management systems.",
+    "industry": "Healthcare and Medical Technology"
+  },
+  "clubversantegroupltd": {
+    "description": "Club Versante Group Ltd. is a premier hospitality and lifestyle company focused on creating unique experiences for its members and guests. With a commitment to excellence, the company operates luxury venues that blend leisure, dining, and entertainment.",
+    "products_services": "Luxury hospitality services, exclusive membership programs, fine dining, and event hosting.",
+    "industry": "Hospitality and Lifestyle"
+  },
+  "blackunicornfactory": {
+    "description": "Black Unicorn Factory is an innovative startup focused on creating cutting-edge technology solutions that empower businesses to harness the power of artificial intelligence and machine learning. With a commitment to sustainability and social impact, the company aims to revolutionize various industries through its unique approach to product development.",
+    "products_services": "AI-driven software solutions, machine learning platforms, and consulting services for businesses looking to integrate advanced technology into their operations.",
+    "industry": "Technology and Software Development"
   }
 }
