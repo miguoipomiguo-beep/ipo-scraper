@@ -333,14 +333,17 @@ def merge_all(sec_companies: list, nasdaq_data: dict) -> list:
         if not ninfo.get("company_name"):
             continue
         ticker = ninfo.get("ticker")
-        if not ticker:
-            continue
+        name_key = normalize_name(ninfo.get("company_name", ""))
         # 既にtickerで追加済みか確認
-        if any(c.get("ticker") == ticker for c in companies.values()):
+        if ticker and any(c.get("ticker") == ticker for c in companies.values()):
+            continue
+        # ticker無し(NASDAQ withdrawnは全てticker=None)でも、企業名で未登録なら追加する。
+        # 以前は `if not ticker: continue` で全て捨てていたため、SEC未捕捉のwithdrawnが欠落し
+        # NASDAQカレンダーと一致しなかった。企業名重複が無ければ name ベースidで取り込む。
+        if any(normalize_name(c.get("company_name") or "") == name_key for c in companies.values()):
             continue
 
-        new_id = ticker
-        companies[f"nq_{new_id}"] = build_from_nasdaq(ninfo)
+        companies[f"nq_{ticker or name_key[:24]}"] = build_from_nasdaq(ninfo)
         matched_keys.add(id(ninfo))
 
     # Step 5: ステータス確定
