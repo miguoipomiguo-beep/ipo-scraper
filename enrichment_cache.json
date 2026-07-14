@@ -2506,5 +2506,11 @@
     "shares_outstanding": 728865500,
     "proposed_price_low": 158.14,
     "proposed_price_high": 158.14
+  },
+  "0002111453": {
+    "description": "Verdera Energy Corp. is a renewable energy company focused on developing innovative solutions for sustainable energy production. The company aims to revolutionize the energy sector by leveraging advanced technologies to harness clean energy sources.",
+    "products_services": "Verdera Energy Corp. offers a range of products and services including solar energy systems, energy storage solutions, and consulting for renewable energy projects.",
+    "industry": "Renewable Energy",
+    "shares_outstanding": 110757993
   }
 }
