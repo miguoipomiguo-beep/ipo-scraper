@@ -2577,5 +2577,30 @@
     "description": "Black Unicorn Factory is an innovative startup focused on creating cutting-edge technology solutions that empower businesses to harness the power of artificial intelligence and machine learning. With a commitment to sustainability and social impact, the company aims to revolutionize various industries through its unique approach to product development.",
     "products_services": "AI-driven software solutions, machine learning platforms, and consulting services for businesses looking to integrate advanced technology into their operations.",
     "industry": "Technology and Software Development"
+  },
+  "bluetouchholdingsgro": {
+    "description": "Blue-Touch Holdings Group Co., Ltd. is a dynamic company focused on innovative technology solutions and digital services. With a commitment to enhancing user experiences, the company aims to revolutionize the way businesses interact with their customers.",
+    "products_services": "The company offers a range of products and services including software development, digital marketing solutions, and cloud-based applications.",
+    "industry": "Technology and Digital Services"
+  },
+  "apexglobalsolutionsl": {
+    "description": "APEX Global Solutions Ltd. is a leading provider of innovative technology solutions aimed at enhancing operational efficiency for businesses worldwide. With a focus on cutting-edge software development and IT consulting, the company is poised for significant growth in the digital transformation sector.",
+    "products_services": "Custom software development, IT consulting, cloud solutions, and data analytics services.",
+    "industry": "Information Technology and Software Development"
+  },
+  "infintacquisitioncor": {
+    "description": "INFINT Acquisition Corp 2 is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in high-growth sectors.",
+    "products_services": "The company aims to provide capital and strategic support to its target businesses, facilitating their growth and expansion.",
+    "industry": "Financial Services / SPACs"
+  },
+  "clouddataholdingscor": {
+    "description": "Cloud Data Holdings Corp. is a leading provider of cloud-based data management solutions, specializing in scalable storage and analytics for businesses of all sizes.",
+    "products_services": "The company offers a suite of products including data storage, real-time analytics, and data integration services designed to enhance operational efficiency and decision-making.",
+    "industry": "Cloud Computing and Data Management"
+  },
+  "ranmarinetechnologyb": {
+    "description": "RanMarine Technology B.V. is an innovative company focused on developing autonomous solutions for waterway management and environmental monitoring. Their flagship product, the WasteShark, is an aquatic drone designed to collect waste and improve water quality in rivers, lakes, and harbors.",
+    "products_services": "WasteShark, an autonomous aquatic drone for waste collection and water quality monitoring.",
+    "industry": "Environmental Technology / Marine Robotics"
   }
 }
