@@ -2610,5 +2610,20 @@
     "shares_outstanding": 23666667,
     "proposed_price_low": 10.0,
     "proposed_price_high": 10.0
+  },
+  "NCOU": {
+    "description": "Southern Cross Acquisition I Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the technology and consumer sectors. The company aims to leverage its management team's expertise to drive growth and create value for shareholders.",
+    "products_services": "As a SPAC, Southern Cross Acquisition I Corp. does not offer traditional products or services but seeks to acquire and merge with a target company to facilitate its growth and expansion.",
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)",
+    "shares_outstanding": 2875000,
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
+  },
+  "QMLS": {
+    "description": "QumulusAI, Inc. is an innovative technology company specializing in artificial intelligence solutions that enhance data processing and analytics for businesses. With a focus on cloud-based applications, QumulusAI aims to streamline operations and improve decision-making through advanced machine learning algorithms.",
+    "products_services": "AI-driven data analytics platforms, cloud-based machine learning solutions, and customized AI applications for various industries.",
+    "industry": "Technology / Artificial Intelligence",
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
   }
 }
