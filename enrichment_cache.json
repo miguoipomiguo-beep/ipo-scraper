@@ -2625,5 +2625,13 @@
     "industry": "Technology / Artificial Intelligence",
     "proposed_price_low": 10.0,
     "proposed_price_high": 10.0
+  },
+  "MTAKU": {
+    "description": "Market Technology Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative technology firms. The company aims to leverage its expertise in the market to drive growth and create value for shareholders.",
+    "products_services": "Market Technology Acquisition Corp. primarily engages in the acquisition and merger of technology companies, providing them with capital and strategic support to accelerate their growth.",
+    "industry": "Financial Services / SPACs",
+    "shares_outstanding": 20000000,
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
   }
 }
