@@ -2633,5 +2633,21 @@
     "shares_outstanding": 20000000,
     "proposed_price_low": 10.0,
     "proposed_price_high": 10.0
+  },
+  "0002086549": {
+    "description": "Phalanx Acquisition Corp I is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the technology sector. The firm aims to leverage its expertise to drive growth and create value for shareholders post-merger.",
+    "products_services": "As a SPAC, Phalanx Acquisition Corp I does not offer traditional products or services but seeks to acquire a target company to bring it public and facilitate its growth.",
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)",
+    "shares_outstanding": 175000000,
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
+  },
+  "AMAC": {
+    "description": "AMR Resources Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the resource sector. The company aims to leverage its expertise to drive growth and create value for shareholders.",
+    "products_services": "As a SPAC, AMR Resources Acquisition Corp. does not offer traditional products or services but seeks to acquire and support companies in the resource industry.",
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)",
+    "shares_outstanding": 28750000,
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
   }
 }
