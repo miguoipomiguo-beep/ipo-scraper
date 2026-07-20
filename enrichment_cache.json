@@ -2657,5 +2657,13 @@
     "shares_outstanding": 28750000,
     "proposed_price_low": 10.0,
     "proposed_price_high": 10.0
+  },
+  "REF": {
+    "description": "Reformation Inc. is a sustainable fashion brand focused on creating stylish, eco-friendly clothing for women. The company emphasizes transparency in its supply chain and aims to reduce its environmental impact while promoting ethical practices in the fashion industry.",
+    "products_services": "Women's clothing, including dresses, tops, bottoms, and activewear, made from sustainable materials.",
+    "industry": "Fashion and Apparel",
+    "shares_outstanding": 6208,
+    "proposed_price_low": 15.0,
+    "proposed_price_high": 17.0
   }
 }
