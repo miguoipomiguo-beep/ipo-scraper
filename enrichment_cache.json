@@ -2665,5 +2665,13 @@
     "shares_outstanding": 6208,
     "proposed_price_low": 15.0,
     "proposed_price_high": 17.0
+  },
+  "0002089447": {
+    "description": "Advance JV Group Ltd. is a dynamic company focused on innovative solutions in the joint venture sector, aiming to enhance collaboration and growth opportunities for businesses.",
+    "products_services": "The company offers strategic consulting, project management, and partnership facilitation services to optimize joint ventures across various industries.",
+    "industry": "Business Consulting and Joint Ventures",
+    "shares_outstanding": 2500000,
+    "proposed_price_low": 1.5,
+    "proposed_price_high": 2.0
   }
 }
