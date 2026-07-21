@@ -2673,5 +2673,20 @@
     "shares_outstanding": 2500000,
     "proposed_price_low": 1.5,
     "proposed_price_high": 2.0
+  },
+  "JMKE": {
+    "shares_outstanding": 29695652,
+    "proposed_price_low": 21.0,
+    "proposed_price_high": 25.0
+  },
+  "SCTX": {
+    "shares_outstanding": 535714,
+    "proposed_price_low": 13.0,
+    "proposed_price_high": 15.0
+  },
+  "BRTMU": {
+    "shares_outstanding": 325000000,
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
   }
 }
