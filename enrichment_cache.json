@@ -1697,7 +1697,10 @@
   "0002104296": {
     "description": "Ticketplus Ltd. is an innovative ticketing platform that streamlines the process of purchasing and managing event tickets for consumers and organizers alike. With a focus on user experience and advanced technology, the company aims to revolutionize the way people access live events.",
     "products_services": "Ticketing solutions for concerts, sports events, and festivals, including mobile ticketing, event management tools, and customer engagement features.",
-    "industry": "Entertainment and Event Management"
+    "industry": "Entertainment and Event Management",
+    "shares_outstanding": 12064525,
+    "proposed_price_low": 8.0,
+    "proposed_price_high": 10.0
   },
   "BIDWU": {
     "description": "Tribeca Strategic Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in high-growth sectors. The firm aims to leverage its management team's expertise to create value for shareholders through strategic acquisitions.",
@@ -2677,16 +2680,25 @@
   "JMKE": {
     "shares_outstanding": 29695652,
     "proposed_price_low": 21.0,
-    "proposed_price_high": 25.0
+    "proposed_price_high": 25.0,
+    "description": "Jersey Mike's Subs Inc. is a fast-casual restaurant chain specializing in fresh, made-to-order submarine sandwiches. The company emphasizes quality ingredients and a community-focused approach, aiming to provide a superior dining experience.",
+    "products_services": "Freshly made subs, sandwiches, salads, and catering services.",
+    "industry": "Restaurant/Food Service"
   },
   "SCTX": {
     "shares_outstanding": 535714,
     "proposed_price_low": 13.0,
-    "proposed_price_high": 15.0
+    "proposed_price_high": 15.0,
+    "description": "Scribe Therapeutics, Inc. is a biotechnology company focused on developing next-generation gene editing technologies to treat genetic diseases. The company leverages its proprietary platform to create precise and efficient therapeutic solutions.",
+    "products_services": "Gene editing technologies and therapeutic solutions for genetic diseases.",
+    "industry": "Biotechnology"
   },
   "BRTMU": {
     "shares_outstanding": 325000000,
     "proposed_price_low": 10.0,
-    "proposed_price_high": 10.0
+    "proposed_price_high": 10.0,
+    "description": "B&R Technology Merger Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative technology firms. The company aims to leverage its expertise to accelerate growth and create value in the rapidly evolving tech landscape.",
+    "products_services": "Investment and merger facilitation for technology companies, with a focus on enhancing operational capabilities and market reach.",
+    "industry": "Financial Services / Technology"
   }
 }
