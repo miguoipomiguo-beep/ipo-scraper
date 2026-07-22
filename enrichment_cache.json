@@ -2700,5 +2700,20 @@
     "description": "B&R Technology Merger Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative technology firms. The company aims to leverage its expertise to accelerate growth and create value in the rapidly evolving tech landscape.",
     "products_services": "Investment and merger facilitation for technology companies, with a focus on enhancing operational capabilities and market reach.",
     "industry": "Financial Services / Technology"
+  },
+  "AIST": {
+    "description": "AI Strategy Inc. is a cutting-edge technology firm specializing in artificial intelligence solutions that enhance business decision-making and operational efficiency. The company leverages advanced algorithms and machine learning techniques to provide innovative tools for various industries.",
+    "products_services": "AI-driven analytics platforms, machine learning consulting, and custom software development for business optimization.",
+    "industry": "Technology / Artificial Intelligence",
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
+  },
+  "NCOOU": {
+    "description": "Southern Cross Acquisition I Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with a target company in the technology sector. The company aims to leverage its management team's expertise to drive growth and create value for shareholders.",
+    "products_services": "As a SPAC, Southern Cross Acquisition I Corp. does not offer traditional products or services but seeks to acquire a private company to take public through a merger.",
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)",
+    "shares_outstanding": 2875000,
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
   }
 }
