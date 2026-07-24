@@ -2706,7 +2706,8 @@
     "products_services": "AI-driven analytics platforms, machine learning consulting, and custom software development for business optimization.",
     "industry": "Technology / Artificial Intelligence",
     "proposed_price_low": 10.0,
-    "proposed_price_high": 10.0
+    "proposed_price_high": 10.0,
+    "shares_outstanding": 2875000
   },
   "NCOOU": {
     "description": "Southern Cross Acquisition I Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with a target company in the technology sector. The company aims to leverage its management team's expertise to drive growth and create value for shareholders.",
@@ -2723,5 +2724,10 @@
     "shares_outstanding": 5750000,
     "proposed_price_low": 10.0,
     "proposed_price_high": 10.0
+  },
+  "0002087162": {
+    "description": "Yesil Global Enerji A.S. is a renewable energy company focused on sustainable energy solutions and innovative technologies. The company aims to contribute to the global transition towards clean energy through its diverse portfolio of projects.",
+    "products_services": "Renewable energy solutions, solar energy systems, wind energy projects, energy efficiency consulting, and sustainable technology development.",
+    "industry": "Renewable Energy"
   }
 }
