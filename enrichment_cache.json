@@ -2729,5 +2729,13 @@
     "description": "Yesil Global Enerji A.S. is a renewable energy company focused on sustainable energy solutions and innovative technologies. The company aims to contribute to the global transition towards clean energy through its diverse portfolio of projects.",
     "products_services": "Renewable energy solutions, solar energy systems, wind energy projects, energy efficiency consulting, and sustainable technology development.",
     "industry": "Renewable Energy"
+  },
+  "PLCIU": {
+    "description": "Pelican Acquisition II Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in high-growth sectors. The company aims to leverage its management team's expertise to create value for shareholders through strategic acquisitions.",
+    "products_services": "As a SPAC, Pelican Acquisition II Corp. does not offer traditional products or services but seeks to acquire and support companies in various industries.",
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)",
+    "shares_outstanding": 7500000,
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
   }
 }
