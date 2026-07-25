@@ -2737,5 +2737,21 @@
     "shares_outstanding": 7500000,
     "proposed_price_low": 10.0,
     "proposed_price_high": 10.0
+  },
+  "0002098410": {
+    "description": "Bluerock Acquisition Corp. II is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the real estate and technology sectors. The company aims to leverage its management team's expertise to drive growth and create value for shareholders.",
+    "products_services": "Investment and acquisition services targeting high-growth companies, primarily in real estate and technology.",
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)",
+    "shares_outstanding": 150000000,
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
+  },
+  "ININ": {
+    "description": "Sin Lian Seng Construction is a leading construction firm specializing in a wide range of building and civil engineering projects. With a commitment to quality and innovation, the company aims to enhance infrastructure development in the region.",
+    "products_services": "Construction services, project management, civil engineering, and infrastructure development.",
+    "industry": "Construction and Engineering",
+    "shares_outstanding": 6250000,
+    "proposed_price_low": 4.0,
+    "proposed_price_high": 5.0
   }
 }
