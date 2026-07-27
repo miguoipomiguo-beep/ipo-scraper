@@ -2753,5 +2753,31 @@
     "shares_outstanding": 6250000,
     "proposed_price_low": 4.0,
     "proposed_price_high": 5.0
+  },
+  "APMD": {
+    "description": "Apnimed, Inc. is a clinical-stage biopharmaceutical company focused on developing innovative therapies for the treatment of sleep disorders, particularly obstructive sleep apnea. The company's lead product candidate aims to address unmet medical needs in this growing market.",
+    "products_services": "Pharmaceutical therapies for sleep disorders, specifically targeting obstructive sleep apnea.",
+    "industry": "Biopharmaceuticals",
+    "shares_outstanding": 26152228,
+    "proposed_price_low": 14.0,
+    "proposed_price_high": 16.0
+  },
+  "0002134856": {
+    "description": "Karman Line Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the aerospace and technology sectors. The company aims to leverage its expertise and network to drive growth and create value for shareholders.",
+    "products_services": "As a SPAC, Karman Line Acquisition Corp. does not offer traditional products or services but seeks to acquire and support companies within the aerospace and technology industries.",
+    "industry": "Aerospace and Technology",
+    "shares_outstanding": 7666667,
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
+  },
+  "spectralipinc": {
+    "description": "SPECTRAL IP, INC. is a technology company specializing in advanced spectral imaging solutions for various applications, including environmental monitoring and industrial inspection. The company aims to enhance data analysis and decision-making processes through innovative imaging technologies.",
+    "products_services": "Advanced spectral imaging systems, data analysis software, and consulting services for environmental and industrial applications.",
+    "industry": "Technology / Imaging Solutions"
+  },
+  "caedrynacquisitionco": {
+    "description": "Caedryn Acquisition Corp I is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the technology sector. The firm aims to leverage its management team's expertise to drive growth and create value for shareholders.",
+    "products_services": "As a SPAC, Caedryn Acquisition Corp I does not offer traditional products or services but seeks to acquire and operate a target company in the technology industry.",
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)"
   }
 }
