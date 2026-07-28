@@ -2795,5 +2795,29 @@
     "shares_outstanding": 5750000,
     "proposed_price_low": 10.0,
     "proposed_price_high": 10.0
+  },
+  "CATLU": {
+    "description": "Catalyst Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in high-growth sectors. The firm aims to leverage its expertise to create value for shareholders through strategic partnerships and operational improvements.",
+    "products_services": "Catalyst Acquisition Corp. primarily engages in the acquisition and merger of companies, providing them with capital and resources to accelerate growth and expansion.",
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)",
+    "shares_outstanding": 5750000,
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
+  },
+  "0002115659": {
+    "description": "Watu Metals Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the metals and mining sector. The company aims to leverage its expertise to drive growth and create value in the resource industry.",
+    "products_services": "Investment and acquisition services targeting companies in the metals and mining sector.",
+    "industry": "Metals and Mining",
+    "shares_outstanding": 2875000,
+    "proposed_price_low": 10.08,
+    "proposed_price_high": 10.08
+  },
+  "IOND": {
+    "description": "Ionic Digital Inc. is a cutting-edge technology company specializing in digital marketing solutions and data analytics. With a focus on enhancing online brand presence, the company leverages innovative tools to drive customer engagement and optimize marketing strategies.",
+    "products_services": "Digital marketing solutions, data analytics, SEO services, social media management, and content creation.",
+    "industry": "Digital Marketing and Technology",
+    "shares_outstanding": 10800164,
+    "proposed_price_low": 53.0,
+    "proposed_price_high": 53.0
   }
 }
