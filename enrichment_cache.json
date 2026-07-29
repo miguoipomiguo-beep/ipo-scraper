@@ -2824,5 +2824,15 @@
     "description": "VISTEK LTD. is a leading provider of innovative imaging solutions, specializing in advanced camera systems and software for various applications. The company aims to enhance visual technology across multiple sectors, including healthcare, security, and industrial automation.",
     "products_services": "Advanced camera systems, imaging software, and integrated solutions for various applications.",
     "industry": "Imaging technology and solutions."
+  },
+  "GYGY": {
+    "description": "Game Your Game Inc. is an innovative gaming company focused on enhancing player engagement through interactive and immersive experiences. The company leverages cutting-edge technology to develop unique gaming solutions that cater to a diverse audience.",
+    "products_services": "The company offers a range of products including mobile games, online multiplayer platforms, and virtual reality experiences designed to captivate gamers of all ages.",
+    "industry": "Gaming and Interactive Entertainment"
+  },
+  "keplergroupltd": {
+    "description": "Kepler Group Ltd. is a data-driven marketing and analytics company that specializes in optimizing digital advertising strategies for brands. The company leverages advanced technology and insights to enhance customer engagement and drive measurable results.",
+    "products_services": "Digital marketing services, data analytics, advertising optimization, customer engagement solutions.",
+    "industry": "Marketing and Advertising"
   }
 }
