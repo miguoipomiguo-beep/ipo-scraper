@@ -2819,5 +2819,10 @@
     "shares_outstanding": 10800164,
     "proposed_price_low": 53.0,
     "proposed_price_high": 53.0
+  },
+  "vistekltd": {
+    "description": "VISTEK LTD. is a leading provider of innovative imaging solutions, specializing in advanced camera systems and software for various applications. The company aims to enhance visual technology across multiple sectors, including healthcare, security, and industrial automation.",
+    "products_services": "Advanced camera systems, imaging software, and integrated solutions for various applications.",
+    "industry": "Imaging technology and solutions."
   }
 }
