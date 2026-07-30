@@ -2851,5 +2851,20 @@
     "shares_outstanding": 250000000,
     "proposed_price_low": 10.0,
     "proposed_price_high": 10.0
+  },
+  "THEOU": {
+    "shares_outstanding": 12500000,
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
+  },
+  "XIIIU": {
+    "shares_outstanding": 300000000,
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
+  },
+  "IMC": {
+    "shares_outstanding": 105100000,
+    "proposed_price_low": 4.0,
+    "proposed_price_high": 6.0
   }
 }
