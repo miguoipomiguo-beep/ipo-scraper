@@ -2828,11 +2828,28 @@
   "GYGY": {
     "description": "Game Your Game Inc. is an innovative gaming company focused on enhancing player engagement through interactive and immersive experiences. The company leverages cutting-edge technology to develop unique gaming solutions that cater to a diverse audience.",
     "products_services": "The company offers a range of products including mobile games, online multiplayer platforms, and virtual reality experiences designed to captivate gamers of all ages.",
-    "industry": "Gaming and Interactive Entertainment"
+    "industry": "Gaming and Interactive Entertainment",
+    "shares_outstanding": 16072730
   },
   "keplergroupltd": {
     "description": "Kepler Group Ltd. is a data-driven marketing and analytics company that specializes in optimizing digital advertising strategies for brands. The company leverages advanced technology and insights to enhance customer engagement and drive measurable results.",
     "products_services": "Digital marketing services, data analytics, advertising optimization, customer engagement solutions.",
     "industry": "Marketing and Advertising"
+  },
+  "ARCL": {
+    "description": "ARC Group Acquisition I Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the technology and consumer sectors. The company aims to leverage its management team's expertise to drive growth and create value for shareholders.",
+    "products_services": "As a SPAC, ARC Group Acquisition I Corp. does not offer traditional products or services but seeks to acquire and support companies that provide innovative solutions in their respective industries.",
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)",
+    "shares_outstanding": 12075000,
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
+  },
+  "RREV": {
+    "description": "RRE Ventures Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative technology companies. The firm aims to leverage its expertise in venture capital to drive growth and value creation in its target investments.",
+    "products_services": "Investment and acquisition services targeting technology companies.",
+    "industry": "Financial Services / SPACs",
+    "shares_outstanding": 250000000,
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
   }
 }
