@@ -1,500 +1,100 @@
 [
   {
-    "id": "0002143038",
-    "cik": "0002143038",
-    "company_name": "Oceanhawk Acquisition II Corp.",
-    "ticker": null,
-    "filing_type": "S-1",
-    "filing_date": "2026-09-15",
-    "events": [
-      {
-        "event_type": "filing",
-        "filing_type": "S-1",
-        "event_date": "2026-09-15",
-        "sec_accession": "0001185185-26-004010",
-        "details": "FORM S-1"
-      }
-    ],
-    "status": "filed",
-    "_accession_for_extract": "0001185185-26-004010"
-  },
-  {
-    "id": "BCCQU",
-    "cik": "0002128045",
-    "company_name": "Bleichroeder Acquisition Corp. III",
-    "ticker": "BCCQU",
-    "filing_type": "424B4",
-    "filing_date": "2026-06-18",
-    "events": [
-      {
-        "event_type": "pricing",
-        "filing_type": "424B4",
-        "event_date": "2026-07-07",
-        "sec_accession": "0001213900-26-075753",
-        "details": "PROSPECTUS"
-      },
-      {
-        "event_type": "effective",
-        "filing_type": "EFFECT",
-        "event_date": "2026-07-06",
-        "sec_accession": "9999999995-26-002202",
-        "details": ""
-      },
-      {
-        "event_type": "filing",
-        "filing_type": "S-1",
-        "event_date": "2026-06-18",
-        "sec_accession": "0001213900-26-070217",
-        "details": "REGISTRATION STATEMENT"
-      },
-      {
-        "event_type": "exchange_listed",
-        "filing_type": null,
-        "event_date": "2026-07-07"
-      }
-    ],
-    "exchange": "NASDAQ Global",
-    "expected_date": null,
-    "actual_date": "2026-07-07",
-    "shares_offered": 30000000,
-    "offer_price": 10.0,
-    "offer_amount": "$300,000,000",
-    "status": "listed",
-    "description": "Bleichroeder Acquisition Corp. III is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in growth sectors. The firm aims to leverage its management team's expertise to drive value creation post-acquisition.",
-    "products_services": "As a SPAC, Bleichroeder Acquisition Corp. III does not offer traditional products or services but seeks to acquire and support companies in various industries.",
-    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)",
-    "shares_outstanding": 300000000,
-    "proposed_price_low": 10.0,
-    "proposed_price_high": 10.0,
-    "price_range_low": 10.0,
-    "price_range_high": 10.0
-  },
-  {
-    "id": "0002147457",
-    "cik": "0002147457",
-    "company_name": "Lower Cross Acquisitions Corp",
-    "ticker": null,
-    "filing_type": "S-1",
-    "filing_date": "2026-09-16",
-    "events": [
-      {
-        "event_type": "filing",
-        "filing_type": "S-1",
-        "event_date": "2026-09-16",
-        "sec_accession": "0001185185-26-004071",
-        "details": "FORM S-1"
-      }
-    ],
-    "status": "filed",
-    "_accession_for_extract": "0001185185-26-004071"
-  },
-  {
-    "id": "HYACU",
-    "cik": "0002111838",
-    "company_name": "Haymaker Acquisition Corp V",
-    "ticker": "HYACU",
-    "filing_type": "EFFECT",
-    "filing_date": "2026-08-25",
-    "events": [
-      {
-        "event_type": "effective",
-        "filing_type": "EFFECT",
-        "event_date": "2026-09-16",
-        "sec_accession": "9999999995-26-002979",
-        "details": ""
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "S-1/A",
-        "event_date": "2026-09-15",
-        "sec_accession": "0001193125-26-391060",
-        "details": "S-1/A"
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "S-1/A",
-        "event_date": "2026-09-11",
-        "sec_accession": "0001193125-26-389409",
-        "details": "S-1/A"
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "S-1/A",
-        "event_date": "2026-09-02",
-        "sec_accession": "0001193125-26-380080",
-        "details": "S-1/A"
-      },
-      {
-        "event_type": "filing",
-        "filing_type": "S-1",
-        "event_date": "2026-08-25",
-        "sec_accession": "0001193125-26-363922",
-        "details": "S-1"
-      },
-      {
-        "event_type": "exchange_upcoming",
-        "filing_type": null,
-        "event_date": "2026-09-17"
-      }
-    ],
-    "exchange": "NYSE",
-    "expected_date": "2026-09-17",
-    "actual_date": null,
-    "shares_offered": 25000000,
-    "offer_price": null,
-    "offer_amount": "$250,000,000",
-    "price_range_low": 10.0,
-    "price_range_high": 10.0,
-    "status": "upcoming",
-    "_accession_for_extract": "0001193125-26-391060"
-  },
-  {
-    "id": "0002095476",
-    "cik": "0002095476",
-    "company_name": "Dune Acquisition Corp III",
-    "ticker": null,
+    "id": "LEDR",
+    "cik": "0002109823",
+    "company_name": "Leader's Advantage Acquisition Corp.",
+    "ticker": "LEDR",
     "filing_type": "S-1/A",
-    "filing_date": "2026-02-24",
+    "filing_date": "2026-06-15",
     "events": [
       {
         "event_type": "amendment",
         "filing_type": "S-1/A",
-        "event_date": "2026-08-21",
-        "sec_accession": "0001213900-26-092718",
+        "event_date": "2026-09-14",
+        "sec_accession": "0001213900-26-099404",
         "details": "REGISTRATION STATEMENT"
       },
       {
         "event_type": "amendment",
         "filing_type": "S-1/A",
-        "event_date": "2026-07-28",
-        "sec_accession": "0001213900-26-081909",
+        "event_date": "2026-08-05",
+        "sec_accession": "0001213900-26-085297",
         "details": "REGISTRATION STATEMENT"
       },
       {
         "event_type": "filing",
         "filing_type": "S-1",
-        "event_date": "2026-02-24",
-        "sec_accession": "0001213900-26-019459",
+        "event_date": "2026-06-15",
+        "sec_accession": "0001213900-26-068419",
         "details": "REGISTRATION STATEMENT"
       }
     ],
     "status": "amended",
-    "description": "Dune Acquisition Corp III is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in high-growth sectors. The firm aims to leverage its management team's expertise to create value for shareholders through strategic acquisitions.",
-    "products_services": "As a SPAC, Dune Acquisition Corp III does not offer traditional products or services but seeks to acquire and operate a target company in a high-potential industry.",
-    "industry": "Finance/Investment (SPACs)",
-    "shares_outstanding": 15000000,
-    "proposed_price_low": 10.0,
-    "proposed_price_high": 10.0,
-    "price_range_low": 10.0,
-    "price_range_high": 10.0
+    "_accession_for_extract": "0001213900-26-099404"
   },
   {
-    "id": "0002115191",
-    "cik": "0002115191",
-    "company_name": "Live Oak Acquisition Corp. VI",
+    "id": "0002098410",
+    "cik": "0002098410",
+    "company_name": "Bluerock Acquisition Corp. II",
     "ticker": null,
-    "filing_type": "S-1",
-    "filing_date": "2026-08-24",
+    "filing_type": "S-1/A",
+    "filing_date": "2026-07-24",
     "events": [
       {
-        "event_type": "filing",
-        "filing_type": "S-1",
-        "event_date": "2026-08-24",
-        "sec_accession": "0001213900-26-093129",
-        "details": "REGISTRATION STATEMENT"
-      }
-    ],
-    "status": "filed",
-    "_accession_for_extract": "0001213900-26-093129"
-  },
-  {
-    "id": "0002131072",
-    "cik": "0002131072",
-    "company_name": "Harbour Island Acquisition Corp. I",
-    "ticker": null,
-    "filing_type": "S-1",
-    "filing_date": "2026-09-09",
-    "events": [
-      {
-        "event_type": "filing",
-        "filing_type": "S-1",
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
         "event_date": "2026-09-09",
-        "sec_accession": "0001213900-26-098404",
-        "details": "REGISTRATION STATEMENT"
-      }
-    ],
-    "status": "filed",
-    "_accession_for_extract": "0001213900-26-098404"
-  },
-  {
-    "id": "MIACU",
-    "cik": "0002136530",
-    "company_name": "Meridian3 Industrials Acquisition Corp",
-    "ticker": "MIACU",
-    "filing_type": "424B4",
-    "filing_date": "2026-06-04",
-    "events": [
-      {
-        "event_type": "pricing",
-        "filing_type": "424B4",
-        "event_date": "2026-07-02",
-        "sec_accession": "0001104659-26-080405",
-        "details": "424B4"
-      },
-      {
-        "event_type": "effective",
-        "filing_type": "EFFECT",
-        "event_date": "2026-07-01",
-        "sec_accession": "9999999995-26-002179",
-        "details": ""
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "S-1/A",
-        "event_date": "2026-06-29",
-        "sec_accession": "0001104659-26-078781",
+        "sec_accession": "0001104659-26-106379",
         "details": "S-1/A"
       },
       {
         "event_type": "filing",
         "filing_type": "S-1",
-        "event_date": "2026-06-04",
-        "sec_accession": "0001104659-26-070583",
-        "details": "S-1"
-      },
-      {
-        "event_type": "exchange_listed",
-        "filing_type": null,
-        "event_date": "2026-07-02"
-      }
-    ],
-    "exchange": "NASDAQ Global",
-    "expected_date": null,
-    "actual_date": "2026-07-02",
-    "shares_offered": 17500000,
-    "offer_price": 10.0,
-    "offer_amount": "$175,000,000",
-    "status": "listed",
-    "description": "Meridian3 Industrials Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative industrial firms. The company aims to leverage its expertise to drive growth and operational efficiencies in the industrial sector.",
-    "products_services": "Meridian3 Industrials Acquisition Corp. does not offer products or services directly but seeks to acquire and enhance the operations of target industrial companies.",
-    "industry": "Industrial Acquisition and Investment",
-    "shares_outstanding": 175000000,
-    "proposed_price_low": 10.0,
-    "proposed_price_high": 10.0,
-    "price_range_low": 10.0,
-    "price_range_high": 10.0
-  },
-  {
-    "id": "AMACU",
-    "cik": "0002110119",
-    "company_name": "AMR Resources Acquisition Corp.",
-    "ticker": "AMACU",
-    "filing_type": "424B4",
-    "filing_date": "2026-06-26",
-    "events": [
-      {
-        "event_type": "pricing",
-        "filing_type": "424B4",
-        "event_date": "2026-07-17",
-        "sec_accession": "0001213900-26-079231",
-        "details": "PROSPECTUS"
-      },
-      {
-        "event_type": "effective",
-        "filing_type": "EFFECT",
-        "event_date": "2026-07-16",
-        "sec_accession": "9999999995-26-002336",
-        "details": ""
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "S-1/A",
-        "event_date": "2026-06-29",
-        "sec_accession": "0001213900-26-073226",
-        "details": "REGISTRATION STATEMENT"
-      },
-      {
-        "event_type": "filing",
-        "filing_type": "S-1",
-        "event_date": "2026-06-26",
-        "sec_accession": "0001213900-26-072712",
-        "details": "REGISTRATION STATEMENT"
-      },
-      {
-        "event_type": "exchange_listed",
-        "filing_type": null,
-        "event_date": "2026-07-17"
-      }
-    ],
-    "exchange": "NASDAQ Global",
-    "expected_date": null,
-    "actual_date": "2026-07-17",
-    "shares_offered": 25000000,
-    "offer_price": 10.0,
-    "offer_amount": "$250,000,000",
-    "status": "listed",
-    "description": "AMR Resources Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the technology and energy sectors. The company aims to leverage its expertise to drive growth and create value for shareholders through strategic partnerships.",
-    "products_services": "As a SPAC, AMR Resources Acquisition Corp. does not offer traditional products or services but seeks to acquire and support companies in their growth trajectories post-merger.",
-    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)",
-    "shares_outstanding": 28750000,
-    "proposed_price_low": 10.0,
-    "proposed_price_high": 10.0,
-    "price_range_low": 10.0,
-    "price_range_high": 10.0
-  },
-  {
-    "id": "HCAX",
-    "cik": "0002130219",
-    "company_name": "Hall Chadwick Acquisition Corp II",
-    "ticker": "HCAX",
-    "filing_type": "S-1/A",
-    "filing_date": "2026-04-21",
-    "events": [
-      {
-        "event_type": "amendment",
-        "filing_type": "S-1/A",
-        "event_date": "2026-08-04",
-        "sec_accession": "0001829126-26-008335",
-        "details": "S-1/A"
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "S-1/A",
-        "event_date": "2026-07-30",
-        "sec_accession": "0001829126-26-008117",
-        "details": "S-1/A"
-      },
-      {
-        "event_type": "filing",
-        "filing_type": "S-1",
-        "event_date": "2026-04-21",
-        "sec_accession": "0001829126-26-003706",
+        "event_date": "2026-07-24",
+        "sec_accession": "0001104659-26-086682",
         "details": "S-1"
       }
     ],
     "status": "amended",
-    "_accession_for_extract": "0001829126-26-008335"
-  },
-  {
-    "id": "CATLU",
-    "cik": "0002104391",
-    "company_name": "Catalyst Acquisition Corp.",
-    "ticker": "CATLU",
-    "filing_type": "424B4",
-    "filing_date": "2026-07-08",
-    "events": [
-      {
-        "event_type": "pricing",
-        "filing_type": "424B4",
-        "event_date": "2026-07-28",
-        "sec_accession": "0001213900-26-081980",
-        "details": "PROSPECTUS"
-      },
-      {
-        "event_type": "effective",
-        "filing_type": "EFFECT",
-        "event_date": "2026-07-27",
-        "sec_accession": "9999999995-26-002460",
-        "details": ""
-      },
-      {
-        "event_type": "filing",
-        "filing_type": "S-1",
-        "event_date": "2026-07-08",
-        "sec_accession": "0001213900-26-076132",
-        "details": "REGISTRATION STATEMENT"
-      },
-      {
-        "event_type": "exchange_listed",
-        "filing_type": null,
-        "event_date": "2026-07-28"
-      }
-    ],
-    "exchange": "NASDAQ Global",
-    "expected_date": null,
-    "actual_date": "2026-07-28",
-    "shares_offered": 20000000,
-    "offer_price": 10.0,
-    "offer_amount": "$200,000,000",
-    "status": "listed",
-    "description": "Catalyst Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in high-growth sectors. The firm aims to leverage its expertise to create value for shareholders through strategic partnerships and operational improvements.",
-    "products_services": "Catalyst Acquisition Corp. primarily engages in the acquisition and merger of companies, providing them with capital and resources to accelerate growth and expansion.",
+    "description": "Bluerock Acquisition Corp. II is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the real estate and technology sectors. The company aims to leverage its management team's expertise to drive growth and create value for shareholders.",
+    "products_services": "Investment and acquisition services targeting high-growth companies, primarily in real estate and technology.",
     "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)",
-    "shares_outstanding": 5750000,
+    "shares_outstanding": 150000000,
     "proposed_price_low": 10.0,
     "proposed_price_high": 10.0,
     "price_range_low": 10.0,
     "price_range_high": 10.0
   },
   {
-    "id": "MTAKU",
-    "cik": "0002133136",
-    "company_name": "Market Technology Acquisition Corp",
-    "ticker": "MTAKU",
-    "filing_type": "424B4",
-    "filing_date": "2026-06-16",
+    "id": "0002145409",
+    "cik": "0002145409",
+    "company_name": "GX Acquisition Corp. III/Cayman",
+    "ticker": null,
+    "filing_type": "S-1/A",
+    "filing_date": "2026-08-03",
     "events": [
       {
-        "event_type": "pricing",
-        "filing_type": "424B4",
-        "event_date": "2026-07-27",
-        "sec_accession": "0001213900-26-081597",
-        "details": "PROSPECTUS"
-      },
-      {
-        "event_type": "effective",
-        "filing_type": "EFFECT",
-        "event_date": "2026-07-23",
-        "sec_accession": "9999999995-26-002414",
-        "details": ""
-      },
-      {
         "event_type": "amendment",
         "filing_type": "S-1/A",
-        "event_date": "2026-07-22",
-        "sec_accession": "0001213900-26-080237",
-        "details": "REGISTRATION STATEMENT"
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "S-1/A",
-        "event_date": "2026-07-10",
-        "sec_accession": "0001213900-26-076891",
-        "details": "REGISTRATION STATEMENT"
+        "event_date": "2026-08-12",
+        "sec_accession": "0001185185-26-003452",
+        "details": "FORM S-1/A"
       },
       {
         "event_type": "filing",
         "filing_type": "S-1",
-        "event_date": "2026-06-16",
-        "sec_accession": "0001213900-26-069333",
-        "details": "REGISTRATION STATEMENT"
-      },
-      {
-        "event_type": "exchange_listed",
-        "filing_type": null,
-        "event_date": "2026-07-24"
+        "event_date": "2026-08-03",
+        "sec_accession": "0001185185-26-003214",
+        "details": "FORM S-1"
       }
     ],
-    "exchange": "NASDAQ Global",
-    "expected_date": null,
-    "actual_date": "2026-07-24",
-    "shares_offered": 20000000,
-    "offer_price": 10.0,
-    "offer_amount": "$200,000,000",
-    "status": "listed",
-    "description": "Market Technology Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative technology firms. The company aims to leverage its expertise in the market to drive growth and create value for shareholders.",
-    "products_services": "Market Technology Acquisition Corp. primarily engages in the acquisition and merger of technology companies, providing them with capital and strategic support to accelerate their growth.",
-    "industry": "Financial Services / SPACs",
-    "shares_outstanding": 20000000,
-    "proposed_price_low": 10.0,
-    "proposed_price_high": 10.0,
-    "price_range_low": 10.0,
-    "price_range_high": 10.0
+    "status": "amended",
+    "_accession_for_extract": "0001185185-26-003452"
   },
   {
-    "id": "0002143156",
-    "cik": "0002143156",
-    "company_name": "Lucens Capital Acquisition Corp I",
+    "id": "0002088286",
+    "cik": "0002088286",
+    "company_name": "Danneskjold & Galt Acquisition Co",
     "ticker": null,
     "filing_type": "S-1",
     "filing_date": "2026-08-07",
@@ -503,33 +103,58 @@
         "event_type": "filing",
         "filing_type": "S-1",
         "event_date": "2026-08-07",
-        "sec_accession": "0001213900-26-086320",
-        "details": "REGISTRATION STATEMENT"
+        "sec_accession": "0001185185-26-003333",
+        "details": "FORM S-1"
       }
     ],
     "status": "filed",
-    "_accession_for_extract": "0001213900-26-086320"
+    "_accession_for_extract": "0001185185-26-003333"
   },
   {
-    "id": "0002140589",
-    "cik": "0002140589",
-    "company_name": "Laris Growth Acquisition Corp.",
-    "ticker": null,
-    "filing_type": "S-1",
-    "filing_date": "2026-07-02",
+    "id": "WLCOU",
+    "cik": "0002101470",
+    "company_name": "Wilco 63 Corp",
+    "ticker": "WLCOU",
+    "filing_type": "424B4",
+    "filing_date": "2026-05-29",
     "events": [
+      {
+        "event_type": "pricing",
+        "filing_type": "424B4",
+        "event_date": "2026-06-22",
+        "sec_accession": "0001213900-26-070283",
+        "details": "PROSPECTUS"
+      },
+      {
+        "event_type": "effective",
+        "filing_type": "EFFECT",
+        "event_date": "2026-06-17",
+        "sec_accession": "9999999995-26-002045",
+        "details": ""
+      },
       {
         "event_type": "filing",
         "filing_type": "S-1",
-        "event_date": "2026-07-02",
-        "sec_accession": "0001213900-26-075107",
+        "event_date": "2026-05-29",
+        "sec_accession": "0001213900-26-062973",
         "details": "REGISTRATION STATEMENT"
+      },
+      {
+        "event_type": "exchange_listed",
+        "filing_type": null,
+        "event_date": "2026-06-18"
       }
     ],
-    "status": "filed",
-    "description": "Laris Growth Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative growth-oriented businesses. The company aims to leverage its expertise and network to drive value creation in the companies it partners with.",
-    "products_services": "As a SPAC, Laris Growth Acquisition Corp. does not offer traditional products or services but seeks to acquire and support growth companies across various sectors.",
-    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)",
+    "exchange": "NASDAQ Global",
+    "expected_date": null,
+    "actual_date": "2026-06-18",
+    "shares_offered": 20000000,
+    "offer_price": 10.0,
+    "offer_amount": "$200,000,000",
+    "status": "listed",
+    "description": "Wilco 63 Corp. is an innovative technology company focused on developing cutting-edge software solutions for various industries. With a commitment to enhancing operational efficiency and user experience, the company aims to revolutionize the way businesses leverage technology.",
+    "products_services": "Wilco 63 Corp. offers a range of software products including enterprise resource planning (ERP) systems, customer relationship management (CRM) tools, and data analytics platforms.",
+    "industry": "Technology",
     "shares_outstanding": 200000000,
     "proposed_price_low": 10.0,
     "proposed_price_high": 10.0,
@@ -602,6 +227,115 @@
     "price_range_high": 10.0
   },
   {
+    "id": "MIACU",
+    "cik": "0002136530",
+    "company_name": "Meridian3 Industrials Acquisition Corp",
+    "ticker": "MIACU",
+    "filing_type": "424B4",
+    "filing_date": "2026-06-04",
+    "events": [
+      {
+        "event_type": "pricing",
+        "filing_type": "424B4",
+        "event_date": "2026-07-02",
+        "sec_accession": "0001104659-26-080405",
+        "details": "424B4"
+      },
+      {
+        "event_type": "effective",
+        "filing_type": "EFFECT",
+        "event_date": "2026-07-01",
+        "sec_accession": "9999999995-26-002179",
+        "details": ""
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2026-06-29",
+        "sec_accession": "0001104659-26-078781",
+        "details": "S-1/A"
+      },
+      {
+        "event_type": "filing",
+        "filing_type": "S-1",
+        "event_date": "2026-06-04",
+        "sec_accession": "0001104659-26-070583",
+        "details": "S-1"
+      },
+      {
+        "event_type": "exchange_listed",
+        "filing_type": null,
+        "event_date": "2026-07-02"
+      }
+    ],
+    "exchange": "NASDAQ Global",
+    "expected_date": null,
+    "actual_date": "2026-07-02",
+    "shares_offered": 17500000,
+    "offer_price": 10.0,
+    "offer_amount": "$175,000,000",
+    "status": "listed",
+    "description": "Meridian3 Industrials Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative industrial firms. The company aims to leverage its expertise to drive growth and operational efficiencies in the industrial sector.",
+    "products_services": "Meridian3 Industrials Acquisition Corp. does not offer products or services directly but seeks to acquire and enhance the operations of target industrial companies.",
+    "industry": "Industrial Acquisition and Investment",
+    "shares_outstanding": 175000000,
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0,
+    "price_range_low": 10.0,
+    "price_range_high": 10.0
+  },
+  {
+    "id": "CATLU",
+    "cik": "0002104391",
+    "company_name": "Catalyst Acquisition Corp.",
+    "ticker": "CATLU",
+    "filing_type": "424B4",
+    "filing_date": "2026-07-08",
+    "events": [
+      {
+        "event_type": "pricing",
+        "filing_type": "424B4",
+        "event_date": "2026-07-28",
+        "sec_accession": "0001213900-26-081980",
+        "details": "PROSPECTUS"
+      },
+      {
+        "event_type": "effective",
+        "filing_type": "EFFECT",
+        "event_date": "2026-07-27",
+        "sec_accession": "9999999995-26-002460",
+        "details": ""
+      },
+      {
+        "event_type": "filing",
+        "filing_type": "S-1",
+        "event_date": "2026-07-08",
+        "sec_accession": "0001213900-26-076132",
+        "details": "REGISTRATION STATEMENT"
+      },
+      {
+        "event_type": "exchange_listed",
+        "filing_type": null,
+        "event_date": "2026-07-28"
+      }
+    ],
+    "exchange": "NASDAQ Global",
+    "expected_date": null,
+    "actual_date": "2026-07-28",
+    "shares_offered": 20000000,
+    "offer_price": 10.0,
+    "offer_amount": "$200,000,000",
+    "status": "listed",
+    "description": "Catalyst Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in high-growth sectors. The firm aims to leverage its expertise to create value for shareholders through strategic partnerships and operational improvements.",
+    "products_services": "Catalyst Acquisition Corp. primarily engages in the acquisition and merger of companies, providing them with capital and resources to accelerate growth and expansion.",
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)",
+    "shares_outstanding": 5750000,
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0,
+    "price_range_low": 10.0,
+    "price_range_high": 10.0
+  },
+  {
     "id": "0002143060",
     "cik": "0002143060",
     "company_name": "Essential Minerals Acquisition Corp",
@@ -621,156 +355,26 @@
     "_accession_for_extract": "0001185185-26-003690"
   },
   {
-    "id": "ISNRU",
-    "cik": "0002123475",
-    "company_name": "Snow Rothschild Acquisition Corp.",
-    "ticker": "ISNRU",
-    "filing_type": "424B4",
-    "filing_date": "2026-05-22",
+    "id": "0002086549",
+    "cik": "0002086549",
+    "company_name": "Phalanx Acquisition Corp I",
+    "ticker": null,
+    "filing_type": "S-1",
+    "filing_date": "2026-07-16",
     "events": [
-      {
-        "event_type": "pricing",
-        "filing_type": "424B4",
-        "event_date": "2026-06-09",
-        "sec_accession": "0001213900-26-066805",
-        "details": "PROSPECTUS"
-      },
-      {
-        "event_type": "effective",
-        "filing_type": "EFFECT",
-        "event_date": "2026-06-08",
-        "sec_accession": "9999999995-26-001921",
-        "details": ""
-      },
       {
         "event_type": "filing",
         "filing_type": "S-1",
-        "event_date": "2026-05-22",
-        "sec_accession": "0001213900-26-060334",
+        "event_date": "2026-07-16",
+        "sec_accession": "0001213900-26-078705",
         "details": "REGISTRATION STATEMENT"
-      },
-      {
-        "event_type": "exchange_listed",
-        "filing_type": null,
-        "event_date": "2026-06-09"
       }
     ],
-    "exchange": "NASDAQ Global",
-    "expected_date": null,
-    "actual_date": "2026-06-09",
-    "shares_offered": 20000000,
-    "offer_price": 10.0,
-    "offer_amount": "$200,000,000",
-    "status": "listed",
-    "description": "Snow Rothschild Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the technology and financial sectors. The firm aims to leverage its expertise and network to drive growth and value creation for its stakeholders.",
-    "products_services": "As a SPAC, it primarily offers capital and strategic support to target companies through mergers and acquisitions.",
+    "status": "filed",
+    "description": "Phalanx Acquisition Corp I is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the technology sector. The firm aims to leverage its expertise to drive growth and create value for shareholders post-merger.",
+    "products_services": "As a SPAC, Phalanx Acquisition Corp I does not offer traditional products or services but seeks to acquire a target company to bring it public and facilitate its growth.",
     "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)",
-    "shares_outstanding": 20000000,
-    "proposed_price_low": 10.0,
-    "proposed_price_high": 10.0,
-    "price_range_low": 10.0,
-    "price_range_high": 10.0
-  },
-  {
-    "id": "WLCOU",
-    "cik": "0002101470",
-    "company_name": "Wilco 63 Corp",
-    "ticker": "WLCOU",
-    "filing_type": "424B4",
-    "filing_date": "2026-05-29",
-    "events": [
-      {
-        "event_type": "pricing",
-        "filing_type": "424B4",
-        "event_date": "2026-06-22",
-        "sec_accession": "0001213900-26-070283",
-        "details": "PROSPECTUS"
-      },
-      {
-        "event_type": "effective",
-        "filing_type": "EFFECT",
-        "event_date": "2026-06-17",
-        "sec_accession": "9999999995-26-002045",
-        "details": ""
-      },
-      {
-        "event_type": "filing",
-        "filing_type": "S-1",
-        "event_date": "2026-05-29",
-        "sec_accession": "0001213900-26-062973",
-        "details": "REGISTRATION STATEMENT"
-      },
-      {
-        "event_type": "exchange_listed",
-        "filing_type": null,
-        "event_date": "2026-06-18"
-      }
-    ],
-    "exchange": "NASDAQ Global",
-    "expected_date": null,
-    "actual_date": "2026-06-18",
-    "shares_offered": 20000000,
-    "offer_price": 10.0,
-    "offer_amount": "$200,000,000",
-    "status": "listed",
-    "description": "Wilco 63 Corp. is an innovative technology company focused on developing cutting-edge software solutions for various industries. With a commitment to enhancing operational efficiency and user experience, the company aims to revolutionize the way businesses leverage technology.",
-    "products_services": "Wilco 63 Corp. offers a range of software products including enterprise resource planning (ERP) systems, customer relationship management (CRM) tools, and data analytics platforms.",
-    "industry": "Technology",
-    "shares_outstanding": 200000000,
-    "proposed_price_low": 10.0,
-    "proposed_price_high": 10.0,
-    "price_range_low": 10.0,
-    "price_range_high": 10.0
-  },
-  {
-    "id": "DGAC",
-    "cik": "0002111038",
-    "company_name": "DISCIPLINED GROWTH ACQUISITION Corp",
-    "ticker": "DGAC",
-    "filing_type": "424B4",
-    "filing_date": "2026-04-16",
-    "events": [
-      {
-        "event_type": "pricing",
-        "filing_type": "424B4",
-        "event_date": "2026-05-28",
-        "sec_accession": "0001185185-26-002141",
-        "details": "FORM 424B4"
-      },
-      {
-        "event_type": "effective",
-        "filing_type": "EFFECT",
-        "event_date": "2026-05-26",
-        "sec_accession": "9999999995-26-001759",
-        "details": ""
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "S-1/A",
-        "event_date": "2026-05-20",
-        "sec_accession": "0001185185-26-001950",
-        "details": "FORM S-1/A"
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "S-1/A",
-        "event_date": "2026-05-11",
-        "sec_accession": "0001185185-26-001772",
-        "details": "FORM S-1/A1"
-      },
-      {
-        "event_type": "filing",
-        "filing_type": "S-1",
-        "event_date": "2026-04-16",
-        "sec_accession": "0001185185-26-001400",
-        "details": "FORM S-1"
-      }
-    ],
-    "status": "listed",
-    "description": "Disciplined Growth Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative growth-oriented businesses. The company aims to leverage its management team's expertise to drive value creation in the rapidly evolving market landscape.",
-    "products_services": "The company primarily engages in identifying and acquiring businesses in the technology, healthcare, and consumer sectors, providing them with the necessary resources to scale and succeed.",
-    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)",
-    "shares_outstanding": 15000000,
+    "shares_outstanding": 175000000,
     "proposed_price_low": 10.0,
     "proposed_price_high": 10.0,
     "price_range_low": 10.0,
@@ -861,6 +465,387 @@
     "offer_amount": "$125,000,000",
     "status": "listed",
     "shares_outstanding": 12500000,
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0,
+    "price_range_low": 10.0,
+    "price_range_high": 10.0
+  },
+  {
+    "id": "TBCVU",
+    "cik": "0002140030",
+    "company_name": "Thunder Bridge Capital Partners V, Ltd.",
+    "ticker": "TBCVU",
+    "filing_type": "424B4",
+    "filing_date": "2026-06-12",
+    "events": [
+      {
+        "event_type": "pricing",
+        "filing_type": "424B4",
+        "event_date": "2026-08-13",
+        "sec_accession": "0001213900-26-089123",
+        "details": "PROSPECTUS"
+      },
+      {
+        "event_type": "effective",
+        "filing_type": "EFFECT",
+        "event_date": "2026-08-12",
+        "sec_accession": "9999999995-26-002635",
+        "details": ""
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2026-08-06",
+        "sec_accession": "0001213900-26-085876",
+        "details": "REGISTRATION STATEMENT"
+      },
+      {
+        "event_type": "filing",
+        "filing_type": "S-1",
+        "event_date": "2026-06-12",
+        "sec_accession": "0001213900-26-068341",
+        "details": "REGISTRATION STATEMENT"
+      },
+      {
+        "event_type": "exchange_listed",
+        "filing_type": null,
+        "event_date": "2026-08-13"
+      }
+    ],
+    "exchange": "NASDAQ Global",
+    "expected_date": null,
+    "actual_date": "2026-08-13",
+    "shares_offered": 26100000,
+    "offer_price": 10.0,
+    "offer_amount": "$261,000,000",
+    "status": "listed",
+    "_accession_for_extract": "0001213900-26-085876"
+  },
+  {
+    "id": "0002131072",
+    "cik": "0002131072",
+    "company_name": "Harbour Island Acquisition Corp. I",
+    "ticker": null,
+    "filing_type": "S-1",
+    "filing_date": "2026-09-09",
+    "events": [
+      {
+        "event_type": "filing",
+        "filing_type": "S-1",
+        "event_date": "2026-09-09",
+        "sec_accession": "0001213900-26-098404",
+        "details": "REGISTRATION STATEMENT"
+      }
+    ],
+    "status": "filed",
+    "_accession_for_extract": "0001213900-26-098404"
+  },
+  {
+    "id": "HYACU",
+    "cik": "0002111838",
+    "company_name": "Haymaker Acquisition Corp V",
+    "ticker": "HYACU",
+    "filing_type": "EFFECT",
+    "filing_date": "2026-08-25",
+    "events": [
+      {
+        "event_type": "effective",
+        "filing_type": "EFFECT",
+        "event_date": "2026-09-16",
+        "sec_accession": "9999999995-26-002979",
+        "details": ""
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2026-09-15",
+        "sec_accession": "0001193125-26-391060",
+        "details": "S-1/A"
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2026-09-11",
+        "sec_accession": "0001193125-26-389409",
+        "details": "S-1/A"
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2026-09-02",
+        "sec_accession": "0001193125-26-380080",
+        "details": "S-1/A"
+      },
+      {
+        "event_type": "filing",
+        "filing_type": "S-1",
+        "event_date": "2026-08-25",
+        "sec_accession": "0001193125-26-363922",
+        "details": "S-1"
+      },
+      {
+        "event_type": "exchange_upcoming",
+        "filing_type": null,
+        "event_date": "2026-09-17"
+      }
+    ],
+    "exchange": "NYSE",
+    "expected_date": "2026-09-17",
+    "actual_date": null,
+    "shares_offered": 25000000,
+    "offer_price": null,
+    "offer_amount": "$250,000,000",
+    "price_range_low": 10.0,
+    "price_range_high": 10.0,
+    "status": "upcoming",
+    "_accession_for_extract": "0001193125-26-391060"
+  },
+  {
+    "id": "APMD",
+    "cik": "0001745648",
+    "company_name": "Apnimed, Inc.",
+    "ticker": "APMD",
+    "filing_type": "424B4",
+    "filing_date": "2026-07-10",
+    "events": [
+      {
+        "event_type": "pricing",
+        "filing_type": "424B4",
+        "event_date": "2026-07-31",
+        "sec_accession": "0001193125-26-328422",
+        "details": "424B4"
+      },
+      {
+        "event_type": "effective",
+        "filing_type": "EFFECT",
+        "event_date": "2026-07-30",
+        "sec_accession": "9999999995-26-002498",
+        "details": ""
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2026-07-27",
+        "sec_accession": "0001193125-26-316811",
+        "details": "S-1/A"
+      },
+      {
+        "event_type": "filing",
+        "filing_type": "S-1",
+        "event_date": "2026-07-10",
+        "sec_accession": "0001193125-26-300909",
+        "details": "S-1"
+      },
+      {
+        "event_type": "exchange_listed",
+        "filing_type": null,
+        "event_date": "2026-07-31"
+      }
+    ],
+    "exchange": "NASDAQ Global Select",
+    "expected_date": null,
+    "actual_date": "2026-07-31",
+    "shares_offered": 12000000,
+    "offer_price": 16.0,
+    "offer_amount": "$192,000,000",
+    "status": "listed",
+    "description": "Apnimed, Inc. is a clinical-stage biopharmaceutical company focused on developing innovative therapies for the treatment of sleep disorders, particularly obstructive sleep apnea. The company's lead product candidate aims to address unmet medical needs in this growing market.",
+    "products_services": "Pharmaceutical therapies for sleep disorders, specifically targeting obstructive sleep apnea.",
+    "industry": "Biopharmaceuticals",
+    "shares_outstanding": 26152228,
+    "proposed_price_low": 14.0,
+    "proposed_price_high": 16.0,
+    "price_range_low": 14.0,
+    "price_range_high": 16.0
+  },
+  {
+    "id": "BCCQU",
+    "cik": "0002128045",
+    "company_name": "Bleichroeder Acquisition Corp. III",
+    "ticker": "BCCQU",
+    "filing_type": "424B4",
+    "filing_date": "2026-06-18",
+    "events": [
+      {
+        "event_type": "pricing",
+        "filing_type": "424B4",
+        "event_date": "2026-07-07",
+        "sec_accession": "0001213900-26-075753",
+        "details": "PROSPECTUS"
+      },
+      {
+        "event_type": "effective",
+        "filing_type": "EFFECT",
+        "event_date": "2026-07-06",
+        "sec_accession": "9999999995-26-002202",
+        "details": ""
+      },
+      {
+        "event_type": "filing",
+        "filing_type": "S-1",
+        "event_date": "2026-06-18",
+        "sec_accession": "0001213900-26-070217",
+        "details": "REGISTRATION STATEMENT"
+      },
+      {
+        "event_type": "exchange_listed",
+        "filing_type": null,
+        "event_date": "2026-07-07"
+      }
+    ],
+    "exchange": "NASDAQ Global",
+    "expected_date": null,
+    "actual_date": "2026-07-07",
+    "shares_offered": 30000000,
+    "offer_price": 10.0,
+    "offer_amount": "$300,000,000",
+    "status": "listed",
+    "description": "Bleichroeder Acquisition Corp. III is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in growth sectors. The firm aims to leverage its management team's expertise to drive value creation post-acquisition.",
+    "products_services": "As a SPAC, Bleichroeder Acquisition Corp. III does not offer traditional products or services but seeks to acquire and support companies in various industries.",
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)",
+    "shares_outstanding": 300000000,
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0,
+    "price_range_low": 10.0,
+    "price_range_high": 10.0
+  },
+  {
+    "id": "PNAQU",
+    "cik": "0002123955",
+    "company_name": "Pinnacle Acquisition Corp",
+    "ticker": "PNAQU",
+    "filing_type": "424B4",
+    "filing_date": "2026-07-22",
+    "events": [
+      {
+        "event_type": "pricing",
+        "filing_type": "424B4",
+        "event_date": "2026-08-07",
+        "sec_accession": "0001213900-26-086694",
+        "details": "PROSPECTUS"
+      },
+      {
+        "event_type": "effective",
+        "filing_type": "EFFECT",
+        "event_date": "2026-08-06",
+        "sec_accession": "9999999995-26-002568",
+        "details": ""
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2026-08-05",
+        "sec_accession": "0001213900-26-085313",
+        "details": "REGISTRATION STATEMENT"
+      },
+      {
+        "event_type": "filing",
+        "filing_type": "S-1",
+        "event_date": "2026-07-22",
+        "sec_accession": "0001213900-26-080433",
+        "details": "REGISTRATION STATEMENT"
+      },
+      {
+        "event_type": "exchange_listed",
+        "filing_type": null,
+        "event_date": "2026-08-07"
+      }
+    ],
+    "exchange": "NYSE",
+    "expected_date": null,
+    "actual_date": "2026-08-07",
+    "shares_offered": 20000000,
+    "offer_price": 10.0,
+    "offer_amount": "$200,000,000",
+    "status": "listed",
+    "_accession_for_extract": "0001213900-26-085313"
+  },
+  {
+    "id": "HCAX",
+    "cik": "0002130219",
+    "company_name": "Hall Chadwick Acquisition Corp II",
+    "ticker": "HCAX",
+    "filing_type": "S-1/A",
+    "filing_date": "2026-04-21",
+    "events": [
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2026-08-04",
+        "sec_accession": "0001829126-26-008335",
+        "details": "S-1/A"
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2026-07-30",
+        "sec_accession": "0001829126-26-008117",
+        "details": "S-1/A"
+      },
+      {
+        "event_type": "filing",
+        "filing_type": "S-1",
+        "event_date": "2026-04-21",
+        "sec_accession": "0001829126-26-003706",
+        "details": "S-1"
+      }
+    ],
+    "status": "amended",
+    "_accession_for_extract": "0001829126-26-008335"
+  },
+  {
+    "id": "YICCU",
+    "cik": "0002130386",
+    "company_name": "Yorkville International Capital Corp.",
+    "ticker": "YICCU",
+    "filing_type": "424B4",
+    "filing_date": "2026-05-14",
+    "events": [
+      {
+        "event_type": "pricing",
+        "filing_type": "424B4",
+        "event_date": "2026-06-16",
+        "sec_accession": "0001104659-26-074584",
+        "details": "424B4"
+      },
+      {
+        "event_type": "effective",
+        "filing_type": "EFFECT",
+        "event_date": "2026-06-15",
+        "sec_accession": "9999999995-26-001991",
+        "details": ""
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2026-06-05",
+        "sec_accession": "0001104659-26-070647",
+        "details": "S-1/A"
+      },
+      {
+        "event_type": "filing",
+        "filing_type": "S-1",
+        "event_date": "2026-05-14",
+        "sec_accession": "0001104659-26-061345",
+        "details": "S-1"
+      },
+      {
+        "event_type": "exchange_listed",
+        "filing_type": null,
+        "event_date": "2026-06-16"
+      }
+    ],
+    "exchange": "NASDAQ Global",
+    "expected_date": null,
+    "actual_date": "2026-06-16",
+    "shares_offered": 20000000,
+    "offer_price": 10.0,
+    "offer_amount": "$200,000,000",
+    "status": "listed",
+    "description": "Yorkville International Capital Corp. is a financial services firm specializing in providing innovative capital solutions to emerging growth companies. The company focuses on facilitating access to funding through various investment strategies and financial products.",
+    "products_services": "Investment advisory, capital raising, and financial consulting services.",
+    "industry": "Financial Services",
+    "shares_outstanding": 200000000,
     "proposed_price_low": 10.0,
     "proposed_price_high": 10.0,
     "price_range_low": 10.0,
@@ -996,6 +981,64 @@
     "products_services": "Ocean Capital Acquisition Corp. does not offer traditional products or services but seeks to acquire and support companies within the ocean-related industries, including marine technology, sustainable fisheries, and ocean conservation.",
     "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)",
     "shares_outstanding": 3833333,
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0,
+    "price_range_low": 10.0,
+    "price_range_high": 10.0
+  },
+  {
+    "id": "AMACU",
+    "cik": "0002110119",
+    "company_name": "AMR Resources Acquisition Corp.",
+    "ticker": "AMACU",
+    "filing_type": "424B4",
+    "filing_date": "2026-06-26",
+    "events": [
+      {
+        "event_type": "pricing",
+        "filing_type": "424B4",
+        "event_date": "2026-07-17",
+        "sec_accession": "0001213900-26-079231",
+        "details": "PROSPECTUS"
+      },
+      {
+        "event_type": "effective",
+        "filing_type": "EFFECT",
+        "event_date": "2026-07-16",
+        "sec_accession": "9999999995-26-002336",
+        "details": ""
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2026-06-29",
+        "sec_accession": "0001213900-26-073226",
+        "details": "REGISTRATION STATEMENT"
+      },
+      {
+        "event_type": "filing",
+        "filing_type": "S-1",
+        "event_date": "2026-06-26",
+        "sec_accession": "0001213900-26-072712",
+        "details": "REGISTRATION STATEMENT"
+      },
+      {
+        "event_type": "exchange_listed",
+        "filing_type": null,
+        "event_date": "2026-07-17"
+      }
+    ],
+    "exchange": "NASDAQ Global",
+    "expected_date": null,
+    "actual_date": "2026-07-17",
+    "shares_offered": 25000000,
+    "offer_price": 10.0,
+    "offer_amount": "$250,000,000",
+    "status": "listed",
+    "description": "AMR Resources Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the technology and energy sectors. The company aims to leverage its expertise to drive growth and create value for shareholders through strategic partnerships.",
+    "products_services": "As a SPAC, AMR Resources Acquisition Corp. does not offer traditional products or services but seeks to acquire and support companies in their growth trajectories post-merger.",
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)",
+    "shares_outstanding": 28750000,
     "proposed_price_low": 10.0,
     "proposed_price_high": 10.0,
     "price_range_low": 10.0,
@@ -1189,216 +1232,42 @@
     "_accession_for_extract": "0001213900-26-099804"
   },
   {
-    "id": "0002089787",
-    "cik": "0002089787",
-    "company_name": "RainRock Acquisition Corp.",
+    "id": "0002143156",
+    "cik": "0002143156",
+    "company_name": "Lucens Capital Acquisition Corp I",
     "ticker": null,
     "filing_type": "S-1",
-    "filing_date": "2026-09-01",
+    "filing_date": "2026-08-07",
     "events": [
       {
         "event_type": "filing",
         "filing_type": "S-1",
-        "event_date": "2026-09-01",
-        "sec_accession": "0001213900-26-095969",
+        "event_date": "2026-08-07",
+        "sec_accession": "0001213900-26-086320",
         "details": "REGISTRATION STATEMENT"
       }
     ],
     "status": "filed",
-    "_accession_for_extract": "0001213900-26-095969"
+    "_accession_for_extract": "0001213900-26-086320"
   },
   {
-    "id": "LEDR",
-    "cik": "0002109823",
-    "company_name": "Leader's Advantage Acquisition Corp.",
-    "ticker": "LEDR",
-    "filing_type": "S-1/A",
-    "filing_date": "2026-06-15",
+    "id": "0002143038",
+    "cik": "0002143038",
+    "company_name": "Oceanhawk Acquisition II Corp.",
+    "ticker": null,
+    "filing_type": "S-1",
+    "filing_date": "2026-09-15",
     "events": [
-      {
-        "event_type": "amendment",
-        "filing_type": "S-1/A",
-        "event_date": "2026-09-14",
-        "sec_accession": "0001213900-26-099404",
-        "details": "REGISTRATION STATEMENT"
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "S-1/A",
-        "event_date": "2026-08-05",
-        "sec_accession": "0001213900-26-085297",
-        "details": "REGISTRATION STATEMENT"
-      },
       {
         "event_type": "filing",
         "filing_type": "S-1",
-        "event_date": "2026-06-15",
-        "sec_accession": "0001213900-26-068419",
-        "details": "REGISTRATION STATEMENT"
+        "event_date": "2026-09-15",
+        "sec_accession": "0001185185-26-004010",
+        "details": "FORM S-1"
       }
     ],
-    "status": "amended",
-    "_accession_for_extract": "0001213900-26-099404"
-  },
-  {
-    "id": "YICCU",
-    "cik": "0002130386",
-    "company_name": "Yorkville International Capital Corp.",
-    "ticker": "YICCU",
-    "filing_type": "424B4",
-    "filing_date": "2026-05-14",
-    "events": [
-      {
-        "event_type": "pricing",
-        "filing_type": "424B4",
-        "event_date": "2026-06-16",
-        "sec_accession": "0001104659-26-074584",
-        "details": "424B4"
-      },
-      {
-        "event_type": "effective",
-        "filing_type": "EFFECT",
-        "event_date": "2026-06-15",
-        "sec_accession": "9999999995-26-001991",
-        "details": ""
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "S-1/A",
-        "event_date": "2026-06-05",
-        "sec_accession": "0001104659-26-070647",
-        "details": "S-1/A"
-      },
-      {
-        "event_type": "filing",
-        "filing_type": "S-1",
-        "event_date": "2026-05-14",
-        "sec_accession": "0001104659-26-061345",
-        "details": "S-1"
-      },
-      {
-        "event_type": "exchange_listed",
-        "filing_type": null,
-        "event_date": "2026-06-16"
-      }
-    ],
-    "exchange": "NASDAQ Global",
-    "expected_date": null,
-    "actual_date": "2026-06-16",
-    "shares_offered": 20000000,
-    "offer_price": 10.0,
-    "offer_amount": "$200,000,000",
-    "status": "listed",
-    "description": "Yorkville International Capital Corp. is a financial services firm specializing in providing innovative capital solutions to emerging growth companies. The company focuses on facilitating access to funding through various investment strategies and financial products.",
-    "products_services": "Investment advisory, capital raising, and financial consulting services.",
-    "industry": "Financial Services",
-    "shares_outstanding": 200000000,
-    "proposed_price_low": 10.0,
-    "proposed_price_high": 10.0,
-    "price_range_low": 10.0,
-    "price_range_high": 10.0
-  },
-  {
-    "id": "TBCVU",
-    "cik": "0002140030",
-    "company_name": "Thunder Bridge Capital Partners V, Ltd.",
-    "ticker": "TBCVU",
-    "filing_type": "424B4",
-    "filing_date": "2026-06-12",
-    "events": [
-      {
-        "event_type": "pricing",
-        "filing_type": "424B4",
-        "event_date": "2026-08-13",
-        "sec_accession": "0001213900-26-089123",
-        "details": "PROSPECTUS"
-      },
-      {
-        "event_type": "effective",
-        "filing_type": "EFFECT",
-        "event_date": "2026-08-12",
-        "sec_accession": "9999999995-26-002635",
-        "details": ""
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "S-1/A",
-        "event_date": "2026-08-06",
-        "sec_accession": "0001213900-26-085876",
-        "details": "REGISTRATION STATEMENT"
-      },
-      {
-        "event_type": "filing",
-        "filing_type": "S-1",
-        "event_date": "2026-06-12",
-        "sec_accession": "0001213900-26-068341",
-        "details": "REGISTRATION STATEMENT"
-      },
-      {
-        "event_type": "exchange_listed",
-        "filing_type": null,
-        "event_date": "2026-08-13"
-      }
-    ],
-    "exchange": "NASDAQ Global",
-    "expected_date": null,
-    "actual_date": "2026-08-13",
-    "shares_offered": 26100000,
-    "offer_price": 10.0,
-    "offer_amount": "$261,000,000",
-    "status": "listed",
-    "_accession_for_extract": "0001213900-26-085876"
-  },
-  {
-    "id": "XTERU",
-    "cik": "0002134856",
-    "company_name": "Karman Line Acquisition Corp.",
-    "ticker": "XTERU",
-    "filing_type": "424B4",
-    "filing_date": "2026-07-27",
-    "events": [
-      {
-        "event_type": "pricing",
-        "filing_type": "424B4",
-        "event_date": "2026-08-18",
-        "sec_accession": "0001829126-26-009017",
-        "details": "424B4"
-      },
-      {
-        "event_type": "effective",
-        "filing_type": "EFFECT",
-        "event_date": "2026-08-17",
-        "sec_accession": "9999999995-26-002682",
-        "details": ""
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "S-1/A",
-        "event_date": "2026-08-11",
-        "sec_accession": "0001829126-26-008622",
-        "details": "S-1/A"
-      },
-      {
-        "event_type": "filing",
-        "filing_type": "S-1",
-        "event_date": "2026-07-27",
-        "sec_accession": "0001829126-26-007847",
-        "details": "S-1"
-      },
-      {
-        "event_type": "exchange_listed",
-        "filing_type": null,
-        "event_date": "2026-08-18"
-      }
-    ],
-    "exchange": "NASDAQ Global",
-    "expected_date": null,
-    "actual_date": "2026-08-18",
-    "shares_offered": 20000000,
-    "offer_price": 10.0,
-    "offer_amount": "$200,000,000",
-    "status": "listed",
-    "_accession_for_extract": "0001829126-26-008622"
+    "status": "filed",
+    "_accession_for_extract": "0001185185-26-004010"
   },
   {
     "id": "REF",
@@ -1466,57 +1335,25 @@
     "price_range_high": 17.0
   },
   {
-    "id": "FTRAU",
-    "cik": "0002131853",
-    "company_name": "FutureCorp Space Acquisition 1",
-    "ticker": "FTRAU",
-    "filing_type": "424B4",
-    "filing_date": "2026-05-20",
+    "id": "0002140589",
+    "cik": "0002140589",
+    "company_name": "Laris Growth Acquisition Corp.",
+    "ticker": null,
+    "filing_type": "S-1",
+    "filing_date": "2026-07-02",
     "events": [
-      {
-        "event_type": "pricing",
-        "filing_type": "424B4",
-        "event_date": "2026-06-05",
-        "sec_accession": "0001213900-26-065927",
-        "details": "PROSPECTUS"
-      },
-      {
-        "event_type": "effective",
-        "filing_type": "EFFECT",
-        "event_date": "2026-06-04",
-        "sec_accession": "9999999995-26-001886",
-        "details": ""
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "S-1/A",
-        "event_date": "2026-06-02",
-        "sec_accession": "0001213900-26-064137",
-        "details": "REGISTRATION STATEMENT"
-      },
       {
         "event_type": "filing",
         "filing_type": "S-1",
-        "event_date": "2026-05-20",
-        "sec_accession": "0001213900-26-059156",
+        "event_date": "2026-07-02",
+        "sec_accession": "0001213900-26-075107",
         "details": "REGISTRATION STATEMENT"
-      },
-      {
-        "event_type": "exchange_listed",
-        "filing_type": null,
-        "event_date": "2026-06-05"
       }
     ],
-    "exchange": "NYSE",
-    "expected_date": null,
-    "actual_date": "2026-06-05",
-    "shares_offered": 20000000,
-    "offer_price": 10.0,
-    "offer_amount": "$200,000,000",
-    "status": "listed",
-    "description": "FutureCorp Space Acquisition is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the space industry. The company aims to accelerate growth and development in space exploration and technology through strategic partnerships and investments.",
-    "products_services": "FutureCorp Space Acquisition offers investment opportunities in emerging space technologies, satellite communications, and space exploration ventures.",
-    "industry": "Aerospace and Defense",
+    "status": "filed",
+    "description": "Laris Growth Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative growth-oriented businesses. The company aims to leverage its expertise and network to drive value creation in the companies it partners with.",
+    "products_services": "As a SPAC, Laris Growth Acquisition Corp. does not offer traditional products or services but seeks to acquire and support growth companies across various sectors.",
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)",
     "shares_outstanding": 200000000,
     "proposed_price_low": 10.0,
     "proposed_price_high": 10.0,
@@ -1524,23 +1361,23 @@
     "price_range_high": 10.0
   },
   {
-    "id": "0002073516",
-    "cik": "0002073516",
-    "company_name": "ARC Group Acquisition II Corp.",
+    "id": "0002089787",
+    "cik": "0002089787",
+    "company_name": "RainRock Acquisition Corp.",
     "ticker": null,
     "filing_type": "S-1",
-    "filing_date": "2026-08-20",
+    "filing_date": "2026-09-01",
     "events": [
       {
         "event_type": "filing",
         "filing_type": "S-1",
-        "event_date": "2026-08-20",
-        "sec_accession": "0001493152-26-039519",
-        "details": "S-1"
+        "event_date": "2026-09-01",
+        "sec_accession": "0001213900-26-095969",
+        "details": "REGISTRATION STATEMENT"
       }
     ],
     "status": "filed",
-    "_accession_for_extract": "0001493152-26-039519"
+    "_accession_for_extract": "0001213900-26-095969"
   },
   {
     "id": "JONEU",
@@ -1615,200 +1452,175 @@
     "price_range_high": 10.0
   },
   {
-    "id": "PNAQU",
-    "cik": "0002123955",
-    "company_name": "Pinnacle Acquisition Corp",
-    "ticker": "PNAQU",
+    "id": "0002115191",
+    "cik": "0002115191",
+    "company_name": "Live Oak Acquisition Corp. VI",
+    "ticker": null,
+    "filing_type": "S-1",
+    "filing_date": "2026-08-24",
+    "events": [
+      {
+        "event_type": "filing",
+        "filing_type": "S-1",
+        "event_date": "2026-08-24",
+        "sec_accession": "0001213900-26-093129",
+        "details": "REGISTRATION STATEMENT"
+      }
+    ],
+    "status": "filed",
+    "_accession_for_extract": "0001213900-26-093129"
+  },
+  {
+    "id": "0002095476",
+    "cik": "0002095476",
+    "company_name": "Dune Acquisition Corp III",
+    "ticker": null,
+    "filing_type": "S-1/A",
+    "filing_date": "2026-02-24",
+    "events": [
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2026-08-21",
+        "sec_accession": "0001213900-26-092718",
+        "details": "REGISTRATION STATEMENT"
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2026-07-28",
+        "sec_accession": "0001213900-26-081909",
+        "details": "REGISTRATION STATEMENT"
+      },
+      {
+        "event_type": "filing",
+        "filing_type": "S-1",
+        "event_date": "2026-02-24",
+        "sec_accession": "0001213900-26-019459",
+        "details": "REGISTRATION STATEMENT"
+      }
+    ],
+    "status": "amended",
+    "description": "Dune Acquisition Corp III is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in high-growth sectors. The firm aims to leverage its management team's expertise to create value for shareholders through strategic acquisitions.",
+    "products_services": "As a SPAC, Dune Acquisition Corp III does not offer traditional products or services but seeks to acquire and operate a target company in a high-potential industry.",
+    "industry": "Finance/Investment (SPACs)",
+    "shares_outstanding": 15000000,
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0,
+    "price_range_low": 10.0,
+    "price_range_high": 10.0
+  },
+  {
+    "id": "MTAKU",
+    "cik": "0002133136",
+    "company_name": "Market Technology Acquisition Corp",
+    "ticker": "MTAKU",
     "filing_type": "424B4",
-    "filing_date": "2026-07-22",
+    "filing_date": "2026-06-16",
     "events": [
       {
         "event_type": "pricing",
         "filing_type": "424B4",
-        "event_date": "2026-08-07",
-        "sec_accession": "0001213900-26-086694",
+        "event_date": "2026-07-27",
+        "sec_accession": "0001213900-26-081597",
         "details": "PROSPECTUS"
       },
       {
         "event_type": "effective",
         "filing_type": "EFFECT",
-        "event_date": "2026-08-06",
-        "sec_accession": "9999999995-26-002568",
+        "event_date": "2026-07-23",
+        "sec_accession": "9999999995-26-002414",
         "details": ""
       },
       {
         "event_type": "amendment",
         "filing_type": "S-1/A",
-        "event_date": "2026-08-05",
-        "sec_accession": "0001213900-26-085313",
+        "event_date": "2026-07-22",
+        "sec_accession": "0001213900-26-080237",
+        "details": "REGISTRATION STATEMENT"
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2026-07-10",
+        "sec_accession": "0001213900-26-076891",
         "details": "REGISTRATION STATEMENT"
       },
       {
         "event_type": "filing",
         "filing_type": "S-1",
-        "event_date": "2026-07-22",
-        "sec_accession": "0001213900-26-080433",
+        "event_date": "2026-06-16",
+        "sec_accession": "0001213900-26-069333",
         "details": "REGISTRATION STATEMENT"
       },
       {
         "event_type": "exchange_listed",
         "filing_type": null,
-        "event_date": "2026-08-07"
+        "event_date": "2026-07-24"
       }
     ],
-    "exchange": "NYSE",
+    "exchange": "NASDAQ Global",
     "expected_date": null,
-    "actual_date": "2026-08-07",
+    "actual_date": "2026-07-24",
     "shares_offered": 20000000,
     "offer_price": 10.0,
     "offer_amount": "$200,000,000",
     "status": "listed",
-    "_accession_for_extract": "0001213900-26-085313"
+    "description": "Market Technology Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative technology firms. The company aims to leverage its expertise in the market to drive growth and create value for shareholders.",
+    "products_services": "Market Technology Acquisition Corp. primarily engages in the acquisition and merger of technology companies, providing them with capital and strategic support to accelerate their growth.",
+    "industry": "Financial Services / SPACs",
+    "shares_outstanding": 20000000,
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0,
+    "price_range_low": 10.0,
+    "price_range_high": 10.0
   },
   {
-    "id": "0002088286",
-    "cik": "0002088286",
-    "company_name": "Danneskjold & Galt Acquisition Co",
-    "ticker": null,
-    "filing_type": "S-1",
-    "filing_date": "2026-08-07",
-    "events": [
-      {
-        "event_type": "filing",
-        "filing_type": "S-1",
-        "event_date": "2026-08-07",
-        "sec_accession": "0001185185-26-003333",
-        "details": "FORM S-1"
-      }
-    ],
-    "status": "filed",
-    "_accession_for_extract": "0001185185-26-003333"
-  },
-  {
-    "id": "APMD",
-    "cik": "0001745648",
-    "company_name": "Apnimed, Inc.",
-    "ticker": "APMD",
+    "id": "ISNRU",
+    "cik": "0002123475",
+    "company_name": "Snow Rothschild Acquisition Corp.",
+    "ticker": "ISNRU",
     "filing_type": "424B4",
-    "filing_date": "2026-07-10",
+    "filing_date": "2026-05-22",
     "events": [
       {
         "event_type": "pricing",
         "filing_type": "424B4",
-        "event_date": "2026-07-31",
-        "sec_accession": "0001193125-26-328422",
-        "details": "424B4"
+        "event_date": "2026-06-09",
+        "sec_accession": "0001213900-26-066805",
+        "details": "PROSPECTUS"
       },
       {
         "event_type": "effective",
         "filing_type": "EFFECT",
-        "event_date": "2026-07-30",
-        "sec_accession": "9999999995-26-002498",
+        "event_date": "2026-06-08",
+        "sec_accession": "9999999995-26-001921",
         "details": ""
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "S-1/A",
-        "event_date": "2026-07-27",
-        "sec_accession": "0001193125-26-316811",
-        "details": "S-1/A"
       },
       {
         "event_type": "filing",
         "filing_type": "S-1",
-        "event_date": "2026-07-10",
-        "sec_accession": "0001193125-26-300909",
-        "details": "S-1"
+        "event_date": "2026-05-22",
+        "sec_accession": "0001213900-26-060334",
+        "details": "REGISTRATION STATEMENT"
       },
       {
         "event_type": "exchange_listed",
         "filing_type": null,
-        "event_date": "2026-07-31"
+        "event_date": "2026-06-09"
       }
     ],
-    "exchange": "NASDAQ Global Select",
+    "exchange": "NASDAQ Global",
     "expected_date": null,
-    "actual_date": "2026-07-31",
-    "shares_offered": 12000000,
-    "offer_price": 16.0,
-    "offer_amount": "$192,000,000",
+    "actual_date": "2026-06-09",
+    "shares_offered": 20000000,
+    "offer_price": 10.0,
+    "offer_amount": "$200,000,000",
     "status": "listed",
-    "description": "Apnimed, Inc. is a clinical-stage biopharmaceutical company focused on developing innovative therapies for the treatment of sleep disorders, particularly obstructive sleep apnea. The company's lead product candidate aims to address unmet medical needs in this growing market.",
-    "products_services": "Pharmaceutical therapies for sleep disorders, specifically targeting obstructive sleep apnea.",
-    "industry": "Biopharmaceuticals",
-    "shares_outstanding": 26152228,
-    "proposed_price_low": 14.0,
-    "proposed_price_high": 16.0,
-    "price_range_low": 14.0,
-    "price_range_high": 16.0
-  },
-  {
-    "id": "BMB",
-    "cik": "0002125355",
-    "company_name": "Bamboo Insurance Services, Inc.",
-    "ticker": "BMB",
-    "filing_type": "S-1/A",
-    "filing_date": "2026-08-28",
-    "events": [
-      {
-        "event_type": "amendment",
-        "filing_type": "S-1/A",
-        "event_date": "2026-09-14",
-        "sec_accession": "0001628280-26-061664",
-        "details": "S-1/A"
-      },
-      {
-        "event_type": "filing",
-        "filing_type": "S-1",
-        "event_date": "2026-08-28",
-        "sec_accession": "0001628280-26-059433",
-        "details": "S-1"
-      },
-      {
-        "event_type": "exchange_upcoming",
-        "filing_type": null,
-        "event_date": "2026-09-23"
-      }
-    ],
-    "exchange": "NYSE",
-    "expected_date": "2026-09-23",
-    "actual_date": null,
-    "shares_offered": 35000000,
-    "offer_price": null,
-    "offer_amount": "$805,000,000",
-    "price_range_low": 18.0,
-    "price_range_high": 20.0,
-    "status": "upcoming",
-    "_accession_for_extract": "0001628280-26-061664"
-  },
-  {
-    "id": "0002098410",
-    "cik": "0002098410",
-    "company_name": "Bluerock Acquisition Corp. II",
-    "ticker": null,
-    "filing_type": "S-1/A",
-    "filing_date": "2026-07-24",
-    "events": [
-      {
-        "event_type": "amendment",
-        "filing_type": "S-1/A",
-        "event_date": "2026-09-09",
-        "sec_accession": "0001104659-26-106379",
-        "details": "S-1/A"
-      },
-      {
-        "event_type": "filing",
-        "filing_type": "S-1",
-        "event_date": "2026-07-24",
-        "sec_accession": "0001104659-26-086682",
-        "details": "S-1"
-      }
-    ],
-    "status": "amended",
-    "description": "Bluerock Acquisition Corp. II is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the real estate and technology sectors. The company aims to leverage its management team's expertise to drive growth and create value for shareholders.",
-    "products_services": "Investment and acquisition services targeting high-growth companies, primarily in real estate and technology.",
+    "description": "Snow Rothschild Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the technology and financial sectors. The firm aims to leverage its expertise and network to drive growth and value creation for its stakeholders.",
+    "products_services": "As a SPAC, it primarily offers capital and strategic support to target companies through mergers and acquisitions.",
     "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)",
-    "shares_outstanding": 150000000,
+    "shares_outstanding": 20000000,
     "proposed_price_low": 10.0,
     "proposed_price_high": 10.0,
     "price_range_low": 10.0,
@@ -1866,81 +1678,132 @@
     "price_range_high": 10.0
   },
   {
-    "id": "0002086549",
-    "cik": "0002086549",
-    "company_name": "Phalanx Acquisition Corp I",
-    "ticker": null,
-    "filing_type": "S-1",
-    "filing_date": "2026-07-16",
+    "id": "BMB",
+    "cik": "0002125355",
+    "company_name": "Bamboo Insurance Services, Inc.",
+    "ticker": "BMB",
+    "filing_type": "S-1/A",
+    "filing_date": "2026-08-28",
     "events": [
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2026-09-14",
+        "sec_accession": "0001628280-26-061664",
+        "details": "S-1/A"
+      },
       {
         "event_type": "filing",
         "filing_type": "S-1",
-        "event_date": "2026-07-16",
-        "sec_accession": "0001213900-26-078705",
-        "details": "REGISTRATION STATEMENT"
-      }
-    ],
-    "status": "filed",
-    "description": "Phalanx Acquisition Corp I is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the technology sector. The firm aims to leverage its expertise to drive growth and create value for shareholders post-merger.",
-    "products_services": "As a SPAC, Phalanx Acquisition Corp I does not offer traditional products or services but seeks to acquire a target company to bring it public and facilitate its growth.",
-    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)",
-    "shares_outstanding": 175000000,
-    "proposed_price_low": 10.0,
-    "proposed_price_high": 10.0,
-    "price_range_low": 10.0,
-    "price_range_high": 10.0
-  },
-  {
-    "id": "PTT",
-    "cik": "0002110025",
-    "company_name": "SIYATA PTT",
-    "ticker": "PTT",
-    "filing_type": "F-1/A",
-    "filing_date": "2026-08-06",
-    "events": [
-      {
-        "event_type": "amendment",
-        "filing_type": "F-1/A",
-        "event_date": "2026-09-15",
-        "sec_accession": "0001213900-26-100115",
-        "details": "AMENDMENT NO. 3 TO FORM F-1"
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "F-1/A",
-        "event_date": "2026-09-08",
-        "sec_accession": "0001213900-26-097968",
-        "details": "AMENDMENT NO. 2 TO FORM F-1"
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "F-1/A",
-        "event_date": "2026-08-25",
-        "sec_accession": "0001213900-26-093558",
-        "details": "AMENDMENT NO. 1 TO FORM F-1"
-      },
-      {
-        "event_type": "filing",
-        "filing_type": "F-1",
-        "event_date": "2026-08-06",
-        "sec_accession": "0001213900-26-085987",
-        "details": "REGISTRATION STATEMENT"
+        "event_date": "2026-08-28",
+        "sec_accession": "0001628280-26-059433",
+        "details": "S-1"
       },
       {
         "event_type": "exchange_upcoming",
         "filing_type": null,
-        "event_date": "2026-09-30"
+        "event_date": "2026-09-23"
       }
     ],
-    "exchange": "NASDAQ Capital",
-    "expected_date": "2026-09-30",
+    "exchange": "NYSE",
+    "expected_date": "2026-09-23",
     "actual_date": null,
-    "shares_offered": 6112327,
+    "shares_offered": 35000000,
     "offer_price": null,
-    "offer_amount": null,
+    "offer_amount": "$805,000,000",
+    "price_range_low": 18.0,
+    "price_range_high": 20.0,
     "status": "upcoming",
-    "_accession_for_extract": "0001213900-26-100115"
+    "_accession_for_extract": "0001628280-26-061664"
+  },
+  {
+    "id": "0002147457",
+    "cik": "0002147457",
+    "company_name": "Lower Cross Acquisitions Corp",
+    "ticker": null,
+    "filing_type": "S-1",
+    "filing_date": "2026-09-16",
+    "events": [
+      {
+        "event_type": "filing",
+        "filing_type": "S-1",
+        "event_date": "2026-09-16",
+        "sec_accession": "0001185185-26-004071",
+        "details": "FORM S-1"
+      }
+    ],
+    "status": "filed",
+    "_accession_for_extract": "0001185185-26-004071"
+  },
+  {
+    "id": "0002073516",
+    "cik": "0002073516",
+    "company_name": "ARC Group Acquisition II Corp.",
+    "ticker": null,
+    "filing_type": "S-1",
+    "filing_date": "2026-08-20",
+    "events": [
+      {
+        "event_type": "filing",
+        "filing_type": "S-1",
+        "event_date": "2026-08-20",
+        "sec_accession": "0001493152-26-039519",
+        "details": "S-1"
+      }
+    ],
+    "status": "filed",
+    "_accession_for_extract": "0001493152-26-039519"
+  },
+  {
+    "id": "XTERU",
+    "cik": "0002134856",
+    "company_name": "Karman Line Acquisition Corp.",
+    "ticker": "XTERU",
+    "filing_type": "424B4",
+    "filing_date": "2026-07-27",
+    "events": [
+      {
+        "event_type": "pricing",
+        "filing_type": "424B4",
+        "event_date": "2026-08-18",
+        "sec_accession": "0001829126-26-009017",
+        "details": "424B4"
+      },
+      {
+        "event_type": "effective",
+        "filing_type": "EFFECT",
+        "event_date": "2026-08-17",
+        "sec_accession": "9999999995-26-002682",
+        "details": ""
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2026-08-11",
+        "sec_accession": "0001829126-26-008622",
+        "details": "S-1/A"
+      },
+      {
+        "event_type": "filing",
+        "filing_type": "S-1",
+        "event_date": "2026-07-27",
+        "sec_accession": "0001829126-26-007847",
+        "details": "S-1"
+      },
+      {
+        "event_type": "exchange_listed",
+        "filing_type": null,
+        "event_date": "2026-08-18"
+      }
+    ],
+    "exchange": "NASDAQ Global",
+    "expected_date": null,
+    "actual_date": "2026-08-18",
+    "shares_offered": 20000000,
+    "offer_price": 10.0,
+    "offer_amount": "$200,000,000",
+    "status": "listed",
+    "_accession_for_extract": "0001829126-26-008622"
   },
   {
     "id": "AMRO",
@@ -2272,6 +2135,78 @@
     "proposed_price_high": 10.0,
     "price_range_low": 10.0,
     "price_range_high": 10.0
+  },
+  {
+    "id": "DPC",
+    "cik": "0002107018",
+    "company_name": "DPC Holdings PLC",
+    "ticker": "DPC",
+    "filing_type": "424B4",
+    "filing_date": "2026-05-26",
+    "events": [
+      {
+        "event_type": "pricing",
+        "filing_type": "424B4",
+        "event_date": "2026-06-26",
+        "sec_accession": "0001104659-26-077968",
+        "details": "424B4"
+      },
+      {
+        "event_type": "effective",
+        "filing_type": "EFFECT",
+        "event_date": "2026-06-24",
+        "sec_accession": "9999999995-26-002103",
+        "details": ""
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2026-06-22",
+        "sec_accession": "0001104659-26-076488",
+        "details": "S-1/A"
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2026-06-22",
+        "sec_accession": "0001104659-26-075932",
+        "details": "S-1/A"
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2026-06-15",
+        "sec_accession": "0001104659-26-073752",
+        "details": "S-1/A"
+      },
+      {
+        "event_type": "filing",
+        "filing_type": "S-1",
+        "event_date": "2026-05-26",
+        "sec_accession": "0001104659-26-066058",
+        "details": "S-1"
+      },
+      {
+        "event_type": "exchange_listed",
+        "filing_type": null,
+        "event_date": "2026-06-25"
+      }
+    ],
+    "exchange": "NYSE",
+    "expected_date": null,
+    "actual_date": "2026-06-25",
+    "shares_offered": 27858585,
+    "offer_price": 33.0,
+    "offer_amount": "$919,333,305",
+    "status": "listed",
+    "description": "DPC Holdings Ltd. is a dynamic investment firm focused on acquiring and managing a diverse portfolio of companies across various sectors. With a commitment to sustainable growth and innovation, DPC aims to enhance shareholder value through strategic investments and operational excellence.",
+    "products_services": "Investment management, portfolio diversification, strategic acquisitions, and operational support for subsidiary companies.",
+    "industry": "Investment and asset management.",
+    "shares_outstanding": 138470227,
+    "proposed_price_low": 28.0,
+    "proposed_price_high": 32.0,
+    "price_range_low": 28.0,
+    "price_range_high": 32.0
   },
   {
     "id": "DSC",
@@ -3478,6 +3413,64 @@
     "proposed_price_high": 12.0,
     "price_range_low": 10.0,
     "price_range_high": 12.0
+  },
+  {
+    "id": "FTRAU",
+    "cik": "0002131853",
+    "company_name": "FutureCorp Space Acquisition 1",
+    "ticker": "FTRAU",
+    "filing_type": "424B4",
+    "filing_date": "2026-05-20",
+    "events": [
+      {
+        "event_type": "pricing",
+        "filing_type": "424B4",
+        "event_date": "2026-06-05",
+        "sec_accession": "0001213900-26-065927",
+        "details": "PROSPECTUS"
+      },
+      {
+        "event_type": "effective",
+        "filing_type": "EFFECT",
+        "event_date": "2026-06-04",
+        "sec_accession": "9999999995-26-001886",
+        "details": ""
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2026-06-02",
+        "sec_accession": "0001213900-26-064137",
+        "details": "REGISTRATION STATEMENT"
+      },
+      {
+        "event_type": "filing",
+        "filing_type": "S-1",
+        "event_date": "2026-05-20",
+        "sec_accession": "0001213900-26-059156",
+        "details": "REGISTRATION STATEMENT"
+      },
+      {
+        "event_type": "exchange_listed",
+        "filing_type": null,
+        "event_date": "2026-06-05"
+      }
+    ],
+    "exchange": "NYSE",
+    "expected_date": null,
+    "actual_date": "2026-06-05",
+    "shares_offered": 20000000,
+    "offer_price": 10.0,
+    "offer_amount": "$200,000,000",
+    "status": "listed",
+    "description": "FutureCorp Space Acquisition is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the space industry. The company aims to accelerate growth and development in space exploration and technology through strategic partnerships and investments.",
+    "products_services": "FutureCorp Space Acquisition offers investment opportunities in emerging space technologies, satellite communications, and space exploration ventures.",
+    "industry": "Aerospace and Defense",
+    "shares_outstanding": 200000000,
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0,
+    "price_range_low": 10.0,
+    "price_range_high": 10.0
   },
   {
     "id": "LTGRU",
@@ -5216,6 +5209,71 @@
     "price_range_high": 158.14
   },
   {
+    "id": "MRCOU",
+    "cik": "0002106436",
+    "company_name": "Mercator Acquisition Corp.",
+    "ticker": "MRCOU",
+    "filing_type": "424B4",
+    "filing_date": "2026-03-02",
+    "events": [
+      {
+        "event_type": "pricing",
+        "filing_type": "424B4",
+        "event_date": "2026-07-10",
+        "sec_accession": "0001213900-26-076921",
+        "details": "PROSPECTUS"
+      },
+      {
+        "event_type": "effective",
+        "filing_type": "EFFECT",
+        "event_date": "2026-07-08",
+        "sec_accession": "9999999995-26-002219",
+        "details": ""
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2026-07-02",
+        "sec_accession": "0001213900-26-074947",
+        "details": "REGISTRATION STATEMENT"
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2026-03-23",
+        "sec_accession": "0001213900-26-032483",
+        "details": "REGISTRATION STATEMENT"
+      },
+      {
+        "event_type": "filing",
+        "filing_type": "S-1",
+        "event_date": "2026-03-02",
+        "sec_accession": "0001213900-26-021867",
+        "details": "REGISTRATION STATEMENT"
+      },
+      {
+        "event_type": "exchange_listed",
+        "filing_type": null,
+        "event_date": "2026-07-09"
+      }
+    ],
+    "exchange": "NASDAQ Global",
+    "expected_date": null,
+    "actual_date": "2026-07-09",
+    "shares_offered": 15000000,
+    "offer_price": 10.0,
+    "offer_amount": "$150,000,000",
+    "status": "listed",
+    "description": "Mercator Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the technology and consumer sectors. The firm aims to leverage its management team's expertise to drive growth and create value for shareholders.",
+    "products_services": "As a SPAC, Mercator Acquisition Corp. does not offer traditional products or services but seeks to acquire and support companies that provide innovative solutions in various industries.",
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)",
+    "shares_outstanding": 150000000,
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0,
+    "price_range_low": 10.0,
+    "price_range_high": 10.0
+  },
+  {
     "id": "FDMMU",
     "cik": "0002129659",
     "company_name": "Freedom Metals Acquisition Corp.",
@@ -5520,6 +5578,57 @@
     "price_range_high": 10.0
   },
   {
+    "id": "IPHXU",
+    "cik": "0002146310",
+    "company_name": "Inflection Point Acquisition Corp. VIII",
+    "ticker": "IPHXU",
+    "filing_type": "424B4",
+    "filing_date": "2026-08-10",
+    "events": [
+      {
+        "event_type": "pricing",
+        "filing_type": "424B4",
+        "event_date": "2026-08-31",
+        "sec_accession": "0001213900-26-095396",
+        "details": "PROSPECTUS"
+      },
+      {
+        "event_type": "effective",
+        "filing_type": "EFFECT",
+        "event_date": "2026-08-27",
+        "sec_accession": "9999999995-26-002781",
+        "details": ""
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2026-08-24",
+        "sec_accession": "0001213900-26-093109",
+        "details": "REGISTRATION STATEMENT"
+      },
+      {
+        "event_type": "filing",
+        "filing_type": "S-1",
+        "event_date": "2026-08-10",
+        "sec_accession": "0001213900-26-086901",
+        "details": "REGISTRATION STATEMENT"
+      },
+      {
+        "event_type": "exchange_listed",
+        "filing_type": null,
+        "event_date": "2026-08-28"
+      }
+    ],
+    "exchange": "NASDAQ Global",
+    "expected_date": null,
+    "actual_date": "2026-08-28",
+    "shares_offered": 25000000,
+    "offer_price": 10.0,
+    "offer_amount": "$250,000,000",
+    "status": "listed",
+    "_accession_for_extract": "0001213900-26-093109"
+  },
+  {
     "id": "RNAQU",
     "cik": "0002147219",
     "company_name": "Rainier Acquisition Corp",
@@ -5569,50 +5678,6 @@
     "offer_amount": "$75,000,000",
     "status": "listed",
     "_accession_for_extract": "0001104659-26-099825"
-  },
-  {
-    "id": "JTTT",
-    "cik": "0002145659",
-    "company_name": "JATT III Acquisition Corp",
-    "ticker": "JTTT",
-    "filing_type": "424B4",
-    "filing_date": "2026-08-10",
-    "events": [
-      {
-        "event_type": "pricing",
-        "filing_type": "424B4",
-        "event_date": "2026-08-26",
-        "sec_accession": "0001213900-26-093949",
-        "details": "PROSPECTUS"
-      },
-      {
-        "event_type": "effective",
-        "filing_type": "EFFECT",
-        "event_date": "2026-08-25",
-        "sec_accession": "9999999995-26-002757",
-        "details": ""
-      },
-      {
-        "event_type": "filing",
-        "filing_type": "S-1",
-        "event_date": "2026-08-10",
-        "sec_accession": "0001213900-26-086864",
-        "details": "REGISTRATION STATEMENT"
-      },
-      {
-        "event_type": "exchange_listed",
-        "filing_type": null,
-        "event_date": "2026-08-26"
-      }
-    ],
-    "exchange": "NASDAQ Capital",
-    "expected_date": null,
-    "actual_date": "2026-08-26",
-    "shares_offered": 6000000,
-    "offer_price": 10.0,
-    "offer_amount": "$60,000,000",
-    "status": "listed",
-    "_accession_for_extract": "0001213900-26-086864"
   },
   {
     "id": "SCATU",
@@ -6221,6 +6286,57 @@
     "_accession_for_extract": "0001193125-26-331205"
   },
   {
+    "id": "BLSM",
+    "cik": "0001839970",
+    "company_name": "BlossomHill Therapeutics, Inc.",
+    "ticker": "BLSM",
+    "filing_type": "424B4",
+    "filing_date": "2026-07-17",
+    "events": [
+      {
+        "event_type": "pricing",
+        "filing_type": "424B4",
+        "event_date": "2026-08-07",
+        "sec_accession": "0001193125-26-340215",
+        "details": "424B4"
+      },
+      {
+        "event_type": "effective",
+        "filing_type": "EFFECT",
+        "event_date": "2026-08-06",
+        "sec_accession": "9999999995-26-002565",
+        "details": ""
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2026-08-03",
+        "sec_accession": "0001193125-26-329416",
+        "details": "S-1/A: AMENDMENT NO. 1"
+      },
+      {
+        "event_type": "filing",
+        "filing_type": "S-1",
+        "event_date": "2026-07-17",
+        "sec_accession": "0001193125-26-306506",
+        "details": "S-1"
+      },
+      {
+        "event_type": "exchange_listed",
+        "filing_type": null,
+        "event_date": "2026-08-07"
+      }
+    ],
+    "exchange": "NASDAQ Global Select",
+    "expected_date": null,
+    "actual_date": "2026-08-07",
+    "shares_offered": 9375000,
+    "offer_price": 16.0,
+    "offer_amount": "$150,000,000",
+    "status": "listed",
+    "_accession_for_extract": "0001193125-26-329416"
+  },
+  {
     "id": "OCLTU",
     "cik": "0002137679",
     "company_name": "OceanLight Acquisition Corp",
@@ -6606,6 +6722,30 @@
     "_accession_for_extract": "0001193125-26-361172"
   },
   {
+    "id": "PTT",
+    "cik": null,
+    "company_name": "SIYATA PTT",
+    "ticker": "PTT",
+    "exchange": "NASDAQ Capital",
+    "expected_date": "2026-09-30",
+    "actual_date": null,
+    "price_range_low": null,
+    "price_range_high": null,
+    "offer_price": null,
+    "shares_offered": 6112327,
+    "offer_amount": "",
+    "filing_type": null,
+    "filing_date": null,
+    "events": [
+      {
+        "event_type": "exchange_upcoming",
+        "filing_type": null,
+        "event_date": "2026-09-30"
+      }
+    ],
+    "status": "upcoming"
+  },
+  {
     "id": "HNUC",
     "cik": null,
     "company_name": "Holtec Nuclear Corp",
@@ -6681,85 +6821,25 @@
     "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)"
   },
   {
-    "id": "DPC",
+    "id": "JTTT",
     "cik": null,
-    "company_name": "DPC Holdings PLC",
-    "ticker": "DPC",
-    "exchange": "NYSE",
+    "company_name": "JATT III Acquisition Corp",
+    "ticker": "JTTT",
+    "exchange": "NASDAQ Capital",
     "expected_date": null,
-    "actual_date": "2026-06-25",
-    "price_range_low": 28.0,
-    "price_range_high": 32.0,
-    "offer_price": 33.0,
-    "shares_offered": 27858585,
-    "offer_amount": "$919,333,305",
-    "filing_type": null,
-    "filing_date": null,
-    "events": [
-      {
-        "event_type": "exchange_listed",
-        "filing_type": null,
-        "event_date": "2026-06-25"
-      }
-    ],
-    "status": "listed",
-    "description": "DPC Holdings Ltd. is a dynamic investment firm focused on acquiring and managing a diverse portfolio of companies across various sectors. With a commitment to sustainable growth and innovation, DPC aims to enhance shareholder value through strategic investments and operational excellence.",
-    "products_services": "Investment management, portfolio diversification, strategic acquisitions, and operational support for subsidiary companies.",
-    "industry": "Investment and asset management.",
-    "shares_outstanding": 138470227,
-    "proposed_price_low": 28.0,
-    "proposed_price_high": 32.0
-  },
-  {
-    "id": "MRCOU",
-    "cik": null,
-    "company_name": "Mercator Acquisition Corp.",
-    "ticker": "MRCOU",
-    "exchange": "NASDAQ Global",
-    "expected_date": null,
-    "actual_date": "2026-07-09",
-    "price_range_low": 10.0,
-    "price_range_high": 10.0,
-    "offer_price": 10.0,
-    "shares_offered": 15000000,
-    "offer_amount": "$150,000,000",
-    "filing_type": null,
-    "filing_date": null,
-    "events": [
-      {
-        "event_type": "exchange_listed",
-        "filing_type": null,
-        "event_date": "2026-07-09"
-      }
-    ],
-    "status": "listed",
-    "description": "Mercator Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the technology and consumer sectors. The firm aims to leverage its management team's expertise to drive growth and create value for shareholders.",
-    "products_services": "As a SPAC, Mercator Acquisition Corp. does not offer traditional products or services but seeks to acquire and support companies that provide innovative solutions in various industries.",
-    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)",
-    "shares_outstanding": 150000000,
-    "proposed_price_low": 10.0,
-    "proposed_price_high": 10.0
-  },
-  {
-    "id": "IPHXU",
-    "cik": null,
-    "company_name": "Inflection Point Acquisition Corp. VIII",
-    "ticker": "IPHXU",
-    "exchange": "NASDAQ Global",
-    "expected_date": null,
-    "actual_date": "2026-08-28",
+    "actual_date": "2026-08-26",
     "price_range_low": null,
     "price_range_high": null,
     "offer_price": 10.0,
-    "shares_offered": 25000000,
-    "offer_amount": "$250,000,000",
+    "shares_offered": 6000000,
+    "offer_amount": "$60,000,000",
     "filing_type": null,
     "filing_date": null,
     "events": [
       {
         "event_type": "exchange_listed",
         "filing_type": null,
-        "event_date": "2026-08-28"
+        "event_date": "2026-08-26"
       }
     ],
     "status": "listed"
@@ -6793,30 +6873,6 @@
     "shares_outstanding": 20000000,
     "proposed_price_low": 10.0,
     "proposed_price_high": 10.0
-  },
-  {
-    "id": "BLSM",
-    "cik": null,
-    "company_name": "BlossomHill Therapeutics, Inc.",
-    "ticker": "BLSM",
-    "exchange": "NASDAQ Global Select",
-    "expected_date": null,
-    "actual_date": "2026-08-07",
-    "price_range_low": null,
-    "price_range_high": null,
-    "offer_price": 16.0,
-    "shares_offered": 9375000,
-    "offer_amount": "$150,000,000",
-    "filing_type": null,
-    "filing_date": null,
-    "events": [
-      {
-        "event_type": "exchange_listed",
-        "filing_type": null,
-        "event_date": "2026-08-07"
-      }
-    ],
-    "status": "listed"
   },
   {
     "id": "giftsinternationalho",
@@ -8952,32 +9008,6 @@
     "proposed_price_high": 8.15,
     "price_range_low": 8.15,
     "price_range_high": 8.15
-  },
-  {
-    "id": "0002145409",
-    "cik": "0002145409",
-    "company_name": "GX Acquisition Corp. III/Cayman",
-    "ticker": null,
-    "filing_type": "S-1/A",
-    "filing_date": "2026-08-03",
-    "events": [
-      {
-        "event_type": "amendment",
-        "filing_type": "S-1/A",
-        "event_date": "2026-08-12",
-        "sec_accession": "0001185185-26-003452",
-        "details": "FORM S-1/A"
-      },
-      {
-        "event_type": "filing",
-        "filing_type": "S-1",
-        "event_date": "2026-08-03",
-        "sec_accession": "0001185185-26-003214",
-        "details": "FORM S-1"
-      }
-    ],
-    "status": "amended",
-    "_accession_for_extract": "0001185185-26-003452"
   },
   {
     "id": "MDAT",
