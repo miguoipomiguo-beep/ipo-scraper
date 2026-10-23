@@ -1,5 +1,183 @@
 [
   {
+    "id": "ALLN",
+    "cik": "0002141983",
+    "company_name": "Allarity Acquisition Corp.",
+    "ticker": "ALLN",
+    "filing_type": "S-1/A",
+    "filing_date": "2026-09-10",
+    "events": [
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2026-10-09",
+        "sec_accession": "0001493152-26-046438",
+        "details": "S-1/A"
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2026-10-06",
+        "sec_accession": "0001493152-26-045923",
+        "details": "S-1/A"
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2026-10-02",
+        "sec_accession": "0001493152-26-045457",
+        "details": "S-1/A"
+      },
+      {
+        "event_type": "filing",
+        "filing_type": "S-1",
+        "event_date": "2026-09-10",
+        "sec_accession": "0001493152-26-042104",
+        "details": "S-1"
+      }
+    ],
+    "status": "amended",
+    "_accession_for_extract": "0001493152-26-046438"
+  },
+  {
+    "id": "RGNT",
+    "cik": "0001912966",
+    "company_name": "REGENTIS BIOMATERIALS LTD.",
+    "ticker": "RGNT",
+    "filing_type": "EFFECT",
+    "filing_date": "2022-11-04",
+    "events": [
+      {
+        "event_type": "effective",
+        "filing_type": "EFFECT",
+        "event_date": "2026-09-22",
+        "sec_accession": "9999999995-26-003029",
+        "details": ""
+      },
+      {
+        "event_type": "effective",
+        "filing_type": "EFFECT",
+        "event_date": "2026-07-13",
+        "sec_accession": "9999999995-26-002284",
+        "details": ""
+      },
+      {
+        "event_type": "filing",
+        "filing_type": "F-1",
+        "event_date": "2026-07-08",
+        "sec_accession": "0001213900-26-076392",
+        "details": "REGISTRATION STATEMENT"
+      },
+      {
+        "event_type": "withdrawal",
+        "filing_type": "RW",
+        "event_date": "2026-06-15",
+        "sec_accession": "0001213900-26-068596",
+        "details": "WITHDRAWAL REQUEST"
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "F-1/A",
+        "event_date": "2026-06-09",
+        "sec_accession": "0001213900-26-066555",
+        "details": "AMENDMENT NO. 1 TO FORM F-1"
+      },
+      {
+        "event_type": "filing",
+        "filing_type": "F-1",
+        "event_date": "2026-05-01",
+        "sec_accession": "0001213900-26-051034",
+        "details": "REGISTRATION STATEMENT"
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "F-1/A",
+        "event_date": "2025-10-24",
+        "sec_accession": "0001213900-25-101900",
+        "details": "AMENDMENT NO. 6 TO FORM F-1"
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "F-1/A",
+        "event_date": "2025-09-30",
+        "sec_accession": "0001213900-25-093302",
+        "details": "AMENDMENT NO. 5 TO FORM F-1"
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "F-1/A",
+        "event_date": "2025-09-09",
+        "sec_accession": "0001213900-25-085690",
+        "details": "AMENDMENT NO. 4 TO FORM F-1"
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "F-1/A",
+        "event_date": "2025-07-07",
+        "sec_accession": "0001213900-25-061821",
+        "details": "AMENDMENT NO. 3 TO FORM F-1"
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "F-1/A",
+        "event_date": "2025-05-19",
+        "sec_accession": "0001213900-25-045479",
+        "details": "AMENDMENT NO. 2 TO FORM F-1"
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "F-1/A",
+        "event_date": "2025-05-05",
+        "sec_accession": "0001213900-25-039589",
+        "details": "AMENDMENT NO. 1 TO FORM F-1"
+      },
+      {
+        "event_type": "filing",
+        "filing_type": "F-1",
+        "event_date": "2025-03-11",
+        "sec_accession": "0001213900-25-022350",
+        "details": "REGISTRATION STATEMENT"
+      },
+      {
+        "event_type": "withdrawal",
+        "filing_type": "RW",
+        "event_date": "2024-11-21",
+        "sec_accession": "0001213900-24-101083",
+        "details": "REIGSTRATION WITHDRAWAL REQUEST"
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "F-1/A",
+        "event_date": "2022-12-19",
+        "sec_accession": "0001213900-22-080923",
+        "details": "AMENDMENT NO. 2 TO FORM F-1"
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "F-1/A",
+        "event_date": "2022-12-07",
+        "sec_accession": "0001213900-22-078151",
+        "details": "AMENDMENT NO. 1 TO FORM F-1"
+      },
+      {
+        "event_type": "filing",
+        "filing_type": "F-1",
+        "event_date": "2022-11-04",
+        "sec_accession": "0001213900-22-069365",
+        "details": "REGISTRATION STATEMENT"
+      }
+    ],
+    "status": "listed",
+    "description": "REGENTIS BIOMATERIALS LTD. is a biotechnology company focused on developing innovative biomaterials for regenerative medicine applications. Their flagship product aims to enhance tissue repair and regeneration in orthopedic and dental procedures.",
+    "products_services": "Biomaterials for tissue regeneration, specifically designed for orthopedic and dental applications.",
+    "industry": "Biotechnology",
+    "shares_outstanding": 7023921,
+    "proposed_price_low": 3.64,
+    "proposed_price_high": 3.64,
+    "price_range_low": 3.64,
+    "price_range_high": 3.64
+  },
+  {
     "id": "DHGR",
     "cik": "0002000684",
     "company_name": "Devonian Health Group Inc.",
@@ -26,282 +204,366 @@
     "_accession_for_extract": "0001104659-26-104757"
   },
   {
-    "id": "HYACU",
-    "cik": "0002111838",
-    "company_name": "Haymaker Acquisition Corp V",
-    "ticker": "HYACU",
+    "id": "0002073516",
+    "cik": "0002073516",
+    "company_name": "ARC Group Acquisition II Corp.",
+    "ticker": null,
+    "filing_type": "S-1",
+    "filing_date": "2026-08-20",
+    "events": [
+      {
+        "event_type": "filing",
+        "filing_type": "S-1",
+        "event_date": "2026-08-20",
+        "sec_accession": "0001493152-26-039519",
+        "details": "S-1"
+      }
+    ],
+    "status": "filed",
+    "_accession_for_extract": "0001493152-26-039519"
+  },
+  {
+    "id": "0002081641",
+    "cik": "0002081641",
+    "company_name": "Worldstar Engineering Holdings Ltd",
+    "ticker": null,
+    "filing_type": "F-1",
+    "filing_date": "2026-06-30",
+    "events": [
+      {
+        "event_type": "filing",
+        "filing_type": "F-1",
+        "event_date": "2026-06-30",
+        "sec_accession": "0001213900-26-073347",
+        "details": "REGISTRATION STATEMENT"
+      }
+    ],
+    "status": "filed",
+    "description": "Worldstar Engineering Holdings Ltd. is a leading provider of innovative engineering solutions, specializing in advanced manufacturing and technology integration. The company focuses on delivering high-quality products and services to various sectors, including aerospace, automotive, and industrial applications.",
+    "products_services": "Advanced manufacturing solutions, engineering consulting, technology integration, and custom machinery design.",
+    "industry": "Engineering and Manufacturing",
+    "shares_outstanding": 5000000,
+    "proposed_price_low": 5.0,
+    "proposed_price_high": 6.0,
+    "price_range_low": 5.0,
+    "price_range_high": 6.0
+  },
+  {
+    "id": "JONEU",
+    "cik": "0002129056",
+    "company_name": "Jones Ventures INTL Acquisition1 Corp",
+    "ticker": "JONEU",
     "filing_type": "424B4",
-    "filing_date": "2026-08-25",
+    "filing_date": "2026-05-15",
     "events": [
       {
         "event_type": "pricing",
         "filing_type": "424B4",
-        "event_date": "2026-09-18",
-        "sec_accession": "0001193125-26-395319",
-        "details": "424B4"
+        "event_date": "2026-07-15",
+        "sec_accession": "0001213900-26-078066",
+        "details": "PROSPECTUS"
+      },
+      {
+        "event_type": "pricing",
+        "filing_type": "424B4",
+        "event_date": "2026-07-15",
+        "sec_accession": "0001213900-26-078062",
+        "details": "PROSPECTUS"
       },
       {
         "event_type": "effective",
         "filing_type": "EFFECT",
-        "event_date": "2026-09-16",
-        "sec_accession": "9999999995-26-002979",
+        "event_date": "2026-07-13",
+        "sec_accession": "9999999995-26-002271",
         "details": ""
       },
       {
         "event_type": "amendment",
         "filing_type": "S-1/A",
-        "event_date": "2026-09-15",
-        "sec_accession": "0001193125-26-391060",
-        "details": "S-1/A"
+        "event_date": "2026-07-09",
+        "sec_accession": "0001213900-26-076752",
+        "details": "REGISTRATION STATEMENT"
       },
       {
         "event_type": "amendment",
         "filing_type": "S-1/A",
-        "event_date": "2026-09-11",
-        "sec_accession": "0001193125-26-389409",
-        "details": "S-1/A"
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "S-1/A",
-        "event_date": "2026-09-02",
-        "sec_accession": "0001193125-26-380080",
-        "details": "S-1/A"
+        "event_date": "2026-07-06",
+        "sec_accession": "0001213900-26-075567",
+        "details": "REGISTRATION STATEMENT"
       },
       {
         "event_type": "filing",
         "filing_type": "S-1",
-        "event_date": "2026-08-25",
-        "sec_accession": "0001193125-26-363922",
-        "details": "S-1"
+        "event_date": "2026-05-15",
+        "sec_accession": "0001213900-26-057072",
+        "details": "REGISTRATION STATEMENT"
       },
       {
         "event_type": "exchange_listed",
         "filing_type": null,
-        "event_date": "2026-09-17"
+        "event_date": "2026-07-14"
       }
     ],
-    "exchange": "NYSE",
+    "exchange": "NASDAQ Global",
     "expected_date": null,
-    "actual_date": "2026-09-17",
-    "shares_offered": 25000000,
+    "actual_date": "2026-07-14",
+    "shares_offered": 20000000,
     "offer_price": 10.0,
-    "offer_amount": "$250,000,000",
+    "offer_amount": "$200,000,000",
     "status": "listed",
-    "_accession_for_extract": "0001193125-26-391060"
+    "description": "Jones Ventures INTL Acquisition1 Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative businesses in the technology and consumer sectors. The company aims to leverage its expertise to drive growth and create value for shareholders through strategic acquisitions.",
+    "products_services": "The company primarily engages in identifying and acquiring businesses with high growth potential, particularly in technology and consumer markets.",
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)",
+    "shares_outstanding": 23666667,
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0,
+    "price_range_low": 10.0,
+    "price_range_high": 10.0
   },
   {
-    "id": "DRIL",
-    "cik": "0001851535",
-    "company_name": "Lannister Mining Corp.",
-    "ticker": "DRIL",
+    "id": "MTAKU",
+    "cik": "0002133136",
+    "company_name": "Market Technology Acquisition Corp",
+    "ticker": "MTAKU",
+    "filing_type": "424B4",
+    "filing_date": "2026-06-16",
+    "events": [
+      {
+        "event_type": "pricing",
+        "filing_type": "424B4",
+        "event_date": "2026-07-27",
+        "sec_accession": "0001213900-26-081597",
+        "details": "PROSPECTUS"
+      },
+      {
+        "event_type": "effective",
+        "filing_type": "EFFECT",
+        "event_date": "2026-07-23",
+        "sec_accession": "9999999995-26-002414",
+        "details": ""
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2026-07-22",
+        "sec_accession": "0001213900-26-080237",
+        "details": "REGISTRATION STATEMENT"
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2026-07-10",
+        "sec_accession": "0001213900-26-076891",
+        "details": "REGISTRATION STATEMENT"
+      },
+      {
+        "event_type": "filing",
+        "filing_type": "S-1",
+        "event_date": "2026-06-16",
+        "sec_accession": "0001213900-26-069333",
+        "details": "REGISTRATION STATEMENT"
+      },
+      {
+        "event_type": "exchange_listed",
+        "filing_type": null,
+        "event_date": "2026-07-24"
+      }
+    ],
+    "exchange": "NASDAQ Global",
+    "expected_date": null,
+    "actual_date": "2026-07-24",
+    "shares_offered": 20000000,
+    "offer_price": 10.0,
+    "offer_amount": "$200,000,000",
+    "status": "listed",
+    "description": "Market Technology Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative technology firms. The company aims to leverage its expertise in the market to drive growth and create value for shareholders.",
+    "products_services": "Market Technology Acquisition Corp. primarily engages in the acquisition and merger of technology companies, providing them with capital and strategic support to accelerate their growth.",
+    "industry": "Financial Services / SPACs",
+    "shares_outstanding": 20000000,
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0,
+    "price_range_low": 10.0,
+    "price_range_high": 10.0
+  },
+  {
+    "id": "CGL",
+    "cik": "0001934387",
+    "company_name": "CGL Logistics Holdings Ltd",
+    "ticker": "CGL",
     "filing_type": "F-1/A",
-    "filing_date": "2024-07-31",
+    "filing_date": "2025-10-23",
     "events": [
       {
         "event_type": "amendment",
         "filing_type": "F-1/A",
-        "event_date": "2026-09-17",
-        "sec_accession": "0001213900-26-100639",
-        "details": "AMENDMENT NO. 13 TO FORM F-1"
+        "event_date": "2026-10-16",
+        "sec_accession": "0001493152-26-047322",
+        "details": "F-1/A"
       },
       {
         "event_type": "amendment",
         "filing_type": "F-1/A",
-        "event_date": "2026-07-22",
-        "sec_accession": "0001213900-26-080457",
-        "details": "AMENDMENT NO. 12 TO FORM F-1"
+        "event_date": "2026-09-29",
+        "sec_accession": "0001493152-26-044699",
+        "details": "F-1/A"
       },
       {
         "event_type": "amendment",
         "filing_type": "F-1/A",
-        "event_date": "2026-05-29",
-        "sec_accession": "0001213900-26-062964",
-        "details": "AMENDMENT NO. 11 TO FORM F-1"
+        "event_date": "2026-09-04",
+        "sec_accession": "0001493152-26-041504",
+        "details": "F-1/A"
       },
       {
         "event_type": "amendment",
         "filing_type": "F-1/A",
-        "event_date": "2026-05-21",
-        "sec_accession": "0001213900-26-060110",
-        "details": "AMENDMENT NO. 10 TO FORM F-1"
+        "event_date": "2026-04-17",
+        "sec_accession": "0001493152-26-017168",
+        "details": "F-1/A"
       },
       {
         "event_type": "amendment",
         "filing_type": "F-1/A",
-        "event_date": "2026-05-11",
-        "sec_accession": "0001213900-26-054149",
-        "details": "AMENDMENT NO. 9 TO FORM F-1"
+        "event_date": "2026-04-02",
+        "sec_accession": "0001493152-26-014805",
+        "details": "F-1/A"
       },
       {
         "event_type": "amendment",
         "filing_type": "F-1/A",
-        "event_date": "2026-03-17",
-        "sec_accession": "0001213900-26-028599",
-        "details": "AMENDMENT NO. 8 TO FORM F-1"
+        "event_date": "2026-03-30",
+        "sec_accession": "0001493152-26-013468",
+        "details": "F-1/A"
       },
       {
         "event_type": "amendment",
         "filing_type": "F-1/A",
-        "event_date": "2026-03-06",
-        "sec_accession": "0001213900-26-024781",
-        "details": "AMENDMENT NO. 7 TO FORM F-1"
+        "event_date": "2026-03-19",
+        "sec_accession": "0001493152-26-011571",
+        "details": "F-1/A"
       },
       {
         "event_type": "amendment",
         "filing_type": "F-1/A",
-        "event_date": "2026-02-12",
-        "sec_accession": "0001213900-26-015533",
-        "details": "AMENDMENT NO. 6 TO FORM F-1"
+        "event_date": "2026-03-02",
+        "sec_accession": "0001493152-26-008488",
+        "details": "F-1/A"
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "F-1/A",
+        "event_date": "2026-02-02",
+        "sec_accession": "0001493152-26-004679",
+        "details": "F-1/A"
       },
       {
         "event_type": "amendment",
         "filing_type": "F-1/A",
         "event_date": "2025-12-12",
-        "sec_accession": "0001213900-25-121192",
-        "details": "AMENDMENT NO. 5 TO FORM F-1"
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "F-1/A",
-        "event_date": "2025-10-21",
-        "sec_accession": "0001213900-25-100907",
-        "details": "AMENDMENT NO. 4 TO FORM F-1"
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "F-1/A",
-        "event_date": "2025-08-05",
-        "sec_accession": "0001213900-25-072122",
-        "details": "AMENDMENT NO. 3 TO FORM F-1"
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "F-1/A",
-        "event_date": "2025-06-10",
-        "sec_accession": "0001213900-25-053154",
-        "details": "AMENDMENT NO. 2 TO FORM F-1"
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "F-1/A",
-        "event_date": "2025-05-02",
-        "sec_accession": "0001213900-25-039123",
-        "details": "AMENDMENT NO. 1 TO FORM F-1"
+        "sec_accession": "0001493152-25-027531",
+        "details": "F-1/A"
       },
       {
         "event_type": "filing",
         "filing_type": "F-1",
-        "event_date": "2024-07-31",
-        "sec_accession": "0001013762-24-003297",
-        "details": "REGISTRATION STATEMENT"
+        "event_date": "2025-10-23",
+        "sec_accession": "0001493152-25-019107",
+        "details": "F-1"
       }
     ],
     "status": "amended",
-    "_accession_for_extract": "0001213900-26-100639"
+    "description": "CGL Logistics Holdings Ltd. is a leading provider of integrated logistics solutions, specializing in supply chain management and transportation services. The company aims to enhance operational efficiency for businesses through innovative logistics strategies and technology-driven solutions.",
+    "products_services": "Integrated logistics solutions, supply chain management, transportation services, warehousing, and distribution.",
+    "industry": "Logistics and Supply Chain Management",
+    "shares_outstanding": 3750000,
+    "proposed_price_low": 4.0,
+    "proposed_price_high": 4.0,
+    "price_range_low": 4.0,
+    "price_range_high": 4.0
   },
   {
-    "id": "0002118192",
-    "cik": "0002118192",
-    "company_name": "DayOne Data Centers Ltd",
-    "ticker": null,
-    "filing_type": "F-1",
-    "filing_date": "2026-10-05",
+    "id": "BMB",
+    "cik": "0002125355",
+    "company_name": "Bamboo Insurance Services, Inc.",
+    "ticker": "BMB",
+    "filing_type": "S-1/A",
+    "filing_date": "2026-08-28",
     "events": [
-      {
-        "event_type": "filing",
-        "filing_type": "F-1",
-        "event_date": "2026-10-05",
-        "sec_accession": "0001193125-26-414188",
-        "details": "FORM F-1"
-      }
-    ],
-    "status": "filed",
-    "_accession_for_extract": "0001193125-26-414188"
-  },
-  {
-    "id": "BRRKU",
-    "cik": "0002098410",
-    "company_name": "Bluerock Acquisition Corp. II",
-    "ticker": "BRRKU",
-    "filing_type": "424B4",
-    "filing_date": "2026-07-24",
-    "events": [
-      {
-        "event_type": "pricing",
-        "filing_type": "424B4",
-        "event_date": "2026-09-25",
-        "sec_accession": "0001104659-26-111049",
-        "details": "424B4"
-      },
-      {
-        "event_type": "effective",
-        "filing_type": "EFFECT",
-        "event_date": "2026-09-24",
-        "sec_accession": "9999999995-26-003051",
-        "details": ""
-      },
       {
         "event_type": "amendment",
         "filing_type": "S-1/A",
-        "event_date": "2026-09-22",
-        "sec_accession": "0001104659-26-109546",
-        "details": "S-1/A"
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "S-1/A",
-        "event_date": "2026-09-09",
-        "sec_accession": "0001104659-26-106379",
+        "event_date": "2026-09-14",
+        "sec_accession": "0001628280-26-061664",
         "details": "S-1/A"
       },
       {
         "event_type": "filing",
         "filing_type": "S-1",
-        "event_date": "2026-07-24",
-        "sec_accession": "0001104659-26-086682",
+        "event_date": "2026-08-28",
+        "sec_accession": "0001628280-26-059433",
+        "details": "S-1"
+      }
+    ],
+    "status": "amended",
+    "_accession_for_extract": "0001628280-26-061664"
+  },
+  {
+    "id": "MIACU",
+    "cik": "0002136530",
+    "company_name": "Meridian3 Industrials Acquisition Corp",
+    "ticker": "MIACU",
+    "filing_type": "424B4",
+    "filing_date": "2026-06-04",
+    "events": [
+      {
+        "event_type": "pricing",
+        "filing_type": "424B4",
+        "event_date": "2026-07-02",
+        "sec_accession": "0001104659-26-080405",
+        "details": "424B4"
+      },
+      {
+        "event_type": "effective",
+        "filing_type": "EFFECT",
+        "event_date": "2026-07-01",
+        "sec_accession": "9999999995-26-002179",
+        "details": ""
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2026-06-29",
+        "sec_accession": "0001104659-26-078781",
+        "details": "S-1/A"
+      },
+      {
+        "event_type": "filing",
+        "filing_type": "S-1",
+        "event_date": "2026-06-04",
+        "sec_accession": "0001104659-26-070583",
         "details": "S-1"
       },
       {
         "event_type": "exchange_listed",
         "filing_type": null,
-        "event_date": "2026-09-25"
+        "event_date": "2026-07-02"
       }
     ],
     "exchange": "NASDAQ Global",
     "expected_date": null,
-    "actual_date": "2026-09-25",
-    "shares_offered": 15000000,
+    "actual_date": "2026-07-02",
+    "shares_offered": 17500000,
     "offer_price": 10.0,
-    "offer_amount": "$150,000,000",
+    "offer_amount": "$175,000,000",
     "status": "listed",
-    "_accession_for_extract": "0001104659-26-109546"
-  },
-  {
-    "id": "0002095150",
-    "cik": "0002095150",
-    "company_name": "ChainOn Group Ltd",
-    "ticker": null,
-    "filing_type": "F-1",
-    "filing_date": "2026-06-25",
-    "events": [
-      {
-        "event_type": "filing",
-        "filing_type": "F-1",
-        "event_date": "2026-06-25",
-        "sec_accession": "0001493152-26-030109",
-        "details": "F-1"
-      }
-    ],
-    "status": "filed",
-    "description": "ChainOn Group Ltd. is a technology-driven company specializing in blockchain solutions for supply chain management. The company aims to enhance transparency and efficiency in logistics through innovative digital platforms.",
-    "products_services": "Blockchain-based supply chain management solutions, logistics optimization software, and data analytics services.",
-    "industry": "Technology and Supply Chain Management",
-    "shares_outstanding": 6250000,
-    "proposed_price_low": 4,
-    "proposed_price_high": 6,
-    "price_range_low": 4,
-    "price_range_high": 6
+    "description": "Meridian3 Industrials Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative industrial firms. The company aims to leverage its expertise to drive growth and operational efficiencies in the industrial sector.",
+    "products_services": "Meridian3 Industrials Acquisition Corp. does not offer products or services directly but seeks to acquire and enhance the operations of target industrial companies.",
+    "industry": "Industrial Acquisition and Investment",
+    "shares_outstanding": 175000000,
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0,
+    "price_range_low": 10.0,
+    "price_range_high": 10.0
   },
   {
     "id": "AEIB",
@@ -435,193 +697,6 @@
     "_accession_for_extract": "0001493152-26-043710"
   },
   {
-    "id": "CATLU",
-    "cik": "0002104391",
-    "company_name": "Catalyst Acquisition Corp.",
-    "ticker": "CATLU",
-    "filing_type": "424B4",
-    "filing_date": "2026-07-08",
-    "events": [
-      {
-        "event_type": "pricing",
-        "filing_type": "424B4",
-        "event_date": "2026-07-28",
-        "sec_accession": "0001213900-26-081980",
-        "details": "PROSPECTUS"
-      },
-      {
-        "event_type": "effective",
-        "filing_type": "EFFECT",
-        "event_date": "2026-07-27",
-        "sec_accession": "9999999995-26-002460",
-        "details": ""
-      },
-      {
-        "event_type": "filing",
-        "filing_type": "S-1",
-        "event_date": "2026-07-08",
-        "sec_accession": "0001213900-26-076132",
-        "details": "REGISTRATION STATEMENT"
-      },
-      {
-        "event_type": "exchange_listed",
-        "filing_type": null,
-        "event_date": "2026-07-28"
-      }
-    ],
-    "exchange": "NASDAQ Global",
-    "expected_date": null,
-    "actual_date": "2026-07-28",
-    "shares_offered": 20000000,
-    "offer_price": 10.0,
-    "offer_amount": "$200,000,000",
-    "status": "listed",
-    "description": "Catalyst Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in high-growth sectors. The firm aims to leverage its expertise to create value for shareholders through strategic partnerships and operational improvements.",
-    "products_services": "Catalyst Acquisition Corp. primarily engages in the acquisition and merger of companies, providing them with capital and resources to accelerate growth and expansion.",
-    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)",
-    "shares_outstanding": 5750000,
-    "proposed_price_low": 10.0,
-    "proposed_price_high": 10.0,
-    "price_range_low": 10.0,
-    "price_range_high": 10.0
-  },
-  {
-    "id": "LEDRU",
-    "cik": "0002109823",
-    "company_name": "Leader's Advantage Acquisition Corp.",
-    "ticker": "LEDRU",
-    "filing_type": "424B4",
-    "filing_date": "2026-06-15",
-    "events": [
-      {
-        "event_type": "pricing",
-        "filing_type": "424B4",
-        "event_date": "2026-09-21",
-        "sec_accession": "0001213900-26-101599",
-        "details": "PROSPECTUS"
-      },
-      {
-        "event_type": "effective",
-        "filing_type": "EFFECT",
-        "event_date": "2026-09-17",
-        "sec_accession": "9999999995-26-002990",
-        "details": ""
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "S-1/A",
-        "event_date": "2026-09-14",
-        "sec_accession": "0001213900-26-099404",
-        "details": "REGISTRATION STATEMENT"
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "S-1/A",
-        "event_date": "2026-08-05",
-        "sec_accession": "0001213900-26-085297",
-        "details": "REGISTRATION STATEMENT"
-      },
-      {
-        "event_type": "filing",
-        "filing_type": "S-1",
-        "event_date": "2026-06-15",
-        "sec_accession": "0001213900-26-068419",
-        "details": "REGISTRATION STATEMENT"
-      },
-      {
-        "event_type": "exchange_listed",
-        "filing_type": null,
-        "event_date": "2026-09-18"
-      }
-    ],
-    "exchange": "NASDAQ Global",
-    "expected_date": null,
-    "actual_date": "2026-09-18",
-    "shares_offered": 15000000,
-    "offer_price": 10.0,
-    "offer_amount": "$150,000,000",
-    "status": "listed",
-    "_accession_for_extract": "0001213900-26-099404"
-  },
-  {
-    "id": "TIWD",
-    "cik": "0002092291",
-    "company_name": "Timwood Holdings Ltd",
-    "ticker": "TIWD",
-    "filing_type": "F-1/A",
-    "filing_date": "2026-07-10",
-    "events": [
-      {
-        "event_type": "amendment",
-        "filing_type": "F-1/A",
-        "event_date": "2026-08-20",
-        "sec_accession": "0001185185-26-003639",
-        "details": "FORM F-1/A2"
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "F-1/A",
-        "event_date": "2026-07-31",
-        "sec_accession": "0001185185-26-003196",
-        "details": "FORM F-1/A"
-      },
-      {
-        "event_type": "filing",
-        "filing_type": "F-1",
-        "event_date": "2026-07-10",
-        "sec_accession": "0001185185-26-002878",
-        "details": "FORM F-1"
-      }
-    ],
-    "status": "amended",
-    "_accession_for_extract": "0001185185-26-003639"
-  },
-  {
-    "id": "0002098038",
-    "cik": "0002098038",
-    "company_name": "Zensitive Holding Ltd",
-    "ticker": null,
-    "filing_type": "F-1",
-    "filing_date": "2026-08-07",
-    "events": [
-      {
-        "event_type": "filing",
-        "filing_type": "F-1",
-        "event_date": "2026-08-07",
-        "sec_accession": "0001493152-26-036502",
-        "details": "F-1"
-      }
-    ],
-    "status": "filed",
-    "_accession_for_extract": "0001493152-26-036502"
-  },
-  {
-    "id": "AGKO",
-    "cik": "0002134090",
-    "company_name": "Aggreko Inc.",
-    "ticker": "AGKO",
-    "filing_type": "F-1/A",
-    "filing_date": "2026-08-24",
-    "events": [
-      {
-        "event_type": "amendment",
-        "filing_type": "F-1/A",
-        "event_date": "2026-09-17",
-        "sec_accession": "0001104659-26-108544",
-        "details": "F-1/A"
-      },
-      {
-        "event_type": "filing",
-        "filing_type": "F-1",
-        "event_date": "2026-08-24",
-        "sec_accession": "0001104659-26-100313",
-        "details": "F-1"
-      }
-    ],
-    "status": "amended",
-    "_accession_for_extract": "0001104659-26-108544"
-  },
-  {
     "id": "PSQL",
     "cik": "0002119292",
     "company_name": "Pasqal Holding SA",
@@ -662,44 +737,74 @@
     "_accession_for_extract": "0001213900-26-098421"
   },
   {
-    "id": "0002095476",
-    "cik": "0002095476",
-    "company_name": "Dune Acquisition Corp III",
-    "ticker": null,
-    "filing_type": "S-1/A",
-    "filing_date": "2026-02-24",
+    "id": "PHAX",
+    "cik": "0002086549",
+    "company_name": "Phalanx Acquisition Corp I",
+    "ticker": "PHAX",
+    "filing_type": "S-1",
+    "filing_date": "2026-07-16",
     "events": [
       {
-        "event_type": "amendment",
-        "filing_type": "S-1/A",
-        "event_date": "2026-08-21",
-        "sec_accession": "0001213900-26-092718",
+        "event_type": "filing",
+        "filing_type": "S-1",
+        "event_date": "2026-07-16",
+        "sec_accession": "0001213900-26-078705",
         "details": "REGISTRATION STATEMENT"
+      }
+    ],
+    "status": "filed",
+    "_accession_for_extract": "0001213900-26-078705"
+  },
+  {
+    "id": "PNAQU",
+    "cik": "0002123955",
+    "company_name": "Pinnacle Acquisition Corp",
+    "ticker": "PNAQU",
+    "filing_type": "424B4",
+    "filing_date": "2026-07-22",
+    "events": [
+      {
+        "event_type": "pricing",
+        "filing_type": "424B4",
+        "event_date": "2026-08-07",
+        "sec_accession": "0001213900-26-086694",
+        "details": "PROSPECTUS"
+      },
+      {
+        "event_type": "effective",
+        "filing_type": "EFFECT",
+        "event_date": "2026-08-06",
+        "sec_accession": "9999999995-26-002568",
+        "details": ""
       },
       {
         "event_type": "amendment",
         "filing_type": "S-1/A",
-        "event_date": "2026-07-28",
-        "sec_accession": "0001213900-26-081909",
+        "event_date": "2026-08-05",
+        "sec_accession": "0001213900-26-085313",
         "details": "REGISTRATION STATEMENT"
       },
       {
         "event_type": "filing",
         "filing_type": "S-1",
-        "event_date": "2026-02-24",
-        "sec_accession": "0001213900-26-019459",
+        "event_date": "2026-07-22",
+        "sec_accession": "0001213900-26-080433",
         "details": "REGISTRATION STATEMENT"
+      },
+      {
+        "event_type": "exchange_listed",
+        "filing_type": null,
+        "event_date": "2026-08-07"
       }
     ],
-    "status": "amended",
-    "description": "Dune Acquisition Corp III is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in high-growth sectors. The firm aims to leverage its management team's expertise to create value for shareholders through strategic acquisitions.",
-    "products_services": "As a SPAC, Dune Acquisition Corp III does not offer traditional products or services but seeks to acquire and operate a target company in a high-potential industry.",
-    "industry": "Finance/Investment (SPACs)",
-    "shares_outstanding": 15000000,
-    "proposed_price_low": 10.0,
-    "proposed_price_high": 10.0,
-    "price_range_low": 10.0,
-    "price_range_high": 10.0
+    "exchange": "NYSE",
+    "expected_date": null,
+    "actual_date": "2026-08-07",
+    "shares_offered": 20000000,
+    "offer_price": 10.0,
+    "offer_amount": "$200,000,000",
+    "status": "listed",
+    "_accession_for_extract": "0001213900-26-085313"
   },
   {
     "id": "GFUZ",
@@ -756,82 +861,675 @@
     "_accession_for_extract": "0001104659-26-106033"
   },
   {
-    "id": "0002145826",
-    "cik": "0002145826",
-    "company_name": "Silicon Valley Acquisition Corp. II",
-    "ticker": null,
-    "filing_type": "S-1",
-    "filing_date": "2026-09-21",
+    "id": "REF",
+    "cik": "0001787117",
+    "company_name": "Reformation Inc.",
+    "ticker": "REF",
+    "filing_type": "424B4",
+    "filing_date": "2026-06-25",
     "events": [
+      {
+        "event_type": "pricing",
+        "filing_type": "424B4",
+        "event_date": "2026-07-30",
+        "sec_accession": "0001104659-26-088733",
+        "details": "424B4"
+      },
+      {
+        "event_type": "effective",
+        "filing_type": "EFFECT",
+        "event_date": "2026-07-29",
+        "sec_accession": "9999999995-26-002490",
+        "details": ""
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2026-07-23",
+        "sec_accession": "0001104659-26-086075",
+        "details": "S-1/A"
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2026-07-20",
+        "sec_accession": "0001104659-26-084856",
+        "details": "S-1/A"
+      },
       {
         "event_type": "filing",
         "filing_type": "S-1",
-        "event_date": "2026-09-21",
-        "sec_accession": "0001213900-26-101822",
-        "details": "REGISTRATION STATEMENT"
+        "event_date": "2026-06-25",
+        "sec_accession": "0001104659-26-077832",
+        "details": "S-1"
+      },
+      {
+        "event_type": "exchange_listed",
+        "filing_type": null,
+        "event_date": "2026-07-30"
       }
     ],
-    "status": "filed",
-    "_accession_for_extract": "0001213900-26-101822"
+    "exchange": "NYSE",
+    "expected_date": null,
+    "actual_date": "2026-07-30",
+    "shares_offered": 14062500,
+    "offer_price": 15.0,
+    "offer_amount": "$210,937,500",
+    "status": "listed",
+    "description": "Reformation Inc. is a sustainable fashion brand focused on creating stylish, eco-friendly clothing for women. The company emphasizes transparency in its supply chain and aims to reduce its environmental impact while promoting ethical practices in the fashion industry.",
+    "products_services": "Women's clothing, including dresses, tops, bottoms, and activewear, made from sustainable materials.",
+    "industry": "Fashion and Apparel",
+    "shares_outstanding": 6208,
+    "proposed_price_low": 15.0,
+    "proposed_price_high": 17.0,
+    "price_range_low": 15.0,
+    "price_range_high": 17.0
   },
   {
-    "id": "0002088286",
-    "cik": "0002088286",
-    "company_name": "Danneskjold & Galt Acquisition Co",
-    "ticker": null,
+    "id": "OHII",
+    "cik": "0002143038",
+    "company_name": "Oceanhawk Acquisition II Corp.",
+    "ticker": "OHII",
     "filing_type": "S-1",
-    "filing_date": "2026-08-07",
+    "filing_date": "2026-09-15",
     "events": [
       {
         "event_type": "filing",
         "filing_type": "S-1",
-        "event_date": "2026-08-07",
-        "sec_accession": "0001185185-26-003333",
+        "event_date": "2026-09-15",
+        "sec_accession": "0001185185-26-004010",
         "details": "FORM S-1"
       }
     ],
     "status": "filed",
-    "_accession_for_extract": "0001185185-26-003333"
+    "_accession_for_extract": "0001185185-26-004010"
   },
   {
-    "id": "ALLN",
-    "cik": "0002141983",
-    "company_name": "Allarity Acquisition Corp.",
-    "ticker": "ALLN",
+    "id": "HCAX",
+    "cik": "0002130219",
+    "company_name": "Hall Chadwick Acquisition Corp II",
+    "ticker": "HCAX",
     "filing_type": "S-1/A",
-    "filing_date": "2026-09-10",
+    "filing_date": "2026-04-21",
     "events": [
       {
         "event_type": "amendment",
         "filing_type": "S-1/A",
-        "event_date": "2026-10-09",
-        "sec_accession": "0001493152-26-046438",
+        "event_date": "2026-10-13",
+        "sec_accession": "0001829126-26-011094",
         "details": "S-1/A"
       },
       {
         "event_type": "amendment",
         "filing_type": "S-1/A",
-        "event_date": "2026-10-06",
-        "sec_accession": "0001493152-26-045923",
+        "event_date": "2026-08-04",
+        "sec_accession": "0001829126-26-008335",
         "details": "S-1/A"
       },
       {
         "event_type": "amendment",
         "filing_type": "S-1/A",
-        "event_date": "2026-10-02",
-        "sec_accession": "0001493152-26-045457",
+        "event_date": "2026-07-30",
+        "sec_accession": "0001829126-26-008117",
         "details": "S-1/A"
       },
       {
         "event_type": "filing",
         "filing_type": "S-1",
-        "event_date": "2026-09-10",
-        "sec_accession": "0001493152-26-042104",
+        "event_date": "2026-04-21",
+        "sec_accession": "0001829126-26-003706",
         "details": "S-1"
       }
     ],
     "status": "amended",
-    "_accession_for_extract": "0001493152-26-046438"
+    "_accession_for_extract": "0001829126-26-011094"
+  },
+  {
+    "id": "0002089787",
+    "cik": "0002089787",
+    "company_name": "RainRock Acquisition Corp.",
+    "ticker": null,
+    "filing_type": "S-1",
+    "filing_date": "2026-09-01",
+    "events": [
+      {
+        "event_type": "filing",
+        "filing_type": "S-1",
+        "event_date": "2026-09-01",
+        "sec_accession": "0001213900-26-095969",
+        "details": "REGISTRATION STATEMENT"
+      }
+    ],
+    "status": "filed",
+    "_accession_for_extract": "0001213900-26-095969"
+  },
+  {
+    "id": "TIWD",
+    "cik": "0002092291",
+    "company_name": "Timwood Holdings Ltd",
+    "ticker": "TIWD",
+    "filing_type": "F-1/A",
+    "filing_date": "2026-07-10",
+    "events": [
+      {
+        "event_type": "amendment",
+        "filing_type": "F-1/A",
+        "event_date": "2026-08-20",
+        "sec_accession": "0001185185-26-003639",
+        "details": "FORM F-1/A2"
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "F-1/A",
+        "event_date": "2026-07-31",
+        "sec_accession": "0001185185-26-003196",
+        "details": "FORM F-1/A"
+      },
+      {
+        "event_type": "filing",
+        "filing_type": "F-1",
+        "event_date": "2026-07-10",
+        "sec_accession": "0001185185-26-002878",
+        "details": "FORM F-1"
+      }
+    ],
+    "status": "amended",
+    "_accession_for_extract": "0001185185-26-003639"
+  },
+  {
+    "id": "RZAI",
+    "cik": "0002075335",
+    "company_name": "ROZE AI INC.",
+    "ticker": "RZAI",
+    "filing_type": "F-1",
+    "filing_date": "2026-05-11",
+    "events": [
+      {
+        "event_type": "filing",
+        "filing_type": "F-1",
+        "event_date": "2026-09-30",
+        "sec_accession": "0001213900-26-105222",
+        "details": "REGISTRATION STATEMENT"
+      },
+      {
+        "event_type": "effective",
+        "filing_type": "EFFECT",
+        "event_date": "2026-09-28",
+        "sec_accession": "9999999995-26-003077",
+        "details": ""
+      },
+      {
+        "event_type": "pricing",
+        "filing_type": "424B4",
+        "event_date": "2026-09-28",
+        "sec_accession": "0001213900-26-104150",
+        "details": "PROSPECTUS"
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "F-1/A",
+        "event_date": "2026-09-16",
+        "sec_accession": "0001213900-26-100443",
+        "details": "AMENDMENT NO. 5 TO FORM F-1"
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "F-1/A",
+        "event_date": "2026-09-09",
+        "sec_accession": "0001213900-26-098134",
+        "details": "AMENDMENT NO. 4 TO FORM F-1"
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "F-1/A",
+        "event_date": "2026-08-21",
+        "sec_accession": "0001213900-26-092289",
+        "details": "AMENDMENT NO. 3 TO FORM F-1"
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "F-1/A",
+        "event_date": "2026-08-11",
+        "sec_accession": "0001213900-26-087750",
+        "details": "AMENDMENT NO. 2 TO FORM F-1"
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "F-1/A",
+        "event_date": "2026-07-27",
+        "sec_accession": "0001213900-26-081788",
+        "details": "AMENDMENT NO. 1 TO FORM F-1"
+      },
+      {
+        "event_type": "filing",
+        "filing_type": "F-1",
+        "event_date": "2026-05-11",
+        "sec_accession": "0001213900-26-054085",
+        "details": "REGISTRATION STATEMENT"
+      },
+      {
+        "event_type": "exchange_listed",
+        "filing_type": null,
+        "event_date": "2026-09-29"
+      }
+    ],
+    "exchange": "NASDAQ Capital",
+    "expected_date": null,
+    "actual_date": "2026-09-29",
+    "shares_offered": 13878565,
+    "offer_price": null,
+    "offer_amount": null,
+    "status": "listed",
+    "_accession_for_extract": "0001213900-26-105222"
+  },
+  {
+    "id": "JRWP",
+    "cik": "0001998284",
+    "company_name": "Jingrui Wang Pu Holdings Group Ltd.",
+    "ticker": "JRWP",
+    "filing_type": "F-1",
+    "filing_date": "2025-03-18",
+    "events": [
+      {
+        "event_type": "filing",
+        "filing_type": "F-1",
+        "event_date": "2026-09-08",
+        "sec_accession": "0001104659-26-105582",
+        "details": "F-1"
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "F-1/A",
+        "event_date": "2025-08-15",
+        "sec_accession": "0001104659-25-079174",
+        "details": "F-1/A"
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "F-1/A",
+        "event_date": "2025-04-21",
+        "sec_accession": "0001104659-25-036688",
+        "details": "F-1/A"
+      },
+      {
+        "event_type": "filing",
+        "filing_type": "F-1",
+        "event_date": "2025-03-18",
+        "sec_accession": "0001104659-25-024588",
+        "details": "FORM F-1"
+      }
+    ],
+    "status": "filed",
+    "_accession_for_extract": "0001104659-26-105582"
+  },
+  {
+    "id": "BRRKU",
+    "cik": "0002098410",
+    "company_name": "Bluerock Acquisition Corp. II",
+    "ticker": "BRRKU",
+    "filing_type": "424B4",
+    "filing_date": "2026-07-24",
+    "events": [
+      {
+        "event_type": "pricing",
+        "filing_type": "424B4",
+        "event_date": "2026-09-25",
+        "sec_accession": "0001104659-26-111049",
+        "details": "424B4"
+      },
+      {
+        "event_type": "effective",
+        "filing_type": "EFFECT",
+        "event_date": "2026-09-24",
+        "sec_accession": "9999999995-26-003051",
+        "details": ""
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2026-09-22",
+        "sec_accession": "0001104659-26-109546",
+        "details": "S-1/A"
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2026-09-09",
+        "sec_accession": "0001104659-26-106379",
+        "details": "S-1/A"
+      },
+      {
+        "event_type": "filing",
+        "filing_type": "S-1",
+        "event_date": "2026-07-24",
+        "sec_accession": "0001104659-26-086682",
+        "details": "S-1"
+      },
+      {
+        "event_type": "exchange_listed",
+        "filing_type": null,
+        "event_date": "2026-09-25"
+      }
+    ],
+    "exchange": "NASDAQ Global",
+    "expected_date": null,
+    "actual_date": "2026-09-25",
+    "shares_offered": 15000000,
+    "offer_price": 10.0,
+    "offer_amount": "$150,000,000",
+    "status": "listed",
+    "_accession_for_extract": "0001104659-26-109546"
+  },
+  {
+    "id": "0002062925",
+    "cik": "0002062925",
+    "company_name": "Smart Pointer Group Holdings Ltd",
+    "ticker": null,
+    "filing_type": "F-1",
+    "filing_date": "2026-06-29",
+    "events": [
+      {
+        "event_type": "filing",
+        "filing_type": "F-1",
+        "event_date": "2026-06-29",
+        "sec_accession": "0001213900-26-072996",
+        "details": "REGISTRATION STATEMENT"
+      }
+    ],
+    "status": "filed",
+    "description": "Smart Pointer Group Holdings Ltd. is a technology-driven company specializing in innovative solutions for navigation and positioning systems. The company aims to enhance user experience through advanced technologies in various applications.",
+    "products_services": "Smart Pointer offers a range of products including GPS tracking devices, navigation software, and location-based services tailored for both consumer and enterprise markets.",
+    "industry": "Technology / Navigation and Positioning Systems",
+    "shares_outstanding": 5000000,
+    "proposed_price_low": 5.0,
+    "proposed_price_high": 6.0,
+    "price_range_low": 5.0,
+    "price_range_high": 6.0
+  },
+  {
+    "id": "0002087162",
+    "cik": "0002087162",
+    "company_name": "Yesil Global Enerji A.S.",
+    "ticker": null,
+    "filing_type": "F-1/A",
+    "filing_date": "2026-03-10",
+    "events": [
+      {
+        "event_type": "amendment",
+        "filing_type": "F-1/A",
+        "event_date": "2026-07-16",
+        "sec_accession": "0001493152-26-033580",
+        "details": "F-1/A"
+      },
+      {
+        "event_type": "filing",
+        "filing_type": "F-1",
+        "event_date": "2026-03-10",
+        "sec_accession": "0001493152-26-009409",
+        "details": "F-1"
+      }
+    ],
+    "status": "amended",
+    "description": "Yesil Global Enerji A.S. is a renewable energy company focused on sustainable energy solutions and innovative technologies. The company aims to contribute to the global transition towards clean energy through its diverse portfolio of projects.",
+    "products_services": "Renewable energy solutions, solar energy systems, wind energy projects, energy efficiency consulting, and sustainable technology development.",
+    "industry": "Renewable Energy",
+    "_accession_for_extract": "0001493152-26-033580"
+  },
+  {
+    "id": "LOVIU",
+    "cik": "0002115191",
+    "company_name": "Live Oak Acquisition Corp. VI",
+    "ticker": "LOVIU",
+    "filing_type": "424B4",
+    "filing_date": "2026-08-24",
+    "events": [
+      {
+        "event_type": "pricing",
+        "filing_type": "424B4",
+        "event_date": "2026-09-23",
+        "sec_accession": "0001213900-26-102498",
+        "details": "PROSPECTUS"
+      },
+      {
+        "event_type": "effective",
+        "filing_type": "EFFECT",
+        "event_date": "2026-09-22",
+        "sec_accession": "9999999995-26-003030",
+        "details": ""
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2026-09-18",
+        "sec_accession": "0001213900-26-101388",
+        "details": "REGISTRATION STATEMENT"
+      },
+      {
+        "event_type": "filing",
+        "filing_type": "S-1",
+        "event_date": "2026-08-24",
+        "sec_accession": "0001213900-26-093129",
+        "details": "REGISTRATION STATEMENT"
+      },
+      {
+        "event_type": "exchange_listed",
+        "filing_type": null,
+        "event_date": "2026-09-23"
+      }
+    ],
+    "exchange": "NASDAQ Global",
+    "expected_date": null,
+    "actual_date": "2026-09-23",
+    "shares_offered": 20000000,
+    "offer_price": 10.0,
+    "offer_amount": "$200,000,000",
+    "status": "listed",
+    "_accession_for_extract": "0001213900-26-101388"
+  },
+  {
+    "id": "0002101996",
+    "cik": "0002101996",
+    "company_name": "Nuclea Energy Inc.",
+    "ticker": null,
+    "filing_type": "RW",
+    "filing_date": "2026-04-13",
+    "events": [
+      {
+        "event_type": "withdrawal",
+        "filing_type": "RW",
+        "event_date": "2026-07-31",
+        "sec_accession": "0001213900-26-083621",
+        "details": "WITHDRAWAL REQUEST"
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "F-1/A",
+        "event_date": "2026-07-01",
+        "sec_accession": "0001213900-26-074008",
+        "details": "REGISTRATION STATEMENT"
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "F-1/A",
+        "event_date": "2026-06-29",
+        "sec_accession": "0001213900-26-073000",
+        "details": "REGISTRATION STATEMENT"
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "F-1/A",
+        "event_date": "2026-06-16",
+        "sec_accession": "0001213900-26-069326",
+        "details": "REGISTRATION STATEMENT"
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "F-1/A",
+        "event_date": "2026-06-09",
+        "sec_accession": "0001213900-26-066889",
+        "details": "REGISTRATION STATEMENT"
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "F-1/A",
+        "event_date": "2026-05-14",
+        "sec_accession": "0001213900-26-056075",
+        "details": "REGISTRATION STATEMENT"
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "F-1/A",
+        "event_date": "2026-04-29",
+        "sec_accession": "0001213900-26-049394",
+        "details": "REGISTRATION STATEMENT"
+      },
+      {
+        "event_type": "filing",
+        "filing_type": "F-1",
+        "event_date": "2026-04-13",
+        "sec_accession": "0001213900-26-042714",
+        "details": "REGISTRATION STATEMENT"
+      },
+      {
+        "event_type": "exchange_withdrawn",
+        "filing_type": null,
+        "event_date": null
+      }
+    ],
+    "exchange": null,
+    "expected_date": null,
+    "actual_date": null,
+    "shares_offered": null,
+    "offer_price": null,
+    "offer_amount": null,
+    "status": "withdrawn",
+    "_accession_for_extract": "0001213900-26-074008"
+  },
+  {
+    "id": "0002094989",
+    "cik": "0002094989",
+    "company_name": "RUI Holdings Inc",
+    "ticker": null,
+    "filing_type": "424B4",
+    "filing_date": "2026-05-22",
+    "events": [
+      {
+        "event_type": "pricing",
+        "filing_type": "424B4",
+        "event_date": "2026-09-24",
+        "sec_accession": "0001185185-26-004253",
+        "details": "FORM 424B4"
+      },
+      {
+        "event_type": "effective",
+        "filing_type": "EFFECT",
+        "event_date": "2026-09-23",
+        "sec_accession": "9999999995-26-003040",
+        "details": ""
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "F-1/A",
+        "event_date": "2026-09-17",
+        "sec_accession": "0001185185-26-004094",
+        "details": "FORM F-1/A"
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "F-1/A",
+        "event_date": "2026-09-11",
+        "sec_accession": "0001185185-26-003929",
+        "details": "FORM F-1/A4"
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "F-1/A",
+        "event_date": "2026-09-04",
+        "sec_accession": "0001185185-26-003841",
+        "details": "FORM F-1/A3"
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "F-1/A",
+        "event_date": "2026-08-28",
+        "sec_accession": "0001185185-26-003747",
+        "details": "FORM F-1/A2"
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "F-1/A",
+        "event_date": "2026-08-13",
+        "sec_accession": "0001185185-26-003489",
+        "details": "FORM F-1/A"
+      },
+      {
+        "event_type": "filing",
+        "filing_type": "F-1",
+        "event_date": "2026-05-22",
+        "sec_accession": "0001185185-26-002077",
+        "details": "FORM F-1"
+      }
+    ],
+    "status": "listed",
+    "_accession_for_extract": "0001185185-26-004094"
+  },
+  {
+    "id": "AMACU",
+    "cik": "0002110119",
+    "company_name": "AMR Resources Acquisition Corp.",
+    "ticker": "AMACU",
+    "filing_type": "424B4",
+    "filing_date": "2026-06-26",
+    "events": [
+      {
+        "event_type": "pricing",
+        "filing_type": "424B4",
+        "event_date": "2026-07-17",
+        "sec_accession": "0001213900-26-079231",
+        "details": "PROSPECTUS"
+      },
+      {
+        "event_type": "effective",
+        "filing_type": "EFFECT",
+        "event_date": "2026-07-16",
+        "sec_accession": "9999999995-26-002336",
+        "details": ""
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2026-06-29",
+        "sec_accession": "0001213900-26-073226",
+        "details": "REGISTRATION STATEMENT"
+      },
+      {
+        "event_type": "filing",
+        "filing_type": "S-1",
+        "event_date": "2026-06-26",
+        "sec_accession": "0001213900-26-072712",
+        "details": "REGISTRATION STATEMENT"
+      },
+      {
+        "event_type": "exchange_listed",
+        "filing_type": null,
+        "event_date": "2026-07-17"
+      }
+    ],
+    "exchange": "NASDAQ Global",
+    "expected_date": null,
+    "actual_date": "2026-07-17",
+    "shares_offered": 25000000,
+    "offer_price": 10.0,
+    "offer_amount": "$250,000,000",
+    "status": "listed",
+    "description": "AMR Resources Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the technology and energy sectors. The company aims to leverage its expertise to drive growth and create value for shareholders through strategic partnerships.",
+    "products_services": "As a SPAC, AMR Resources Acquisition Corp. does not offer traditional products or services but seeks to acquire and support companies in their growth trajectories post-merger.",
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)",
+    "shares_outstanding": 28750000,
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0,
+    "price_range_low": 10.0,
+    "price_range_high": 10.0
   },
   {
     "id": "THEOU",
@@ -924,232 +1622,629 @@
     "price_range_high": 10.0
   },
   {
-    "id": "HCAX",
-    "cik": "0002130219",
-    "company_name": "Hall Chadwick Acquisition Corp II",
-    "ticker": "HCAX",
-    "filing_type": "S-1/A",
-    "filing_date": "2026-04-21",
-    "events": [
-      {
-        "event_type": "amendment",
-        "filing_type": "S-1/A",
-        "event_date": "2026-10-13",
-        "sec_accession": "0001829126-26-011094",
-        "details": "S-1/A"
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "S-1/A",
-        "event_date": "2026-08-04",
-        "sec_accession": "0001829126-26-008335",
-        "details": "S-1/A"
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "S-1/A",
-        "event_date": "2026-07-30",
-        "sec_accession": "0001829126-26-008117",
-        "details": "S-1/A"
-      },
-      {
-        "event_type": "filing",
-        "filing_type": "S-1",
-        "event_date": "2026-04-21",
-        "sec_accession": "0001829126-26-003706",
-        "details": "S-1"
-      }
-    ],
-    "status": "amended",
-    "_accession_for_extract": "0001829126-26-011094"
-  },
-  {
-    "id": "SUCH",
-    "cik": "0002104032",
-    "company_name": "Suchness Tech Ltd",
-    "ticker": "SUCH",
-    "filing_type": "F-1/A",
-    "filing_date": "2026-05-12",
-    "events": [
-      {
-        "event_type": "amendment",
-        "filing_type": "F-1/A",
-        "event_date": "2026-08-03",
-        "sec_accession": "0001213900-26-084190",
-        "details": "AMENDMENT NO. 2 TO FORM F-1"
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "F-1/A",
-        "event_date": "2026-05-29",
-        "sec_accession": "0001213900-26-062818",
-        "details": "AMENDMENT NO. 1 TO FORM F-1"
-      },
-      {
-        "event_type": "filing",
-        "filing_type": "F-1",
-        "event_date": "2026-05-12",
-        "sec_accession": "0001213900-26-054650",
-        "details": "REGISTRATION STATEMENT"
-      }
-    ],
-    "status": "amended",
-    "_accession_for_extract": "0001213900-26-084190"
-  },
-  {
-    "id": "0002084038",
-    "cik": "0002084038",
-    "company_name": "Yi Feng Holdings Ltd.",
+    "id": "0002095150",
+    "cik": "0002095150",
+    "company_name": "ChainOn Group Ltd",
     "ticker": null,
-    "filing_type": "F-1/A",
-    "filing_date": "2026-01-16",
+    "filing_type": "F-1",
+    "filing_date": "2026-06-25",
     "events": [
-      {
-        "event_type": "amendment",
-        "filing_type": "F-1/A",
-        "event_date": "2026-09-15",
-        "sec_accession": "0001213900-26-100091",
-        "details": "REGISTRATION STATEMENT"
-      },
       {
         "event_type": "filing",
         "filing_type": "F-1",
-        "event_date": "2026-01-16",
-        "sec_accession": "0001213900-26-005036",
-        "details": "REGISTRATION STATEMENT"
+        "event_date": "2026-06-25",
+        "sec_accession": "0001493152-26-030109",
+        "details": "F-1"
       }
     ],
-    "status": "amended",
-    "_accession_for_extract": "0001213900-26-100091"
+    "status": "filed",
+    "description": "ChainOn Group Ltd. is a technology-driven company specializing in blockchain solutions for supply chain management. The company aims to enhance transparency and efficiency in logistics through innovative digital platforms.",
+    "products_services": "Blockchain-based supply chain management solutions, logistics optimization software, and data analytics services.",
+    "industry": "Technology and Supply Chain Management",
+    "shares_outstanding": 6250000,
+    "proposed_price_low": 4,
+    "proposed_price_high": 6,
+    "price_range_low": 4,
+    "price_range_high": 6
   },
   {
-    "id": "KHG",
-    "cik": "0002120528",
-    "company_name": "Kainan Holding Group Ltd",
-    "ticker": "KHG",
-    "filing_type": "F-1/A",
-    "filing_date": "2026-08-31",
-    "events": [
-      {
-        "event_type": "amendment",
-        "filing_type": "F-1/A",
-        "event_date": "2026-10-09",
-        "sec_accession": "0001575872-26-000686",
-        "details": "FORM F-1A"
-      },
-      {
-        "event_type": "filing",
-        "filing_type": "F-1",
-        "event_date": "2026-08-31",
-        "sec_accession": "0001575872-26-000634",
-        "details": "FORM F-1"
-      }
-    ],
-    "status": "amended",
-    "_accession_for_extract": "0001575872-26-000686"
-  },
-  {
-    "id": "APMD",
-    "cik": "0001745648",
-    "company_name": "Apnimed, Inc.",
-    "ticker": "APMD",
+    "id": "LEDRU",
+    "cik": "0002109823",
+    "company_name": "Leader's Advantage Acquisition Corp.",
+    "ticker": "LEDRU",
     "filing_type": "424B4",
-    "filing_date": "2026-07-10",
+    "filing_date": "2026-06-15",
     "events": [
       {
         "event_type": "pricing",
         "filing_type": "424B4",
-        "event_date": "2026-07-31",
-        "sec_accession": "0001193125-26-328422",
-        "details": "424B4"
+        "event_date": "2026-09-21",
+        "sec_accession": "0001213900-26-101599",
+        "details": "PROSPECTUS"
       },
       {
         "event_type": "effective",
         "filing_type": "EFFECT",
-        "event_date": "2026-07-30",
-        "sec_accession": "9999999995-26-002498",
+        "event_date": "2026-09-17",
+        "sec_accession": "9999999995-26-002990",
         "details": ""
       },
       {
         "event_type": "amendment",
         "filing_type": "S-1/A",
-        "event_date": "2026-07-27",
-        "sec_accession": "0001193125-26-316811",
-        "details": "S-1/A"
+        "event_date": "2026-09-14",
+        "sec_accession": "0001213900-26-099404",
+        "details": "REGISTRATION STATEMENT"
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2026-08-05",
+        "sec_accession": "0001213900-26-085297",
+        "details": "REGISTRATION STATEMENT"
       },
       {
         "event_type": "filing",
         "filing_type": "S-1",
-        "event_date": "2026-07-10",
-        "sec_accession": "0001193125-26-300909",
-        "details": "S-1"
+        "event_date": "2026-06-15",
+        "sec_accession": "0001213900-26-068419",
+        "details": "REGISTRATION STATEMENT"
       },
       {
         "event_type": "exchange_listed",
         "filing_type": null,
-        "event_date": "2026-07-31"
+        "event_date": "2026-09-18"
       }
     ],
-    "exchange": "NASDAQ Global Select",
+    "exchange": "NASDAQ Global",
     "expected_date": null,
-    "actual_date": "2026-07-31",
-    "shares_offered": 12000000,
-    "offer_price": 16.0,
-    "offer_amount": "$192,000,000",
+    "actual_date": "2026-09-18",
+    "shares_offered": 15000000,
+    "offer_price": 10.0,
+    "offer_amount": "$150,000,000",
     "status": "listed",
-    "description": "Apnimed, Inc. is a clinical-stage biopharmaceutical company focused on developing innovative therapies for the treatment of sleep disorders, particularly obstructive sleep apnea. The company's lead product candidate aims to address unmet medical needs in this growing market.",
-    "products_services": "Pharmaceutical therapies for sleep disorders, specifically targeting obstructive sleep apnea.",
-    "industry": "Biopharmaceuticals",
-    "shares_outstanding": 26152228,
-    "proposed_price_low": 14.0,
-    "proposed_price_high": 16.0,
-    "price_range_low": 14.0,
-    "price_range_high": 16.0
+    "_accession_for_extract": "0001213900-26-099404"
   },
   {
-    "id": "CSEA",
-    "cik": "0002154056",
-    "company_name": "Calm Seas Acquisition Corp.",
-    "ticker": "CSEA",
+    "id": "AGKO",
+    "cik": "0002134090",
+    "company_name": "Aggreko Inc.",
+    "ticker": "AGKO",
+    "filing_type": "F-1/A",
+    "filing_date": "2026-08-24",
+    "events": [
+      {
+        "event_type": "amendment",
+        "filing_type": "F-1/A",
+        "event_date": "2026-09-17",
+        "sec_accession": "0001104659-26-108544",
+        "details": "F-1/A"
+      },
+      {
+        "event_type": "filing",
+        "filing_type": "F-1",
+        "event_date": "2026-08-24",
+        "sec_accession": "0001104659-26-100313",
+        "details": "F-1"
+      }
+    ],
+    "status": "amended",
+    "_accession_for_extract": "0001104659-26-108544"
+  },
+  {
+    "id": "EMAC",
+    "cik": "0002143060",
+    "company_name": "Essential Minerals Acquisition Corp",
+    "ticker": "EMAC",
     "filing_type": "S-1/A",
-    "filing_date": "2026-09-28",
+    "filing_date": "2026-08-24",
     "events": [
       {
         "event_type": "amendment",
         "filing_type": "S-1/A",
+        "event_date": "2026-10-20",
+        "sec_accession": "0001185185-26-004871",
+        "details": "FORM S-1/A"
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
         "event_date": "2026-10-08",
-        "sec_accession": "0001193125-26-417752",
-        "details": "S-1/A"
+        "sec_accession": "0001185185-26-004657",
+        "details": "FORM S-1/A"
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2026-10-01",
+        "sec_accession": "0001185185-26-004457",
+        "details": "FORM S-1/A"
       },
       {
         "event_type": "filing",
         "filing_type": "S-1",
-        "event_date": "2026-09-28",
-        "sec_accession": "0001193125-26-404122",
-        "details": "S-1"
+        "event_date": "2026-08-24",
+        "sec_accession": "0001185185-26-003690",
+        "details": "FORM S-1"
       }
     ],
     "status": "amended",
-    "_accession_for_extract": "0001193125-26-417752"
+    "_accession_for_extract": "0001185185-26-004871"
   },
   {
-    "id": "PHAX",
-    "cik": "0002086549",
-    "company_name": "Phalanx Acquisition Corp I",
-    "ticker": "PHAX",
+    "id": "LCAC",
+    "cik": "0002147457",
+    "company_name": "Lower Cross Acquisitions Corp",
+    "ticker": "LCAC",
     "filing_type": "S-1",
-    "filing_date": "2026-07-16",
+    "filing_date": "2026-09-16",
     "events": [
       {
         "event_type": "filing",
         "filing_type": "S-1",
-        "event_date": "2026-07-16",
-        "sec_accession": "0001213900-26-078705",
+        "event_date": "2026-09-16",
+        "sec_accession": "0001185185-26-004071",
+        "details": "FORM S-1"
+      }
+    ],
+    "status": "filed",
+    "_accession_for_extract": "0001185185-26-004071"
+  },
+  {
+    "id": "0002142627",
+    "cik": "0002142627",
+    "company_name": "BHAV Acquisition Corp II",
+    "ticker": null,
+    "filing_type": "S-1",
+    "filing_date": "2026-09-30",
+    "events": [
+      {
+        "event_type": "filing",
+        "filing_type": "S-1",
+        "event_date": "2026-09-30",
+        "sec_accession": "0001213900-26-104979",
         "details": "REGISTRATION STATEMENT"
       }
     ],
     "status": "filed",
-    "_accession_for_extract": "0001213900-26-078705"
+    "_accession_for_extract": "0001213900-26-104979"
+  },
+  {
+    "id": "DRIL",
+    "cik": "0001851535",
+    "company_name": "Lannister Mining Corp.",
+    "ticker": "DRIL",
+    "filing_type": "F-1/A",
+    "filing_date": "2024-07-31",
+    "events": [
+      {
+        "event_type": "amendment",
+        "filing_type": "F-1/A",
+        "event_date": "2026-09-17",
+        "sec_accession": "0001213900-26-100639",
+        "details": "AMENDMENT NO. 13 TO FORM F-1"
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "F-1/A",
+        "event_date": "2026-07-22",
+        "sec_accession": "0001213900-26-080457",
+        "details": "AMENDMENT NO. 12 TO FORM F-1"
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "F-1/A",
+        "event_date": "2026-05-29",
+        "sec_accession": "0001213900-26-062964",
+        "details": "AMENDMENT NO. 11 TO FORM F-1"
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "F-1/A",
+        "event_date": "2026-05-21",
+        "sec_accession": "0001213900-26-060110",
+        "details": "AMENDMENT NO. 10 TO FORM F-1"
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "F-1/A",
+        "event_date": "2026-05-11",
+        "sec_accession": "0001213900-26-054149",
+        "details": "AMENDMENT NO. 9 TO FORM F-1"
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "F-1/A",
+        "event_date": "2026-03-17",
+        "sec_accession": "0001213900-26-028599",
+        "details": "AMENDMENT NO. 8 TO FORM F-1"
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "F-1/A",
+        "event_date": "2026-03-06",
+        "sec_accession": "0001213900-26-024781",
+        "details": "AMENDMENT NO. 7 TO FORM F-1"
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "F-1/A",
+        "event_date": "2026-02-12",
+        "sec_accession": "0001213900-26-015533",
+        "details": "AMENDMENT NO. 6 TO FORM F-1"
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "F-1/A",
+        "event_date": "2025-12-12",
+        "sec_accession": "0001213900-25-121192",
+        "details": "AMENDMENT NO. 5 TO FORM F-1"
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "F-1/A",
+        "event_date": "2025-10-21",
+        "sec_accession": "0001213900-25-100907",
+        "details": "AMENDMENT NO. 4 TO FORM F-1"
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "F-1/A",
+        "event_date": "2025-08-05",
+        "sec_accession": "0001213900-25-072122",
+        "details": "AMENDMENT NO. 3 TO FORM F-1"
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "F-1/A",
+        "event_date": "2025-06-10",
+        "sec_accession": "0001213900-25-053154",
+        "details": "AMENDMENT NO. 2 TO FORM F-1"
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "F-1/A",
+        "event_date": "2025-05-02",
+        "sec_accession": "0001213900-25-039123",
+        "details": "AMENDMENT NO. 1 TO FORM F-1"
+      },
+      {
+        "event_type": "filing",
+        "filing_type": "F-1",
+        "event_date": "2024-07-31",
+        "sec_accession": "0001013762-24-003297",
+        "details": "REGISTRATION STATEMENT"
+      }
+    ],
+    "status": "amended",
+    "_accession_for_extract": "0001213900-26-100639"
+  },
+  {
+    "id": "IQMX",
+    "cik": "0002113060",
+    "company_name": "IQM Quantum Computers Oyj",
+    "ticker": "IQMX",
+    "filing_type": "EFFECT",
+    "filing_date": "2026-08-03",
+    "events": [
+      {
+        "event_type": "effective",
+        "filing_type": "EFFECT",
+        "event_date": "2026-08-26",
+        "sec_accession": "9999999995-26-002769",
+        "details": ""
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "F-1/A",
+        "event_date": "2026-08-18",
+        "sec_accession": "0001193125-26-355643",
+        "details": "F-1/A"
+      },
+      {
+        "event_type": "filing",
+        "filing_type": "F-1",
+        "event_date": "2026-08-03",
+        "sec_accession": "0001193125-26-330877",
+        "details": "F-1"
+      },
+      {
+        "event_type": "effective",
+        "filing_type": "EFFECT",
+        "event_date": "2026-06-05",
+        "sec_accession": "9999999995-26-001907",
+        "details": ""
+      }
+    ],
+    "status": "listed",
+    "_accession_for_extract": "0001193125-26-355643"
+  },
+  {
+    "id": "0002097903",
+    "cik": "0002097903",
+    "company_name": "UDynamics Ltd",
+    "ticker": null,
+    "filing_type": "F-1/A",
+    "filing_date": "2026-02-27",
+    "events": [
+      {
+        "event_type": "amendment",
+        "filing_type": "F-1/A",
+        "event_date": "2026-08-21",
+        "sec_accession": "0001213900-26-092454",
+        "details": "REGISTRATION STATEMENT"
+      },
+      {
+        "event_type": "filing",
+        "filing_type": "F-1",
+        "event_date": "2026-02-27",
+        "sec_accession": "0001213900-26-021223",
+        "details": "REGISTRATION STATEMENT"
+      }
+    ],
+    "status": "amended",
+    "_accession_for_extract": "0001213900-26-092454"
+  },
+  {
+    "id": "CCIL",
+    "cik": "0002083945",
+    "company_name": "CALM Chain International Ltd",
+    "ticker": "CCIL",
+    "filing_type": "F-1/A",
+    "filing_date": "2026-02-10",
+    "events": [
+      {
+        "event_type": "amendment",
+        "filing_type": "F-1/A",
+        "event_date": "2026-08-26",
+        "sec_accession": "0001213900-26-093861",
+        "details": "REGISTRATION STATEMENT"
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "F-1/A",
+        "event_date": "2026-06-24",
+        "sec_accession": "0001213900-26-071389",
+        "details": "REGISTRATION STATEMENT"
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "F-1/A",
+        "event_date": "2026-05-14",
+        "sec_accession": "0001213900-26-056439",
+        "details": "REGISTRATION STATEMENT"
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "F-1/A",
+        "event_date": "2026-02-25",
+        "sec_accession": "0001213900-26-020208",
+        "details": "REGISTRATION STATEMENT"
+      },
+      {
+        "event_type": "filing",
+        "filing_type": "F-1",
+        "event_date": "2026-02-10",
+        "sec_accession": "0001213900-26-014090",
+        "details": "REGISTRATION STATEMENT"
+      }
+    ],
+    "status": "amended",
+    "description": "CALM Chain International Ltd. is a pioneering technology company focused on providing innovative blockchain solutions for various industries. The company aims to enhance transparency and efficiency in supply chain management through its advanced decentralized platform.",
+    "products_services": "Blockchain technology solutions, supply chain management software, and consulting services.",
+    "industry": "Technology and Blockchain.",
+    "shares_outstanding": 17500000,
+    "proposed_price_low": 5.0,
+    "proposed_price_high": 7.0,
+    "price_range_low": 5.0,
+    "price_range_high": 7.0
+  },
+  {
+    "id": "0002118192",
+    "cik": "0002118192",
+    "company_name": "DayOne Data Centers Ltd",
+    "ticker": null,
+    "filing_type": "F-1",
+    "filing_date": "2026-10-05",
+    "events": [
+      {
+        "event_type": "filing",
+        "filing_type": "F-1",
+        "event_date": "2026-10-05",
+        "sec_accession": "0001193125-26-414188",
+        "details": "FORM F-1"
+      }
+    ],
+    "status": "filed",
+    "_accession_for_extract": "0001193125-26-414188"
+  },
+  {
+    "id": "TBCVU",
+    "cik": "0002140030",
+    "company_name": "Thunder Bridge Capital Partners V, Ltd.",
+    "ticker": "TBCVU",
+    "filing_type": "424B4",
+    "filing_date": "2026-06-12",
+    "events": [
+      {
+        "event_type": "pricing",
+        "filing_type": "424B4",
+        "event_date": "2026-08-13",
+        "sec_accession": "0001213900-26-089123",
+        "details": "PROSPECTUS"
+      },
+      {
+        "event_type": "effective",
+        "filing_type": "EFFECT",
+        "event_date": "2026-08-12",
+        "sec_accession": "9999999995-26-002635",
+        "details": ""
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2026-08-06",
+        "sec_accession": "0001213900-26-085876",
+        "details": "REGISTRATION STATEMENT"
+      },
+      {
+        "event_type": "filing",
+        "filing_type": "S-1",
+        "event_date": "2026-06-12",
+        "sec_accession": "0001213900-26-068341",
+        "details": "REGISTRATION STATEMENT"
+      },
+      {
+        "event_type": "exchange_listed",
+        "filing_type": null,
+        "event_date": "2026-08-13"
+      }
+    ],
+    "exchange": "NASDAQ Global",
+    "expected_date": null,
+    "actual_date": "2026-08-13",
+    "shares_offered": 26100000,
+    "offer_price": 10.0,
+    "offer_amount": "$261,000,000",
+    "status": "listed",
+    "_accession_for_extract": "0001213900-26-085876"
+  },
+  {
+    "id": "0002095476",
+    "cik": "0002095476",
+    "company_name": "Dune Acquisition Corp III",
+    "ticker": null,
+    "filing_type": "S-1/A",
+    "filing_date": "2026-02-24",
+    "events": [
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2026-08-21",
+        "sec_accession": "0001213900-26-092718",
+        "details": "REGISTRATION STATEMENT"
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2026-07-28",
+        "sec_accession": "0001213900-26-081909",
+        "details": "REGISTRATION STATEMENT"
+      },
+      {
+        "event_type": "filing",
+        "filing_type": "S-1",
+        "event_date": "2026-02-24",
+        "sec_accession": "0001213900-26-019459",
+        "details": "REGISTRATION STATEMENT"
+      }
+    ],
+    "status": "amended",
+    "description": "Dune Acquisition Corp III is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in high-growth sectors. The firm aims to leverage its management team's expertise to create value for shareholders through strategic acquisitions.",
+    "products_services": "As a SPAC, Dune Acquisition Corp III does not offer traditional products or services but seeks to acquire and operate a target company in a high-potential industry.",
+    "industry": "Finance/Investment (SPACs)",
+    "shares_outstanding": 15000000,
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0,
+    "price_range_low": 10.0,
+    "price_range_high": 10.0
+  },
+  {
+    "id": "0002087307",
+    "cik": "0002087307",
+    "company_name": "Sensing4D AI Ltd",
+    "ticker": null,
+    "filing_type": "F-1",
+    "filing_date": "2026-10-21",
+    "events": [
+      {
+        "event_type": "filing",
+        "filing_type": "F-1",
+        "event_date": "2026-10-21",
+        "sec_accession": "0001213900-26-111161",
+        "details": "REGISTRATION STATEMENT"
+      }
+    ],
+    "status": "filed",
+    "_accession_for_extract": "0001213900-26-111161"
+  },
+  {
+    "id": "WATR",
+    "cik": "0002092314",
+    "company_name": "Air Water Ventures Ltd",
+    "ticker": "WATR",
+    "filing_type": "F-1",
+    "filing_date": "2026-09-11",
+    "events": [
+      {
+        "event_type": "filing",
+        "filing_type": "F-1",
+        "event_date": "2026-09-11",
+        "sec_accession": "0001213900-26-099277",
+        "details": "REGISTRATION STATEMENT"
+      },
+      {
+        "event_type": "effective",
+        "filing_type": "EFFECT",
+        "event_date": "2026-07-08",
+        "sec_accession": "9999999995-26-002220",
+        "details": ""
+      }
+    ],
+    "status": "filed",
+    "_accession_for_extract": "0001213900-26-099277"
+  },
+  {
+    "id": "0002145409",
+    "cik": "0002145409",
+    "company_name": "GX Acquisition Corp. III/Cayman",
+    "ticker": null,
+    "filing_type": "S-1/A",
+    "filing_date": "2026-08-03",
+    "events": [
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2026-08-12",
+        "sec_accession": "0001185185-26-003452",
+        "details": "FORM S-1/A"
+      },
+      {
+        "event_type": "filing",
+        "filing_type": "S-1",
+        "event_date": "2026-08-03",
+        "sec_accession": "0001185185-26-003214",
+        "details": "FORM S-1"
+      }
+    ],
+    "status": "amended",
+    "_accession_for_extract": "0001185185-26-003452"
+  },
+  {
+    "id": "0002138170",
+    "cik": "0002138170",
+    "company_name": "Spring Valley Acquisition Corp. V",
+    "ticker": null,
+    "filing_type": "S-1/A",
+    "filing_date": "2026-06-08",
+    "events": [
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2026-10-14",
+        "sec_accession": "0001213900-26-109177",
+        "details": "REGISTRATION STATEMENT"
+      },
+      {
+        "event_type": "filing",
+        "filing_type": "S-1",
+        "event_date": "2026-06-08",
+        "sec_accession": "0001213900-26-065988",
+        "details": "REGISTRATION STATEMENT"
+      }
+    ],
+    "status": "amended",
+    "_accession_for_extract": "0001213900-26-109177"
   },
   {
     "id": "0002095509",
@@ -1185,227 +2280,198 @@
     "price_range_high": 5.0
   },
   {
-    "id": "WATR",
-    "cik": "0002092314",
-    "company_name": "Air Water Ventures Ltd",
-    "ticker": "WATR",
-    "filing_type": "F-1",
-    "filing_date": "2026-09-11",
+    "id": "HYACU",
+    "cik": "0002111838",
+    "company_name": "Haymaker Acquisition Corp V",
+    "ticker": "HYACU",
+    "filing_type": "424B4",
+    "filing_date": "2026-08-25",
     "events": [
       {
-        "event_type": "filing",
-        "filing_type": "F-1",
-        "event_date": "2026-09-11",
-        "sec_accession": "0001213900-26-099277",
-        "details": "REGISTRATION STATEMENT"
+        "event_type": "pricing",
+        "filing_type": "424B4",
+        "event_date": "2026-09-18",
+        "sec_accession": "0001193125-26-395319",
+        "details": "424B4"
       },
       {
         "event_type": "effective",
         "filing_type": "EFFECT",
-        "event_date": "2026-07-08",
-        "sec_accession": "9999999995-26-002220",
+        "event_date": "2026-09-16",
+        "sec_accession": "9999999995-26-002979",
         "details": ""
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2026-09-15",
+        "sec_accession": "0001193125-26-391060",
+        "details": "S-1/A"
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2026-09-11",
+        "sec_accession": "0001193125-26-389409",
+        "details": "S-1/A"
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2026-09-02",
+        "sec_accession": "0001193125-26-380080",
+        "details": "S-1/A"
+      },
+      {
+        "event_type": "filing",
+        "filing_type": "S-1",
+        "event_date": "2026-08-25",
+        "sec_accession": "0001193125-26-363922",
+        "details": "S-1"
+      },
+      {
+        "event_type": "exchange_listed",
+        "filing_type": null,
+        "event_date": "2026-09-17"
       }
     ],
-    "status": "filed",
-    "_accession_for_extract": "0001213900-26-099277"
+    "exchange": "NYSE",
+    "expected_date": null,
+    "actual_date": "2026-09-17",
+    "shares_offered": 25000000,
+    "offer_price": 10.0,
+    "offer_amount": "$250,000,000",
+    "status": "listed",
+    "_accession_for_extract": "0001193125-26-391060"
   },
   {
-    "id": "JRWP",
-    "cik": "0001998284",
-    "company_name": "Jingrui Wang Pu Holdings Group Ltd.",
-    "ticker": "JRWP",
-    "filing_type": "F-1",
-    "filing_date": "2025-03-18",
+    "id": "0002032274",
+    "cik": "0002032274",
+    "company_name": "Gifts International Holdings Ltd",
+    "ticker": null,
+    "filing_type": "RW",
+    "filing_date": "2025-06-06",
     "events": [
+      {
+        "event_type": "withdrawal",
+        "filing_type": "RW",
+        "event_date": "2026-07-07",
+        "sec_accession": "0001213900-26-075890",
+        "details": "WITHDRAWAL REQUEST"
+      },
       {
         "event_type": "filing",
         "filing_type": "F-1",
-        "event_date": "2026-09-08",
-        "sec_accession": "0001104659-26-105582",
-        "details": "F-1"
+        "event_date": "2026-06-26",
+        "sec_accession": "0001213900-26-072423",
+        "details": "REGISTRATION STATEMENT"
+      },
+      {
+        "event_type": "withdrawal",
+        "filing_type": "RW",
+        "event_date": "2026-06-26",
+        "sec_accession": "0001213900-26-072418",
+        "details": "WITHDRAWAL REQUEST"
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "F-1/A",
+        "event_date": "2025-10-15",
+        "sec_accession": "0001213900-25-099087",
+        "details": "REGISTRATION STATEMENT"
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "F-1/A",
+        "event_date": "2025-09-18",
+        "sec_accession": "0001213900-25-088786",
+        "details": "REGISTRATION STATEMENT"
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "F-1/A",
+        "event_date": "2025-08-21",
+        "sec_accession": "0001213900-25-079257",
+        "details": "REGISTRATION STATEMENT"
       },
       {
         "event_type": "amendment",
         "filing_type": "F-1/A",
         "event_date": "2025-08-15",
-        "sec_accession": "0001104659-25-079174",
-        "details": "F-1/A"
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "F-1/A",
-        "event_date": "2025-04-21",
-        "sec_accession": "0001104659-25-036688",
-        "details": "F-1/A"
-      },
-      {
-        "event_type": "filing",
-        "filing_type": "F-1",
-        "event_date": "2025-03-18",
-        "sec_accession": "0001104659-25-024588",
-        "details": "FORM F-1"
-      }
-    ],
-    "status": "filed",
-    "_accession_for_extract": "0001104659-26-105582"
-  },
-  {
-    "id": "0002142627",
-    "cik": "0002142627",
-    "company_name": "BHAV Acquisition Corp II",
-    "ticker": null,
-    "filing_type": "S-1",
-    "filing_date": "2026-09-30",
-    "events": [
-      {
-        "event_type": "filing",
-        "filing_type": "S-1",
-        "event_date": "2026-09-30",
-        "sec_accession": "0001213900-26-104979",
-        "details": "REGISTRATION STATEMENT"
-      }
-    ],
-    "status": "filed",
-    "_accession_for_extract": "0001213900-26-104979"
-  },
-  {
-    "id": "LARS",
-    "cik": "0002140589",
-    "company_name": "Laris Growth Acquisition Corp.",
-    "ticker": "LARS",
-    "filing_type": "S-1/A",
-    "filing_date": "2026-07-02",
-    "events": [
-      {
-        "event_type": "amendment",
-        "filing_type": "S-1/A",
-        "event_date": "2026-09-30",
-        "sec_accession": "0001213900-26-105340",
+        "sec_accession": "0001213900-25-077286",
         "details": "REGISTRATION STATEMENT"
       },
       {
-        "event_type": "filing",
-        "filing_type": "S-1",
-        "event_date": "2026-07-02",
-        "sec_accession": "0001213900-26-075107",
-        "details": "REGISTRATION STATEMENT"
-      }
-    ],
-    "status": "amended",
-    "_accession_for_extract": "0001213900-26-105340"
-  },
-  {
-    "id": "0002145409",
-    "cik": "0002145409",
-    "company_name": "GX Acquisition Corp. III/Cayman",
-    "ticker": null,
-    "filing_type": "S-1/A",
-    "filing_date": "2026-08-03",
-    "events": [
-      {
         "event_type": "amendment",
-        "filing_type": "S-1/A",
-        "event_date": "2026-08-12",
-        "sec_accession": "0001185185-26-003452",
-        "details": "FORM S-1/A"
-      },
-      {
-        "event_type": "filing",
-        "filing_type": "S-1",
-        "event_date": "2026-08-03",
-        "sec_accession": "0001185185-26-003214",
-        "details": "FORM S-1"
-      }
-    ],
-    "status": "amended",
-    "_accession_for_extract": "0001185185-26-003452"
-  },
-  {
-    "id": "RZAI",
-    "cik": "0002075335",
-    "company_name": "ROZE AI INC.",
-    "ticker": "RZAI",
-    "filing_type": "F-1",
-    "filing_date": "2026-05-11",
-    "events": [
-      {
-        "event_type": "filing",
-        "filing_type": "F-1",
-        "event_date": "2026-09-30",
-        "sec_accession": "0001213900-26-105222",
+        "filing_type": "F-1/A",
+        "event_date": "2025-08-04",
+        "sec_accession": "0001213900-25-070836",
         "details": "REGISTRATION STATEMENT"
       },
       {
-        "event_type": "effective",
-        "filing_type": "EFFECT",
-        "event_date": "2026-09-28",
-        "sec_accession": "9999999995-26-003077",
-        "details": ""
-      },
-      {
-        "event_type": "pricing",
-        "filing_type": "424B4",
-        "event_date": "2026-09-28",
-        "sec_accession": "0001213900-26-104150",
-        "details": "PROSPECTUS"
+        "event_type": "amendment",
+        "filing_type": "F-1/A",
+        "event_date": "2025-07-18",
+        "sec_accession": "0001213900-25-065552",
+        "details": "REGISTRATION STATEMENT"
       },
       {
         "event_type": "amendment",
         "filing_type": "F-1/A",
-        "event_date": "2026-09-16",
-        "sec_accession": "0001213900-26-100443",
-        "details": "AMENDMENT NO. 5 TO FORM F-1"
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "F-1/A",
-        "event_date": "2026-09-09",
-        "sec_accession": "0001213900-26-098134",
-        "details": "AMENDMENT NO. 4 TO FORM F-1"
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "F-1/A",
-        "event_date": "2026-08-21",
-        "sec_accession": "0001213900-26-092289",
-        "details": "AMENDMENT NO. 3 TO FORM F-1"
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "F-1/A",
-        "event_date": "2026-08-11",
-        "sec_accession": "0001213900-26-087750",
-        "details": "AMENDMENT NO. 2 TO FORM F-1"
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "F-1/A",
-        "event_date": "2026-07-27",
-        "sec_accession": "0001213900-26-081788",
+        "event_date": "2025-06-27",
+        "sec_accession": "0001213900-25-058872",
         "details": "AMENDMENT NO. 1 TO FORM F-1"
       },
       {
         "event_type": "filing",
         "filing_type": "F-1",
-        "event_date": "2026-05-11",
-        "sec_accession": "0001213900-26-054085",
-        "details": "REGISTRATION STATEMENT"
-      },
-      {
-        "event_type": "exchange_listed",
-        "filing_type": null,
-        "event_date": "2026-09-29"
+        "event_date": "2025-06-06",
+        "sec_accession": "0001213900-25-052213",
+        "details": ""
       }
     ],
-    "exchange": "NASDAQ Capital",
-    "expected_date": null,
-    "actual_date": "2026-09-29",
-    "shares_offered": 13878565,
-    "offer_price": null,
-    "offer_amount": null,
-    "status": "listed",
-    "_accession_for_extract": "0001213900-26-105222"
+    "status": "withdrawn",
+    "description": "Gifts International Holdings Ltd. is a leading provider of innovative gift solutions, specializing in the design and distribution of a wide range of gift products. The company aims to enhance customer experiences through unique offerings and exceptional service.",
+    "products_services": "Gift products including personalized items, seasonal gifts, and corporate gifting solutions.",
+    "industry": "Retail and Consumer Goods",
+    "shares_outstanding": 11780900,
+    "proposed_price_low": 5.0,
+    "proposed_price_high": 6.0,
+    "price_range_low": 5.0,
+    "price_range_high": 6.0
+  },
+  {
+    "id": "ITIA",
+    "cik": "0002099952",
+    "company_name": "Star Integratia Ltd",
+    "ticker": "ITIA",
+    "filing_type": "F-1/A",
+    "filing_date": "2026-06-08",
+    "events": [
+      {
+        "event_type": "amendment",
+        "filing_type": "F-1/A",
+        "event_date": "2026-09-17",
+        "sec_accession": "0001493152-26-043076",
+        "details": "F-1/A"
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "F-1/A",
+        "event_date": "2026-09-04",
+        "sec_accession": "0001493152-26-041482",
+        "details": "F-1/A"
+      },
+      {
+        "event_type": "filing",
+        "filing_type": "F-1",
+        "event_date": "2026-06-08",
+        "sec_accession": "0001493152-26-027699",
+        "details": "F-1"
+      }
+    ],
+    "status": "amended",
+    "_accession_for_extract": "0001493152-26-043076"
   },
   {
     "id": "BYOP",
@@ -1609,533 +2675,168 @@
     "_accession_for_extract": "0001213900-26-109090"
   },
   {
-    "id": "0002094989",
-    "cik": "0002094989",
-    "company_name": "RUI Holdings Inc",
+    "id": "0002089447",
+    "cik": "0002089447",
+    "company_name": "Advance JV Group Ltd",
     "ticker": null,
     "filing_type": "424B4",
-    "filing_date": "2026-05-22",
+    "filing_date": "2026-07-20",
     "events": [
       {
         "event_type": "pricing",
         "filing_type": "424B4",
-        "event_date": "2026-09-24",
-        "sec_accession": "0001185185-26-004253",
-        "details": "FORM 424B4"
+        "event_date": "2026-09-01",
+        "sec_accession": "0001493152-26-040933",
+        "details": "424B4"
       },
       {
         "event_type": "effective",
         "filing_type": "EFFECT",
-        "event_date": "2026-09-23",
-        "sec_accession": "9999999995-26-003040",
+        "event_date": "2026-08-31",
+        "sec_accession": "9999999995-26-002832",
         "details": ""
       },
       {
         "event_type": "amendment",
         "filing_type": "F-1/A",
-        "event_date": "2026-09-17",
-        "sec_accession": "0001185185-26-004094",
-        "details": "FORM F-1/A"
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "F-1/A",
-        "event_date": "2026-09-11",
-        "sec_accession": "0001185185-26-003929",
-        "details": "FORM F-1/A4"
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "F-1/A",
-        "event_date": "2026-09-04",
-        "sec_accession": "0001185185-26-003841",
-        "details": "FORM F-1/A3"
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "F-1/A",
-        "event_date": "2026-08-28",
-        "sec_accession": "0001185185-26-003747",
-        "details": "FORM F-1/A2"
+        "event_date": "2026-08-27",
+        "sec_accession": "0001493152-26-040360",
+        "details": "F-1/A"
       },
       {
         "event_type": "amendment",
         "filing_type": "F-1/A",
         "event_date": "2026-08-13",
-        "sec_accession": "0001185185-26-003489",
-        "details": "FORM F-1/A"
+        "sec_accession": "0001493152-26-037633",
+        "details": "F-1/A"
       },
       {
         "event_type": "filing",
         "filing_type": "F-1",
-        "event_date": "2026-05-22",
-        "sec_accession": "0001185185-26-002077",
-        "details": "FORM F-1"
+        "event_date": "2026-07-20",
+        "sec_accession": "0001493152-26-033873",
+        "details": "F-1"
       }
     ],
     "status": "listed",
-    "_accession_for_extract": "0001185185-26-004094"
+    "description": "Advance JV Group Ltd. is a dynamic company focused on innovative solutions in the joint venture sector, aiming to enhance collaboration and growth opportunities for businesses.",
+    "products_services": "The company offers strategic consulting, project management, and partnership facilitation services to optimize joint ventures across various industries.",
+    "industry": "Business Consulting and Joint Ventures",
+    "shares_outstanding": 2500000,
+    "proposed_price_low": 1.5,
+    "proposed_price_high": 2.0,
+    "price_range_low": 1.5,
+    "price_range_high": 2.0
   },
   {
-    "id": "TBCVU",
-    "cik": "0002140030",
-    "company_name": "Thunder Bridge Capital Partners V, Ltd.",
-    "ticker": "TBCVU",
-    "filing_type": "424B4",
-    "filing_date": "2026-06-12",
+    "id": "HRIA",
+    "cik": "0002131072",
+    "company_name": "Harbour Island Acquisition Corp. I",
+    "ticker": "HRIA",
+    "filing_type": "S-1/A",
+    "filing_date": "2026-09-09",
     "events": [
-      {
-        "event_type": "pricing",
-        "filing_type": "424B4",
-        "event_date": "2026-08-13",
-        "sec_accession": "0001213900-26-089123",
-        "details": "PROSPECTUS"
-      },
-      {
-        "event_type": "effective",
-        "filing_type": "EFFECT",
-        "event_date": "2026-08-12",
-        "sec_accession": "9999999995-26-002635",
-        "details": ""
-      },
       {
         "event_type": "amendment",
         "filing_type": "S-1/A",
-        "event_date": "2026-08-06",
-        "sec_accession": "0001213900-26-085876",
+        "event_date": "2026-10-07",
+        "sec_accession": "0001213900-26-107627",
         "details": "REGISTRATION STATEMENT"
       },
       {
         "event_type": "filing",
         "filing_type": "S-1",
-        "event_date": "2026-06-12",
-        "sec_accession": "0001213900-26-068341",
+        "event_date": "2026-09-09",
+        "sec_accession": "0001213900-26-098404",
         "details": "REGISTRATION STATEMENT"
-      },
-      {
-        "event_type": "exchange_listed",
-        "filing_type": null,
-        "event_date": "2026-08-13"
-      }
-    ],
-    "exchange": "NASDAQ Global",
-    "expected_date": null,
-    "actual_date": "2026-08-13",
-    "shares_offered": 26100000,
-    "offer_price": 10.0,
-    "offer_amount": "$261,000,000",
-    "status": "listed",
-    "_accession_for_extract": "0001213900-26-085876"
-  },
-  {
-    "id": "0002143156",
-    "cik": "0002143156",
-    "company_name": "Lucens Capital Acquisition Corp I",
-    "ticker": null,
-    "filing_type": "S-1",
-    "filing_date": "2026-08-07",
-    "events": [
-      {
-        "event_type": "filing",
-        "filing_type": "S-1",
-        "event_date": "2026-08-07",
-        "sec_accession": "0001213900-26-086320",
-        "details": "REGISTRATION STATEMENT"
-      }
-    ],
-    "status": "filed",
-    "_accession_for_extract": "0001213900-26-086320"
-  },
-  {
-    "id": "CGL",
-    "cik": "0001934387",
-    "company_name": "CGL Logistics Holdings Ltd",
-    "ticker": "CGL",
-    "filing_type": "F-1/A",
-    "filing_date": "2025-10-23",
-    "events": [
-      {
-        "event_type": "amendment",
-        "filing_type": "F-1/A",
-        "event_date": "2026-10-16",
-        "sec_accession": "0001493152-26-047322",
-        "details": "F-1/A"
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "F-1/A",
-        "event_date": "2026-09-29",
-        "sec_accession": "0001493152-26-044699",
-        "details": "F-1/A"
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "F-1/A",
-        "event_date": "2026-09-04",
-        "sec_accession": "0001493152-26-041504",
-        "details": "F-1/A"
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "F-1/A",
-        "event_date": "2026-04-17",
-        "sec_accession": "0001493152-26-017168",
-        "details": "F-1/A"
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "F-1/A",
-        "event_date": "2026-04-02",
-        "sec_accession": "0001493152-26-014805",
-        "details": "F-1/A"
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "F-1/A",
-        "event_date": "2026-03-30",
-        "sec_accession": "0001493152-26-013468",
-        "details": "F-1/A"
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "F-1/A",
-        "event_date": "2026-03-19",
-        "sec_accession": "0001493152-26-011571",
-        "details": "F-1/A"
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "F-1/A",
-        "event_date": "2026-03-02",
-        "sec_accession": "0001493152-26-008488",
-        "details": "F-1/A"
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "F-1/A",
-        "event_date": "2026-02-02",
-        "sec_accession": "0001493152-26-004679",
-        "details": "F-1/A"
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "F-1/A",
-        "event_date": "2025-12-12",
-        "sec_accession": "0001493152-25-027531",
-        "details": "F-1/A"
-      },
-      {
-        "event_type": "filing",
-        "filing_type": "F-1",
-        "event_date": "2025-10-23",
-        "sec_accession": "0001493152-25-019107",
-        "details": "F-1"
       }
     ],
     "status": "amended",
-    "description": "CGL Logistics Holdings Ltd. is a leading provider of integrated logistics solutions, specializing in supply chain management and transportation services. The company aims to enhance operational efficiency for businesses through innovative logistics strategies and technology-driven solutions.",
-    "products_services": "Integrated logistics solutions, supply chain management, transportation services, warehousing, and distribution.",
-    "industry": "Logistics and Supply Chain Management",
-    "shares_outstanding": 3750000,
-    "proposed_price_low": 4.0,
-    "proposed_price_high": 4.0,
-    "price_range_low": 4.0,
-    "price_range_high": 4.0
+    "_accession_for_extract": "0001213900-26-107627"
   },
   {
-    "id": "LOVIU",
-    "cik": "0002115191",
-    "company_name": "Live Oak Acquisition Corp. VI",
-    "ticker": "LOVIU",
+    "id": "APMD",
+    "cik": "0001745648",
+    "company_name": "Apnimed, Inc.",
+    "ticker": "APMD",
     "filing_type": "424B4",
-    "filing_date": "2026-08-24",
+    "filing_date": "2026-07-10",
     "events": [
       {
         "event_type": "pricing",
         "filing_type": "424B4",
-        "event_date": "2026-09-23",
-        "sec_accession": "0001213900-26-102498",
-        "details": "PROSPECTUS"
+        "event_date": "2026-07-31",
+        "sec_accession": "0001193125-26-328422",
+        "details": "424B4"
       },
       {
         "event_type": "effective",
         "filing_type": "EFFECT",
-        "event_date": "2026-09-22",
-        "sec_accession": "9999999995-26-003030",
+        "event_date": "2026-07-30",
+        "sec_accession": "9999999995-26-002498",
         "details": ""
       },
       {
         "event_type": "amendment",
         "filing_type": "S-1/A",
-        "event_date": "2026-09-18",
-        "sec_accession": "0001213900-26-101388",
-        "details": "REGISTRATION STATEMENT"
+        "event_date": "2026-07-27",
+        "sec_accession": "0001193125-26-316811",
+        "details": "S-1/A"
       },
       {
         "event_type": "filing",
         "filing_type": "S-1",
-        "event_date": "2026-08-24",
-        "sec_accession": "0001213900-26-093129",
-        "details": "REGISTRATION STATEMENT"
+        "event_date": "2026-07-10",
+        "sec_accession": "0001193125-26-300909",
+        "details": "S-1"
       },
       {
         "event_type": "exchange_listed",
         "filing_type": null,
-        "event_date": "2026-09-23"
+        "event_date": "2026-07-31"
       }
     ],
-    "exchange": "NASDAQ Global",
+    "exchange": "NASDAQ Global Select",
     "expected_date": null,
-    "actual_date": "2026-09-23",
-    "shares_offered": 20000000,
-    "offer_price": 10.0,
-    "offer_amount": "$200,000,000",
+    "actual_date": "2026-07-31",
+    "shares_offered": 12000000,
+    "offer_price": 16.0,
+    "offer_amount": "$192,000,000",
     "status": "listed",
-    "_accession_for_extract": "0001213900-26-101388"
+    "description": "Apnimed, Inc. is a clinical-stage biopharmaceutical company focused on developing innovative therapies for the treatment of sleep disorders, particularly obstructive sleep apnea. The company's lead product candidate aims to address unmet medical needs in this growing market.",
+    "products_services": "Pharmaceutical therapies for sleep disorders, specifically targeting obstructive sleep apnea.",
+    "industry": "Biopharmaceuticals",
+    "shares_outstanding": 26152228,
+    "proposed_price_low": 14.0,
+    "proposed_price_high": 16.0,
+    "price_range_low": 14.0,
+    "price_range_high": 16.0
   },
   {
-    "id": "0000715837",
-    "cik": "0000715837",
-    "company_name": "LPC LTD",
+    "id": "0002084038",
+    "cik": "0002084038",
+    "company_name": "Yi Feng Holdings Ltd.",
     "ticker": null,
-    "filing_type": "F-1",
-    "filing_date": "2026-10-02",
+    "filing_type": "F-1/A",
+    "filing_date": "2026-01-16",
     "events": [
       {
-        "event_type": "filing",
-        "filing_type": "F-1",
-        "event_date": "2026-10-02",
-        "sec_accession": "0001213900-26-106329",
-        "details": "REGISTRATION STATEMENT"
-      }
-    ],
-    "status": "filed",
-    "_accession_for_extract": "0001213900-26-106329"
-  },
-  {
-    "id": "0002101996",
-    "cik": "0002101996",
-    "company_name": "Nuclea Energy Inc.",
-    "ticker": null,
-    "filing_type": "RW",
-    "filing_date": "2026-04-13",
-    "events": [
-      {
-        "event_type": "withdrawal",
-        "filing_type": "RW",
-        "event_date": "2026-07-31",
-        "sec_accession": "0001213900-26-083621",
-        "details": "WITHDRAWAL REQUEST"
-      },
-      {
         "event_type": "amendment",
         "filing_type": "F-1/A",
-        "event_date": "2026-07-01",
-        "sec_accession": "0001213900-26-074008",
-        "details": "REGISTRATION STATEMENT"
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "F-1/A",
-        "event_date": "2026-06-29",
-        "sec_accession": "0001213900-26-073000",
-        "details": "REGISTRATION STATEMENT"
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "F-1/A",
-        "event_date": "2026-06-16",
-        "sec_accession": "0001213900-26-069326",
-        "details": "REGISTRATION STATEMENT"
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "F-1/A",
-        "event_date": "2026-06-09",
-        "sec_accession": "0001213900-26-066889",
-        "details": "REGISTRATION STATEMENT"
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "F-1/A",
-        "event_date": "2026-05-14",
-        "sec_accession": "0001213900-26-056075",
-        "details": "REGISTRATION STATEMENT"
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "F-1/A",
-        "event_date": "2026-04-29",
-        "sec_accession": "0001213900-26-049394",
+        "event_date": "2026-09-15",
+        "sec_accession": "0001213900-26-100091",
         "details": "REGISTRATION STATEMENT"
       },
       {
         "event_type": "filing",
         "filing_type": "F-1",
-        "event_date": "2026-04-13",
-        "sec_accession": "0001213900-26-042714",
-        "details": "REGISTRATION STATEMENT"
-      },
-      {
-        "event_type": "exchange_withdrawn",
-        "filing_type": null,
-        "event_date": null
-      }
-    ],
-    "exchange": null,
-    "expected_date": null,
-    "actual_date": null,
-    "shares_offered": null,
-    "offer_price": null,
-    "offer_amount": null,
-    "status": "withdrawn",
-    "_accession_for_extract": "0001213900-26-074008"
-  },
-  {
-    "id": "0002073516",
-    "cik": "0002073516",
-    "company_name": "ARC Group Acquisition II Corp.",
-    "ticker": null,
-    "filing_type": "S-1",
-    "filing_date": "2026-08-20",
-    "events": [
-      {
-        "event_type": "filing",
-        "filing_type": "S-1",
-        "event_date": "2026-08-20",
-        "sec_accession": "0001493152-26-039519",
-        "details": "S-1"
-      }
-    ],
-    "status": "filed",
-    "_accession_for_extract": "0001493152-26-039519"
-  },
-  {
-    "id": "IQMX",
-    "cik": "0002113060",
-    "company_name": "IQM Quantum Computers Oyj",
-    "ticker": "IQMX",
-    "filing_type": "EFFECT",
-    "filing_date": "2026-08-03",
-    "events": [
-      {
-        "event_type": "effective",
-        "filing_type": "EFFECT",
-        "event_date": "2026-08-26",
-        "sec_accession": "9999999995-26-002769",
-        "details": ""
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "F-1/A",
-        "event_date": "2026-08-18",
-        "sec_accession": "0001193125-26-355643",
-        "details": "F-1/A"
-      },
-      {
-        "event_type": "filing",
-        "filing_type": "F-1",
-        "event_date": "2026-08-03",
-        "sec_accession": "0001193125-26-330877",
-        "details": "F-1"
-      },
-      {
-        "event_type": "effective",
-        "filing_type": "EFFECT",
-        "event_date": "2026-06-05",
-        "sec_accession": "9999999995-26-001907",
-        "details": ""
-      }
-    ],
-    "status": "listed",
-    "_accession_for_extract": "0001193125-26-355643"
-  },
-  {
-    "id": "ENRD",
-    "cik": "0002095096",
-    "company_name": "Einride AB",
-    "ticker": "ENRD",
-    "filing_type": "EFFECT",
-    "filing_date": "2026-07-08",
-    "events": [
-      {
-        "event_type": "effective",
-        "filing_type": "EFFECT",
-        "event_date": "2026-09-25",
-        "sec_accession": "9999999995-26-003068",
-        "details": ""
-      },
-      {
-        "event_type": "filing",
-        "filing_type": "F-1",
-        "event_date": "2026-09-14",
-        "sec_accession": "0001493152-26-042440",
-        "details": "F-1"
-      },
-      {
-        "event_type": "effective",
-        "filing_type": "EFFECT",
-        "event_date": "2026-07-15",
-        "sec_accession": "9999999995-26-002316",
-        "details": ""
-      },
-      {
-        "event_type": "filing",
-        "filing_type": "F-1",
-        "event_date": "2026-07-08",
-        "sec_accession": "0001829126-26-007382",
-        "details": "F-1"
-      },
-      {
-        "event_type": "effective",
-        "filing_type": "EFFECT",
-        "event_date": "2026-05-14",
-        "sec_accession": "9999999995-26-001654",
-        "details": ""
-      },
-      {
-        "event_type": "effective",
-        "filing_type": "EFFECT",
-        "event_date": "2026-05-14",
-        "sec_accession": "9999999995-26-001652",
-        "details": ""
-      }
-    ],
-    "status": "listed",
-    "description": "Einride AB is a Swedish technology company specializing in electric and autonomous transport solutions, aiming to revolutionize freight logistics. The company focuses on developing self-driving electric trucks and a digital platform for managing transportation operations.",
-    "products_services": "Electric and autonomous trucks, transportation management software, logistics solutions.",
-    "industry": "Transportation and Logistics",
-    "shares_outstanding": 10062500,
-    "proposed_price_low": 10.0,
-    "proposed_price_high": 10.0,
-    "price_range_low": 10.0,
-    "price_range_high": 10.0
-  },
-  {
-    "id": "0002081641",
-    "cik": "0002081641",
-    "company_name": "Worldstar Engineering Holdings Ltd",
-    "ticker": null,
-    "filing_type": "F-1",
-    "filing_date": "2026-06-30",
-    "events": [
-      {
-        "event_type": "filing",
-        "filing_type": "F-1",
-        "event_date": "2026-06-30",
-        "sec_accession": "0001213900-26-073347",
+        "event_date": "2026-01-16",
+        "sec_accession": "0001213900-26-005036",
         "details": "REGISTRATION STATEMENT"
       }
     ],
-    "status": "filed",
-    "description": "Worldstar Engineering Holdings Ltd. is a leading provider of innovative engineering solutions, specializing in advanced manufacturing and technology integration. The company focuses on delivering high-quality products and services to various sectors, including aerospace, automotive, and industrial applications.",
-    "products_services": "Advanced manufacturing solutions, engineering consulting, technology integration, and custom machinery design.",
-    "industry": "Engineering and Manufacturing",
-    "shares_outstanding": 5000000,
-    "proposed_price_low": 5.0,
-    "proposed_price_high": 6.0,
-    "price_range_low": 5.0,
-    "price_range_high": 6.0
+    "status": "amended",
+    "_accession_for_extract": "0001213900-26-100091"
   },
   {
     "id": "SNSC",
@@ -2231,622 +2932,56 @@
     "price_range_high": 10.0
   },
   {
-    "id": "HRIA",
-    "cik": "0002131072",
-    "company_name": "Harbour Island Acquisition Corp. I",
-    "ticker": "HRIA",
-    "filing_type": "S-1/A",
-    "filing_date": "2026-09-09",
-    "events": [
-      {
-        "event_type": "amendment",
-        "filing_type": "S-1/A",
-        "event_date": "2026-10-07",
-        "sec_accession": "0001213900-26-107627",
-        "details": "REGISTRATION STATEMENT"
-      },
-      {
-        "event_type": "filing",
-        "filing_type": "S-1",
-        "event_date": "2026-09-09",
-        "sec_accession": "0001213900-26-098404",
-        "details": "REGISTRATION STATEMENT"
-      }
-    ],
-    "status": "amended",
-    "_accession_for_extract": "0001213900-26-107627"
-  },
-  {
-    "id": "XTERU",
-    "cik": "0002134856",
-    "company_name": "Xterax Corp II",
-    "ticker": "XTERU",
-    "filing_type": "424B4",
-    "filing_date": "2026-07-27",
-    "events": [
-      {
-        "event_type": "pricing",
-        "filing_type": "424B4",
-        "event_date": "2026-08-18",
-        "sec_accession": "0001829126-26-009017",
-        "details": "424B4"
-      },
-      {
-        "event_type": "effective",
-        "filing_type": "EFFECT",
-        "event_date": "2026-08-17",
-        "sec_accession": "9999999995-26-002682",
-        "details": ""
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "S-1/A",
-        "event_date": "2026-08-11",
-        "sec_accession": "0001829126-26-008622",
-        "details": "S-1/A"
-      },
-      {
-        "event_type": "filing",
-        "filing_type": "S-1",
-        "event_date": "2026-07-27",
-        "sec_accession": "0001829126-26-007847",
-        "details": "S-1"
-      },
-      {
-        "event_type": "exchange_listed",
-        "filing_type": null,
-        "event_date": "2026-08-18"
-      }
-    ],
-    "exchange": "NASDAQ Global",
-    "expected_date": null,
-    "actual_date": "2026-08-18",
-    "shares_offered": 20000000,
-    "offer_price": 10.0,
-    "offer_amount": "$200,000,000",
-    "status": "listed",
-    "_accession_for_extract": "0001829126-26-008622"
-  },
-  {
-    "id": "0002032274",
-    "cik": "0002032274",
-    "company_name": "Gifts International Holdings Ltd",
+    "id": "0002143156",
+    "cik": "0002143156",
+    "company_name": "Lucens Capital Acquisition Corp I",
     "ticker": null,
-    "filing_type": "RW",
-    "filing_date": "2025-06-06",
-    "events": [
-      {
-        "event_type": "withdrawal",
-        "filing_type": "RW",
-        "event_date": "2026-07-07",
-        "sec_accession": "0001213900-26-075890",
-        "details": "WITHDRAWAL REQUEST"
-      },
-      {
-        "event_type": "filing",
-        "filing_type": "F-1",
-        "event_date": "2026-06-26",
-        "sec_accession": "0001213900-26-072423",
-        "details": "REGISTRATION STATEMENT"
-      },
-      {
-        "event_type": "withdrawal",
-        "filing_type": "RW",
-        "event_date": "2026-06-26",
-        "sec_accession": "0001213900-26-072418",
-        "details": "WITHDRAWAL REQUEST"
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "F-1/A",
-        "event_date": "2025-10-15",
-        "sec_accession": "0001213900-25-099087",
-        "details": "REGISTRATION STATEMENT"
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "F-1/A",
-        "event_date": "2025-09-18",
-        "sec_accession": "0001213900-25-088786",
-        "details": "REGISTRATION STATEMENT"
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "F-1/A",
-        "event_date": "2025-08-21",
-        "sec_accession": "0001213900-25-079257",
-        "details": "REGISTRATION STATEMENT"
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "F-1/A",
-        "event_date": "2025-08-15",
-        "sec_accession": "0001213900-25-077286",
-        "details": "REGISTRATION STATEMENT"
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "F-1/A",
-        "event_date": "2025-08-04",
-        "sec_accession": "0001213900-25-070836",
-        "details": "REGISTRATION STATEMENT"
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "F-1/A",
-        "event_date": "2025-07-18",
-        "sec_accession": "0001213900-25-065552",
-        "details": "REGISTRATION STATEMENT"
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "F-1/A",
-        "event_date": "2025-06-27",
-        "sec_accession": "0001213900-25-058872",
-        "details": "AMENDMENT NO. 1 TO FORM F-1"
-      },
-      {
-        "event_type": "filing",
-        "filing_type": "F-1",
-        "event_date": "2025-06-06",
-        "sec_accession": "0001213900-25-052213",
-        "details": ""
-      }
-    ],
-    "status": "withdrawn",
-    "description": "Gifts International Holdings Ltd. is a leading provider of innovative gift solutions, specializing in the design and distribution of a wide range of gift products. The company aims to enhance customer experiences through unique offerings and exceptional service.",
-    "products_services": "Gift products including personalized items, seasonal gifts, and corporate gifting solutions.",
-    "industry": "Retail and Consumer Goods",
-    "shares_outstanding": 11780900,
-    "proposed_price_low": 5.0,
-    "proposed_price_high": 6.0,
-    "price_range_low": 5.0,
-    "price_range_high": 6.0
-  },
-  {
-    "id": "OHII",
-    "cik": "0002143038",
-    "company_name": "Oceanhawk Acquisition II Corp.",
-    "ticker": "OHII",
     "filing_type": "S-1",
-    "filing_date": "2026-09-15",
+    "filing_date": "2026-08-07",
     "events": [
       {
         "event_type": "filing",
         "filing_type": "S-1",
-        "event_date": "2026-09-15",
-        "sec_accession": "0001185185-26-004010",
-        "details": "FORM S-1"
-      }
-    ],
-    "status": "filed",
-    "_accession_for_extract": "0001185185-26-004010"
-  },
-  {
-    "id": "0002087162",
-    "cik": "0002087162",
-    "company_name": "Yesil Global Enerji A.S.",
-    "ticker": null,
-    "filing_type": "F-1/A",
-    "filing_date": "2026-03-10",
-    "events": [
-      {
-        "event_type": "amendment",
-        "filing_type": "F-1/A",
-        "event_date": "2026-07-16",
-        "sec_accession": "0001493152-26-033580",
-        "details": "F-1/A"
-      },
-      {
-        "event_type": "filing",
-        "filing_type": "F-1",
-        "event_date": "2026-03-10",
-        "sec_accession": "0001493152-26-009409",
-        "details": "F-1"
-      }
-    ],
-    "status": "amended",
-    "description": "Yesil Global Enerji A.S. is a renewable energy company focused on sustainable energy solutions and innovative technologies. The company aims to contribute to the global transition towards clean energy through its diverse portfolio of projects.",
-    "products_services": "Renewable energy solutions, solar energy systems, wind energy projects, energy efficiency consulting, and sustainable technology development.",
-    "industry": "Renewable Energy",
-    "_accession_for_extract": "0001493152-26-033580"
-  },
-  {
-    "id": "RGNT",
-    "cik": "0001912966",
-    "company_name": "REGENTIS BIOMATERIALS LTD.",
-    "ticker": "RGNT",
-    "filing_type": "EFFECT",
-    "filing_date": "2022-11-04",
-    "events": [
-      {
-        "event_type": "effective",
-        "filing_type": "EFFECT",
-        "event_date": "2026-09-22",
-        "sec_accession": "9999999995-26-003029",
-        "details": ""
-      },
-      {
-        "event_type": "effective",
-        "filing_type": "EFFECT",
-        "event_date": "2026-07-13",
-        "sec_accession": "9999999995-26-002284",
-        "details": ""
-      },
-      {
-        "event_type": "filing",
-        "filing_type": "F-1",
-        "event_date": "2026-07-08",
-        "sec_accession": "0001213900-26-076392",
-        "details": "REGISTRATION STATEMENT"
-      },
-      {
-        "event_type": "withdrawal",
-        "filing_type": "RW",
-        "event_date": "2026-06-15",
-        "sec_accession": "0001213900-26-068596",
-        "details": "WITHDRAWAL REQUEST"
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "F-1/A",
-        "event_date": "2026-06-09",
-        "sec_accession": "0001213900-26-066555",
-        "details": "AMENDMENT NO. 1 TO FORM F-1"
-      },
-      {
-        "event_type": "filing",
-        "filing_type": "F-1",
-        "event_date": "2026-05-01",
-        "sec_accession": "0001213900-26-051034",
-        "details": "REGISTRATION STATEMENT"
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "F-1/A",
-        "event_date": "2025-10-24",
-        "sec_accession": "0001213900-25-101900",
-        "details": "AMENDMENT NO. 6 TO FORM F-1"
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "F-1/A",
-        "event_date": "2025-09-30",
-        "sec_accession": "0001213900-25-093302",
-        "details": "AMENDMENT NO. 5 TO FORM F-1"
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "F-1/A",
-        "event_date": "2025-09-09",
-        "sec_accession": "0001213900-25-085690",
-        "details": "AMENDMENT NO. 4 TO FORM F-1"
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "F-1/A",
-        "event_date": "2025-07-07",
-        "sec_accession": "0001213900-25-061821",
-        "details": "AMENDMENT NO. 3 TO FORM F-1"
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "F-1/A",
-        "event_date": "2025-05-19",
-        "sec_accession": "0001213900-25-045479",
-        "details": "AMENDMENT NO. 2 TO FORM F-1"
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "F-1/A",
-        "event_date": "2025-05-05",
-        "sec_accession": "0001213900-25-039589",
-        "details": "AMENDMENT NO. 1 TO FORM F-1"
-      },
-      {
-        "event_type": "filing",
-        "filing_type": "F-1",
-        "event_date": "2025-03-11",
-        "sec_accession": "0001213900-25-022350",
-        "details": "REGISTRATION STATEMENT"
-      },
-      {
-        "event_type": "withdrawal",
-        "filing_type": "RW",
-        "event_date": "2024-11-21",
-        "sec_accession": "0001213900-24-101083",
-        "details": "REIGSTRATION WITHDRAWAL REQUEST"
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "F-1/A",
-        "event_date": "2022-12-19",
-        "sec_accession": "0001213900-22-080923",
-        "details": "AMENDMENT NO. 2 TO FORM F-1"
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "F-1/A",
-        "event_date": "2022-12-07",
-        "sec_accession": "0001213900-22-078151",
-        "details": "AMENDMENT NO. 1 TO FORM F-1"
-      },
-      {
-        "event_type": "filing",
-        "filing_type": "F-1",
-        "event_date": "2022-11-04",
-        "sec_accession": "0001213900-22-069365",
-        "details": "REGISTRATION STATEMENT"
-      }
-    ],
-    "status": "listed",
-    "description": "REGENTIS BIOMATERIALS LTD. is a biotechnology company focused on developing innovative biomaterials for regenerative medicine applications. Their flagship product aims to enhance tissue repair and regeneration in orthopedic and dental procedures.",
-    "products_services": "Biomaterials for tissue regeneration, specifically designed for orthopedic and dental applications.",
-    "industry": "Biotechnology",
-    "shares_outstanding": 7023921,
-    "proposed_price_low": 3.64,
-    "proposed_price_high": 3.64,
-    "price_range_low": 3.64,
-    "price_range_high": 3.64
-  },
-  {
-    "id": "PNAQU",
-    "cik": "0002123955",
-    "company_name": "Pinnacle Acquisition Corp",
-    "ticker": "PNAQU",
-    "filing_type": "424B4",
-    "filing_date": "2026-07-22",
-    "events": [
-      {
-        "event_type": "pricing",
-        "filing_type": "424B4",
         "event_date": "2026-08-07",
-        "sec_accession": "0001213900-26-086694",
-        "details": "PROSPECTUS"
-      },
-      {
-        "event_type": "effective",
-        "filing_type": "EFFECT",
-        "event_date": "2026-08-06",
-        "sec_accession": "9999999995-26-002568",
-        "details": ""
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "S-1/A",
-        "event_date": "2026-08-05",
-        "sec_accession": "0001213900-26-085313",
+        "sec_accession": "0001213900-26-086320",
         "details": "REGISTRATION STATEMENT"
-      },
-      {
-        "event_type": "filing",
-        "filing_type": "S-1",
-        "event_date": "2026-07-22",
-        "sec_accession": "0001213900-26-080433",
-        "details": "REGISTRATION STATEMENT"
-      },
-      {
-        "event_type": "exchange_listed",
-        "filing_type": null,
-        "event_date": "2026-08-07"
       }
     ],
-    "exchange": "NYSE",
-    "expected_date": null,
-    "actual_date": "2026-08-07",
-    "shares_offered": 20000000,
-    "offer_price": 10.0,
-    "offer_amount": "$200,000,000",
-    "status": "listed",
-    "_accession_for_extract": "0001213900-26-085313"
+    "status": "filed",
+    "_accession_for_extract": "0001213900-26-086320"
   },
   {
-    "id": "REF",
-    "cik": "0001787117",
-    "company_name": "Reformation Inc.",
-    "ticker": "REF",
-    "filing_type": "424B4",
-    "filing_date": "2026-06-25",
-    "events": [
-      {
-        "event_type": "pricing",
-        "filing_type": "424B4",
-        "event_date": "2026-07-30",
-        "sec_accession": "0001104659-26-088733",
-        "details": "424B4"
-      },
-      {
-        "event_type": "effective",
-        "filing_type": "EFFECT",
-        "event_date": "2026-07-29",
-        "sec_accession": "9999999995-26-002490",
-        "details": ""
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "S-1/A",
-        "event_date": "2026-07-23",
-        "sec_accession": "0001104659-26-086075",
-        "details": "S-1/A"
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "S-1/A",
-        "event_date": "2026-07-20",
-        "sec_accession": "0001104659-26-084856",
-        "details": "S-1/A"
-      },
-      {
-        "event_type": "filing",
-        "filing_type": "S-1",
-        "event_date": "2026-06-25",
-        "sec_accession": "0001104659-26-077832",
-        "details": "S-1"
-      },
-      {
-        "event_type": "exchange_listed",
-        "filing_type": null,
-        "event_date": "2026-07-30"
-      }
-    ],
-    "exchange": "NYSE",
-    "expected_date": null,
-    "actual_date": "2026-07-30",
-    "shares_offered": 14062500,
-    "offer_price": 15.0,
-    "offer_amount": "$210,937,500",
-    "status": "listed",
-    "description": "Reformation Inc. is a sustainable fashion brand focused on creating stylish, eco-friendly clothing for women. The company emphasizes transparency in its supply chain and aims to reduce its environmental impact while promoting ethical practices in the fashion industry.",
-    "products_services": "Women's clothing, including dresses, tops, bottoms, and activewear, made from sustainable materials.",
-    "industry": "Fashion and Apparel",
-    "shares_outstanding": 6208,
-    "proposed_price_low": 15.0,
-    "proposed_price_high": 17.0,
-    "price_range_low": 15.0,
-    "price_range_high": 17.0
-  },
-  {
-    "id": "ITIA",
-    "cik": "0002099952",
-    "company_name": "Star Integratia Ltd",
-    "ticker": "ITIA",
+    "id": "SUCH",
+    "cik": "0002104032",
+    "company_name": "Suchness Tech Ltd",
+    "ticker": "SUCH",
     "filing_type": "F-1/A",
-    "filing_date": "2026-06-08",
+    "filing_date": "2026-05-12",
     "events": [
       {
         "event_type": "amendment",
         "filing_type": "F-1/A",
-        "event_date": "2026-09-17",
-        "sec_accession": "0001493152-26-043076",
-        "details": "F-1/A"
+        "event_date": "2026-08-03",
+        "sec_accession": "0001213900-26-084190",
+        "details": "AMENDMENT NO. 2 TO FORM F-1"
       },
       {
         "event_type": "amendment",
         "filing_type": "F-1/A",
-        "event_date": "2026-09-04",
-        "sec_accession": "0001493152-26-041482",
-        "details": "F-1/A"
+        "event_date": "2026-05-29",
+        "sec_accession": "0001213900-26-062818",
+        "details": "AMENDMENT NO. 1 TO FORM F-1"
       },
       {
         "event_type": "filing",
         "filing_type": "F-1",
-        "event_date": "2026-06-08",
-        "sec_accession": "0001493152-26-027699",
-        "details": "F-1"
-      }
-    ],
-    "status": "amended",
-    "_accession_for_extract": "0001493152-26-043076"
-  },
-  {
-    "id": "MTAKU",
-    "cik": "0002133136",
-    "company_name": "Market Technology Acquisition Corp",
-    "ticker": "MTAKU",
-    "filing_type": "424B4",
-    "filing_date": "2026-06-16",
-    "events": [
-      {
-        "event_type": "pricing",
-        "filing_type": "424B4",
-        "event_date": "2026-07-27",
-        "sec_accession": "0001213900-26-081597",
-        "details": "PROSPECTUS"
-      },
-      {
-        "event_type": "effective",
-        "filing_type": "EFFECT",
-        "event_date": "2026-07-23",
-        "sec_accession": "9999999995-26-002414",
-        "details": ""
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "S-1/A",
-        "event_date": "2026-07-22",
-        "sec_accession": "0001213900-26-080237",
-        "details": "REGISTRATION STATEMENT"
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "S-1/A",
-        "event_date": "2026-07-10",
-        "sec_accession": "0001213900-26-076891",
-        "details": "REGISTRATION STATEMENT"
-      },
-      {
-        "event_type": "filing",
-        "filing_type": "S-1",
-        "event_date": "2026-06-16",
-        "sec_accession": "0001213900-26-069333",
-        "details": "REGISTRATION STATEMENT"
-      },
-      {
-        "event_type": "exchange_listed",
-        "filing_type": null,
-        "event_date": "2026-07-24"
-      }
-    ],
-    "exchange": "NASDAQ Global",
-    "expected_date": null,
-    "actual_date": "2026-07-24",
-    "shares_offered": 20000000,
-    "offer_price": 10.0,
-    "offer_amount": "$200,000,000",
-    "status": "listed",
-    "description": "Market Technology Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative technology firms. The company aims to leverage its expertise in the market to drive growth and create value for shareholders.",
-    "products_services": "Market Technology Acquisition Corp. primarily engages in the acquisition and merger of technology companies, providing them with capital and strategic support to accelerate their growth.",
-    "industry": "Financial Services / SPACs",
-    "shares_outstanding": 20000000,
-    "proposed_price_low": 10.0,
-    "proposed_price_high": 10.0,
-    "price_range_low": 10.0,
-    "price_range_high": 10.0
-  },
-  {
-    "id": "LCAC",
-    "cik": "0002147457",
-    "company_name": "Lower Cross Acquisitions Corp",
-    "ticker": "LCAC",
-    "filing_type": "S-1",
-    "filing_date": "2026-09-16",
-    "events": [
-      {
-        "event_type": "filing",
-        "filing_type": "S-1",
-        "event_date": "2026-09-16",
-        "sec_accession": "0001185185-26-004071",
-        "details": "FORM S-1"
-      }
-    ],
-    "status": "filed",
-    "_accession_for_extract": "0001185185-26-004071"
-  },
-  {
-    "id": "0002138170",
-    "cik": "0002138170",
-    "company_name": "Spring Valley Acquisition Corp. V",
-    "ticker": null,
-    "filing_type": "S-1/A",
-    "filing_date": "2026-06-08",
-    "events": [
-      {
-        "event_type": "amendment",
-        "filing_type": "S-1/A",
-        "event_date": "2026-10-14",
-        "sec_accession": "0001213900-26-109177",
-        "details": "REGISTRATION STATEMENT"
-      },
-      {
-        "event_type": "filing",
-        "filing_type": "S-1",
-        "event_date": "2026-06-08",
-        "sec_accession": "0001213900-26-065988",
+        "event_date": "2026-05-12",
+        "sec_accession": "0001213900-26-054650",
         "details": "REGISTRATION STATEMENT"
       }
     ],
     "status": "amended",
-    "_accession_for_extract": "0001213900-26-109177"
+    "_accession_for_extract": "0001213900-26-084190"
   },
   {
     "id": "IPHXU",
@@ -2900,177 +3035,6 @@
     "_accession_for_extract": "0001213900-26-093109"
   },
   {
-    "id": "AMACU",
-    "cik": "0002110119",
-    "company_name": "AMR Resources Acquisition Corp.",
-    "ticker": "AMACU",
-    "filing_type": "424B4",
-    "filing_date": "2026-06-26",
-    "events": [
-      {
-        "event_type": "pricing",
-        "filing_type": "424B4",
-        "event_date": "2026-07-17",
-        "sec_accession": "0001213900-26-079231",
-        "details": "PROSPECTUS"
-      },
-      {
-        "event_type": "effective",
-        "filing_type": "EFFECT",
-        "event_date": "2026-07-16",
-        "sec_accession": "9999999995-26-002336",
-        "details": ""
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "S-1/A",
-        "event_date": "2026-06-29",
-        "sec_accession": "0001213900-26-073226",
-        "details": "REGISTRATION STATEMENT"
-      },
-      {
-        "event_type": "filing",
-        "filing_type": "S-1",
-        "event_date": "2026-06-26",
-        "sec_accession": "0001213900-26-072712",
-        "details": "REGISTRATION STATEMENT"
-      },
-      {
-        "event_type": "exchange_listed",
-        "filing_type": null,
-        "event_date": "2026-07-17"
-      }
-    ],
-    "exchange": "NASDAQ Global",
-    "expected_date": null,
-    "actual_date": "2026-07-17",
-    "shares_offered": 25000000,
-    "offer_price": 10.0,
-    "offer_amount": "$250,000,000",
-    "status": "listed",
-    "description": "AMR Resources Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the technology and energy sectors. The company aims to leverage its expertise to drive growth and create value for shareholders through strategic partnerships.",
-    "products_services": "As a SPAC, AMR Resources Acquisition Corp. does not offer traditional products or services but seeks to acquire and support companies in their growth trajectories post-merger.",
-    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)",
-    "shares_outstanding": 28750000,
-    "proposed_price_low": 10.0,
-    "proposed_price_high": 10.0,
-    "price_range_low": 10.0,
-    "price_range_high": 10.0
-  },
-  {
-    "id": "0002089787",
-    "cik": "0002089787",
-    "company_name": "RainRock Acquisition Corp.",
-    "ticker": null,
-    "filing_type": "S-1",
-    "filing_date": "2026-09-01",
-    "events": [
-      {
-        "event_type": "filing",
-        "filing_type": "S-1",
-        "event_date": "2026-09-01",
-        "sec_accession": "0001213900-26-095969",
-        "details": "REGISTRATION STATEMENT"
-      }
-    ],
-    "status": "filed",
-    "_accession_for_extract": "0001213900-26-095969"
-  },
-  {
-    "id": "EMAC",
-    "cik": "0002143060",
-    "company_name": "Essential Minerals Acquisition Corp",
-    "ticker": "EMAC",
-    "filing_type": "S-1/A",
-    "filing_date": "2026-08-24",
-    "events": [
-      {
-        "event_type": "amendment",
-        "filing_type": "S-1/A",
-        "event_date": "2026-10-20",
-        "sec_accession": "0001185185-26-004871",
-        "details": "FORM S-1/A"
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "S-1/A",
-        "event_date": "2026-10-08",
-        "sec_accession": "0001185185-26-004657",
-        "details": "FORM S-1/A"
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "S-1/A",
-        "event_date": "2026-10-01",
-        "sec_accession": "0001185185-26-004457",
-        "details": "FORM S-1/A"
-      },
-      {
-        "event_type": "filing",
-        "filing_type": "S-1",
-        "event_date": "2026-08-24",
-        "sec_accession": "0001185185-26-003690",
-        "details": "FORM S-1"
-      }
-    ],
-    "status": "amended",
-    "_accession_for_extract": "0001185185-26-004871"
-  },
-  {
-    "id": "0002089447",
-    "cik": "0002089447",
-    "company_name": "Advance JV Group Ltd",
-    "ticker": null,
-    "filing_type": "424B4",
-    "filing_date": "2026-07-20",
-    "events": [
-      {
-        "event_type": "pricing",
-        "filing_type": "424B4",
-        "event_date": "2026-09-01",
-        "sec_accession": "0001493152-26-040933",
-        "details": "424B4"
-      },
-      {
-        "event_type": "effective",
-        "filing_type": "EFFECT",
-        "event_date": "2026-08-31",
-        "sec_accession": "9999999995-26-002832",
-        "details": ""
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "F-1/A",
-        "event_date": "2026-08-27",
-        "sec_accession": "0001493152-26-040360",
-        "details": "F-1/A"
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "F-1/A",
-        "event_date": "2026-08-13",
-        "sec_accession": "0001493152-26-037633",
-        "details": "F-1/A"
-      },
-      {
-        "event_type": "filing",
-        "filing_type": "F-1",
-        "event_date": "2026-07-20",
-        "sec_accession": "0001493152-26-033873",
-        "details": "F-1"
-      }
-    ],
-    "status": "listed",
-    "description": "Advance JV Group Ltd. is a dynamic company focused on innovative solutions in the joint venture sector, aiming to enhance collaboration and growth opportunities for businesses.",
-    "products_services": "The company offers strategic consulting, project management, and partnership facilitation services to optimize joint ventures across various industries.",
-    "industry": "Business Consulting and Joint Ventures",
-    "shares_outstanding": 2500000,
-    "proposed_price_low": 1.5,
-    "proposed_price_high": 2.0,
-    "price_range_low": 1.5,
-    "price_range_high": 2.0
-  },
-  {
     "id": "KOEI",
     "cik": "0002070087",
     "company_name": "Koei Group Co., Ltd.",
@@ -3104,49 +3068,257 @@
     "_accession_for_extract": "0001493152-26-042913"
   },
   {
-    "id": "0002062925",
-    "cik": "0002062925",
-    "company_name": "Smart Pointer Group Holdings Ltd",
-    "ticker": null,
-    "filing_type": "F-1",
-    "filing_date": "2026-06-29",
+    "id": "LARS",
+    "cik": "0002140589",
+    "company_name": "Laris Growth Acquisition Corp.",
+    "ticker": "LARS",
+    "filing_type": "S-1/A",
+    "filing_date": "2026-07-02",
     "events": [
       {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2026-09-30",
+        "sec_accession": "0001213900-26-105340",
+        "details": "REGISTRATION STATEMENT"
+      },
+      {
         "event_type": "filing",
-        "filing_type": "F-1",
-        "event_date": "2026-06-29",
-        "sec_accession": "0001213900-26-072996",
+        "filing_type": "S-1",
+        "event_date": "2026-07-02",
+        "sec_accession": "0001213900-26-075107",
         "details": "REGISTRATION STATEMENT"
       }
     ],
-    "status": "filed",
-    "description": "Smart Pointer Group Holdings Ltd. is a technology-driven company specializing in innovative solutions for navigation and positioning systems. The company aims to enhance user experience through advanced technologies in various applications.",
-    "products_services": "Smart Pointer offers a range of products including GPS tracking devices, navigation software, and location-based services tailored for both consumer and enterprise markets.",
-    "industry": "Technology / Navigation and Positioning Systems",
-    "shares_outstanding": 5000000,
-    "proposed_price_low": 5.0,
-    "proposed_price_high": 6.0,
-    "price_range_low": 5.0,
-    "price_range_high": 6.0
+    "status": "amended",
+    "_accession_for_extract": "0001213900-26-105340"
   },
   {
-    "id": "0002087307",
-    "cik": "0002087307",
-    "company_name": "Sensing4D AI Ltd",
-    "ticker": null,
-    "filing_type": "F-1",
-    "filing_date": "2026-10-21",
+    "id": "KHG",
+    "cik": "0002120528",
+    "company_name": "Kainan Holding Group Ltd",
+    "ticker": "KHG",
+    "filing_type": "F-1/A",
+    "filing_date": "2026-08-31",
     "events": [
+      {
+        "event_type": "amendment",
+        "filing_type": "F-1/A",
+        "event_date": "2026-10-09",
+        "sec_accession": "0001575872-26-000686",
+        "details": "FORM F-1A"
+      },
       {
         "event_type": "filing",
         "filing_type": "F-1",
-        "event_date": "2026-10-21",
-        "sec_accession": "0001213900-26-111161",
+        "event_date": "2026-08-31",
+        "sec_accession": "0001575872-26-000634",
+        "details": "FORM F-1"
+      }
+    ],
+    "status": "amended",
+    "_accession_for_extract": "0001575872-26-000686"
+  },
+  {
+    "id": "CATLU",
+    "cik": "0002104391",
+    "company_name": "Catalyst Acquisition Corp.",
+    "ticker": "CATLU",
+    "filing_type": "424B4",
+    "filing_date": "2026-07-08",
+    "events": [
+      {
+        "event_type": "pricing",
+        "filing_type": "424B4",
+        "event_date": "2026-07-28",
+        "sec_accession": "0001213900-26-081980",
+        "details": "PROSPECTUS"
+      },
+      {
+        "event_type": "effective",
+        "filing_type": "EFFECT",
+        "event_date": "2026-07-27",
+        "sec_accession": "9999999995-26-002460",
+        "details": ""
+      },
+      {
+        "event_type": "filing",
+        "filing_type": "S-1",
+        "event_date": "2026-07-08",
+        "sec_accession": "0001213900-26-076132",
+        "details": "REGISTRATION STATEMENT"
+      },
+      {
+        "event_type": "exchange_listed",
+        "filing_type": null,
+        "event_date": "2026-07-28"
+      }
+    ],
+    "exchange": "NASDAQ Global",
+    "expected_date": null,
+    "actual_date": "2026-07-28",
+    "shares_offered": 20000000,
+    "offer_price": 10.0,
+    "offer_amount": "$200,000,000",
+    "status": "listed",
+    "description": "Catalyst Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in high-growth sectors. The firm aims to leverage its expertise to create value for shareholders through strategic partnerships and operational improvements.",
+    "products_services": "Catalyst Acquisition Corp. primarily engages in the acquisition and merger of companies, providing them with capital and resources to accelerate growth and expansion.",
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)",
+    "shares_outstanding": 5750000,
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0,
+    "price_range_low": 10.0,
+    "price_range_high": 10.0
+  },
+  {
+    "id": "ENRD",
+    "cik": "0002095096",
+    "company_name": "Einride AB",
+    "ticker": "ENRD",
+    "filing_type": "EFFECT",
+    "filing_date": "2026-07-08",
+    "events": [
+      {
+        "event_type": "effective",
+        "filing_type": "EFFECT",
+        "event_date": "2026-09-25",
+        "sec_accession": "9999999995-26-003068",
+        "details": ""
+      },
+      {
+        "event_type": "filing",
+        "filing_type": "F-1",
+        "event_date": "2026-09-14",
+        "sec_accession": "0001493152-26-042440",
+        "details": "F-1"
+      },
+      {
+        "event_type": "effective",
+        "filing_type": "EFFECT",
+        "event_date": "2026-07-15",
+        "sec_accession": "9999999995-26-002316",
+        "details": ""
+      },
+      {
+        "event_type": "filing",
+        "filing_type": "F-1",
+        "event_date": "2026-07-08",
+        "sec_accession": "0001829126-26-007382",
+        "details": "F-1"
+      },
+      {
+        "event_type": "effective",
+        "filing_type": "EFFECT",
+        "event_date": "2026-05-14",
+        "sec_accession": "9999999995-26-001654",
+        "details": ""
+      },
+      {
+        "event_type": "effective",
+        "filing_type": "EFFECT",
+        "event_date": "2026-05-14",
+        "sec_accession": "9999999995-26-001652",
+        "details": ""
+      }
+    ],
+    "status": "listed",
+    "description": "Einride AB is a Swedish technology company specializing in electric and autonomous transport solutions, aiming to revolutionize freight logistics. The company focuses on developing self-driving electric trucks and a digital platform for managing transportation operations.",
+    "products_services": "Electric and autonomous trucks, transportation management software, logistics solutions.",
+    "industry": "Transportation and Logistics",
+    "shares_outstanding": 10062500,
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0,
+    "price_range_low": 10.0,
+    "price_range_high": 10.0
+  },
+  {
+    "id": "XTERU",
+    "cik": "0002134856",
+    "company_name": "Xterax Corp II",
+    "ticker": "XTERU",
+    "filing_type": "424B4",
+    "filing_date": "2026-07-27",
+    "events": [
+      {
+        "event_type": "pricing",
+        "filing_type": "424B4",
+        "event_date": "2026-08-18",
+        "sec_accession": "0001829126-26-009017",
+        "details": "424B4"
+      },
+      {
+        "event_type": "effective",
+        "filing_type": "EFFECT",
+        "event_date": "2026-08-17",
+        "sec_accession": "9999999995-26-002682",
+        "details": ""
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2026-08-11",
+        "sec_accession": "0001829126-26-008622",
+        "details": "S-1/A"
+      },
+      {
+        "event_type": "filing",
+        "filing_type": "S-1",
+        "event_date": "2026-07-27",
+        "sec_accession": "0001829126-26-007847",
+        "details": "S-1"
+      },
+      {
+        "event_type": "exchange_listed",
+        "filing_type": null,
+        "event_date": "2026-08-18"
+      }
+    ],
+    "exchange": "NASDAQ Global",
+    "expected_date": null,
+    "actual_date": "2026-08-18",
+    "shares_offered": 20000000,
+    "offer_price": 10.0,
+    "offer_amount": "$200,000,000",
+    "status": "listed",
+    "_accession_for_extract": "0001829126-26-008622"
+  },
+  {
+    "id": "0002145826",
+    "cik": "0002145826",
+    "company_name": "Silicon Valley Acquisition Corp. II",
+    "ticker": null,
+    "filing_type": "S-1",
+    "filing_date": "2026-09-21",
+    "events": [
+      {
+        "event_type": "filing",
+        "filing_type": "S-1",
+        "event_date": "2026-09-21",
+        "sec_accession": "0001213900-26-101822",
         "details": "REGISTRATION STATEMENT"
       }
     ],
     "status": "filed",
-    "_accession_for_extract": "0001213900-26-111161"
+    "_accession_for_extract": "0001213900-26-101822"
+  },
+  {
+    "id": "0002098038",
+    "cik": "0002098038",
+    "company_name": "Zensitive Holding Ltd",
+    "ticker": null,
+    "filing_type": "F-1",
+    "filing_date": "2026-08-07",
+    "events": [
+      {
+        "event_type": "filing",
+        "filing_type": "F-1",
+        "event_date": "2026-08-07",
+        "sec_accession": "0001493152-26-036502",
+        "details": "F-1"
+      }
+    ],
+    "status": "filed",
+    "_accession_for_extract": "0001493152-26-036502"
   },
   {
     "id": "ININ",
@@ -3180,190 +3352,6 @@
     "proposed_price_high": 5.0,
     "price_range_low": 4.0,
     "price_range_high": 5.0
-  },
-  {
-    "id": "MIACU",
-    "cik": "0002136530",
-    "company_name": "Meridian3 Industrials Acquisition Corp",
-    "ticker": "MIACU",
-    "filing_type": "424B4",
-    "filing_date": "2026-06-04",
-    "events": [
-      {
-        "event_type": "pricing",
-        "filing_type": "424B4",
-        "event_date": "2026-07-02",
-        "sec_accession": "0001104659-26-080405",
-        "details": "424B4"
-      },
-      {
-        "event_type": "effective",
-        "filing_type": "EFFECT",
-        "event_date": "2026-07-01",
-        "sec_accession": "9999999995-26-002179",
-        "details": ""
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "S-1/A",
-        "event_date": "2026-06-29",
-        "sec_accession": "0001104659-26-078781",
-        "details": "S-1/A"
-      },
-      {
-        "event_type": "filing",
-        "filing_type": "S-1",
-        "event_date": "2026-06-04",
-        "sec_accession": "0001104659-26-070583",
-        "details": "S-1"
-      },
-      {
-        "event_type": "exchange_listed",
-        "filing_type": null,
-        "event_date": "2026-07-02"
-      }
-    ],
-    "exchange": "NASDAQ Global",
-    "expected_date": null,
-    "actual_date": "2026-07-02",
-    "shares_offered": 17500000,
-    "offer_price": 10.0,
-    "offer_amount": "$175,000,000",
-    "status": "listed",
-    "description": "Meridian3 Industrials Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative industrial firms. The company aims to leverage its expertise to drive growth and operational efficiencies in the industrial sector.",
-    "products_services": "Meridian3 Industrials Acquisition Corp. does not offer products or services directly but seeks to acquire and enhance the operations of target industrial companies.",
-    "industry": "Industrial Acquisition and Investment",
-    "shares_outstanding": 175000000,
-    "proposed_price_low": 10.0,
-    "proposed_price_high": 10.0,
-    "price_range_low": 10.0,
-    "price_range_high": 10.0
-  },
-  {
-    "id": "CCIL",
-    "cik": "0002083945",
-    "company_name": "CALM Chain International Ltd",
-    "ticker": "CCIL",
-    "filing_type": "F-1/A",
-    "filing_date": "2026-02-10",
-    "events": [
-      {
-        "event_type": "amendment",
-        "filing_type": "F-1/A",
-        "event_date": "2026-08-26",
-        "sec_accession": "0001213900-26-093861",
-        "details": "REGISTRATION STATEMENT"
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "F-1/A",
-        "event_date": "2026-06-24",
-        "sec_accession": "0001213900-26-071389",
-        "details": "REGISTRATION STATEMENT"
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "F-1/A",
-        "event_date": "2026-05-14",
-        "sec_accession": "0001213900-26-056439",
-        "details": "REGISTRATION STATEMENT"
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "F-1/A",
-        "event_date": "2026-02-25",
-        "sec_accession": "0001213900-26-020208",
-        "details": "REGISTRATION STATEMENT"
-      },
-      {
-        "event_type": "filing",
-        "filing_type": "F-1",
-        "event_date": "2026-02-10",
-        "sec_accession": "0001213900-26-014090",
-        "details": "REGISTRATION STATEMENT"
-      }
-    ],
-    "status": "amended",
-    "description": "CALM Chain International Ltd. is a pioneering technology company focused on providing innovative blockchain solutions for various industries. The company aims to enhance transparency and efficiency in supply chain management through its advanced decentralized platform.",
-    "products_services": "Blockchain technology solutions, supply chain management software, and consulting services.",
-    "industry": "Technology and Blockchain.",
-    "shares_outstanding": 17500000,
-    "proposed_price_low": 5.0,
-    "proposed_price_high": 7.0,
-    "price_range_low": 5.0,
-    "price_range_high": 7.0
-  },
-  {
-    "id": "JONEU",
-    "cik": "0002129056",
-    "company_name": "Jones Ventures INTL Acquisition1 Corp",
-    "ticker": "JONEU",
-    "filing_type": "424B4",
-    "filing_date": "2026-05-15",
-    "events": [
-      {
-        "event_type": "pricing",
-        "filing_type": "424B4",
-        "event_date": "2026-07-15",
-        "sec_accession": "0001213900-26-078066",
-        "details": "PROSPECTUS"
-      },
-      {
-        "event_type": "pricing",
-        "filing_type": "424B4",
-        "event_date": "2026-07-15",
-        "sec_accession": "0001213900-26-078062",
-        "details": "PROSPECTUS"
-      },
-      {
-        "event_type": "effective",
-        "filing_type": "EFFECT",
-        "event_date": "2026-07-13",
-        "sec_accession": "9999999995-26-002271",
-        "details": ""
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "S-1/A",
-        "event_date": "2026-07-09",
-        "sec_accession": "0001213900-26-076752",
-        "details": "REGISTRATION STATEMENT"
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "S-1/A",
-        "event_date": "2026-07-06",
-        "sec_accession": "0001213900-26-075567",
-        "details": "REGISTRATION STATEMENT"
-      },
-      {
-        "event_type": "filing",
-        "filing_type": "S-1",
-        "event_date": "2026-05-15",
-        "sec_accession": "0001213900-26-057072",
-        "details": "REGISTRATION STATEMENT"
-      },
-      {
-        "event_type": "exchange_listed",
-        "filing_type": null,
-        "event_date": "2026-07-14"
-      }
-    ],
-    "exchange": "NASDAQ Global",
-    "expected_date": null,
-    "actual_date": "2026-07-14",
-    "shares_offered": 20000000,
-    "offer_price": 10.0,
-    "offer_amount": "$200,000,000",
-    "status": "listed",
-    "description": "Jones Ventures INTL Acquisition1 Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative businesses in the technology and consumer sectors. The company aims to leverage its expertise to drive growth and create value for shareholders through strategic acquisitions.",
-    "products_services": "The company primarily engages in identifying and acquiring businesses with high growth potential, particularly in technology and consumer markets.",
-    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)",
-    "shares_outstanding": 23666667,
-    "proposed_price_low": 10.0,
-    "proposed_price_high": 10.0,
-    "price_range_low": 10.0,
-    "price_range_high": 10.0
   },
   {
     "id": "VRXA",
@@ -3427,65 +3415,84 @@
     "_accession_for_extract": "0001829126-26-008400"
   },
   {
-    "id": "BMB",
-    "cik": "0002125355",
-    "company_name": "Bamboo Insurance Services, Inc.",
-    "ticker": "BMB",
+    "id": "CSEA",
+    "cik": "0002154056",
+    "company_name": "Calm Seas Acquisition Corp.",
+    "ticker": "CSEA",
     "filing_type": "S-1/A",
-    "filing_date": "2026-08-28",
+    "filing_date": "2026-09-28",
     "events": [
       {
         "event_type": "amendment",
         "filing_type": "S-1/A",
-        "event_date": "2026-09-14",
-        "sec_accession": "0001628280-26-061664",
+        "event_date": "2026-10-08",
+        "sec_accession": "0001193125-26-417752",
         "details": "S-1/A"
       },
       {
         "event_type": "filing",
         "filing_type": "S-1",
-        "event_date": "2026-08-28",
-        "sec_accession": "0001628280-26-059433",
+        "event_date": "2026-09-28",
+        "sec_accession": "0001193125-26-404122",
         "details": "S-1"
       }
     ],
     "status": "amended",
-    "_accession_for_extract": "0001628280-26-061664"
+    "_accession_for_extract": "0001193125-26-417752"
   },
   {
-    "id": "0002097903",
-    "cik": "0002097903",
-    "company_name": "UDynamics Ltd",
+    "id": "0002088286",
+    "cik": "0002088286",
+    "company_name": "Danneskjold & Galt Acquisition Co",
     "ticker": null,
-    "filing_type": "F-1/A",
-    "filing_date": "2026-02-27",
+    "filing_type": "S-1",
+    "filing_date": "2026-08-07",
     "events": [
       {
-        "event_type": "amendment",
-        "filing_type": "F-1/A",
-        "event_date": "2026-08-21",
-        "sec_accession": "0001213900-26-092454",
-        "details": "REGISTRATION STATEMENT"
-      },
+        "event_type": "filing",
+        "filing_type": "S-1",
+        "event_date": "2026-08-07",
+        "sec_accession": "0001185185-26-003333",
+        "details": "FORM S-1"
+      }
+    ],
+    "status": "filed",
+    "_accession_for_extract": "0001185185-26-003333"
+  },
+  {
+    "id": "0000715837",
+    "cik": "0000715837",
+    "company_name": "LPC LTD",
+    "ticker": null,
+    "filing_type": "F-1",
+    "filing_date": "2026-10-02",
+    "events": [
       {
         "event_type": "filing",
         "filing_type": "F-1",
-        "event_date": "2026-02-27",
-        "sec_accession": "0001213900-26-021223",
+        "event_date": "2026-10-02",
+        "sec_accession": "0001213900-26-106329",
         "details": "REGISTRATION STATEMENT"
       }
     ],
-    "status": "amended",
-    "_accession_for_extract": "0001213900-26-092454"
+    "status": "filed",
+    "_accession_for_extract": "0001213900-26-106329"
   },
   {
     "id": "LYCA",
     "cik": "0001806540",
     "company_name": "Lycia Therapeutics, Inc.",
     "ticker": "LYCA",
-    "filing_type": "S-1/A",
+    "filing_type": "EFFECT",
     "filing_date": "2026-10-05",
     "events": [
+      {
+        "event_type": "effective",
+        "filing_type": "EFFECT",
+        "event_date": "2026-10-22",
+        "sec_accession": "9999999995-26-003321",
+        "details": ""
+      },
       {
         "event_type": "amendment",
         "filing_type": "S-1/A",
@@ -3509,10 +3516,10 @@
     "exchange": "NASDAQ Global Select",
     "expected_date": "2026-10-23",
     "actual_date": null,
-    "shares_offered": 14700000,
+    "shares_offered": 17640000,
     "offer_price": null,
-    "offer_amount": "$304,290,000",
-    "price_range_low": 16.0,
+    "offer_amount": "$317,520,000",
+    "price_range_low": 18.0,
     "price_range_high": 18.0,
     "status": "upcoming",
     "_accession_for_extract": "0001628280-26-066381"
@@ -4801,71 +4808,6 @@
     "price_range_high": 10.0
   },
   {
-    "id": "VIIU",
-    "cik": "0002139246",
-    "company_name": "Viking Acquisition Corp. II",
-    "ticker": "VIIU",
-    "filing_type": "424B4",
-    "filing_date": "2026-06-11",
-    "events": [
-      {
-        "event_type": "pricing",
-        "filing_type": "424B4",
-        "event_date": "2026-07-06",
-        "sec_accession": "0001213900-26-075135",
-        "details": "PROSPECTUS"
-      },
-      {
-        "event_type": "effective",
-        "filing_type": "EFFECT",
-        "event_date": "2026-06-30",
-        "sec_accession": "9999999995-26-002167",
-        "details": ""
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "S-1/A",
-        "event_date": "2026-06-30",
-        "sec_accession": "0001213900-26-073322",
-        "details": "REGISTRATION STATEMENT"
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "S-1/A",
-        "event_date": "2026-06-24",
-        "sec_accession": "0001213900-26-071585",
-        "details": "REGISTRATION STATEMENT"
-      },
-      {
-        "event_type": "filing",
-        "filing_type": "S-1",
-        "event_date": "2026-06-11",
-        "sec_accession": "0001213900-26-067909",
-        "details": "REGISTRATION STATEMENT"
-      },
-      {
-        "event_type": "exchange_listed",
-        "filing_type": null,
-        "event_date": "2026-07-02"
-      }
-    ],
-    "exchange": "NYSE",
-    "expected_date": null,
-    "actual_date": "2026-07-02",
-    "shares_offered": 20000000,
-    "offer_price": 10.0,
-    "offer_amount": "$200,000,000",
-    "status": "listed",
-    "description": "Viking Acquisition Corp. II is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the technology and consumer sectors. The firm aims to leverage its management team's expertise to drive growth and create value for shareholders post-merger.",
-    "products_services": "As a SPAC, Viking Acquisition Corp. II does not offer traditional products or services but seeks to acquire and support growth-stage companies in various industries.",
-    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)",
-    "shares_outstanding": 30000000,
-    "proposed_price_low": 10.0,
-    "proposed_price_high": 10.0,
-    "price_range_low": 10.0,
-    "price_range_high": 10.0
-  },
-  {
     "id": "LIME",
     "cik": "0001699963",
     "company_name": "Neutron Holdings, Inc.",
@@ -4922,71 +4864,6 @@
     "proposed_price_high": 26.0,
     "price_range_low": 24.0,
     "price_range_high": 26.0
-  },
-  {
-    "id": "ITG",
-    "cik": "0002110117",
-    "company_name": "ITG, Inc./DE/",
-    "ticker": "ITG",
-    "filing_type": "424B4",
-    "filing_date": "2026-06-05",
-    "events": [
-      {
-        "event_type": "pricing",
-        "filing_type": "424B4",
-        "event_date": "2026-07-02",
-        "sec_accession": "0001193125-26-292853",
-        "details": "424B4"
-      },
-      {
-        "event_type": "effective",
-        "filing_type": "EFFECT",
-        "event_date": "2026-06-30",
-        "sec_accession": "9999999995-26-002165",
-        "details": ""
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "S-1/A",
-        "event_date": "2026-06-26",
-        "sec_accession": "0001193125-26-285598",
-        "details": "S-1/A"
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "S-1/A",
-        "event_date": "2026-06-22",
-        "sec_accession": "0001193125-26-276672",
-        "details": "S-1/A"
-      },
-      {
-        "event_type": "filing",
-        "filing_type": "S-1",
-        "event_date": "2026-06-05",
-        "sec_accession": "0001193125-26-259828",
-        "details": "S-1"
-      },
-      {
-        "event_type": "exchange_listed",
-        "filing_type": null,
-        "event_date": "2026-07-01"
-      }
-    ],
-    "exchange": "NASDAQ Global Select",
-    "expected_date": null,
-    "actual_date": "2026-07-01",
-    "shares_offered": 19512196,
-    "offer_price": 16.0,
-    "offer_amount": "$312,195,136",
-    "status": "listed",
-    "description": "ITG, Inc. is a technology company specializing in innovative software solutions for data analytics and business intelligence. The company aims to enhance operational efficiency and decision-making processes for its clients across various sectors.",
-    "products_services": "ITG, Inc. offers a range of products including data analytics platforms, business intelligence tools, and customized software solutions tailored to meet specific client needs.",
-    "industry": "Technology / Software Development",
-    "proposed_price_low": 19.0,
-    "proposed_price_high": 22.0,
-    "_accession_for_extract": "0001193125-26-285598",
-    "price_range_low": 19.0,
-    "price_range_high": 22.0
   },
   {
     "id": "BSP",
@@ -5335,99 +5212,6 @@
     "offer_amount": null,
     "status": "listed",
     "_accession_for_extract": "0001493152-26-032985"
-  },
-  {
-    "id": "FBDT",
-    "cik": "0001892704",
-    "company_name": "First Breach, Inc.",
-    "ticker": "FBDT",
-    "filing_type": "EFFECT",
-    "filing_date": "2026-09-02",
-    "events": [
-      {
-        "event_type": "effective",
-        "filing_type": "EFFECT",
-        "event_date": "2026-09-11",
-        "sec_accession": "9999999995-26-002955",
-        "details": ""
-      },
-      {
-        "event_type": "filing",
-        "filing_type": "S-1",
-        "event_date": "2026-09-02",
-        "sec_accession": "0001493152-26-041268",
-        "details": "S-1"
-      },
-      {
-        "event_type": "pricing",
-        "filing_type": "424B4",
-        "event_date": "2026-08-31",
-        "sec_accession": "0001493152-26-040850",
-        "details": "424B4"
-      },
-      {
-        "event_type": "pricing",
-        "filing_type": "424B4",
-        "event_date": "2026-08-20",
-        "sec_accession": "0001493152-26-039415",
-        "details": "424B4"
-      },
-      {
-        "event_type": "effective",
-        "filing_type": "EFFECT",
-        "event_date": "2026-08-12",
-        "sec_accession": "9999999995-26-002634",
-        "details": ""
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "S-1/A",
-        "event_date": "2026-08-07",
-        "sec_accession": "0001493152-26-036554",
-        "details": "S-1/A"
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "S-1/A",
-        "event_date": "2026-08-03",
-        "sec_accession": "0001493152-26-035840",
-        "details": "S-1/A"
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "S-1/A",
-        "event_date": "2026-06-12",
-        "sec_accession": "0001493152-26-028434",
-        "details": "S-1/A"
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "S-1/A",
-        "event_date": "2026-05-27",
-        "sec_accession": "0001493152-26-025360",
-        "details": "S-1/A"
-      },
-      {
-        "event_type": "filing",
-        "filing_type": "S-1",
-        "event_date": "2026-04-30",
-        "sec_accession": "0001493152-26-020336",
-        "details": "S-1"
-      },
-      {
-        "event_type": "exchange_listed",
-        "filing_type": null,
-        "event_date": "2026-08-20"
-      }
-    ],
-    "exchange": "NASDAQ Capital",
-    "expected_date": null,
-    "actual_date": "2026-08-20",
-    "shares_offered": 70728866,
-    "offer_price": null,
-    "offer_amount": null,
-    "status": "listed",
-    "_accession_for_extract": "0001493152-26-041268"
   },
   {
     "id": "LYNX",
@@ -6163,64 +5947,6 @@
     "_accession_for_extract": "0001628280-26-062945"
   },
   {
-    "id": "ADRX",
-    "cik": "0001802369",
-    "company_name": "ADARx Pharmaceuticals, Inc.",
-    "ticker": "ADRX",
-    "filing_type": "424B4",
-    "filing_date": "2026-09-04",
-    "events": [
-      {
-        "event_type": "pricing",
-        "filing_type": "424B4",
-        "event_date": "2026-09-28",
-        "sec_accession": "0001193125-26-403094",
-        "details": "424B4"
-      },
-      {
-        "event_type": "effective",
-        "filing_type": "EFFECT",
-        "event_date": "2026-09-24",
-        "sec_accession": "9999999995-26-003052",
-        "details": ""
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "S-1/A",
-        "event_date": "2026-09-21",
-        "sec_accession": "0001193125-26-396007",
-        "details": "S-1/A"
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "S-1/A",
-        "event_date": "2026-09-14",
-        "sec_accession": "0001193125-26-390724",
-        "details": "S-1/A"
-      },
-      {
-        "event_type": "filing",
-        "filing_type": "S-1",
-        "event_date": "2026-09-04",
-        "sec_accession": "0001193125-26-383838",
-        "details": "S-1"
-      },
-      {
-        "event_type": "exchange_listed",
-        "filing_type": null,
-        "event_date": "2026-09-25"
-      }
-    ],
-    "exchange": "NASDAQ Global Select",
-    "expected_date": null,
-    "actual_date": "2026-09-25",
-    "shares_offered": 26250000,
-    "offer_price": 17.0,
-    "offer_amount": "$446,250,000",
-    "status": "listed",
-    "_accession_for_extract": "0001193125-26-396007"
-  },
-  {
     "id": "OIG",
     "cik": "0002124472",
     "company_name": "Orion180 Insurance Group Inc.",
@@ -6453,6 +6179,57 @@
     "_accession_for_extract": "0001193125-26-361172"
   },
   {
+    "id": "DAVI",
+    "cik": "0002039072",
+    "company_name": "DAVION HEALTHCARE PLC",
+    "ticker": "DAVI",
+    "filing_type": "F-1/A",
+    "filing_date": "2025-08-04",
+    "events": [
+      {
+        "event_type": "amendment",
+        "filing_type": "F-1/A",
+        "event_date": "2025-12-05",
+        "sec_accession": "0001683168-25-008911",
+        "details": "AMENDMENT NO. 3 TO FORM F-1"
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "F-1/A",
+        "event_date": "2025-11-07",
+        "sec_accession": "0001683168-25-008066",
+        "details": "AMENDMENT NO. 2 TO FORM F-1"
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "F-1/A",
+        "event_date": "2025-09-26",
+        "sec_accession": "0001683168-25-007261",
+        "details": "AMENDMENT TO F-1"
+      },
+      {
+        "event_type": "filing",
+        "filing_type": "F-1",
+        "event_date": "2025-08-04",
+        "sec_accession": "0001683168-25-005601",
+        "details": "FORM F-1"
+      },
+      {
+        "event_type": "exchange_listed",
+        "filing_type": null,
+        "event_date": "2026-10-22"
+      }
+    ],
+    "exchange": "NASDAQ Global",
+    "expected_date": null,
+    "actual_date": "2026-10-22",
+    "shares_offered": 25000000,
+    "offer_price": null,
+    "offer_amount": null,
+    "status": "listed",
+    "_accession_for_extract": "0001683168-25-008911"
+  },
+  {
     "id": "CTY",
     "cik": "0002143850",
     "company_name": "CITY THERAPEUTICS, INC.",
@@ -6502,6 +6279,57 @@
     "offer_amount": "$199,999,998",
     "status": "listed",
     "_accession_for_extract": "0001104659-26-114815"
+  },
+  {
+    "id": "IAM",
+    "cik": "0001997038",
+    "company_name": "Iambic Therapeutics, Inc.",
+    "ticker": "IAM",
+    "filing_type": "424B4",
+    "filing_date": "2026-09-21",
+    "events": [
+      {
+        "event_type": "pricing",
+        "filing_type": "424B4",
+        "event_date": "2026-10-15",
+        "sec_accession": "0001193125-26-422865",
+        "details": "424B4"
+      },
+      {
+        "event_type": "effective",
+        "filing_type": "EFFECT",
+        "event_date": "2026-10-14",
+        "sec_accession": "9999999995-26-003244",
+        "details": ""
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2026-10-08",
+        "sec_accession": "0001193125-26-417416",
+        "details": "S-1/A"
+      },
+      {
+        "event_type": "filing",
+        "filing_type": "S-1",
+        "event_date": "2026-09-21",
+        "sec_accession": "0001193125-26-396704",
+        "details": "S-1"
+      },
+      {
+        "event_type": "exchange_listed",
+        "filing_type": null,
+        "event_date": "2026-10-15"
+      }
+    ],
+    "exchange": "NASDAQ Global Select",
+    "expected_date": null,
+    "actual_date": "2026-10-15",
+    "shares_offered": 9375000,
+    "offer_price": 16.0,
+    "offer_amount": "$150,000,000",
+    "status": "listed",
+    "_accession_for_extract": "0001193125-26-417416"
   },
   {
     "id": "AMRO",
@@ -6569,57 +6397,6 @@
     "_accession_for_extract": "0001193125-26-417950"
   },
   {
-    "id": "IAM",
-    "cik": "0001997038",
-    "company_name": "Iambic Therapeutics, Inc.",
-    "ticker": "IAM",
-    "filing_type": "424B4",
-    "filing_date": "2026-09-21",
-    "events": [
-      {
-        "event_type": "pricing",
-        "filing_type": "424B4",
-        "event_date": "2026-10-15",
-        "sec_accession": "0001193125-26-422865",
-        "details": "424B4"
-      },
-      {
-        "event_type": "effective",
-        "filing_type": "EFFECT",
-        "event_date": "2026-10-14",
-        "sec_accession": "9999999995-26-003244",
-        "details": ""
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "S-1/A",
-        "event_date": "2026-10-08",
-        "sec_accession": "0001193125-26-417416",
-        "details": "S-1/A"
-      },
-      {
-        "event_type": "filing",
-        "filing_type": "S-1",
-        "event_date": "2026-09-21",
-        "sec_accession": "0001193125-26-396704",
-        "details": "S-1"
-      },
-      {
-        "event_type": "exchange_listed",
-        "filing_type": null,
-        "event_date": "2026-10-15"
-      }
-    ],
-    "exchange": "NASDAQ Global Select",
-    "expected_date": null,
-    "actual_date": "2026-10-15",
-    "shares_offered": 9375000,
-    "offer_price": 16.0,
-    "offer_amount": "$150,000,000",
-    "status": "listed",
-    "_accession_for_extract": "0001193125-26-417416"
-  },
-  {
     "id": "FLSC",
     "cik": "0002153598",
     "company_name": "Frazier Life Sciences Acquisition Corp. II",
@@ -6662,6 +6439,57 @@
     "offer_amount": "$75,000,000",
     "status": "listed",
     "_accession_for_extract": "0001193125-26-399703"
+  },
+  {
+    "id": "TRXB",
+    "cik": "0002139097",
+    "company_name": "TRex Bio, Inc.",
+    "ticker": "TRXB",
+    "filing_type": "424B4",
+    "filing_date": "2026-09-18",
+    "events": [
+      {
+        "event_type": "pricing",
+        "filing_type": "424B4",
+        "event_date": "2026-10-09",
+        "sec_accession": "0001193125-26-419203",
+        "details": "424B4"
+      },
+      {
+        "event_type": "effective",
+        "filing_type": "EFFECT",
+        "event_date": "2026-10-08",
+        "sec_accession": "9999999995-26-003188",
+        "details": ""
+      },
+      {
+        "event_type": "amendment",
+        "filing_type": "S-1/A",
+        "event_date": "2026-10-05",
+        "sec_accession": "0001193125-26-413060",
+        "details": "S-1/A"
+      },
+      {
+        "event_type": "filing",
+        "filing_type": "S-1",
+        "event_date": "2026-09-18",
+        "sec_accession": "0001193125-26-395671",
+        "details": "S-1"
+      },
+      {
+        "event_type": "exchange_listed",
+        "filing_type": null,
+        "event_date": "2026-10-09"
+      }
+    ],
+    "exchange": "NASDAQ Global Select",
+    "expected_date": null,
+    "actual_date": "2026-10-09",
+    "shares_offered": 8333334,
+    "offer_price": 14.0,
+    "offer_amount": "$116,666,676",
+    "status": "listed",
+    "_accession_for_extract": "0001193125-26-413060"
   },
   {
     "id": "RTSN",
@@ -6720,57 +6548,6 @@
     "offer_amount": "$45,000,000",
     "status": "listed",
     "_accession_for_extract": "0001213900-26-107572"
-  },
-  {
-    "id": "TRXB",
-    "cik": "0002139097",
-    "company_name": "TRex Bio, Inc.",
-    "ticker": "TRXB",
-    "filing_type": "424B4",
-    "filing_date": "2026-09-18",
-    "events": [
-      {
-        "event_type": "pricing",
-        "filing_type": "424B4",
-        "event_date": "2026-10-09",
-        "sec_accession": "0001193125-26-419203",
-        "details": "424B4"
-      },
-      {
-        "event_type": "effective",
-        "filing_type": "EFFECT",
-        "event_date": "2026-10-08",
-        "sec_accession": "9999999995-26-003188",
-        "details": ""
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "S-1/A",
-        "event_date": "2026-10-05",
-        "sec_accession": "0001193125-26-413060",
-        "details": "S-1/A"
-      },
-      {
-        "event_type": "filing",
-        "filing_type": "S-1",
-        "event_date": "2026-09-18",
-        "sec_accession": "0001193125-26-395671",
-        "details": "S-1"
-      },
-      {
-        "event_type": "exchange_listed",
-        "filing_type": null,
-        "event_date": "2026-10-09"
-      }
-    ],
-    "exchange": "NASDAQ Global Select",
-    "expected_date": null,
-    "actual_date": "2026-10-09",
-    "shares_offered": 8333334,
-    "offer_price": 14.0,
-    "offer_amount": "$116,666,676",
-    "status": "listed",
-    "_accession_for_extract": "0001193125-26-413060"
   },
   {
     "id": "PAXGU",
@@ -7001,6 +6778,113 @@
     "offer_amount": "$200,000,000",
     "status": "listed",
     "_accession_for_extract": "0001185185-26-004287"
+  },
+  {
+    "id": "VIIU",
+    "cik": null,
+    "company_name": "Viking Acquisition Corp. II",
+    "ticker": "VIIU",
+    "exchange": "NYSE",
+    "expected_date": null,
+    "actual_date": "2026-07-02",
+    "price_range_low": 10.0,
+    "price_range_high": 10.0,
+    "offer_price": 10.0,
+    "shares_offered": 20000000,
+    "offer_amount": "$200,000,000",
+    "filing_type": null,
+    "filing_date": null,
+    "events": [
+      {
+        "event_type": "exchange_listed",
+        "filing_type": null,
+        "event_date": "2026-07-02"
+      }
+    ],
+    "status": "listed",
+    "description": "Viking Acquisition Corp. II is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the technology and consumer sectors. The firm aims to leverage its management team's expertise to drive growth and create value for shareholders post-merger.",
+    "products_services": "As a SPAC, Viking Acquisition Corp. II does not offer traditional products or services but seeks to acquire and support growth-stage companies in various industries.",
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)",
+    "shares_outstanding": 30000000,
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
+  },
+  {
+    "id": "ITG",
+    "cik": null,
+    "company_name": "ITG, Inc./DE/",
+    "ticker": "ITG",
+    "exchange": "NASDAQ Global Select",
+    "expected_date": null,
+    "actual_date": "2026-07-01",
+    "price_range_low": 19.0,
+    "price_range_high": 22.0,
+    "offer_price": 16.0,
+    "shares_offered": 19512196,
+    "offer_amount": "$312,195,136",
+    "filing_type": null,
+    "filing_date": null,
+    "events": [
+      {
+        "event_type": "exchange_listed",
+        "filing_type": null,
+        "event_date": "2026-07-01"
+      }
+    ],
+    "status": "listed",
+    "description": "ITG, Inc. is a technology company specializing in innovative software solutions for data analytics and business intelligence. The company aims to enhance operational efficiency and decision-making processes for its clients across various sectors.",
+    "products_services": "ITG, Inc. offers a range of products including data analytics platforms, business intelligence tools, and customized software solutions tailored to meet specific client needs.",
+    "industry": "Technology / Software Development",
+    "proposed_price_low": 19.0,
+    "proposed_price_high": 22.0
+  },
+  {
+    "id": "FBDT",
+    "cik": null,
+    "company_name": "First Breach, Inc.",
+    "ticker": "FBDT",
+    "exchange": "NASDAQ Capital",
+    "expected_date": null,
+    "actual_date": "2026-08-20",
+    "price_range_low": null,
+    "price_range_high": null,
+    "offer_price": null,
+    "shares_offered": 70728866,
+    "offer_amount": "",
+    "filing_type": null,
+    "filing_date": null,
+    "events": [
+      {
+        "event_type": "exchange_listed",
+        "filing_type": null,
+        "event_date": "2026-08-20"
+      }
+    ],
+    "status": "listed"
+  },
+  {
+    "id": "ADRX",
+    "cik": null,
+    "company_name": "ADARx Pharmaceuticals, Inc.",
+    "ticker": "ADRX",
+    "exchange": "NASDAQ Global Select",
+    "expected_date": null,
+    "actual_date": "2026-09-25",
+    "price_range_low": null,
+    "price_range_high": null,
+    "offer_price": 17.0,
+    "shares_offered": 26250000,
+    "offer_amount": "$446,250,000",
+    "filing_type": null,
+    "filing_date": null,
+    "events": [
+      {
+        "event_type": "exchange_listed",
+        "filing_type": null,
+        "event_date": "2026-09-25"
+      }
+    ],
+    "status": "listed"
   },
   {
     "id": "aspargolabsinc",
@@ -7694,57 +7578,6 @@
       }
     ],
     "status": "withdrawn"
-  },
-  {
-    "id": "DAVI",
-    "cik": "0002039072",
-    "company_name": "DAVION HEALTHCARE PLC",
-    "ticker": "DAVI",
-    "filing_type": "F-1/A",
-    "filing_date": "2025-08-04",
-    "events": [
-      {
-        "event_type": "amendment",
-        "filing_type": "F-1/A",
-        "event_date": "2025-12-05",
-        "sec_accession": "0001683168-25-008911",
-        "details": "AMENDMENT NO. 3 TO FORM F-1"
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "F-1/A",
-        "event_date": "2025-11-07",
-        "sec_accession": "0001683168-25-008066",
-        "details": "AMENDMENT NO. 2 TO FORM F-1"
-      },
-      {
-        "event_type": "amendment",
-        "filing_type": "F-1/A",
-        "event_date": "2025-09-26",
-        "sec_accession": "0001683168-25-007261",
-        "details": "AMENDMENT TO F-1"
-      },
-      {
-        "event_type": "filing",
-        "filing_type": "F-1",
-        "event_date": "2025-08-04",
-        "sec_accession": "0001683168-25-005601",
-        "details": "FORM F-1"
-      },
-      {
-        "event_type": "exchange_upcoming",
-        "filing_type": null,
-        "event_date": "2026-10-22"
-      }
-    ],
-    "exchange": "NASDAQ Global",
-    "expected_date": "2026-10-22",
-    "actual_date": null,
-    "shares_offered": 25000000,
-    "offer_price": null,
-    "offer_amount": null,
-    "status": "upcoming",
-    "_accession_for_extract": "0001683168-25-008911"
   },
   {
     "id": "TCXB",
