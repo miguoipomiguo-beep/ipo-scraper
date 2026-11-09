@@ -33,6 +33,7 @@ NASDAQ_HEADERS = {
 GITHUB_MODELS_URL = "https://models.inference.ai.azure.com/chat/completions"
 OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions"
 OPENROUTER_KEY = os.environ.get("OPENROUTER_KEY", "")
+OPENROUTER_MODEL = "google/gemma-4-31b-it:free"   # 旧 google/gemini-2.0-flash-001 は提供終了（GitHub Models も 2026-07-30 に終了）
 
 
 # ============================================================
@@ -792,7 +793,7 @@ Filing excerpts:
                 result = await _call_llm(client, GITHUB_MODELS_URL, "gpt-4o-mini", prompt,
                     {"Authorization": f"Bearer {GH_TOKEN}", "Content-Type": "application/json"})
                 if not result and OPENROUTER_KEY:
-                    result = await _call_llm(client, OPENROUTER_URL, "google/gemini-2.0-flash-001", prompt,
+                    result = await _call_llm(client, OPENROUTER_URL, OPENROUTER_MODEL, prompt,
                         {"Authorization": f"Bearer {OPENROUTER_KEY}", "Content-Type": "application/json"})
 
                 if result:
@@ -838,7 +839,7 @@ async def enrich_with_llm(ipos: list) -> list:
 
             # Try 2: OpenRouter fallback
             if result is None and OPENROUTER_KEY:
-                result = await _call_llm(client, OPENROUTER_URL, "google/gemini-2.0-flash-001",
+                result = await _call_llm(client, OPENROUTER_URL, OPENROUTER_MODEL,
                     prompt, {"Authorization": f"Bearer {OPENROUTER_KEY}", "Content-Type": "application/json"})
 
             if result:
@@ -869,6 +870,8 @@ async def _call_llm(client, url: str, model: str, prompt: str, headers: dict) ->
             return {k: v for k, v in d.items() if v}
         elif resp.status_code == 429:
             return None
+        else:
+            print(f"  LLM {resp.status_code} ({model}): {resp.text[:120]}")   # 失敗の理由をログに残す
     except:
         pass
     return None
