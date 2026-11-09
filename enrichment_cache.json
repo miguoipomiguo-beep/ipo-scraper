@@ -2866,5 +2866,35 @@
     "shares_outstanding": 105100000,
     "proposed_price_low": 4.0,
     "proposed_price_high": 6.0
+  },
+  "AEIB": {
+    "description": "AEI CapForce II Investment Corp. is a closed-end management investment company focused on strategic capital allocation. The company seeks to generate long-term capital appreciation through diversified investments in growth-oriented assets.",
+    "products_services": "Investment management, capital allocation, and portfolio diversification services.",
+    "industry": "Financial Services"
+  },
+  "LEDRU": {
+    "description": "Leader's Advantage Acquisition Corp. is a special purpose acquisition company formed for the purpose of effecting a merger or acquisition. The company aims to identify and partner with a high-growth target company to take it public.",
+    "products_services": "Special Purpose Acquisition Company (SPAC) services",
+    "industry": "Financial Services"
+  },
+  "0002071166": {
+    "description": "Lorenzo Developments Inc. is a real estate development firm focused on creating high-quality residential and commercial properties. The company specializes in strategic urban planning and sustainable architectural design to maximize asset value.",
+    "products_services": "Residential condominiums, commercial office spaces, and mixed-use real estate developments.",
+    "industry": "Real Estate Development"
+  },
+  "0002073516": {
+    "description": "ARC Group Acquisition II Corp. is a special purpose acquisition company formed for the purpose of effecting a merger or acquisition. The company seeks to identify and partner with a high-growth target company to take public.",
+    "products_services": "Special purpose acquisition vehicle (SPAC) services.",
+    "industry": "Financial Services"
+  },
+  "glamoorecapitalgroup": {
+    "description": "GLAMOORE Capital Group Co Ltd. is a strategic investment firm specializing in capital growth and portfolio diversification. The company focuses on identifying high-potential opportunities across emerging markets to deliver long-term value to shareholders.",
+    "products_services": "Asset management, strategic investment consulting, and private equity funding.",
+    "industry": "Financial Services"
+  },
+  "PHAX": {
+    "description": "Phalanx Acquisition Corp I is a special purpose acquisition company formed for the purpose of effecting a merger or acquisition. The company seeks to identify and partner with a high-growth target company to take public.",
+    "products_services": "Special purpose acquisition vehicle (SPAC) services.",
+    "industry": "Financial Services"
   }
 }
