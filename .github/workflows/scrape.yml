@@ -11,7 +11,7 @@ permissions:
 
 jobs:
   scrape:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04   # ubuntu-latest が 26.04 になり playwright install-deps が失敗した（2026-11-01〜）
     timeout-minutes: 60
 
     steps:
