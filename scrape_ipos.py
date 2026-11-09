@@ -38,7 +38,8 @@ S1_MAX_PER_RUN = 15   # 無料モデルは1日の回数に上限があるので�
 LLM_INTERVAL_SEC = 3.5   # 無料モデルは1分20回まで
 OPENROUTER_MODEL = "google/gemma-4-31b-it:free"   # 旧 google/gemini-2.0-flash-001 は提供終了（GitHub Models も 2026-07-30 に終了）
 # 無料モデルは提供元が混むと 429 を返すので、OpenRouter 側で順に切り替えてもらう
-OPENROUTER_FALLBACKS = [OPENROUTER_MODEL, "google/gemma-4-26b-a4b-it:free", "openrouter/free"]
+# openrouter/free は考えるタイプのモデルに振られると本文が空になり、1日50回の無料枠を無駄にしたので入れない
+OPENROUTER_FALLBACKS = [OPENROUTER_MODEL, "google/gemma-4-26b-a4b-it:free"]
 
 
 # ============================================================
