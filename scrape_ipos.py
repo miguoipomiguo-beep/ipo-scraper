@@ -37,6 +37,8 @@ OPENROUTER_KEY = os.environ.get("OPENROUTER_KEY", "")
 S1_MAX_PER_RUN = 15   # 無料モデルは1日の回数に上限があるので、説明文の分を残す（旧 50）
 LLM_INTERVAL_SEC = 3.5   # 無料モデルは1分20回まで
 OPENROUTER_MODEL = "google/gemma-4-31b-it:free"   # 旧 google/gemini-2.0-flash-001 は提供終了（GitHub Models も 2026-07-30 に終了）
+# 無料モデルは提供元が混むと 429 を返すので、OpenRouter 側で順に切り替えてもらう
+OPENROUTER_FALLBACKS = [OPENROUTER_MODEL, "google/gemma-4-26b-a4b-it:free", "openrouter/free"]
 
 
 # ============================================================
@@ -874,9 +876,10 @@ async def _call_llm(client, url: str, model: str, prompt: str, headers: dict) ->
     """LLM APIを呼び出してJSONを返す。失敗時はNone"""
     _last_llm_status["code"] = None
     try:
-        resp = await client.post(url,
-            json={"model": model, "messages": [{"role": "user", "content": prompt}], "temperature": 0.1, "max_tokens": 200},
-            headers=headers)
+        body = {"model": model, "messages": [{"role": "user", "content": prompt}], "temperature": 0.1, "max_tokens": 200}
+        if url == OPENROUTER_URL:
+            body["models"] = OPENROUTER_FALLBACKS
+        resp = await client.post(url, json=body, headers=headers)
         _last_llm_status["code"] = resp.status_code
         if resp.status_code == 200:
             c = resp.json()["choices"][0]["message"]["content"]
@@ -890,7 +893,7 @@ async def _call_llm(client, url: str, model: str, prompt: str, headers: dict) ->
             d = json.loads(c)
             return {k: v for k, v in d.items() if v}
         else:
-            print(f"  LLM {resp.status_code} ({model}): {resp.text[:120]}")   # 失敗の理由をログに残す
+            print(f"  LLM {resp.status_code} ({model}): {resp.text[:300]}")   # 失敗の理由をログに残す
     except Exception as e:
         print(f"  LLM error ({model}): {type(e).__name__}: {str(e)[:120]}")
     return None
