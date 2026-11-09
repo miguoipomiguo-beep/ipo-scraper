@@ -2896,5 +2896,15 @@
     "description": "Phalanx Acquisition Corp I is a special purpose acquisition company formed for the purpose of effecting a merger or acquisition. The company seeks to identify and partner with a high-growth target company to take public.",
     "products_services": "Special purpose acquisition vehicle (SPAC) services.",
     "industry": "Financial Services"
+  },
+  "OPAY": {
+    "description": "OPay Ltd. is a leading financial technology platform providing comprehensive digital payment and financial services. The company focuses on enhancing financial inclusion through a scalable mobile-first ecosystem.",
+    "products_services": "Mobile wallets, payment processing, merchant services, and digital lending.",
+    "industry": "FinTech"
+  },
+  "PHAXU": {
+    "description": "...",
+    "products_services": "...",
+    "industry": "..."
   }
 }
