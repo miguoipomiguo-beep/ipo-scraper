@@ -31,8 +31,11 @@ NASDAQ_HEADERS = {
 }
 
 GITHUB_MODELS_URL = "https://models.inference.ai.azure.com/chat/completions"
+GITHUB_MODELS_ENABLED = False   # GitHub Models は 2026-07-30 に終了。呼ぶと毎回失敗するだけなので止める
 OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions"
 OPENROUTER_KEY = os.environ.get("OPENROUTER_KEY", "")
+S1_MAX_PER_RUN = 15   # 無料モデルは1日の回数に上限があるので、説明文の分を残す（旧 50）
+LLM_INTERVAL_SEC = 3.5   # 無料モデルは1分20回まで
 OPENROUTER_MODEL = "google/gemma-4-31b-it:free"   # 旧 google/gemini-2.0-flash-001 は提供終了（GitHub Models も 2026-07-30 に終了）
 
 
@@ -693,7 +696,7 @@ async def extract_s1_financials(ipos: list) -> list:
     print(f"  Targets: {len(targets)} companies ({len(targets_upcoming)} upcoming)")
 
     async with httpx.AsyncClient(timeout=60, headers=SEC_HEADERS) as client:
-        for ipo in targets[:50]:  # 最大50件/回
+        for ipo in targets[:S1_MAX_PER_RUN]:
             try:
                 cik_raw = ipo["cik"].lstrip("0")
                 accession_raw = ipo["_accession_for_extract"]
@@ -790,8 +793,10 @@ Return JSON only:
 Filing excerpts:
 {combined}"""
 
-                result = await _call_llm(client, GITHUB_MODELS_URL, "gpt-4o-mini", prompt,
-                    {"Authorization": f"Bearer {GH_TOKEN}", "Content-Type": "application/json"})
+                result = None
+                if GITHUB_MODELS_ENABLED:
+                    result = await _call_llm(client, GITHUB_MODELS_URL, "gpt-4o-mini", prompt,
+                        {"Authorization": f"Bearer {GH_TOKEN}", "Content-Type": "application/json"})
                 if not result and OPENROUTER_KEY:
                     result = await _call_llm(client, OPENROUTER_URL, OPENROUTER_MODEL, prompt,
                         {"Authorization": f"Bearer {OPENROUTER_KEY}", "Content-Type": "application/json"})
@@ -805,6 +810,8 @@ Filing excerpts:
                         ipo["shares_outstanding"] = result["shares_outstanding"]
                     extracted += 1
                     print(f"  + {ipo.get('ticker','?')}: ${result.get('proposed_price_low')}-${result.get('proposed_price_high')}, {result.get('shares_outstanding')} shares")
+                else:
+                    print(f"  - {ipo.get('ticker','?')}: no values")
 
                 await asyncio.sleep(1)
             except Exception as e:
@@ -821,8 +828,12 @@ async def enrich_with_llm(ipos: list) -> list:
     enriched = 0
     # 構築中: description未補完の全件を処理
     priority = [i for i in ipos if not i.get("description")]
+    today = datetime.now().strftime("%Y-%m-%d")
+    # 上場予定の近い銘柄を先に（無料枠が尽きても upcoming には付くように）
+    priority.sort(key=lambda i: (not (i.get("expected_date") or "") >= today, i.get("expected_date") or "9999"))
     print(f"  Priority: {len(priority)} companies without description")
     github_failures = 0
+    rate_limited = 0
 
     async with httpx.AsyncClient(timeout=60) as client:
         for ipo in priority:
@@ -831,7 +842,7 @@ async def enrich_with_llm(ipos: list) -> list:
 
             result = None
             # Try 1: GitHub Models
-            if GH_TOKEN and github_failures < 5:
+            if GITHUB_MODELS_ENABLED and GH_TOKEN and github_failures < 5:
                 result = await _call_llm(client, GITHUB_MODELS_URL, "gpt-4o-mini",
                     prompt, {"Authorization": f"Bearer {GH_TOKEN}", "Content-Type": "application/json"})
                 if result is None:
@@ -845,18 +856,28 @@ async def enrich_with_llm(ipos: list) -> list:
             if result:
                 ipo.update(result)
                 enriched += 1
-            await asyncio.sleep(0.5)
+                rate_limited = 0
+            elif _last_llm_status.get("code") == 429:
+                rate_limited += 1
+                if rate_limited >= 5:
+                    print("  Rate limited 5 times in a row, stopping (free quota likely used up)")
+                    break
+            await asyncio.sleep(LLM_INTERVAL_SEC)
 
     print(f"  Enriched: {enriched} (GitHub failures: {github_failures})")
     return ipos
 
 
+_last_llm_status = {}
+
 async def _call_llm(client, url: str, model: str, prompt: str, headers: dict) -> dict:
     """LLM APIを呼び出してJSONを返す。失敗時はNone"""
+    _last_llm_status["code"] = None
     try:
         resp = await client.post(url,
             json={"model": model, "messages": [{"role": "user", "content": prompt}], "temperature": 0.1, "max_tokens": 200},
             headers=headers)
+        _last_llm_status["code"] = resp.status_code
         if resp.status_code == 200:
             c = resp.json()["choices"][0]["message"]["content"]
             if "```" in c:
@@ -868,12 +889,10 @@ async def _call_llm(client, url: str, model: str, prompt: str, headers: dict) ->
                 c = c[brace_start:brace_end]
             d = json.loads(c)
             return {k: v for k, v in d.items() if v}
-        elif resp.status_code == 429:
-            return None
         else:
             print(f"  LLM {resp.status_code} ({model}): {resp.text[:120]}")   # 失敗の理由をログに残す
-    except:
-        pass
+    except Exception as e:
+        print(f"  LLM error ({model}): {type(e).__name__}: {str(e)[:120]}")
     return None
 
 
