@@ -2855,7 +2855,10 @@
   "THEOU": {
     "shares_outstanding": 12500000,
     "proposed_price_low": 10.0,
-    "proposed_price_high": 10.0
+    "proposed_price_high": 10.0,
+    "description": "BOA Acquisition Corp. II is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in high-growth sectors. The company aims to leverage its management team's expertise to create value for shareholders through strategic acquisitions.",
+    "products_services": "As a SPAC, BOA Acquisition Corp. II does not offer traditional products or services but seeks to acquire a target company to bring it public.",
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)"
   },
   "XIIIU": {
     "shares_outstanding": 300000000,
@@ -2906,5 +2909,108 @@
     "description": "...",
     "products_services": "...",
     "industry": "..."
+  },
+  "TIWD": {
+    "description": "Timwood Holdings Ltd. is a publicly traded company specializing in sustainable timber and wood-based materials. It delivers innovative forestry solutions and eco-friendly construction products to global markets.",
+    "products_services": "Sustainable timber harvesting, engineered wood products, forestry consulting, and green building materials.",
+    "industry": "Sustainable Forestry and Construction Materials"
+  },
+  "ITIA": {
+    "description": "Star Integratia Ltd. is a technology-driven innovator specializing in integrated solutions for modern enterprises. The company focuses on delivering scalable platforms that enhance operational efficiency and digital transformation.",
+    "products_services": "Cloud-based enterprise software, AI-powered analytics, and custom integration services.",
+    "industry": "Information Technology & Software Solutions"
+  },
+  "LARS": {
+    "description": "Laris Growth Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative growth-oriented businesses. The company aims to leverage its expertise and network to drive value creation in the companies it partners with.",
+    "products_services": "As a SPAC, Laris Growth Acquisition Corp. does not offer traditional products or services but seeks to acquire and support growth companies across various sectors.",
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)",
+    "shares_outstanding": 200000000,
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
+  },
+  "ANT": {
+    "description": "Anthropic, PBC is an American artificial intelligence company focused on developing safe, interpretable, and steerable AI systems. Their flagship product, Claude, is designed to assist with a wide range of tasks while prioritizing accuracy, privacy, and alignment with human intent.",
+    "products_services": "AI-powered conversational assistant (Claude), AI research, safety tooling, custom enterprise AI solutions, and API access to large language models.",
+    "industry": "Artificial Intelligence, AI Safety, and Software & Internet Services"
+  },
+  "RZAI": {
+    "description": "Roze AI Inc. leverages advanced generative intelligence to transform enterprise workflows. The company is preparing for its initial public offering to accelerate global expansion and research initiatives.",
+    "products_services": "AI-powered workflow automation, custom large language model integration, and data analytics platforms.",
+    "industry": "Artificial Intelligence & Software-as-a-Service"
+  },
+  "XTERU": {
+    "description": "Karman Line Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the aerospace and technology sectors. The company aims to leverage its expertise and network to drive growth and create value for shareholders.",
+    "products_services": "As a SPAC, Karman Line Acquisition Corp. does not offer traditional products or services but seeks to acquire and support companies within the aerospace and technology industries.",
+    "industry": "Aerospace and Technology",
+    "shares_outstanding": 7666667,
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
+  },
+  "DHGR": {
+    "description": "Devonian Health Group Inc. is a biotechnology company focused on developing innovative health solutions derived from natural sources. The company aims to enhance health and wellness through its research and product offerings in the field of natural health products and pharmaceuticals.",
+    "products_services": "Devonian Health Group offers a range of products including natural health supplements and pharmaceutical formulations based on botanical extracts.",
+    "industry": "Biotechnology",
+    "shares_outstanding": 5850866,
+    "proposed_price_low": 7.0,
+    "proposed_price_high": 7.0
+  },
+  "PSQL": {
+    "description": "Pasqal Holding SA is a leading quantum computing company specializing in neutral-atom quantum processors. It provides scalable quantum hardware, software platforms, and cloud-based quantum services for research and industry.",
+    "products_services": "Neutral-atom quantum processors, quantum software platforms, cloud quantum computing services, and custom quantum algorithms for research and enterprise applications.",
+    "industry": "Quantum computing"
+  },
+  "LCAC": {
+    "description": "Lower Cross Acquisitions Corp. is a newly public entity focused on identifying and acquiring high-potential businesses across strategic sectors. The company seeks to leverage its capital and expertise to generate sustainable shareholder value through disciplined acquisitions.",
+    "products_services": "Strategic acquisition advisory, business integration, and capital deployment for target companies.",
+    "industry": "Financial Services"
+  },
+  "SUCH": {
+    "description": "Suchness Tech Ltd. leverages advanced AI and data analytics to transform enterprise workflows, delivering intuitive platforms that enhance productivity and decision-making. As the company prepares for its IPO, it remains committed to innovation, sustainability, and delivering measurable value to global clients.",
+    "products_services": "AI-powered workflow automation, custom analytics dashboards, and enterprise software solutions.",
+    "industry": "Technology & Software Services"
+  },
+  "DRIL": {
+    "description": "Lannister Mining Corp. is a junior mining company focused on the exploration and development of high-grade gold and silver deposits in North America. The company recently completed its initial public offering to accelerate drilling programs and advance its flagship projects toward production.",
+    "products_services": "Gold and silver exploration, resource development, drilling operations, and mineral processing.",
+    "industry": "Mining & Metals"
+  },
+  "BYOP": {
+    "description": "KiNRG, Inc. is a technology-driven company focused on sustainable energy innovation and digital transformation. The company recently completed its initial public offering to accelerate growth and expand its impact in the clean energy market.",
+    "products_services": "KiNRG provides renewable energy platforms, energy optimization software, and sustainability consulting services for commercial and industrial clients.",
+    "industry": "Renewable Energy & Clean Technology"
+  },
+  "BRRKU": {
+    "description": "Bluerock Acquisition Corp. II is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the real estate and technology sectors. The company aims to leverage its management team's expertise to drive growth and create value for shareholders.",
+    "products_services": "Investment and acquisition services targeting high-growth companies, primarily in real estate and technology.",
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)",
+    "shares_outstanding": 150000000,
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
+  },
+  "PNAQU": {
+    "description": "Pinnacle Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in high-growth sectors. The firm aims to leverage its management team's expertise to drive value creation post-merger.",
+    "products_services": "Pinnacle Acquisition Corp. primarily offers capital and strategic support to target companies through its merger and acquisition activities.",
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)",
+    "shares_outstanding": 5750000,
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
+  },
+  "KOEI": {
+    "description": "Koei Group Co., Ltd. is a leading company specializing in innovative technology solutions and services aimed at enhancing operational efficiency across various sectors. With a strong commitment to research and development, Koei Group focuses on delivering cutting-edge products that meet the evolving needs of its clients.",
+    "products_services": "Technology solutions, software development, consulting services, and operational efficiency tools.",
+    "industry": "Technology and Consulting"
+  },
+  "SPGH": {
+    "description": "Smart Pointer Group Holdings Ltd. is a technology-driven company specializing in innovative solutions for navigation and positioning systems. The company aims to enhance user experience through advanced technologies in various applications.",
+    "products_services": "Smart Pointer offers a range of products including GPS tracking devices, navigation software, and location-based services tailored for both consumer and enterprise markets.",
+    "industry": "Technology / Navigation and Positioning Systems",
+    "shares_outstanding": 5000000,
+    "proposed_price_low": 5.0,
+    "proposed_price_high": 6.0
+  },
+  "OURA": {
+    "description": "Oura Inc. is a leading health technology company focused on improving personal wellness through advanced wearable devices. Their flagship product, the Oura Ring, tracks sleep, activity, and readiness to help users optimize their health.",
+    "products_services": "Oura Ring, sleep and activity tracking, readiness scores, personalized health insights, mobile app integration",
+    "industry": "Digital health and wearable technology"
   }
 }
