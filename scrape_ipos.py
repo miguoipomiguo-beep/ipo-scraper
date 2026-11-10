@@ -37,6 +37,7 @@ OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions"
 OPENROUTER_KEY = os.environ.get("OPENROUTER_KEY", "")
 ANTHROPIC_KEY = os.environ.get("ANTHROPIC_API_KEY", "")
 HAIKU_MODEL = "claude-haiku-5-5"   # 第一候補。OpenRouter の無料モデルは混雑と1日50回の上限で安定しないので予備に回す
+FILING_FETCH_MAX = 60   # 説明文のために S-1 本文を取りにいく上限（SEC の待ち時間で1件約6秒）
 S1_MAX_PER_RUN = 50 if ANTHROPIC_KEY else 15   # 無料モデルだけのときは1日の回数上限があるので、説明文の分を残す
 LLM_INTERVAL_SEC = 3.5   # 無料モデルは1分20回まで
 OPENROUTER_MODEL = "google/gemma-4-31b-it:free"   # 旧 google/gemini-2.0-flash-001 は提供終了（GitHub Models も 2026-07-30 に終了）
@@ -670,6 +671,113 @@ async def detect_and_notify(ipos: list):
 # LLM
 # ============================================================
 
+_filing_texts = {}   # id → S-1 本文テキスト（この実行の間だけ持つ）
+
+
+async def _fetch_filing_text(client, ipo: dict, accession_raw: str):
+    """SEC の S-1/F-1 本文をテキストにして返す。取れなければ None（財務抽出と説明文の両方で使う）"""
+    cik_raw = ipo["cik"].lstrip("0")
+    accession_nodash = accession_raw.replace("-", "")
+
+    # Submissions APIからprimaryDocumentファイル名を取得
+    if WORKER_URL:
+        sub_resp = await client.get(f"{WORKER_URL}/api/admin/sec-submissions", params={"cik": ipo["cik"]})
+    else:
+        cik_padded = cik_raw.zfill(10)
+        sub_resp = await client.get(f"https://data.sec.gov/submissions/CIK{cik_padded}.json",
+                                   headers={"User-Agent": "usaipocalendarapp miguoipomiguo@gmail.com"})
+    if sub_resp.status_code != 200:
+        print(f"  ! {ipo.get('ticker','?')}: submissions API {sub_resp.status_code}")
+        return None
+
+    sub_data = sub_resp.json()
+    recent = sub_data.get("filings", {}).get("recent", {})
+    accession_list = recent.get("accessionNumber", [])
+    primary_docs = recent.get("primaryDocument", [])
+
+    # accession番号でprimaryDocumentを探す
+    primary_doc = None
+    for idx, acc in enumerate(accession_list):
+        if acc == accession_raw:
+            primary_doc = primary_docs[idx] if idx < len(primary_docs) else None
+            break
+    if not primary_doc:
+        print(f"  ! {ipo.get('ticker','?')}: primaryDocument not found for {accession_raw}")
+        return None
+
+    await asyncio.sleep(5)  # SEC rate limit対策
+
+    # ドキュメントURL構築 & 取得（403/429ならリトライ）
+    doc_url = f"https://www.sec.gov/Archives/edgar/data/{cik_raw}/{accession_nodash}/{primary_doc}"
+    doc_resp = None
+    for attempt in range(3):
+        if WORKER_URL:
+            doc_resp = await client.get(f"{WORKER_URL}/api/admin/sec-fetch", params={"url": doc_url})
+        else:
+            doc_resp = await client.get(doc_url, headers={"User-Agent": "usaipocalendarapp miguoipomiguo@gmail.com"})
+        if doc_resp.status_code == 200:
+            break
+        if doc_resp.status_code in (403, 429) and attempt < 2:
+            wait = 60 * (attempt + 1)
+            print(f"  ! {ipo.get('ticker','?')}: {doc_resp.status_code}, retrying in {wait}s...")
+            await asyncio.sleep(wait)
+    if doc_resp.status_code != 200:
+        print(f"  ! {ipo.get('ticker','?')}: doc page {doc_resp.status_code} ({doc_url[:80]})")
+        return None
+
+    import re
+    from bs4 import BeautifulSoup
+    import html2text
+    # SGMLラッパーを除去してHTML部分のみ取得
+    raw = doc_resp.text
+    html_start = raw.find("<HTML")
+    if html_start == -1:
+        html_start = raw.find("<html")
+    if html_start >= 0:
+        raw = raw[html_start:]
+    soup = BeautifulSoup(raw[:500000], "html.parser")
+    for tag in soup.find_all(["script", "style"]):
+        tag.decompose()
+    converter = html2text.HTML2Text()
+    converter.ignore_links = True
+    converter.body_width = 0
+    full_text = converter.handle(str(soup))
+    return full_text
+
+
+_UNKNOWN_DESC = re.compile(
+    r"don't have|do not have|I can't|I cannot|unable to|not aware of|no (verified|reliable|specific|public) information"
+    r"|knowledge base|please provide|not familiar|could not find|couldn't find", re.I)
+
+
+def _is_unknown_answer(d: dict) -> bool:
+    """「この会社は知らない」という返事を説明文として保存しないための判定"""
+    desc = d.get("description") or ""
+    if _UNKNOWN_DESC.search(desc):
+        return True
+    return str(d.get("products_services", "")).strip().lower() in ("unknown", "n/a", "none")
+
+
+def _s1_accession(ipo: dict):
+    accession = ipo.get("latest_s1_accession")
+    if not accession:
+        for ev in ipo.get("events", []):
+            if ev.get("filing_type") in ("S-1", "S-1/A", "F-1", "F-1/A", "S-11", "S-11/A") and ev.get("sec_accession"):
+                return ev["sec_accession"]
+    return accession
+
+
+def _business_excerpt(text: str) -> str:
+    """S-1 本文から事業の説明（Prospectus Summary / Overview）あたりを抜き出す。目次の見出しは飛ばす"""
+    for pat in (r"#*\s*\**\s*(Our Company|Overview|Our Business|Who We Are|Business Overview)\s*\**\s*\n",
+                r"PROSPECTUS SUMMARY"):
+        for m in re.finditer(pat, text, re.I):
+            chunk = text[m.start():m.start() + 4000]
+            if len(re.sub(r"\s+", " ", chunk)) > 1500 and chunk.count("|") < 40:   # 目次（表）ではなく本文
+                return chunk
+    return text[3000:7000]
+
+
 async def extract_s1_financials(ipos: list) -> list:
     """S-1/F-1書類からProposed Offering PriceとShares Outstandingを抽出"""
     if not ANTHROPIC_KEY and not OPENROUTER_KEY:
@@ -705,73 +813,11 @@ async def extract_s1_financials(ipos: list) -> list:
     async with httpx.AsyncClient(timeout=60, headers=SEC_HEADERS) as client:
         for ipo in targets[:S1_MAX_PER_RUN]:
             try:
-                cik_raw = ipo["cik"].lstrip("0")
                 accession_raw = ipo["_accession_for_extract"]
-                accession_nodash = accession_raw.replace("-", "")
-
-                # Submissions APIからprimaryDocumentファイル名を取得
-                if WORKER_URL:
-                    sub_resp = await client.get(f"{WORKER_URL}/api/admin/sec-submissions", params={"cik": ipo["cik"]})
-                else:
-                    cik_padded = cik_raw.zfill(10)
-                    sub_resp = await client.get(f"https://data.sec.gov/submissions/CIK{cik_padded}.json",
-                                               headers={"User-Agent": "usaipocalendarapp miguoipomiguo@gmail.com"})
-                if sub_resp.status_code != 200:
-                    print(f"  ! {ipo.get('ticker','?')}: submissions API {sub_resp.status_code}")
+                full_text = await _fetch_filing_text(client, ipo, accession_raw)
+                if not full_text:
                     continue
-
-                sub_data = sub_resp.json()
-                recent = sub_data.get("filings", {}).get("recent", {})
-                accession_list = recent.get("accessionNumber", [])
-                primary_docs = recent.get("primaryDocument", [])
-
-                # accession番号でprimaryDocumentを探す
-                primary_doc = None
-                for idx, acc in enumerate(accession_list):
-                    if acc == accession_raw:
-                        primary_doc = primary_docs[idx] if idx < len(primary_docs) else None
-                        break
-                if not primary_doc:
-                    print(f"  ! {ipo.get('ticker','?')}: primaryDocument not found for {accession_raw}")
-                    continue
-
-                await asyncio.sleep(5)  # SEC rate limit対策
-
-                # ドキュメントURL構築 & 取得（403/429ならリトライ）
-                doc_url = f"https://www.sec.gov/Archives/edgar/data/{cik_raw}/{accession_nodash}/{primary_doc}"
-                doc_resp = None
-                for attempt in range(3):
-                    if WORKER_URL:
-                        doc_resp = await client.get(f"{WORKER_URL}/api/admin/sec-fetch", params={"url": doc_url})
-                    else:
-                        doc_resp = await client.get(doc_url, headers={"User-Agent": "usaipocalendarapp miguoipomiguo@gmail.com"})
-                    if doc_resp.status_code == 200:
-                        break
-                    if doc_resp.status_code in (403, 429) and attempt < 2:
-                        wait = 60 * (attempt + 1)
-                        print(f"  ! {ipo.get('ticker','?')}: {doc_resp.status_code}, retrying in {wait}s...")
-                        await asyncio.sleep(wait)
-                if doc_resp.status_code != 200:
-                    print(f"  ! {ipo.get('ticker','?')}: doc page {doc_resp.status_code} ({doc_url[:80]})")
-                    continue
-
-                import re
-                from bs4 import BeautifulSoup
-                import html2text
-                # SGMLラッパーを除去してHTML部分のみ取得
-                raw = doc_resp.text
-                html_start = raw.find("<HTML")
-                if html_start == -1:
-                    html_start = raw.find("<html")
-                if html_start >= 0:
-                    raw = raw[html_start:]
-                soup = BeautifulSoup(raw[:500000], "html.parser")
-                for tag in soup.find_all(["script", "style"]):
-                    tag.decompose()
-                converter = html2text.HTML2Text()
-                converter.ignore_links = True
-                converter.body_width = 0
-                full_text = converter.handle(str(soup))
+                _filing_texts[ipo.get("id")] = full_text   # 説明文づくりでも使う
 
                 # テキスト先頭 + キーワード周辺を抽出してLLMに渡す
                 excerpts = [full_text[:3000]]
@@ -846,10 +892,30 @@ async def enrich_with_llm(ipos: list) -> list:
     rate_limited = 0
     openrouter_off = False
 
-    async with httpx.AsyncClient(timeout=60) as client:
+    filing_fetches = 0
+    from_filing = 0
+    async with httpx.AsyncClient(timeout=60) as client, httpx.AsyncClient(timeout=60, headers=SEC_HEADERS) as sec_client:
         for ipo in priority:
             name = ipo["company_name"]
-            prompt = f'Brief 2-sentence description for IPO company: {name}. Respond with JSON only, no markdown: {{"description":"...","products_services":"...","industry":"..."}}'
+            text = _filing_texts.get(ipo.get("id"))
+            accession = _s1_accession(ipo)
+            if not text and ANTHROPIC_KEY and ipo.get("cik") and accession and filing_fetches < FILING_FETCH_MAX:
+                filing_fetches += 1
+                try:
+                    text = await _fetch_filing_text(sec_client, ipo, accession)
+                except Exception as e:
+                    print(f"  ! {ipo.get('ticker','?')}: filing fetch {type(e).__name__}")
+            if text:
+                from_filing += 1
+                prompt = f"""Below is an excerpt from the SEC registration statement (S-1/F-1) of {name}, which is planning an IPO.
+Using ONLY this excerpt, write a 2-sentence description of the company, what it sells, and its industry.
+If the excerpt does not say what the company does, use null. Respond with JSON only, no markdown:
+{{"description":"...","products_services":"...","industry":"..."}}
+
+Excerpt:
+{_business_excerpt(text)}"""
+            else:
+                prompt = f'Brief 2-sentence description for IPO company: {name}. If you do not know this specific company, use null for every field instead of guessing or explaining. Respond with JSON only, no markdown: {{"description":"...","products_services":"...","industry":"..."}}'
 
             # Try 1: Claude Haiku
             result = await _call_haiku(prompt)
@@ -880,6 +946,9 @@ async def enrich_with_llm(ipos: list) -> list:
                 else:
                     rate_limited = 0
 
+            if result and _is_unknown_answer(result):
+                print(f"  - {ipo.get('ticker') or name[:30]}: model does not know this company, skipped")
+                result = None
             if result:
                 ipo.update(result)
                 enriched += 1
@@ -887,7 +956,7 @@ async def enrich_with_llm(ipos: list) -> list:
                 break
             await asyncio.sleep(LLM_INTERVAL_SEC if used_openrouter else 0.5)
 
-    print(f"  Enriched: {enriched} (GitHub failures: {github_failures})")
+    print(f"  Enriched: {enriched} (from filings: {from_filing}, filing fetches: {filing_fetches})")
     return ipos
 
 
@@ -1129,6 +1198,18 @@ def save_enrichment_cache(cache: dict):
 def apply_enrichment_cache(ipos: list, cache: dict):
     """キャッシュからdescription, shares_outstanding等を復元"""
     applied = 0
+    junk = 0
+    for entry in cache.values():
+        if entry.get("description") and _is_unknown_answer(entry):
+            for key in ("description", "products_services", "industry"):
+                entry.pop(key, None)
+            junk += 1
+    for ipo in ipos:
+        if ipo.get("description") and _is_unknown_answer(ipo):
+            for key in ("description", "products_services", "industry"):
+                ipo.pop(key, None)
+    if junk:
+        print(f"  Removed {junk} 'unknown company' descriptions from cache")
     for ipo in ipos:
         keys = [ipo.get("id"), ipo.get("ticker"), ipo.get("cik")]
         ipo_id = next((k for k in keys if k and k in cache and cache[k].get("description")), None) \
