@@ -3229,7 +3229,8 @@
     "products_services": "None; as a blank check company, it offers no products or services and exists solely to complete a business combination with a privately held operating company.",
     "industry": "Financial Services - Special Purpose Acquisition Companies (SPACs) / Shell Companies",
     "proposed_price_low": 10.0,
-    "proposed_price_high": 10.0
+    "proposed_price_high": 10.0,
+    "shares_outstanding": 32187500
   },
   "0002097903": {
     "description": "UDynamics Ltd is a BVI holding company that conducts its operations through its Hong Kong subsidiary UDomain, a technology solutions provider with a technical heritage dating to 1998. It offers cloud hosting and management, IT solution services (including cybersecurity, applications development, and blockchain solutions), and domain registration services to over 20,000 companies across Hong Kong, China, and Asia.",
@@ -3296,7 +3297,9 @@
   "SCATU": {
     "description": "Southern Cross Acquisition II Corp. is a special purpose acquisition company (SPAC), a blank-check vehicle formed to raise capital through an initial public offering for the purpose of acquiring or merging with an existing private company. It has no commercial operations of its own, and its management team seeks a suitable target business to take public through a business combination.",
     "products_services": "None; as a blank-check SPAC, the company offers no products or services and its sole activity is identifying and completing a business combination with a target company.",
-    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)"
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)",
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
   },
   "FBDT": {
     "description": "First Breach, Inc. is a Delaware corporation that manufactures match-grade ammunition components, including brass cups and casings, full-metal-jacket projectiles, lead projectile cores, and lead wire, built to SAAMI specifications. The company is also in the development stage on unmanned aerial systems through a joint venture (First Forge Technologies Inc.) and a master services agreement, but has not yet generated revenue from that business.",
@@ -3611,7 +3614,8 @@
     "products_services": "Medium voltage switchgears, medium voltage transformers, extra high voltage switchgears, power transformers, and low voltage distribution feeder pillars, plus project coordination, procurement, factory acceptance testing, delivery, and coordinated installation, testing and commissioning support.",
     "industry": "Electrical equipment supply and distribution (electrical distribution equipment trading and project services)",
     "proposed_price_low": 4.0,
-    "proposed_price_high": 6.0
+    "proposed_price_high": 6.0,
+    "shares_outstanding": 18750000
   },
   "0002144445": {
     "description": "UC Automotive Holdings Inc. operates a used vehicle dealership and automotive services business in Canada, headquartered in Richmond, British Columbia and focused on the Greater Vancouver area. The company combines used vehicle sales, vehicle leasing and rental, rent-to-own programs, financing support and after-sales services.",
