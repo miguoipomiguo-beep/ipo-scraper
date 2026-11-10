@@ -2873,7 +2873,9 @@
   "AEIB": {
     "description": "AEI CapForce II Investment Corp. is a closed-end management investment company focused on strategic capital allocation. The company seeks to generate long-term capital appreciation through diversified investments in growth-oriented assets.",
     "products_services": "Investment management, capital allocation, and portfolio diversification services.",
-    "industry": "Financial Services"
+    "industry": "Financial Services",
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
   },
   "LEDRU": {
     "description": "Leader's Advantage Acquisition Corp. is a special purpose acquisition company formed for the purpose of effecting a merger or acquisition. The company aims to identify and partner with a high-growth target company to take it public.",
@@ -2883,12 +2885,17 @@
   "0002071166": {
     "description": "Lorenzo Developments Inc. is a real estate development firm focused on creating high-quality residential and commercial properties. The company specializes in strategic urban planning and sustainable architectural design to maximize asset value.",
     "products_services": "Residential condominiums, commercial office spaces, and mixed-use real estate developments.",
-    "industry": "Real Estate Development"
+    "industry": "Real Estate Development",
+    "shares_outstanding": 19000000,
+    "proposed_price_low": 1.0,
+    "proposed_price_high": 1.0
   },
   "0002073516": {
     "description": "ARC Group Acquisition II Corp. is a special purpose acquisition company formed for the purpose of effecting a merger or acquisition. The company seeks to identify and partner with a high-growth target company to take public.",
     "products_services": "Special purpose acquisition vehicle (SPAC) services.",
-    "industry": "Financial Services"
+    "industry": "Financial Services",
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
   },
   "glamoorecapitalgroup": {
     "description": "GLAMOORE Capital Group Co Ltd. is a strategic investment firm specializing in capital growth and portfolio diversification. The company focuses on identifying high-potential opportunities across emerging markets to deliver long-term value to shareholders.",
@@ -2903,22 +2910,33 @@
   "OPAY": {
     "description": "OPay Ltd. is a leading financial technology platform providing comprehensive digital payment and financial services. The company focuses on enhancing financial inclusion through a scalable mobile-first ecosystem.",
     "products_services": "Mobile wallets, payment processing, merchant services, and digital lending.",
-    "industry": "FinTech"
+    "industry": "FinTech",
+    "shares_outstanding": 2015314234,
+    "proposed_price_low": 19.0,
+    "proposed_price_high": 21.0
   },
   "PHAXU": {
     "description": "...",
     "products_services": "...",
-    "industry": "..."
+    "industry": "...",
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
   },
   "TIWD": {
     "description": "Timwood Holdings Ltd. is a publicly traded company specializing in sustainable timber and wood-based materials. It delivers innovative forestry solutions and eco-friendly construction products to global markets.",
     "products_services": "Sustainable timber harvesting, engineered wood products, forestry consulting, and green building materials.",
-    "industry": "Sustainable Forestry and Construction Materials"
+    "industry": "Sustainable Forestry and Construction Materials",
+    "shares_outstanding": 26250000,
+    "proposed_price_low": 4.0,
+    "proposed_price_high": 6.0
   },
   "ITIA": {
     "description": "Star Integratia Ltd. is a technology-driven innovator specializing in integrated solutions for modern enterprises. The company focuses on delivering scalable platforms that enhance operational efficiency and digital transformation.",
     "products_services": "Cloud-based enterprise software, AI-powered analytics, and custom integration services.",
-    "industry": "Information Technology & Software Solutions"
+    "industry": "Information Technology & Software Solutions",
+    "shares_outstanding": 11904762,
+    "proposed_price_low": 6.0,
+    "proposed_price_high": 8.0
   },
   "LARS": {
     "description": "Laris Growth Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative growth-oriented businesses. The company aims to leverage its expertise and network to drive value creation in the companies it partners with.",
@@ -2957,7 +2975,8 @@
   "PSQL": {
     "description": "Pasqal Holding SA is a leading quantum computing company specializing in neutral-atom quantum processors. It provides scalable quantum hardware, software platforms, and cloud-based quantum services for research and industry.",
     "products_services": "Neutral-atom quantum processors, quantum software platforms, cloud quantum computing services, and custom quantum algorithms for research and enterprise applications.",
-    "industry": "Quantum computing"
+    "industry": "Quantum computing",
+    "shares_outstanding": 212293691
   },
   "LCAC": {
     "description": "Lower Cross Acquisitions Corp. is a newly public entity focused on identifying and acquiring high-potential businesses across strategic sectors. The company seeks to leverage its capital and expertise to generate sustainable shareholder value through disciplined acquisitions.",
@@ -2967,17 +2986,24 @@
   "SUCH": {
     "description": "Suchness Tech Ltd. leverages advanced AI and data analytics to transform enterprise workflows, delivering intuitive platforms that enhance productivity and decision-making. As the company prepares for its IPO, it remains committed to innovation, sustainability, and delivering measurable value to global clients.",
     "products_services": "AI-powered workflow automation, custom analytics dashboards, and enterprise software solutions.",
-    "industry": "Technology & Software Services"
+    "industry": "Technology & Software Services",
+    "shares_outstanding": 21000000,
+    "proposed_price_low": 5.0,
+    "proposed_price_high": 7.0
   },
   "DRIL": {
     "description": "Lannister Mining Corp. is a junior mining company focused on the exploration and development of high-grade gold and silver deposits in North America. The company recently completed its initial public offering to accelerate drilling programs and advance its flagship projects toward production.",
     "products_services": "Gold and silver exploration, resource development, drilling operations, and mineral processing.",
-    "industry": "Mining & Metals"
+    "industry": "Mining & Metals",
+    "proposed_price_low": 4,
+    "proposed_price_high": 6
   },
   "BYOP": {
     "description": "KiNRG, Inc. is a technology-driven company focused on sustainable energy innovation and digital transformation. The company recently completed its initial public offering to accelerate growth and expand its impact in the clean energy market.",
     "products_services": "KiNRG provides renewable energy platforms, energy optimization software, and sustainability consulting services for commercial and industrial clients.",
-    "industry": "Renewable Energy & Clean Technology"
+    "industry": "Renewable Energy & Clean Technology",
+    "proposed_price_low": 5.0,
+    "proposed_price_high": 7.0
   },
   "BRRKU": {
     "description": "Bluerock Acquisition Corp. II is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the real estate and technology sectors. The company aims to leverage its management team's expertise to drive growth and create value for shareholders.",
@@ -3012,5 +3038,522 @@
     "description": "Oura Inc. is a leading health technology company focused on improving personal wellness through advanced wearable devices. Their flagship product, the Oura Ring, tracks sleep, activity, and readiness to help users optimize their health.",
     "products_services": "Oura Ring, sleep and activity tracking, readiness scores, personalized health insights, mobile app integration",
     "industry": "Digital health and wearable technology"
+  },
+  "0002089787": {
+    "description": "RainRock Acquisition Corp. is a blank check company, also known as a special purpose acquisition company (SPAC), formed to raise capital through an initial public offering for the purpose of acquiring or merging with an operating business. As a shell company with no commercial operations of its own, it seeks a target business to take public, typically within a set timeframe.",
+    "products_services": "No operating products or services; the company's sole purpose is to identify, evaluate, and complete a business combination with a privately held target company.",
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)",
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
+  },
+  "EMAC": {
+    "description": "Essential Minerals Acquisition Corp. is a special purpose acquisition company formed to identify and combine with a business in the critical minerals sector. The company intends to leverage its capital and management expertise to pursue a target that supports the supply chain for minerals essential to the energy transition and advanced manufacturing.",
+    "products_services": "As a blank check company, Essential Minerals Acquisition Corp. does not currently offer products or services; its primary activity is seeking and completing a business combination with an operating company in the critical minerals space.",
+    "industry": "Special Purpose Acquisition Companies (SPACs) / Mining and Critical Minerals",
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
+  },
+  "0002113088": {
+    "description": "Graf Industrial Corp. II is a company preparing for an initial public offering, with publicly available details about its business operations limited in this context. Further information from its S-1 registration statement or official investor materials would be needed to provide a verified overview of its activities.",
+    "products_services": "Not verifiable from available information; consult the company's IPO filings or prospectus for details on its products and services.",
+    "industry": "Industrial (unverified; based on the company name, which suggests an industrial focus)",
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
+  },
+  "KHG": {
+    "description": "I don't have verified information about Kainan Holding Group Ltd. in my knowledge base, so I can't accurately describe its business or IPO details. Please consult the company's prospectus, filings, or official website for an accurate description.",
+    "products_services": "Unknown - no verified information available.",
+    "industry": "Unknown - no verified information available.",
+    "shares_outstanding": 20818180,
+    "proposed_price_low": 5.0,
+    "proposed_price_high": 5.0
+  },
+  "0002118192": {
+    "description": "DayOne Data Centers Ltd. is a data center operator focused on developing, owning, and operating hyperscale and enterprise-grade data center campuses across the Asia-Pacific region. The company is preparing for an initial public offering to fund expansion of its capacity for cloud and AI workloads.",
+    "products_services": "Colocation services, hyperscale data center campus development, powered shell and build-to-suit facilities, and data center operations and management.",
+    "industry": "Data Center Infrastructure / Digital Infrastructure (Real Estate and Technology Services)"
+  },
+  "AGKO": {
+    "description": "Aggreko Inc. is the North American arm of Aggreko, a global provider of temporary power, temperature control, and water solutions for events, construction, industrial, and emergency needs. The company supplies rental generators, chillers, heaters, and related equipment with supporting services to customers across a wide range of industries.",
+    "products_services": "Temporary power generation rental, temperature control (chillers and heating), water treatment and filtration, energy solutions, and related installation, maintenance, and monitoring services",
+    "industry": "Equipment rental and temporary power/temperature control services"
+  },
+  "HCPC": {
+    "description": "I don't have verified information about a company called HengHong Technology Inc. in my knowledge base, so I can't confirm its business details or IPO status. Please provide the company's filings, prospectus, or website so an accurate two-sentence description can be written.",
+    "products_services": "Unknown; not verifiable from available information.",
+    "industry": "Unknown; not verifiable from available information.",
+    "shares_outstanding": 25000000,
+    "proposed_price_low": 6.0,
+    "proposed_price_high": 7.0
+  },
+  "ALLN": {
+    "description": "Allarity Acquisition Corp. is a special purpose acquisition company (SPAC) formed to effect a merger, share exchange, or similar business combination with one or more operating businesses. As a blank check company, it has no commercial operations of its own and raised capital through an initial public offering to fund a future acquisition target.",
+    "products_services": "No products or services; the company's sole purpose is to identify and complete a business combination with a privately held operating company.",
+    "industry": "Financial Services / Blank Check Companies (SPACs)",
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
+  },
+  "JRWP": {
+    "shares_outstanding": 19250000,
+    "proposed_price_low": 4.0,
+    "proposed_price_high": 6.0
+  },
+  "VRXA": {
+    "description": "Veraxa Biotech AG is a post-de-SPAC biotechnology company that became publicly listed through a business combination with a special purpose acquisition company. The firm focuses on developing therapeutic and diagnostic solutions for unmet medical needs.",
+    "products_services": "Biopharmaceutical product development, therapeutic candidates, and diagnostic solutions (specific offerings not provided; please verify against company filings).",
+    "industry": "Biotechnology / Life Sciences"
+  },
+  "HRIA": {
+    "description": "Harbour Island Acquisition Corp. I is a blank check company formed as a special purpose acquisition vehicle to pursue a business combination with an operating company. It is seeking to raise capital through an initial public offering and will identify and evaluate a target business for a future merger, share exchange, or similar transaction.",
+    "products_services": "No operating products or services; the company's sole activity is identifying, evaluating, and completing a business combination with a privately held target company.",
+    "industry": "Financial Services – Blank Check Companies (Special Purpose Acquisition Companies)",
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
+  },
+  "GFUZ": {
+    "description": "General Fusion is a Canadian private fusion energy company based in Richmond, British Columbia, developing magnetized target fusion technology to produce clean, carbon-free electricity. The company is pursuing commercial fusion power plants and has been working toward a public listing through a planned merger with a special purpose acquisition company.",
+    "products_services": "Magnetized target fusion power plant technology, fusion energy systems and components, and related research and development services for clean baseload electricity generation.",
+    "industry": "Clean Energy / Nuclear Fusion Technology"
+  },
+  "BOGD": {
+    "shares_outstanding": 60112750,
+    "proposed_price_low": 4.0,
+    "proposed_price_high": 6.0
+  },
+  "0002145826": {
+    "description": "Silicon Valley Acquisition Corp. II is a blank check company, also known as a special purpose acquisition company (SPAC), formed to raise capital through an initial public offering for the purpose of acquiring or merging with an operating business. The company has no commercial operations of its own and intends to identify and combine with a privately held target company, typically in the technology sector.",
+    "products_services": "None at this time; as a blank check company, its sole activity is identifying and completing a business combination with a target company.",
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)",
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
+  },
+  "IPHXU": {
+    "description": "Inflection Point Acquisition Corp. VIII is a special purpose acquisition company (SPAC) formed to effect a merger, share exchange, or similar business combination with one or more operating businesses. As a blank-check vehicle, it has no commercial operations of its own and intends to pursue a target company through its public listing process.",
+    "products_services": "None; as a blank-check company, it offers no products or services and exists to identify and complete a business combination with a privately held operating company.",
+    "industry": "Financial Services - Blank Check Companies (SPAC)",
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
+  },
+  "0002094989": {
+    "shares_outstanding": 15990000
+  },
+  "0002145409": {
+    "description": "GX Acquisition Corp. III is a Cayman Islands blank check company, formed as a special purpose acquisition company (SPAC) to pursue a business combination with one or more operating businesses. It has no commercial operations of its own and raised capital through an initial public offering to fund a future merger or acquisition target.",
+    "products_services": "None; as a SPAC, the company offers no products or services and its activities are limited to identifying, evaluating, and completing a business combination with a target company.",
+    "industry": "Financial Services – Blank Check Companies (SPACs)",
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
+  },
+  "LOVIU": {
+    "description": "Live Oak Acquisition Corp. VI is a special purpose acquisition company (SPAC) formed to effect a merger, share exchange, asset acquisition, or similar business combination with one or more operating businesses. As a blank-check company, it has no commercial operations of its own and seeks to bring a privately held target company public through a business combination.",
+    "products_services": "None; as a blank-check SPAC, it offers no products or services and its activities are limited to identifying, evaluating, and completing a business combination with a target company.",
+    "industry": "Financial Services — Special Purpose Acquisition Company (SPAC) / Shell Company",
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
+  },
+  "0002097388": {
+    "description": "Sin Lian Seng Construction is a construction company that undertakes building and civil engineering projects. The company is positioned as a candidate for an initial public offering, pending verification of its current corporate and financial details.",
+    "products_services": "Construction services, including building construction and civil engineering works",
+    "industry": "Construction",
+    "proposed_price_low": 4.0,
+    "proposed_price_high": 5.0
+  },
+  "0002136246": {
+    "description": "I don't have verified information about a company called BEHNEH Ltd., so I can't provide an accurate description of its business or IPO details. Please share the company's prospectus, website, or official filings so I can draft an accurate two-sentence summary.",
+    "products_services": "Unknown",
+    "industry": "Unknown",
+    "shares_outstanding": 25000000,
+    "proposed_price_low": 3.0,
+    "proposed_price_high": 5.0
+  },
+  "CSEA": {
+    "description": "Calm Seas Acquisition Corp. is a newly formed blank check company, also known as a special purpose acquisition company (SPAC), organized to raise capital through an initial public offering for the purpose of acquiring or merging with an operating business. The company has no commercial operations of its own and intends to identify and complete a business combination with a target company, typically within a defined period following its IPO.",
+    "products_services": "As a blank check company, Calm Seas Acquisition Corp. does not offer products or services; its sole activity is raising capital and pursuing a business combination with a privately held operating company.",
+    "industry": "Financial Services – Shell Companies / Special Purpose Acquisition Companies (SPACs)",
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
+  },
+  "IQMX": {
+    "description": "IQM Quantum Computers Oyj is a Finnish company that designs and manufactures superconducting quantum computers for research institutions, governments, and enterprises. The company is pursuing an initial public offering as it scales its quantum hardware business in Europe and globally.",
+    "products_services": "Superconducting quantum computers, quantum processors, quantum control systems, and related software and cloud access for quantum computing workloads.",
+    "industry": "Quantum computing hardware"
+  },
+  "BMB": {
+    "description": "Bamboo Insurance Services, Inc. is a company operating in the insurance services sector, offering insurance-related solutions to consumers and businesses. Its public offering positions it to raise capital for growth, technology investment, and expansion of its insurance distribution and service capabilities.",
+    "products_services": "Insurance services and related solutions, which may include policy administration, distribution, and customer-facing insurance products (specific offerings not verified).",
+    "industry": "Insurance Services",
+    "proposed_price_low": 18.0,
+    "proposed_price_high": 20.0
+  },
+  "0002143156": {
+    "description": "Lucens Capital Acquisition Corp I is a blank check company, also known as a special purpose acquisition company (SPAC), formed to effect a merger, share exchange, or similar business combination with one or more operating businesses. It has no commercial operations of its own and raises capital through an initial public offering to identify and acquire a target company.",
+    "products_services": "None; as a SPAC, the company does not offer products or services and instead seeks to complete a business combination with a privately held operating company.",
+    "industry": "Financial Services - Shell Companies / Special Purpose Acquisition Companies (SPACs)"
+  },
+  "BHAIU": {
+    "description": "BHAV Acquisition Corp II is a blank check company, also known as a special purpose acquisition company (SPAC), formed to effect a merger, share exchange, asset acquisition, or similar business combination with one or more operating businesses. The company has no operations of its own and intends to use the proceeds of its initial public offering to identify and complete a target acquisition.",
+    "products_services": "As a blank check company, BHAV Acquisition Corp II does not offer products or services; its activity consists of identifying, evaluating, and completing a business combination with a privately held operating company.",
+    "industry": "Financial Services - Shell Companies / Special Purpose Acquisition Companies (SPACs)"
+  },
+  "0002084038": {
+    "description": "I don't have verified information about Yi Feng Holdings Ltd. or its IPO filing, so I can't write an accurate description without risking fabrication. Please share the company's prospectus, filing, or website so a precise two-sentence summary can be prepared.",
+    "products_services": "Unknown",
+    "industry": "Unknown"
+  },
+  "HYACU": {
+    "description": "Haymaker Acquisition Corp V is a blank check company, also known as a special purpose acquisition company (SPAC), formed to effect a merger, share exchange, asset acquisition, or similar business combination with one or more operating businesses. It has no operations of its own and raises capital through an initial public offering to identify and acquire a target company, typically in the consumer, branded, and related sectors.",
+    "products_services": "None; as a blank check company, it offers no products or services and exists solely to complete a business combination with a privately held operating company.",
+    "industry": "Financial Services - Special Purpose Acquisition Companies (SPACs) / Shell Companies"
+  },
+  "0002097903": {
+    "description": "I don't have any information about a company called UDynamics Ltd. or its IPO, so I can't write an accurate description. If you share details about the business, I can draft the two-sentence description for you.",
+    "products_services": "Unknown",
+    "industry": "Unknown"
+  },
+  "0002110025": {
+    "description": "SIYATA PTT is a company that appears to be pursuing a public listing, though I don't have reliable, verified details about its business. Please check its official prospectus or filings for an accurate description.",
+    "products_services": "Unable to verify from available information.",
+    "industry": "Unable to verify from available information."
+  },
+  "0002138170": {
+    "description": "Spring Valley Acquisition Corp. V is a blank check company, also known as a special purpose acquisition company (SPAC), formed to effect a merger, share exchange, asset acquisition, or similar business combination with one or more operating businesses. It has no commercial operations of its own and seeks a target company to take public through a business combination, with its shareholders and sponsors receiving the benefits of the eventual target's growth.",
+    "products_services": "None; the company has no products or services. Its activity consists of identifying, evaluating, and completing a business combination with a private operating company.",
+    "industry": "Financial Services - Special Purpose Acquisition Companies (Blank Check Shell Companies)"
+  },
+  "TBCVU": {
+    "description": "Thunder Bridge Capital Partners V, Ltd. is a special purpose acquisition company (SPAC), a blank-check vehicle formed to raise capital through an initial public offering for the purpose of acquiring or merging with an operating business. Its details, including its IPO status, trust account, and target sector, are not confirmed in my records, so verify them against its SEC filings.",
+    "products_services": "As a blank-check company, it has no operating products or services; its activity consists of identifying and completing a business combination with a private target company.",
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)"
+  },
+  "0002160422": {
+    "description": "Kartoon Studios Acquisition Corp. is a special purpose acquisition company formed to pursue a business combination with an operating company in the media and entertainment sector. The vehicle raises capital through an initial public offering with the goal of acquiring or merging with a target business that can benefit from public market access.",
+    "products_services": "As a blank check company, Kartoon Studios Acquisition Corp. does not offer products or services of its own; its purpose is to identify and complete a business combination with a privately held target company.",
+    "industry": "Financial Services – Special Purpose Acquisition Company (SPAC), with a focus on media and entertainment targets"
+  },
+  "OHII": {
+    "description": "Oceanhawk Acquisition II Corp. is a blank check company, also known as a special purpose acquisition company (SPAC), formed to raise capital through an initial public offering for the purpose of acquiring or merging with an operating business. As a SPAC, it has no commercial operations of its own and is expected to identify a target company, typically within a set timeframe, to complete a business combination.",
+    "products_services": "None currently; the company's sole purpose is to effect a business combination with a privately held operating company, which would then determine its products and services.",
+    "industry": "Financial Services – Special Purpose Acquisition Company (Blank Check)"
+  },
+  "RZRA": {
+    "description": "I don't have verified information about a company called Rezera Inc. in my knowledge base, so I can't confidently describe its business or IPO status. Please provide the company's filings, prospectus, or website so an accurate two-sentence description can be written.",
+    "products_services": "Unknown",
+    "industry": "Unknown",
+    "proposed_price_low": 11.0,
+    "proposed_price_high": 13.0
+  },
+  "RNAQU": {
+    "description": "Rainier Acquisition Corp. is a blank check company, also known as a special purpose acquisition company (SPAC), formed to raise capital through an initial public offering for the purpose of acquiring or merging with an operating business. Its management team intends to identify and complete a business combination with a target company, typically within a defined timeframe.",
+    "products_services": "No operating products or services; the company's sole activity is identifying, evaluating, and completing a business combination with a privately held target company.",
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)"
+  },
+  "JTTT": {
+    "description": "JATT III Acquisition Corp. is a blank check company, also known as a special purpose acquisition company (SPAC), formed to effect a merger, share exchange, asset acquisition, or similar business combination with one or more operating businesses. It has no commercial operations of its own and is structured to raise capital through an initial public offering for the purpose of identifying and completing an acquisition target.",
+    "products_services": "No products or services; the company's sole activity is identifying and consummating a business combination with a target company.",
+    "industry": "Financial Services - Special Purpose Acquisition Company (SPAC) / Shell Company"
+  },
+  "SCATU": {
+    "description": "Southern Cross Acquisition II Corp. is a special purpose acquisition company (SPAC), a blank-check vehicle formed to raise capital through an initial public offering for the purpose of acquiring or merging with an existing private company. It has no commercial operations of its own, and its management team seeks a suitable target business to take public through a business combination.",
+    "products_services": "None; as a blank-check SPAC, the company offers no products or services and its sole activity is identifying and completing a business combination with a target company.",
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)"
+  },
+  "FBDT": {
+    "description": "First Breach, Inc. is a company that has pursued an initial public offering, though specific details about its business model, financials, and market position are not available in my knowledge base. For accurate and current information, consult its S-1 registration statement filed with the SEC or the prospectus issued through its underwriters.",
+    "products_services": "Not verifiable from my available information; refer to the company's SEC filings or prospectus for details on its products and services.",
+    "industry": "Unable to confirm; the company name suggests a possible focus on cybersecurity or breach-related services, but this should be verified through official filings."
+  },
+  "LYNX": {
+    "description": "I don't have verified information about a company called Lyntris Inc. in my knowledge base, so I can't accurately describe its business, history, or IPO details. If you share a prospectus, company website, or other source material, I can help draft a concise two-sentence description based on it.",
+    "products_services": "Unknown; no verified information available about Lyntris Inc.'s products or services.",
+    "industry": "Unknown; no verified information available about Lyntris Inc.'s industry."
+  },
+  "NSAIU": {
+    "description": "NorthStrive Acquisition Corp I is a blank-check special purpose acquisition company formed to effect a merger, share exchange, asset acquisition, or similar business combination with one or more operating businesses. It has no operations of its own and seeks to take a target company public through its initial public offering and subsequent business combination.",
+    "products_services": "No operating products or services; the company's sole purpose is to identify and complete a business combination with a privately held target company.",
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)"
+  },
+  "FOIL": {
+    "description": "Londian Wason New Energy Tech Inc. is a company focused on new energy technologies, positioned for a potential initial public offering. Specific details about its operations, financials, and market position are not available in my knowledge base, so please verify with the company's official IPO filings or prospectus.",
+    "products_services": "Not verifiable from available information; likely related to new energy technology solutions, subject to confirmation from official company disclosures.",
+    "industry": "New Energy Technology"
+  },
+  "LTGO": {
+    "description": "Latigo Biotherapeutics, Inc. is a biotechnology company focused on developing novel therapeutics. Details on its pipeline, clinical programs, and IPO terms should be verified against its SEC filings and offering materials.",
+    "products_services": "Development of investigational biotherapeutic drug candidates; specific products and clinical programs not confirmed in available information.",
+    "industry": "Biotechnology / Biopharmaceuticals"
+  },
+  "OCLTU": {
+    "description": "OceanLight Acquisition Corp. is a blank check company, also known as a special purpose acquisition company (SPAC), formed to raise capital through an initial public offering for the purpose of acquiring or merging with an operating business. Its management team seeks to identify and complete a business combination with a target company, which would then become publicly traded through the transaction.",
+    "products_services": "As a blank check company, OceanLight Acquisition Corp. does not offer products or services of its own; its activity consists of raising public capital and pursuing a business combination with a privately held operating company.",
+    "industry": "Financial Services – Special Purpose Acquisition Companies (SPACs)"
+  },
+  "TCGX": {
+    "description": "TCGX Acquisition Corp. II is a blank check company, also known as a special purpose acquisition company (SPAC), formed to effect a merger, share exchange, or similar business combination with one or more operating businesses. It has no operations of its own and raises capital through an initial public offering with the intention of identifying and acquiring a target company.",
+    "products_services": "No products or services; the company's sole activity is identifying, evaluating, and completing a business combination with a privately held target company.",
+    "industry": "Financial Services – Special Purpose Acquisition Companies (Blank Check Companies)"
+  },
+  "FJDIU": {
+    "description": "ARC Group Securities Acquisition II is a special purpose acquisition company (SPAC) formed to effect a merger, share exchange, asset acquisition, or similar business combination with one or more operating businesses. As a blank check company, it has no commercial operations of its own and seeks to raise capital through an initial public offering to fund a future acquisition target.",
+    "products_services": "No operating products or services; the company's sole purpose is to identify and complete a business combination with a private operating company, thereby providing that company a path to public markets.",
+    "industry": "Financial Services (Blank Check Companies / Special Purpose Acquisition Companies)"
+  },
+  "ADRX": {
+    "description": "ADARx Pharmaceuticals, Inc. is a clinical-stage biopharmaceutical company developing RNA-targeting therapeutics designed to address diseases with significant unmet medical need. The company leverages proprietary platforms to advance its pipeline toward clinical development and potential commercialization.",
+    "products_services": "RNA-targeting drug candidates and proprietary therapeutic platform technologies for drug discovery and development",
+    "industry": "Biotechnology / Biopharmaceuticals"
+  },
+  "OIG": {
+    "description": "Orion180 Insurance Group Inc. is an insurance holding company preparing for an initial public offering, offering a range of property, casualty, and specialty insurance solutions to individual and commercial clients. The company aims to leverage its underwriting expertise and distribution network to deliver risk protection and long-term value to shareholders.",
+    "products_services": "Property and casualty insurance, commercial liability coverage, specialty insurance products, risk management and underwriting services",
+    "industry": "Insurance"
+  },
+  "ETRA": {
+    "description": "Electra Therapeutics, Inc. is a biopharmaceutical company focused on developing novel therapeutics. Details about its specific pipeline, leadership, and IPO terms should be verified against its official SEC filings or prospectus.",
+    "products_services": "Developing therapeutic candidates; specific products and services not verified.",
+    "industry": "Biotechnology / Biopharmaceuticals"
+  },
+  "TLACU": {
+    "description": "Three Lions Acquisition Corp. is a blank check company, also known as a special purpose acquisition company (SPAC), formed to effect a merger, share exchange, asset acquisition, or similar business combination with one or more operating businesses. Its management team intends to target companies with strong growth potential, though specific sector focus and offering details should be confirmed through its SEC filings.",
+    "products_services": "As a SPAC, Three Lions Acquisition Corp. does not offer products or services of its own; its primary activity is identifying and completing a business combination with a private operating company.",
+    "industry": "Special Purpose Acquisition Companies (SPACs) / Financial Services – Shell Companies"
+  },
+  "ASPE": {
+    "description": "Aspen Neuroscience, Inc. is a clinical-stage biotechnology company developing autologous, patient-derived cell therapies for neurodegenerative diseases, with a focus on Parkinson's disease. The company uses its proprietary stem cell and neural differentiation platform to create dopamine-producing neurons intended to replace cells lost in the disease.",
+    "products_services": "Autologous (patient-derived) induced pluripotent stem cell-based neural cell therapies for Parkinson's disease; ANPD001 is its lead candidate, which is in clinical development.",
+    "industry": "Biotechnology / Biopharmaceuticals (Cell and Gene Therapy, Neurology)"
+  },
+  "SCQCU": {
+    "description": "SPACCircle Acquisition Corp. is a special purpose acquisition company (SPAC) formed to effect a merger, share exchange, or similar business combination with one or more operating businesses. It raises capital through an initial public offering and seeks a target company to take public, with specifics about its strategy and any target not confirmed here.",
+    "products_services": "As a blank-check company, it offers no products or services of its own; its purpose is to identify and complete a business combination with a private operating company.",
+    "industry": "Financial Services – Special Purpose Acquisition Companies (Blank Check)"
+  },
+  "AMRO": {
+    "description": "Amaero Inc. is a company that has pursued an initial public offering, positioning itself for public market investors. Specific business details could not be verified from the information provided, so the description is limited to this general characterization.",
+    "products_services": "Not verified",
+    "industry": "Not verified"
+  },
+  "IAM": {
+    "description": "Iambic Therapeutics is a San Diego-based clinical-stage biotechnology company developing small-molecule therapies for cancer and other serious diseases, using AI-driven drug discovery and generative chemistry platforms. The company focuses on accelerating the design and development of novel oncology candidates that aim to address unmet medical needs.",
+    "products_services": "Proprietary AI-driven drug discovery platform (including the Enchant and Chemistry42 technologies) and clinical-stage small-molecule drug candidates targeting oncology indications.",
+    "industry": "Biotechnology / Pharmaceuticals (AI-driven drug discovery)"
+  },
+  "FLSC": {
+    "description": "Frazier Life Sciences Acquisition Corp. II is a blank check company, also known as a special purpose acquisition company (SPAC), formed to effect a merger or similar business combination with an operating company in the life sciences sector. It raised capital through an initial public offering with the goal of identifying and acquiring a privately held biotechnology, pharmaceutical, or healthcare target.",
+    "products_services": "As a SPAC, it does not offer products or services of its own; its purpose is to complete a business combination with a target company in the life sciences space.",
+    "industry": "Life Sciences / Blank Check Companies (SPAC)"
+  },
+  "PAXGU": {
+    "description": "Pine Tree Acquisition Corp. is a special purpose acquisition company (SPAC), a blank-check vehicle formed to raise capital through an initial public offering for the purpose of acquiring or merging with an existing private company. I don't have verified details on its specific sponsors, target sectors, or offering terms, so please confirm these against its SEC filings.",
+    "products_services": "As a blank-check company, Pine Tree Acquisition Corp. has no operating products or services; its activity is limited to identifying and completing a business combination with a target company.",
+    "industry": "Financial Services - Shell Companies / Special Purpose Acquisition Companies (SPACs)"
+  },
+  "CHWM": {
+    "description": "Chilwa Minerals Ltd. is a mineral exploration and development company focused on the Chilwa Alkaline Complex in Malawi, which hosts significant deposits of rare earth elements and industrial minerals. The company is preparing for an initial public offering to raise capital for advancing its projects toward commercial production.",
+    "products_services": "Rare earth element concentrates and industrial mineral products from mineral exploration and development activities",
+    "industry": "Mining and Metals (Rare Earth Elements and Industrial Minerals)"
+  },
+  "PORTU": {
+    "description": "Southport Acquisition Corp. II is a blank check company, also known as a special purpose acquisition company (SPAC), formed to effect a merger, share exchange, asset acquisition, or similar business combination with one or more operating businesses. It has no commercial operations of its own and intends to identify and combine with a target company, typically through a public listing process following its initial public offering.",
+    "products_services": "As a blank check company, Southport Acquisition Corp. II does not offer products or services. Its sole activity is raising capital through an IPO and seeking a suitable target business for a future business combination.",
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)"
+  },
+  "NARA": {
+    "description": "Narragansett Bancorp, Inc. is a bank holding company headquartered in Rhode Island, operating through its subsidiary bank serving individuals, families, and small businesses in its local communities. The company was formed in connection with a mutual-to-stock conversion and offers traditional deposit and lending services focused on community banking.",
+    "products_services": "Checking and savings accounts, certificates of deposit, residential and commercial real estate loans, consumer loans, and business banking services",
+    "industry": "Banking and Financial Services"
+  },
+  "panafricacorp": {
+    "description": "Pan-Africa Corp. is a company positioned to pursue an initial public offering, with a focus on operations across the African continent. Further details about its business model, financials, and leadership would be needed to present a complete profile to prospective investors.",
+    "products_services": "Not specified; details on products and services were not provided.",
+    "industry": "Not specified; industry classification was not provided."
+  },
+  "livinghomeopathyinte": {
+    "description": "Living Homeopathy International Ltd. is a company operating in the homeopathic remedies sector, developing and distributing natural, non-pharmacological health products. Its offerings are positioned for consumers seeking alternative wellness solutions, though specific details about its public listing status and financials are not confirmed here.",
+    "products_services": "Homeopathic remedies and related natural wellness products (specific product lines not verified)",
+    "industry": "Healthcare / Alternative Medicine (Homeopathic Products)"
+  },
+  "fitnessfanaticsltd": {
+    "description": "Fitness Fanatics Ltd. is a fitness-focused company preparing for an initial public offering, positioned to serve health-conscious consumers through its training and wellness offerings. The company aims to build long-term shareholder value by expanding its membership base and brand presence in the growing health and fitness market.",
+    "products_services": "Fitness memberships, group training classes, personal training, and wellness programs",
+    "industry": "Health and Fitness"
+  },
+  "holtecnuclearcorp": {
+    "description": "Holtec Nuclear Corp. is a provider of nuclear energy technologies and services, focused on advanced reactor development, spent fuel storage, and decommissioning solutions. The company aims to support the global transition to reliable, carbon-free power through its nuclear and clean energy innovations.",
+    "products_services": "Spent nuclear fuel storage systems (dry cask and canister solutions), advanced small modular reactor (SMR) development, nuclear plant decommissioning and engineering services, and related nuclear infrastructure and consulting services.",
+    "industry": "Nuclear Energy"
+  },
+  "risesmartgroupholdin": {
+    "description": "I don't have verified information about Rise Smart Group Holdings Ltd. in my knowledge base, so I can't accurately describe its business or IPO status. Please provide the company's filings, prospectus, or website so a precise two-sentence description can be drafted.",
+    "products_services": "Unknown - no verified information available.",
+    "industry": "Unknown - no verified information available."
+  },
+  "c2capitalgroupinc": {
+    "description": "C2 Capital Group, Inc. is a company that has been associated with initial public offering (IPO) activity, though detailed public information about its business operations is limited. Please verify its current status and specifics through official filings such as SEC registration statements or the company's investor relations materials.",
+    "products_services": "Unable to confirm from available information; likely related to capital raising or financial services, but this should be verified through the company's official disclosures.",
+    "industry": "Financial Services (unverified)"
+  },
+  "motivetechnologiesin": {
+    "description": "Motive Technologies, Inc. is a fleet management and operations platform company that provides AI-powered dashcams, telematics, and workflow software to commercial vehicle fleets. The company is positioned to help businesses in trucking, logistics, construction, and field services improve safety, compliance, and operational efficiency.",
+    "products_services": "AI dashcams, GPS fleet tracking and telematics, electronic logging device (ELD) compliance, driver safety and coaching tools, vehicle maintenance management, and fleet operations software.",
+    "industry": "Fleet Management and Transportation Technology (Software and Connected Hardware)"
+  },
+  "ideatechholdingltd": {
+    "description": "Idea Tech Holding Ltd. is a technology holding company preparing for an initial public offering, with a portfolio of technology businesses and innovation-driven ventures. Specific operational details, financials, and market positioning should be confirmed against the company's official IPO prospectus or filings.",
+    "products_services": "Not specified in available information; details on technology products and services should be taken from the company's IPO prospectus or regulatory filings.",
+    "industry": "Technology / Diversified Holding Company"
+  },
+  "bendnovatechgroupltd": {
+    "description": "I don't have verified information about a company called Bend NovaTech Group Ltd. Without access to its filings or other reliable sources, I can't responsibly describe its business, so please provide a company overview, prospectus, or website details and I can draft an accurate two-sentence description.",
+    "products_services": "Unknown; no verified information available.",
+    "industry": "Unknown; no verified information available."
+  },
+  "kepuniholdingsinc": {
+    "description": "I don't have verified information about Kepuni Holdings Inc. in my knowledge base, so I can't confirm its business activities, IPO status, or history. Please check the company's prospectus, SEC filings, or the exchange listing for accurate details.",
+    "products_services": "Unknown",
+    "industry": "Unknown"
+  },
+  "klooktechnologyltd": {
+    "description": "Klook Technology Ltd. is a Hong Kong-headquartered online travel platform that lets customers discover, book, and manage experiences, attractions, tours, transportation, and activities across Asia and beyond. The company serves travelers through its mobile app and website, partnering with local operators and attractions to offer bookable travel experiences.",
+    "products_services": "Online booking of attractions and theme park tickets, guided tours and day trips, activities and experiences, airport transfers and transportation passes, eSIM and connectivity products, and travel-related vouchers and loyalty offerings.",
+    "industry": "Online travel and tourism technology (travel booking platforms)"
+  },
+  "bioventrixinc": {
+    "description": "I don't have verified information about a company called BIOVENTRIX, INC. or its IPO plans, so I can't write an accurate description without risking fabrication. Please provide the company's business overview, product details, or filing materials (such as an S-1 prospectus), and I can draft a concise two-sentence description from that.",
+    "products_services": "Unknown; no verified information available.",
+    "industry": "Unknown; no verified information available."
+  },
+  "creativefutureacquis": {
+    "description": "Creative Future Acquisition Corp. is a blank check company, also known as a special purpose acquisition company (SPAC), formed to raise capital through an initial public offering for the purpose of acquiring or merging with an operating business. The company has no commercial operations of its own and intends to identify and combine with a target business, likely in a creative or media-related sector, to be determined.",
+    "products_services": "None at present; as a blank check company, its sole activity is raising and holding IPO proceeds in trust while identifying and completing a business combination with a target company.",
+    "industry": "Financial Services – Special Purpose Acquisition Companies (SPACs)"
+  },
+  "newicelandarcticacqu": {
+    "description": "New Iceland Arctic Acquisition Corp. is a blank check company formed to pursue a business combination with an operating company, with a focus on opportunities in the Arctic and Iceland region. Its specific business plan and target sectors should be confirmed from its registration filings.",
+    "products_services": "None; as a SPAC-style acquisition vehicle, it has no operating products or services prior to completing a business combination.",
+    "industry": "Special Purpose Acquisition Companies (Financial Services / Blank Check)"
+  },
+  "0002130357": {
+    "description": "Anthropic, PBC is an AI safety and research company that develops frontier large language models, with a mission to build reliable, interpretable, and steerable AI systems. It operates as a public benefit corporation, balancing commercial growth with a commitment to responsible AI development for the long-term benefit of humanity.",
+    "products_services": "Claude family of AI models and assistants, Claude API and developer platform, enterprise AI solutions, and AI safety research.",
+    "industry": "Artificial Intelligence and Software"
+  },
+  "siyataptt": {
+    "description": "SIYATA PTT is a company that has filed for or is planning an initial public offering, though detailed public information about its business is limited in my knowledge. Please verify its details through official filings such as its prospectus or exchange listing documents.",
+    "products_services": "Not confirmed from my available information; refer to the company's prospectus or official disclosures.",
+    "industry": "Not confirmed from my available information; likely in telecommunications or push-to-talk communications technology, based on the name, but unverified."
+  },
+  "0002101996": {
+    "description": "Nuclea Energy Inc. is an emerging company preparing for its initial public offering, focused on developing and commercializing energy solutions. Specific company details such as founding history, leadership, and financials were not provided, so this description reflects only the name and general context.",
+    "products_services": "Not specified in the information provided; likely related to energy generation, technology, or services, pending confirmation from company materials.",
+    "industry": "Energy"
+  },
+  "aspargolabsinc": {
+    "description": "Aspargo Labs, Inc. is a company that has been associated with an initial public offering, though detailed public information about its business operations, financial profile, and offering terms is limited. Further details should be verified through official filings such as its S-1 registration statement or prospectus.",
+    "products_services": "Not confirmed from available information; verify through the company's official filings or investor materials.",
+    "industry": "Not confirmed from available information; likely life sciences or biotechnology based on the company name, but this should be verified."
+  },
+  "0002142627": {
+    "description": "BHAV Acquisition Corp II is a special purpose acquisition company (SPAC) formed to effect a merger, share exchange, asset acquisition, or similar business combination with one or more operating businesses. As a blank-check company, it has no commercial operations of its own and seeks to identify and complete a business combination with a target company, typically following an initial public offering.",
+    "products_services": "None; as a blank-check SPAC, the company offers no products or services and its sole purpose is to identify and complete a business combination with a privately held target business.",
+    "industry": "Financial Services – Special Purpose Acquisition Companies (Blank Check Shell Companies)"
+  },
+  "TCXB": {
+    "description": "TCGX Acquisition Corp. II is a special purpose acquisition company (SPAC) formed to effect a merger, share exchange, asset acquisition, or similar business combination with one or more operating businesses. As a blank check company, it has no operations of its own and raises capital through its initial public offering to fund a future acquisition target.",
+    "products_services": "None; as a blank check company, TCGX Acquisition Corp. II does not offer products or services and intends to pursue a business combination with an operating company.",
+    "industry": "Financial Services – Blank Check Companies (SPACs)",
+    "shares_outstanding": 12500000,
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
+  },
+  "0002075786": {
+    "description": "Seahawk Recycling Holdings, Inc. is a company focused on recycling and resource recovery operations. It aims to provide sustainable waste processing solutions for commercial and industrial clients.",
+    "products_services": "Recycling collection and processing, material recovery and resale, and waste management services",
+    "industry": "Waste Management and Recycling"
+  },
+  "0002143060": {
+    "description": "Essential Minerals Acquisition Corp. is a special purpose acquisition company formed to identify and merge with a business in the critical minerals and natural resources sector. The company intends to leverage its capital and management expertise to pursue an attractive business combination that supports the growing global demand for essential materials.",
+    "products_services": "As a blank-check company, Essential Minerals Acquisition Corp. does not currently offer products or services; its activity consists of identifying, evaluating, and completing a business combination with an operating company in the minerals sector.",
+    "industry": "Financial Services — Special Purpose Acquisition Companies (SPACs), with a focus on Mining and Critical Minerals"
+  },
+  "AFNXU": {
+    "description": "AfterNext Acquisition I Corp. is a blank check company, also known as a special purpose acquisition company (SPAC), formed to raise capital through an initial public offering for the purpose of acquiring or merging with an operating business. As a SPAC, it has no commercial operations of its own, and its management team intends to identify a target company, likely in a specific sector, to complete a business combination.",
+    "products_services": "None; the company has no products or services. Its sole purpose is to complete a business combination with a privately held operating company.",
+    "industry": "Financial Services - Special Purpose Acquisition Companies (SPACs)",
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
+  },
+  "0001851535": {
+    "description": "Lannister Mining Corp. is an emerging mining company preparing for its initial public offering, focused on the responsible exploration, extraction, and development of mineral resources. The company aims to deliver long-term value to investors through disciplined operations, sustainable practices, and a growth-oriented project pipeline.",
+    "products_services": "Mineral exploration, mine development and operation, and the production and sale of extracted mineral resources.",
+    "industry": "Mining and Metals"
+  },
+  "0001875655": {
+    "description": "AEI CapForce II Investment Corp. is a closed-end, non-diversified investment company organized as a business development company that seeks to generate current income and capital appreciation by investing in privately held middle-market companies. The company is part of the AEI CapForce II platform, which focuses on providing debt and equity financing to growing businesses across a range of industries.",
+    "products_services": "Senior secured loans, unitranche and subordinated debt financing, and equity co-investments provided to middle-market companies; managed investment advisory services through its affiliated adviser.",
+    "industry": "Financial Services – Asset Management / Business Development Companies (Private Credit)"
+  },
+  "0001998284": {
+    "description": "I don't have reliable, verifiable information about Jingrui Wang Pu Holdings Group Ltd., so I can't confidently describe its business or IPO status. Please check its prospectus, the exchange filing (such as HKEX or another listing venue), or company registry records for accurate details.",
+    "products_services": "Unknown",
+    "industry": "Unknown"
+  },
+  "0002131072": {
+    "description": "Harbour Island Acquisition Corp. is a special purpose acquisition company (SPAC) formed to effect a merger, share exchange, asset acquisition, or similar business combination with one or more operating businesses. As a blank-check company, it has no commercial operations of its own and is pursuing an initial public offering to raise capital for a future target acquisition.",
+    "products_services": "No operating products or services; the company's sole purpose is to identify and complete a business combination with a privately held target company.",
+    "industry": "Financial Services – Blank Check Companies (SPACs)"
+  },
+  "0002143038": {
+    "description": "Oceanhawk Acquisition II Corp. is a blank check company, also known as a special purpose acquisition company (SPAC), formed to raise capital through an initial public offering for the purpose of acquiring or merging with an operating business. As a SPAC, it has no commercial operations of its own and seeks a target company to combine with, typically within a set timeframe.",
+    "products_services": "None directly; the company's activity consists of identifying and completing a business combination with a private operating company, which would then become the publicly traded entity.",
+    "industry": "Financial services (special purpose acquisition companies / blank check companies)"
+  },
+  "0002154056": {
+    "description": "Calm Seas Acquisition Corp. is a newly formed special purpose acquisition company (SPAC) established to effect a merger, share exchange, asset acquisition, or similar business combination with one or more operating businesses. As a blank-check vehicle, it raises capital through its initial public offering with the goal of identifying and acquiring a target company, and it has no commercial operations prior to completing such a transaction.",
+    "products_services": "No operating products or services; the company's sole activity is identifying, evaluating, and consummating a business combination with a privately held target company.",
+    "industry": "Financial Services – Blank Check Companies (SPAC)"
+  },
+  "0002147457": {
+    "description": "Lower Cross Acquisitions Corp. is a special purpose acquisition company (SPAC) formed to effect a merger, share exchange, asset acquisition, or similar business combination with one or more operating businesses. It has no commercial operations of its own and seeks to identify and complete a target company that can benefit from public market access.",
+    "products_services": "No products or services; the company's sole purpose is to identify, negotiate, and complete a business combination with a privately held operating company.",
+    "industry": "Blank check companies / Special purpose acquisition companies (SPACs)"
+  },
+  "0002141983": {
+    "description": "Allarity Acquisition Corp. is a special purpose acquisition company (SPAC) formed to effect a merger, share exchange, or similar business combination with one or more operating businesses. As a blank-check vehicle, it raised capital through an initial public offering with the goal of identifying and acquiring a target company, and it has no operations of its own prior to completing a business combination.",
+    "products_services": "None directly; as a SPAC, the company offers no products or services and instead provides a public-market pathway for a private company to become publicly traded through a business combination.",
+    "industry": "Financial Services / Special Purpose Acquisition Companies (Blank Check Companies)"
+  },
+  "NIAAU": {
+    "description": "New Iceland Arctic Acquisition Corp. is a blank check company, also known as a special purpose acquisition company (SPAC), formed to pursue a business combination with an operating company, with a particular focus on opportunities in the Arctic and Iceland. The company has no commercial operations of its own and intends to raise capital through an initial public offering to fund a future merger or acquisition.",
+    "products_services": "As a SPAC, the company offers no products or services; its activity is limited to identifying, evaluating, and completing a business combination with a target company in a sector such as energy, infrastructure, shipping, or natural resources connected to the Arctic region.",
+    "industry": "Financial Services - Special Purpose Acquisition Companies (Blank Check Shell Corporations)",
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
+  },
+  "HNUC": {
+    "description": "Holtec Nuclear Corp. is a U.S.-based nuclear technology company providing spent nuclear fuel storage systems, decommissioning services, and advanced reactor development for utilities and government clients worldwide. The company is preparing for an initial public offering to fund growth in its nuclear infrastructure and clean energy initiatives.",
+    "products_services": "Spent fuel storage and transportation systems (dry cask storage), nuclear plant decommissioning services, SMR (small modular reactor) development, nuclear components and engineering services",
+    "industry": "Nuclear Energy",
+    "proposed_price_low": 15.0,
+    "proposed_price_high": 18.0
+  },
+  "giftsinternationalho": {
+    "description": "I don't have verified information about Gifts International Holdings Ltd. in my training data, so I can't confidently describe its business. Please provide the company's prospectus, website, or filings so I can write an accurate summary.",
+    "products_services": "Unknown",
+    "industry": "Unknown"
+  },
+  "HYAC": {
+    "description": "Haymaker Acquisition Corp V is a blank check company, also known as a special purpose acquisition company (SPAC), formed to effect a merger, share exchange, or similar business combination with one or more operating businesses. It raises capital through an initial public offering with the aim of identifying and acquiring a privately held target company, and it has no commercial operations of its own prior to such a transaction.",
+    "products_services": "None; as a SPAC, Haymaker Acquisition Corp V does not offer products or services and exists to pursue an acquisition of an operating business.",
+    "industry": "Financial Services / Special Purpose Acquisition Companies (Blank Check Companies)"
+  },
+  "0002111838": {
+    "description": "Haymaker Acquisition Corp V is a blank check company, also known as a special purpose acquisition company (SPAC), formed to effect a merger, share exchange, asset acquisition, or similar business combination with one or more operating businesses. It has no commercial operations of its own and is seeking to complete an initial public offering to raise capital for a future acquisition target.",
+    "products_services": "None; as a blank check company, it offers no products or services and exists solely to identify and complete a business combination with a private operating company.",
+    "industry": "Financial Services (Special Purpose Acquisition Companies / Blank Check Companies)"
+  },
+  "TBCV": {
+    "description": "Thunder Bridge Capital Partners V, Ltd. is a special purpose acquisition company (SPAC) formed to effect a merger, share exchange, or similar business combination with one or more operating businesses. Its public filings and offering materials describe a blank-check vehicle that seeks targets primarily in the financial technology and financial services sectors.",
+    "products_services": "The company does not currently offer products or services; as a blank-check company, its activity consists of identifying, evaluating, and completing a business combination with a target company.",
+    "industry": "Financial Services (Special Purpose Acquisition Company / Blank Check)"
   }
 }
