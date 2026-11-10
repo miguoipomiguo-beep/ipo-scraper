@@ -15,7 +15,7 @@ import anthropic
 import httpx
 
 HERE = Path(__file__).parent
-CACHE_PATH = HERE / "s1_analysis_cache.json"     # {accession: {"ipo_id", "data", "analyzed_at", "pushed"}}
+CACHE_PATH = HERE / "s1_analysis_cache.json"     # {accession: {"ipo_id", "data", "analyzed_at", "pushed_to", "empty"}}
 STATE_PATH = HERE / "s1_batch_state.json"        # 送ったまま結果を受け取っていないバッチ
 SCHEMA_VERSION = 1
 MAX_PER_RUN = 40          # 1回のバッチに入れる件数（SEC からの取得が1件約6秒かかる）
@@ -260,6 +260,7 @@ def _targets(ipos: list, cache: dict, accession_of) -> list:
     today = datetime.now().strftime("%Y-%m-%d")
     recent = (datetime.now() - timedelta(days=LISTED_LOOKBACK_DAYS)).strftime("%Y-%m-%d")
     analyzed_ids = {v.get("ipo_id") for v in cache.values()}
+    seen = set()
     rows = []
     for ipo in ipos:
         status = ipo.get("status")
@@ -268,8 +269,9 @@ def _targets(ipos: list, cache: dict, accession_of) -> list:
         if status == "listed" and (ipo.get("actual_date") or ipo.get("expected_date") or "") < recent:
             continue
         acc = accession_of(ipo)
-        if not acc or acc in cache:
+        if not acc or acc in cache or acc in seen:
             continue
+        seen.add(acc)   # 同じ書類が ID 違いで2銘柄に入っていることがある（バッチは custom_id の重複を受け付けない）
         # 並び：一度も分析していない銘柄 → 上場予定日が近い順 → 申請日が新しい順
         rows.append(((ipo.get("id") in analyzed_ids),
                      not ((ipo.get("expected_date") or "") >= today),
@@ -304,7 +306,7 @@ async def run(ipos: list, fetch_text, accession_of, sec_client, api_key: str, wo
             _save(STATE_PATH, state)
 
     if worker_url and admin_token:
-        await _push(cache, worker_url, admin_token)
+        await _push(ipos, accession_of, cache, worker_url, admin_token)
         _save(CACHE_PATH, cache)
 
 
@@ -355,7 +357,7 @@ async def _collect(client, state: dict, cache: dict) -> bool:
         if not _has_content(data):
             empty += 1   # 抜き出しに何も載っていなかった。記録して二度と送らない
         cache[item["accession"]] = {"ipo_id": item["ipo_id"], "data": data, "analyzed_at": _now(),
-                                    "pushed": False, "empty": not _has_content(data)}
+                                    "pushed_to": [], "empty": not _has_content(data)}
         ok += 1
     # バッチは半額。Haiku 5.5 は入力 $0.10 / 出力 $0.50（100万トークンあたり）
     cost = (usage_in * 0.10 + usage_out * 0.50) / 1_000_000 / 2
@@ -394,24 +396,37 @@ async def _submit(client, ipos, cache, fetch_text, accession_of, sec_client) -> 
     return {"batch_id": batch.id, "submitted_at": _now(), "items": items}
 
 
-async def _push(cache: dict, worker_url: str, admin_token: str):
-    # ipo_id ごとに一番新しい書類の結果だけ送る
-    latest = {}
+async def _push(ipos, accession_of, cache: dict, worker_url: str, admin_token: str):
+    """銘柄ごとに、今の書類の分析（なければその銘柄の一番新しい分析）を送る。
+    同じ書類がティッカーと CIK の2つの ID で入っていることがあるので、ID ごとに送る"""
+    by_ipo = {}
     for acc, entry in cache.items():
         if entry.get("empty"):
             continue
-        cur = latest.get(entry["ipo_id"])
+        cur = by_ipo.get(entry["ipo_id"])
         if not cur or entry["analyzed_at"] > cur[1]["analyzed_at"]:
-            latest[entry["ipo_id"]] = (acc, entry)
-    todo = [(acc, e) for acc, e in latest.values() if not e.get("pushed")]
+            by_ipo[entry["ipo_id"]] = (acc, entry)
+    todo = []
+    for ipo in ipos:
+        ipo_id = ipo.get("id")
+        if not ipo_id:
+            continue
+        acc = accession_of(ipo)
+        entry = cache.get(acc)
+        pick = (acc, entry) if entry and not entry.get("empty") else by_ipo.get(ipo_id)
+        if not pick:
+            continue
+        if ipo_id in pick[1].setdefault("pushed_to", []):
+            continue
+        todo.append((ipo_id, pick[0], pick[1]))
     if not todo:
         return
     print(f"  pushing {len(todo)} analyses to Worker")
     async with httpx.AsyncClient(timeout=60) as client:
         for i in range(0, len(todo), 20):
             chunk = todo[i:i + 20]
-            body = {"items": [{"ipo_id": e["ipo_id"], "accession": acc, "data": e["data"], "analyzed_at": e["analyzed_at"]}
-                              for acc, e in chunk]}
+            body = {"items": [{"ipo_id": ipo_id, "accession": acc, "data": e["data"], "analyzed_at": e["analyzed_at"]}
+                              for ipo_id, acc, e in chunk]}
             try:
                 resp = await client.post(f"{worker_url}/api/admin/s1", json=body,
                                          headers={"Authorization": f"Bearer {admin_token}"})
@@ -421,5 +436,5 @@ async def _push(cache: dict, worker_url: str, admin_token: str):
             if resp.status_code != 200:
                 print(f"  push {resp.status_code}: {resp.text[:150]}")
                 return
-            for _, e in chunk:
-                e["pushed"] = True
+            for ipo_id, _, e in chunk:
+                e["pushed_to"].append(ipo_id)
