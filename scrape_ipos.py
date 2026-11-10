@@ -735,7 +735,7 @@ async def _fetch_filing_text(client, ipo: dict, accession_raw: str):
         html_start = raw.find("<html")
     if html_start >= 0:
         raw = raw[html_start:]
-    soup = BeautifulSoup(raw[:500000], "html.parser")
+    soup = BeautifulSoup(raw[:1500000], "html.parser")   # 50万だと大きい書類で財務サマリーまで届かない（S-1 分析で必要）
     for tag in soup.find_all(["script", "style"]):
         tag.decompose()
     converter = html2text.HTML2Text()
@@ -1299,6 +1299,15 @@ async def main():
 
     await update_worker(enriched)
     await detect_and_notify(enriched)
+
+    # S-1 分析（Pro 機能）。失敗してもほかの処理には影響させない
+    try:
+        import s1_analysis
+        async with httpx.AsyncClient(timeout=60, headers=SEC_HEADERS) as sec_client:
+            await s1_analysis.run(enriched, _fetch_filing_text, _s1_accession, sec_client,
+                                  ANTHROPIC_KEY, WORKER_URL, ADMIN_TOKEN)
+    except Exception as e:
+        print(f"  S-1 analysis error: {type(e).__name__}: {str(e)[:200]}")
     print(f"\nDone: {len(merged)} IPOs")
 
 if __name__ == "__main__":
