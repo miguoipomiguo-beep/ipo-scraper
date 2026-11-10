@@ -880,15 +880,19 @@ async def enrich_with_llm(ipos: list) -> list:
 
 
 _last_llm_status = {}
+_empty_counts = {}
+_dropped_models = set()
 
 async def _call_llm(client, url: str, model: str, prompt: str, headers: dict) -> dict:
     """LLM APIを呼び出してJSONを返す。失敗時はNone"""
     _last_llm_status["code"] = None
     _last_llm_status["daily"] = False
+    _last_llm_status["answered_by"] = None
     try:
         body = {"model": model, "messages": [{"role": "user", "content": prompt}], "temperature": 0.1, "max_tokens": 1000}
         if url == OPENROUTER_URL:
-            body["models"] = OPENROUTER_FALLBACKS
+            body["models"] = [m for m in OPENROUTER_FALLBACKS if m not in _dropped_models]
+            body["reasoning"] = {"enabled": False}   # NVIDIA は考える過程だけで上限を使い切り、本文が空になっていた
         resp = await client.post(url, json=body, headers=headers)
         _last_llm_status["code"] = resp.status_code
         _last_llm_status["daily"] = resp.status_code == 429 and "free-models-per-day" in resp.text
@@ -897,7 +901,14 @@ async def _call_llm(client, url: str, model: str, prompt: str, headers: dict) ->
             c = j["choices"][0]["message"]["content"]
             if not c:
                 print(f"  LLM empty content ({j.get('model')}, finish={j['choices'][0].get('finish_reason')})")
+                # 空で返すモデルは無料枠を無駄にするので、3回続いたらこの実行では使わない
+                m = j.get("model") or ""
+                _empty_counts[m] = _empty_counts.get(m, 0) + 1
+                if _empty_counts[m] >= 3 and m in OPENROUTER_FALLBACKS and m != OPENROUTER_MODEL:
+                    _dropped_models.add(m)
+                    print(f"  Dropping {m} for this run")
                 return None
+            _last_llm_status["answered_by"] = j.get("model")
             if "```" in c:
                 c = c.split("```json")[-1].split("```")[0] if "```json" in c else c.split("```")[1].split("```")[0]
             c = c.strip()
@@ -910,7 +921,7 @@ async def _call_llm(client, url: str, model: str, prompt: str, headers: dict) ->
         else:
             print(f"  LLM {resp.status_code} ({model}): {resp.text[:300]}")   # 失敗の理由をログに残す
     except Exception as e:
-        print(f"  LLM error ({model}): {type(e).__name__}: {str(e)[:120]}")
+        print(f"  LLM error ({_last_llm_status.get('answered_by') or model}): {type(e).__name__}: {str(e)[:120]}")
     return None
 
 
