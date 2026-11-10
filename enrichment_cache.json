@@ -2868,7 +2868,10 @@
   "IMC": {
     "shares_outstanding": 105100000,
     "proposed_price_low": 4.0,
-    "proposed_price_high": 6.0
+    "proposed_price_high": 6.0,
+    "description": "IMC Rare Earths Ltd is a Cayman Islands mineral exploration and development company, incorporated in September 2025, that is developing its Itarantim ionic adsorbed clay rare earth project in Brazil and has no operating revenues. The company aims to supply magnet rare earth elements (such as neodymium, praseodymium, dysprosium and terbium) to United States and European markets.",
+    "products_services": "Mineral exploration and development of rare earth elements, with a focus on long-term supply of magnet rare earth elements (NdPr and DyTb) from the Itarantim Project in Brazil",
+    "industry": "Mining / rare earth elements (critical minerals)"
   },
   "AEIB": {
     "description": "AEI CapForce II Investment Corp. is a closed-end management investment company focused on strategic capital allocation. The company seeks to generate long-term capital appreciation through diversified investments in growth-oriented assets.",
@@ -2880,7 +2883,9 @@
   "LEDRU": {
     "description": "Leader's Advantage Acquisition Corp. is a special purpose acquisition company formed for the purpose of effecting a merger or acquisition. The company aims to identify and partner with a high-growth target company to take it public.",
     "products_services": "Special Purpose Acquisition Company (SPAC) services",
-    "industry": "Financial Services"
+    "industry": "Financial Services",
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
   },
   "0002071166": {
     "description": "Lorenzo Developments Inc. is a real estate development firm focused on creating high-quality residential and commercial properties. The company specializes in strategic urban planning and sustainable architectural design to maximize asset value.",
@@ -2981,7 +2986,9 @@
   "LCAC": {
     "description": "Lower Cross Acquisitions Corp. is a newly public entity focused on identifying and acquiring high-potential businesses across strategic sectors. The company seeks to leverage its capital and expertise to generate sustainable shareholder value through disciplined acquisitions.",
     "products_services": "Strategic acquisition advisory, business integration, and capital deployment for target companies.",
-    "industry": "Financial Services"
+    "industry": "Financial Services",
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
   },
   "SUCH": {
     "description": "Suchness Tech Ltd. leverages advanced AI and data analytics to transform enterprise workflows, delivering intuitive platforms that enhance productivity and decision-making. As the company prepares for its IPO, it remains committed to innovation, sustainability, and delivering measurable value to global clients.",
@@ -3061,12 +3068,12 @@
     "proposed_price_high": 10.0
   },
   "KHG": {
-    "description": "I don't have verified information about Kainan Holding Group Ltd. in my knowledge base, so I can't accurately describe its business or IPO details. Please consult the company's prospectus, filings, or official website for an accurate description.",
-    "products_services": "Unknown - no verified information available.",
-    "industry": "Unknown - no verified information available.",
     "shares_outstanding": 20818180,
     "proposed_price_low": 5.0,
-    "proposed_price_high": 5.0
+    "proposed_price_high": 5.0,
+    "description": "Kainan Holding Group Ltd is a Malaysia-based one-stop workforce and human resources management provider that sources, recruits, deploys and manages legally employed casual and skilled temporary workers for corporate customers in manufacturing, construction, and service-based industries. The company generates revenue under service contracts, billing customers monthly based on attendance-confirmed work days or hours multiplied by agreed pay rates, and also has a newer construction services revenue stream.",
+    "products_services": "Workforce sourcing, recruitment, deployment and ongoing management of casual and skilled temporary workers, including onboarding, worker management and compliance support; construction services.",
+    "industry": "Human resources / workforce management staffing services"
   },
   "0002118192": {
     "description": "DayOne Data Centers Ltd. is a data center operator focused on developing, owning, and operating hyperscale and enterprise-grade data center campuses across the Asia-Pacific region. The company is preparing for an initial public offering to fund expansion of its capacity for cloud and AI workloads.",
@@ -3079,12 +3086,12 @@
     "industry": "Equipment rental and temporary power/temperature control services"
   },
   "HCPC": {
-    "description": "I don't have verified information about a company called HengHong Technology Inc. in my knowledge base, so I can't confirm its business details or IPO status. Please provide the company's filings, prospectus, or website so an accurate two-sentence description can be written.",
-    "products_services": "Unknown; not verifiable from available information.",
-    "industry": "Unknown; not verifiable from available information.",
     "shares_outstanding": 25000000,
     "proposed_price_low": 6.0,
-    "proposed_price_high": 7.0
+    "proposed_price_high": 7.0,
+    "description": "HengHong Technology Inc. is a Cayman Islands holding company that, through its Chinese operating subsidiaries led by Hainan HengCheng Health Industrial Co., Ltd., distributes pharmaceutical products in China. Its revenue comes mainly from distributing traditional Chinese medicines and chemical medical products, plus promotion and marketing services for one related-party customer that it ceased providing starting May 2025.",
+    "products_services": "Distribution of traditional Chinese medicines (e.g., cold, flu and cough remedies such as Ganmao Qingre Granules and Yinqiao Jiedu Granules) and tonic medicines, plus chemical medical products; planned expansion into tonic products and medicinal liquors.",
+    "industry": "Pharmaceutical distribution (traditional Chinese medicine and medical products) in China"
   },
   "ALLN": {
     "description": "Allarity Acquisition Corp. is a special purpose acquisition company (SPAC) formed to effect a merger, share exchange, or similar business combination with one or more operating businesses. As a blank check company, it has no commercial operations of its own and raised capital through an initial public offering to fund a future acquisition target.",
@@ -3096,7 +3103,10 @@
   "JRWP": {
     "shares_outstanding": 19250000,
     "proposed_price_low": 4.0,
-    "proposed_price_high": 6.0
+    "proposed_price_high": 6.0,
+    "description": "Jingrui Wang Pu Holdings Group Ltd. is a Cayman Islands holding company that, through its PRC operating entities (VIEs), sells branded electric appliances such as air-conditioners, refrigerators, televisions, and kitchen appliances via ten retail stores and 22 wholesale distributors, and also provides after-sales maintenance and repair services, business consulting, and property sublease rentals. The company is not a manufacturer but a wholesaler and retailer, with electric appliance sales accounting for about 85% of revenue for fiscal 2026.",
+    "products_services": "Retail and wholesale sales of electric appliances (air-conditioners, refrigerators, televisions, washers, dryers, dishwashers, range hoods, water kettles, food processors, rice cookers); after-sales maintenance, repair and installation services; business strategy and marketing consulting; rental of excess mall space to small businesses.",
+    "industry": "Consumer electric appliance wholesale and retail (electric appliance industry)"
   },
   "VRXA": {
     "description": "Veraxa Biotech AG is a post-de-SPAC biotechnology company that became publicly listed through a business combination with a special purpose acquisition company. The firm focuses on developing therapeutic and diagnostic solutions for unmet medical needs.",
@@ -3118,7 +3128,10 @@
   "BOGD": {
     "shares_outstanding": 60112750,
     "proposed_price_low": 4.0,
-    "proposed_price_high": 6.0
+    "proposed_price_high": 6.0,
+    "description": "Bogd FT Ltd is a diversified financial services group offering banking and financial services to corporate and retail customers in Mongolia, operating through its subsidiary Bogd Bank since its founding in 2014. The company provides commercial banking products including lending, deposit-taking, international remittances, insurance brokerage, foreign exchange transactions, and letter of credit issuance.",
+    "products_services": "Retail and corporate lending, deposit products, international remittances, insurance brokerage, foreign exchange transactions, banking guarantees (letters of credit), fee and commission-based products, and agricultural and rural banking products, delivered through branches, ATMs, call centers, internet and mobile channels.",
+    "industry": "Banking and financial services (commercial banking)"
   },
   "0002145826": {
     "description": "Silicon Valley Acquisition Corp. II is a blank check company, also known as a special purpose acquisition company (SPAC), formed to raise capital through an initial public offering for the purpose of acquiring or merging with an operating business. The company has no commercial operations of its own and intends to identify and combine with a privately held target company, typically in the technology sector.",
@@ -3135,7 +3148,10 @@
     "proposed_price_high": 10.0
   },
   "0002094989": {
-    "shares_outstanding": 15990000
+    "shares_outstanding": 15990000,
+    "description": "RUI Holdings Inc. operates through subsidiaries that provide integrated facility management and integrated transportation/logistics services, with operations in the Middle East (including the KSA and UAE) and PRC subsidiaries referenced in the excerpt. The excerpt describes its service model and competitive risks but does not detail specific product offerings or customers.",
+    "products_services": "Integrated facility management and integrated transportation/logistics services",
+    "industry": "Integrated facility management and integrated transportation/logistics"
   },
   "0002145409": {
     "description": "GX Acquisition Corp. III is a Cayman Islands blank check company, formed as a special purpose acquisition company (SPAC) to pursue a business combination with one or more operating businesses. It has no commercial operations of its own and raised capital through an initial public offering to fund a future merger or acquisition target.",
@@ -3159,12 +3175,12 @@
     "proposed_price_high": 5.0
   },
   "0002136246": {
-    "description": "I don't have verified information about a company called BEHNEH Ltd., so I can't provide an accurate description of its business or IPO details. Please share the company's prospectus, website, or official filings so I can draft an accurate two-sentence summary.",
-    "products_services": "Unknown",
-    "industry": "Unknown",
     "shares_outstanding": 25000000,
     "proposed_price_low": 3.0,
-    "proposed_price_high": 5.0
+    "proposed_price_high": 5.0,
+    "description": "BEHNEH Ltd is a Singapore-based financial technology company operating as a MAS-licensed money payment institution through its Singapore operating subsidiary, principally providing cross-border payment services including collection on behalf, payment on behalf, brokerage, and foreign exchange conversion. The company has also expanded into advisory, operational, and technology support services for clients establishing regulated financial services businesses.",
+    "products_services": "Cross-border payment services (collection on behalf, payment on behalf, brokerage), international fund transfers and remittance, foreign exchange conversion, and advisory/operational/technology support for regulated financial services businesses.",
+    "industry": "Financial technology (fintech) — cross-border payments and remittance"
   },
   "CSEA": {
     "description": "Calm Seas Acquisition Corp. is a newly formed blank check company, also known as a special purpose acquisition company (SPAC), organized to raise capital through an initial public offering for the purpose of acquiring or merging with an operating business. The company has no commercial operations of its own and intends to identify and complete a business combination with a target company, typically within a defined period following its IPO.",
@@ -3188,59 +3204,79 @@
   "0002143156": {
     "description": "Lucens Capital Acquisition Corp I is a blank check company, also known as a special purpose acquisition company (SPAC), formed to effect a merger, share exchange, or similar business combination with one or more operating businesses. It has no commercial operations of its own and raises capital through an initial public offering to identify and acquire a target company.",
     "products_services": "None; as a SPAC, the company does not offer products or services and instead seeks to complete a business combination with a privately held operating company.",
-    "industry": "Financial Services - Shell Companies / Special Purpose Acquisition Companies (SPACs)"
+    "industry": "Financial Services - Shell Companies / Special Purpose Acquisition Companies (SPACs)",
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
   },
   "BHAIU": {
     "description": "BHAV Acquisition Corp II is a blank check company, also known as a special purpose acquisition company (SPAC), formed to effect a merger, share exchange, asset acquisition, or similar business combination with one or more operating businesses. The company has no operations of its own and intends to use the proceeds of its initial public offering to identify and complete a target acquisition.",
     "products_services": "As a blank check company, BHAV Acquisition Corp II does not offer products or services; its activity consists of identifying, evaluating, and completing a business combination with a privately held operating company.",
-    "industry": "Financial Services - Shell Companies / Special Purpose Acquisition Companies (SPACs)"
+    "industry": "Financial Services - Shell Companies / Special Purpose Acquisition Companies (SPACs)",
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
   },
   "0002084038": {
-    "description": "I don't have verified information about Yi Feng Holdings Ltd. or its IPO filing, so I can't write an accurate description without risking fabrication. Please share the company's prospectus, filing, or website so a precise two-sentence summary can be prepared.",
-    "products_services": "Unknown",
-    "industry": "Unknown"
+    "description": "Yi Feng Holdings Ltd. is a Hong Kong construction subcontractor providing civil engineering services (permanent electrical engineering works, temporary electrical and plumbing systems, vertical material handling) and steel cutting services for removing temporary steel structures at construction sites, and it also sells recyclable steel collected from those projects. Its customers are mainly main contractors and subcontractors on private and public building and infrastructure projects in Hong Kong, including residential, commercial, public housing, government, school, hospital and transport projects.",
+    "products_services": "Civil engineering subcontracting services (permanent electrical engineering works, temporary electrical and plumbing systems, vertical material handling) and steel cutting services for removal of temporary steel structures; sales of recyclable steel.",
+    "industry": "Construction (Hong Kong construction subcontracting, civil/electrical engineering and steel cutting)",
+    "shares_outstanding": 14750000,
+    "proposed_price_low": 2.0,
+    "proposed_price_high": 2.0
   },
   "HYACU": {
     "description": "Haymaker Acquisition Corp V is a blank check company, also known as a special purpose acquisition company (SPAC), formed to effect a merger, share exchange, asset acquisition, or similar business combination with one or more operating businesses. It has no operations of its own and raises capital through an initial public offering to identify and acquire a target company, typically in the consumer, branded, and related sectors.",
     "products_services": "None; as a blank check company, it offers no products or services and exists solely to complete a business combination with a privately held operating company.",
-    "industry": "Financial Services - Special Purpose Acquisition Companies (SPACs) / Shell Companies"
+    "industry": "Financial Services - Special Purpose Acquisition Companies (SPACs) / Shell Companies",
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
   },
   "0002097903": {
-    "description": "I don't have any information about a company called UDynamics Ltd. or its IPO, so I can't write an accurate description. If you share details about the business, I can draft the two-sentence description for you.",
-    "products_services": "Unknown",
-    "industry": "Unknown"
+    "description": "UDynamics Ltd is a BVI holding company that conducts its operations through its Hong Kong subsidiary UDomain, a technology solutions provider with a technical heritage dating to 1998. It offers cloud hosting and management, IT solution services (including cybersecurity, applications development, and blockchain solutions), and domain registration services to over 20,000 companies across Hong Kong, China, and Asia.",
+    "products_services": "Cloud hosting and management services (shared web hosting, dedicated cloud, multi-cloud architecture, managed cloud); cybersecurity services (managed security, penetration testing, vulnerability assessment, advanced threat detection); applications development (website, mobile, enterprise, and blockchain applications); domain registration services.",
+    "industry": "Information technology services (cloud hosting, cybersecurity, and digital solutions)",
+    "shares_outstanding": 21100000,
+    "proposed_price_low": 5.0,
+    "proposed_price_high": 7.0
   },
   "0002110025": {
-    "description": "SIYATA PTT is a company that appears to be pursuing a public listing, though I don't have reliable, verified details about its business. Please check its official prospectus or filings for an accurate description.",
-    "products_services": "Unable to verify from available information.",
-    "industry": "Unable to verify from available information."
+    "description": "Siyata PTT is a Cayman Islands-incorporated developer of cellular-based push-to-talk communications solutions over 4G/LTE and 5G networks, serving first responders and enterprise customers under the Siyata brands. Its products include rugged handheld mobile devices and in-vehicle communications solutions for first responders, military, enterprise, commercial fleet, and industrial customers.",
+    "products_services": "Rugged handheld cellular mobile devices and in-vehicle communications solutions for first responders, military, enterprise customers, commercial fleet vehicles and industrial workers.",
+    "industry": "Telecommunications equipment / mobile communications (cellular push-to-talk communications for public safety and enterprise)"
   },
   "0002138170": {
     "description": "Spring Valley Acquisition Corp. V is a blank check company, also known as a special purpose acquisition company (SPAC), formed to effect a merger, share exchange, asset acquisition, or similar business combination with one or more operating businesses. It has no commercial operations of its own and seeks a target company to take public through a business combination, with its shareholders and sponsors receiving the benefits of the eventual target's growth.",
     "products_services": "None; the company has no products or services. Its activity consists of identifying, evaluating, and completing a business combination with a private operating company.",
-    "industry": "Financial Services - Special Purpose Acquisition Companies (Blank Check Shell Companies)"
+    "industry": "Financial Services - Special Purpose Acquisition Companies (Blank Check Shell Companies)",
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
   },
   "TBCVU": {
     "description": "Thunder Bridge Capital Partners V, Ltd. is a special purpose acquisition company (SPAC), a blank-check vehicle formed to raise capital through an initial public offering for the purpose of acquiring or merging with an operating business. Its details, including its IPO status, trust account, and target sector, are not confirmed in my records, so verify them against its SEC filings.",
     "products_services": "As a blank-check company, it has no operating products or services; its activity consists of identifying and completing a business combination with a private target company.",
-    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)"
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)",
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
   },
   "0002160422": {
     "description": "Kartoon Studios Acquisition Corp. is a special purpose acquisition company formed to pursue a business combination with an operating company in the media and entertainment sector. The vehicle raises capital through an initial public offering with the goal of acquiring or merging with a target business that can benefit from public market access.",
     "products_services": "As a blank check company, Kartoon Studios Acquisition Corp. does not offer products or services of its own; its purpose is to identify and complete a business combination with a privately held target company.",
-    "industry": "Financial Services – Special Purpose Acquisition Company (SPAC), with a focus on media and entertainment targets"
+    "industry": "Financial Services – Special Purpose Acquisition Company (SPAC), with a focus on media and entertainment targets",
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
   },
   "OHII": {
     "description": "Oceanhawk Acquisition II Corp. is a blank check company, also known as a special purpose acquisition company (SPAC), formed to raise capital through an initial public offering for the purpose of acquiring or merging with an operating business. As a SPAC, it has no commercial operations of its own and is expected to identify a target company, typically within a set timeframe, to complete a business combination.",
     "products_services": "None currently; the company's sole purpose is to effect a business combination with a privately held operating company, which would then determine its products and services.",
-    "industry": "Financial Services – Special Purpose Acquisition Company (Blank Check)"
+    "industry": "Financial Services – Special Purpose Acquisition Company (Blank Check)",
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
   },
   "RZRA": {
-    "description": "I don't have verified information about a company called Rezera Inc. in my knowledge base, so I can't confidently describe its business or IPO status. Please provide the company's filings, prospectus, or website so an accurate two-sentence description can be written.",
-    "products_services": "Unknown",
-    "industry": "Unknown",
     "proposed_price_low": 11.0,
-    "proposed_price_high": 13.0
+    "proposed_price_high": 13.0,
+    "description": "Rezera Inc. is a clinical-stage biotechnology company developing proprietary, oral NLRP3 inhibitors to reduce sterile inflammation and residual inflammatory risk in cardiovascular and neurologic diseases. Its lead candidate, ruvonoflast, is being developed first for peripheral artery disease and later for broader atherosclerotic cardiovascular disease.",
+    "products_services": "Ruvonoflast, an oral NLRP3 inhibitor (lead product candidate, in clinical development); portfolio of other oral NLRP3 inhibitors",
+    "industry": "Biotechnology / pharmaceuticals (clinical-stage drug development)"
   },
   "RNAQU": {
     "description": "Rainier Acquisition Corp. is a blank check company, also known as a special purpose acquisition company (SPAC), formed to raise capital through an initial public offering for the purpose of acquiring or merging with an operating business. Its management team intends to identify and complete a business combination with a target company, typically within a defined timeframe.",
@@ -3258,14 +3294,14 @@
     "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)"
   },
   "FBDT": {
-    "description": "First Breach, Inc. is a company that has pursued an initial public offering, though specific details about its business model, financials, and market position are not available in my knowledge base. For accurate and current information, consult its S-1 registration statement filed with the SEC or the prospectus issued through its underwriters.",
-    "products_services": "Not verifiable from my available information; refer to the company's SEC filings or prospectus for details on its products and services.",
-    "industry": "Unable to confirm; the company name suggests a possible focus on cybersecurity or breach-related services, but this should be verified through official filings."
+    "description": "First Breach, Inc. is a Delaware corporation that manufactures match-grade ammunition components, including brass cups and casings, full-metal-jacket projectiles, lead projectile cores, and lead wire, built to SAAMI specifications. The company is also in the development stage on unmanned aerial systems through a joint venture (First Forge Technologies Inc.) and a master services agreement, but has not yet generated revenue from that business.",
+    "products_services": "Match-grade ammunition components: brass cups, brass casings (including custom head-stamped casings), full-metal-jacket projectiles, lead projectile cores, and lead wire; in development: drone platforms for defense, homeland security, and commercial applications.",
+    "industry": "Ammunition manufacturing (firearms/ammunition components), with an emerging presence in defense unmanned aerial systems."
   },
   "LYNX": {
-    "description": "I don't have verified information about a company called Lyntris Inc. in my knowledge base, so I can't accurately describe its business, history, or IPO details. If you share a prospectus, company website, or other source material, I can help draft a concise two-sentence description based on it.",
-    "products_services": "Unknown; no verified information available about Lyntris Inc.'s products or services.",
-    "industry": "Unknown; no verified information available about Lyntris Inc.'s industry."
+    "description": "Lyntris Inc. is a defense technology company that delivers \"sense-to-act\" connectivity solutions for the connected battlespace, serving U.S. Department of War and allied nation military customers across Maritime Domain Awareness, Air & Missile Defense, and Space ISR & Resilient Communications missions. Its offerings span sensor architecture, proprietary sensor and antenna hardware, and data and software platforms for fusion, command-and-control, and mission execution.",
+    "products_services": "Sensor architecture engineering, proprietary sensor and antenna subsystems (RF, radar, power and thermal management), and data and software platforms for ingesting, fusing, visualizing data and supporting command-and-control.",
+    "industry": "Defense technology (military sensing, communications, and connectivity systems)"
   },
   "NSAIU": {
     "description": "NorthStrive Acquisition Corp I is a blank-check special purpose acquisition company formed to effect a merger, share exchange, asset acquisition, or similar business combination with one or more operating businesses. It has no operations of its own and seeks to take a target company public through its initial public offering and subsequent business combination.",
@@ -3273,9 +3309,9 @@
     "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)"
   },
   "FOIL": {
-    "description": "Londian Wason New Energy Tech Inc. is a company focused on new energy technologies, positioned for a potential initial public offering. Specific details about its operations, financials, and market position are not available in my knowledge base, so please verify with the company's official IPO filings or prospectus.",
-    "products_services": "Not verifiable from available information; likely related to new energy technology solutions, subject to confirmation from official company disclosures.",
-    "industry": "New Energy Technology"
+    "description": "Londian Wason New Energy Tech Inc. is a global innovation-driven researcher, developer, and manufacturer of electrolytic copper foil, and according to the excerpt it was the world's largest supplier of lithium-ion battery copper foil by sales volume in 2025. Its products, primarily LiB copper foil and PCB-grade copper foil (plus some FCCLs), serve customers in electric vehicles, energy storage systems, communication equipment, and consumer electronics.",
+    "products_services": "Electrolytic copper foil, including LiB copper foil (used as a current collector in lithium-ion battery cells), PCB-grade copper foil (used in printed circuit boards and electronic circuits), and to a lesser extent FCCLs.",
+    "industry": "Advanced materials / copper foil manufacturing for lithium-ion batteries and electronic circuit boards (serving EV, energy storage, and electronics markets)."
   },
   "LTGO": {
     "description": "Latigo Biotherapeutics, Inc. is a biotechnology company focused on developing novel therapeutics. Details on its pipeline, clinical programs, and IPO terms should be verified against its SEC filings and offering materials.",
@@ -3343,9 +3379,7 @@
     "industry": "Life Sciences / Blank Check Companies (SPAC)"
   },
   "PAXGU": {
-    "description": "Pine Tree Acquisition Corp. is a special purpose acquisition company (SPAC), a blank-check vehicle formed to raise capital through an initial public offering for the purpose of acquiring or merging with an existing private company. I don't have verified details on its specific sponsors, target sectors, or offering terms, so please confirm these against its SEC filings.",
-    "products_services": "As a blank-check company, Pine Tree Acquisition Corp. has no operating products or services; its activity is limited to identifying and completing a business combination with a target company.",
-    "industry": "Financial Services - Shell Companies / Special Purpose Acquisition Companies (SPACs)"
+    "description": "Pine Tree Acquisition Corp. is a blank check company incorporated as a Cayman Islands exempted company, formed to effect a merger, share exchange, asset acquisition, or similar business combination with one or more businesses or entities. This excerpt describes an initial public offering of 10,000,000 units at $10.00 each, with each unit consisting of one Class A ordinary share and one right to receive three-fourths of a Class A ordinary share."
   },
   "CHWM": {
     "description": "Chilwa Minerals Ltd. is a mineral exploration and development company focused on the Chilwa Alkaline Complex in Malawi, which hosts significant deposits of rare earth elements and industrial minerals. The company is preparing for an initial public offering to raise capital for advancing its projects toward commercial production.",
@@ -3382,11 +3416,7 @@
     "products_services": "Spent nuclear fuel storage systems (dry cask and canister solutions), advanced small modular reactor (SMR) development, nuclear plant decommissioning and engineering services, and related nuclear infrastructure and consulting services.",
     "industry": "Nuclear Energy"
   },
-  "risesmartgroupholdin": {
-    "description": "I don't have verified information about Rise Smart Group Holdings Ltd. in my knowledge base, so I can't accurately describe its business or IPO status. Please provide the company's filings, prospectus, or website so a precise two-sentence description can be drafted.",
-    "products_services": "Unknown - no verified information available.",
-    "industry": "Unknown - no verified information available."
-  },
+  "risesmartgroupholdin": {},
   "c2capitalgroupinc": {
     "description": "C2 Capital Group, Inc. is a company that has been associated with initial public offering (IPO) activity, though detailed public information about its business operations is limited. Please verify its current status and specifics through official filings such as SEC registration statements or the company's investor relations materials.",
     "products_services": "Unable to confirm from available information; likely related to capital raising or financial services, but this should be verified through the company's official disclosures.",
@@ -3402,26 +3432,14 @@
     "products_services": "Not specified in available information; details on technology products and services should be taken from the company's IPO prospectus or regulatory filings.",
     "industry": "Technology / Diversified Holding Company"
   },
-  "bendnovatechgroupltd": {
-    "description": "I don't have verified information about a company called Bend NovaTech Group Ltd. Without access to its filings or other reliable sources, I can't responsibly describe its business, so please provide a company overview, prospectus, or website details and I can draft an accurate two-sentence description.",
-    "products_services": "Unknown; no verified information available.",
-    "industry": "Unknown; no verified information available."
-  },
-  "kepuniholdingsinc": {
-    "description": "I don't have verified information about Kepuni Holdings Inc. in my knowledge base, so I can't confirm its business activities, IPO status, or history. Please check the company's prospectus, SEC filings, or the exchange listing for accurate details.",
-    "products_services": "Unknown",
-    "industry": "Unknown"
-  },
+  "bendnovatechgroupltd": {},
+  "kepuniholdingsinc": {},
   "klooktechnologyltd": {
     "description": "Klook Technology Ltd. is a Hong Kong-headquartered online travel platform that lets customers discover, book, and manage experiences, attractions, tours, transportation, and activities across Asia and beyond. The company serves travelers through its mobile app and website, partnering with local operators and attractions to offer bookable travel experiences.",
     "products_services": "Online booking of attractions and theme park tickets, guided tours and day trips, activities and experiences, airport transfers and transportation passes, eSIM and connectivity products, and travel-related vouchers and loyalty offerings.",
     "industry": "Online travel and tourism technology (travel booking platforms)"
   },
-  "bioventrixinc": {
-    "description": "I don't have verified information about a company called BIOVENTRIX, INC. or its IPO plans, so I can't write an accurate description without risking fabrication. Please provide the company's business overview, product details, or filing materials (such as an S-1 prospectus), and I can draft a concise two-sentence description from that.",
-    "products_services": "Unknown; no verified information available.",
-    "industry": "Unknown; no verified information available."
-  },
+  "bioventrixinc": {},
   "creativefutureacquis": {
     "description": "Creative Future Acquisition Corp. is a blank check company, also known as a special purpose acquisition company (SPAC), formed to raise capital through an initial public offering for the purpose of acquiring or merging with an operating business. The company has no commercial operations of its own and intends to identify and combine with a target business, likely in a creative or media-related sector, to be determined.",
     "products_services": "None at present; as a blank check company, its sole activity is raising and holding IPO proceeds in trust while identifying and completing a business combination with a target company.",
@@ -3493,9 +3511,9 @@
     "industry": "Financial Services – Asset Management / Business Development Companies (Private Credit)"
   },
   "0001998284": {
-    "description": "I don't have reliable, verifiable information about Jingrui Wang Pu Holdings Group Ltd., so I can't confidently describe its business or IPO status. Please check its prospectus, the exchange filing (such as HKEX or another listing venue), or company registry records for accurate details.",
-    "products_services": "Unknown",
-    "industry": "Unknown"
+    "description": "Jingrui Wang Pu Holdings Group Ltd. is a Cayman Islands holding company that, through its PRC operating entities, wholesales and retails branded electric appliances (such as air-conditioners, refrigerators, televisions, and washers) through ten retail stores and 22 wholesale distributor customers. It also provides after-sales maintenance and repair services, business consulting services to electric appliance businesses, and leases excess mall space to small businesses.",
+    "products_services": "Electric appliances (air-conditioners, refrigerators, televisions, washers, dryers, dishwashers, range hoods, electric water kettles, food processors, rice cookers) sold via retail and wholesale; after-sales maintenance and repair services; business strategy, marketing and store management consulting; rental of retail space.",
+    "industry": "Consumer electric appliances (wholesale and retail distribution)"
   },
   "0002131072": {
     "description": "Harbour Island Acquisition Corp. is a special purpose acquisition company (SPAC) formed to effect a merger, share exchange, asset acquisition, or similar business combination with one or more operating businesses. As a blank-check company, it has no commercial operations of its own and is pursuing an initial public offering to raise capital for a future target acquisition.",
@@ -3527,7 +3545,8 @@
     "products_services": "As a SPAC, the company offers no products or services; its activity is limited to identifying, evaluating, and completing a business combination with a target company in a sector such as energy, infrastructure, shipping, or natural resources connected to the Arctic region.",
     "industry": "Financial Services - Special Purpose Acquisition Companies (Blank Check Shell Corporations)",
     "proposed_price_low": 10.0,
-    "proposed_price_high": 10.0
+    "proposed_price_high": 10.0,
+    "shares_outstanding": 16093750
   },
   "HNUC": {
     "description": "Holtec Nuclear Corp. is a U.S.-based nuclear technology company providing spent nuclear fuel storage systems, decommissioning services, and advanced reactor development for utilities and government clients worldwide. The company is preparing for an initial public offering to fund growth in its nuclear infrastructure and clean energy initiatives.",
@@ -3536,11 +3555,7 @@
     "proposed_price_low": 15.0,
     "proposed_price_high": 18.0
   },
-  "giftsinternationalho": {
-    "description": "I don't have verified information about Gifts International Holdings Ltd. in my training data, so I can't confidently describe its business. Please provide the company's prospectus, website, or filings so I can write an accurate summary.",
-    "products_services": "Unknown",
-    "industry": "Unknown"
-  },
+  "giftsinternationalho": {},
   "HYAC": {
     "description": "Haymaker Acquisition Corp V is a blank check company, also known as a special purpose acquisition company (SPAC), formed to effect a merger, share exchange, or similar business combination with one or more operating businesses. It raises capital through an initial public offering with the aim of identifying and acquiring a privately held target company, and it has no commercial operations of its own prior to such a transaction.",
     "products_services": "None; as a SPAC, Haymaker Acquisition Corp V does not offer products or services and exists to pursue an acquisition of an operating business.",
@@ -3555,5 +3570,158 @@
     "description": "Thunder Bridge Capital Partners V, Ltd. is a special purpose acquisition company (SPAC) formed to effect a merger, share exchange, or similar business combination with one or more operating businesses. Its public filings and offering materials describe a blank-check vehicle that seeks targets primarily in the financial technology and financial services sectors.",
     "products_services": "The company does not currently offer products or services; as a blank-check company, its activity consists of identifying, evaluating, and completing a business combination with a target company.",
     "industry": "Financial Services (Special Purpose Acquisition Company / Blank Check)"
+  },
+  "NSTR": {
+    "description": "NorthStar Earth & Space Enterprises, Inc. is a data analytics company building dedicated infrastructure for space-based Space Situational and Domain Awareness, using optical sensors on third-party host satellites fused with ground-based radar, optical, and RF data to detect, track, and analyze resident space objects in real time. It serves defense, civil-space, and commercial operators with early detection of deliberate space threats and space traffic management analytics.",
+    "products_services": "Real-time resident space object (RSO) detection, tracking, and analytics, including orbital dynamics and machine learning algorithms for space situational and domain awareness and space traffic management.",
+    "industry": "Space data analytics / space situational awareness (aerospace and defense technology)"
+  },
+  "0002087307": {
+    "description": "Sensing4D AI Ltd, founded in June 2020, specializes in the research, development, and application of AI-driven 3D vision technology, offering high-precision 3D reconstruction, robotics 3D vision, embodied intelligence simulation training grounds, and industry-specific applications through its proprietary Sen-3D Platform. The company serves enterprise clients in sectors such as industrial parks, robotics, digital cities, forestry technology, and smart manufacturing with technology products and professional services.",
+    "products_services": "Sen-3D Platform (comprising Sen-Modeling perception modeling engine and Sen-Creation simulation engine), 3D reconstruction, robotics 3D vision, embodied intelligence simulation training grounds, 4D structured embodied data acquisition system, SenMirror App for mobile 3D modeling and AR interaction, and personalized digital content creation.",
+    "industry": "Artificial intelligence and 3D vision technology"
+  },
+  "0002088286": {
+    "description": "Danneskjold & Galt Acquisition Co is a Cayman Islands blank check company incorporated in September 2025 to effect a business combination with one or more operating businesses. It intends to focus its search on targets in the financial technology and artificial intelligence sectors.",
+    "industry": "Blank check / special purpose acquisition company (SPAC) with a stated focus on financial technology and artificial intelligence",
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
+  },
+  "0002098038": {
+    "description": "Zensitive Holding Ltd is a Cayman Islands holding company that, through its Hong Kong operating subsidiary Zensitive Limited, provides end-to-end project management services for fit-out works covering HVAC, fire protection, electrical, plumbing, painting, partitioning, finishes, fittings, and furniture installation for commercial and residential properties. In fiscal 2025 it reported revenue of approximately HK$59.6 million, up from HK$12.0 million in fiscal 2024.",
+    "products_services": "End-to-end project management services for interior fit-out works (HVAC, fire protection, electrical, plumbing, painting, partition walls, wall and floor finishes, decorative fittings, furniture and fixtures) for commercial and residential projects in Hong Kong.",
+    "industry": "Construction and interior fit-out services (building project management)",
+    "shares_outstanding": 15625000,
+    "proposed_price_low": 4.0,
+    "proposed_price_high": 4.0
+  },
+  "0001907709": {
+    "description": "vVARDIS Holding AG is a healthcare company whose proprietary peptide-enabled Curodont® platform is positioned as a clinically validated, drill-free treatment for early-stage cavities that aims to stop decay progression and repair enamel. Its flagship products, Curodont® Repair Fluoride Plus (sold in the U.S. as an OTC drug) and Curodont® Repair (sold in other markets), generated $30.2 million in net revenue for 2025.",
+    "products_services": "Curodont® Repair Fluoride Plus and Curodont® Repair, peptide-containing dental formulations for treating early-stage cavities (tooth decay).",
+    "industry": "Dental healthcare / dental products (oral care and restorative dentistry).",
+    "shares_outstanding": 182285006
+  },
+  "0000715837": {
+    "description": "LPC Ltd operates through its Malaysian subsidiary Lotus Power Corporation (M) Sdn. Bhd., which supplies electrical distribution equipment and provides integrated supply, testing and commissioning services across Malaysia. The company resells third-party manufactured transformers, switchgear and related equipment to sectors including buildings and infrastructure, utilities, railways, renewable energy, mining, marine and data centres.",
+    "products_services": "Medium voltage switchgears, medium voltage transformers, extra high voltage switchgears, power transformers, and low voltage distribution feeder pillars, plus project coordination, procurement, factory acceptance testing, delivery, and coordinated installation, testing and commissioning support.",
+    "industry": "Electrical equipment supply and distribution (electrical distribution equipment trading and project services)",
+    "proposed_price_low": 4.0,
+    "proposed_price_high": 6.0
+  },
+  "0002144445": {
+    "description": "UC Automotive Holdings Inc. operates a used vehicle dealership and automotive services business in Canada, headquartered in Richmond, British Columbia and focused on the Greater Vancouver area. The company combines used vehicle sales, vehicle leasing and rental, rent-to-own programs, financing support and after-sales services.",
+    "products_services": "Used vehicle sales, vehicle leasing and rental, rent-to-own programs, financing support, and after-sales services.",
+    "industry": "Used vehicle dealership and automotive services (automotive retail)."
+  },
+  "HCAX": {
+    "description": "Hall Chadwick Acquisition Corp II is a newly incorporated Cayman Islands blank check company formed to effect a business combination with one or more businesses, and it has not yet selected any target. It intends to focus on high-growth companies in critical materials, infrastructure, and defense-aligned technology sectors.",
+    "industry": "Blank check company / special purpose acquisition company (SPAC) seeking acquisitions in critical materials, infrastructure, and defense-aligned technology"
+  },
+  "WATR": {
+    "description": "Air Water Ventures Ltd is a sustainable water solutions company that makes premium drinking water by extracting humidity from the air, selling it in aluminum cans, bottles, and glass bottles. It also manufactures atmospheric water generators (AWGs) ranging from counter-top consumer units to 3,000 liter/day industrial systems, and builds and operates water farms and bottling sites.",
+    "products_services": "Premium packaged drinking water (aluminum cans, glass and plastic-free bottles); atmospheric water generators (AWGs) from consumer counter-top units to 3,000 liter/day industrial systems; construction and operation of water farms and bottling sites.",
+    "industry": "Sustainable water solutions / bottled water and atmospheric water generation technology"
+  },
+  "ADBT": {
+    "description": "Advasa Holdings, Inc. is a Delaware holding company for Advasa Co., Ltd. (Tokyo, Japan), a financial technology company focused on improving how employees access and manage their earned income. Its core FUKUPE platform is a patented Earned Wage Access solution that lets employees access earned wages in real time, delivered as a hosted cloud service integrated with employers' HR and payroll systems.",
+    "products_services": "FUKUPE, a patented Earned Wage Access (EWA) platform delivered as a hosted, cloud-based service, accessible via mobile wallets, prepaid cards, and direct bank transfers, with the employer bearing no operational burden or funding obligation.",
+    "industry": "Financial technology (fintech) / Earned Wage Access and financial services"
+  },
+  "VOGX": {
+    "description": "Vogenx, Inc. is a clinical-stage biopharmaceutical company developing novel therapies for serious metabolic diseases, with its lead candidate mizagliflozin (a selective SGLT1 inhibitor) in development for post-bariatric hypoglycemia, gastroparesis, and GIP-dependent Cushing's Syndrome. The company does not currently sell any products; it is advancing investigational drug candidates through clinical trials toward regulatory approval.",
+    "products_services": "Investigational drug candidates, lead candidate mizagliflozin (oral SGLT1 inhibitor) and preclinical candidate VGX-2857; no commercial products or services are currently sold.",
+    "industry": "Biopharmaceutical (clinical-stage drug development, metabolic diseases)"
+  },
+  "BLSM": {
+    "description": "BlossomHill Therapeutics is a clinical-stage biopharmaceutical company developing small molecule cancer medicines designed using structure-based rational drug design. Its lead programs include BH-30643, an investigational EGFR inhibitor for EGFR-mutant non-small cell lung cancer, and BH-30236, a CLK inhibitor for relapsed or refractory acute myeloid leukemia and higher-risk myelodysplastic syndromes, plus a preclinical KRAS-targeting candidate.",
+    "products_services": "Investigational small molecule drug candidates: BH-30643 (EGFR inhibitor, clinical-stage), BH-30236 (CLK inhibitor, clinical-stage), and BH-501284 (KRAS-targeting, preclinical).",
+    "industry": "Biopharmaceutical (oncology drug development)"
+  },
+  "BRVE": {
+    "description": "Braveheart Bio is a clinical-stage biopharmaceutical company developing therapies for hypertrophic cardiomyopathy and other serious cardiovascular diseases, with its lead candidate BHB-1893, an oral small-molecule cardiac myosin inhibitor in development for obstructive and non-obstructive HCM. The company in-licensed BHB-1893 from Jiangsu Hengrui Pharmaceuticals, whose trials it did not design, conduct, or oversee.",
+    "products_services": "BHB-1893, an investigational oral small-molecule cardiac myosin inhibitor (not yet approved), for obstructive and non-obstructive hypertrophic cardiomyopathy",
+    "industry": "Biopharmaceutical (clinical-stage drug development, cardiovascular/HCM therapeutics)"
+  },
+  "ATTO": {
+    "description": "Attovia Therapeutics is a clinical-stage biopharmaceutical company developing next-generation biotherapeutics for immune-mediated diseases, using its ATTOBODY biologics platform to design candidates such as ATTO-1310, an IL-31-targeting Fc-fusion protein being studied in patients with chronic pruritic diseases. Its pipeline also includes the bispecific ATTO-2306 (targeting IL-13 and IL-31) and the trispecific ATTO-1091 (targeting TL1A, IL-23 and integrin α4β7), both in earlier development.",
+    "products_services": "Clinical-stage biologic therapeutic candidates (ATTO-1310, ATTO-2306, ATTO-1091) discovered using the in-licensed ATTOBODY biparatopic biologics platform; no commercial products are described.",
+    "industry": "Biopharmaceutical (biotechnology / therapeutics for immune-mediated diseases)"
+  },
+  "ACCV": {
+    "description": "Accelevation Holdings Corp. is a vertically integrated infrastructure platform that designs, manufactures, and installs power distribution and white space infrastructure products for mission-critical data center environments serving hyperscale, colocation, AI, and cloud customers. The company offers integrated, factory-built solutions such as modular white space infrastructure (e.g., SkyBridge), structural and infrastructure products (e.g., TechFrame steel structures, conveyance systems, rack support), and turnkey field-built deployments.",
+    "products_services": "Integrated white space infrastructure solutions (modular factory-built and field-built), infrastructure products including steel structures, conveyance systems, rack and cabinet support, cabinet docking, caging/enclosure systems, and cable/fiber routing components, plus power distribution products, design, manufacturing, electrical scope, installation, and project coordination services.",
+    "industry": "Data center infrastructure (power distribution and white space construction/modular infrastructure for data centers)"
+  },
+  "BBTX": {
+    "description": "Bambusa Therapeutics is a clinical-stage biopharmaceutical company developing next-generation, long-acting precision bispecific antibodies for immunology and inflammation, with a lead candidate BBT001 targeting IL-4Rα and IL-31 for atopic dermatitis and other inflammatory skin diseases. The company is advancing these candidates through clinical trials, including high-concentration subcutaneous formulations.",
+    "products_services": "Bispecific antibody product candidates (e.g., BBT001, BBT002, BBT003, BBT004) designed for high-concentration subcutaneous delivery; none are described as commercially approved products.",
+    "industry": "Biopharmaceutical (immunology and inflammation therapeutics)"
+  },
+  "GBC": {
+    "description": "Georgia Banking Company, Inc. is a bank holding company headquartered in Atlanta, Georgia, operating through its bank subsidiary to serve businesses, professionals, entrepreneurs and consumers in the Atlanta MSA with approximately $3.3 billion in total assets across 10 full-service banking offices and three loan production offices. It emphasizes a relationship banking model combining local decision-making with the products and lending capacity of larger institutions.",
+    "products_services": "Commercial banking, community banking, private banking, commercial real estate banking, mortgage warehouse and treasury services, plus lending, deposit and fee-generating businesses.",
+    "industry": "Banking (bank holding company / commercial and community banking)"
+  },
+  "LYCA": {
+    "description": "Lycia Therapeutics, Inc. is a clinical-stage biotechnology company developing therapeutics that degrade disease-causing extracellular proteins using its proprietary LYTAC (Lysosomal Targeting Chimera) platform, with an initial focus on autoimmune, inflammatory and allergic diseases. Its lead programs include IgE-targeting degraders (LCA-0061, LCA-0062) for food allergy and other allergic diseases, and LCA-0321 for Graves' disease, all in clinical or preclinical development.",
+    "products_services": "Investigational LYTAC-based protein degrader therapeutic candidates (LCA-0061, LCA-0062, LCA-0321); no commercial products or services are described in the excerpt.",
+    "industry": "Biotechnology / pharmaceuticals (clinical-stage therapeutics development)"
+  },
+  "DAVI": {
+    "description": "Davion Healthcare Plc is an Irish public limited company focused on developing and commercializing non-invasive, non-diagnostic home tests for early detection of potential health anomalies, including cancers. Its products (BreastCheck, FootFlow, Testic, and ThermaDerm) use thermography with liquid crystal film and AI analysis of smartphone images to flag areas that may warrant further clinical investigation.",
+    "products_services": "Four non-invasive home test kits: BreastCheck (breast tissue temperature anomalies), FootFlow (blood flow monitoring in feet and hands for diabetics), Testic (testicular temperature anomalies), and ThermaDerm (skin temperature monitoring across body locations).",
+    "industry": "Medical devices / home healthcare diagnostics (early detection and wellness monitoring)"
+  },
+  "CTY": {
+    "description": "City Therapeutics, Inc. is a clinical-stage biotechnology company developing next-generation RNA interference (RNAi) therapeutics that silence disease-relevant proteins, with a pipeline focused on thromboembolic diseases, Stargardt disease type 1, and anemia of chronic disease. The company uses its proprietary City Platform to discover and advance its product candidates, with its lead candidate CITY-FXI in early clinical development.",
+    "products_services": "Investigational RNAi therapeutics (product candidates; no approved products are sold), including lead candidate CITY-FXI, developed via the City Platform",
+    "industry": "Biotechnology / biopharmaceutical (RNA interference therapeutics)"
+  },
+  "RTSN": {
+    "description": "Retension Pharmaceuticals, Inc. is a company planning an initial public offering, as evidenced by its Form S-1 registration statement amendment filed solely to revise the filing fee exhibit. The excerpt does not describe the company's business, products, or operations."
+  },
+  "TRXB": {
+    "description": "TRexBio is a clinical-stage biopharmaceutical company focused on tissue regulatory T cell (Treg) biology to discover and develop immunoregulatory medicines that restore immune balance and promote tissue repair in autoimmune and inflammatory diseases. Its lead candidates, TRB-061 (a TNFR2 agonist in a Phase 1a/b trial for atopic dermatitis) and TRB-071 (a CD30 agonist in IND-enabling studies for inflammatory bowel disease), are supported by its proprietary Deep Biology drug discovery platform.",
+    "products_services": "Investigational immunoregulatory drug candidates: TRB-061 (TNFR2 agonist) and TRB-071 (CD30/TNFRSF8 agonist), plus preclinical Treg-focused programs; no commercial products or services are described in the excerpt.",
+    "industry": "Biopharmaceuticals (clinical-stage drug development, immunology/autoimmune and inflammatory diseases)"
+  },
+  "0002030771": {
+    "description": "QMSK Technology Co., Ltd is a Cayman Islands holding company that, through its PRC operating entities, provides business solutions to insurance industry enterprise customers, mainly auto insurance third-party service providers and insurers in China. It specializes in auto insurance aftermarket services, including insurance risk assessment and value-added services such as vehicle safety inspection and maintenance, supported by its proprietary Qingmin Service Platform (QMSP).",
+    "products_services": "Auto insurance aftermarket services, primarily insurance risk assessment and value-added services (vehicle safety inspection and vehicle maintenance), plus customized IT and promotional services on a case-by-case basis.",
+    "industry": "Insurance / auto insurance third-party services (China)"
+  },
+  "0001934387": {
+    "description": "CGL Logistics Holdings Ltd is planning an IPO, and this excerpt includes a table of contents and boilerplate prospectus language. The excerpt references freight forwarding logistics in China and Hong Kong, but does not explicitly describe the company's own business or products.",
+    "industry": "Freight forwarding logistics (inferred from a section heading referencing the freight forwarding logistics industry in China and Hong Kong)"
+  },
+  "0002095352": {
+    "description": "Tino Group Ltd is a Cayman Islands holding company that, through its Hong Kong operating subsidiary Tino Global Limited (founded 2008), provides immigration promotion and consulting services to the Asian market. It promotes investment-based immigration programs for institutional clients and offers personalized immigration consulting to individuals seeking international residency and citizenship.",
+    "products_services": "Immigration promotion services for investment-based immigration programs for institutional clients, and personalized immigration consulting services for individuals seeking international residency and citizenship.",
+    "industry": "Immigration consulting and promotion services"
+  },
+  "0002099952": {
+    "description": "Star Integratia Limited is a Cayman Islands holding company with no material operations of its own, conducting its business through its Singapore subsidiary All Best App Pte. Ltd. The excerpt does not describe the specific products or services the company sells."
+  },
+  "0002120528": {
+    "description": "Kainan Holding Group Ltd is a workforce and human resources management provider that sources, recruits, deploys and manages legally employed casual and skilled temporary workers for corporate customers in manufacturing, construction and service industries across Malaysia. Revenue is earned under service contracts, recognized over time based on confirmed worker attendance and hours at agreed workday rates.",
+    "products_services": "Workforce sourcing, recruitment, deployment and ongoing management of casual and skilled temporary workers, including onboarding, worker management and compliance support for corporate clients.",
+    "industry": "Human resources and workforce management (staffing/manpower services) in Malaysia"
+  },
+  "PTT": {
+    "description": "Siyata PTT is a Cayman Islands exempted company and global developer of cellular-based communications solutions over 4G/LTE and 5G networks under the Siyata brands. Its products are rugged handheld mobile devices and in-vehicle communications solutions sold to first responders, military, enterprise customers, commercial fleets and industrial workers.",
+    "products_services": "Rugged handheld cellular mobile devices and in-vehicle communications solutions",
+    "industry": "Telecommunications equipment / cellular-based communications solutions for public safety and enterprise"
+  },
+  "RUIH": {
+    "description": "RUI Holdings Inc. operates through subsidiaries that provide integrated facility management and integrated transportation/logistics services, with operations in the Middle East (including the KSA and UAE) and PRC subsidiaries. The excerpt does not detail specific products or the full scope of its services beyond these general service areas.",
+    "products_services": "Integrated facility management and integrated transportation/logistics services",
+    "industry": "Integrated facility management and integrated transportation/logistics",
+    "shares_outstanding": 15990000
+  },
+  "OCLT": {
+    "description": "OceanLight Acquisition Corp is a newly formed Cayman Islands blank check company (SPAC) with no operations, formed to effect a merger, share exchange, or similar business combination with one or more target businesses, with no specific target identified yet. Its IPO proceeds will be held in a U.S.-based trust account invested in U.S. treasuries or qualifying money market funds until a business combination is completed or the company liquidates.",
+    "industry": "Blank check companies (special purpose acquisition companies / SPACs)",
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
   }
 }
