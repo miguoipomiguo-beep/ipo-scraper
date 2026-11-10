@@ -13,6 +13,7 @@ import time
 from datetime import datetime, timedelta
 from pathlib import Path
 
+import anthropic
 import httpx
 from playwright.async_api import async_playwright
 
@@ -34,7 +35,9 @@ GITHUB_MODELS_URL = "https://models.inference.ai.azure.com/chat/completions"
 GITHUB_MODELS_ENABLED = False   # GitHub Models は 2026-07-30 に終了。呼ぶと毎回失敗するだけなので止める
 OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions"
 OPENROUTER_KEY = os.environ.get("OPENROUTER_KEY", "")
-S1_MAX_PER_RUN = 15   # 無料モデルは1日の回数に上限があるので、説明文の分を残す（旧 50）
+ANTHROPIC_KEY = os.environ.get("ANTHROPIC_API_KEY", "")
+HAIKU_MODEL = "claude-haiku-5-5"   # 第一候補。OpenRouter の無料モデルは混雑と1日50回の上限で安定しないので予備に回す
+S1_MAX_PER_RUN = 50 if ANTHROPIC_KEY else 15   # 無料モデルだけのときは1日の回数上限があるので、説明文の分を残す
 LLM_INTERVAL_SEC = 3.5   # 無料モデルは1分20回まで
 OPENROUTER_MODEL = "google/gemma-4-31b-it:free"   # 旧 google/gemini-2.0-flash-001 は提供終了（GitHub Models も 2026-07-30 に終了）
 # 無料モデルは提供元が混むと 429 を返すので、OpenRouter 側で順に切り替えてもらう
@@ -669,7 +672,7 @@ async def detect_and_notify(ipos: list):
 
 async def extract_s1_financials(ipos: list) -> list:
     """S-1/F-1書類からProposed Offering PriceとShares Outstandingを抽出"""
-    if not GH_TOKEN and not OPENROUTER_KEY:
+    if not ANTHROPIC_KEY and not OPENROUTER_KEY:
         return ipos
     print("\n=== S-1 Financial Extraction ===")
     extracted = 0
@@ -797,11 +800,11 @@ Return JSON only:
 Filing excerpts:
 {combined}"""
 
-                result = None
-                if GITHUB_MODELS_ENABLED:
+                result = await _call_haiku(prompt)
+                if result is None and GITHUB_MODELS_ENABLED:
                     result = await _call_llm(client, GITHUB_MODELS_URL, "gpt-4o-mini", prompt,
                         {"Authorization": f"Bearer {GH_TOKEN}", "Content-Type": "application/json"})
-                if not result and OPENROUTER_KEY:
+                if result is None and OPENROUTER_KEY and not ANTHROPIC_KEY:
                     result = await _call_llm(client, OPENROUTER_URL, OPENROUTER_MODEL, prompt,
                         {"Authorization": f"Bearer {OPENROUTER_KEY}", "Content-Type": "application/json"})
 
@@ -816,7 +819,7 @@ Filing excerpts:
                     print(f"  + {ipo.get('ticker','?')}: ${result.get('proposed_price_low')}-${result.get('proposed_price_high')}, {result.get('shares_outstanding')} shares")
                 else:
                     print(f"  - {ipo.get('ticker','?')}: no values")
-                    if _last_llm_status.get("daily"):
+                    if _last_llm_status.get("daily") and not ANTHROPIC_KEY:
                         print("  Free daily quota used up, stopping")
                         break
 
@@ -829,7 +832,7 @@ Filing excerpts:
 
 
 async def enrich_with_llm(ipos: list) -> list:
-    if not GH_TOKEN and not OPENROUTER_KEY:
+    if not ANTHROPIC_KEY and not OPENROUTER_KEY:
         return ipos
     print("\n=== LLM ===")
     enriched = 0
@@ -841,42 +844,95 @@ async def enrich_with_llm(ipos: list) -> list:
     print(f"  Priority: {len(priority)} companies without description")
     github_failures = 0
     rate_limited = 0
+    openrouter_off = False
 
     async with httpx.AsyncClient(timeout=60) as client:
         for ipo in priority:
             name = ipo["company_name"]
             prompt = f'Brief 2-sentence description for IPO company: {name}. Respond with JSON only, no markdown: {{"description":"...","products_services":"...","industry":"..."}}'
 
-            result = None
-            # Try 1: GitHub Models
-            if GITHUB_MODELS_ENABLED and GH_TOKEN and github_failures < 5:
+            # Try 1: Claude Haiku
+            result = await _call_haiku(prompt)
+            # GitHub Models（終了済み・止めてある）
+            if result is None and GITHUB_MODELS_ENABLED and GH_TOKEN and github_failures < 5:
                 result = await _call_llm(client, GITHUB_MODELS_URL, "gpt-4o-mini",
                     prompt, {"Authorization": f"Bearer {GH_TOKEN}", "Content-Type": "application/json"})
                 if result is None:
                     github_failures += 1
 
-            # Try 2: OpenRouter fallback
-            if result is None and OPENROUTER_KEY:
+            # Try 2: OpenRouter fallback（Haiku が失敗したときだけ。無料枠が尽きたらこの実行ではもう呼ばない）
+            used_openrouter = False
+            if result is None and OPENROUTER_KEY and not openrouter_off:
+                used_openrouter = True
                 result = await _call_llm(client, OPENROUTER_URL, OPENROUTER_MODEL,
                     prompt, {"Authorization": f"Bearer {OPENROUTER_KEY}", "Content-Type": "application/json"})
+                if not result:
+                    if _last_llm_status.get("daily"):
+                        print("  Free daily quota used up, OpenRouter off for this run")
+                        openrouter_off = True
+                    elif _last_llm_status.get("code") == 429:
+                        rate_limited += 1
+                        if rate_limited >= 10:
+                            print("  Rate limited 10 times in a row, OpenRouter off for this run")
+                            openrouter_off = True
+                        else:
+                            await asyncio.sleep(20)   # 提供元の混雑（temporarily rate-limited upstream）は少し待つと通ることがある
+                else:
+                    rate_limited = 0
 
             if result:
                 ipo.update(result)
                 enriched += 1
-                rate_limited = 0
-            elif _last_llm_status.get("daily"):
-                print("  Free daily quota used up, stopping")
+            elif openrouter_off and not ANTHROPIC_KEY:
                 break
-            elif _last_llm_status.get("code") == 429:
-                rate_limited += 1
-                if rate_limited >= 10:
-                    print("  Rate limited 10 times in a row, stopping")
-                    break
-                await asyncio.sleep(20)   # 提供元の混雑（temporarily rate-limited upstream）は少し待つと通ることがある
-            await asyncio.sleep(LLM_INTERVAL_SEC)
+            await asyncio.sleep(LLM_INTERVAL_SEC if used_openrouter else 0.5)
 
     print(f"  Enriched: {enriched} (GitHub failures: {github_failures})")
     return ipos
+
+
+def _parse_llm_json(c: str) -> dict:
+    """LLM の返答から JSON を取り出し、空の値を落として返す（読めなければ例外）"""
+    if "```" in c:
+        c = c.split("```json")[-1].split("```")[0] if "```json" in c else c.split("```")[1].split("```")[0]
+    c = c.strip()
+    brace_start = c.find("{")
+    brace_end = c.rfind("}") + 1
+    if brace_start >= 0 and brace_end > brace_start:
+        c = c[brace_start:brace_end]
+    d = json.loads(c)
+    return {k: v for k, v in d.items() if v}
+
+
+_haiku_client = anthropic.AsyncAnthropic(api_key=ANTHROPIC_KEY, max_retries=3) if ANTHROPIC_KEY else None
+
+async def _call_haiku(prompt: str):
+    """Claude Haiku を呼び出して JSON を返す。キーが無い・失敗時は None（値が全部空なら {}）"""
+    if not _haiku_client:
+        return None
+    try:
+        # temperature は Claude では送れない（2026-10-21 以降 400）。短い抽出なので考える過程は使わない
+        resp = await _haiku_client.messages.create(
+            model=HAIKU_MODEL, max_tokens=1024,
+            thinking={"type": "disabled"},
+            messages=[{"role": "user", "content": prompt}])
+        if resp.stop_reason == "refusal":
+            print(f"  Haiku refusal")
+            return None
+        text = "".join(b.text for b in resp.content if b.type == "text")
+        if not text:
+            print(f"  Haiku empty content (stop={resp.stop_reason})")
+            return None
+        return _parse_llm_json(text)
+    except anthropic.RateLimitError as e:
+        print(f"  Haiku 429: {str(e)[:200]}")
+    except anthropic.APIStatusError as e:
+        print(f"  Haiku {e.status_code}: {str(e)[:200]}")
+    except anthropic.APIConnectionError as e:
+        print(f"  Haiku connection error: {str(e)[:120]}")
+    except Exception as e:
+        print(f"  Haiku error: {type(e).__name__}: {str(e)[:120]}")
+    return None
 
 
 _last_llm_status = {}
@@ -909,15 +965,7 @@ async def _call_llm(client, url: str, model: str, prompt: str, headers: dict) ->
                     print(f"  Dropping {m} for this run")
                 return None
             _last_llm_status["answered_by"] = j.get("model")
-            if "```" in c:
-                c = c.split("```json")[-1].split("```")[0] if "```json" in c else c.split("```")[1].split("```")[0]
-            c = c.strip()
-            brace_start = c.find("{")
-            brace_end = c.rfind("}") + 1
-            if brace_start >= 0 and brace_end > brace_start:
-                c = c[brace_start:brace_end]
-            d = json.loads(c)
-            return {k: v for k, v in d.items() if v}
+            return _parse_llm_json(c)
         else:
             print(f"  LLM {resp.status_code} ({model}): {resp.text[:300]}")   # 失敗の理由をログに残す
     except Exception as e:
