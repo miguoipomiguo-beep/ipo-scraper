@@ -1,1 +1,279 @@
-{}
+{
+ "batch_id": "msgbatch_01Sa4ySq3oNKJPT7uAzWs7BH",
+ "items": {
+  "s1-0001104659-26-114815": {
+   "accession": "0001104659-26-114815",
+   "hints": {
+    "lockup_days": null
+   },
+   "ipo_id": "CTY"
+  },
+  "s1-0001104659-26-118704": {
+   "accession": "0001104659-26-118704",
+   "hints": {
+    "lockup_days": 180
+   },
+   "ipo_id": "GBC"
+  },
+  "s1-0001104659-26-123104": {
+   "accession": "0001104659-26-123104",
+   "hints": {
+    "lockup_days": null
+   },
+   "ipo_id": "0002160422"
+  },
+  "s1-0001104659-26-124074": {
+   "accession": "0001104659-26-124074",
+   "hints": {
+    "lockup_days": null
+   },
+   "ipo_id": "RZRA"
+  },
+  "s1-0001140361-26-042406": {
+   "accession": "0001140361-26-042406",
+   "hints": {
+    "lockup_days": null
+   },
+   "ipo_id": "VVVV"
+  },
+  "s1-0001185185-26-004010": {
+   "accession": "0001185185-26-004010",
+   "hints": {
+    "lockup_days": null
+   },
+   "ipo_id": "OHII"
+  },
+  "s1-0001185185-26-004057": {
+   "accession": "0001185185-26-004057",
+   "hints": {
+    "lockup_days": null
+   },
+   "ipo_id": "NIAAU"
+  },
+  "s1-0001185185-26-004071": {
+   "accession": "0001185185-26-004071",
+   "hints": {
+    "lockup_days": null
+   },
+   "ipo_id": "LCAC"
+  },
+  "s1-0001185185-26-004843": {
+   "accession": "0001185185-26-004843",
+   "hints": {
+    "lockup_days": null
+   },
+   "ipo_id": "SCQCU"
+  },
+  "s1-0001193125-26-249947": {
+   "accession": "0001193125-26-249947",
+   "hints": {
+    "lockup_days": 180
+   },
+   "ipo_id": "SFPT"
+  },
+  "s1-0001193125-26-384287": {
+   "accession": "0001193125-26-384287",
+   "hints": {
+    "lockup_days": null
+   },
+   "ipo_id": "HNUC"
+  },
+  "s1-0001193125-26-396051": {
+   "accession": "0001193125-26-396051",
+   "hints": {
+    "lockup_days": 180
+   },
+   "ipo_id": "OURA"
+  },
+  "s1-0001193125-26-399703": {
+   "accession": "0001193125-26-399703",
+   "hints": {
+    "lockup_days": null
+   },
+   "ipo_id": "FLSC"
+  },
+  "s1-0001193125-26-402977": {
+   "accession": "0001193125-26-402977",
+   "hints": {
+    "lockup_days": null
+   },
+   "ipo_id": "TCGX"
+  },
+  "s1-0001193125-26-404122": {
+   "accession": "0001193125-26-404122",
+   "hints": {
+    "lockup_days": null
+   },
+   "ipo_id": "0002154056"
+  },
+  "s1-0001193125-26-413060": {
+   "accession": "0001193125-26-413060",
+   "hints": {
+    "lockup_days": null
+   },
+   "ipo_id": "TRXB"
+  },
+  "s1-0001193125-26-414188": {
+   "accession": "0001193125-26-414188",
+   "hints": {
+    "lockup_days": 180
+   },
+   "ipo_id": "0002118192"
+  },
+  "s1-0001193125-26-417416": {
+   "accession": "0001193125-26-417416",
+   "hints": {
+    "lockup_days": 180
+   },
+   "ipo_id": "IAM"
+  },
+  "s1-0001193125-26-417752": {
+   "accession": "0001193125-26-417752",
+   "hints": {
+    "lockup_days": null
+   },
+   "ipo_id": "CSEA"
+  },
+  "s1-0001193125-26-431023": {
+   "accession": "0001193125-26-431023",
+   "hints": {
+    "lockup_days": 180
+   },
+   "ipo_id": "ASPE"
+  },
+  "s1-0001193125-26-452536": {
+   "accession": "0001193125-26-452536",
+   "hints": {
+    "lockup_days": 180
+   },
+   "ipo_id": "WWB"
+  },
+  "s1-0001213900-26-028518": {
+   "accession": "0001213900-26-028518",
+   "hints": {
+    "lockup_days": null
+   },
+   "ipo_id": "BWGC"
+  },
+  "s1-0001213900-26-101154": {
+   "accession": "0001213900-26-101154",
+   "hints": {
+    "lockup_days": null
+   },
+   "ipo_id": "PTT"
+  },
+  "s1-0001213900-26-101822": {
+   "accession": "0001213900-26-101822",
+   "hints": {
+    "lockup_days": null
+   },
+   "ipo_id": "0002145826"
+  },
+  "s1-0001213900-26-104979": {
+   "accession": "0001213900-26-104979",
+   "hints": {
+    "lockup_days": 180
+   },
+   "ipo_id": "0002142627"
+  },
+  "s1-0001213900-26-106329": {
+   "accession": "0001213900-26-106329",
+   "hints": {
+    "lockup_days": 180
+   },
+   "ipo_id": "0000715837"
+  },
+  "s1-0001213900-26-107572": {
+   "accession": "0001213900-26-107572",
+   "hints": {
+    "lockup_days": null
+   },
+   "ipo_id": "RTSN"
+  },
+  "s1-0001213900-26-111161": {
+   "accession": "0001213900-26-111161",
+   "hints": {
+    "lockup_days": 180
+   },
+   "ipo_id": "0002087307"
+  },
+  "s1-0001213900-26-112173": {
+   "accession": "0001213900-26-112173",
+   "hints": {
+    "lockup_days": 180
+   },
+   "ipo_id": "BHAIU"
+  },
+  "s1-0001213900-26-116798": {
+   "accession": "0001213900-26-116798",
+   "hints": {
+    "lockup_days": 180
+   },
+   "ipo_id": "0002136246"
+  },
+  "s1-0001213900-26-116925": {
+   "accession": "0001213900-26-116925",
+   "hints": {
+    "lockup_days": null
+   },
+   "ipo_id": "0002144445"
+  },
+  "s1-0001493152-26-010264": {
+   "accession": "0001493152-26-010264",
+   "hints": {
+    "lockup_days": null
+   },
+   "ipo_id": "RIKU"
+  },
+  "s1-0001493152-26-041834": {
+   "accession": "0001493152-26-041834",
+   "hints": {
+    "lockup_days": null
+   },
+   "ipo_id": "AFNXU"
+  },
+  "s1-0001575872-26-000437": {
+   "accession": "0001575872-26-000437",
+   "hints": {
+    "lockup_days": null
+   },
+   "ipo_id": "CUX"
+  },
+  "s1-0001628280-26-066381": {
+   "accession": "0001628280-26-066381",
+   "hints": {
+    "lockup_days": null
+   },
+   "ipo_id": "LYCA"
+  },
+  "s1-0001628280-26-067119": {
+   "accession": "0001628280-26-067119",
+   "hints": {
+    "lockup_days": 180
+   },
+   "ipo_id": "BBTX"
+  },
+  "s1-0001628280-26-067168": {
+   "accession": "0001628280-26-067168",
+   "hints": {
+    "lockup_days": null
+   },
+   "ipo_id": "0002130357"
+  },
+  "s1-0001628280-26-072484": {
+   "accession": "0001628280-26-072484",
+   "hints": {
+    "lockup_days": 180
+   },
+   "ipo_id": "ANT"
+  },
+  "s1-0001929980-26-000257": {
+   "accession": "0001929980-26-000257",
+   "hints": {
+    "lockup_days": 180
+   },
+   "ipo_id": "NCOU"
+  }
+ },
+ "submitted_at": "2026-11-10T19:37:59+00:00"
+}

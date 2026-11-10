@@ -2954,7 +2954,10 @@
   "ANT": {
     "description": "Anthropic, PBC is an American artificial intelligence company focused on developing safe, interpretable, and steerable AI systems. Their flagship product, Claude, is designed to assist with a wide range of tasks while prioritizing accuracy, privacy, and alignment with human intent.",
     "products_services": "AI-powered conversational assistant (Claude), AI research, safety tooling, custom enterprise AI solutions, and API access to large language models.",
-    "industry": "Artificial Intelligence, AI Safety, and Software & Internet Services"
+    "industry": "Artificial Intelligence, AI Safety, and Software & Internet Services",
+    "shares_outstanding": 1073701297,
+    "proposed_price_low": 74.0,
+    "proposed_price_high": 74.0
   },
   "RZAI": {
     "description": "Roze AI Inc. leverages advanced generative intelligence to transform enterprise workflows. The company is preparing for its initial public offering to accelerate global expansion and research initiatives.",
@@ -3636,7 +3639,10 @@
   "ADBT": {
     "description": "Advasa Holdings, Inc. is a Delaware holding company for Advasa Co., Ltd. (Tokyo, Japan), a financial technology company focused on improving how employees access and manage their earned income. Its core FUKUPE platform is a patented Earned Wage Access solution that lets employees access earned wages in real time, delivered as a hosted cloud service integrated with employers' HR and payroll systems.",
     "products_services": "FUKUPE, a patented Earned Wage Access (EWA) platform delivered as a hosted, cloud-based service, accessible via mobile wallets, prepaid cards, and direct bank transfers, with the employer bearing no operational burden or funding obligation.",
-    "industry": "Financial technology (fintech) / Earned Wage Access and financial services"
+    "industry": "Financial technology (fintech) / Earned Wage Access and financial services",
+    "shares_outstanding": 485469380,
+    "proposed_price_low": 9.36,
+    "proposed_price_high": 9.36
   },
   "VOGX": {
     "description": "Vogenx, Inc. is a clinical-stage biopharmaceutical company developing novel therapies for serious metabolic diseases, with its lead candidate mizagliflozin (a selective SGLT1 inhibitor) in development for post-bariatric hypoglycemia, gastroparesis, and GIP-dependent Cushing's Syndrome. The company does not currently sell any products; it is advancing investigational drug candidates through clinical trials toward regulatory approval.",
@@ -3734,5 +3740,16 @@
     "industry": "Blank check companies (special purpose acquisition companies / SPACs)",
     "proposed_price_low": 10.0,
     "proposed_price_high": 10.0
+  },
+  "VVVV": {
+    "description": "vVARDIS Holding AG is a healthcare company whose proprietary peptide-enabled Curodont® platform is positioned as a clinically validated, drill-free treatment for early-stage cavities that aims to stop decay progression and repair enamel. Its flagship products, Curodont® Repair Fluoride Plus (sold in the U.S. as an OTC drug) and Curodont® Repair (sold in other markets), generated $30.2 million in net revenue for 2025.",
+    "products_services": "Curodont® Repair Fluoride Plus and Curodont® Repair, peptide-containing dental formulations for treating early-stage cavities (tooth decay).",
+    "industry": "Dental healthcare / dental products (oral care and restorative dentistry).",
+    "shares_outstanding": 182285006
+  },
+  "WWB": {
+    "description": "WINDWARD BIO GROUP AG is a clinical-stage biotechnology company developing ultra-long-acting antibody medicines for serious respiratory and dermatologic diseases such as asthma, COPD, and atopic dermatitis. Its lead candidates, WIN378 (a TSLP-inhibiting monoclonal antibody) and WIN027 (a TSLP/IL-13 bispecific antibody), are designed for less frequent dosing than currently available biologic treatments.",
+    "products_services": "Investigational ultra-long-acting monoclonal and bispecific antibody therapeutics (WIN378 and WIN027); no commercial products are described in the excerpt.",
+    "industry": "Biotechnology / biopharmaceuticals (clinical-stage therapeutic antibodies)"
   }
 }
