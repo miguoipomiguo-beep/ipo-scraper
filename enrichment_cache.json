@@ -3003,7 +3003,8 @@
     "products_services": "Gold and silver exploration, resource development, drilling operations, and mineral processing.",
     "industry": "Mining & Metals",
     "proposed_price_low": 4,
-    "proposed_price_high": 6
+    "proposed_price_high": 6,
+    "shares_outstanding": 8047204
   },
   "BYOP": {
     "description": "KiNRG, Inc. is a technology-driven company focused on sustainable energy innovation and digital transformation. The company recently completed its initial public offering to accelerate growth and expand its impact in the clean energy market.",
@@ -3281,12 +3282,16 @@
   "RNAQU": {
     "description": "Rainier Acquisition Corp. is a blank check company, also known as a special purpose acquisition company (SPAC), formed to raise capital through an initial public offering for the purpose of acquiring or merging with an operating business. Its management team intends to identify and complete a business combination with a target company, typically within a defined timeframe.",
     "products_services": "No operating products or services; the company's sole activity is identifying, evaluating, and completing a business combination with a privately held target company.",
-    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)"
+    "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)",
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
   },
   "JTTT": {
     "description": "JATT III Acquisition Corp. is a blank check company, also known as a special purpose acquisition company (SPAC), formed to effect a merger, share exchange, asset acquisition, or similar business combination with one or more operating businesses. It has no commercial operations of its own and is structured to raise capital through an initial public offering for the purpose of identifying and completing an acquisition target.",
     "products_services": "No products or services; the company's sole activity is identifying and consummating a business combination with a target company.",
-    "industry": "Financial Services - Special Purpose Acquisition Company (SPAC) / Shell Company"
+    "industry": "Financial Services - Special Purpose Acquisition Company (SPAC) / Shell Company",
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
   },
   "SCATU": {
     "description": "Southern Cross Acquisition II Corp. is a special purpose acquisition company (SPAC), a blank-check vehicle formed to raise capital through an initial public offering for the purpose of acquiring or merging with an existing private company. It has no commercial operations of its own, and its management team seeks a suitable target business to take public through a business combination.",
@@ -3615,7 +3620,9 @@
   },
   "HCAX": {
     "description": "Hall Chadwick Acquisition Corp II is a newly incorporated Cayman Islands blank check company formed to effect a business combination with one or more businesses, and it has not yet selected any target. It intends to focus on high-growth companies in critical materials, infrastructure, and defense-aligned technology sectors.",
-    "industry": "Blank check company / special purpose acquisition company (SPAC) seeking acquisitions in critical materials, infrastructure, and defense-aligned technology"
+    "industry": "Blank check company / special purpose acquisition company (SPAC) seeking acquisitions in critical materials, infrastructure, and defense-aligned technology",
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0
   },
   "WATR": {
     "description": "Air Water Ventures Ltd is a sustainable water solutions company that makes premium drinking water by extracting humidity from the air, selling it in aluminum cans, bottles, and glass bottles. It also manufactures atmospheric water generators (AWGs) ranging from counter-top consumer units to 3,000 liter/day industrial systems, and builds and operates water farms and bottling sites.",
