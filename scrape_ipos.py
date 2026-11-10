@@ -39,7 +39,8 @@ LLM_INTERVAL_SEC = 3.5   # 無料モデルは1分20回まで
 OPENROUTER_MODEL = "google/gemma-4-31b-it:free"   # 旧 google/gemini-2.0-flash-001 は提供終了（GitHub Models も 2026-07-30 に終了）
 # 無料モデルは提供元が混むと 429 を返すので、OpenRouter 側で順に切り替えてもらう
 # openrouter/free は考えるタイプのモデルに振られると本文が空になり、1日50回の無料枠を無駄にしたので入れない
-OPENROUTER_FALLBACKS = [OPENROUTER_MODEL, "google/gemma-4-26b-a4b-it:free"]
+# gemma は2つとも Google の提供で同時に混むので、別会社（NVIDIA）を間に挟む（OpenRouter の上限は3つ）
+OPENROUTER_FALLBACKS = [OPENROUTER_MODEL, "nvidia/nemotron-3.5-lightning:free", "google/gemma-4-26b-a4b-it:free"]
 
 
 # ============================================================
@@ -815,6 +816,9 @@ Filing excerpts:
                     print(f"  + {ipo.get('ticker','?')}: ${result.get('proposed_price_low')}-${result.get('proposed_price_high')}, {result.get('shares_outstanding')} shares")
                 else:
                     print(f"  - {ipo.get('ticker','?')}: no values")
+                    if _last_llm_status.get("daily"):
+                        print("  Free daily quota used up, stopping")
+                        break
 
                 await asyncio.sleep(1)
             except Exception as e:
@@ -860,11 +864,15 @@ async def enrich_with_llm(ipos: list) -> list:
                 ipo.update(result)
                 enriched += 1
                 rate_limited = 0
+            elif _last_llm_status.get("daily"):
+                print("  Free daily quota used up, stopping")
+                break
             elif _last_llm_status.get("code") == 429:
                 rate_limited += 1
-                if rate_limited >= 5:
-                    print("  Rate limited 5 times in a row, stopping (free quota likely used up)")
+                if rate_limited >= 10:
+                    print("  Rate limited 10 times in a row, stopping")
                     break
+                await asyncio.sleep(20)   # 提供元の混雑（temporarily rate-limited upstream）は少し待つと通ることがある
             await asyncio.sleep(LLM_INTERVAL_SEC)
 
     print(f"  Enriched: {enriched} (GitHub failures: {github_failures})")
@@ -876,14 +884,20 @@ _last_llm_status = {}
 async def _call_llm(client, url: str, model: str, prompt: str, headers: dict) -> dict:
     """LLM APIを呼び出してJSONを返す。失敗時はNone"""
     _last_llm_status["code"] = None
+    _last_llm_status["daily"] = False
     try:
-        body = {"model": model, "messages": [{"role": "user", "content": prompt}], "temperature": 0.1, "max_tokens": 200}
+        body = {"model": model, "messages": [{"role": "user", "content": prompt}], "temperature": 0.1, "max_tokens": 1000}
         if url == OPENROUTER_URL:
             body["models"] = OPENROUTER_FALLBACKS
         resp = await client.post(url, json=body, headers=headers)
         _last_llm_status["code"] = resp.status_code
+        _last_llm_status["daily"] = resp.status_code == 429 and "free-models-per-day" in resp.text
         if resp.status_code == 200:
-            c = resp.json()["choices"][0]["message"]["content"]
+            j = resp.json()
+            c = j["choices"][0]["message"]["content"]
+            if not c:
+                print(f"  LLM empty content ({j.get('model')}, finish={j['choices'][0].get('finish_reason')})")
+                return None
             if "```" in c:
                 c = c.split("```json")[-1].split("```")[0] if "```json" in c else c.split("```")[1].split("```")[0]
             c = c.strip()
@@ -1057,8 +1071,10 @@ def apply_enrichment_cache(ipos: list, cache: dict):
     """キャッシュからdescription, shares_outstanding等を復元"""
     applied = 0
     for ipo in ipos:
-        ipo_id = ipo.get("id") or ipo.get("ticker") or ipo.get("cik")
-        if ipo_id and ipo_id in cache:
+        keys = [ipo.get("id"), ipo.get("ticker"), ipo.get("cik")]
+        ipo_id = next((k for k in keys if k and k in cache and cache[k].get("description")), None) \
+            or next((k for k in keys if k and k in cache), None)
+        if ipo_id:
             cached = cache[ipo_id]
             changed = False
             for key in ("description", "products_services", "industry"):
