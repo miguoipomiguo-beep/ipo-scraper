@@ -932,9 +932,12 @@ ADS_BACKFILL_MAX = 40
 
 async def backfill_ads_ratio(ipos: list, cache: dict):
     """発行済株式数を持つ海外（F-1）銘柄のうち、まだ ADS 比率を調べていないものを調べる（正規表現だけ）"""
+    # 海外企業かどうかは今の届出種類だけでなく履歴で見る（上場が近づくと EFFECT や 424B4 に変わる。OPAY がそうだった）
+    def foreign(i):
+        types = [i.get("filing_type") or ""] + [e.get("filing_type") or "" for e in i.get("events", [])]
+        return any(t.startswith("F-") for t in types)
     todo = [i for i in ipos if i.get("shares_outstanding") and i.get("cik") and _s1_accession(i)
-            and (i.get("filing_type") or "").startswith("F-1")
-            and not (cache.get(i.get("id")) or {}).get("ads_checked")]
+            and foreign(i) and not (cache.get(i.get("id")) or {}).get("ads_checked")]
     if not todo:
         return
     print(f"\n=== ADS ratio backfill ({len(todo)} left, up to {ADS_BACKFILL_MAX}) ===")
