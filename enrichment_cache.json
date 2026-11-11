@@ -3590,7 +3590,8 @@
     "description_ja": "Graf Industrial Corp. II は新規株式公開を準備中の会社。現時点で入手可能な事業内容の公開情報は限られている。事業活動について確認できた概要を示すには、S-1 登録届出書や公式の投資家向け資料など、追加情報が必要。",
     "products_services_ja": "入手可能な情報では確認不可。製品・サービスの詳細は IPO 関連の届出書または目論見書を参照。",
     "ja_src": "82ca52f036d4",
-    "ads_checked": true
+    "ads_checked": true,
+    "shares_outstanding": 30800000
   },
   "KHG": {
     "shares_outstanding": 20818180,
@@ -3761,7 +3762,8 @@
     "description_ja": "Sin Lian Seng Construction。建築および土木工事を手がける建設会社。新規株式公開の候補とされるが、現時点の企業情報・財務情報は確認中。",
     "products_services_ja": "建設サービス（建築工事および土木工事を含む）",
     "ja_src": "121bc18c7dbe",
-    "ads_checked": true
+    "ads_checked": true,
+    "shares_outstanding": 6250000
   },
   "0002136246": {
     "shares_outstanding": 25000000,
