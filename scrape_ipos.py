@@ -535,7 +535,8 @@ def _summarize_broadcasts(broadcasts: list) -> list:
     if len(broadcasts) <= BROADCAST_MAX:
         return broadcasts
     out = []
-    for kind, label in (("new_upcoming", "new upcoming IPOs"), ("new_pending", "new IPO filings")):
+    for kind, label, label_ja in (("new_upcoming", "new upcoming IPOs", "件の新しい上場予定"),
+                                  ("new_pending", "new IPO filings", "件の新しいIPO届出")):
         items = [b for b in broadcasts if b["type"] == kind]
         if not items:
             continue
@@ -548,6 +549,8 @@ def _summarize_broadcasts(broadcasts: list) -> list:
             "ipo_id": "", "type": kind,
             "title": f"{len(items)} {label}",
             "body": f"{names}{more}. Open the app to see them.",
+            "title_ja": f"{len(items)}{label_ja}",
+            "body_ja": f"{names}" + (f" ほか{len(items) - 3}件" if len(items) > 3 else "") + "。アプリで確認できます。",
         })
     return out
 
@@ -572,6 +575,8 @@ async def detect_and_notify(ipos: list):
 
     changes = []
     new_snapshot = {}
+    sent_state = _load_json(NOTIFY_STATE, {})
+    seen_ranges = sent_state.setdefault("ranges", {})
 
     for ipo in ipos:
         ipo_id = ipo.get("id", "")
@@ -604,7 +609,9 @@ async def detect_and_notify(ipos: list):
             changes.append({
                 "ipo_id": ipo_id, "type": "withdrawn",
                 "title": f"{ticker} - IPO Withdrawn",
-                "body": f"{ipo.get('company_name', '')} has withdrawn their IPO filing."
+                "body": f"{ipo.get('company_name', '')} has withdrawn their IPO filing.",
+                "title_ja": f"{ticker} - IPO撤回",
+                "body_ja": f"{ipo.get('company_name', '')} がIPOの届出を撤回しました。",
             })
 
         # 2. 上場日決定（undated → dated）
@@ -612,7 +619,9 @@ async def detect_and_notify(ipos: list):
             changes.append({
                 "ipo_id": ipo_id, "type": "date_announced",
                 "title": f"{ticker} - Date Announced",
-                "body": f"{ipo.get('company_name', '')} IPO scheduled for {expected_date}."
+                "body": f"{ipo.get('company_name', '')} IPO scheduled for {expected_date}.",
+                "title_ja": f"{ticker} - 上場日決定",
+                "body_ja": f"{ipo.get('company_name', '')} の上場予定日が {expected_date}（米国時間）に決まりました。",
             })
 
         # 3. 上場日変更（延期）
@@ -620,7 +629,9 @@ async def detect_and_notify(ipos: list):
             changes.append({
                 "ipo_id": ipo_id, "type": "postponed",
                 "title": f"{ticker} - Date Changed",
-                "body": f"IPO date changed from {prev['expected_date']} to {expected_date}."
+                "body": f"IPO date changed from {prev['expected_date']} to {expected_date}.",
+                "title_ja": f"{ticker} - 上場日変更",
+                "body_ja": f"上場予定日が {prev['expected_date']} から {expected_date}（米国時間）に変わりました。",
             })
 
         # 4. 価格決定
@@ -628,7 +639,28 @@ async def detect_and_notify(ipos: list):
             changes.append({
                 "ipo_id": ipo_id, "type": "priced",
                 "title": f"{ticker} - Priced at ${offer_price}",
-                "body": f"{ipo.get('company_name', '')} IPO priced at ${offer_price} per share."
+                "body": f"{ipo.get('company_name', '')} IPO priced at ${offer_price} per share.",
+                "title_ja": f"{ticker} - 公開価格 ${offer_price}",
+                "body_ja": f"{ipo.get('company_name', '')} の公開価格が1株 ${offer_price} に決まりました。",
+            })
+
+        # 4b. 仮条件（価格レンジ）の変更。価格決定前のみ
+        # データ元によって値が行き来しても何度も届かないよう、一度知らせた価格帯は覚えておく
+        def _rk(a, b):
+            return f"{float(a):g}-{float(b):g}"
+        rng_key = _rk(price_low, price_high) if price_low and price_high else ""
+        if not offer_price and price_low and price_high and prev.get("price_low") and prev.get("price_high") \
+                and (float(price_low), float(price_high)) != (float(prev["price_low"]), float(prev["price_high"])) \
+                and rng_key not in seen_ranges.setdefault(ipo_id, [_rk(prev["price_low"], prev["price_high"])]):
+            seen_ranges[ipo_id].append(rng_key)
+            rng = f"${float(price_low):g}-${float(price_high):g}"
+            old_rng = f"${float(prev['price_low']):g}-${float(prev['price_high']):g}"
+            changes.append({
+                "ipo_id": ipo_id, "type": "priced",
+                "title": f"{ticker} - Price Range {rng}",
+                "body": f"{ipo.get('company_name', '')} changed its price range from {old_rng} to {rng}.",
+                "title_ja": f"{ticker} - 仮条件 {rng}",
+                "body_ja": f"{ipo.get('company_name', '')} の仮条件が {old_rng} から {rng} に変わりました。",
             })
 
         # 5. タイムライン更新（新しいイベントが追加された）
@@ -636,12 +668,17 @@ async def detect_and_notify(ipos: list):
             changes.append({
                 "ipo_id": ipo_id, "type": "timeline_update",
                 "title": f"{ticker} - New Filing",
-                "body": f"{ipo.get('company_name', '')} has a new SEC filing update."
+                "body": f"{ipo.get('company_name', '')} has a new SEC filing update.",
+                "title_ja": f"{ticker} - 新しい届出",
+                "body_ja": f"{ipo.get('company_name', '')} がSECに新しい書類を提出しました。",
             })
 
     # 6. 上場前日通知（明日上場する銘柄）。実行は1日2回以上あるので、送った分は覚えておいて1回だけにする
-    tomorrow = (datetime.now() + timedelta(days=1)).strftime("%Y-%m-%d")
-    sent_state = _load_json(NOTIFY_STATE, {})
+    # 上場日は米国東部の日付。実行環境は UTC なので、東部時間の「明日」で比べる
+    # （UTC のままだと東部の前々日の夜に「明日上場」が届いてしまう）
+    from zoneinfo import ZoneInfo
+    now_et = datetime.now(ZoneInfo("America/New_York"))
+    tomorrow = (now_et + timedelta(days=1)).strftime("%Y-%m-%d")
     day_before = sent_state.get("day_before", {})
     for ipo in ipos:
         if ipo.get("expected_date") == tomorrow:
@@ -653,11 +690,15 @@ async def detect_and_notify(ipos: list):
             changes.append({
                 "ipo_id": ipo_id, "type": "day_before",
                 "title": f"{ticker} - IPO Tomorrow",
-                "body": f"{ipo.get('company_name', '')} is scheduled to go public tomorrow ({tomorrow})."
+                "body": f"{ipo.get('company_name', '')} is scheduled to go public tomorrow ({tomorrow}).",
+                "title_ja": f"{ticker} - 明日上場",
+                "body_ja": f"{ipo.get('company_name', '')} は明日 {tomorrow}（米国時間）に上場予定です。",
             })
 
-    today_s = datetime.now().strftime("%Y-%m-%d")
+    today_s = now_et.strftime("%Y-%m-%d")
     sent_state["day_before"] = {k: v for k, v in day_before.items() if v >= today_s}
+    live = {i.get("id") for i in ipos if i.get("status") not in ("listed", "withdrawn")}
+    sent_state["ranges"] = {k: v for k, v in seen_ranges.items() if k in live}
     _save_json(NOTIFY_STATE, sent_state)
 
     # 7. 新規IPO追加通知（全ユーザー向け、無料）
@@ -675,13 +716,17 @@ async def detect_and_notify(ipos: list):
             broadcasts.append({
                 "ipo_id": ipo_id, "type": "new_upcoming",
                 "title": f"New IPO: {ticker or name[:20]}",
-                "body": f"{name} has been added to upcoming IPOs ({ipo.get('expected_date')})."
+                "body": f"{name} has been added to upcoming IPOs ({ipo.get('expected_date')}).",
+                "title_ja": f"新しい上場予定: {ticker or name[:20]}",
+                "body_ja": f"{name} が上場予定に加わりました（{ipo.get('expected_date')}）。",
             })
         else:
             broadcasts.append({
                 "ipo_id": ipo_id, "type": "new_pending",
                 "title": f"New Filing: {ticker or name[:20]}",
-                "body": f"{name} has filed for an IPO (date TBD)."
+                "body": f"{name} has filed for an IPO (date TBD).",
+                "title_ja": f"新しいIPO届出: {ticker or name[:20]}",
+                "body_ja": f"{name} がIPOを申請しました（上場日は未定）。",
             })
 
     # 新規IPO通知の安全装置。前回の状態が欠けていると既存の銘柄まで「新規」になり、
