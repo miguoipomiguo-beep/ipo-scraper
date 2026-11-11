@@ -1,1 +1,1501 @@
-{}
+{
+ "0001104659-26-114815": {
+  "analyzed_at": "2026-11-11T01:16:56+00:00",
+  "data": {
+   "fiscal_year": "2025",
+   "interim_net_income": -53443000,
+   "interim_period": "six months ended June 30, 2026",
+   "interim_revenue": 6358000,
+   "key_risks": [],
+   "key_risks_ja": [],
+   "lockup_days": null,
+   "net_income": -58505000,
+   "net_income_prior_year": -27836000,
+   "net_proceeds": 158300000,
+   "revenue": 13562000,
+   "revenue_prior_year": 2778000,
+   "underwriters": [
+    "Goldman Sachs",
+    "Jefferies",
+    "Stifel",
+    "Oppenheimer"
+   ],
+   "use_of_proceeds": [
+    "Approximately $30.0 million to fund clinical development of CITY-FXI, including Phase 1 trial"
+   ],
+   "use_of_proceeds_ja": [
+    "CITY-FXIの臨床開発費（第1相試験を含む）約3,000万ドル"
+   ],
+   "v": 1
+  },
+  "empty": false,
+  "ipo_id": "CTY",
+  "pushed_to": [
+   "CTY"
+  ]
+ },
+ "0001104659-26-118704": {
+  "analyzed_at": "2026-11-11T01:16:56+00:00",
+  "data": {
+   "fiscal_year": "2025",
+   "interim_net_income": 13296000,
+   "interim_period": "six months ended June 30, 2026",
+   "interim_revenue": 84691000,
+   "key_risks": [],
+   "key_risks_ja": [],
+   "lockup_days": 180,
+   "net_income": 22080000,
+   "net_income_prior_year": 8456000,
+   "net_proceeds": null,
+   "revenue": 164872000,
+   "revenue_prior_year": 130412000,
+   "underwriters": [],
+   "use_of_proceeds": [],
+   "use_of_proceeds_ja": [],
+   "v": 1
+  },
+  "empty": false,
+  "ipo_id": "GBC",
+  "pushed_to": [
+   "GBC"
+  ]
+ },
+ "0001104659-26-123104": {
+  "analyzed_at": "2026-11-11T01:16:56+00:00",
+  "data": {
+   "fiscal_year": null,
+   "interim_net_income": null,
+   "interim_period": "September 30, 2026",
+   "interim_revenue": null,
+   "key_risks": [
+    "Blank check company with no operating history and no revenues",
+    "Public shareholders may not vote on initial business combination; founder shares participate",
+    "Sponsor controls board appointment and holds substantial interest, influencing decisions"
+   ],
+   "key_risks_ja": [
+    "オペレーティング実績・売上がないブランクチェック会社である",
+    "公開株主が business combination の投票機会を持たない可能性",
+    "スポンサーが取締役任命を支配し、大きな持分を保有する"
+   ],
+   "lockup_days": null,
+   "net_income": null,
+   "net_income_prior_year": null,
+   "net_proceeds": null,
+   "revenue": null,
+   "revenue_prior_year": null,
+   "underwriters": [
+    "E.F. Hutton"
+   ],
+   "use_of_proceeds": [],
+   "use_of_proceeds_ja": [],
+   "v": 1
+  },
+  "empty": false,
+  "ipo_id": "0002160422",
+  "pushed_to": [
+   "0002160422"
+  ]
+ },
+ "0001104659-26-124074": {
+  "analyzed_at": "2026-11-11T01:16:56+00:00",
+  "data": {
+   "fiscal_year": "2025",
+   "interim_net_income": -25537000,
+   "interim_period": "six months ended June 30, 2026",
+   "interim_revenue": null,
+   "key_risks": [
+    "Company has limited operating history and no drug sales revenue to date",
+    "Recurring losses raise substantial doubt about ability to continue as going concern",
+    "Business depends substantially on success of ruvonoflast, a NLRP3-targeting candidate"
+   ],
+   "key_risks_ja": [
+    "限られた事業実績で医薬品販売収益は未計上",
+    "継続企業の前提に重大な疑義を生じさせる継続的損失",
+    "事業はNLRP3標的薬ruvonoflastの成否に大きく依存"
+   ],
+   "lockup_days": null,
+   "net_income": -42179000,
+   "net_income_prior_year": -25205000,
+   "net_proceeds": 181000000,
+   "revenue": null,
+   "revenue_prior_year": null,
+   "underwriters": [
+    "Jefferies",
+    "TD Cowen",
+    "Cantor",
+    "Wedbush PacGrow"
+   ],
+   "use_of_proceeds": [
+    "Advance ruvonoflast through topline data from proposed Phase 3 PAD trial",
+    "General corporate purposes"
+   ],
+   "use_of_proceeds_ja": [
+    "ruvonoflastのPAD向け第3相試験トップラインデータまでの推進",
+    "一般事業目的"
+   ],
+   "v": 1
+  },
+  "empty": false,
+  "ipo_id": "RZRA",
+  "pushed_to": [
+   "RZRA"
+  ]
+ },
+ "0001140361-26-042406": {
+  "analyzed_at": "2026-11-11T01:16:56+00:00",
+  "data": {
+   "fiscal_year": "2025",
+   "interim_net_income": -27807000,
+   "interim_period": "six months ended June 30, 2026",
+   "interim_revenue": 28558000,
+   "key_risks": [
+    "Market awareness and acceptance of our products are critical to commercial success",
+    "Operating results depend on third-party distributors, particularly Henry Schein",
+    "Reliance on third-party manufacturers and suppliers for product supply"
+   ],
+   "key_risks_ja": [
+    "製品の市場認知と受容が事業成功の鍵",
+    "Henry Scheinなど第三者販売代理店の業績への依存",
+    "製品供給を第三者の製造業者・供給業者に依存"
+   ],
+   "lockup_days": 180,
+   "net_income": -56494000,
+   "net_income_prior_year": -34737000,
+   "net_proceeds": 191100000,
+   "revenue": 30209000,
+   "revenue_prior_year": 12157000,
+   "underwriters": [
+    "Goldman Sachs",
+    "J.P. Morgan",
+    "William Blair",
+    "UBS Investment Bank",
+    "Deutsche Bank Securities"
+   ],
+   "use_of_proceeds": [
+    "Working capital",
+    "Operating expenses",
+    "Capital expenditures"
+   ],
+   "use_of_proceeds_ja": [
+    "運転資金",
+    "営業費用",
+    "設備投資"
+   ],
+   "v": 1
+  },
+  "empty": false,
+  "ipo_id": "VVVV",
+  "pushed_to": [
+   "VVVV",
+   "0001907709"
+  ]
+ },
+ "0001185185-26-004010": {
+  "analyzed_at": "2026-11-11T01:16:56+00:00",
+  "data": {
+   "fiscal_year": null,
+   "interim_net_income": null,
+   "interim_period": null,
+   "interim_revenue": null,
+   "key_risks": [
+    "Has not selected any business combination target yet",
+    "Must complete business combination within 24 months or liquidate",
+    "Public shareholders may face dilution and redemption limits"
+   ],
+   "key_risks_ja": [
+    "買収対象企業がまだ選定されていない",
+    "24か月以内に企業結合を完了できなければ清算となる",
+    "公開株主の希薄化および償還制限のリスク"
+   ],
+   "lockup_days": null,
+   "net_income": null,
+   "net_income_prior_year": null,
+   "net_proceeds": null,
+   "revenue": null,
+   "revenue_prior_year": null,
+   "underwriters": [],
+   "use_of_proceeds": [],
+   "use_of_proceeds_ja": [],
+   "v": 1
+  },
+  "empty": false,
+  "ipo_id": "OHII",
+  "pushed_to": [
+   "OHII",
+   "0002143038"
+  ]
+ },
+ "0001185185-26-004057": {
+  "analyzed_at": "2026-11-11T01:16:56+00:00",
+  "data": {
+   "fiscal_year": null,
+   "interim_net_income": null,
+   "interim_period": "June 30, 2026",
+   "interim_revenue": null,
+   "key_risks": [
+    "Public shareholders may not vote on the proposed business combination",
+    "Sponsor, officers and directors will vote in favor regardless of public shareholder vote",
+    "Redemption rights may make the company unattractive to potential business combination targets"
+   ],
+   "key_risks_ja": [
+    "公開株主が合併案に投票できない可能性がある",
+    "スポンサー・役員は公開株主の投票結果にかかわらず賛成票を投じる",
+    "償還権により買収対象にとって魅力が下がる可能性がある"
+   ],
+   "lockup_days": null,
+   "net_income": null,
+   "net_income_prior_year": null,
+   "net_proceeds": 125000000,
+   "revenue": null,
+   "revenue_prior_year": null,
+   "underwriters": [],
+   "use_of_proceeds": [],
+   "use_of_proceeds_ja": [],
+   "v": 1
+  },
+  "empty": false,
+  "ipo_id": "NIAAU",
+  "pushed_to": [
+   "NIAAU"
+  ]
+ },
+ "0001185185-26-004071": {
+  "analyzed_at": "2026-11-11T01:16:56+00:00",
+  "data": {
+   "fiscal_year": null,
+   "interim_net_income": null,
+   "interim_period": "June 30, 2026",
+   "interim_revenue": null,
+   "key_risks": [
+    "Blank check company with no operating history or revenues",
+    "Management's past performance may not indicate future results",
+    "Public shareholders may not get a vote on the business combination"
+   ],
+   "key_risks_ja": [
+    "運営実績も収益もない blank check 会社である",
+    "経営陣の過去の実績は将来の成果を示さない可能性がある",
+    "公開株主が business combination に投票できない可能性がある"
+   ],
+   "lockup_days": null,
+   "net_income": null,
+   "net_income_prior_year": null,
+   "net_proceeds": null,
+   "revenue": null,
+   "revenue_prior_year": null,
+   "underwriters": [
+    "BTIG"
+   ],
+   "use_of_proceeds": [],
+   "use_of_proceeds_ja": [],
+   "v": 1
+  },
+  "empty": false,
+  "ipo_id": "LCAC",
+  "pushed_to": [
+   "LCAC",
+   "0002147457"
+  ]
+ },
+ "0001185185-26-004843": {
+  "analyzed_at": "2026-11-11T01:16:56+00:00",
+  "data": {
+   "fiscal_year": null,
+   "interim_net_income": null,
+   "interim_period": "June 30, 2026",
+   "interim_revenue": null,
+   "key_risks": [
+    "Shareholders may not vote on business combination, enabling completion despite majority opposition",
+    "No operating history or revenues; no basis to evaluate achieving business objective",
+    "Offering not conducted under Rule 419, so investors lack Rule 419 protections"
+   ],
+   "key_risks_ja": [
+    "公開株主が合併に投票できず、過半数の反対があっても完了する可能性",
+    "営業実績・収益がなく、事業目的達成能力を評価できない",
+    "Rule 419に基づかない募集のため、同規則の投資家保護が適用されない"
+   ],
+   "lockup_days": null,
+   "net_income": null,
+   "net_income_prior_year": null,
+   "net_proceeds": null,
+   "revenue": null,
+   "revenue_prior_year": null,
+   "underwriters": [
+    "D. Boral"
+   ],
+   "use_of_proceeds": [],
+   "use_of_proceeds_ja": [],
+   "v": 1
+  },
+  "empty": false,
+  "ipo_id": "SCQCU",
+  "pushed_to": [
+   "SCQCU"
+  ]
+ },
+ "0001193125-26-249947": {
+  "analyzed_at": "2026-11-11T01:16:56+00:00",
+  "data": {
+   "fiscal_year": "2025",
+   "interim_net_income": null,
+   "interim_period": "three months ended March 31, 2026",
+   "interim_revenue": 168016000,
+   "key_risks": [
+    "Unpredictable severe catastrophe events reducing earnings and stockholders' equity",
+    "Inability to purchase reinsurance on acceptable commercial terms",
+    "Loss reserves may be inadequate to cover actual losses"
+   ],
+   "key_risks_ja": [
+    "予測困難な大規模災害による利益と株主資本の減少",
+    "商業的に妥当な条件での再保険購入不能",
+    "損失準備金が実際の損失を賄えない可能性"
+   ],
+   "lockup_days": 180,
+   "net_income": null,
+   "net_income_prior_year": null,
+   "net_proceeds": 91500000,
+   "revenue": 516309000,
+   "revenue_prior_year": 262159000,
+   "underwriters": [
+    "Deutsche Bank Securities",
+    "Morgan Stanley",
+    "Keefe, Bruyette & Woods",
+    "Citizens Capital Markets",
+    "Piper Sandler",
+    "Truist Securities"
+   ],
+   "use_of_proceeds": [
+    "Increase capitalization and financial flexibility",
+    "Credit support and growth initiatives",
+    "Offering expenses and underwriting discounts"
+   ],
+   "use_of_proceeds_ja": [
+    "資本増強と財務柔軟性の向上",
+    "信用補完および成長施策",
+    "発行費用および引受手数料"
+   ],
+   "v": 1
+  },
+  "empty": false,
+  "ipo_id": "SFPT",
+  "pushed_to": [
+   "SFPT"
+  ]
+ },
+ "0001193125-26-384287": {
+  "analyzed_at": "2026-11-11T01:16:56+00:00",
+  "data": {
+   "fiscal_year": "2025",
+   "interim_net_income": null,
+   "interim_period": "Six months ended June 30, 2026",
+   "interim_revenue": 269879000,
+   "key_risks": [
+    "Future revenue growth depends on increased demand for nuclear energy in the US and internationally",
+    "Revenues substantially dependent on customers' capital spending on nuclear projects outside our control",
+    "Speculative data center and AI-driven electricity demand assumptions may not materialize, affecting project demand"
+   ],
+   "key_risks_ja": [
+    "米国および海外での原子力エネルギー需要の増加に今後の売上成長が依存",
+    "売上が顧客の原子力関連設備投資に大きく依存し、当社が統制できない",
+    "データセンターやAI起点の電力需要想定が実現せず案件需要に影響する可能性"
+   ],
+   "lockup_days": null,
+   "net_income": null,
+   "net_income_prior_year": null,
+   "net_proceeds": null,
+   "revenue": 576617000,
+   "revenue_prior_year": 765531000,
+   "underwriters": [
+    "J.P. Morgan",
+    "Guggenheim Securities",
+    "Goldman Sachs",
+    "Citigroup",
+    "BofA Securities",
+    "Morgan Stanley"
+   ],
+   "use_of_proceeds": [],
+   "use_of_proceeds_ja": [],
+   "v": 1
+  },
+  "empty": false,
+  "ipo_id": "HNUC",
+  "pushed_to": [
+   "HNUC"
+  ]
+ },
+ "0001193125-26-396051": {
+  "analyzed_at": "2026-11-11T01:16:56+00:00",
+  "data": {
+   "fiscal_year": "2025",
+   "interim_net_income": 60768000,
+   "interim_period": "Nine months ended June 30, 2026",
+   "interim_revenue": 1214506000,
+   "key_risks": [
+    "Rapid past growth and uncertain future growth rate",
+    "Reliance on Oura Ring and Membership for substantially all revenue",
+    "Actual or perceived product defects and safety issues"
+   ],
+   "key_risks_ja": [
+    "近年の急成長と今後の成長率が不確実",
+    "リングとメンバーシップへの売上依存",
+    "製品の欠陥や安全性問題の発生リスク"
+   ],
+   "lockup_days": 180,
+   "net_income": 12000,
+   "net_income_prior_year": 3649000,
+   "net_proceeds": 532600000,
+   "revenue": 907856000,
+   "revenue_prior_year": 406751000,
+   "underwriters": [
+    "Goldman Sachs",
+    "Morgan Stanley",
+    "J.P. Morgan",
+    "Allen & Company",
+    "Jefferies",
+    "BofA Securities"
+   ],
+   "use_of_proceeds": [
+    "Satisfy tax withholding and remittance obligations related to RSU Net Settlement",
+    "Remaining proceeds for general corporate purposes"
+   ],
+   "use_of_proceeds_ja": [
+    "RSUネット決済に関連する税金源泉徴収および納付義務の充当",
+    "残余資金は一般的な企業目的に使用"
+   ],
+   "v": 1
+  },
+  "empty": false,
+  "ipo_id": "OURA",
+  "pushed_to": [
+   "OURA"
+  ]
+ },
+ "0001193125-26-399703": {
+  "analyzed_at": "2026-11-11T01:16:56+00:00",
+  "data": {
+   "fiscal_year": null,
+   "interim_net_income": null,
+   "interim_period": "August 21, 2026",
+   "interim_revenue": null,
+   "key_risks": [
+    "Public shareholders may not get a vote on the initial business combination",
+    "Founder shares and initial shareholders will vote in favor regardless of public votes",
+    "Initial shareholders will hold 20% of outstanding ordinary shares post-offering"
+   ],
+   "key_risks_ja": [
+    "公開株主が初期事業統合について投票する機会を得られない可能性",
+    "創業者株主と初期株主は公開株主の投票に関係なく賛成する",
+    "初期株主は公募後に発行済普通株式の20%を保有"
+   ],
+   "lockup_days": null,
+   "net_income": null,
+   "net_income_prior_year": null,
+   "net_proceeds": 75000000,
+   "revenue": null,
+   "revenue_prior_year": null,
+   "underwriters": [],
+   "use_of_proceeds": [],
+   "use_of_proceeds_ja": [],
+   "v": 1
+  },
+  "empty": false,
+  "ipo_id": "FLSC",
+  "pushed_to": [
+   "FLSC"
+  ]
+ },
+ "0001193125-26-402977": {
+  "analyzed_at": "2026-11-11T01:16:56+00:00",
+  "data": {
+   "fiscal_year": null,
+   "interim_net_income": null,
+   "interim_period": "July 24, 2026",
+   "interim_revenue": null,
+   "key_risks": [
+    "Shareholders may not vote on business combination; founder shares vote too",
+    "Initial shareholders and management agreed to vote in favor regardless of public vote",
+    "Initial shareholders will own 20% of outstanding shares after offering"
+   ],
+   "key_risks_ja": [
+    "株主が企業結合に投票できない可能性があり、創業者株式も議決に参加する",
+    "初期株主と経営陣は一般株主の投票にかかわらず賛成することに合意している",
+    "offering後に初期株主が発行済株式の20%を保有する"
+   ],
+   "lockup_days": null,
+   "net_income": null,
+   "net_income_prior_year": null,
+   "net_proceeds": null,
+   "revenue": null,
+   "revenue_prior_year": null,
+   "underwriters": [],
+   "use_of_proceeds": [],
+   "use_of_proceeds_ja": [],
+   "v": 1
+  },
+  "empty": false,
+  "ipo_id": "TCGX",
+  "pushed_to": [
+   "TCGX",
+   "TCXB"
+  ]
+ },
+ "0001193125-26-404122": {
+  "analyzed_at": "2026-11-11T01:16:56+00:00",
+  "data": {
+   "fiscal_year": null,
+   "interim_net_income": null,
+   "interim_period": "September 1, 2026",
+   "interim_revenue": null,
+   "key_risks": [
+    "SPAC with no operating history and no revenues",
+    "Public shareholders may not vote on proposed business combination",
+    "Substantial doubt about ability to continue as going concern"
+   ],
+   "key_risks_ja": [
+    "運営実績も収益もないSPAC",
+    "公開株主が企業結合に投票できない可能性",
+    "継続企業の前提に重大な疑義"
+   ],
+   "lockup_days": null,
+   "net_income": null,
+   "net_income_prior_year": null,
+   "net_proceeds": null,
+   "revenue": null,
+   "revenue_prior_year": null,
+   "underwriters": [
+    "Cohen & Company Capital Markets"
+   ],
+   "use_of_proceeds": [],
+   "use_of_proceeds_ja": [],
+   "v": 1
+  },
+  "empty": false,
+  "ipo_id": "0002154056",
+  "pushed_to": [
+   "0002154056"
+  ]
+ },
+ "0001193125-26-413060": {
+  "analyzed_at": "2026-11-11T01:16:56+00:00",
+  "data": {
+   "fiscal_year": "2025",
+   "interim_net_income": -29308000,
+   "interim_period": "Six months ended June 30, 2026",
+   "interim_revenue": 0,
+   "key_risks": [
+    "Clinical-stage company with limited operating history and no approved products",
+    "Substantial and increasing losses expected for the foreseeable future",
+    "Dependence on success of TRB-061 clinical development programs"
+   ],
+   "key_risks_ja": [
+    "臨床段階で運営実績が限られ、承認済み製品がない",
+    "今後も長期にわたり多額かつ増加する損失が見込まれる",
+    "TRB-061の臨床開発の成功への依存"
+   ],
+   "lockup_days": null,
+   "net_income": -34806000,
+   "net_income_prior_year": -3144000,
+   "net_proceeds": 111300000,
+   "revenue": 0,
+   "revenue_prior_year": 39108000,
+   "underwriters": [
+    "J.P. Morgan",
+    "Evercore ISI",
+    "Cantor",
+    "Stifel",
+    "Wedbush PacGrow"
+   ],
+   "use_of_proceeds": [
+    "Advance clinical development of TRB-061, including Phase 2 trials for AD and AA",
+    "Advance other clinical development programs and pipeline candidates",
+    "Working capital and other general corporate purposes"
+   ],
+   "use_of_proceeds_ja": [
+    "TRB-061の臨床開発（AD・AA向け第2相試験を含む）",
+    "その他の臨床開発プログラムおよびパイプライン候補の推進",
+    "運転資金およびその他の一般企業目的"
+   ],
+   "v": 1
+  },
+  "empty": false,
+  "ipo_id": "TRXB",
+  "pushed_to": [
+   "TRXB"
+  ]
+ },
+ "0001193125-26-414188": {
+  "analyzed_at": "2026-11-11T01:16:56+00:00",
+  "data": {
+   "fiscal_year": "2025",
+   "interim_net_income": -81886000,
+   "interim_period": "Six Months Ended June 30, 2026",
+   "interim_revenue": 512024000,
+   "key_risks": [
+    "Managing rapid growth with large construction backlog across multiple countries",
+    "Complexity of developing hyperscale data centers requiring integrated resources and approvals",
+    "Securing powered land and timely, sufficient access to power"
+   ],
+   "key_risks_ja": [
+    "複数国にまたがる大規模な建設残高を伴う急成長の管理",
+    "統合的な資源と許認可を要するハイパースケールデータセンター開発の複雑性",
+    "電力供給地の確保と、適時かつ十分な電力アクセスの確保"
+   ],
+   "lockup_days": 180,
+   "net_income": -368999000,
+   "net_income_prior_year": -56544000,
+   "net_proceeds": null,
+   "revenue": 484308000,
+   "revenue_prior_year": 178088000,
+   "underwriters": [
+    "Morgan Stanley",
+    "J.P. Morgan",
+    "BofA Securities",
+    "Citigroup",
+    "BNP Paribas"
+   ],
+   "use_of_proceeds": [
+    "Development and construction of new data center projects",
+    "Working capital and other general corporate purposes"
+   ],
+   "use_of_proceeds_ja": [
+    "新規データセンタープロジェクトの開発・建設",
+    "運転資金およびその他の一般企業目的"
+   ],
+   "v": 1
+  },
+  "empty": false,
+  "ipo_id": "0002118192",
+  "pushed_to": [
+   "0002118192"
+  ]
+ },
+ "0001193125-26-417416": {
+  "analyzed_at": "2026-11-11T01:16:56+00:00",
+  "data": {
+   "fiscal_year": "2025",
+   "interim_net_income": -50116000,
+   "interim_period": "six months ended June 30, 2026",
+   "interim_revenue": 12753000,
+   "key_risks": [],
+   "key_risks_ja": [],
+   "lockup_days": 180,
+   "net_income": -77295000,
+   "net_income_prior_year": -47877000,
+   "net_proceeds": 135000000,
+   "revenue": 9426000,
+   "revenue_prior_year": 1194000,
+   "underwriters": [],
+   "use_of_proceeds": [
+    "Increase capitalization and financial flexibility",
+    "Create a public market for our common stock",
+    "Facilitate future access to public equity markets"
+   ],
+   "use_of_proceeds_ja": [
+    "資本増強と財務の柔軟性の向上",
+    "普通株式の公開市場の創出",
+    "将来の公開株式市場へのアクセス円滑化"
+   ],
+   "v": 1
+  },
+  "empty": false,
+  "ipo_id": "IAM",
+  "pushed_to": [
+   "IAM"
+  ]
+ },
+ "0001193125-26-417752": {
+  "analyzed_at": "2026-11-11T01:16:56+00:00",
+  "data": {
+   "fiscal_year": null,
+   "interim_net_income": null,
+   "interim_period": "September 1, 2026",
+   "interim_revenue": null,
+   "key_risks": [
+    "SPAC with no operating history and no revenues",
+    "Public shareholders may lack vote on business combination",
+    "Going concern doubt in auditor's report"
+   ],
+   "key_risks_ja": [
+    "運営実績も収益もないSPAC",
+    "公開株主が business combination に投票できない可能性",
+    "監査人の報告書に継続企業の疑義"
+   ],
+   "lockup_days": null,
+   "net_income": null,
+   "net_income_prior_year": null,
+   "net_proceeds": null,
+   "revenue": null,
+   "revenue_prior_year": null,
+   "underwriters": [
+    "Cohen & Company Capital Markets"
+   ],
+   "use_of_proceeds": [],
+   "use_of_proceeds_ja": [],
+   "v": 1
+  },
+  "empty": false,
+  "ipo_id": "CSEA",
+  "pushed_to": [
+   "CSEA"
+  ]
+ },
+ "0001193125-26-431023": {
+  "analyzed_at": "2026-11-11T01:16:56+00:00",
+  "data": {
+   "fiscal_year": "2025",
+   "interim_net_income": -36546000,
+   "interim_period": "six months ended June 30, 2026",
+   "interim_revenue": null,
+   "key_risks": [],
+   "key_risks_ja": [],
+   "lockup_days": 180,
+   "net_income": -62056000,
+   "net_income_prior_year": -48557000,
+   "net_proceeds": 134500000,
+   "revenue": null,
+   "revenue_prior_year": null,
+   "underwriters": [
+    "Leerink Partners",
+    "UBS Investment Bank",
+    "Piper Sandler",
+    "Stifel",
+    "Oppenheimer & Co."
+   ],
+   "use_of_proceeds": [
+    "Fund clinical development of sasineprocel",
+    "Existing cash, equivalents and marketable securities combined with proceeds"
+   ],
+   "use_of_proceeds_ja": [
+    "サシネプロセルの臨床開発資金に充当",
+    "既存の現金・同等物・有価証券と併せて使用"
+   ],
+   "v": 1
+  },
+  "empty": false,
+  "ipo_id": "ASPE",
+  "pushed_to": [
+   "ASPE"
+  ]
+ },
+ "0001193125-26-452536": {
+  "analyzed_at": "2026-11-11T01:16:56+00:00",
+  "data": {
+   "fiscal_year": "2025",
+   "interim_net_income": -42636000,
+   "interim_period": "six months ended June 30, 2026",
+   "interim_revenue": null,
+   "key_risks": [
+    "Reliance on third parties' nonclinical study data for WIN378 and WIN027",
+    "Business depends entirely on two licensed product candidates",
+    "Development potential assumptions based on Kelun and HBM studies"
+   ],
+   "key_risks_ja": [
+    "WIN378・WIN027の非臨床データを第三者に依存",
+    "事業が二つのライセンス候補品に全面的に依存",
+    "WIN378の開発見通しがKelun・HBMの試験に依拠"
+   ],
+   "lockup_days": 180,
+   "net_income": -48323000,
+   "net_income_prior_year": -1188000,
+   "net_proceeds": 203800000,
+   "revenue": null,
+   "revenue_prior_year": null,
+   "underwriters": [
+    "Jefferies",
+    "TD Cowen",
+    "Piper Sandler",
+    "UBS Investment Bank"
+   ],
+   "use_of_proceeds": [
+    "Fund clinical development of WIN378 and WIN027 product candidates",
+    "Working capital and general corporate purposes"
+   ],
+   "use_of_proceeds_ja": [
+    "WIN378・WIN027の臨床開発資金",
+    "運転資金および一般企業目的"
+   ],
+   "v": 1
+  },
+  "empty": false,
+  "ipo_id": "WWB",
+  "pushed_to": [
+   "WWB"
+  ]
+ },
+ "0001213900-26-028518": {
+  "analyzed_at": "2026-11-11T01:16:56+00:00",
+  "data": {
+   "fiscal_year": null,
+   "interim_net_income": null,
+   "interim_period": null,
+   "interim_revenue": null,
+   "key_risks": [
+    "Demand may decrease during economic downturns or unpredictable economic cycles",
+    "Dependence on large construction contracts may cause uneven financial results",
+    "Substantial revenue concentrated among a limited number of clients"
+   ],
+   "key_risks_ja": [
+    "景気後退や予測困難な景気循環により需要が減少する恐れ",
+    "大型建設契約への依存により業績が不安定になる恐れ",
+    "少数の顧客への売上依存により事業に重大な影響が及ぶ恐れ"
+   ],
+   "lockup_days": 180,
+   "net_income": null,
+   "net_income_prior_year": null,
+   "net_proceeds": null,
+   "revenue": null,
+   "revenue_prior_year": null,
+   "underwriters": [
+    "Eddid Securities USA"
+   ],
+   "use_of_proceeds": [
+    "Business expansion",
+    "Strategic acquisitions",
+    "Working capital and other general corporate purposes"
+   ],
+   "use_of_proceeds_ja": [
+    "事業拡大",
+    "戦略的買収",
+    "運転資金及びその他一般企業目的"
+   ],
+   "v": 1
+  },
+  "empty": false,
+  "ipo_id": "BWGC",
+  "pushed_to": [
+   "BWGC"
+  ]
+ },
+ "0001213900-26-101154": {
+  "analyzed_at": "2026-11-11T01:16:56+00:00",
+  "data": {
+   "fiscal_year": "2025",
+   "interim_net_income": null,
+   "interim_period": null,
+   "interim_revenue": null,
+   "key_risks": [
+    "Business has a history of operating losses and may never achieve profitability",
+    "Significant revenue depends on a limited number of customers and logistics providers",
+    "Substantial doubt about ability to continue as a going concern"
+   ],
+   "key_risks_ja": [
+    "営業損失の継続により黒字化できない可能性がある",
+    "収益が少数の顧客・物流事業者に集中している",
+    "継続企業の前提に重要な疑義があり、事業継続能力に不安がある"
+   ],
+   "lockup_days": null,
+   "net_income": -15144450,
+   "net_income_prior_year": -10202367,
+   "net_proceeds": null,
+   "revenue": 11146862,
+   "revenue_prior_year": 11629572,
+   "underwriters": [],
+   "use_of_proceeds": [
+    "The selling shareholders may sell Class A Shares; company receives no proceeds from those sales",
+    "Up to 260,317 Class A Shares may be issued upon exercise of advisory warrants"
+   ],
+   "use_of_proceeds_ja": [
+    "選択株主が売却する場合があり、会社は売却代金を受け取らない",
+    "助言ワラントの行使により最大260,317株のクラスA株式を発行する可能性"
+   ],
+   "v": 1
+  },
+  "empty": false,
+  "ipo_id": "PTT",
+  "pushed_to": [
+   "0002110025",
+   "PTT"
+  ]
+ },
+ "0001213900-26-101822": {
+  "analyzed_at": "2026-11-11T01:16:56+00:00",
+  "data": {
+   "fiscal_year": null,
+   "interim_net_income": null,
+   "interim_period": "As of August 7, 2026",
+   "interim_revenue": null,
+   "key_risks": [
+    "Public shareholders may not vote on proposed business combination",
+    "Sponsor, officers and directors agreed to vote in favor regardless",
+    "Redemption rights may make company unattractive to business combination targets"
+   ],
+   "key_risks_ja": [
+    "公開株主が business combination に投票できない可能性",
+    "スポンサー・役員は公開株主の投票に関係なく賛成することに合意",
+    "償還権により買収対象として魅力が低下する可能性"
+   ],
+   "lockup_days": null,
+   "net_income": null,
+   "net_income_prior_year": null,
+   "net_proceeds": null,
+   "revenue": null,
+   "revenue_prior_year": null,
+   "underwriters": [
+    "Cohen & Company Capital Markets"
+   ],
+   "use_of_proceeds": [],
+   "use_of_proceeds_ja": [],
+   "v": 1
+  },
+  "empty": false,
+  "ipo_id": "0002145826",
+  "pushed_to": [
+   "0002145826"
+  ]
+ },
+ "0001213900-26-104979": {
+  "analyzed_at": "2026-11-11T01:16:56+00:00",
+  "data": {
+   "fiscal_year": null,
+   "interim_net_income": null,
+   "interim_period": "June 30, 2026",
+   "interim_revenue": null,
+   "key_risks": [
+    "Public shareholders may not vote on proposed business combination",
+    "Initial shareholder, officers, directors agree to vote in favor regardless of public vote",
+    "Blank check offering not subject to Rule 419 investor protections"
+   ],
+   "key_risks_ja": [
+    "公開株主が企業結合について投票できない可能性",
+    "初期株主・役員は公開株主の投票に関係なく賛成する",
+    "Rule 419の投資家保護が適用されない"
+   ],
+   "lockup_days": 180,
+   "net_income": null,
+   "net_income_prior_year": null,
+   "net_proceeds": null,
+   "revenue": null,
+   "revenue_prior_year": null,
+   "underwriters": [
+    "Maxim"
+   ],
+   "use_of_proceeds": [],
+   "use_of_proceeds_ja": [],
+   "v": 1
+  },
+  "empty": false,
+  "ipo_id": "0002142627",
+  "pushed_to": [
+   "0002142627"
+  ]
+ },
+ "0001213900-26-106329": {
+  "analyzed_at": "2026-11-11T01:16:56+00:00",
+  "data": {
+   "fiscal_year": null,
+   "interim_net_income": null,
+   "interim_period": null,
+   "interim_revenue": null,
+   "key_risks": [],
+   "key_risks_ja": [],
+   "lockup_days": 180,
+   "net_income": null,
+   "net_income_prior_year": null,
+   "net_proceeds": 16913919,
+   "revenue": null,
+   "revenue_prior_year": null,
+   "underwriters": [],
+   "use_of_proceeds": [
+    "Expanding manufacturing capabilities"
+   ],
+   "use_of_proceeds_ja": [
+    "製造能力の拡大"
+   ],
+   "v": 1
+  },
+  "empty": false,
+  "ipo_id": "0000715837",
+  "pushed_to": [
+   "0000715837"
+  ]
+ },
+ "0001213900-26-107572": {
+  "analyzed_at": "2026-11-11T01:16:56+00:00",
+  "data": {
+   "fiscal_year": null,
+   "interim_net_income": null,
+   "interim_period": null,
+   "interim_revenue": null,
+   "key_risks": [],
+   "key_risks_ja": [],
+   "lockup_days": null,
+   "net_income": null,
+   "net_income_prior_year": null,
+   "net_proceeds": null,
+   "revenue": null,
+   "revenue_prior_year": null,
+   "underwriters": [],
+   "use_of_proceeds": [],
+   "use_of_proceeds_ja": [],
+   "v": 1
+  },
+  "empty": true,
+  "ipo_id": "RTSN",
+  "pushed_to": []
+ },
+ "0001213900-26-111161": {
+  "analyzed_at": "2026-11-11T01:16:56+00:00",
+  "data": {
+   "fiscal_year": "2026",
+   "interim_net_income": null,
+   "interim_period": null,
+   "interim_revenue": null,
+   "key_risks": [
+    "Limited operating history may not indicate future growth",
+    "Success depends on market acceptance of software solutions in China",
+    "Must keep pace with evolving client needs and technological developments"
+   ],
+   "key_risks_ja": [
+    "限られた営業実績は将来の成長を示さない可能性がある",
+    "ソフトウェアソリューションの中国市場での受容に依存している",
+    "顧客ニーズと技術開発への継続的な対応が必要"
+   ],
+   "lockup_days": 180,
+   "net_income": 8981921,
+   "net_income_prior_year": 6731159,
+   "net_proceeds": null,
+   "revenue": 193290595,
+   "revenue_prior_year": 114936692,
+   "underwriters": [],
+   "use_of_proceeds": [],
+   "use_of_proceeds_ja": [],
+   "v": 1
+  },
+  "empty": false,
+  "ipo_id": "0002087307",
+  "pushed_to": [
+   "0002087307"
+  ]
+ },
+ "0001213900-26-112173": {
+  "analyzed_at": "2026-11-11T01:16:56+00:00",
+  "data": {
+   "fiscal_year": null,
+   "interim_net_income": null,
+   "interim_period": "June 30, 2026",
+   "interim_revenue": null,
+   "key_risks": [
+    "Public shareholders may not get a vote on the proposed business combination",
+    "Sponsor, officers, directors and board advisors will vote for initial business combination regardless of public votes",
+    "Offering not conducted under Rule 419, so Rule 419 investor protections do not apply"
+   ],
+   "key_risks_ja": [
+    "公開株主が企業結合について投票できない可能性がある",
+    "スポンサー・役員等は公開株主の投票に関係なく企業結合に賛成する",
+    "Rule 419に準拠しないため同規則の投資家保護が適用されない"
+   ],
+   "lockup_days": 180,
+   "net_income": null,
+   "net_income_prior_year": null,
+   "net_proceeds": null,
+   "revenue": null,
+   "revenue_prior_year": null,
+   "underwriters": [
+    "Maxim"
+   ],
+   "use_of_proceeds": [],
+   "use_of_proceeds_ja": [],
+   "v": 1
+  },
+  "empty": false,
+  "ipo_id": "BHAIU",
+  "pushed_to": [
+   "BHAIU"
+  ]
+ },
+ "0001213900-26-116798": {
+  "analyzed_at": "2026-11-11T01:16:56+00:00",
+  "data": {
+   "fiscal_year": null,
+   "interim_net_income": null,
+   "interim_period": null,
+   "interim_revenue": null,
+   "key_risks": [],
+   "key_risks_ja": [],
+   "lockup_days": 180,
+   "net_income": null,
+   "net_income_prior_year": null,
+   "net_proceeds": 17872982,
+   "revenue": null,
+   "revenue_prior_year": null,
+   "underwriters": [
+    "Sutter Securities"
+   ],
+   "use_of_proceeds": [
+    "Expansion into new geographical markets and jurisdictions"
+   ],
+   "use_of_proceeds_ja": [
+    "新たな地域市場・法域への事業拡大"
+   ],
+   "v": 1
+  },
+  "empty": false,
+  "ipo_id": "0002136246",
+  "pushed_to": [
+   "0002136246"
+  ]
+ },
+ "0001213900-26-116925": {
+  "analyzed_at": "2026-11-11T01:16:56+00:00",
+  "data": {
+   "fiscal_year": null,
+   "interim_net_income": null,
+   "interim_period": null,
+   "interim_revenue": null,
+   "key_risks": [
+    "Failure to provide differentiated customer experience could harm transaction volume",
+    "Dependence on acquiring desirable used vehicles at competitive prices",
+    "Material weaknesses in internal control over financial reporting"
+   ],
+   "key_risks_ja": [
+    "差別化された顧客体験の欠如が取引量を損なうリスク",
+    "競争力のある価格での中古車確保への依存",
+    "財務報告に関する内部統制の重大な不備"
+   ],
+   "lockup_days": null,
+   "net_income": null,
+   "net_income_prior_year": null,
+   "net_proceeds": null,
+   "revenue": null,
+   "revenue_prior_year": null,
+   "underwriters": [
+    "Kingswood Capital Partners"
+   ],
+   "use_of_proceeds": [
+    "Expanding vehicle inventory and supporting working capital requirements",
+    "Inventory financing and operating expenses"
+   ],
+   "use_of_proceeds_ja": [
+    "在庫車両の拡充と運転資金の確保",
+    "在庫金融および運営費用"
+   ],
+   "v": 1
+  },
+  "empty": false,
+  "ipo_id": "0002144445",
+  "pushed_to": [
+   "0002144445"
+  ]
+ },
+ "0001493152-26-010264": {
+  "analyzed_at": "2026-11-11T01:16:56+00:00",
+  "data": {
+   "fiscal_year": null,
+   "interim_net_income": null,
+   "interim_period": null,
+   "interim_revenue": null,
+   "key_risks": [
+    "Restaurant industry is highly competitive, challenging maintenance of competitive edge",
+    "Reliance on key franchise agreements in Hong Kong and Canada for operations",
+    "Dual-class structure gives controlling shareholder about 61.2% voting power"
+   ],
+   "key_risks_ja": [
+    "飲食業界の競争が激しく競争優位の維持が困難",
+    "香港・カナダでの重要なフランチャイズ契約への依存",
+    "二重株式構造により支配株主が議決権の約61.2%を保有"
+   ],
+   "lockup_days": 180,
+   "net_income": null,
+   "net_income_prior_year": null,
+   "net_proceeds": null,
+   "revenue": null,
+   "revenue_prior_year": null,
+   "underwriters": [],
+   "use_of_proceeds": [
+    "Approximately 50% for expansion of restaurant outlets"
+   ],
+   "use_of_proceeds_ja": [
+    "約50%を飲食店舗の拡大に充当"
+   ],
+   "v": 1
+  },
+  "empty": false,
+  "ipo_id": "RIKU",
+  "pushed_to": [
+   "RIKU"
+  ]
+ },
+ "0001493152-26-041834": {
+  "analyzed_at": "2026-11-11T01:16:56+00:00",
+  "data": {
+   "fiscal_year": null,
+   "interim_net_income": null,
+   "interim_period": "June 30, 2026",
+   "interim_revenue": null,
+   "key_risks": [
+    "Cayman Islands blank check company with no operating history or revenues",
+    "Sponsor, officers and two director nominees based in Hong Kong may deter non-China targets",
+    "Public shareholders may not vote on proposed initial business combination"
+   ],
+   "key_risks_ja": [
+    "運営実績も収益もないケイマン諸島のブランク・チェック会社",
+    "スポンサーと役員が香港拠点のため非中国系標的企業に敬遠される可能性",
+    "公開株主が提案された企業結合に投票できない可能性"
+   ],
+   "lockup_days": null,
+   "net_income": null,
+   "net_income_prior_year": null,
+   "net_proceeds": null,
+   "revenue": null,
+   "revenue_prior_year": null,
+   "underwriters": [],
+   "use_of_proceeds": [],
+   "use_of_proceeds_ja": [],
+   "v": 1
+  },
+  "empty": false,
+  "ipo_id": "AFNXU",
+  "pushed_to": [
+   "AFNXU"
+  ]
+ },
+ "0001575872-26-000437": {
+  "analyzed_at": "2026-11-11T01:16:56+00:00",
+  "data": {
+   "fiscal_year": "2026",
+   "interim_net_income": null,
+   "interim_period": null,
+   "interim_revenue": null,
+   "key_risks": [
+    "Failure to achieve production estimates could materially harm cash flows and results",
+    "Mineral Reserve and Resource estimates may prove materially overstated or uneconomical",
+    "All revenue derives from Zambian operations subject to government intervention"
+   ],
+   "key_risks_ja": [
+    "生産目標未達が収益とキャッシュフローに重大な影響を与える",
+    "鉱物埋蔵量・資源量の推定が過大または採算外となる恐れ",
+    "全収益がザンビア事業由来で政府介入の影響を受ける"
+   ],
+   "lockup_days": null,
+   "net_income": -339661000,
+   "net_income_prior_year": 922528000,
+   "net_proceeds": 372000000,
+   "revenue": 1330105000,
+   "revenue_prior_year": 397986000,
+   "underwriters": [
+    "Citigroup",
+    "Cantor",
+    "BMO Capital Markets",
+    "RBC Capital Markets",
+    "TD Securities",
+    "Stifel"
+   ],
+   "use_of_proceeds": [
+    "Capital expenditures support loan to Konkola Plc",
+    "Repayment of obligations related to the Transactions",
+    "General corporate purposes"
+   ],
+   "use_of_proceeds_ja": [
+    "Konkola Plcへの設備投資支援ローン",
+    "取引に関連する債務の返済",
+    "一般企業目的"
+   ],
+   "v": 1
+  },
+  "empty": false,
+  "ipo_id": "CUX",
+  "pushed_to": [
+   "CUX"
+  ]
+ },
+ "0001628280-26-066381": {
+  "analyzed_at": "2026-11-11T01:16:56+00:00",
+  "data": {
+   "fiscal_year": "2025",
+   "interim_net_income": -19196000,
+   "interim_period": "six months ended June 30, 2026",
+   "interim_revenue": 0,
+   "key_risks": [
+    "Limited operating history with no completed clinical trials or approved products",
+    "Significant historical losses with no product revenue; may never be profitable",
+    "Substantial dependence on success of LYTAC platform and IgE portfolio candidates"
+   ],
+   "key_risks_ja": [
+    "事業運営の歴史が浅く、臨床試験完了や承認製品がない",
+    "設立以来大きな損失を計上し、製品収益がなく黒字化時期が不透明",
+    "LYTACプラットフォームおよびIgE系候補物の成功への強い依存"
+   ],
+   "lockup_days": null,
+   "net_income": -36460000,
+   "net_income_prior_year": -26503000,
+   "net_proceeds": 227800000,
+   "revenue": 6741000,
+   "revenue_prior_year": 14936000,
+   "underwriters": [
+    "Jefferies",
+    "TD Cowen",
+    "Evercore ISI",
+    "Guggenheim Securities",
+    "LifeSci Capital"
+   ],
+   "use_of_proceeds": [
+    "Advance clinical development of IgE portfolio (LCA-0061, LCA-0062)",
+    "Advance clinical development of Gr... pipeline",
+    "Working capital and general corporate purposes"
+   ],
+   "use_of_proceeds_ja": [
+    "IgE系パイプライン（LCA-0061、LCA-0062）の臨床開発推進",
+    "Gr…パイプラインの臨床開発推進",
+    "運転資金および一般的な企業目的"
+   ],
+   "v": 1
+  },
+  "empty": false,
+  "ipo_id": "LYCA",
+  "pushed_to": [
+   "LYCA"
+  ]
+ },
+ "0001628280-26-067119": {
+  "analyzed_at": "2026-11-11T01:16:56+00:00",
+  "data": {
+   "fiscal_year": "2025",
+   "interim_net_income": -22360000,
+   "interim_period": "six months ended June 30, 2026",
+   "interim_revenue": null,
+   "key_risks": [
+    "Limited operating history makes future success difficult to evaluate",
+    "Significant ongoing losses and negative cash flows; may never be profitable",
+    "Lead product candidates in early clinical development with uncertain regulatory approval"
+   ],
+   "key_risks_ja": [
+    "事業の運営実績が限られ、将来性の評価が困難",
+    "継続的な大幅損失と資金流出で、黒字化の見通しが不透明",
+    "主要候補品は初期臨床段階で、規制当局の承認が不確実"
+   ],
+   "lockup_days": 180,
+   "net_income": -41087000,
+   "net_income_prior_year": -13741000,
+   "net_proceeds": 134900000,
+   "revenue": null,
+   "revenue_prior_year": null,
+   "underwriters": [
+    "BofA Securities",
+    "Evercore ISI",
+    "UBS Investment Bank",
+    "Cantor"
+   ],
+   "use_of_proceeds": [
+    "Approximately $90.0 million to fund continued development of lead product candidate BBTX"
+   ],
+   "use_of_proceeds_ja": [
+    "リード候補BBTXの継続開発に約9,000万ドル"
+   ],
+   "v": 1
+  },
+  "empty": false,
+  "ipo_id": "BBTX",
+  "pushed_to": [
+   "BBTX"
+  ]
+ },
+ "0001628280-26-067168": {
+  "analyzed_at": "2026-11-11T01:16:56+00:00",
+  "data": {
+   "fiscal_year": "2025",
+   "interim_net_income": -80748000000,
+   "interim_period": "six months ended June 30, 2026",
+   "interim_revenue": 16286000000,
+   "key_risks": [
+    "Success depends on developing the most advanced and capable AI models",
+    "Inability to secure adequate compute could hinder competitive models and customer service",
+    "Constraints on critical compute inputs could limit securing adequate compute"
+   ],
+   "key_risks_ja": [
+    "最先端で高性能なAIモデルを開発し続けられるかに事業が依存している",
+    "十分な計算資源を確保できないと競争力のあるモデルや顧客対応に支障が出る",
+    "計算資源を支える重要な投入資源の制約が確保能力を損なう恐れがある"
+   ],
+   "lockup_days": null,
+   "net_income": -41965000000,
+   "net_income_prior_year": -8309000000,
+   "net_proceeds": null,
+   "revenue": 4585000000,
+   "revenue_prior_year": 386000000,
+   "underwriters": [
+    "Goldman Sachs",
+    "Morgan Stanley",
+    "J.P. Morgan",
+    "Citigroup",
+    "Barclays",
+    "Wells Fargo Securities"
+   ],
+   "use_of_proceeds": [
+    "Increase capitalization and financial flexibility"
+   ],
+   "use_of_proceeds_ja": [
+    "資本増強と財務の柔軟性の向上"
+   ],
+   "v": 1
+  },
+  "empty": false,
+  "ipo_id": "0002130357",
+  "pushed_to": [
+   "0002130357"
+  ]
+ },
+ "0001628280-26-072484": {
+  "analyzed_at": "2026-11-11T01:16:56+00:00",
+  "data": {
+   "fiscal_year": "2025",
+   "interim_net_income": -104039000000,
+   "interim_period": "Nine Months Ended September 30, 2026",
+   "interim_revenue": 33242000000,
+   "key_risks": [
+    "Models may behave in unintended, misaligned, or autonomous harmful ways",
+    "Success depends on developing the most advanced and capable AI models",
+    "Inability to secure adequate compute could hinder competitive model training"
+   ],
+   "key_risks_ja": [
+    "モデルが意図しない、不整合、または自律的に有害な行動をとる可能性",
+    "最先端で高性能なAIモデルを開発し続ける能力に依存",
+    "十分な計算資源を確保できず、競争力あるモデル開発に支障が出る可能性"
+   ],
+   "lockup_days": 180,
+   "net_income": -41965000000,
+   "net_income_prior_year": -8309000000,
+   "net_proceeds": 84600000000,
+   "revenue": 4585000000,
+   "revenue_prior_year": 386000000,
+   "underwriters": [
+    "Goldman Sachs",
+    "Morgan Stanley",
+    "J.P. Morgan",
+    "Citigroup",
+    "Barclays",
+    "Wells Fargo Securities"
+   ],
+   "use_of_proceeds": [],
+   "use_of_proceeds_ja": [],
+   "v": 1
+  },
+  "empty": false,
+  "ipo_id": "ANT",
+  "pushed_to": [
+   "ANT"
+  ]
+ },
+ "0001929980-26-000257": {
+  "analyzed_at": "2026-11-11T01:16:56+00:00",
+  "data": {
+   "fiscal_year": "2025",
+   "interim_net_income": null,
+   "interim_period": null,
+   "interim_revenue": null,
+   "key_risks": [],
+   "key_risks_ja": [],
+   "lockup_days": 180,
+   "net_income": null,
+   "net_income_prior_year": null,
+   "net_proceeds": null,
+   "revenue": null,
+   "revenue_prior_year": null,
+   "underwriters": [],
+   "use_of_proceeds": [],
+   "use_of_proceeds_ja": [],
+   "v": 1
+  },
+  "empty": true,
+  "ipo_id": "NCOU",
+  "pushed_to": []
+ }
+}
