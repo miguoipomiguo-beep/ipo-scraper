@@ -457,7 +457,8 @@
     "proposed_price_high": 4.0,
     "description_ja": "CGL Logistics Holdings Ltd. は統合物流ソリューションの大手プロバイダーで、サプライチェーン管理と輸送サービスを専門とする。革新的な物流戦略と技術主導のソリューションを通じて、企業の業務効率向上を支援することを目指す。",
     "products_services_ja": "統合物流ソリューション、サプライチェーン管理、輸送サービス、倉庫保管、配送。",
-    "ja_src": "1e56ab9e3a58"
+    "ja_src": "1e56ab9e3a58",
+    "ads_checked": true
   },
   "APEX": {
     "description": "APEX Global Solutions Ltd. is a leading provider of innovative technology solutions aimed at enhancing operational efficiency for businesses worldwide. With a focus on cutting-edge software development and IT consulting, the company is poised for significant growth in the rapidly evolving tech landscape.",
@@ -571,7 +572,8 @@
     "proposed_price_high": 6.0,
     "description_ja": "Student Living EduVation (Holdings) Corp.は学生向けの革新的な住宅ソリューションを提供する大手企業。学生の住環境と学習環境の向上に注力し、現代的な設備とコミュニティ志向の環境を通じて学生向け宿舎の刷新を目指す。",
     "products_services_ja": "学生向け住宅の開発、不動産管理サービス、コミュニティ活動プログラム。",
-    "ja_src": "2e52f8cf7d96"
+    "ja_src": "2e52f8cf7d96",
+    "ads_checked": true
   },
   "0001974476": {
     "description": "Suke Ltd. is an innovative technology company focused on developing cutting-edge software solutions for businesses. With a commitment to enhancing operational efficiency, Suke Ltd. aims to transform the way organizations leverage technology.",
@@ -647,7 +649,8 @@
     "shares_outstanding": 5555556,
     "description_ja": "Nuclea Energy Inc.は、持続可能で効率的な発電を目指し、先進的な原子力エネルギーソリューションの開発に取り組む企業。革新への取り組みを通じ、先進技術により、よりクリーンなエネルギー源への移行を主導する立場にある。",
     "products_services_ja": "先進的な原子炉設計、燃料技術、エネルギー管理システムを提供し、原子力発電の安全性と効率性を高める。",
-    "ja_src": "613e5804f2c9"
+    "ja_src": "613e5804f2c9",
+    "ads_checked": true
   },
   "0002095476": {
     "description": "Dune Acquisition Corp III is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in high-growth sectors. The firm aims to leverage its management team's expertise to create value for shareholders through strategic acquisitions.",
@@ -835,7 +838,8 @@
     "proposed_price_high": 5.0,
     "description_ja": "Antharas Inc.は、各業界向けの先進的な人工知能ソリューションを開発する技術企業。業務効率と意思決定プロセスの向上を通じ、企業によるデータ活用の在り方の刷新を目指す。",
     "products_services_ja": "AI駆動型ソフトウェアソリューション、データ分析プラットフォーム、企業向けに設計された機械学習ツール。",
-    "ja_src": "a335ee96a181"
+    "ja_src": "a335ee96a181",
+    "ads_checked": true
   },
   "EVON": {
     "description": "EvoNexus Group LTD is a leading technology incubator that supports early-stage startups by providing resources, mentorship, and access to capital. The company focuses on fostering innovation in various sectors, including software, hardware, and life sciences.",
@@ -1542,7 +1546,8 @@
     "proposed_price_high": 10.0,
     "description_ja": "FF Global Holdings Ltd.は、さまざまな分野の事業を取得・運営する多角的な投資持株会社である。自社の専門性を生かして成長を促進し、ステークホルダーの価値向上を目指す。",
     "products_services_ja": "FF Global Holdings Ltd.は、テクノロジー、ヘルスケア、消費財などの業界の企業に投資・運営を行い、戦略的支援と業務上の指導を通じて業績向上を図る。",
-    "ja_src": "1c6bf4b059f0"
+    "ja_src": "1c6bf4b059f0",
+    "ads_checked": true
   },
   "CCIL": {
     "description": "CALM Chain International Ltd. is a pioneering technology company focused on providing innovative blockchain solutions for various industries. The company aims to enhance transparency and efficiency in supply chain management through its advanced decentralized platform.",
@@ -1553,7 +1558,8 @@
     "proposed_price_high": 7.0,
     "description_ja": "CALM Chain International Ltd.は、各業界向けの革新的なブロックチェーンソリューションを提供する先駆的テクノロジー企業。分散型プラットフォームを通じ、サプライチェーン管理の透明性と効率性向上を目指す。",
     "products_services_ja": "ブロックチェーン技術ソリューション、サプライチェーン管理ソフトウェア、コンサルティングサービス。",
-    "ja_src": "3587df2505d2"
+    "ja_src": "3587df2505d2",
+    "ads_checked": true
   },
   "PTACU": {
     "description": "Patriot Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the technology and consumer sectors. The firm aims to leverage its expertise to drive growth and create value for shareholders post-merger.",
@@ -1639,7 +1645,8 @@
     "proposed_price_high": 10.0,
     "description_ja": "Tarsier Pharma Ltd.는 희귀 신경질환 치료제를 개발하는 바이오테크 기업이다. 자체 플랫폼을 통해 고급 신약 개발로 충족되지 않은 의료 수요를 해결하는 것을 목표로 한다.",
     "products_services_ja": "희귀 신경질환을 위한 혁신 치료제, 신약 개발 플랫폼.",
-    "ja_src": "92bdf67977d3"
+    "ja_src": "92bdf67977d3",
+    "ads_checked": true
   },
   "MOT": {
     "description": "MetaOptics Ltd. is a pioneering technology company specializing in advanced optical solutions for various applications, including telecommunications and consumer electronics. The company focuses on developing innovative optical components that enhance performance and efficiency in light-based technologies.",
@@ -1650,7 +1657,9 @@
     "proposed_price_high": 8.15,
     "description_ja": "MetaOptics Ltd.は先進的な光学ソリューションを手がける技術企業で、通信機器や民生用電子機器などの用途に対応。光を利用した技術の性能と効率を高める革新的な光学部品の開発に注力。",
     "products_services_ja": "高性能レンズ、光学フィルター、各種デバイスやシステムへの組み込み向けのカスタム光学システムなどを提供。",
-    "ja_src": "bb8abcac45b9"
+    "ja_src": "bb8abcac45b9",
+    "ads_checked": true,
+    "ads_ratio": 12.0
   },
   "AMSS": {
     "description": "AMASS BRANDS is a consumer goods company focused on creating innovative and sustainable products that enhance everyday living. The company aims to disrupt traditional markets with its unique approach to branding and product development.",
@@ -1749,7 +1758,8 @@
     "proposed_price_high": 6.0,
     "description_ja": "Seahawk Recycling Holdings, Inc.는 지속 가능성과 환경적 책임에 중점을 둔 혁신적 재활용 솔루션의 선도 기업이다. 다양한 재활용 자재의 처리와 재활용을 전문으로 하여 순환경제를 지원한다.",
     "products_services_ja": "플라스틱, 금속, 전자폐기물 재활용 서비스, 폐기물 관리 및 지속 가능성 관행에 관한 컨설팅.",
-    "ja_src": "9ff888e166c7"
+    "ja_src": "9ff888e166c7",
+    "ads_checked": true
   },
   "0002082729": {
     "description": "Coolbit Technologies Ltd. is an innovative company specializing in advanced cooling solutions for electronic devices and systems. With a focus on sustainability and efficiency, they aim to revolutionize thermal management in various industries.",
@@ -1856,7 +1866,8 @@
     "proposed_price_high": 10.0,
     "description_ja": "Ticketplus Ltd.は、消費者と主催者の双方向けに、イベントチケットの購入と管理を効率化する革新的なチケッティングプラットフォーム。ユーザー体験と先進技術に注力し、ライブイベントへのアクセス方法の刷新を目指す。",
     "products_services_ja": "コンサート、スポーツイベント、フェスティバル向けチケッティングソリューション。モバイルチケット、イベント管理ツール、顧客エンゲージメント機能を含む。",
-    "ja_src": "daa74bc6bd7c"
+    "ja_src": "daa74bc6bd7c",
+    "ads_checked": true
   },
   "BIDWU": {
     "description": "Tribeca Strategic Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in high-growth sectors. The firm aims to leverage its management team's expertise to create value for shareholders through strategic acquisitions.",
@@ -1940,7 +1951,8 @@
     "proposed_price_high": 6.0,
     "description_ja": "KLA-iBotics Holdings Ltd.は、AIを搭載したロボットシステムを専門とするロボティクス・自動化ソリューションの提供企業である。各産業向けに先進的なロボットプラットフォームとソフトウェアを提供し、効率と生産性の向上を図る。",
     "products_services_ja": "ロボティクスプラットフォーム、AI搭載ソフトウェア、自動化ソリューション、システム統合、保守・サポート。",
-    "ja_src": "e8ef8585eaa1"
+    "ja_src": "e8ef8585eaa1",
+    "ads_checked": true
   },
   "0002123475": {
     "description": "Snow Rothschild Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the technology and financial sectors. The firm aims to leverage its expertise and network to drive growth and value creation for its stakeholders.",
@@ -2176,7 +2188,8 @@
     "proposed_price_high": 5.0,
     "description_ja": "Web3Labs Global Inc.はブロックチェーン技術を活用した分散型アプリケーションおよびソリューションの開発に注力する先駆的な技術企業。革新的なツールやプラットフォームの提供を通じ、企業と個人のデジタル上のやり取りや取引の向上を目指す。",
     "products_services_ja": "分散型アプリケーション（dApps）、ブロックチェーン開発サービス、スマートコントラクトソリューション、Web3インフラツール。",
-    "ja_src": "c4573f43ed76"
+    "ja_src": "c4573f43ed76",
+    "ads_checked": true
   },
   "MIAC": {
     "description": "Meridian3 Industrials Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative industrial firms. The company aims to leverage its expertise to drive growth and operational efficiencies in the industrial sector.",
@@ -2245,7 +2258,8 @@
     "proposed_price_high": 11.5,
     "description_ja": "Hacker Interstellar Inc.は高度なサイバーセキュリティソリューションを開発する技術企業。複雑化するデジタル環境下の企業を対象とし、進化するサイバー脅威から組織を守りつつ業務効率の向上を目指す。",
     "products_services_ja": "サイバーセキュリティソフトウェア、脅威検知システム、企業向けコンサルティングサービス。",
-    "ja_src": "e4a7eff20ccd"
+    "ja_src": "e4a7eff20ccd",
+    "ads_checked": true
   },
   "KARD": {
     "description": "Kardigan, Inc. is an innovative apparel company specializing in stylish and comfortable knitwear designed for modern lifestyles. With a focus on sustainability and quality, Kardigan aims to redefine casual fashion for consumers seeking both comfort and elegance.",
@@ -2434,7 +2448,8 @@
     "proposed_price_high": 6,
     "description_ja": "ChainOn Group Ltd.는 공급망 관리를 위한 블록체인 솔루션을 전문으로 하는 기술 중심 기업이다. 혁신적인 디지털 플랫폼을 통해 물류의 투명성과 효율성 향상을 목표로 한다.",
     "products_services_ja": "블록체인 기반 공급망 관리 솔루션, 물류 최적화 소프트웨어, 데이터 분석 서비스.",
-    "ja_src": "ef54744cd2b6"
+    "ja_src": "ef54744cd2b6",
+    "ads_checked": true
   },
   "0002095509": {
     "description": "Gold Stone Technical Inc. is a leading provider of innovative technology solutions focused on enhancing operational efficiency and performance for businesses across various sectors. The company specializes in advanced software development, data analytics, and IT consulting services.",
@@ -2445,7 +2460,8 @@
     "proposed_price_high": 5.0,
     "description_ja": "Gold Stone Technical Inc.는 다양한 산업 분야 기업의 운영 효율성과 성과 향상을 목표로 하는 혁신 기술 솔루션의 선도 기업이다. 첨단 소프트웨어 개발, 데이터 분석, IT 컨설팅 서비스를 전문으로 한다.",
     "products_services_ja": "소프트웨어 개발, 데이터 분석, IT 컨설팅 서비스 및 기술 통합 솔루션.",
-    "ja_src": "a97a0e48ca0f"
+    "ja_src": "a97a0e48ca0f",
+    "ads_checked": true
   },
   "0002110119": {
     "description": "AMR Resources Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the technology and energy sectors. The company aims to leverage its expertise to drive growth and create value for shareholders.",
@@ -2478,7 +2494,8 @@
     "proposed_price_high": 8.0,
     "description_ja": "Kepler Group Ltd.はデータ主導型のマーケティング・アナリティクス企業。ブランドのデジタル広告戦略の最適化に特化し、先進技術と知見を活用してクライアントのマーケティング成果の向上と測定可能な結果の達成を支援。",
     "products_services_ja": "デジタルマーケティング分析、広告最適化、データ戦略コンサルティング、成果測定ソリューション。",
-    "ja_src": "528d89c164d4"
+    "ja_src": "528d89c164d4",
+    "ads_checked": true
   },
   "SNSC": {
     "description": "SunScout Holding Ltd. is an innovative company focused on sustainable energy solutions, leveraging advanced technology to optimize solar energy production.",
@@ -2516,7 +2533,8 @@
     "proposed_price_high": 6.0,
     "description_ja": "Smart Pointer Group Holdings Ltd.は、ナビゲーションと測位システムの革新的ソリューションに特化した技術主導型企業。先進技術により様々な用途でユーザー体験の向上を目指す。",
     "products_services_ja": "Smart Pointerは、GPS追跡デバイス、ナビゲーションソフトウェア、位置情報サービスなどを、個人および法人市場向けに提供。",
-    "ja_src": "78efd957e5dd"
+    "ja_src": "78efd957e5dd",
+    "ads_checked": true
   },
   "0002081641": {
     "description": "Worldstar Engineering Holdings Ltd. is a leading provider of innovative engineering solutions, specializing in advanced manufacturing and technology integration. The company focuses on delivering high-quality products and services to various sectors, including aerospace, automotive, and industrial applications.",
@@ -2527,7 +2545,8 @@
     "proposed_price_high": 6.0,
     "description_ja": "Worldstar Engineering Holdings Ltd.は、先進的な製造とテクノロジー統合を専門とする革新的エンジニアリングソリューションの主要提供企業。航空宇宙、自動車、産業用途など様々な分野に高品質な製品・サービスを提供。",
     "products_services_ja": "先進的な製造ソリューション、エンジニアリングコンサルティング、テクノロジー統合、カスタム機械設計。",
-    "ja_src": "d378a81ee875"
+    "ja_src": "d378a81ee875",
+    "ads_checked": true
   },
   "OSPRU": {
     "description": "Osprey Acquisition Corp. III is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the technology and consumer sectors. The firm aims to leverage its management team's expertise to drive growth and create value for shareholders post-merger.",
@@ -2710,7 +2729,8 @@
     "proposed_price_high": 10.0,
     "description_ja": "Tarsier Pharma Ltd.は、希少な神経疾患向けの革新的治療法の開発に注力するバイオテクノロジー企業である。先進的な薬剤送達システムを活用し、治療効果と患者転帰の向上を図る。",
     "products_services_ja": "神経疾患向けの革新的医薬治療法、先進的な薬剤送達システム。",
-    "ja_src": "7df008698705"
+    "ja_src": "7df008698705",
+    "ads_checked": true
   },
   "MTAK": {
     "description": "Market Technology Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative technology firms. The company aims to leverage its expertise to accelerate growth and enhance value in the technology sector.",
@@ -3058,7 +3078,8 @@
     "industry": "Renewable Energy",
     "description_ja": "Yesil Global Enerji A.S.。持続可能なエネルギーソリューションと革新的技術に注力する再生可能エネルギー企業。多様なプロジェクト群を通じて世界的なクリーンエネルギーへの移行に貢献することを目指す。",
     "products_services_ja": "再生可能エネルギーソリューション、太陽光発電システム、風力発電プロジェクト、省エネルギーコンサルティング、持続可能な技術開発。",
-    "ja_src": "593f30842de1"
+    "ja_src": "593f30842de1",
+    "ads_checked": true
   },
   "PLCIU": {
     "description": "Pelican Acquisition II Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in high-growth sectors. The company aims to leverage its management team's expertise to create value for shareholders through strategic acquisitions.",
@@ -3088,7 +3109,8 @@
     "proposed_price_high": 5.0,
     "description_ja": "Sin Lian Seng Construction은 다양한 건축 및 토목 공사를 전문으로 하는 선도적 건설사다. 품질과 혁신에 대한 헌신을 바탕으로 지역 인프라 개발 향상을 목표로 한다.",
     "products_services_ja": "건설 서비스, 프로젝트 관리, 토목 공학, 인프라 개발.",
-    "ja_src": "07eb658f4893"
+    "ja_src": "07eb658f4893",
+    "ads_checked": true
   },
   "APMD": {
     "description": "Apnimed, Inc. is a clinical-stage biopharmaceutical company focused on developing innovative therapies for the treatment of sleep disorders, particularly obstructive sleep apnea. The company's lead product candidate aims to address unmet medical needs in this growing market.",
@@ -3134,7 +3156,8 @@
     "proposed_price_high": 7.0,
     "description_ja": "Devonian Health Group Inc. は、天然由来原料から革新的な健康ソリューションを開発するバイオテクノロジー企業。天然健康食品と医薬品の分野での研究および製品提供を通じて、健康増進を目指す。",
     "products_services_ja": "植物抽出物を原料とする天然健康補助食品や医薬製剤を含む製品群。",
-    "ja_src": "97c06fe26059"
+    "ja_src": "97c06fe26059",
+    "ads_checked": true
   },
   "CATL": {
     "description": "Catalyst Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in high-growth sectors. The firm aims to leverage its expertise to create value for shareholders through strategic partnerships and acquisitions.",
@@ -3244,7 +3267,8 @@
     "proposed_price_high": 10.0,
     "description_ja": "AEI CapForce II Investment Corp.は、戦略的な資本配分に注力するクローズドエンド型の投資運用会社。成長志向の資産への分散投資を通じ、長期的な値上がり益の獲得を目指す。",
     "products_services_ja": "投資運用、資本配分、ポートフォリオ分散のサービス。",
-    "ja_src": "5ce6391a1aa4"
+    "ja_src": "5ce6391a1aa4",
+    "ads_checked": true
   },
   "LEDRU": {
     "description": "Leader's Advantage Acquisition Corp. is a special purpose acquisition company formed for the purpose of effecting a merger or acquisition. The company aims to identify and partner with a high-growth target company to take it public.",
@@ -3254,7 +3278,8 @@
     "proposed_price_high": 10.0,
     "description_ja": "Leader's Advantage Acquisition Corp.。合併または買収を実行する目的で設立されたSPAC。高成長の対象企業を特定し、上場を支援することを目指す。",
     "products_services_ja": "SPAC（特別目的買収会社）サービス",
-    "ja_src": "88d18da3e8dd"
+    "ja_src": "88d18da3e8dd",
+    "ads_checked": true
   },
   "0002071166": {
     "description": "Lorenzo Developments Inc. is a real estate development firm focused on creating high-quality residential and commercial properties. The company specializes in strategic urban planning and sustainable architectural design to maximize asset value.",
@@ -3265,7 +3290,8 @@
     "proposed_price_high": 1.0,
     "description_ja": "Lorenzo Developments Inc. は、高品質な住宅および商業用不動産の開発を手がける不動産開発会社。戦略的な都市計画と持続可能な建築設計により、資産価値の最大化を図る。",
     "products_services_ja": "分譲マンション、商業用オフィススペース、複合用途の不動産開発。",
-    "ja_src": "12f803bdc57b"
+    "ja_src": "12f803bdc57b",
+    "ads_checked": true
   },
   "0002073516": {
     "description": "ARC Group Acquisition II Corp. is a special purpose acquisition company formed for the purpose of effecting a merger or acquisition. The company seeks to identify and partner with a high-growth target company to take public.",
@@ -3275,7 +3301,8 @@
     "proposed_price_high": 10.0,
     "description_ja": "ARC Group Acquisition II Corp.は、合併または買収の実行を目的として設立された特別目的買収会社（SPAC）。高成長の対象企業を発掘し、その上場を支援することを目指す。",
     "products_services_ja": "特別目的買収会社（SPAC）としてのサービス。",
-    "ja_src": "38b218b839fc"
+    "ja_src": "38b218b839fc",
+    "ads_checked": true
   },
   "glamoorecapitalgroup": {
     "description": "GLAMOORE Capital Group Co Ltd. is a strategic investment firm specializing in capital growth and portfolio diversification. The company focuses on identifying high-potential opportunities across emerging markets to deliver long-term value to shareholders.",
@@ -3312,7 +3339,8 @@
     "proposed_price_high": 10.0,
     "description_ja": "...",
     "products_services_ja": "...",
-    "ja_src": "b5ff3d4e5ae0"
+    "ja_src": "b5ff3d4e5ae0",
+    "ads_checked": true
   },
   "TIWD": {
     "description": "Timwood Holdings Ltd. is a publicly traded company specializing in sustainable timber and wood-based materials. It delivers innovative forestry solutions and eco-friendly construction products to global markets.",
@@ -3323,7 +3351,8 @@
     "proposed_price_high": 6.0,
     "description_ja": "Timwood Holdings Ltd.。持続可能な木材および木質素材を専門とする上場企業。革新的な林業ソリューションと環境配慮型の建築資材を世界市場に提供する。",
     "products_services_ja": "持続可能な木材伐採、エンジニアードウッド製品、林業コンサルティング、グリーンビルディング資材。",
-    "ja_src": "3e1817dae738"
+    "ja_src": "3e1817dae738",
+    "ads_checked": true
   },
   "ITIA": {
     "description": "Star Integratia Ltd. is a technology-driven innovator specializing in integrated solutions for modern enterprises. The company focuses on delivering scalable platforms that enhance operational efficiency and digital transformation.",
@@ -3334,7 +3363,8 @@
     "proposed_price_high": 8.0,
     "description_ja": "Star Integratia Ltd. は、現代の企業向け統合ソリューションを専門とするテクノロジー主導型のイノベーター。拡張性のあるプラットフォームの提供を通じて、業務効率の向上とデジタルトランスフォーメーションを支援する。",
     "products_services_ja": "クラウドベースのエンタープライズソフトウェア、AI を活用した分析、カスタム統合サービス。",
-    "ja_src": "51603a614c0a"
+    "ja_src": "51603a614c0a",
+    "ads_checked": true
   },
   "LARS": {
     "description": "Laris Growth Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative growth-oriented businesses. The company aims to leverage its expertise and network to drive value creation in the companies it partners with.",
@@ -3364,7 +3394,8 @@
     "industry": "Artificial Intelligence & Software-as-a-Service",
     "description_ja": "Roze AI Inc.は高度な生成AI技術を活用し、企業のワークフローの変革を目指す。グローバル展開と研究開発の加速を目的に、新規株式公開（IPO）を準備中。",
     "products_services_ja": "AIを活用したワークフロー自動化、カスタム大規模言語モデル（LLM）の統合、データ分析プラットフォーム。",
-    "ja_src": "c4bbea057ece"
+    "ja_src": "c4bbea057ece",
+    "ads_checked": true
   },
   "XTERU": {
     "description": "Karman Line Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the aerospace and technology sectors. The company aims to leverage its expertise and network to drive growth and create value for shareholders.",
@@ -3386,7 +3417,8 @@
     "proposed_price_high": 7.0,
     "description_ja": "Devonian Health Group Inc. は、天然由来原料から革新的な健康ソリューションを開発するバイオテクノロジー企業。天然健康食品と医薬品の分野での研究および製品提供を通じて、健康増進を目指す。",
     "products_services_ja": "植物抽出物を原料とする天然健康補助食品や医薬製剤を含む製品群。",
-    "ja_src": "97c06fe26059"
+    "ja_src": "97c06fe26059",
+    "ads_checked": true
   },
   "PSQL": {
     "description": "Pasqal Holding SA is a leading quantum computing company specializing in neutral-atom quantum processors. It provides scalable quantum hardware, software platforms, and cloud-based quantum services for research and industry.",
@@ -3405,7 +3437,8 @@
     "proposed_price_high": 10.0,
     "description_ja": "Lower Cross Acquisitions Corp.は、戦略的分野の有望な企業の買収に注力する新規上場企業。資本と専門性を活用し、規律ある買収を通じて持続的な株主価値の創出を目指す。",
     "products_services_ja": "戦略的買収アドバイザリー、事業統合、対象企業への資本配分。",
-    "ja_src": "7a93cab64e89"
+    "ja_src": "7a93cab64e89",
+    "ads_checked": true
   },
   "SUCH": {
     "description": "Suchness Tech Ltd. leverages advanced AI and data analytics to transform enterprise workflows, delivering intuitive platforms that enhance productivity and decision-making. As the company prepares for its IPO, it remains committed to innovation, sustainability, and delivering measurable value to global clients.",
@@ -3416,7 +3449,8 @@
     "proposed_price_high": 7.0,
     "description_ja": "Suchness Tech Ltd.は先進的なAIとデータ分析を活用し、企業のワークフローを変革する。生産性と意思決定の向上につながる直感的なプラットフォームを提供する。IPOを準備するなか、イノベーション、持続可能性、そして世界中の顧客への測定可能な価値提供に引き続き取り組む。",
     "products_services_ja": "AIを活用したワークフロー自動化、カスタム分析ダッシュボード、企業向けソフトウェアソリューション。",
-    "ja_src": "e6cabf8d8710"
+    "ja_src": "e6cabf8d8710",
+    "ads_checked": true
   },
   "DRIL": {
     "description": "Lannister Mining Corp. is a junior mining company focused on the exploration and development of high-grade gold and silver deposits in North America. The company recently completed its initial public offering to accelerate drilling programs and advance its flagship projects toward production.",
@@ -3427,7 +3461,8 @@
     "shares_outstanding": 8047204,
     "description_ja": "Lannister Mining Corp.は、北米における高品位の金・銀鉱床の探鉱・開発に注力する新興鉱山会社。直近で新規株式公開（IPO）を完了し、掘削プログラムの加速と主力プロジェクトの生産段階への移行を図る。",
     "products_services_ja": "金・銀の探鉱、資源開発、掘削事業、鉱物処理。",
-    "ja_src": "c68689240579"
+    "ja_src": "c68689240579",
+    "ads_checked": true
   },
   "BYOP": {
     "description": "KiNRG, Inc. is a technology-driven company focused on sustainable energy innovation and digital transformation. The company recently completed its initial public offering to accelerate growth and expand its impact in the clean energy market.",
@@ -3437,7 +3472,8 @@
     "proposed_price_high": 7.0,
     "description_ja": "KiNRG, Inc.。持続可能なエネルギー技術とデジタル変革に注力するテクノロジー企業。新規株式公開を完了し、成長加速とクリーンエネルギー市場での影響力拡大を目指す。",
     "products_services_ja": "再生可能エネルギープラットフォーム、エネルギー最適化ソフトウェア、法人・産業顧客向けの持続可能性コンサルティング。",
-    "ja_src": "ad19771b242b"
+    "ja_src": "ad19771b242b",
+    "ads_checked": true
   },
   "BRRKU": {
     "description": "Bluerock Acquisition Corp. II is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the real estate and technology sectors. The company aims to leverage its management team's expertise to drive growth and create value for shareholders.",
@@ -3478,7 +3514,8 @@
     "proposed_price_high": 6.0,
     "description_ja": "Smart Pointer Group Holdings Ltd.は、ナビゲーションと測位システムの革新的ソリューションに特化した技術主導型企業。先進技術により様々な用途でユーザー体験の向上を目指す。",
     "products_services_ja": "Smart Pointerは、GPS追跡デバイス、ナビゲーションソフトウェア、位置情報サービスなどを、個人および法人市場向けに提供。",
-    "ja_src": "78efd957e5dd"
+    "ja_src": "78efd957e5dd",
+    "ads_checked": true
   },
   "OURA": {
     "description": "Oura Inc. is a leading health technology company focused on improving personal wellness through advanced wearable devices. Their flagship product, the Oura Ring, tracks sleep, activity, and readiness to help users optimize their health.",
@@ -3486,7 +3523,10 @@
     "industry": "Digital health and wearable technology",
     "description_ja": "Oura Inc.は、先進的なウェアラブル機器を通じて個人の健康増進に取り組む、有力なヘルステクノロジー企業である。主力製品のOura Ringは、睡眠、活動量、コンディションを計測し、利用者の健康管理を支援する。",
     "products_services_ja": "Oura Ring、睡眠・活動量の計測、コンディションスコア、パーソナライズされた健康インサイト、モバイルアプリ連携",
-    "ja_src": "faeb336f9817"
+    "ja_src": "faeb336f9817",
+    "proposed_price_low": 42.0,
+    "proposed_price_high": 42.0,
+    "ads_checked": true
   },
   "0002089787": {
     "description": "RainRock Acquisition Corp. is a blank check company, also known as a special purpose acquisition company (SPAC), formed to raise capital through an initial public offering for the purpose of acquiring or merging with an operating business. As a shell company with no commercial operations of its own, it seeks a target business to take public, typically within a set timeframe.",
@@ -3496,7 +3536,8 @@
     "proposed_price_high": 10.0,
     "description_ja": "RainRock Acquisition Corp.は、新規株式公開により資金を調達し、事業会社の買収または合併を目的として設立されたブランク・チェック・カンパニー(SPAC)。自前の事業運営のないシェルカンパニーとして、定められた期間内に上場させる対象企業を探す。",
     "products_services_ja": "事業としての製品・サービスはなし。唯一の目的は、非公開の対象企業を特定・評価し、企業結合を完了すること。",
-    "ja_src": "b3c385aca7dc"
+    "ja_src": "b3c385aca7dc",
+    "ads_checked": true
   },
   "EMAC": {
     "description": "Essential Minerals Acquisition Corp. is a special purpose acquisition company formed to identify and combine with a business in the critical minerals sector. The company intends to leverage its capital and management expertise to pursue a target that supports the supply chain for minerals essential to the energy transition and advanced manufacturing.",
@@ -3506,7 +3547,8 @@
     "proposed_price_high": 10.0,
     "description_ja": "Essential Minerals Acquisition Corp.。重要鉱物分野の事業との統合を目的として設立されたSPAC。資本と経営の専門性を活かし、エネルギー転換や先進製造に不可欠な鉱物のサプライチェーンを支える対象の取得を目指す。",
     "products_services_ja": "ブランクチェック会社として現時点で製品・サービスは提供しない。主な活動は、重要鉱物分野の事業会社との企業結合の模索と完了。",
-    "ja_src": "6912f08acb97"
+    "ja_src": "6912f08acb97",
+    "ads_checked": true
   },
   "0002113088": {
     "description": "Graf Industrial Corp. II is a company preparing for an initial public offering, with publicly available details about its business operations limited in this context. Further information from its S-1 registration statement or official investor materials would be needed to provide a verified overview of its activities.",
@@ -3516,7 +3558,8 @@
     "proposed_price_high": 10.0,
     "description_ja": "Graf Industrial Corp. II は新規株式公開を準備中の会社。現時点で入手可能な事業内容の公開情報は限られている。事業活動について確認できた概要を示すには、S-1 登録届出書や公式の投資家向け資料など、追加情報が必要。",
     "products_services_ja": "入手可能な情報では確認不可。製品・サービスの詳細は IPO 関連の届出書または目論見書を参照。",
-    "ja_src": "82ca52f036d4"
+    "ja_src": "82ca52f036d4",
+    "ads_checked": true
   },
   "KHG": {
     "shares_outstanding": 20818180,
@@ -3527,7 +3570,8 @@
     "industry": "Human resources / workforce management staffing services",
     "description_ja": "Kainan Holding Group Ltd.はマレーシアを拠点とするワンストップの人材・労務管理サービス会社。製造業、建設業、サービス業の法人顧客向けに、適法に雇用された臨時・熟練の一時雇用労働者を手配、採用、配置、管理する。サービス契約に基づき収益を得ており、顧客には出勤確認済みの労働日数または時間に合意の賃金単価を乗じた金額を毎月請求する。新たな収益源として建設サービスも展開している。",
     "products_services_ja": "臨時・熟練一時雇用労働者の手配、採用、配置および継続的管理（オンボーディング、労働者管理、コンプライアンス支援を含む）。建設サービス。",
-    "ja_src": "11e4b4a6f27b"
+    "ja_src": "11e4b4a6f27b",
+    "ads_checked": true
   },
   "0002118192": {
     "description": "DayOne Data Centers Ltd. is a data center operator focused on developing, owning, and operating hyperscale and enterprise-grade data center campuses across the Asia-Pacific region. The company is preparing for an initial public offering to fund expansion of its capacity for cloud and AI workloads.",
@@ -3535,7 +3579,8 @@
     "industry": "Data Center Infrastructure / Digital Infrastructure (Real Estate and Technology Services)",
     "description_ja": "DayOne Data Centers Ltd.は、アジア太平洋地域でハイパースケールおよびエンタープライズ向けデータセンターキャンパスの開発・所有・運営に注力するデータセンター事業者。クラウドやAIワークロード向けの容量拡大資金を調達するため、新規株式公開を準備している。",
     "products_services_ja": "コロケーションサービス、ハイパースケールデータセンターキャンパスの開発、パワードシェル及びビルド・トゥ・スーツ型施設、データセンターの運用・管理。",
-    "ja_src": "9f005724512b"
+    "ja_src": "9f005724512b",
+    "ads_checked": true
   },
   "AGKO": {
     "description": "Aggreko Inc. is the North American arm of Aggreko, a global provider of temporary power, temperature control, and water solutions for events, construction, industrial, and emergency needs. The company supplies rental generators, chillers, heaters, and related equipment with supporting services to customers across a wide range of industries.",
@@ -3543,7 +3588,8 @@
     "industry": "Equipment rental and temporary power/temperature control services",
     "description_ja": "Aggreko Inc. は、世界的な仮設電源、温度管理、水処理ソリューションの提供企業 Aggreko の北米法人。イベント、建設、産業、緊急対応向けにサービスを提供する。発電機、チラー、ヒーターなどの機器と関連サービスを、幅広い業界の顧客に供給している。",
     "products_services_ja": "仮設発電機のレンタル、温度管理（チラーおよび加温設備）、水処理・ろ過、エネルギーソリューション、およびそれらに伴う設置、保守、監視サービス。",
-    "ja_src": "6ebf23eb4bbc"
+    "ja_src": "6ebf23eb4bbc",
+    "ads_checked": true
   },
   "HCPC": {
     "shares_outstanding": 25000000,
@@ -3554,7 +3600,8 @@
     "industry": "Pharmaceutical distribution (traditional Chinese medicine and medical products) in China",
     "description_ja": "HengHong Technology Inc.はケイマン諸島の持株会社で、Hainan HengCheng Health Industrial Co., Ltd.を中心とする中国の営業子会社を通じ、中国で医薬品を流通させる。収益は主に漢方薬・化学医薬品の流通と、2025年5月から提供を停止した関連当事者顧客向けの販促・マーケティング・サービスによる。",
     "products_services_ja": "漢方薬(感冒・インフルエンザ・咳止め薬の甘冒清熱顆粒、銀翹解毒顆粒など)および滋補薬の流通、化学医薬品の流通。滋補製品・薬用酒への展開を計画。",
-    "ja_src": "580fd366c079"
+    "ja_src": "580fd366c079",
+    "ads_checked": true
   },
   "ALLN": {
     "description": "Allarity Acquisition Corp. is a special purpose acquisition company (SPAC) formed to effect a merger, share exchange, or similar business combination with one or more operating businesses. As a blank check company, it has no commercial operations of its own and raised capital through an initial public offering to fund a future acquisition target.",
@@ -3564,7 +3611,8 @@
     "proposed_price_high": 10.0,
     "description_ja": "Allarity Acquisition Corp.は、1つ以上の事業会社との合併、株式交換、またはそれに類する企業結合の実行を目的として設立された特別目的買収会社（SPAC）。ブランクチェック会社として独自の事業運営はなく、将来の買収対象のための資金を新規株式公開（IPO）で調達した。",
     "products_services_ja": "製品・サービスなし。非公開の事業会社との企業結合の特定と完了が唯一の目的。",
-    "ja_src": "7717d9edc188"
+    "ja_src": "7717d9edc188",
+    "ads_checked": true
   },
   "JRWP": {
     "shares_outstanding": 19250000,
@@ -3575,7 +3623,8 @@
     "industry": "Consumer electric appliance wholesale and retail (electric appliance industry)",
     "description_ja": "Jingrui Wang Pu Holdings Group Ltd.は、ケイマン諸島の持株会社で、中国の運営主体(VIE)を通じ、ブランド家電(エアコン、冷蔵庫、テレビ、キッチン家電等)を10の小売店と22の卸売業者経由で販売。アフターサービスの保守・修理、経営コンサルティング、モール余剰スペースの小規模事業者向け転貸も行う。製造ではなく卸売・小売業者で、2026会計年度の収益の約85%は家電販売による。",
     "products_services_ja": "家電の小売・卸売販売(エアコン、冷蔵庫、テレビ、洗濯機、乾燥機、食器洗い機、レンジフード、電気ケトル、フードプロセッサー、炊飯器)、アフターサービスの保守・修理・設置、経営戦略・マーケティングコンサルティング、モール余剰スペースの賃貸。",
-    "ja_src": "cda547cfe8a3"
+    "ja_src": "cda547cfe8a3",
+    "ads_checked": true
   },
   "VRXA": {
     "description": "Veraxa Biotech AG is a post-de-SPAC biotechnology company that became publicly listed through a business combination with a special purpose acquisition company. The firm focuses on developing therapeutic and diagnostic solutions for unmet medical needs.",
@@ -3583,7 +3632,8 @@
     "industry": "Biotechnology / Life Sciences",
     "description_ja": "Veraxa Biotech AG。SPACとの企業結合により上場したポストde-SPACのバイオテクノロジー企業。未充足の医療ニーズに応える治療・診断ソリューションの開発に注力する。",
     "products_services_ja": "バイオ医薬品開発、治療候補品、診断ソリューション（具体的な製品は未提供。詳細は企業の開示資料で確認が必要）。",
-    "ja_src": "b31a9623022a"
+    "ja_src": "b31a9623022a",
+    "ads_checked": true
   },
   "HRIA": {
     "description": "Harbour Island Acquisition Corp. I is a blank check company formed as a special purpose acquisition vehicle to pursue a business combination with an operating company. It is seeking to raise capital through an initial public offering and will identify and evaluate a target business for a future merger, share exchange, or similar transaction.",
@@ -3593,7 +3643,8 @@
     "proposed_price_high": 10.0,
     "description_ja": "Harbour Island Acquisition Corp. Iは、事業会社との企業結合を目的とする特別目的買収ビークルとして設立されたブランク・チェック・カンパニー。新規株式公開による資金調達を目指し、将来の合併、株式交換等の対象事業を特定・評価する。",
     "products_services_ja": "事業としての製品・サービスはなし。唯一の活動は、非公開の対象企業を特定・評価し、企業結合を完了すること。",
-    "ja_src": "813de44fc497"
+    "ja_src": "813de44fc497",
+    "ads_checked": true
   },
   "GFUZ": {
     "description": "General Fusion is a Canadian private fusion energy company based in Richmond, British Columbia, developing magnetized target fusion technology to produce clean, carbon-free electricity. The company is pursuing commercial fusion power plants and has been working toward a public listing through a planned merger with a special purpose acquisition company.",
@@ -3601,7 +3652,8 @@
     "industry": "Clean Energy / Nuclear Fusion Technology",
     "description_ja": "General Fusion。カナダ・ブリティッシュコロンビア州リッチモンドに本拠を置く非上場の核融合エネルギー企業。磁化ターゲット核融合技術を開発し、クリーンで炭素を排出しない電力の生成を目指す。商業用核融合発電所の実現を目指し、SPACとの合併による上場を計画している。",
     "products_services_ja": "磁化ターゲット核融合発電技術、核融合エネルギーシステムおよび部品、クリーンなベースロード電力生成に向けた研究開発サービス。",
-    "ja_src": "816542ecf99d"
+    "ja_src": "816542ecf99d",
+    "ads_checked": true
   },
   "BOGD": {
     "shares_outstanding": 60112750,
@@ -3612,7 +3664,8 @@
     "industry": "Banking and financial services (commercial banking)",
     "description_ja": "Bogd FT Ltd は、モンゴルで法人および個人顧客向けに銀行・金融サービスを提供する多角的金融サービスグループ。2014 年設立の子会社 Bogd Bank を通じて事業を行う。融資、預金、国際送金、保険仲介、外国為替取引、信用状の発行を含む商業銀行商品を提供する。",
     "products_services_ja": "個人・法人向け融資、預金商品、国際送金、保険仲介、外国為替取引、銀行保証（信用状）、手数料収入型商品、農業・地方向け金融商品。支店、ATM、コールセンター、インターネットおよびモバイルチャネルを通じて提供。",
-    "ja_src": "6ef7a4f6471f"
+    "ja_src": "6ef7a4f6471f",
+    "ads_checked": true
   },
   "0002145826": {
     "description": "Silicon Valley Acquisition Corp. II is a blank check company, also known as a special purpose acquisition company (SPAC), formed to raise capital through an initial public offering for the purpose of acquiring or merging with an operating business. The company has no commercial operations of its own and intends to identify and combine with a privately held target company, typically in the technology sector.",
@@ -3622,7 +3675,8 @@
     "proposed_price_high": 10.0,
     "description_ja": "Silicon Valley Acquisition Corp. II。新規株式公開で資金を調達し、事業会社の取得または合併を目的とするブランクチェック会社（SPAC）。自社の事業運営はなく、主にテクノロジー分野の非上場対象企業を特定し、企業結合を行う方針。",
     "products_services_ja": "現時点ではなし。ブランクチェック会社として、対象企業の特定と企業結合の完了のみが活動。",
-    "ja_src": "e8c50d8adf2c"
+    "ja_src": "e8c50d8adf2c",
+    "ads_checked": true
   },
   "IPHXU": {
     "description": "Inflection Point Acquisition Corp. VIII is a special purpose acquisition company (SPAC) formed to effect a merger, share exchange, or similar business combination with one or more operating businesses. As a blank-check vehicle, it has no commercial operations of its own and intends to pursue a target company through its public listing process.",
@@ -3632,7 +3686,8 @@
     "proposed_price_high": 10.0,
     "description_ja": "Inflection Point Acquisition Corp. VIIIは、一つ以上の事業会社との合併、株式交換等の企業結合を行うために設立された特別目的買収会社(SPAC)。ブランク・チェック・ビークルとして自前の事業運営はなく、上場プロセスを通じて対象企業を追求する。",
     "products_services_ja": "なし。ブランク・チェック・カンパニーとして製品・サービスは提供せず、非公開の事業会社との企業結合を特定・完了することが目的。",
-    "ja_src": "b5ec6a4d5751"
+    "ja_src": "b5ec6a4d5751",
+    "ads_checked": true
   },
   "0002094989": {
     "shares_outstanding": 15990000,
@@ -3651,7 +3706,8 @@
     "proposed_price_high": 10.0,
     "description_ja": "GX Acquisition Corp. III。ケイマン諸島設立のブランクチェック会社（SPAC）で、1社以上の事業会社との企業結合を目的とする。自社の事業運営はなく、新規株式公開で調達した資金を将来の合併・買収先の確保に充てる。",
     "products_services_ja": "なし。SPACのため製品・サービスは提供せず、対象企業の選定・評価・企業結合の完了が活動の全て。",
-    "ja_src": "c1e48853ce64"
+    "ja_src": "c1e48853ce64",
+    "ads_checked": true
   },
   "LOVIU": {
     "description": "Live Oak Acquisition Corp. VI is a special purpose acquisition company (SPAC) formed to effect a merger, share exchange, asset acquisition, or similar business combination with one or more operating businesses. As a blank-check company, it has no commercial operations of its own and seeks to bring a privately held target company public through a business combination.",
@@ -3661,7 +3717,8 @@
     "proposed_price_high": 10.0,
     "description_ja": "Live Oak Acquisition Corp. VI は、1 社以上の事業会社との合併、株式交換、資産取得その他の類似の企業結合を目的として設立された SPAC（特別目的買収会社）。blank check 会社として自前の営業活動はなく、非上場の対象企業を企業結合を通じて上場させることを目指す。",
     "products_services_ja": "なし。blank check 型 SPAC のため製品・サービスは提供せず、対象企業の探索、評価、企業結合の完了に活動を限定する。",
-    "ja_src": "c26c87f38ac4"
+    "ja_src": "c26c87f38ac4",
+    "ads_checked": true
   },
   "0002097388": {
     "description": "Sin Lian Seng Construction is a construction company that undertakes building and civil engineering projects. The company is positioned as a candidate for an initial public offering, pending verification of its current corporate and financial details.",
@@ -3671,7 +3728,8 @@
     "proposed_price_high": 5.0,
     "description_ja": "Sin Lian Seng Construction。建築および土木工事を手がける建設会社。新規株式公開の候補とされるが、現時点の企業情報・財務情報は確認中。",
     "products_services_ja": "建設サービス（建築工事および土木工事を含む）",
-    "ja_src": "121bc18c7dbe"
+    "ja_src": "121bc18c7dbe",
+    "ads_checked": true
   },
   "0002136246": {
     "shares_outstanding": 25000000,
@@ -3682,7 +3740,8 @@
     "industry": "Financial technology (fintech) — cross-border payments and remittance",
     "description_ja": "BEHNEH Ltd.はシンガポールを拠点とするフィンテック企業で、現地子会社を通じてMAS（シンガポール金融管理局）のマネーペイメント事業者（Money Payment Institution）ライセンスを保有する。主にクロスボーダー決済サービス（代理受取、代理支払、ブローカレッジ、外国為替換算）を提供する。近年は規制対象の金融サービス事業の立ち上げを行う顧客向けに、アドバイザリー、オペレーション、技術支援サービスにも事業を拡大している。",
     "products_services_ja": "クロスボーダー決済サービス（代理受取、代理支払、ブローカレッジ）、国際送金、外国為替換算、規制対象金融事業向けのアドバイザリー・オペレーション・技術支援。",
-    "ja_src": "1613c1141666"
+    "ja_src": "1613c1141666",
+    "ads_checked": true
   },
   "CSEA": {
     "description": "Calm Seas Acquisition Corp. is a newly formed blank check company, also known as a special purpose acquisition company (SPAC), organized to raise capital through an initial public offering for the purpose of acquiring or merging with an operating business. The company has no commercial operations of its own and intends to identify and complete a business combination with a target company, typically within a defined period following its IPO.",
@@ -3692,7 +3751,8 @@
     "proposed_price_high": 10.0,
     "description_ja": "Calm Seas Acquisition Corp. は新設の blank check 会社（SPAC）で、新規株式公開を通じて資金を調達し、事業会社の買収または合併を目的として組成された。自前の営業活動はなく、IPO 後の一定期間内に対象企業との企業結合を特定・完了することを意図している。",
     "products_services_ja": "blank check 会社のため製品・サービスは提供しない。活動は、資金調達と非上場の事業会社との企業結合の追求に限られる。",
-    "ja_src": "583ff9d307f8"
+    "ja_src": "583ff9d307f8",
+    "ads_checked": true
   },
   "IQMX": {
     "description": "IQM Quantum Computers Oyj is a Finnish company that designs and manufactures superconducting quantum computers for research institutions, governments, and enterprises. The company is pursuing an initial public offering as it scales its quantum hardware business in Europe and globally.",
@@ -3700,7 +3760,8 @@
     "industry": "Quantum computing hardware",
     "description_ja": "IQM Quantum Computers Oyjは、研究機関、政府、企業向けに超伝導量子コンピュータを設計・製造するフィンランド企業。欧州および世界で量子ハードウェア事業を拡大する中、新規株式公開を目指している。",
     "products_services_ja": "超伝導量子コンピュータ、量子プロセッサ、量子制御システム、および量子コンピューティングのワークロード向けの関連ソフトウェアとクラウドアクセス。",
-    "ja_src": "7cb8dacd3389"
+    "ja_src": "7cb8dacd3389",
+    "ads_checked": true
   },
   "BMB": {
     "description": "Bamboo Insurance Services, Inc. is a company operating in the insurance services sector, offering insurance-related solutions to consumers and businesses. Its public offering positions it to raise capital for growth, technology investment, and expansion of its insurance distribution and service capabilities.",
@@ -3710,7 +3771,8 @@
     "proposed_price_high": 20.0,
     "description_ja": "Bamboo Insurance Services, Inc.。消費者・法人向けに保険関連ソリューションを提供する保険サービス分野の企業。公募により成長資金、技術投資、保険の販売・サービス能力の拡大に向けた資本を調達する。",
     "products_services_ja": "保険サービスおよび関連ソリューション（保険契約管理、販売、顧客向け保険商品などを含む可能性があるが、具体的な内容は未確認）。",
-    "ja_src": "f97db4d43974"
+    "ja_src": "f97db4d43974",
+    "ads_checked": true
   },
   "0002143156": {
     "description": "Lucens Capital Acquisition Corp I is a blank check company, also known as a special purpose acquisition company (SPAC), formed to effect a merger, share exchange, or similar business combination with one or more operating businesses. It has no commercial operations of its own and raises capital through an initial public offering to identify and acquire a target company.",
@@ -3720,7 +3782,8 @@
     "proposed_price_high": 10.0,
     "description_ja": "Lucens Capital Acquisition Corp I は、1 社以上の事業会社との合併、株式交換その他の類似の企業結合を目的とする blank check 会社（SPAC）である。自前の営業活動はなく、新規株式公開で資金を調達し、買収対象企業を探索・取得する。",
     "products_services_ja": "なし。SPAC のため製品・サービスは提供せず、非上場の事業会社との企業結合の完了を目指す。",
-    "ja_src": "dc0c7305db7c"
+    "ja_src": "dc0c7305db7c",
+    "ads_checked": true
   },
   "BHAIU": {
     "description": "BHAV Acquisition Corp II is a blank check company, also known as a special purpose acquisition company (SPAC), formed to effect a merger, share exchange, asset acquisition, or similar business combination with one or more operating businesses. The company has no operations of its own and intends to use the proceeds of its initial public offering to identify and complete a target acquisition.",
@@ -3730,7 +3793,8 @@
     "proposed_price_high": 10.0,
     "description_ja": "BHAV Acquisition Corp II。合併、株式交換、資産取得などの企業結合を1社以上の事業会社と行うために設立されたブランクチェック会社（SPAC）。自社の事業運営はなく、新規株式公開の調達資金で買収対象を特定し取引を完了する方針。",
     "products_services_ja": "ブランクチェック会社として製品・サービスは提供しない。非上場の事業会社との企業結合の検討・完了が活動の全て。",
-    "ja_src": "e05800e7f0f1"
+    "ja_src": "e05800e7f0f1",
+    "ads_checked": true
   },
   "0002084038": {
     "description": "Yi Feng Holdings Ltd. is a Hong Kong construction subcontractor providing civil engineering services (permanent electrical engineering works, temporary electrical and plumbing systems, vertical material handling) and steel cutting services for removing temporary steel structures at construction sites, and it also sells recyclable steel collected from those projects. Its customers are mainly main contractors and subcontractors on private and public building and infrastructure projects in Hong Kong, including residential, commercial, public housing, government, school, hospital and transport projects.",
@@ -3741,7 +3805,8 @@
     "proposed_price_high": 2.0,
     "description_ja": "Yi Feng Holdings Ltd. は香港の建設業者向け下請け会社で、恒久的な電気工事、仮設の電気・配管システム、垂直搬送などの土木工事サービスと、建設現場の仮設鉄骨撤去のための鉄骨切断サービスを提供する。あわせて、現場で回収したリサイクル可能な鉄鋼を販売している。顧客は主に香港の民間・公共の建築・インフラ工事の元請けおよび下請け業者で、住宅、商業施設、公営住宅、政府、学校、病院、交通関連などのプロジェクトを含む。",
     "products_services_ja": "土木工事の下請けサービス（恒久的電気工事、仮設の電気・配管システム、垂直搬送）、仮設鉄骨撤去のための鉄骨切断サービス、リサイクル鉄鋼の販売。",
-    "ja_src": "4590dceddea3"
+    "ja_src": "4590dceddea3",
+    "ads_checked": true
   },
   "HYACU": {
     "description": "Haymaker Acquisition Corp V is a blank check company, also known as a special purpose acquisition company (SPAC), formed to effect a merger, share exchange, asset acquisition, or similar business combination with one or more operating businesses. It has no operations of its own and raises capital through an initial public offering to identify and acquire a target company, typically in the consumer, branded, and related sectors.",
@@ -3763,7 +3828,8 @@
     "proposed_price_high": 7.0,
     "description_ja": "UDynamics Ltd は英領バージン諸島の持株会社で、香港子会社 UDomain を通じて事業を行う。UDomain は 1998 年にさかのぼる技術的な歴史を持つテクノロジーソリューションプロバイダー。香港、中国およびアジアの 2 万社超にクラウドホスティング・管理、IT ソリューションサービス（サイバーセキュリティ、アプリケーション開発、ブロックチェーンソリューションを含む）、ドメイン登録サービスを提供する。",
     "products_services_ja": "クラウドホスティング・管理サービス（共有型ウェブホスティング、専用クラウド、マルチクラウド構成、マネージドクラウド）、サイバーセキュリティサービス（マネージドセキュリティ、ペネトレーションテスト、脆弱性診断、高度な脅威検知）、アプリケーション開発（ウェブ、モバイル、エンタープライズ、ブロックチェーンアプリケーション）、ドメイン登録サービス。",
-    "ja_src": "3153c475fa5e"
+    "ja_src": "3153c475fa5e",
+    "ads_checked": true
   },
   "0002110025": {
     "description": "Siyata PTT is a Cayman Islands-incorporated developer of cellular-based push-to-talk communications solutions over 4G/LTE and 5G networks, serving first responders and enterprise customers under the Siyata brands. Its products include rugged handheld mobile devices and in-vehicle communications solutions for first responders, military, enterprise, commercial fleet, and industrial customers.",
@@ -3771,7 +3837,8 @@
     "industry": "Telecommunications equipment / mobile communications (cellular push-to-talk communications for public safety and enterprise)",
     "description_ja": "Siyata PTTは、ケイマン諸島法人として設立され、4G/LTEおよび5Gネットワーク上で動作するセルラー方式のプッシュ・トゥ・トーク通信ソリューションを開発する。Siyataブランドの下、第一対応者とエンタープライズ顧客に提供する。製品は第一対応者、軍、企業、商用車両群、産業顧客向けの耐久型携帯端末と車載通信ソリューション。",
     "products_services_ja": "第一対応者、軍、企業顧客、商用車両群、産業従事者向けの耐久型携帯セルラー端末および車載通信ソリューション。",
-    "ja_src": "a24cd276d748"
+    "ja_src": "a24cd276d748",
+    "ads_checked": true
   },
   "0002138170": {
     "description": "Spring Valley Acquisition Corp. V is a blank check company, also known as a special purpose acquisition company (SPAC), formed to effect a merger, share exchange, asset acquisition, or similar business combination with one or more operating businesses. It has no commercial operations of its own and seeks a target company to take public through a business combination, with its shareholders and sponsors receiving the benefits of the eventual target's growth.",
@@ -3781,7 +3848,8 @@
     "proposed_price_high": 10.0,
     "description_ja": "Spring Valley Acquisition Corp. V。合併、株式交換、資産取得などの企業結合を1社以上の事業会社と行うために設立されたブランクチェック会社（SPAC）。自社の事業運営はなく、企業結合を通じて対象企業を上場させる先を探す。株主とスポンサーは対象企業の成長の恩恵を受ける。",
     "products_services_ja": "なし。製品・サービスは提供せず、非上場事業会社との企業結合の検討・完了が活動の全て。",
-    "ja_src": "b868ade5bb9d"
+    "ja_src": "b868ade5bb9d",
+    "ads_checked": true
   },
   "TBCVU": {
     "description": "Thunder Bridge Capital Partners V, Ltd. is a special purpose acquisition company (SPAC), a blank-check vehicle formed to raise capital through an initial public offering for the purpose of acquiring or merging with an operating business. Its details, including its IPO status, trust account, and target sector, are not confirmed in my records, so verify them against its SEC filings.",
@@ -3791,7 +3859,8 @@
     "proposed_price_high": 10.0,
     "description_ja": "Thunder Bridge Capital Partners V, Ltd.は、新規株式公開により資金を調達し、事業会社の買収または合併を目的として設立された特別目的買収会社(SPAC)、すなわちブランク・チェック・カンパニー。新規株式公開の状況、信託口座、対象分野などの詳細は当方の記録では確認できないため、SEC提出書類で確認が必要。",
     "products_services_ja": "ブランク・チェック・カンパニーのため事業としての製品・サービスはなし。非公開の対象企業を特定し、企業結合を完了することが活動の中心。",
-    "ja_src": "ac92a73bff99"
+    "ja_src": "ac92a73bff99",
+    "ads_checked": true
   },
   "0002160422": {
     "description": "Kartoon Studios Acquisition Corp. is a special purpose acquisition company formed to pursue a business combination with an operating company in the media and entertainment sector. The vehicle raises capital through an initial public offering with the goal of acquiring or merging with a target business that can benefit from public market access.",
@@ -3801,7 +3870,8 @@
     "proposed_price_high": 10.0,
     "description_ja": "Kartoon Studios Acquisition Corp.は、メディア・エンターテインメント分野の事業会社との企業結合を目的として設立された特別目的買収会社。新規株式公開（IPO）で資金を調達し、公開市場へのアクセスから恩恵を受ける対象事業の買収または合併を目指す。",
     "products_services_ja": "ブランクチェック（白紙会社）であるため、自社の製品・サービスは持たない。非公開の対象企業との企業結合を特定し、完了させることが目的。",
-    "ja_src": "a4c75fadb581"
+    "ja_src": "a4c75fadb581",
+    "ads_checked": true
   },
   "OHII": {
     "description": "Oceanhawk Acquisition II Corp. is a blank check company, also known as a special purpose acquisition company (SPAC), formed to raise capital through an initial public offering for the purpose of acquiring or merging with an operating business. As a SPAC, it has no commercial operations of its own and is expected to identify a target company, typically within a set timeframe, to complete a business combination.",
@@ -3811,7 +3881,8 @@
     "proposed_price_high": 10.0,
     "description_ja": "Oceanhawk Acquisition II Corp.は、ブランク・チェック・カンパニー(特別目的買収会社、SPAC)で、新規株式公開により資金を調達し、事業会社の買収または合併を目的として設立された。SPACとして自前の事業運営はなく、通常は定められた期間内に対象企業を選定し、企業結合を完了することが想定される。",
     "products_services_ja": "現時点で該当なし。非公開の事業会社との企業結合が唯一の目的であり、製品・サービスは結合後の事業会社が決定する。",
-    "ja_src": "17571e672c88"
+    "ja_src": "17571e672c88",
+    "ads_checked": true
   },
   "RZRA": {
     "proposed_price_low": 11.0,
@@ -3821,7 +3892,8 @@
     "industry": "Biotechnology / pharmaceuticals (clinical-stage drug development)",
     "description_ja": "Rezera Inc.は、心血管疾患および神経疾患における無菌性炎症と残存炎症リスクの低減を目指し、独自の経口NLRP3阻害剤を開発する臨床段階のバイオテクノロジー企業。主要候補のruvonoflastは、まず末梢動脈疾患を対象に開発され、その後より広範な動脈硬化性心血管疾患への適応が予定されている。",
     "products_services_ja": "ruvonoflast（経口NLRP3阻害剤、主要開発候補、臨床開発中）、その他の経口NLRP3阻害剤のポートフォリオ。",
-    "ja_src": "3cffada3bb29"
+    "ja_src": "3cffada3bb29",
+    "ads_checked": true
   },
   "RNAQU": {
     "description": "Rainier Acquisition Corp. is a blank check company, also known as a special purpose acquisition company (SPAC), formed to raise capital through an initial public offering for the purpose of acquiring or merging with an operating business. Its management team intends to identify and complete a business combination with a target company, typically within a defined timeframe.",
@@ -3831,7 +3903,8 @@
     "proposed_price_high": 10.0,
     "description_ja": "Rainier Acquisition Corp.は、新規株式公開（IPO）で資金を調達し、事業会社の買収または合併を目的として設立されたブランクチェック会社（特別目的買収会社、SPAC）。経営陣は、定められた期間内に対象企業との企業結合を特定し、完了させることを目指す。",
     "products_services_ja": "独自の事業製品・サービスはなし。唯一の活動は非公開の対象企業の特定、評価、企業結合の完了。",
-    "ja_src": "0dd702d9ac93"
+    "ja_src": "0dd702d9ac93",
+    "ads_checked": true
   },
   "JTTT": {
     "description": "JATT III Acquisition Corp. is a blank check company, also known as a special purpose acquisition company (SPAC), formed to effect a merger, share exchange, asset acquisition, or similar business combination with one or more operating businesses. It has no commercial operations of its own and is structured to raise capital through an initial public offering for the purpose of identifying and completing an acquisition target.",
@@ -3841,7 +3914,8 @@
     "proposed_price_high": 10.0,
     "description_ja": "JATT III Acquisition Corp.は、1つ以上の事業会社との合併、株式交換、資産取得、またはそれに類する企業結合の実行を目的として設立されたブランクチェック会社（特別目的買収会社、SPAC）。独自の事業運営はなく、買収対象の特定と取引完了のため、新規株式公開（IPO）で資金を調達する構造となっている。",
     "products_services_ja": "製品・サービスなし。唯一の活動は対象企業との企業結合の特定と完了。",
-    "ja_src": "f3c2540d7e75"
+    "ja_src": "f3c2540d7e75",
+    "ads_checked": true
   },
   "SCATU": {
     "description": "Southern Cross Acquisition II Corp. is a special purpose acquisition company (SPAC), a blank-check vehicle formed to raise capital through an initial public offering for the purpose of acquiring or merging with an existing private company. It has no commercial operations of its own, and its management team seeks a suitable target business to take public through a business combination.",
@@ -3851,7 +3925,8 @@
     "proposed_price_high": 10.0,
     "description_ja": "Southern Cross Acquisition II Corp.は、新規株式公開（IPO）で資金を調達し、既存の非公開企業の買収または合併を目的とする特別目的買収会社（SPAC）、いわゆるブランクチェック会社。独自の事業運営はなく、経営陣は企業結合を通じて株式公開させる適切な対象企業を探している。",
     "products_services_ja": "なし。ブランクチェックSPACとして製品・サービスは提供せず、唯一の活動は対象企業との企業結合の特定と完了。",
-    "ja_src": "c197586449f3"
+    "ja_src": "c197586449f3",
+    "ads_checked": true
   },
   "FBDT": {
     "description": "First Breach, Inc. is a Delaware corporation that manufactures match-grade ammunition components, including brass cups and casings, full-metal-jacket projectiles, lead projectile cores, and lead wire, built to SAAMI specifications. The company is also in the development stage on unmanned aerial systems through a joint venture (First Forge Technologies Inc.) and a master services agreement, but has not yet generated revenue from that business.",
@@ -3859,7 +3934,8 @@
     "industry": "Ammunition manufacturing (firearms/ammunition components), with an emerging presence in defense unmanned aerial systems.",
     "description_ja": "First Breach, Inc.はデラウェア州法人で、SAAMI規格に準拠したマッチグレード弾薬部品を製造する。真鍮カップおよび薬莢、フルメタルジャケット弾頭、鉛弾芯、鉛ワイヤーなどを扱う。合弁会社First Forge Technologies Inc.およびマスター・サービス契約を通じ、無人航空システムの開発段階にあるが、当該事業からの収益はまだ生じていない。",
     "products_services_ja": "マッチグレード弾薬部品：真鍮カップ、真鍮薬莢（カスタム刻印薬莢を含む）、フルメタルジャケット弾頭、鉛弾芯、鉛ワイヤー。開発中：防衛、国土安全保障、商業用途向けのドローンプラットフォーム。",
-    "ja_src": "c81b655ccda5"
+    "ja_src": "c81b655ccda5",
+    "ads_checked": true
   },
   "LYNX": {
     "description": "Lyntris Inc. is a defense technology company that delivers \"sense-to-act\" connectivity solutions for the connected battlespace, serving U.S. Department of War and allied nation military customers across Maritime Domain Awareness, Air & Missile Defense, and Space ISR & Resilient Communications missions. Its offerings span sensor architecture, proprietary sensor and antenna hardware, and data and software platforms for fusion, command-and-control, and mission execution.",
@@ -4177,7 +4253,8 @@
     "proposed_price_high": 10.0,
     "description_ja": "AfterNext Acquisition I Corp.는 기업공개(IPO)를 통해 자본을 조달하고 영업 기업을 인수하거나 합병할 목적으로 설립된 블랭크체크 회사, 즉 특수목적회사(SPAC)다. 자체 영업활동은 없으며, 경영진은 특정 분야의 대상 기업을 찾아 사업 결합을 완료할 계획이다.",
     "products_services_ja": "없음. 제품이나 서비스가 없으며, 유일한 목적은 비상장 영업 기업과 사업 결합을 완료하는 것이다.",
-    "ja_src": "60d26fb19aa3"
+    "ja_src": "60d26fb19aa3",
+    "ads_checked": true
   },
   "0001851535": {
     "description": "Lannister Mining Corp. is an emerging mining company preparing for its initial public offering, focused on the responsible exploration, extraction, and development of mineral resources. The company aims to deliver long-term value to investors through disciplined operations, sustainable practices, and a growth-oriented project pipeline.",
@@ -4262,7 +4339,8 @@
     "proposed_price_high": 18.0,
     "description_ja": "Holtec Nuclear Corp.は、米国を拠点とする原子力技術企業であり、使用済み核燃料の貯蔵システム、廃炉サービス、先進炉の開発を、世界中の電力会社や政府機関の顧客向けに提供している。原子力インフラとクリーンエネルギー事業の成長資金を調達するため、新規株式公開に向けて準備を進めている。",
     "products_services_ja": "使用済み燃料の貯蔵・輸送システム（乾式キャスク貯蔵）、原子力発電所の廃炉サービス、SMR（小型モジュール炉）の開発、原子力部品およびエンジニアリングサービス。",
-    "ja_src": "349b1b924f57"
+    "ja_src": "349b1b924f57",
+    "ads_checked": true
   },
   "giftsinternationalho": {},
   "HYAC": {
@@ -4295,7 +4373,8 @@
     "industry": "Space data analytics / space situational awareness (aerospace and defense technology)",
     "description_ja": "NorthStar Earth & Space Enterprises, Inc.。宇宙空間状況認識（SSA）および宇宙領域認識（SDA）のため、第三者の母衛星に搭載した光学センサーと、地上のレーダー・光学・RFデータを統合する専用インフラを構築するデータ分析企業。軌道上物体をリアルタイムで検知・追跡・分析し、防衛、民生宇宙、商業事業者にサービスを提供する。意図的な宇宙脅威の早期検知や宇宙交通管理の分析も提供する。",
     "products_services_ja": "宇宙物体（RSO）のリアルタイム検知・追跡・分析。軌道力学および機械学習アルゴリズムを用いた、宇宙状況認識・領域認識と宇宙交通管理の分析。",
-    "ja_src": "bc02568d6462"
+    "ja_src": "bc02568d6462",
+    "ads_checked": true
   },
   "0002087307": {
     "description": "Sensing4D AI Ltd, founded in June 2020, specializes in the research, development, and application of AI-driven 3D vision technology, offering high-precision 3D reconstruction, robotics 3D vision, embodied intelligence simulation training grounds, and industry-specific applications through its proprietary Sen-3D Platform. The company serves enterprise clients in sectors such as industrial parks, robotics, digital cities, forestry technology, and smart manufacturing with technology products and professional services.",
@@ -4303,7 +4382,8 @@
     "industry": "Artificial intelligence and 3D vision technology",
     "description_ja": "Sensing4D AI Ltd.は2020年6月設立。AIによる3Dビジョン技術の研究開発および応用を専門とし、高精度3D再構築、ロボティクス向け3Dビジョン、エンボディドAIのシミュレーション訓練場、独自のSen-3D Platformを通じた業界別ソリューションを提供する。産業団地、ロボティクス、デジタルシティ、林業テクノロジー、スマート製造などの分野の法人顧客に、技術製品と専門サービスを提供する。",
     "products_services_ja": "Sen-3D Platform（知覚モデリングエンジンSen-Modelingとシミュレーションエンジン Sen-Creationで構成）、3D再構築、ロボティクス向け3Dビジョン、エンボディドAIシミュレーション訓練場、4D構造化エンボディドデータ取得システム、モバイル3Dモデリング・AR対話用のSenMirror App、パーソナライズされたデジタルコンテンツ制作。",
-    "ja_src": "fa19a91ba91f"
+    "ja_src": "fa19a91ba91f",
+    "ads_checked": true
   },
   "0002088286": {
     "description": "Danneskjold & Galt Acquisition Co is a Cayman Islands blank check company incorporated in September 2025 to effect a business combination with one or more operating businesses. It intends to focus its search on targets in the financial technology and artificial intelligence sectors.",
@@ -4311,7 +4391,8 @@
     "proposed_price_low": 10.0,
     "proposed_price_high": 10.0,
     "description_ja": "Danneskjold & Galt Acquisition Co。2025年9月に設立されたケイマン諸島のブランクチェック会社で、1社以上の事業会社との企業結合を目的とする。対象はフィンテックおよび人工知能分野を中心に探索する予定。",
-    "ja_src": "ae38efc75d4f"
+    "ja_src": "ae38efc75d4f",
+    "ads_checked": true
   },
   "0002098038": {
     "description": "Zensitive Holding Ltd is a Cayman Islands holding company that, through its Hong Kong operating subsidiary Zensitive Limited, provides end-to-end project management services for fit-out works covering HVAC, fire protection, electrical, plumbing, painting, partitioning, finishes, fittings, and furniture installation for commercial and residential properties. In fiscal 2025 it reported revenue of approximately HK$59.6 million, up from HK$12.0 million in fiscal 2024.",
@@ -4322,7 +4403,8 @@
     "proposed_price_high": 4.0,
     "description_ja": "Zensitive Holding Ltd。ケイマン諸島の持株会社で、香港の運営子会社Zensitive Limitedを通じ、商業用・住宅用物件の内装工事（空調、消防、電気、配管、塗装、間仕切り、仕上げ、設備、家具設置）のエンドツーエンドのプロジェクト管理サービスを提供する。2025年度の売上高は約5,960万香港ドルで、2024年度の1,200万香港ドルから増加。",
     "products_services_ja": "香港における商業・住宅プロジェクト向け内装工事のエンドツーエンド・プロジェクト管理（空調、消防、電気、配管、塗装、間仕切り壁、壁・床仕上げ、装飾設備、家具・造作）。",
-    "ja_src": "79e8b4e7a4a1"
+    "ja_src": "79e8b4e7a4a1",
+    "ads_checked": true
   },
   "0001907709": {
     "description": "vVARDIS Holding AG is a healthcare company whose proprietary peptide-enabled Curodont® platform is positioned as a clinically validated, drill-free treatment for early-stage cavities that aims to stop decay progression and repair enamel. Its flagship products, Curodont® Repair Fluoride Plus (sold in the U.S. as an OTC drug) and Curodont® Repair (sold in other markets), generated $30.2 million in net revenue for 2025.",
@@ -4331,7 +4413,8 @@
     "shares_outstanding": 182285006,
     "description_ja": "vVARDIS Holding AG はヘルスケア企業で、独自のペプチド技術を用いた Curodont® プラットフォームを展開する。初期段階のう蝕（虫歯）に対し、ドリルを使わずに、う蝕の進行を止め、エナメル質を修復することを狙う治療法として位置づけられ、臨床的な検証を謳う。主力製品の Curodont® Repair Fluoride Plus（米国では OTC 医薬品として販売）と Curodont® Repair（その他の市場で販売）により、2025 年の純売上高は 3,020 万ドルだった。",
     "products_services_ja": "Curodont® Repair Fluoride Plus および Curodont® Repair。初期段階のう蝕（虫歯）の治療に用いるペプチド配合の歯科用製剤。",
-    "ja_src": "e50b305b927f"
+    "ja_src": "e50b305b927f",
+    "ads_checked": true
   },
   "0000715837": {
     "description": "LPC Ltd operates through its Malaysian subsidiary Lotus Power Corporation (M) Sdn. Bhd., which supplies electrical distribution equipment and provides integrated supply, testing and commissioning services across Malaysia. The company resells third-party manufactured transformers, switchgear and related equipment to sectors including buildings and infrastructure, utilities, railways, renewable energy, mining, marine and data centres.",
@@ -4342,7 +4425,8 @@
     "shares_outstanding": 18750000,
     "description_ja": "LPC Ltd.は、マレーシア子会社Lotus Power Corporation (M) Sdn. Bhd.を通じ、マレーシア国内に配電機器を供給し、統合的な供給・試験・試運転サービスを提供する。第三者製造の変圧器、開閉装置等の関連機器を再販し、建築・インフラ、電力会社、鉄道、再生可能エネルギー、鉱業、海洋、データセンター等の分野に販売。",
     "products_services_ja": "中電圧開閉装置、中電圧変圧器、超高圧開閉装置、電力用変圧器、低電圧配電フィーダーピラー。プロジェクト調整、調達、工場受入試験、納入、据付・試験・試運転の支援。",
-    "ja_src": "ad0bcf1a9e06"
+    "ja_src": "ad0bcf1a9e06",
+    "ads_checked": true
   },
   "0002144445": {
     "description": "UC Automotive Holdings Inc. operates a used vehicle dealership and automotive services business in Canada, headquartered in Richmond, British Columbia and focused on the Greater Vancouver area. The company combines used vehicle sales, vehicle leasing and rental, rent-to-own programs, financing support and after-sales services.",
@@ -4350,7 +4434,8 @@
     "industry": "Used vehicle dealership and automotive services (automotive retail).",
     "description_ja": "UC Automotive Holdings Inc. はカナダで中古車販売店および自動車関連サービス事業を営む。本社はブリティッシュコロンビア州リッチモンドにあり、グレーター・バンクーバー地域を主な営業エリアとする。中古車販売、車両リースおよびレンタル、レントトゥオウン（所有型レンタル）プログラム、金融支援、アフターサービスを組み合わせて提供する。",
     "products_services_ja": "中古車販売、車両のリースおよびレンタル、レントトゥオウン・プログラム、金融支援、アフターサービス。",
-    "ja_src": "121a2ed3f36c"
+    "ja_src": "121a2ed3f36c",
+    "ads_checked": true
   },
   "HCAX": {
     "description": "Hall Chadwick Acquisition Corp II is a newly incorporated Cayman Islands blank check company formed to effect a business combination with one or more businesses, and it has not yet selected any target. It intends to focus on high-growth companies in critical materials, infrastructure, and defense-aligned technology sectors.",
@@ -4358,7 +4443,8 @@
     "proposed_price_low": 10.0,
     "proposed_price_high": 10.0,
     "description_ja": "Hall Chadwick Acquisition Corp II は、1 社以上の事業との企業結合を目的として新たに設立されたケイマン諸島の blank check 会社であり、まだ買収対象を選定していない。重要鉱物、インフラ、防衛関連技術の分野で成長性の高い企業を重点対象とする方針。",
-    "ja_src": "a0f75e01114c"
+    "ja_src": "a0f75e01114c",
+    "ads_checked": true
   },
   "WATR": {
     "description": "Air Water Ventures Ltd is a sustainable water solutions company that makes premium drinking water by extracting humidity from the air, selling it in aluminum cans, bottles, and glass bottles. It also manufactures atmospheric water generators (AWGs) ranging from counter-top consumer units to 3,000 liter/day industrial systems, and builds and operates water farms and bottling sites.",
@@ -4366,7 +4452,8 @@
     "industry": "Sustainable water solutions / bottled water and atmospheric water generation technology",
     "description_ja": "Air Water Ventures Ltdは、空気中の湿気を抽出してプレミアム飲料水を製造する持続可能な水ソリューション企業。アルミ缶、ボトル、ガラス瓶で販売するほか、卓上型の家庭用から1日3,000リットルの産業用までの大気水生成機(AWG)を製造し、ウォーターファーム及びボトリング施設の建設・運営も行う。",
     "products_services_ja": "プレミアム容器入り飲料水(アルミ缶、ガラス瓶、プラスチックフリーボトル)、大気水生成機(AWG、家庭用卓上型から1日3,000リットルの産業用まで)、ウォーターファーム及びボトリング施設の建設・運営。",
-    "ja_src": "e88392d3cc30"
+    "ja_src": "e88392d3cc30",
+    "ads_checked": true
   },
   "ADBT": {
     "description": "Advasa Holdings, Inc. is a Delaware holding company for Advasa Co., Ltd. (Tokyo, Japan), a financial technology company focused on improving how employees access and manage their earned income. Its core FUKUPE platform is a patented Earned Wage Access solution that lets employees access earned wages in real time, delivered as a hosted cloud service integrated with employers' HR and payroll systems.",
@@ -4513,7 +4600,8 @@
     "industry": "Telecommunications equipment / cellular-based communications solutions for public safety and enterprise",
     "description_ja": "Siyata PTTは、ケイマン諸島法に基づく免税会社であり、Siyataブランドのもとで4G/LTEおよび5Gネットワーク上のセルラー方式の通信ソリューションを開発するグローバル企業である。頑丈なハンドヘルド型モバイル機器と車載通信ソリューションを、第一対応者、軍、法人顧客、商用車両群、産業従事者向けに販売している。",
     "products_services_ja": "頑丈なハンドヘルド型セルラー・モバイル機器、車載通信ソリューション",
-    "ja_src": "352ec9861232"
+    "ja_src": "352ec9861232",
+    "ads_checked": true
   },
   "RUIH": {
     "description": "RUI Holdings Inc. operates through subsidiaries that provide integrated facility management and integrated transportation/logistics services, with operations in the Middle East (including the KSA and UAE) and PRC subsidiaries. The excerpt does not detail specific products or the full scope of its services beyond these general service areas.",
@@ -4522,7 +4610,8 @@
     "shares_outstanding": 15990000,
     "description_ja": "RUI Holdings Inc.は、統合ファシリティマネジメントおよび統合輸送・物流サービスを提供する子会社を通じて事業を展開しており、中東（サウジアラビアおよびアラブ首長国連邦を含む）と中国の子会社を有する。抜粋からは、これらの一般的なサービス分野を超える具体的な製品や事業の全体像は分からない。",
     "products_services_ja": "統合ファシリティマネジメント、統合輸送・物流サービス",
-    "ja_src": "d20ad4e1e0f9"
+    "ja_src": "d20ad4e1e0f9",
+    "ads_checked": true
   },
   "OCLT": {
     "description": "OceanLight Acquisition Corp is a newly formed Cayman Islands blank check company (SPAC) with no operations, formed to effect a merger, share exchange, or similar business combination with one or more target businesses, with no specific target identified yet. Its IPO proceeds will be held in a U.S.-based trust account invested in U.S. treasuries or qualifying money market funds until a business combination is completed or the company liquidates.",
@@ -4530,7 +4619,8 @@
     "proposed_price_low": 10.0,
     "proposed_price_high": 10.0,
     "description_ja": "OceanLight Acquisition Corpは、ケイマン諸島で新設された blank check 会社（SPAC）。事業運営はなく、1社以上の対象企業との合併、株式交換などの企業結合を目的とする。対象企業は未定。IPO調達資金は、企業結合の完了または清算まで、米国内の信託口座で米国債または適格マネー・マーケット・ファンドに運用される。",
-    "ja_src": "6aa3347449d1"
+    "ja_src": "6aa3347449d1",
+    "ads_checked": true
   },
   "VVVV": {
     "description": "vVARDIS Holding AG is a healthcare company whose proprietary peptide-enabled Curodont® platform is positioned as a clinically validated, drill-free treatment for early-stage cavities that aims to stop decay progression and repair enamel. Its flagship products, Curodont® Repair Fluoride Plus (sold in the U.S. as an OTC drug) and Curodont® Repair (sold in other markets), generated $30.2 million in net revenue for 2025.",
@@ -4539,7 +4629,8 @@
     "shares_outstanding": 182285006,
     "description_ja": "vVARDIS Holding AG はヘルスケア企業で、独自のペプチド技術を用いた Curodont® プラットフォームを展開する。初期段階のう蝕（虫歯）に対し、ドリルを使わずに、う蝕の進行を止め、エナメル質を修復することを狙う治療法として位置づけられ、臨床的な検証を謳う。主力製品の Curodont® Repair Fluoride Plus（米国では OTC 医薬品として販売）と Curodont® Repair（その他の市場で販売）により、2025 年の純売上高は 3,020 万ドルだった。",
     "products_services_ja": "Curodont® Repair Fluoride Plus および Curodont® Repair。初期段階のう蝕（虫歯）の治療に用いるペプチド配合の歯科用製剤。",
-    "ja_src": "e50b305b927f"
+    "ja_src": "e50b305b927f",
+    "ads_checked": true
   },
   "WWB": {
     "description": "WINDWARD BIO GROUP AG is a clinical-stage biotechnology company developing ultra-long-acting antibody medicines for serious respiratory and dermatologic diseases such as asthma, COPD, and atopic dermatitis. Its lead candidates, WIN378 (a TSLP-inhibiting monoclonal antibody) and WIN027 (a TSLP/IL-13 bispecific antibody), are designed for less frequent dosing than currently available biologic treatments.",
@@ -4549,7 +4640,8 @@
     "proposed_price_high": 17.0,
     "description_ja": "WINDWARD BIO GROUP AGは、喘息、COPD、アトピー性皮膚炎などの重篤な呼吸器・皮膚疾患を対象とする超長時間作用型抗体医薬を開発する臨床段階のバイオテクノロジー企業。主要候補のWIN378（TSLP阻害モノクローナル抗体）およびWIN027（TSLP/IL-13二重特異性抗体）は、既存の生物学的製剤より投与頻度が少ないよう設計されている。",
     "products_services_ja": "開発中の超長時間作用型モノクローナル抗体および二重特異性抗体医薬（WIN378およびWIN027）。抜粋内に商用製品の記載はない。",
-    "ja_src": "e0a78ef6fe43"
+    "ja_src": "e0a78ef6fe43",
+    "ads_checked": true
   },
   "0002048740": {
     "description": "EUROEV Holdings Ltd is a British Virgin Islands company that, upon closing of a pending business combination, will own Aiways Automobile Europe GmbH, which imports, distributes, and supports battery electric vehicles sourced from Chinese manufacturer Aiways Shangrao across 16 European countries. The company's distribution operations are currently largely shut down due to suspended manufacturing by its supplier, and it is planning to restart through European assembly and new suppliers.",
@@ -4557,6 +4649,7 @@
     "industry": "Automotive – electric vehicle import, distribution, and aftersales services in Europe",
     "description_ja": "EUROEV Holdings Ltd。英領バージン諸島の会社で、係属中の企業結合の完了時に、Aiways Automobile Europe GmbHを保有する。同社は中国メーカーAiways Shangrao製の電気自動車（BEV）を欧州16カ国で輸入・販売・サポートしている。供給元の製造停止により販売事業は現在ほぼ停止しており、欧州内組立や新規サプライヤーにより再開を計画している。",
     "products_services_ja": "電気自動車（BEV）および関連のアフターセールス、部品、顧客関係管理。欧州基準への適合を行うミュンヘンの技術センターも運営。",
-    "ja_src": "ca1a872b767d"
+    "ja_src": "ca1a872b767d",
+    "ads_checked": true
   }
 }
