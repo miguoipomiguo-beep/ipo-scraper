@@ -25,10 +25,14 @@ jobs:
           python-version: '3.12'
 
       - name: Install dependencies
+        timeout-minutes: 20   # 2026-11-11: runner DNS failure made apt hang until the 90-min job timeout
         run: |
           pip install -r requirements.txt
           playwright install chromium
-          playwright install-deps
+          for i in 1 2 3; do
+            timeout 300 playwright install-deps && break
+            echo "install-deps failed (attempt $i)"; sleep 20
+          done || true
 
       - name: Run scraper
         env:
