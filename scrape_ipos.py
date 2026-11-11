@@ -770,15 +770,33 @@ async def detect_and_notify(ipos: list):
     if changes:
         calls.append({"changes": changes, "broadcasts": []})
     calls += [{"changes": [], "broadcasts": [b]} for b in broadcasts]
+    # Worker は1回に40台までしか送れない（Cloudflare 無料プランの通信回数の上限）。
+    # 返ってきた cursor で続きを頼み、全端末に届くまで呼び直す
     try:
         async with httpx.AsyncClient(timeout=120) as client:
             for body in calls:
-                resp = await client.post(
-                    f"{WORKER_URL}/api/admin/notify",
-                    json=body,
-                    headers={"Authorization": f"Bearer {ADMIN_TOKEN}"}
-                )
-                print(f"  Notify response: {resp.status_code} {resp.text[:200]}")
+                cursor, pages, total = None, 0, {"sent": 0, "failed": 0, "removed": 0}
+                reasons = {}
+                while pages < 100:
+                    resp = await client.post(
+                        f"{WORKER_URL}/api/admin/notify",
+                        json={**body, "cursor": cursor, "limit": 40},
+                        headers={"Authorization": f"Bearer {ADMIN_TOKEN}"}
+                    )
+                    pages += 1
+                    if resp.status_code != 200:
+                        print(f"  Notify response: {resp.status_code} {resp.text[:200]}")
+                        break
+                    r = resp.json()
+                    for k in total:
+                        total[k] += r.get(k) or 0
+                    for k, v in (r.get("reasons") or {}).items():
+                        reasons[k] = reasons.get(k, 0) + v
+                    cursor = r.get("next")
+                    if not cursor:
+                        break
+                    await asyncio.sleep(0.5)
+                print(f"  Notify: {total} in {pages} call(s), failures {reasons}")
     except Exception as e:
         print(f"  Notify error: {e}")
 

@@ -17,8 +17,8 @@ import httpx
 HERE = Path(__file__).parent
 CACHE_PATH = HERE / "s1_analysis_cache.json"     # {accession: {"ipo_id", "data", "analyzed_at", "pushed_to", "empty"}}
 STATE_PATH = HERE / "s1_batch_state.json"        # 送ったまま結果を受け取っていないバッチ
-SCHEMA_VERSION = 2          # 2: 通貨を記録し、単位の読み違いを正規表現で補正（v1 は全件分析し直す）
-MAX_PER_RUN = 120         # 1回のバッチに入れる件数（SEC からの取得が1件約6秒。120件で約12分、全体60分の制限内）
+SCHEMA_VERSION = 3          # 3: 届出書の本来の通貨で記録し、見出しの通貨記号で確かめる（v2 は換算欄の選び間違いがあった）
+MAX_PER_RUN = 200         # 1回のバッチに入れる件数（SEC からの取得が1件約6秒。200件で約20分。ワークフローの制限は90分）
 EXCERPT_LIMIT = 9000      # Haiku に渡す文字数の上限（約2,300トークン）
 LISTED_LOOKBACK_DAYS = 120
 BATCH_GIVE_UP_HOURS = 30  # バッチは最長24時間。これを過ぎても終わらなければ捨てて送り直す
@@ -163,7 +163,7 @@ SCHEMA = {
 # 指示は固定文にして、全リクエストで同じ先頭（キャッシュが効く形）にしておく
 SYSTEM = """You extract facts from excerpts of SEC IPO registration statements (S-1/F-1). Use ONLY the excerpt. Never guess; use null or [] when the excerpt does not state it.
 - Financials: from the summary financial data table. Report numbers exactly as printed. Losses are negative. revenue = total revenue (null for pre-revenue companies). Latest full fiscal year and the one before (match each number to its column header); interim = latest partial period shown, if any.
-- If the table has a US$/USD convenience-translation column, report the USD column and set currency "USD"; otherwise set currency to the ISO code of the reporting currency (e.g. CAD, MYR, CNY, HKD, SGD, EUR, JPY; "RM" = MYR, "RMB" = CNY). Use null for a year that has no USD column.
+- Report the figures in the company's reporting currency (the main columns), NOT any US$ "convenience translation" column. "currency" = its ISO 4217 code: USD, CAD, MYR ("RM"), CNY ("RMB"), HKD, SGD, TWD ("NT$"), JPY, EUR, GBP, AUD, etc.
 - "unit": "thousands" only if the table explicitly says "in thousands" (or "$000", "'000"); "millions" only if it says "in millions"; otherwise "units" (amounts printed in full).
 - net_proceeds_usd: estimated net proceeds to the company in US dollars (full number, e.g. 181000000), assuming no over-allotment.
 - use_of_proceeds: up to 3 items, each under 12 words.
@@ -203,11 +203,36 @@ _UNIT_THOUSANDS = re.compile(r"in\s+thousands|thousands\s+of|\(\s*\$?\s*0{3}s?\s
 _UNIT_MILLIONS = re.compile(r"in\s+millions|millions\s+of\s+(?:U\.?S\.?\s*)?dollars", re.I)
 
 
+_CCY_TOKENS = [
+    (r"\bRM\b|\bMYR\b|Ringgit", "MYR"), (r"\bRMB\b|\bCNY\b|Renminbi", "CNY"), (r"HK\$|\bHKD\b", "HKD"),
+    (r"CAD\$|\bC\$|\bCAD\b|Canadian dollars?", "CAD"), (r"\bS\$|\bSGD\b", "SGD"), (r"NT\$|\bTWD\b", "TWD"),
+    (r"\bJPY\b|¥|Japanese yen", "JPY"), (r"€|\bEUR\b", "EUR"), (r"£|\bGBP\b", "GBP"), (r"\bA\$|\bAUD\b", "AUD"),
+    (r"\bTHB\b|Baht", "THB"), (r"\bINR\b|₹", "INR"), (r"\bKRW\b|₩", "KRW"), (r"\bIDR\b|Rupiah", "IDR"),
+    (r"\bPHP\b|₱", "PHP"), (r"\bVND\b", "VND"), (r"\bCHF\b", "CHF"), (r"\bILS\b|NIS\b", "ILS"),
+]
+_ISO_ALIASES = {"RM": "MYR", "RMB": "CNY", "NT$": "TWD", "HK$": "HKD", "US$": "USD", "C$": "CAD", "S$": "SGD"}
+
+
+def _financial_section(excerpt_text: str) -> str:
+    m = re.search(r"\[SUMMARY FINANCIAL DATA\](.*?)(?:\n\[[A-Z ]+\]|\Z)", excerpt_text, re.S)
+    return m.group(1) if m else excerpt_text
+
+
+def currency_hint(excerpt_text: str):
+    """財務の表の見出しに3回以上出てくるドル以外の通貨。無ければ None（米ドルとみなす）"""
+    sec = _financial_section(excerpt_text)
+    best, n = None, 0
+    for pat, code in _CCY_TOKENS:
+        k = len(re.findall(pat, sec))
+        if k > n:
+            best, n = code, k
+    return best if n >= 3 else None
+
+
 def unit_hint(excerpt_text: str):
     """財務の表に単位の記載があるかを機械的に見る。記載がなければ金額は1単位で書かれている。
     （Haiku が「千単位」と読み違え、1単位の表を1000倍した例があった：Devonian, Kainan）"""
-    m = re.search(r"\[SUMMARY FINANCIAL DATA\](.*?)(?:\n\[[A-Z ]+\]|\Z)", excerpt_text, re.S)
-    sec = m.group(1) if m else excerpt_text
+    sec = _financial_section(excerpt_text)
     if _UNIT_MILLIONS.search(sec):
         return "millions"
     if _UNIT_THOUSANDS.search(sec):
@@ -221,7 +246,13 @@ def normalize(raw: dict, hints: dict) -> dict:
     if hints.get("unit") == "units" and unit != "units":
         unit = "units"
     mult = _MULT.get(unit, 1)
-    currency = (raw.get("currency") or "USD").strip().upper()[:3] or "USD"
+    currency = (raw.get("currency") or "USD").strip().upper()
+    currency = _ISO_ALIASES.get(currency, currency)
+    if not re.fullmatch(r"[A-Z]{3}", currency):
+        currency = "USD"
+    # 見出しがリンギットなのに「USD」と答えた例があった（Kainan）。見出しの通貨を信じる
+    if currency == "USD" and hints.get("currency"):
+        currency = hints["currency"]
 
     def money(v):
         return round(v * mult) if isinstance(v, (int, float)) else None
@@ -412,7 +443,8 @@ async def _submit(client, ipos, cache, fetch_text, accession_of, sec_client) -> 
         cid = _custom_id(acc)
         requests.append(build_request(cid, ipo.get("company_name", ""), ex))
         items[cid] = {"ipo_id": ipo.get("id"), "accession": acc,
-                      "hints": {"lockup_days": lockup_days_hint(text), "unit": unit_hint(ex)}}
+                      "hints": {"lockup_days": lockup_days_hint(text), "unit": unit_hint(ex),
+                                "currency": currency_hint(ex)}}
     if not requests:
         return {}
     try:
