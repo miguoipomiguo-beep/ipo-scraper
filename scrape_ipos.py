@@ -512,6 +512,46 @@ async def update_worker(ipos: list):
                 print(f"  Batch {idx+1} error: {e}")
 
 
+NOTIFY_STATE = "notify_state.json"   # 送った通知の記録（Actions がコミットして次回に引き継ぐ）
+
+
+def _load_json(path, default):
+    try:
+        with open(path) as f:
+            return json.load(f)
+    except Exception:
+        return default
+
+
+def _save_json(path, data):
+    with open(path, "w") as f:
+        json.dump(data, f, ensure_ascii=False, indent=1, sort_keys=True)
+
+
+BROADCAST_MAX = 3   # 1回の実行で個別に知らせる新規IPOの数。超えた分は種類ごとに1通にまとめる
+
+
+def _summarize_broadcasts(broadcasts: list) -> list:
+    if len(broadcasts) <= BROADCAST_MAX:
+        return broadcasts
+    out = []
+    for kind, label in (("new_upcoming", "new upcoming IPOs"), ("new_pending", "new IPO filings")):
+        items = [b for b in broadcasts if b["type"] == kind]
+        if not items:
+            continue
+        if len(items) == 1:
+            out.append(items[0])
+            continue
+        names = ", ".join(b["title"].split(": ", 1)[-1] for b in items[:3])
+        more = f" and {len(items) - 3} more" if len(items) > 3 else ""
+        out.append({
+            "ipo_id": "", "type": kind,
+            "title": f"{len(items)} {label}",
+            "body": f"{names}{more}. Open the app to see them.",
+        })
+    return out
+
+
 async def detect_and_notify(ipos: list):
     """前回のスナップショットと比較して変化を検知、プッシュ通知を送信"""
     if not WORKER_URL or not ADMIN_TOKEN:
@@ -599,17 +639,26 @@ async def detect_and_notify(ipos: list):
                 "body": f"{ipo.get('company_name', '')} has a new SEC filing update."
             })
 
-    # 6. 上場前日通知（明日上場する銘柄）
+    # 6. 上場前日通知（明日上場する銘柄）。実行は1日2回以上あるので、送った分は覚えておいて1回だけにする
     tomorrow = (datetime.now() + timedelta(days=1)).strftime("%Y-%m-%d")
+    sent_state = _load_json(NOTIFY_STATE, {})
+    day_before = sent_state.get("day_before", {})
     for ipo in ipos:
         if ipo.get("expected_date") == tomorrow:
             ipo_id = ipo.get("id", "")
+            if day_before.get(ipo_id) == tomorrow:
+                continue
+            day_before[ipo_id] = tomorrow
             ticker = ipo.get("ticker") or ipo.get("company_name", "")[:20]
             changes.append({
                 "ipo_id": ipo_id, "type": "day_before",
                 "title": f"{ticker} - IPO Tomorrow",
                 "body": f"{ipo.get('company_name', '')} is scheduled to go public tomorrow ({tomorrow})."
             })
+
+    today_s = datetime.now().strftime("%Y-%m-%d")
+    sent_state["day_before"] = {k: v for k, v in day_before.items() if v >= today_s}
+    _save_json(NOTIFY_STATE, sent_state)
 
     # 7. 新規IPO追加通知（全ユーザー向け、無料）
     broadcasts = []
@@ -635,14 +684,26 @@ async def detect_and_notify(ipos: list):
                 "body": f"{name} has filed for an IPO (date TBD)."
             })
 
+    # 新規IPO通知の安全装置。前回の状態が欠けていると既存の銘柄まで「新規」になり、
+    # 全端末に何十通も届いてしまう（2026-11-11 に実際に起きた）
+    if not prev_snapshot:
+        print("  ! no previous snapshot — skipping new-IPO broadcasts this run")
+        broadcasts = []
+    elif len(broadcasts) > max(10, len(new_snapshot) // 10):
+        print(f"  ! {len(broadcasts)} 'new' IPOs looks like a broken snapshot — skipping broadcasts")
+        broadcasts = []
+    else:
+        broadcasts = _summarize_broadcasts(broadcasts)
+
     # スナップショットをWorkerに保存
     try:
-        async with httpx.AsyncClient(timeout=30) as client:
-            await client.post(f"{WORKER_URL}/api/admin/snapshot",
-                              json=new_snapshot,
-                              headers={"Authorization": f"Bearer {ADMIN_TOKEN}"})
-    except Exception:
-        pass
+        async with httpx.AsyncClient(timeout=120) as client:
+            resp = await client.post(f"{WORKER_URL}/api/admin/snapshot",
+                                     json=new_snapshot,
+                                     headers={"Authorization": f"Bearer {ADMIN_TOKEN}"})
+            print(f"  Snapshot saved: {resp.status_code} {resp.text[:80]}")
+    except Exception as e:
+        print(f"  ! snapshot save failed: {type(e).__name__}")
 
     if not changes and not broadcasts:
         print("  No changes detected")
@@ -654,15 +715,20 @@ async def detect_and_notify(ipos: list):
     for b in broadcasts[:5]:
         print(f"    [broadcast] {b['title']}")
 
-    # Worker経由でAPNs通知送信
+    # Worker経由でAPNs通知送信。全端末向けは1通で数百台に送るので、1回の呼び出しに1通ずつ分ける
+    calls = []
+    if changes:
+        calls.append({"changes": changes, "broadcasts": []})
+    calls += [{"changes": [], "broadcasts": [b]} for b in broadcasts]
     try:
-        async with httpx.AsyncClient(timeout=30) as client:
-            resp = await client.post(
-                f"{WORKER_URL}/api/admin/notify",
-                json={"changes": changes, "broadcasts": broadcasts},
-                headers={"Authorization": f"Bearer {ADMIN_TOKEN}"}
-            )
-            print(f"  Notify response: {resp.status_code} {resp.text[:100]}")
+        async with httpx.AsyncClient(timeout=120) as client:
+            for body in calls:
+                resp = await client.post(
+                    f"{WORKER_URL}/api/admin/notify",
+                    json=body,
+                    headers={"Authorization": f"Bearer {ADMIN_TOKEN}"}
+                )
+                print(f"  Notify response: {resp.status_code} {resp.text[:200]}")
     except Exception as e:
         print(f"  Notify error: {e}")
 
