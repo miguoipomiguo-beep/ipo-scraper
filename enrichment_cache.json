@@ -3977,7 +3977,8 @@
     "industry": "Defense technology (military sensing, communications, and connectivity systems)",
     "description_ja": "Lyntris Inc.は、コネクテッド・バトルスペース向けの「センス・トゥ・アクト（感知から行動へ）」接続ソリューションを提供する防衛テクノロジー企業。米国防総省（Department of War）および同盟国の軍を顧客とし、海洋領域認識、防空・ミサイル防衛、宇宙ISR・耐障害通信の各ミッションを手がける。センサーアーキテクチャ、独自のセンサー・アンテナハードウェア、データ融合・指揮統制・任務遂行のためのデータ・ソフトウェアプラットフォームを展開する。",
     "products_services_ja": "センサーアーキテクチャ設計、独自のセンサー・アンテナサブシステム（RF、レーダー、電源・熱管理）、データの取り込み・融合・可視化および指揮統制を支援するデータ・ソフトウェアプラットフォーム。",
-    "ja_src": "75a079da324b"
+    "ja_src": "75a079da324b",
+    "ads_checked": true
   },
   "NSAIU": {
     "description": "NorthStrive Acquisition Corp I is a blank-check special purpose acquisition company formed to effect a merger, share exchange, asset acquisition, or similar business combination with one or more operating businesses. It has no operations of its own and seeks to take a target company public through its initial public offering and subsequent business combination.",
@@ -3985,7 +3986,10 @@
     "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)",
     "description_ja": "NorthStrive Acquisition Corp Iは、1つ以上の事業会社との合併、株式交換、資産取得、またはそれに類する企業結合の実行を目的として設立されたブランクチェック型の特別目的買収会社（SPAC）。独自の事業運営はなく、新規株式公開（IPO）とその後の企業結合を通じて対象企業を株式公開させることを目指す。",
     "products_services_ja": "独自の事業製品・サービスはなし。唯一の目的は非公開の対象企業との企業結合の特定と完了。",
-    "ja_src": "4156ac505503"
+    "ja_src": "4156ac505503",
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0,
+    "ads_checked": true
   },
   "FOIL": {
     "description": "Londian Wason New Energy Tech Inc. is a global innovation-driven researcher, developer, and manufacturer of electrolytic copper foil, and according to the excerpt it was the world's largest supplier of lithium-ion battery copper foil by sales volume in 2025. Its products, primarily LiB copper foil and PCB-grade copper foil (plus some FCCLs), serve customers in electric vehicles, energy storage systems, communication equipment, and consumer electronics.",
