@@ -3972,6 +3972,40 @@
    "SUCH"
   ]
  },
+ "0001213900-26-085313": {
+  "analyzed_at": "2026-11-11T05:10:05+00:00",
+  "data": {
+   "fiscal_year": null,
+   "interim_net_income": null,
+   "interim_period": null,
+   "interim_revenue": null,
+   "key_risks": [
+    "No operating history and no revenues, blank check company",
+    "Public shareholders may not vote; founder and private shares vote",
+    "Sponsor controls board appointment and substantial shareholder influence"
+   ],
+   "key_risks_ja": [
+    "運営実績・売上がない空白小切手会社である",
+    "公衆株主が投票できない可能性があり創業者株も議決に加わる",
+    "スポンサーが取締役任命を支配し株主決議に大きな影響力を持つ"
+   ],
+   "lockup_days": null,
+   "net_income": null,
+   "net_income_prior_year": null,
+   "net_proceeds": null,
+   "revenue": null,
+   "revenue_prior_year": null,
+   "underwriters": [],
+   "use_of_proceeds": [],
+   "use_of_proceeds_ja": [],
+   "v": 1
+  },
+  "empty": false,
+  "ipo_id": "PNAQU",
+  "pushed_to": [
+   "PNAQU"
+  ]
+ },
  "0001213900-26-085876": {
   "analyzed_at": "2026-11-11T04:15:00+00:00",
   "data": {
