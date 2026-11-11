@@ -17,7 +17,7 @@ import httpx
 HERE = Path(__file__).parent
 CACHE_PATH = HERE / "s1_analysis_cache.json"     # {accession: {"ipo_id", "data", "analyzed_at", "pushed_to", "empty"}}
 STATE_PATH = HERE / "s1_batch_state.json"        # 送ったまま結果を受け取っていないバッチ
-SCHEMA_VERSION = 1
+SCHEMA_VERSION = 2          # 2: 通貨を記録し、単位の読み違いを正規表現で補正（v1 は全件分析し直す）
 MAX_PER_RUN = 120         # 1回のバッチに入れる件数（SEC からの取得が1件約6秒。120件で約12分、全体60分の制限内）
 EXCERPT_LIMIT = 9000      # Haiku に渡す文字数の上限（約2,300トークン）
 LISTED_LOOKBACK_DAYS = 120
@@ -136,6 +136,7 @@ SCHEMA = {
     "type": "object",
     "properties": {
         "unit": {"type": "string", "enum": ["units", "thousands", "millions"]},
+        "currency": {"type": "string"},  # ISO 4217（USD, CAD, MYR, CNY, HKD など）
         "fiscal_year": _str,             # 例 "FY2025"
         "revenue": _num,
         "revenue_prior_year": _num,
@@ -152,7 +153,7 @@ SCHEMA = {
         "use_of_proceeds_ja": _strs,     # 日本語版（アプリの日本語表示用）
         "key_risks_ja": _strs,
     },
-    "required": ["unit", "fiscal_year", "revenue", "revenue_prior_year", "net_income", "net_income_prior_year",
+    "required": ["unit", "currency", "fiscal_year", "revenue", "revenue_prior_year", "net_income", "net_income_prior_year",
                  "interim_period", "interim_revenue", "interim_net_income", "net_proceeds_usd",
                  "use_of_proceeds", "underwriters", "lockup_days", "key_risks",
                  "use_of_proceeds_ja", "key_risks_ja"],
@@ -161,7 +162,9 @@ SCHEMA = {
 
 # 指示は固定文にして、全リクエストで同じ先頭（キャッシュが効く形）にしておく
 SYSTEM = """You extract facts from excerpts of SEC IPO registration statements (S-1/F-1). Use ONLY the excerpt. Never guess; use null or [] when the excerpt does not state it.
-- Financials: from the summary financial data table. "unit" is the table's unit ("in thousands" -> thousands). Report numbers exactly as printed in that unit. Losses are negative. revenue = total revenue (null for pre-revenue companies). Latest full fiscal year and the one before; interim = latest partial period shown, if any.
+- Financials: from the summary financial data table. Report numbers exactly as printed. Losses are negative. revenue = total revenue (null for pre-revenue companies). Latest full fiscal year and the one before (match each number to its column header); interim = latest partial period shown, if any.
+- If the table has a US$/USD convenience-translation column, report the USD column and set currency "USD"; otherwise set currency to the ISO code of the reporting currency (e.g. CAD, MYR, CNY, HKD, SGD, EUR, JPY; "RM" = MYR, "RMB" = CNY). Use null for a year that has no USD column.
+- "unit": "thousands" only if the table explicitly says "in thousands" (or "$000", "'000"); "millions" only if it says "in millions"; otherwise "units" (amounts printed in full).
 - net_proceeds_usd: estimated net proceeds to the company in US dollars (full number, e.g. 181000000), assuming no over-allotment.
 - use_of_proceeds: up to 3 items, each under 12 words.
 - underwriters: lead/book-running managers only, short names (e.g. "Goldman Sachs"), up to 6.
@@ -196,8 +199,29 @@ def _custom_id(accession: str) -> str:
 _MULT = {"units": 1, "thousands": 1_000, "millions": 1_000_000}
 
 
+_UNIT_THOUSANDS = re.compile(r"in\s+thousands|thousands\s+of|\(\s*\$?\s*0{3}s?\s*\)|\$\s*0{3}s?\b|'0{3}", re.I)
+_UNIT_MILLIONS = re.compile(r"in\s+millions|millions\s+of\s+(?:U\.?S\.?\s*)?dollars", re.I)
+
+
+def unit_hint(excerpt_text: str):
+    """財務の表に単位の記載があるかを機械的に見る。記載がなければ金額は1単位で書かれている。
+    （Haiku が「千単位」と読み違え、1単位の表を1000倍した例があった：Devonian, Kainan）"""
+    m = re.search(r"\[SUMMARY FINANCIAL DATA\](.*?)(?:\n\[[A-Z ]+\]|\Z)", excerpt_text, re.S)
+    sec = m.group(1) if m else excerpt_text
+    if _UNIT_MILLIONS.search(sec):
+        return "millions"
+    if _UNIT_THOUSANDS.search(sec):
+        return "thousands"
+    return "units"
+
+
 def normalize(raw: dict, hints: dict) -> dict:
-    mult = _MULT.get(raw.get("unit") or "units", 1)
+    unit = raw.get("unit") or "units"
+    # 表に単位の記載が無いのに千・百万と答えたときは、記載のほうを信じる
+    if hints.get("unit") == "units" and unit != "units":
+        unit = "units"
+    mult = _MULT.get(unit, 1)
+    currency = (raw.get("currency") or "USD").strip().upper()[:3] or "USD"
 
     def money(v):
         return round(v * mult) if isinstance(v, (int, float)) else None
@@ -211,6 +235,7 @@ def normalize(raw: dict, hints: dict) -> dict:
     proceeds = raw.get("net_proceeds_usd")
     return {
         "v": SCHEMA_VERSION,
+        "currency": currency,           # revenue / net_income の通貨（net_proceeds は常に USD）
         "fiscal_year": raw.get("fiscal_year"),
         "revenue": money(raw.get("revenue")),
         "revenue_prior_year": money(raw.get("revenue_prior_year")),
@@ -269,8 +294,11 @@ def _targets(ipos: list, cache: dict, accession_of) -> list:
         if status == "listed" and (ipo.get("actual_date") or ipo.get("expected_date") or "") < recent:
             continue
         acc = accession_of(ipo)
-        if not acc or acc in cache or acc in seen:
+        if not acc or acc in seen:
             continue
+        done = cache.get(acc)
+        if done and (done.get("data") or {}).get("v", 0) >= SCHEMA_VERSION:
+            continue   # 古い版の結果は分析し直す（その間は古い結果を出し続ける）
         seen.add(acc)   # 同じ書類が ID 違いで2銘柄に入っていることがある（バッチは custom_id の重複を受け付けない）
         # 並び：一度も分析していない銘柄 → 上場予定日が近い順 → 申請日が新しい順
         rows.append(((ipo.get("id") in analyzed_ids),
@@ -383,7 +411,8 @@ async def _submit(client, ipos, cache, fetch_text, accession_of, sec_client) -> 
             continue
         cid = _custom_id(acc)
         requests.append(build_request(cid, ipo.get("company_name", ""), ex))
-        items[cid] = {"ipo_id": ipo.get("id"), "accession": acc, "hints": {"lockup_days": lockup_days_hint(text)}}
+        items[cid] = {"ipo_id": ipo.get("id"), "accession": acc,
+                      "hints": {"lockup_days": lockup_days_hint(text), "unit": unit_hint(ex)}}
     if not requests:
         return {}
     try:

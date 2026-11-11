@@ -495,7 +495,7 @@ async def update_worker(ipos: list):
 
     payload = []
     for ipo in ipos:
-        payload.append({k: v for k, v in ipo.items() if k not in ("nasdaq_status", "_latest_date")})
+        payload.append({k: v for k, v in ipo.items() if k not in ("nasdaq_status", "_latest_date", "ads_checked")})
 
     # バッチ分割（15件ずつ、Worker CPU制限対策）
     batch_size = 15
@@ -896,6 +896,71 @@ def _business_excerpt(text: str) -> str:
     return text[3000:7000]
 
 
+# ADS（米国預託証券）で上場する海外企業は、発行済株式数が普通株の数、価格が1 ADS あたり。
+# 1 ADS = 何株かを書類から読み取り、アプリは「株式数 ÷ 比率 × 価格」で時価総額を出す
+# （比率を見ないと OPAY が 10 倍の $40B になっていた）
+_NUM = {"one": 1, "two": 2, "three": 3, "four": 4, "five": 5, "six": 6, "seven": 7, "eight": 8, "nine": 9,
+        "ten": 10, "eleven": 11, "twelve": 12, "fifteen": 15, "twenty": 20, "twenty-five": 25, "thirty": 30,
+        "forty": 40, "fifty": 50, "one hundred": 100, "hundred": 100}
+_FRAC = {"half": 2, "one-half": 2, "third": 3, "one-third": 3, "quarter": 4, "one-quarter": 4, "fourth": 4,
+         "one-fourth": 4, "fifth": 5, "one-fifth": 5, "tenth": 10, "one-tenth": 10}
+_ADS_RE = re.compile(
+    r"each\s+(?:ADS|American\s+depositary\s+share)\s+(?:will\s+)?represents?\s+"
+    r"(?P<q>[\w\-\.]+(?:\s+hundred)?)(?:\s*\((?P<d>[\d\.,/]+)\))?\s+(?:of\s+(?:one|an?)\s+)?(?:of\s+our\s+)?"
+    r"(?:Class\s+[A-Z]\s+)?(?:ordinary|common)\s+shares?", re.I)
+
+def _ads_ratio(text: str):
+    """Ordinary shares per ADS (e.g. 10.0, or 0.5 when one ADS is half a share). None when not an ADS offering."""
+    for m in _ADS_RE.finditer(text[:400000]):
+        d, q = m.group("d"), m.group("q").lower().strip(".")
+        if d:
+            try:
+                return float(d.replace(",", "")) if "/" not in d else _eval_frac(d)
+            except ValueError:
+                pass
+        if q in _NUM: return float(_NUM[q])
+        if q in _FRAC: return 1.0 / _FRAC[q]
+        if re.fullmatch(r"\d+(\.\d+)?", q): return float(q)
+    return None
+
+def _eval_frac(s):
+    a, b = s.split("/"); return float(a) / float(b)
+
+
+ADS_BACKFILL_MAX = 40
+
+
+async def backfill_ads_ratio(ipos: list, cache: dict):
+    """発行済株式数を持つ海外（F-1）銘柄のうち、まだ ADS 比率を調べていないものを調べる（正規表現だけ）"""
+    todo = [i for i in ipos if i.get("shares_outstanding") and i.get("cik") and _s1_accession(i)
+            and (i.get("filing_type") or "").startswith("F-1")
+            and not (cache.get(i.get("id")) or {}).get("ads_checked")]
+    if not todo:
+        return
+    print(f"\n=== ADS ratio backfill ({len(todo)} left, up to {ADS_BACKFILL_MAX}) ===")
+    found = 0
+    async with httpx.AsyncClient(timeout=60, headers=SEC_HEADERS) as client:
+        for ipo in todo[:ADS_BACKFILL_MAX]:
+            text = _filing_texts.get(ipo.get("id"))
+            if not text:
+                try:
+                    text = await _fetch_filing_text(client, ipo, _s1_accession(ipo))
+                except Exception as e:
+                    print(f"  ! {ipo.get('ticker') or ipo.get('id')}: {type(e).__name__}")
+                    continue
+            if not text:
+                continue
+            r = _ads_ratio(text)
+            entry = cache.setdefault(ipo["id"], {})
+            entry["ads_checked"] = True
+            if r and r != 1:
+                ipo["ads_ratio"] = entry["ads_ratio"] = r
+                found += 1
+                print(f"  {ipo.get('ticker') or ipo.get('id')}: 1 ADS = {r:g} shares")
+            await asyncio.sleep(0.5)
+    print(f"  ADS ratios found: {found}")
+
+
 async def extract_s1_financials(ipos: list) -> list:
     """S-1/F-1書類からProposed Offering PriceとShares Outstandingを抽出"""
     if not ANTHROPIC_KEY and not OPENROUTER_KEY:
@@ -936,6 +1001,10 @@ async def extract_s1_financials(ipos: list) -> list:
                 if not full_text:
                     continue
                 _filing_texts[ipo.get("id")] = full_text   # 説明文づくりでも使う
+                r = _ads_ratio(full_text)
+                if r and r != 1:
+                    ipo["ads_ratio"] = r
+                ipo["ads_checked"] = True
 
                 # テキスト先頭 + キーワード周辺を抽出してLLMに渡す
                 excerpts = [full_text[:3000]]
@@ -1423,7 +1492,7 @@ def apply_enrichment_cache(ipos: list, cache: dict):
                 if not ipo.get(key) and cached.get(key):
                     ipo[key] = cached[key]
                     changed = True
-            for key in ("shares_outstanding", "proposed_price_low", "proposed_price_high"):
+            for key in ("shares_outstanding", "proposed_price_low", "proposed_price_high", "ads_ratio"):
                 if not ipo.get(key) and cached.get(key):
                     ipo[key] = cached[key]
                     changed = True
@@ -1476,6 +1545,10 @@ async def main():
     print("\n⏳ Waiting 120s before SEC document fetch (rate limit cooldown)...")
     await asyncio.sleep(120)
     merged = await extract_s1_financials(merged)
+    try:
+        await backfill_ads_ratio(merged, cache)
+    except Exception as e:
+        print(f"  ! ADS backfill failed: {type(e).__name__}: {str(e)[:150]}")
 
     # proposed_priceでprice_rangeを補完（NASDAQに価格がない場合）
     for ipo in merged:
@@ -1502,7 +1575,7 @@ async def main():
                 if ipo.get(key):
                     entry[key] = ipo[key]
             for key in ("shares_outstanding", "proposed_price_low", "proposed_price_high",
-                        "description_ja", "products_services_ja", "ja_src"):
+                        "description_ja", "products_services_ja", "ja_src", "ads_ratio", "ads_checked"):
                 if ipo.get(key):
                     entry[key] = ipo[key]
             cache[ipo_id] = entry
