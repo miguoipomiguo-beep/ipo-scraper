@@ -128,7 +128,8 @@
     "proposed_price_high": 10.0,
     "description_ja": "RIKU DINING GROUP Ltd.は、多様な料理スタイルにわたり革新的な飲食体験を提供する、ダイナミックな飲食店経営企業です。品質と顧客満足への取り組みを通じて、独自のコンセプトと卓越したサービスで外食産業の在り方を刷新することを目指します。",
     "products_services_ja": "フルサービスレストラン、ケータリングサービス、多彩な料理を扱うフードデリバリー。",
-    "ja_src": "11dced367ac5"
+    "ja_src": "11dced367ac5",
+    "ads_checked": true
   },
   "EROK": {
     "description": "EagleRock Land, LLC is a real estate development company focused on creating sustainable and innovative residential and commercial properties. With a commitment to enhancing community living, the company aims to transform underutilized land into vibrant spaces.",
@@ -469,7 +470,8 @@
     "proposed_price_high": 4.0,
     "description_ja": "APEX Global Solutions Ltd.は、世界中の企業の業務効率向上を目指す革新的テクノロジーソリューションの大手プロバイダー。先端ソフトウェア開発とITコンサルティングに注力し、急速に変化するIT市場での大きな成長が見込まれる。",
     "products_services_ja": "カスタムソフトウェア開発、ITコンサルティング、クラウドソリューション、サイバーセキュリティサービス。",
-    "ja_src": "be8552f8e07f"
+    "ja_src": "be8552f8e07f",
+    "ads_checked": true
   },
   "NEUT": {
     "description": "Neutrans Inc. is an innovative technology company focused on developing advanced solutions for sustainable transportation and logistics. By leveraging cutting-edge software and data analytics, Neutrans aims to optimize supply chain efficiency and reduce carbon footprints.",
@@ -504,7 +506,8 @@
     "proposed_price_high": 6.0,
     "description_ja": "TDE GROUP Ltd.は、様々な分野の企業の業務効率向上を目指す革新的テクノロジーソリューションの大手プロバイダー。持続可能性とデジタルトランスフォーメーションに注力し、変化するIT市場での大きな成長が見込まれる。",
     "products_services_ja": "クラウドコンピューティングソリューション、データ分析、エンタープライズソフトウェア開発を含む製品・サービスを提供。",
-    "ja_src": "67a13796536e"
+    "ja_src": "67a13796536e",
+    "ads_checked": true
   },
   "0002102771": {
     "description": "Keystone Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in high-growth sectors. The firm aims to leverage its management team's expertise to create value for shareholders through strategic acquisitions.",
@@ -534,7 +537,8 @@
     "proposed_price_high": 6.0,
     "description_ja": "日本親達株式会社は、先進的な産業機器およびシステムの開発・製造を専門とする日本の有力企業です。革新と品質を重視し、製造、建設、物流などの分野に製品とサービスを提供しています。",
     "products_services_ja": "産業機器、自動化システム、エンジニアリングソリューション。",
-    "ja_src": "a6be3a15c4d4"
+    "ja_src": "a6be3a15c4d4",
+    "ads_checked": true
   },
   "0002081737": {
     "description": "CyberScope Web3 Security Inc. specializes in providing advanced security solutions for decentralized applications and blockchain networks, ensuring the integrity and safety of digital assets. The company leverages cutting-edge technology to protect users from cyber threats in the rapidly evolving Web3 landscape.",
@@ -545,7 +549,8 @@
     "proposed_price_high": 6.0,
     "description_ja": "CyberScope Web3 Security Inc.は、分散型アプリケーションとブロックチェーンネットワーク向けの高度なセキュリティソリューションを提供し、デジタル資産の完全性と安全性を確保する。急速に進化するWeb3分野で、先端技術を活用してサイバー脅威からユーザーを守る。",
     "products_services_ja": "ブロックチェーンセキュリティ監査、スマートコントラクトの脆弱性評価、分散型アプリケーションのセキュリティソリューション、脅威インテリジェンスサービス。",
-    "ja_src": "c87b7478c126"
+    "ja_src": "c87b7478c126",
+    "ads_checked": true
   },
   "APAT": {
     "description": "AsiaPac AdTechinno Group Ltd. is a leading provider of innovative advertising technology solutions in the Asia-Pacific region, focusing on enhancing digital marketing effectiveness for businesses. The company leverages advanced analytics and AI-driven tools to optimize ad placements and improve customer engagement.",
@@ -556,7 +561,8 @@
     "proposed_price_high": 9.0,
     "description_ja": "AsiaPac AdTechinno Group Ltd.は、アジア太平洋地域で先進的な広告テクノロジーソリューションを提供する有力企業。分析技術とAI駆動型ツールを活用し、広告配信の最適化と顧客エンゲージメントの向上を図る。",
     "products_services_ja": "デジタル広告ソリューション、プログラマティック広告プラットフォーム、データ分析サービス、AI駆動型マーケティングツール。",
-    "ja_src": "714b1366539f"
+    "ja_src": "714b1366539f",
+    "ads_checked": true
   },
   "0001939433": {
     "description": "Cohen & Steers Income Opportunities REIT, Inc. is a real estate investment trust focused on generating income through investments in a diversified portfolio of real estate-related assets. The company aims to provide attractive risk-adjusted returns to its shareholders by leveraging its expertise in real estate markets.",
@@ -610,7 +616,8 @@
     "proposed_price_high": 5.77,
     "description_ja": "Turbogen Ltd.は、効率的な発電のための先進的なタービン技術の開発を専門とする革新的エネルギーソリューション企業。持続可能性を重視し、従来型エネルギー源に対してよりクリーンで効率的な代替手段を提供することでエネルギー分野の変革を目指す。",
     "products_services_ja": "先進タービンシステム、エネルギー効率化ソリューション、再生可能エネルギー技術。",
-    "ja_src": "7205573f1e73"
+    "ja_src": "7205573f1e73",
+    "ads_checked": true
   },
   "SWDR": {
     "description": "Starwood Real Estate Income Trust, Inc. is a non-traded real estate investment trust (REIT) focused on generating attractive risk-adjusted returns for its investors through a diversified portfolio of income-producing real estate assets. The company primarily invests in commercial real estate properties and real estate-related debt investments.",
@@ -632,7 +639,8 @@
     "shares_outstanding": 4312500,
     "description_ja": "C&K Group Ltd.は、自動車、民生用電子機器、産業用途など様々な業界向けの高品質な電気機械式スイッチ・部品の大手プロバイダー。革新性と信頼性に注力し、世界の顧客の進化するニーズに応える先進的ソリューションを提供する。",
     "products_services_ja": "多様な用途向けの電気機械式スイッチ、コネクタ、関連部品。",
-    "ja_src": "b572927b377d"
+    "ja_src": "b572927b377d",
+    "ads_checked": true
   },
   "JAN": {
     "description": "Janus Living, Inc. is an innovative company focused on providing sustainable and modular housing solutions designed to address the growing demand for affordable living spaces. With a commitment to environmental responsibility, Janus Living aims to revolutionize the housing market through its unique construction methods and designs.",
@@ -696,7 +704,8 @@
     "proposed_price_high": 4.0,
     "description_ja": "SIBO HOLDING Ltd.は、デジタル資産管理における革新的ソリューションに注力する、フィンテック分野で成長が期待されるダイナミックな企業です。利用者体験とセキュリティの向上に取り組み、個人と企業がデジタル通貨と関わる方法の刷新を目指します。",
     "products_services_ja": "デジタルウォレット、資産取引プラットフォーム、ブロックチェーンを活用した金融サービスなど、取引の簡素化とデジタル資産へのアクセス向上を目的とした製品を提供しています。",
-    "ja_src": "080ebd2927a4"
+    "ja_src": "080ebd2927a4",
+    "ads_checked": true
   },
   "PASW": {
     "description": "Ping An Biomedical Co., Ltd. is a leading biotechnology company focused on innovative healthcare solutions and advanced medical technologies. The company aims to enhance patient outcomes through its cutting-edge research and development in the biomedical field.",
@@ -755,7 +764,8 @@
     "proposed_price_high": 6.0,
     "description_ja": "GEBE Environmental Technology Ltd.は、廃棄物管理と環境の持続可能性に関する革新的ソリューションを専門とし、先進技術を通じて環境負荷の低減に取り組んでいます。効率的で環境に優しい製品とサービスの提供により、環境分野の変革を目指します。",
     "products_services_ja": "廃棄物管理システム、リサイクル技術、環境コンサルティング、持続可能なエネルギーソリューション。",
-    "ja_src": "e16115a5ee69"
+    "ja_src": "e16115a5ee69",
+    "ads_checked": true
   },
   "IBL": {
     "description": "I Bella Perfect Inc. is a beauty and wellness company focused on providing innovative skincare solutions and beauty products. The company aims to enhance personal care through high-quality, effective formulations that cater to diverse consumer needs.",
@@ -779,7 +789,8 @@
     "proposed_price_high": 6,
     "description_ja": "Law's Business Group Holding Ltd.は、革新的な法務・ビジネスソリューションを提供する多角的な企業。卓越性への取り組みのもと、法務プロセスの効率化と顧客の事業運営の強化を目指す。",
     "products_services_ja": "法務コンサルティング、ビジネスアドバイザリーサービス、法律事務所向けテクノロジーソリューション。",
-    "ja_src": "c75dbae1932b"
+    "ja_src": "c75dbae1932b",
+    "ads_checked": true
   },
   "0002064555": {
     "description": "ANGIE HOLDINGS Ltd. is a technology-driven company focused on providing innovative solutions for home services and improvements. With a commitment to enhancing customer experiences, the company leverages digital platforms to connect homeowners with service providers.",
@@ -800,7 +811,8 @@
     "proposed_price_high": 5,
     "description_ja": "Optimal AI Ltd.は、ビジネスの効率性と意思決定を高める人工知能ソリューションを専門とする先端テクノロジー企業です。革新的なアルゴリズムと機械学習の応用に注力し、インテリジェントな自動化を通じて産業の変革を目指します。",
     "products_services_ja": "AI駆動型ソフトウェアソリューション、機械学習プラットフォーム、データ分析ツール、企業向けコンサルティングサービス。",
-    "ja_src": "b83b3785edfc"
+    "ja_src": "b83b3785edfc",
+    "ads_checked": true
   },
   "ARCI": {
     "description": "Archimedes Tech SPAC Partners III Co. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative technology companies. The firm aims to leverage its expertise in the tech sector to drive growth and create value for shareholders.",
@@ -827,7 +839,8 @@
     "proposed_price_high": 4.0,
     "description_ja": "FG Holdings Ltd.は、さまざまな分野の事業ポートフォリオの取得と運用に取り組む多角的投資会社。戦略的投資と業務改善を通じ、成長と価値向上を目指す。",
     "products_services_ja": "FG Holdings Ltd.は、投資運用サービス、戦略コンサルティング、ポートフォリオ企業への業務支援を提供する。",
-    "ja_src": "d44bb6558bf7"
+    "ja_src": "d44bb6558bf7",
+    "ads_checked": true
   },
   "AAS": {
     "description": "Antharas Inc. is an innovative technology company focused on developing advanced artificial intelligence solutions for various industries. With a commitment to enhancing operational efficiency and decision-making processes, Antharas aims to revolutionize the way businesses leverage data.",
@@ -850,7 +863,8 @@
     "proposed_price_high": 4.0,
     "description_ja": "EvoNexus Group LTDは、リソース、メンタリング、資金調達へのアクセスを提供し、初期段階のスタートアップを支援する有力テクノロジー・インキュベーター。ソフトウェア、ハードウェア、ライフサイエンスなど幅広い分野のイノベーション促進に注力する。",
     "products_services_ja": "スタートアップ・インキュベーション、メンタリングプログラム、資金調達へのアクセス、ネットワーキングの機会。",
-    "ja_src": "f6663e0124b1"
+    "ja_src": "f6663e0124b1",
+    "ads_checked": true
   },
   "INHI": {
     "description": "Unitrend Entertainment Group Ltd. is a dynamic company focused on creating innovative entertainment experiences that engage audiences worldwide. With a commitment to quality and creativity, Unitrend aims to redefine the entertainment landscape through cutting-edge technology and storytelling.",
@@ -869,7 +883,8 @@
     "proposed_price_high": 4.0,
     "description_ja": "SunHo BioTech Group Ltd.は、医療および農業分野の革新的ソリューションの開発に取り組む先駆的バイオテクノロジー企業です。持続可能性と最先端の研究に注力し、先進的なバイオテクノロジーの応用を通じて生活の質の向上を目指します。",
     "products_services_ja": "バイオ医薬品、農業バイオテクノロジーソリューション、健康改善や収穫量向上を目的とした診断ツールなど、幅広い製品を提供しています。",
-    "ja_src": "6636be4175c7"
+    "ja_src": "6636be4175c7",
+    "ads_checked": true
   },
   "0002070237": {
     "description": "Hacker Interstellar Inc. is a cutting-edge technology company focused on developing advanced cybersecurity solutions for businesses navigating the complexities of the digital landscape. With a mission to protect organizations from evolving cyber threats, the company leverages innovative technologies and expert insights to deliver robust security services.",
@@ -880,7 +895,8 @@
     "proposed_price_high": 11.5,
     "description_ja": "Hacker Interstellar Inc.は、デジタル環境の複雑化に対応する企業向けの先端サイバーセキュリティソリューションの開発に注力する先端テクノロジー企業。進化するサイバー脅威から組織を守ることを使命とし、革新的技術と専門知見を活用して堅牢なセキュリティサービスを提供する。",
     "products_services_ja": "サイバーセキュリティソフトウェア、脅威インテリジェンスソリューション、企業向けコンサルティングサービス。",
-    "ja_src": "43127567fcfa"
+    "ja_src": "43127567fcfa",
+    "ads_checked": true
   },
   "0002111038": {
     "description": "Disciplined Growth Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative growth-oriented businesses. The company aims to leverage its management team's expertise to drive value creation and foster sustainable growth in its target sectors.",
@@ -1328,7 +1344,8 @@
     "proposed_price_high": 4.0,
     "description_ja": "Solar Strategy Holdings Ltd.は、住宅および商業顧客向けに革新的な太陽光発電ソリューションを提供する再生可能エネルギー企業。先進的な太陽光技術と戦略的パートナーシップを通じて、エネルギー効率と持続可能性の向上を目指す。",
     "products_services_ja": "太陽光パネル設置、蓄電システム、太陽光発電コンサルティング、保守サービス。",
-    "ja_src": "fb0455a63550"
+    "ja_src": "fb0455a63550",
+    "ads_checked": true
   },
   "MDKR": {
     "description": "Medikra Inc. is a biotechnology company focused on developing innovative therapies for chronic diseases through advanced drug delivery systems. The company aims to improve patient outcomes by leveraging cutting-edge technology to enhance the efficacy and safety of existing treatments.",
@@ -1339,7 +1356,8 @@
     "proposed_price_high": 6.0,
     "description_ja": "Medikra Inc.は、先進的な薬物送達システムを通じて慢性疾患の革新的治療法の開発に取り組むバイオテクノロジー企業です。最先端技術により既存治療の有効性と安全性を高め、患者の転帰改善を目指します。",
     "products_services_ja": "標的治療や個別化医療のアプローチを含む薬物送達ソリューションを提供し、様々な慢性疾患の治療計画の最適化を図っています。",
-    "ja_src": "c196a07df28c"
+    "ja_src": "c196a07df28c",
+    "ads_checked": true
   },
   "APN": {
     "description": "APEIRON Acquisition Vehicle I is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in high-growth sectors.",
@@ -1445,7 +1463,8 @@
     "proposed_price_high": 5.0,
     "description_ja": "Gravity AIは、人工知能を活用して様々な分野で革新的なソリューションを生み出すことに注力する先駆的テクノロジー企業です。業務効率と意思決定の向上を目指し、先進的なAIツールとプラットフォームを通じて企業を支援します。",
     "products_services_ja": "AI分析プラットフォーム、機械学習ソリューション、カスタムAIアプリケーション開発サービス。",
-    "ja_src": "4cf0d343300b"
+    "ja_src": "4cf0d343300b",
+    "ads_checked": true
   },
   "OTAIU": {
     "description": "Starlink AI Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the artificial intelligence sector. The company aims to leverage advancements in AI technology to drive growth and create value for shareholders.",
@@ -1527,7 +1546,8 @@
     "proposed_price_high": 5.0,
     "description_ja": "Web3Labs Global Inc.は、分散型アプリケーションとブロックチェーンソリューションを開発し、Web3エコシステムのユーザーを支援する先駆的テクノロジー企業。従来産業と革新的ブロックチェーン技術を結びつけ、透明性と安全性の向上を目指す。",
     "products_services_ja": "分散型アプリケーション、ブロックチェーン開発サービス、スマートコントラクトソリューション、Web3インフラツール。",
-    "ja_src": "24f688300f22"
+    "ja_src": "24f688300f22",
+    "ads_checked": true
   },
   "GSRVU": {
     "description": "GSR V Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the technology and financial sectors. The company aims to leverage its expertise to create value for shareholders through strategic partnerships and growth opportunities.",
@@ -1747,7 +1767,8 @@
     "proposed_price_high": 8.0,
     "description_ja": "Kepler Group Ltd.は、ブランドのデジタル広告戦略の最適化を専門とするデータドリブンのマーケティング・分析企業。先端技術と知見を活用し、顧客のマーケティング成果の向上と測定可能な結果の実現を支援する。",
     "products_services_ja": "デジタルマーケティング分析、プログラマティック広告、メディアバイイング、パフォーマンス最適化サービス。",
-    "ja_src": "30b9193808a3"
+    "ja_src": "30b9193808a3",
+    "ads_checked": true
   },
   "SEAH": {
     "description": "Seahawk Recycling Holdings, Inc. is a leading provider of innovative recycling solutions focused on sustainability and environmental responsibility. The company specializes in the processing and repurposing of various recyclable materials to support a circular economy.",
@@ -1770,7 +1791,8 @@
     "proposed_price_high": 5.0,
     "description_ja": "Coolbit Technologies Ltd.は、電子機器およびシステム向けの先進的な冷却ソリューションを専門とする革新的企業です。持続可能性と効率性に重点を置き、様々な産業における熱管理の革新を目指します。",
     "products_services_ja": "先進冷却システム、熱管理ソリューション、省エネルギー型冷却技術。",
-    "ja_src": "a987c7577e3e"
+    "ja_src": "a987c7577e3e",
+    "ads_checked": true
   },
   "INIO": {
     "description": "INNIO Holding GmbH is a global energy solution provider specializing in sustainable and decentralized power generation. They offer gas engines, generator sets, and related services for various applications.",
@@ -2103,7 +2125,8 @@
     "proposed_price_high": 5.0,
     "description_ja": "Coolbit Technologies Ltd.は、電子機器向けの先進的な冷却ソリューションを専門とする革新的企業であり、性能と寿命の向上に取り組む。持続可能性と効率性に注力し、各産業における熱管理の変革を目指す。",
     "products_services_ja": "先進冷却システム、熱管理ソリューション、省エネルギー型冷却技術。",
-    "ja_src": "e1e44fb63eac"
+    "ja_src": "e1e44fb63eac",
+    "ads_checked": true
   },
   "FTRAU": {
     "description": "FutureCorp Space Acquisition is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the space industry. The company aims to accelerate growth and development in space exploration and technology through strategic partnerships and investments.",
@@ -2239,7 +2262,8 @@
     "proposed_price_high": 15.0,
     "description_ja": "Ticketplus Ltd.は、世界中のイベント、コンサート、体験へのスムーズなアクセスを提供する大手チケッティングプラットフォーム。使いやすい技術と顧客満足度を重視し、チケット業界の変革を目指す。",
     "products_services_ja": "オンラインチケット販売、イベント管理ソリューション、モバイルチケットサービス。",
-    "ja_src": "7f46093602d8"
+    "ja_src": "7f46093602d8",
+    "ads_checked": true
   },
   "TVIVU": {
     "description": "Texas Ventures Acquisition IV Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the technology and consumer sectors. The company aims to leverage its management team's expertise to drive growth and create value for shareholders.",
@@ -2483,7 +2507,8 @@
     "proposed_price_high": 6.0,
     "description_ja": "Gifts International Holdings Ltd.는 다양한 선물 상품의 디자인과 유통을 전문으로 하는 혁신 선물 솔루션 선도 기업이다. 독창적인 상품과 탁월한 서비스를 통해 고객 경험 향상을 목표로 한다.",
     "products_services_ja": "맞춤형 상품, 시즌 선물, 기업 선물 솔루션 등 선물 상품.",
-    "ja_src": "cae123f253b5"
+    "ja_src": "cae123f253b5",
+    "ads_checked": true
   },
   "KPL": {
     "description": "Kepler Group Ltd. is a data-driven marketing and analytics company that specializes in optimizing digital advertising strategies for brands. With a focus on leveraging advanced technology and insights, Kepler helps clients enhance their marketing performance and achieve measurable results.",
@@ -2789,7 +2814,8 @@
     "shares_outstanding": 110757993,
     "description_ja": "Verdera Energy Corp.は、持続可能なエネルギー生産に向けた革新的ソリューションの開発に取り組む再生可能エネルギー企業。先進技術でクリーンエネルギー源を活用し、エネルギー分野の変革を目指す。",
     "products_services_ja": "太陽光発電システム、エネルギー貯蔵ソリューション、再生可能エネルギー事業に関するコンサルティングなどの製品・サービスを提供。",
-    "ja_src": "0fc5b11095e7"
+    "ja_src": "0fc5b11095e7",
+    "ads_checked": true
   },
   "goinginternationalho": {
     "description": "Going International Holding Co Ltd. is a company focused on expanding its market presence globally, leveraging innovative strategies to enhance its international operations.",
@@ -3016,7 +3042,8 @@
     "proposed_price_high": 2.0,
     "description_ja": "Advance JV Group Ltd. は合弁事業（ジョイントベンチャー）分野で革新的なソリューションに注力する意欲的な会社。企業間の協業と成長機会の拡大を目指す。",
     "products_services_ja": "戦略コンサルティング、プロジェクト管理、提携の仲介サービスを提供し、各業界における合弁事業の最適化を支援する。",
-    "ja_src": "d85502d88c27"
+    "ja_src": "d85502d88c27",
+    "ads_checked": true
   },
   "JMKE": {
     "shares_outstanding": 29695652,
@@ -3257,7 +3284,8 @@
     "industry": "Mining / rare earth elements (critical minerals)",
     "description_ja": "IMC Rare Earths Ltd は、2025 年 9 月設立のケイマン諸島の鉱物探査・開発会社。ブラジルのイオン吸着型粘土レアアース事業 Itarantim プロジェクトを開発中で、営業収益はない。米国および欧州市場向けに、ネオジム、プラセオジム、ジスプロシウム、テルビウムなどの磁石用レアアース元素の供給を目指す。",
     "products_services_ja": "レアアース元素の探査・開発。ブラジルの Itarantim プロジェクトからの磁石用レアアース（NdPr および DyTb）の長期供給に注力。",
-    "ja_src": "d47a660db9b0"
+    "ja_src": "d47a660db9b0",
+    "ads_checked": true
   },
   "AEIB": {
     "description": "AEI CapForce II Investment Corp. is a closed-end management investment company focused on strategic capital allocation. The company seeks to generate long-term capital appreciation through diversified investments in growth-oriented assets.",
@@ -3329,7 +3357,9 @@
     "proposed_price_high": 21.0,
     "description_ja": "OPay Ltd.は、包括的なデジタル決済および金融サービスを提供する主要なフィンテックプラットフォーム。拡張性の高いモバイル中心のエコシステムを通じて金融包摂の促進に注力。",
     "products_services_ja": "モバイルウォレット、決済処理、加盟店向けサービス、デジタルレンディング。",
-    "ja_src": "d3f7484fd771"
+    "ja_src": "d3f7484fd771",
+    "ads_checked": true,
+    "ads_ratio": 10.0
   },
   "PHAXU": {
     "description": "...",
@@ -3427,7 +3457,8 @@
     "shares_outstanding": 212293691,
     "description_ja": "Pasqal Holding SA。中性原子方式の量子プロセッサに特化する量子コンピューティング企業。研究・産業向けに、拡張可能な量子ハードウェア、ソフトウェア基盤、クラウド型量子サービスを提供する。",
     "products_services_ja": "中性原子方式の量子プロセッサ、量子ソフトウェア基盤、クラウド量子コンピューティングサービス、研究・企業向けのカスタム量子アルゴリズム。",
-    "ja_src": "ea6badb692b2"
+    "ja_src": "ea6badb692b2",
+    "ads_checked": true
   },
   "LCAC": {
     "description": "Lower Cross Acquisitions Corp. is a newly public entity focused on identifying and acquiring high-potential businesses across strategic sectors. The company seeks to leverage its capital and expertise to generate sustainable shareholder value through disciplined acquisitions.",
@@ -3696,7 +3727,8 @@
     "industry": "Integrated facility management and integrated transportation/logistics",
     "description_ja": "RUI Holdings Inc.は、統合ファシリティマネジメントおよび統合輸送・物流サービスを提供する子会社を通じて事業を行う。中東(サウジアラビア、UAE等)での事業と、抜粋中に言及される中国の子会社がある。抜粋はサービスモデルと競争リスクを説明しているが、具体的な製品内容や顧客の詳細は記載されていない。",
     "products_services_ja": "統合ファシリティマネジメント、統合輸送・物流サービス",
-    "ja_src": "7c502623fc08"
+    "ja_src": "7c502623fc08",
+    "ads_checked": true
   },
   "0002145409": {
     "description": "GX Acquisition Corp. III is a Cayman Islands blank check company, formed as a special purpose acquisition company (SPAC) to pursue a business combination with one or more operating businesses. It has no commercial operations of its own and raised capital through an initial public offering to fund a future merger or acquisition target.",
@@ -4651,5 +4683,17 @@
     "products_services_ja": "電気自動車（BEV）および関連のアフターセールス、部品、顧客関係管理。欧州基準への適合を行うミュンヘンの技術センターも運営。",
     "ja_src": "ca1a872b767d",
     "ads_checked": true
+  },
+  "TRCX": {
+    "ads_checked": true,
+    "description": "Tracx Logis Ltd. is a technology-driven, integrated cross-border logistics services provider operating e-Commerce Logistics and Enterprise Logistics businesses, using an asset-light model and its proprietary TLPS platform with AI to offer shipping, storage, and fulfillment services primarily across Asia and globally. The company also offers AI-driven e-commerce tools such as Smart AI Studio, which helps merchants create product pages and advertising content and publish them to integrated e-commerce platforms.",
+    "products_services": "Cross-border e-commerce logistics (end-to-end shipping, storage, distribution, and fulfillment), enterprise logistics services, the TLPS platform with Smart Warehouse and inventory management modules, AI customer service tools, and Smart AI Studio/tFit for e-commerce merchants and sellers.",
+    "industry": "Logistics and freight services, with a technology focus on cross-border e-commerce logistics and AI-enabled e-commerce tools",
+    "shares_outstanding": 16685597,
+    "proposed_price_low": 18.0,
+    "proposed_price_high": 22.0,
+    "description_ja": "Tracx Logis Ltd.は、技術主導型の統合型越境ロジスティクスサービス事業者。e-Commerceロジスティクス事業とEnterpriseロジスティクス事業を展開し、アセットライト型のモデルと独自のAI搭載プラットフォームTLPSを活用して、主にアジアおよびグローバルで輸送、保管、フルフィルメントサービスを提供。さらに、Smart AI Studioなどおよび AI駆動型のEコマースツールも提供し、販売者が商品ページや広告コンテンツを作成し、連携先のECプラットフォームへ公開することを支援。",
+    "products_services_ja": "越境Eコマースロジスティクス（エンドツーエンドの輸送、保管、配送、フルフィルメント）、エンタープライズロジスティクスサービス、Smart WarehouseおよびInventory管理モジュールを備えたTLPSプラットフォーム、AIカスタマーサービスツール、Eコマース販売者向けのSmart AI Studio／tFit。",
+    "ja_src": "cd73ee1e2cb9"
   }
 }
