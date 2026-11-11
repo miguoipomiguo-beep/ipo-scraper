@@ -36,6 +36,11 @@ GITHUB_MODELS_ENABLED = False   # GitHub Models は 2026-07-30 に終了。呼�
 OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions"
 OPENROUTER_KEY = os.environ.get("OPENROUTER_KEY", "")
 ANTHROPIC_KEY = os.environ.get("ANTHROPIC_API_KEY", "")
+def _worker_auth() -> dict:
+    """Worker の管理用エンドポイント（SEC 中継を含む）に付ける認証ヘッダー。SEC へ直接送るときは付けない"""
+    return {"Authorization": f"Bearer {ADMIN_TOKEN}"}
+
+
 HAIKU_MODEL = "claude-haiku-5-5"   # 第一候補。OpenRouter の無料モデルは混雑と1日50回の上限で安定しないので予備に回す
 FILING_FETCH_MAX = 60   # 説明文のために S-1 本文を取りにいく上限（SEC の待ち時間で1件約6秒）
 S1_MAX_PER_RUN = 50 if ANTHROPIC_KEY else 15   # 無料モデルだけのときは1日の回数上限があるので、説明文の分を残す
@@ -70,7 +75,7 @@ async def fetch_sec_filings() -> list:
                 end_date = datetime.now().strftime("%Y-%m-%d")
 
                 if proxy_url:
-                    resp = await client.get(proxy_url, params={
+                    resp = await client.get(proxy_url, headers=_worker_auth(), params={
                         "forms": form_type, "startdt": start_date, "enddt": end_date,
                     })
                 else:
@@ -117,7 +122,7 @@ async def fetch_sec_filings() -> list:
                 else:
                     cik_padded = cik.lstrip("0").zfill(10)
                     url = f"https://data.sec.gov/submissions/CIK{cik_padded}.json"
-                resp = await client.get(url)
+                resp = await client.get(url, headers=_worker_auth() if WORKER_URL else None)
 
                 if resp.status_code != 200:
                     continue
@@ -792,7 +797,8 @@ async def _fetch_filing_text(client, ipo: dict, accession_raw: str):
 
     # Submissions APIからprimaryDocumentファイル名を取得
     if WORKER_URL:
-        sub_resp = await client.get(f"{WORKER_URL}/api/admin/sec-submissions", params={"cik": ipo["cik"]})
+        sub_resp = await client.get(f"{WORKER_URL}/api/admin/sec-submissions", params={"cik": ipo["cik"]},
+                                    headers=_worker_auth())
     else:
         cik_padded = cik_raw.zfill(10)
         sub_resp = await client.get(f"https://data.sec.gov/submissions/CIK{cik_padded}.json",
@@ -823,7 +829,8 @@ async def _fetch_filing_text(client, ipo: dict, accession_raw: str):
     doc_resp = None
     for attempt in range(3):
         if WORKER_URL:
-            doc_resp = await client.get(f"{WORKER_URL}/api/admin/sec-fetch", params={"url": doc_url})
+            doc_resp = await client.get(f"{WORKER_URL}/api/admin/sec-fetch", params={"url": doc_url},
+                                        headers=_worker_auth())
         else:
             doc_resp = await client.get(doc_url, headers={"User-Agent": "usaipocalendarapp miguoipomiguo@gmail.com"})
         if doc_resp.status_code == 200:
@@ -1210,7 +1217,7 @@ async def supplement_nasdaq_ciks(sec_companies: list, nasdaq_data: dict) -> list
                 # 企業名でSEC検索してCIKを取得
                 search_term = " ".join(company_name.split()[:3])
                 if WORKER_URL:
-                    resp = await client.get(f"{WORKER_URL}/api/admin/sec-proxy",
+                    resp = await client.get(f"{WORKER_URL}/api/admin/sec-proxy", headers=_worker_auth(),
                         params={"q": f'"{search_term}"', "forms": "F-1,S-1",
                                 "startdt": "2024-01-01", "enddt": datetime.now().strftime("%Y-%m-%d")})
                 else:
@@ -1234,7 +1241,8 @@ async def supplement_nasdaq_ciks(sec_companies: list, nasdaq_data: dict) -> list
                         if cik not in existing_ciks:
                             # Submissions APIでタイムライン取得
                             if WORKER_URL:
-                                sub_resp = await client.get(f"{WORKER_URL}/api/admin/sec-submissions?cik={cik}")
+                                sub_resp = await client.get(f"{WORKER_URL}/api/admin/sec-submissions?cik={cik}",
+                                                            headers=_worker_auth())
                             else:
                                 cik_padded = cik.lstrip("0").zfill(10)
                                 sub_resp = await client.get(f"https://data.sec.gov/submissions/CIK{cik_padded}.json")
