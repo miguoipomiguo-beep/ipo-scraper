@@ -1179,6 +1179,89 @@ async def supplement_nasdaq_ciks(sec_companies: list, nasdaq_data: dict) -> list
 ENRICHMENT_CACHE = Path(__file__).parent / "enrichment_cache.json"
 
 
+JA_MAX_PER_RUN = 400   # 1回に訳す社数（20社ずつまとめて Haiku に送る。約530社で数セント）
+JA_CHUNK = 20
+
+
+def _ja_src(ipo: dict) -> str:
+    """訳した元の英文の指紋。英文が書き換わったら訳し直す"""
+    import hashlib
+    src = (ipo.get("description") or "") + "\n" + (ipo.get("products_services") or "")
+    return hashlib.sha1(src.encode()).hexdigest()[:12]
+
+
+async def translate_ja(ipos: list):
+    """description / products_services を日本語に訳して description_ja / products_services_ja に入れる"""
+    print("\n=== Japanese Translation ===")
+    if not _haiku_client:
+        print("  [SKIP] no ANTHROPIC_API_KEY")
+        return
+    todo, seen = [], {}
+    for ipo in ipos:
+        if not ipo.get("description"):
+            continue
+        src = _ja_src(ipo)
+        if ipo.get("description_ja") and ipo.get("ja_src") == src:
+            continue
+        seen.setdefault(src, []).append(ipo)
+    todo = list(seen.items())   # 同じ英文の銘柄（ティッカー違いなど）は1回だけ訳す
+    print(f"  {len(todo)} texts need translation (up to {JA_MAX_PER_RUN} this run)")
+    todo = todo[:JA_MAX_PER_RUN]
+    stats = {"done": 0, "in": 0, "out": 0}
+    sem = asyncio.Semaphore(5)   # 20社分の訳は1回30秒ほどかかるので、5つ並べて送る
+
+    async def one(start: int):
+        chunk = todo[start:start + JA_CHUNK]
+        items = {str(n): {"description": group[0].get("description"),
+                          "products_services": group[0].get("products_services")}
+                 for n, (_, group) in enumerate(chunk)}
+        prompt = (
+            "Translate each company's description and products_services into natural Japanese "
+            "for Japanese retail investors reading an IPO app. Keep company names, product names, "
+            "drug codes and tickers in their original spelling. Keep numbers exact. "
+            "Write concise Japanese in plain form (常体; 体言止め is fine). "
+            "If a field is null, return null for it. Respond with JSON only, no markdown, "
+            'in the form {"0": {"description": "...", "products_services": "..."}, ...}.\n\n'
+            + json.dumps(items, ensure_ascii=False))
+        async with sem:
+            try:
+                resp = await _haiku_client.messages.create(
+                    model=HAIKU_MODEL, max_tokens=16000,
+                    thinking={"type": "disabled"},
+                    messages=[{"role": "user", "content": prompt}])
+            except Exception as e:
+                print(f"  ! chunk {start // JA_CHUNK}: {type(e).__name__}: {str(e)[:150]}")
+                return
+        stats["in"] += resp.usage.input_tokens
+        stats["out"] += resp.usage.output_tokens
+        text = "".join(b.text for b in resp.content if b.type == "text")
+        try:
+            out = _parse_llm_json(text) or {}
+        except Exception:
+            out = {}
+        if resp.stop_reason != "end_turn" or not isinstance(out, dict) or not out:
+            print(f"  ! chunk {start // JA_CHUNK}: stop={resp.stop_reason}, unparsed")
+            return
+        for n, (src, group) in enumerate(chunk):
+            t = out.get(str(n))
+            if not isinstance(t, dict) or not isinstance(t.get("description"), str) or not t["description"].strip():
+                continue
+            p = t.get("products_services") if isinstance(t.get("products_services"), str) else None
+            for ipo in group:
+                ipo["description_ja"] = t["description"].strip()
+                if p and p.strip():
+                    ipo["products_services_ja"] = p.strip()
+                else:
+                    ipo.pop("products_services_ja", None)
+                ipo["ja_src"] = src
+            stats["done"] += 1
+
+    await asyncio.gather(*(one(st) for st in range(0, len(todo), JA_CHUNK)))
+    done, tokens_in, tokens_out = stats["done"], stats["in"], stats["out"]
+    cost = tokens_in / 1e6 * 0.10 + tokens_out / 1e6 * 0.50
+    print(f"  translated {done} texts, tokens in={tokens_in} out={tokens_out}, ~${cost:.4f}")
+
+
 def load_enrichment_cache() -> dict:
     """過去のLLM補完結果を読み込む（id → {description, products_services, industry}）"""
     if ENRICHMENT_CACHE.exists():
@@ -1201,7 +1284,7 @@ def apply_enrichment_cache(ipos: list, cache: dict):
     junk = 0
     for entry in cache.values():
         if entry.get("description") and _is_unknown_answer(entry):
-            for key in ("description", "products_services", "industry"):
+            for key in ("description", "products_services", "industry", "description_ja", "products_services_ja", "ja_src"):
                 entry.pop(key, None)
             junk += 1
     for ipo in ipos:
@@ -1225,6 +1308,11 @@ def apply_enrichment_cache(ipos: list, cache: dict):
                 if not ipo.get(key) and cached.get(key):
                     ipo[key] = cached[key]
                     changed = True
+            # 日本語訳は、訳した元の英文が今の英文と同じときだけ使う
+            if cached.get("description_ja") and cached.get("ja_src") == _ja_src(ipo):
+                for key in ("description_ja", "products_services_ja", "ja_src"):
+                    if cached.get(key):
+                        ipo[key] = cached[key]
             if changed:
                 applied += 1
     print(f"  Cache applied: {applied} companies")
@@ -1280,6 +1368,12 @@ async def main():
     # LLMで未補完分を補完
     enriched = await enrich_with_llm(merged) or merged
 
+    # 企業概要・製品の日本語訳（アプリの日本語表示用）
+    try:
+        await translate_ja(enriched)
+    except Exception as e:
+        print(f"  ! translate_ja failed: {type(e).__name__}: {str(e)[:200]}")
+
     # キャッシュを更新保存
     for ipo in enriched:
         ipo_id = ipo.get("id") or ipo.get("ticker") or ipo.get("cik")
@@ -1288,7 +1382,8 @@ async def main():
             for key in ("description", "products_services", "industry"):
                 if ipo.get(key):
                     entry[key] = ipo[key]
-            for key in ("shares_outstanding", "proposed_price_low", "proposed_price_high"):
+            for key in ("shares_outstanding", "proposed_price_low", "proposed_price_high",
+                        "description_ja", "products_services_ja", "ja_src"):
                 if ipo.get(key):
                     entry[key] = ipo[key]
             cache[ipo_id] = entry
