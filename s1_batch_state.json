@@ -1,1 +1,24 @@
-{}
+{
+ "batch_id": "msgbatch_012JpYsgiZVJKY92qfriWEH6",
+ "items": {
+  "s1-0001104659-26-125497": {
+   "accession": "0001104659-26-125497",
+   "hints": {
+    "currency": null,
+    "lockup_days": null,
+    "unit": "units"
+   },
+   "ipo_id": "JRWP"
+  },
+  "s1-0001140361-26-043309": {
+   "accession": "0001140361-26-043309",
+   "hints": {
+    "currency": null,
+    "lockup_days": null,
+    "unit": "thousands"
+   },
+   "ipo_id": "VVVV"
+  }
+ },
+ "submitted_at": "2026-11-12T19:44:41+00:00"
+}
