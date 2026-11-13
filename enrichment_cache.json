@@ -4517,7 +4517,10 @@
     "industry": "Biopharmaceutical (clinical-stage drug development, metabolic diseases)",
     "description_ja": "Vogenx, Inc.は、重篤な代謝性疾患向けの新規治療法を開発する臨床段階のバイオ医薬品企業。主力候補はmizagliflozin（選択的SGLT1阻害薬）で、減量手術後低血糖、胃不全麻痺、GIP依存性クッシング症候群を適応症として開発中。現時点で販売中の製品はなく、治験を通じて承認取得を目指す段階。",
     "products_services_ja": "開発中の候補薬：主力候補mizagliflozin（経口SGLT1阻害薬）、前臨床候補VGX-2857。現在販売中の製品・サービスはなし。",
-    "ja_src": "b04c40c302f8"
+    "ja_src": "b04c40c302f8",
+    "proposed_price_low": 11.0,
+    "proposed_price_high": 13.0,
+    "ads_checked": true
   },
   "BLSM": {
     "description": "BlossomHill Therapeutics is a clinical-stage biopharmaceutical company developing small molecule cancer medicines designed using structure-based rational drug design. Its lead programs include BH-30643, an investigational EGFR inhibitor for EGFR-mutant non-small cell lung cancer, and BH-30236, a CLK inhibitor for relapsed or refractory acute myeloid leukemia and higher-risk myelodysplastic syndromes, plus a preclinical KRAS-targeting candidate.",

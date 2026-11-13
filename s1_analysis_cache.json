@@ -711,6 +711,47 @@
    "JRWP"
   ]
  },
+ "0001104659-26-126335": {
+  "analyzed_at": "2026-11-13T19:25:18+00:00",
+  "data": {
+   "currency": "USD",
+   "fiscal_year": "January 3, 2026",
+   "interim_net_income": 196000000,
+   "interim_period": "Nine months ended October 3, 2026",
+   "interim_revenue": 3157000000,
+   "key_risks": [
+    "Economic slowdowns affecting customers and their sectors could materially harm results",
+    "Global macroeconomic uncertainty and political instability and conflicts may adversely affect business",
+    "International operations, especially in emerging markets, expose us to inherent international business risks"
+   ],
+   "key_risks_ja": [
+    "顧客や顧客の業界の景気減速が業績に重大な悪影響を与える恐れ",
+    "政治的不安定や紛争によるグローバルな不透明感が事業に悪影響を与える恐れ",
+    "新興国を含む海外事業に伴う国際事業特有のリスク"
+   ],
+   "lockup_days": 180,
+   "net_income": -91000000,
+   "net_income_prior_year": 97000000,
+   "net_proceeds": null,
+   "revenue": 3416000000,
+   "revenue_prior_year": 2854000000,
+   "underwriters": [
+    "Goldman Sachs & Co. LLC",
+    "J.P. Morgan",
+    "BofA Securities",
+    "Barclays",
+    "Morgan Stanley"
+   ],
+   "use_of_proceeds": [],
+   "use_of_proceeds_ja": [],
+   "v": 3
+  },
+  "empty": false,
+  "ipo_id": "AGKO",
+  "pushed_to": [
+   "AGKO"
+  ]
+ },
  "0001140361-26-042406": {
   "analyzed_at": "2026-11-11T17:24:12+00:00",
   "data": {
@@ -5496,6 +5537,76 @@
   "empty": true,
   "ipo_id": "0002048740",
   "pushed_to": []
+ },
+ "0001213900-26-118889": {
+  "analyzed_at": "2026-11-13T19:25:18+00:00",
+  "data": {
+   "currency": "USD",
+   "fiscal_year": null,
+   "interim_net_income": null,
+   "interim_period": "As of September 30, 2026",
+   "interim_revenue": null,
+   "key_risks": [
+    "Blank check company with no operating history and no revenues",
+    "Public shareholders may not vote on initial business combination; founder shares vote",
+    "Sponsor controls appointment of board until business combination"
+   ],
+   "key_risks_ja": [
+    "運営実績も収益もない白紙小切手会社である",
+    "公衆株主が business combination に投票できない可能性があり、創業者株式が議決に参加する",
+    "初期の business combination まで取締役任命を sponsor が支配する"
+   ],
+   "lockup_days": null,
+   "net_income": null,
+   "net_income_prior_year": null,
+   "net_proceeds": null,
+   "revenue": null,
+   "revenue_prior_year": null,
+   "underwriters": [],
+   "use_of_proceeds": [],
+   "use_of_proceeds_ja": [],
+   "v": 3
+  },
+  "empty": false,
+  "ipo_id": "HRIA",
+  "pushed_to": [
+   "HRIA"
+  ]
+ },
+ "0001213900-26-118959": {
+  "analyzed_at": "2026-11-13T19:25:18+00:00",
+  "data": {
+   "currency": "USD",
+   "fiscal_year": null,
+   "interim_net_income": null,
+   "interim_period": null,
+   "interim_revenue": null,
+   "key_risks": [
+    "Industry is highly competitive; may be unable to compete effectively",
+    "Business is geographically concentrated, increasing exposure to local conditions",
+    "Reliance on third-party services; disruptions could harm business and growth"
+   ],
+   "key_risks_ja": [
+    "業界の競争が激しく、効果的に競争できない可能性がある",
+    "事業が地理的に集中しており、地域の状況変化の影響を受けやすい",
+    "第三者サービスへの依存により、中断が事業と成長に悪影響を与える"
+   ],
+   "lockup_days": null,
+   "net_income": null,
+   "net_income_prior_year": null,
+   "net_proceeds": 854196,
+   "revenue": null,
+   "revenue_prior_year": null,
+   "underwriters": [],
+   "use_of_proceeds": [],
+   "use_of_proceeds_ja": [],
+   "v": 3
+  },
+  "empty": false,
+  "ipo_id": "0002071166",
+  "pushed_to": [
+   "0002071166"
+  ]
  },
  "0001477932-26-005904": {
   "analyzed_at": "2026-11-11T16:30:35+00:00",
