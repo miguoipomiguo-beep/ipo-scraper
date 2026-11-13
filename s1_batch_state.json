@@ -1,24 +1,33 @@
 {
- "batch_id": "msgbatch_012JpYsgiZVJKY92qfriWEH6",
+ "batch_id": "msgbatch_01UdeVWrvN6jFtccsC6x5Gg4",
  "items": {
-  "s1-0001104659-26-125497": {
-   "accession": "0001104659-26-125497",
+  "s1-0001104659-26-126335": {
+   "accession": "0001104659-26-126335",
+   "hints": {
+    "currency": null,
+    "lockup_days": 180,
+    "unit": "millions"
+   },
+   "ipo_id": "AGKO"
+  },
+  "s1-0001213900-26-118889": {
+   "accession": "0001213900-26-118889",
    "hints": {
     "currency": null,
     "lockup_days": null,
     "unit": "units"
    },
-   "ipo_id": "JRWP"
+   "ipo_id": "HRIA"
   },
-  "s1-0001140361-26-043309": {
-   "accession": "0001140361-26-043309",
+  "s1-0001213900-26-118959": {
+   "accession": "0001213900-26-118959",
    "hints": {
     "currency": null,
     "lockup_days": null,
-    "unit": "thousands"
+    "unit": "units"
    },
-   "ipo_id": "VVVV"
+   "ipo_id": "0002071166"
   }
  },
- "submitted_at": "2026-11-12T19:44:41+00:00"
+ "submitted_at": "2026-11-13T04:39:02+00:00"
 }

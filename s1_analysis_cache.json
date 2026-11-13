@@ -676,6 +676,41 @@
    "RZRA"
   ]
  },
+ "0001104659-26-125497": {
+  "analyzed_at": "2026-11-13T04:38:44+00:00",
+  "data": {
+   "currency": "USD",
+   "fiscal_year": null,
+   "interim_net_income": null,
+   "interim_period": null,
+   "interim_revenue": null,
+   "key_risks": [
+    "Approval or filing procedures of the CSRC or other PRC regulators may be required for this offering",
+    "M&A Rules and other PRC regulations complicate acquisitions of Chinese companies by foreign investors",
+    "PRC operating entities may face evolving privacy, data security, and cybersecurity laws and liability"
+   ],
+   "key_risks_ja": [
+    "本オファリングにはCSRCその他の中国当局の承認または届出が必要となる可能性がある",
+    "M&A規則等により外国投資家による中国企業の買収手続きが複雑である",
+    "中国事業会社はプライバシー、データセキュリティ、サイバーセキュリティに関する法規制の変化や責任を負う可能性がある"
+   ],
+   "lockup_days": 180,
+   "net_income": null,
+   "net_income_prior_year": null,
+   "net_proceeds": null,
+   "revenue": null,
+   "revenue_prior_year": null,
+   "underwriters": [],
+   "use_of_proceeds": [],
+   "use_of_proceeds_ja": [],
+   "v": 3
+  },
+  "empty": false,
+  "ipo_id": "JRWP",
+  "pushed_to": [
+   "JRWP"
+  ]
+ },
  "0001140361-26-042406": {
   "analyzed_at": "2026-11-11T17:24:12+00:00",
   "data": {
@@ -724,6 +759,53 @@
   "pushed_to": [
    "VVVV",
    "0001907709"
+  ]
+ },
+ "0001140361-26-043309": {
+  "analyzed_at": "2026-11-13T04:38:44+00:00",
+  "data": {
+   "currency": "USD",
+   "fiscal_year": "2025",
+   "interim_net_income": -27807000,
+   "interim_period": "six months ended June 30, 2026",
+   "interim_revenue": 28558000,
+   "key_risks": [
+    "Market awareness and acceptance of our products are critical to commercial success",
+    "Operating results depend on third-party distributor Henry Schein and key customer Heartland Dental",
+    "Reliance on third-party manufacturers and suppliers for products"
+   ],
+   "key_risks_ja": [
+    "製品の市場認知と受容が商業的成功に不可欠",
+    "業績はHenry Scheinなどの第三者販売代理店とHeartland Dentalへの販売に依存",
+    "製品の製造・供給を第三者の製造業者・サプライヤーに依存"
+   ],
+   "lockup_days": 180,
+   "net_income": -56494000,
+   "net_income_prior_year": -34737000,
+   "net_proceeds": 166200000,
+   "revenue": 30209000,
+   "revenue_prior_year": 12157000,
+   "underwriters": [
+    "Goldman Sachs & Co. LLC",
+    "J.P. Morgan",
+    "William Blair",
+    "UBS Investment Bank",
+    "Deutsche Bank Securities"
+   ],
+   "use_of_proceeds": [
+    "General corporate purposes",
+    "Working capital"
+   ],
+   "use_of_proceeds_ja": [
+    "一般的な企業目的",
+    "運転資金"
+   ],
+   "v": 3
+  },
+  "empty": false,
+  "ipo_id": "VVVV",
+  "pushed_to": [
+   "VVVV"
   ]
  },
  "0001185185-26-002065": {

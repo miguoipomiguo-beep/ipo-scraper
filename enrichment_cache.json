@@ -3978,7 +3978,9 @@
     "description_ja": "Lyntris Inc.は、コネクテッド・バトルスペース向けの「センス・トゥ・アクト（感知から行動へ）」接続ソリューションを提供する防衛テクノロジー企業。米国防総省（Department of War）および同盟国の軍を顧客とし、海洋領域認識、防空・ミサイル防衛、宇宙ISR・耐障害通信の各ミッションを手がける。センサーアーキテクチャ、独自のセンサー・アンテナハードウェア、データ融合・指揮統制・任務遂行のためのデータ・ソフトウェアプラットフォームを展開する。",
     "products_services_ja": "センサーアーキテクチャ設計、独自のセンサー・アンテナサブシステム（RF、レーダー、電源・熱管理）、データの取り込み・融合・可視化および指揮統制を支援するデータ・ソフトウェアプラットフォーム。",
     "ja_src": "75a079da324b",
-    "ads_checked": true
+    "ads_checked": true,
+    "proposed_price_low": 19.0,
+    "proposed_price_high": 22.0
   },
   "NSAIU": {
     "description": "NorthStrive Acquisition Corp I is a blank-check special purpose acquisition company formed to effect a merger, share exchange, asset acquisition, or similar business combination with one or more operating businesses. It has no operations of its own and seeks to take a target company public through its initial public offering and subsequent business combination.",
@@ -3997,7 +3999,12 @@
     "industry": "Advanced materials / copper foil manufacturing for lithium-ion batteries and electronic circuit boards (serving EV, energy storage, and electronics markets).",
     "description_ja": "Londian Wason New Energy Tech Inc.は、電解銅箔のグローバルなイノベーション主導型の研究開発・製造企業。抜粋によれば、2025年の販売数量でリチウムイオン電池用銅箔の世界最大のサプライヤーであった。主製品はLiB用銅箔およびPCB用銅箔（一部FCCL）で、電気自動車、蓄電システム、通信機器、家電製品などの顧客に供給している。",
     "products_services_ja": "電解銅箔：LiB用銅箔（リチウムイオン電池セルの集電体として使用）、PCB用銅箔（プリント基板および電子回路に使用）、およびそれより少量のFCCL。",
-    "ja_src": "12dd18e527a4"
+    "ja_src": "12dd18e527a4",
+    "ads_checked": true,
+    "ads_ratio": 5.0,
+    "shares_outstanding": 387220760,
+    "proposed_price_low": 20.0,
+    "proposed_price_high": 22.0
   },
   "LTGO": {
     "description": "Latigo Biotherapeutics, Inc. is a biotechnology company focused on developing novel therapeutics. Details on its pipeline, clinical programs, and IPO terms should be verified against its SEC filings and offering materials.",
