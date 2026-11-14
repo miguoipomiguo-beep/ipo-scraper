@@ -3979,8 +3979,8 @@
     "products_services_ja": "センサーアーキテクチャ設計、独自のセンサー・アンテナサブシステム（RF、レーダー、電源・熱管理）、データの取り込み・融合・可視化および指揮統制を支援するデータ・ソフトウェアプラットフォーム。",
     "ja_src": "75a079da324b",
     "ads_checked": true,
-    "proposed_price_low": 19.0,
-    "proposed_price_high": 22.0
+    "proposed_price_low": 20.5,
+    "proposed_price_high": 20.5
   },
   "NSAIU": {
     "description": "NorthStrive Acquisition Corp I is a blank-check special purpose acquisition company formed to effect a merger, share exchange, asset acquisition, or similar business combination with one or more operating businesses. It has no operations of its own and seeks to take a target company public through its initial public offering and subsequent business combination.",
@@ -3991,7 +3991,8 @@
     "ja_src": "4156ac505503",
     "proposed_price_low": 10.0,
     "proposed_price_high": 10.0,
-    "ads_checked": true
+    "ads_checked": true,
+    "shares_outstanding": 14200000
   },
   "FOIL": {
     "description": "Londian Wason New Energy Tech Inc. is a global innovation-driven researcher, developer, and manufacturer of electrolytic copper foil, and according to the excerpt it was the world's largest supplier of lithium-ion battery copper foil by sales volume in 2025. Its products, primarily LiB copper foil and PCB-grade copper foil (plus some FCCLs), serve customers in electric vehicles, energy storage systems, communication equipment, and consumer electronics.",
