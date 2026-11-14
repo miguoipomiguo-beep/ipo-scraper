@@ -3979,8 +3979,8 @@
     "products_services_ja": "センサーアーキテクチャ設計、独自のセンサー・アンテナサブシステム（RF、レーダー、電源・熱管理）、データの取り込み・融合・可視化および指揮統制を支援するデータ・ソフトウェアプラットフォーム。",
     "ja_src": "75a079da324b",
     "ads_checked": true,
-    "proposed_price_low": 20.5,
-    "proposed_price_high": 20.5
+    "proposed_price_low": 19.0,
+    "proposed_price_high": 22.0
   },
   "NSAIU": {
     "description": "NorthStrive Acquisition Corp I is a blank-check special purpose acquisition company formed to effect a merger, share exchange, asset acquisition, or similar business combination with one or more operating businesses. It has no operations of its own and seeks to take a target company public through its initial public offering and subsequent business combination.",
@@ -4013,7 +4013,10 @@
     "industry": "Biotechnology / Biopharmaceuticals",
     "description_ja": "Latigo Biotherapeutics, Inc.は、新規治療薬の開発に注力するバイオテクノロジー企業。パイプライン、臨床プログラム、IPO条件の詳細はSEC提出書類および募集関連資料で確認が必要。",
     "products_services_ja": "開発中のバイオ医薬品候補の創製。具体的な製品・臨床プログラムは確認できず。",
-    "ja_src": "33780cd3ecbd"
+    "ja_src": "33780cd3ecbd",
+    "proposed_price_low": 16.0,
+    "proposed_price_high": 18.0,
+    "ads_checked": true
   },
   "OCLTU": {
     "description": "OceanLight Acquisition Corp. is a blank check company, also known as a special purpose acquisition company (SPAC), formed to raise capital through an initial public offering for the purpose of acquiring or merging with an operating business. Its management team seeks to identify and complete a business combination with a target company, which would then become publicly traded through the transaction.",
