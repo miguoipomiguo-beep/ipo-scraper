@@ -1,1 +1,15 @@
-{}
+{
+ "batch_id": "msgbatch_01DVAj9JQfBBYLMw9iJQYSyR",
+ "items": {
+  "s1-0001213900-24-013022": {
+   "accession": "0001213900-24-013022",
+   "hints": {
+    "currency": null,
+    "lockup_days": null,
+    "unit": "units"
+   },
+   "ipo_id": "MDRN"
+  }
+ },
+ "submitted_at": "2026-11-16T22:07:29+00:00"
+}

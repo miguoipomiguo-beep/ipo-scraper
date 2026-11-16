@@ -3568,7 +3568,8 @@
     "description_ja": "RainRock Acquisition Corp.は、新規株式公開により資金を調達し、事業会社の買収または合併を目的として設立されたブランク・チェック・カンパニー(SPAC)。自前の事業運営のないシェルカンパニーとして、定められた期間内に上場させる対象企業を探す。",
     "products_services_ja": "事業としての製品・サービスはなし。唯一の目的は、非公開の対象企業を特定・評価し、企業結合を完了すること。",
     "ja_src": "b3c385aca7dc",
-    "ads_checked": true
+    "ads_checked": true,
+    "shares_outstanding": 20750000
   },
   "EMAC": {
     "description": "Essential Minerals Acquisition Corp. is a special purpose acquisition company formed to identify and combine with a business in the critical minerals sector. The company intends to leverage its capital and management expertise to pursue a target that supports the supply chain for minerals essential to the energy transition and advanced manufacturing.",
@@ -4718,5 +4719,13 @@
     "description_ja": "Tracx Logis Ltd.は、技術主導型の統合型越境ロジスティクスサービス事業者。e-Commerceロジスティクス事業とEnterpriseロジスティクス事業を展開し、アセットライト型のモデルと独自のAI搭載プラットフォームTLPSを活用して、主にアジアおよびグローバルで輸送、保管、フルフィルメントサービスを提供。さらに、Smart AI Studioなどおよび AI駆動型のEコマースツールも提供し、販売者が商品ページや広告コンテンツを作成し、連携先のECプラットフォームへ公開することを支援。",
     "products_services_ja": "越境Eコマースロジスティクス（エンドツーエンドの輸送、保管、配送、フルフィルメント）、エンタープライズロジスティクスサービス、Smart WarehouseおよびInventory管理モジュールを備えたTLPSプラットフォーム、AIカスタマーサービスツール、Eコマース販売者向けのSmart AI Studio／tFit。",
     "ja_src": "cd73ee1e2cb9"
+  },
+  "MDRN": {
+    "description": "Modern Mining Technology Corp. (formerly Urban Mining International Inc.) is a \"landfill-to-commodity\" venture that plans to recover gold, palladium, silver, copper and potentially about 30 other metals from electronic waste using aqueous-based processes, offering a lower-cost, cleaner alternative to traditional mining. Its business is built on securing E-Waste feedstock from primary recyclers, separating plastics from metals through its proprietary pre-concentration process, and selling the concentrated metals.",
+    "products_services": "Recovery, processing and refining of commodity metals (gold, palladium, silver, copper and potentially 30 other metals) from electronic waste, using proprietary two-step pre-concentration and aqueous purification processes; sale of the produced commodity metals.",
+    "industry": "Electronic waste (E-Waste) recycling and urban mining / metals recovery",
+    "description_ja": "Modern Mining Technology Corp.（旧社名Urban Mining International Inc.）は「埋立処分場から商品へ」を掲げる事業会社。電子廃棄物から金、パラジウム、銀、銅、さらに約30種類の金属を回収する計画で、従来の採鉱に比べてコストが低く環境負荷も小さい水溶液ベースの手法を提供する。事業は、一次リサイクル業者からE-Waste原料を確保し、独自の前濃縮プロセスでプラスチックと金属を分離、濃縮した金属を販売するモデル。",
+    "products_services_ja": "独自の二段階前濃縮および水溶液による精製プロセスを用いた、電子廃棄物からの金、パラジウム、銀、銅（および約30種類のその他金属）の回収・処理・精製。製造したコモディティ金属の販売。",
+    "ja_src": "7c203536fe95"
   }
 }
