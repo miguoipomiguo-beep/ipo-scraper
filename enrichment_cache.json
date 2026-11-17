@@ -4025,7 +4025,10 @@
     "industry": "Financial Services – Special Purpose Acquisition Companies (SPACs)",
     "description_ja": "OceanLight Acquisition Corp.は、IPOで資金を調達し、事業会社の買収または合併を目的として設立された blank check company（SPAC、特別目的買収会社）。経営陣は対象企業との企業結合を模索し、取引を通じて対象企業が上場することを目指す。",
     "products_services_ja": "自社の製品・サービスはなし。公開資金の調達と、非公開の事業会社との企業結合が主な活動。",
-    "ja_src": "9d6f1d0ed3b1"
+    "ja_src": "9d6f1d0ed3b1",
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0,
+    "ads_checked": true
   },
   "TCGX": {
     "description": "TCGX Acquisition Corp. II is a blank check company, also known as a special purpose acquisition company (SPAC), formed to effect a merger, share exchange, or similar business combination with one or more operating businesses. It has no operations of its own and raises capital through an initial public offering with the intention of identifying and acquiring a target company.",
