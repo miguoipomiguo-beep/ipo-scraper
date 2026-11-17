@@ -4727,5 +4727,13 @@
     "description_ja": "Modern Mining Technology Corp.（旧社名Urban Mining International Inc.）は「埋立処分場から商品へ」を掲げる事業会社。電子廃棄物から金、パラジウム、銀、銅、さらに約30種類の金属を回収する計画で、従来の採鉱に比べてコストが低く環境負荷も小さい水溶液ベースの手法を提供する。事業は、一次リサイクル業者からE-Waste原料を確保し、独自の前濃縮プロセスでプラスチックと金属を分離、濃縮した金属を販売するモデル。",
     "products_services_ja": "独自の二段階前濃縮および水溶液による精製プロセスを用いた、電子廃棄物からの金、パラジウム、銀、銅（および約30種類のその他金属）の回収・処理・精製。製造したコモディティ金属の販売。",
     "ja_src": "7c203536fe95"
+  },
+  "GDMT": {
+    "description": "Gold Mountain Acquisition Corp. is a blank check company incorporated in the Cayman Islands on December 11, 2025, formed to effect a business combination with one or more target businesses, initially focused on Asia but not restricted to any specific industry. It has generated no revenues and has not yet selected a target business.",
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0,
+    "description_ja": "Gold Mountain Acquisition Corp.は2025年12月11日にケイマン諸島で設立された特別目的買収会社(SPAC)。1つ以上の対象企業との企業結合を目的とし、当初はアジアを中心とするが、特定の業種には限定しない。売上は発生しておらず、対象企業はまだ選定していない。",
+    "ja_src": "da23522ebb22",
+    "ads_checked": true
   }
 }

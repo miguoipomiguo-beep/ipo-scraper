@@ -2614,6 +2614,43 @@
    "WWB"
   ]
  },
+ "0001213900-24-013022": {
+  "analyzed_at": "2026-11-17T06:08:25+00:00",
+  "data": {
+   "currency": "USD",
+   "fiscal_year": "2022",
+   "interim_net_income": -1465028,
+   "interim_period": "six months ended June 30, 2023",
+   "interim_revenue": null,
+   "key_risks": [],
+   "key_risks_ja": [],
+   "lockup_days": null,
+   "net_income": -2778550,
+   "net_income_prior_year": -2086371,
+   "net_proceeds": 8565000,
+   "revenue": null,
+   "revenue_prior_year": null,
+   "underwriters": [
+    "ThinkEquity"
+   ],
+   "use_of_proceeds": [
+    "Research and development expenses",
+    "Marketing expenditures",
+    "Capital expenditures and working capital"
+   ],
+   "use_of_proceeds_ja": [
+    "研究開発費",
+    "マーケティング費用",
+    "設備投資および運転資本"
+   ],
+   "v": 3
+  },
+  "empty": false,
+  "ipo_id": "MDRN",
+  "pushed_to": [
+   "MDRN"
+  ]
+ },
  "0001213900-26-004424": {
   "analyzed_at": "2026-11-11T16:30:35+00:00",
   "data": {
