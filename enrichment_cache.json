@@ -4547,7 +4547,8 @@
     "industry": "Biopharmaceutical (clinical-stage drug development, cardiovascular/HCM therapeutics)",
     "description_ja": "Braveheart Bioは、肥大型心筋症などの重篤な心血管疾患向け治療薬を開発する臨床段階のバイオ医薬品企業。主力候補BHB-1893は、閉塞性および非閉塞性HCM向けに開発中の経口低分子心筋ミオシン阻害薬。同社はBHB-1893を江蘇恒瑞医薬からライセンス導入しており、同社の治験は設計・実施・監督していない。",
     "products_services_ja": "BHB-1893：開発中の経口低分子心筋ミオシン阻害薬（未承認）、閉塞性・非閉塞性肥大型心筋症向け。",
-    "ja_src": "699a7308bc6b"
+    "ja_src": "699a7308bc6b",
+    "ads_checked": true
   },
   "ATTO": {
     "description": "Attovia Therapeutics is a clinical-stage biopharmaceutical company developing next-generation biotherapeutics for immune-mediated diseases, using its ATTOBODY biologics platform to design candidates such as ATTO-1310, an IL-31-targeting Fc-fusion protein being studied in patients with chronic pruritic diseases. Its pipeline also includes the bispecific ATTO-2306 (targeting IL-13 and IL-31) and the trispecific ATTO-1091 (targeting TL1A, IL-23 and integrin α4β7), both in earlier development.",

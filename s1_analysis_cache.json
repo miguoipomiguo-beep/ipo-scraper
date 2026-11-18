@@ -7241,6 +7241,52 @@
    "ANT"
   ]
  },
+ "0001628280-26-074338": {
+  "analyzed_at": "2026-11-18T05:36:22+00:00",
+  "data": {
+   "currency": "USD",
+   "fiscal_year": "2025",
+   "interim_net_income": -104039000000,
+   "interim_period": "Nine months ended September 30, 2026",
+   "interim_revenue": 33242000000,
+   "key_risks": [
+    "Models may behave in unintended, misaligned, or autonomous harmful ways",
+    "Success depends on developing the most advanced and capable AI models",
+    "Inability to secure and direct adequate compute could hinder competitiveness"
+   ],
+   "key_risks_ja": [
+    "モデルが意図しない、不整合、自律的な有害行動を取る恐れ",
+    "最先端で高性能なAIモデルの開発能力への依存",
+    "十分な計算資源を確保・活用できない場合の競争力低下"
+   ],
+   "lockup_days": 180,
+   "net_income": -41965000000,
+   "net_income_prior_year": -8309000000,
+   "net_proceeds": 84600000000,
+   "revenue": 4585000000,
+   "revenue_prior_year": 386000000,
+   "underwriters": [
+    "Goldman Sachs & Co. LLC",
+    "Morgan Stanley",
+    "J.P. Morgan",
+    "Citigroup",
+    "Barclays",
+    "Wells Fargo Securities"
+   ],
+   "use_of_proceeds": [
+    "Not stated in the excerpt beyond net proceeds estimate"
+   ],
+   "use_of_proceeds_ja": [
+    "開示抜粋に具体的な資金使途の記載なし"
+   ],
+   "v": 3
+  },
+  "empty": false,
+  "ipo_id": "ANT",
+  "pushed_to": [
+   "ANT"
+  ]
+ },
  "0001683168-25-008911": {
   "analyzed_at": "2026-11-11T16:30:35+00:00",
   "data": {

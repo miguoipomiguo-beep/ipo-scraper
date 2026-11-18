@@ -1,15 +1,1 @@
-{
- "batch_id": "msgbatch_01BeC6xCkQnJ9W5MKtUxYG3w",
- "items": {
-  "s1-0001628280-26-074338": {
-   "accession": "0001628280-26-074338",
-   "hints": {
-    "currency": null,
-    "lockup_days": 180,
-    "unit": "millions"
-   },
-   "ipo_id": "ANT"
-  }
- },
- "submitted_at": "2026-11-17T20:40:30+00:00"
-}
+{}

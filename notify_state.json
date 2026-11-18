@@ -1,5 +1,7 @@
 {
- "day_before": {},
+ "day_before": {
+  "ANT": "2026-11-19"
+ },
  "ranges": {
   "ANT": [
    "74-74",
