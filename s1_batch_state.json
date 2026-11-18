@@ -1,1 +1,15 @@
-{}
+{
+ "batch_id": "msgbatch_01VC4MynUv79jvL5t4VaU49D",
+ "items": {
+  "s1-0001104659-26-119778": {
+   "accession": "0001104659-26-119778",
+   "hints": {
+    "currency": null,
+    "lockup_days": null,
+    "unit": "units"
+   },
+   "ipo_id": "FBLLU"
+  }
+ },
+ "submitted_at": "2026-11-18T20:11:09+00:00"
+}

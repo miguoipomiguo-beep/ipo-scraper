@@ -4739,5 +4739,14 @@
     "description_ja": "Gold Mountain Acquisition Corp.は2025年12月11日にケイマン諸島で設立された特別目的買収会社(SPAC)。1つ以上の対象企業との企業結合を目的とし、当初はアジアを中心とするが、特定の業種には限定しない。売上は発生しておらず、対象企業はまだ選定していない。",
     "ja_src": "da23522ebb22",
     "ads_checked": true
+  },
+  "FBLLU": {
+    "description": "Football Manager SPAC Inc. is a newly incorporated Cayman Islands blank check company formed on April 20, 2026 to effect a business combination with one or more businesses, and it has not yet selected a target. It intends to focus its search on a middle-tier European professional football club with a target aggregate enterprise value of approximately $200 million.",
+    "industry": "Special purpose acquisition companies (blank check companies), with a stated focus on acquiring European professional football clubs",
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0,
+    "description_ja": "Football Manager SPAC Inc.は2026年4月20日に設立されたケイマン諸島の新設ブランクチェック会社（SPAC）であり、1社以上の事業との企業結合を目的とする。まだ買収対象は選定していない。欧州の中堅プロサッカークラブを主な探索対象とし、目標とする企業価値の総額は約2億ドル。",
+    "ja_src": "da4d60bb89ce",
+    "ads_checked": true
   }
 }
