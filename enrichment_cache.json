@@ -4748,5 +4748,14 @@
     "description_ja": "Football Manager SPAC Inc.は2026年4月20日に設立されたケイマン諸島の新設ブランクチェック会社（SPAC）であり、1社以上の事業との企業結合を目的とする。まだ買収対象は選定していない。欧州の中堅プロサッカークラブを主な探索対象とし、目標とする企業価値の総額は約2億ドル。",
     "ja_src": "da4d60bb89ce",
     "ads_checked": true
+  },
+  "EUEV": {
+    "description": "EUROEV Holdings Ltd is a British Virgin Islands company that, upon closing of a pending business combination, will own Aiways Automobile Europe GmbH, which imports, distributes, and supports battery electric vehicles sourced from Chinese manufacturer Aiways Shangrao across 16 European countries. The company's distribution operations are currently largely shut down due to suspended manufacturing by its supplier, and it is planning to restart through European assembly and new suppliers.",
+    "products_services": "Battery electric vehicles (BEVs) and related aftersales support, parts, and customer relationship management, plus a technical center in Munich for adapting vehicles to European standards.",
+    "industry": "Automotive – electric vehicle import, distribution, and aftersales services in Europe",
+    "description_ja": "EUROEV Holdings Ltd。英領バージン諸島の会社で、係属中の企業結合の完了時に、Aiways Automobile Europe GmbHを保有する。同社は中国メーカーAiways Shangrao製の電気自動車（BEV）を欧州16カ国で輸入・販売・サポートしている。供給元の製造停止により販売事業は現在ほぼ停止しており、欧州内組立や新規サプライヤーにより再開を計画している。",
+    "products_services_ja": "電気自動車（BEV）および関連のアフターセールス、部品、顧客関係管理。欧州基準への適合を行うミュンヘンの技術センターも運営。",
+    "ja_src": "ca1a872b767d",
+    "ads_checked": true
   }
 }

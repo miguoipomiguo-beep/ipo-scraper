@@ -1,15 +1,15 @@
 {
- "batch_id": "msgbatch_01VC4MynUv79jvL5t4VaU49D",
+ "batch_id": "msgbatch_018YgqcMQy7BkC8yCBVvCcFA",
  "items": {
-  "s1-0001104659-26-119778": {
-   "accession": "0001104659-26-119778",
+  "s1-0001213900-26-121800": {
+   "accession": "0001213900-26-121800",
    "hints": {
     "currency": null,
-    "lockup_days": null,
+    "lockup_days": 180,
     "unit": "units"
    },
-   "ipo_id": "FBLLU"
+   "ipo_id": "EUEV"
   }
  },
- "submitted_at": "2026-11-18T20:11:09+00:00"
+ "submitted_at": "2026-11-19T05:47:08+00:00"
 }
