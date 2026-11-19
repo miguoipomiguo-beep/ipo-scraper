@@ -5682,6 +5682,31 @@
    "0002071166"
   ]
  },
+ "0001213900-26-121800": {
+  "analyzed_at": "2026-11-19T20:09:38+00:00",
+  "data": {
+   "currency": "USD",
+   "fiscal_year": null,
+   "interim_net_income": null,
+   "interim_period": null,
+   "interim_revenue": null,
+   "key_risks": [],
+   "key_risks_ja": [],
+   "lockup_days": 180,
+   "net_income": null,
+   "net_income_prior_year": null,
+   "net_proceeds": null,
+   "revenue": null,
+   "revenue_prior_year": null,
+   "underwriters": [],
+   "use_of_proceeds": [],
+   "use_of_proceeds_ja": [],
+   "v": 3
+  },
+  "empty": true,
+  "ipo_id": "EUEV",
+  "pushed_to": []
+ },
  "0001477932-26-005904": {
   "analyzed_at": "2026-11-11T16:30:35+00:00",
   "data": {
