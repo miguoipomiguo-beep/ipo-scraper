@@ -4757,5 +4757,14 @@
     "products_services_ja": "電気自動車（BEV）および関連のアフターセールス、部品、顧客関係管理。欧州基準への適合を行うミュンヘンの技術センターも運営。",
     "ja_src": "ca1a872b767d",
     "ads_checked": true
+  },
+  "0002095898": {
+    "description": "Tongda International Group Co., Ltd is a Cayman Islands holding company that conducts its business through operating subsidiaries in Mainland China, which it wholly owns without a VIE structure. The excerpt describes the company as a membership-based e-commerce platform, but does not detail the specific products or services it sells.",
+    "industry": "E-commerce (membership-based e-commerce platform)",
+    "proposed_price_low": 5,
+    "proposed_price_high": 6,
+    "description_ja": "Tongda International Group Co., Ltd。ケイマン諸島の持株会社で、中国本土の完全子会社である事業子会社を通じて事業を行う。VIE構造は採用していない。会員制のEコマースプラットフォームとして説明されているが、具体的な販売商品・サービスの詳細は記載されていない。",
+    "ja_src": "2eed959d7052",
+    "ads_checked": true
   }
 }
