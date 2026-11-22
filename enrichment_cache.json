@@ -3709,7 +3709,8 @@
     "description_ja": "Silicon Valley Acquisition Corp. II。新規株式公開で資金を調達し、事業会社の取得または合併を目的とするブランクチェック会社（SPAC）。自社の事業運営はなく、主にテクノロジー分野の非上場対象企業を特定し、企業結合を行う方針。",
     "products_services_ja": "現時点ではなし。ブランクチェック会社として、対象企業の特定と企業結合の完了のみが活動。",
     "ja_src": "e8c50d8adf2c",
-    "ads_checked": true
+    "ads_checked": true,
+    "shares_outstanding": 30333333
   },
   "IPHXU": {
     "description": "Inflection Point Acquisition Corp. VIII is a special purpose acquisition company (SPAC) formed to effect a merger, share exchange, or similar business combination with one or more operating businesses. As a blank-check vehicle, it has no commercial operations of its own and intends to pursue a target company through its public listing process.",
