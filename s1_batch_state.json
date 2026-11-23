@@ -1,1 +1,15 @@
-{}
+{
+ "batch_id": "msgbatch_01JZR4ZYsuEpSw95bQMT8xcM",
+ "items": {
+  "s1-0001104659-26-131085": {
+   "accession": "0001104659-26-131085",
+   "hints": {
+    "currency": null,
+    "lockup_days": null,
+    "unit": "units"
+   },
+   "ipo_id": "KACQ"
+  }
+ },
+ "submitted_at": "2026-11-23T23:45:48+00:00"
+}

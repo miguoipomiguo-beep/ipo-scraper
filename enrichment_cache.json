@@ -3981,8 +3981,8 @@
     "products_services_ja": "センサーアーキテクチャ設計、独自のセンサー・アンテナサブシステム（RF、レーダー、電源・熱管理）、データの取り込み・融合・可視化および指揮統制を支援するデータ・ソフトウェアプラットフォーム。",
     "ja_src": "75a079da324b",
     "ads_checked": true,
-    "proposed_price_low": 20.5,
-    "proposed_price_high": 20.5
+    "proposed_price_low": 19.0,
+    "proposed_price_high": 22.0
   },
   "NSAIU": {
     "description": "NorthStrive Acquisition Corp I is a blank-check special purpose acquisition company formed to effect a merger, share exchange, asset acquisition, or similar business combination with one or more operating businesses. It has no operations of its own and seeks to take a target company public through its initial public offering and subsequent business combination.",
@@ -4766,6 +4766,27 @@
     "proposed_price_high": 6,
     "description_ja": "Tongda International Group Co., Ltd。ケイマン諸島の持株会社で、中国本土の完全子会社である事業子会社を通じて事業を行う。VIE構造は採用していない。会員制のEコマースプラットフォームとして説明されているが、具体的な販売商品・サービスの詳細は記載されていない。",
     "ja_src": "2eed959d7052",
+    "ads_checked": true
+  },
+  "KACQ": {
+    "description": "Kartoon Studios Acquisition Corp. is a special purpose acquisition company formed to pursue a business combination with an operating company in the media and entertainment sector. The vehicle raises capital through an initial public offering with the goal of acquiring or merging with a target business that can benefit from public market access.",
+    "products_services": "As a blank check company, Kartoon Studios Acquisition Corp. does not offer products or services of its own; its purpose is to identify and complete a business combination with a privately held target company.",
+    "industry": "Financial Services – Special Purpose Acquisition Company (SPAC), with a focus on media and entertainment targets",
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0,
+    "description_ja": "Kartoon Studios Acquisition Corp.は、メディア・エンターテインメント分野の事業会社との企業結合を目的として設立された特別目的買収会社。新規株式公開（IPO）で資金を調達し、公開市場へのアクセスから恩恵を受ける対象事業の買収または合併を目指す。",
+    "products_services_ja": "ブランクチェック（白紙会社）であるため、自社の製品・サービスは持たない。非公開の対象企業との企業結合を特定し、完了させることが目的。",
+    "ja_src": "a4c75fadb581",
+    "ads_checked": true
+  },
+  "FBLL": {
+    "description": "Football Manager SPAC Inc. is a newly incorporated Cayman Islands blank check company formed to effect a business combination with an operating business, with no target selected yet. It intends to focus its search on a middle-tier European football club with a target enterprise value of approximately $200 million.",
+    "products_services": "null",
+    "industry": "Special purpose acquisition company (blank check company); its intended target is in the European professional football (soccer) club market.",
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0,
+    "description_ja": "Football Manager SPAC Inc.はケイマン諸島で新規設立されたブランクチェック会社（SPAC）で、事業会社との企業結合を目的とする。現時点で買収対象は未選定。中堅の欧州サッカークラブに絞って探索する方針で、目標企業価値は約2億ドル。",
+    "ja_src": "4a6cd67cb66d",
     "ads_checked": true
   }
 }
