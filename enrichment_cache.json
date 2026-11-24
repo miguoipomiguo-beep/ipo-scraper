@@ -3534,7 +3534,10 @@
     "industry": "Technology and Consulting",
     "description_ja": "Koei Group Co., Ltd.は、様々な分野の業務効率向上を目的に、革新的な技術ソリューションとサービスを手がける主要企業。研究開発に注力し、顧客の変化するニーズに応える先端製品の提供を目指す。",
     "products_services_ja": "技術ソリューション、ソフトウェア開発、コンサルティングサービス、業務効率化ツール。",
-    "ja_src": "3337ae629719"
+    "ja_src": "3337ae629719",
+    "proposed_price_low": 7.5,
+    "proposed_price_high": 9.5,
+    "ads_checked": true
   },
   "SPGH": {
     "description": "Smart Pointer Group Holdings Ltd. is a technology-driven company specializing in innovative solutions for navigation and positioning systems. The company aims to enhance user experience through advanced technologies in various applications.",
@@ -4787,6 +4790,15 @@
     "proposed_price_high": 10.0,
     "description_ja": "Football Manager SPAC Inc.はケイマン諸島で新規設立されたブランクチェック会社（SPAC）で、事業会社との企業結合を目的とする。現時点で買収対象は未選定。中堅の欧州サッカークラブに絞って探索する方針で、目標企業価値は約2億ドル。",
     "ja_src": "4a6cd67cb66d",
+    "ads_checked": true
+  },
+  "0001490171": {
+    "description": "Earlens Corp is a medical-device company that markets hearing aid products through a national network of company-owned hearing-loss centers (the Virsono network) located within independent ENT physician practices. Its core offering is the FDA-cleared Earlens system, a non-surgical hearing device that amplifies sound by directly vibrating the eardrum, alongside a full line of conventional air-conduction hearing aids.",
+    "products_services": "Earlens system (non-surgical, prescription hearing device that vibrates the eardrum); conventional air-conduction hearing aids across multiple technology tiers; audiology services, screening, and diagnosis delivered through Virsono hearing-loss centers",
+    "industry": "Medical devices / hearing health care (hearing aids and audiology services)",
+    "description_ja": "Earlens Corp。独立系ENT（耳鼻咽喉科）医院内に設置された直営の補聴器センター（Virsonoネットワーク）を全国で運営する医療機器企業。中核製品はFDA認可のEarlensシステムで、鼓膜を直接振動させて音を増幅する非外科的補聴器。加えて従来型の気導補聴器も幅広くラインアップする。",
+    "products_services_ja": "Earlensシステム（非外科的な処方型補聴器、鼓膜を振動させる方式）；複数の技術グレードにわたる従来型気導補聴器；Virsonoセンターを通じて提供される聴力検査・スクリーニング・診断などのオーディオロジー（聴覚医療）サービス",
+    "ja_src": "782336982f8f",
     "ads_checked": true
   }
 }
