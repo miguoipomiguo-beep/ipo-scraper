@@ -825,6 +825,51 @@
    "AGKO"
   ]
  },
+ "0001104659-26-131085": {
+  "analyzed_at": "2026-11-24T08:00:42+00:00",
+  "data": {
+   "currency": "USD",
+   "fiscal_year": null,
+   "interim_net_income": null,
+   "interim_period": "September 30, 2026",
+   "interim_revenue": null,
+   "key_risks": [
+    "No operating history and no revenues as blank check company",
+    "Going concern doubt in auditor's report",
+    "Public shareholders may not vote; founder shares participate in vote"
+   ],
+   "key_risks_ja": [
+    "営業実績と売上がない blank check 会社である",
+    "監査人が継続企業の前提に重大な疑義を付記",
+    "公開株主が投票できない可能性、創業者株式が議決に参加"
+   ],
+   "lockup_days": null,
+   "net_income": null,
+   "net_income_prior_year": null,
+   "net_proceeds": 202000000,
+   "revenue": null,
+   "revenue_prior_year": null,
+   "underwriters": [
+    "E.F. Hutton"
+   ],
+   "use_of_proceeds": [
+    "Cash held in trust account",
+    "Working capital and operating expenses",
+    "Deferred underwriting commissions"
+   ],
+   "use_of_proceeds_ja": [
+    "信託口座の現金",
+    "運転資金および営業費用",
+    "繰延引受手数料"
+   ],
+   "v": 3
+  },
+  "empty": false,
+  "ipo_id": "KACQ",
+  "pushed_to": [
+   "KACQ"
+  ]
+ },
  "0001140361-26-042406": {
   "analyzed_at": "2026-11-11T17:24:12+00:00",
   "data": {
