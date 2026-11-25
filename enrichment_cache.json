@@ -4800,5 +4800,23 @@
     "products_services_ja": "Earlensシステム（非外科的な処方型補聴器、鼓膜を振動させる方式）；複数の技術グレードにわたる従来型気導補聴器；Virsonoセンターを通じて提供される聴力検査・スクリーニング・診断などのオーディオロジー（聴覚医療）サービス",
     "ja_src": "782336982f8f",
     "ads_checked": true
+  },
+  "0002127447": {
+    "description": "Guitar Group Ltd is a Hong Kong-headquartered, guitar-focused company offering guitar repair and custom guitar services, guitar assembling workshops, guitar lessons, guitar trading, and music event planning, management and performance services. It serves beginners, hobbyists, professional musicians, music retailers and corporate clients, and acts as a contractor for three Hong Kong musical-instrument retailers.",
+    "products_services": "Guitar assembling workshops, repair and custom guitar services, guitar lessons, guitar and accessory trading, and private music event planning, management and performance services.",
+    "industry": "Musical instruments and music services (guitar retail, repair, education and live music events)",
+    "description_ja": "Guitar Group Ltd は香港に本社を置くギター関連企業。ギターの修理・カスタム、組立工房、レッスン、ギター取引、音楽イベントの企画・運営・演奏サービスを提供。初心者、愛好家、プロミュージシャン、楽器小売店、法人顧客を対象とし、香港の楽器小売店3社の請負業者としても事業を行う。",
+    "products_services_ja": "ギター組立ワークショップ、ギターの修理・カスタムサービス、ギターレッスン、ギター・アクセサリーの取引、個人向け音楽イベントの企画・運営・演奏サービス。",
+    "ja_src": "ad75f795bd92",
+    "ads_checked": true
+  },
+  "0002135148": {
+    "description": "Kalohexis, Inc. is a clinical-stage biopharmaceutical company developing therapies that target the central melanocortin system (MC3R and MC4R) to treat obesity and related conditions of appetite, body composition, and energy balance. The excerpt describes its scientific rationale and competitive context but does not specify a commercial product name or detailed product pipeline beyond the melanocortin-based approach.",
+    "products_services": "Clinical-stage melanocortin receptor-targeted drug candidates (MC3R/MC4R agonists) for obesity and related energy balance disorders; the excerpt does not name specific products.",
+    "industry": "Biopharmaceuticals (clinical-stage drug development, obesity/metabolic disease therapeutics)",
+    "description_ja": "Kalohexis, Inc. は中枢のメラノコルチン系(MC3RおよびMC4R)を標的とする治療薬を開発する臨床段階のバイオ医薬品企業。肥満および食欲、体組成、エネルギー収支に関連する疾患の治療を目指す。本資料では科学的根拠と競合環境を説明しているが、メラノコルチン系アプローチ以外の具体的な製品名や詳細なパイプラインは記載されていない。",
+    "products_services_ja": "臨床段階のメラノコルチン受容体標的薬候補(MC3R/MC4Rアゴニスト)。肥満およびエネルギー収支関連疾患を対象とする。本資料では具体的な製品名は記載されていない。",
+    "ja_src": "a5ba224591b6",
+    "ads_checked": true
   }
 }
