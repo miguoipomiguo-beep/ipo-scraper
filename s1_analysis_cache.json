@@ -2732,6 +2732,43 @@
    "WWB"
   ]
  },
+ "0001193125-26-472933": {
+  "analyzed_at": "2026-11-25T06:42:36+00:00",
+  "data": {
+   "currency": "USD",
+   "fiscal_year": "2025",
+   "interim_net_income": -19472000,
+   "interim_period": "Nine months ended September 30, 2026",
+   "interim_revenue": 8440000,
+   "key_risks": [],
+   "key_risks_ja": [],
+   "lockup_days": 180,
+   "net_income": -20184000,
+   "net_income_prior_year": -4141000,
+   "net_proceeds": null,
+   "revenue": 7888000,
+   "revenue_prior_year": 6712000,
+   "underwriters": [
+    "Lake Street Capital Markets",
+    "StoneX",
+    "Laidlaw & Company (UK)"
+   ],
+   "use_of_proceeds": [
+    "Expansion of commercial operations, including partner-practice network and sales and marketing (~$20.0 million)",
+    "Continued research and development (~$8.0 million)"
+   ],
+   "use_of_proceeds_ja": [
+    "商業運営の拡大（提携診療ネットワーク・営業販売活動、約2,000万ドル）",
+    "研究開発の継続（約800万ドル）"
+   ],
+   "v": 3
+  },
+  "empty": false,
+  "ipo_id": "0001490171",
+  "pushed_to": [
+   "0001490171"
+  ]
+ },
  "0001213900-24-013022": {
   "analyzed_at": "2026-11-17T06:08:25+00:00",
   "data": {
@@ -6891,6 +6928,51 @@
   "ipo_id": "AEIB",
   "pushed_to": [
    "AEIB"
+  ]
+ },
+ "0001493152-26-053976": {
+  "analyzed_at": "2026-11-25T06:42:36+00:00",
+  "data": {
+   "currency": "USD",
+   "fiscal_year": null,
+   "interim_net_income": null,
+   "interim_period": null,
+   "interim_revenue": null,
+   "key_risks": [
+    "Holding company dependent on operating subsidiaries for cash flows",
+    "Possible passive foreign investment company status with adverse U.S. tax consequences",
+    "Data security risks from secure erasure and destruction of sensitive customer data"
+   ],
+   "key_risks_ja": [
+    "営業子会社からのキャッシュフローに依存する持株会社構造",
+    "PFIC該当による米国税務上の不利益",
+    "機密顧客データの消去・破棄に伴うデータセキュリティリスク"
+   ],
+   "lockup_days": 183,
+   "net_income": null,
+   "net_income_prior_year": null,
+   "net_proceeds": 17721600,
+   "revenue": null,
+   "revenue_prior_year": null,
+   "underwriters": [
+    "Roth Capital Partners"
+   ],
+   "use_of_proceeds": [
+    "Strategic expansion initiatives, including potential acquisitions in Japan and international markets",
+    "Capital expenditures",
+    "Working capital and general corporate purposes"
+   ],
+   "use_of_proceeds_ja": [
+    "日本および海外市場での買収を含む戦略的拡大",
+    "設備投資",
+    "運転資金および一般事業目的"
+   ],
+   "v": 3
+  },
+  "empty": false,
+  "ipo_id": "KOEI",
+  "pushed_to": [
+   "KOEI"
   ]
  },
  "0001575872-26-000437": {
