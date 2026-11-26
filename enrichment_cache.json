@@ -4818,5 +4818,14 @@
     "products_services_ja": "臨床段階のメラノコルチン受容体標的薬候補(MC3R/MC4Rアゴニスト)。肥満およびエネルギー収支関連疾患を対象とする。本資料では具体的な製品名は記載されていない。",
     "ja_src": "a5ba224591b6",
     "ads_checked": true
+  },
+  "0001889417": {
+    "description": "Indrocorp Technologies Inc. (doing business as Indrotek) is the parent company of three divisions, InDro Robotics, Bravo Zulu, and Stratocom, that design, integrate, and deploy UAVs, UGVs, robots, counter-drone systems, and data-capture solutions for commercial, government, and defense customers. The company applies AI and related technologies to autonomous robotic systems and provides services such as aerial meter reading, pipeline inspection, methane detection, medical drone delivery, and security and counter-drone solutions.",
+    "products_services": "UAVs and drones, UGVs, robots (quadrupeds and humanoids), integrated sensor and payload systems, autonomous/AI software, counter-drone solutions, aerial meter reading, pipeline inspection, cathodic protection, methane detection, medical and high-value UAV deliveries, and security/intelligence technologies",
+    "industry": "Drones/unmanned systems and robotics (UAV, UGV, and robotics technology, including defense and security applications)",
+    "description_ja": "Indrocorp Technologies Inc.（事業名Indrotek）は、InDro Robotics、Bravo Zulu、Stratocomの3部門を傘下に持つ親会社。商業・政府・防衛顧客向けに、UAV、UGV、ロボット、ドローン迎撃システム、データ取得ソリューションを設計・統合・展開。AIなどの技術を自律型ロボットシステムに適用し、航空検針、パイプライン点検、メタン検知、医療用ドローン配送、セキュリティ・ドローン迎撃ソリューションなどのサービスを提供。",
+    "products_services_ja": "UAV・ドローン、UGV、ロボット（四足歩行型・人型）、統合センサー・ペイロードシステム、自律・AIソフトウェア、ドローン迎撃ソリューション、航空検針、パイプライン点検、防食（陰極防食）、メタン検知、医療および高付加価値品のUAV配送、セキュリティ・諜報関連技術",
+    "ja_src": "bbd356159890",
+    "ads_checked": true
   }
 }

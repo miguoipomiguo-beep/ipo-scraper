@@ -870,6 +870,31 @@
    "KACQ"
   ]
  },
+ "0001104659-26-132022": {
+  "analyzed_at": "2026-11-26T06:26:32+00:00",
+  "data": {
+   "currency": "USD",
+   "fiscal_year": null,
+   "interim_net_income": null,
+   "interim_period": null,
+   "interim_revenue": null,
+   "key_risks": [],
+   "key_risks_ja": [],
+   "lockup_days": null,
+   "net_income": null,
+   "net_income_prior_year": null,
+   "net_proceeds": null,
+   "revenue": null,
+   "revenue_prior_year": null,
+   "underwriters": [],
+   "use_of_proceeds": [],
+   "use_of_proceeds_ja": [],
+   "v": 3
+  },
+  "empty": true,
+  "ipo_id": "KACQ",
+  "pushed_to": []
+ },
  "0001140361-26-042406": {
   "analyzed_at": "2026-11-11T17:24:12+00:00",
   "data": {
@@ -1603,6 +1628,84 @@
    ],
    "use_of_proceeds_ja": [
     "技術活用による運営効率の向上",
+    "業界人材チームの強化と事業規模の拡大",
+    "航空業界におけるブランドの強化"
+   ],
+   "v": 3
+  },
+  "empty": false,
+  "ipo_id": "TIWD",
+  "pushed_to": [
+   "TIWD"
+  ]
+ },
+ "0001185185-26-005604": {
+  "analyzed_at": "2026-11-26T06:26:32+00:00",
+  "data": {
+   "currency": "USD",
+   "fiscal_year": null,
+   "interim_net_income": null,
+   "interim_period": null,
+   "interim_revenue": null,
+   "key_risks": [
+    "Absence of long-term customer contracts creates significant revenue uncertainty and volatility",
+    "Business depends on consumer demand for guitar products and music education services",
+    "Integrated business model increases operational complexity and execution risks given limited employees"
+   ],
+   "key_risks_ja": [
+    "長期顧客契約がないため収益の不確実性と変動が大きい",
+    "ギター関連製品と音楽教育サービスへの消費者需要に依存している",
+    "統合型ビジネスモデルは運営の複雑性を高め、従業員が限られるため実行リスクがある"
+   ],
+   "lockup_days": 180,
+   "net_income": null,
+   "net_income_prior_year": null,
+   "net_proceeds": null,
+   "revenue": null,
+   "revenue_prior_year": null,
+   "underwriters": [],
+   "use_of_proceeds": [],
+   "use_of_proceeds_ja": [],
+   "v": 3
+  },
+  "empty": false,
+  "ipo_id": "0002127447",
+  "pushed_to": [
+   "0002127447"
+  ]
+ },
+ "0001185185-26-005610": {
+  "analyzed_at": "2026-11-26T06:26:32+00:00",
+  "data": {
+   "currency": "USD",
+   "fiscal_year": null,
+   "interim_net_income": null,
+   "interim_period": null,
+   "interim_revenue": null,
+   "key_risks": [
+    "Reliance on dividends from Hong Kong Operating Subsidiary to fund cash requirements",
+    "Exposure to PRC government regulatory actions and oversight over overseas-listed companies",
+    "Uncertainty over PRC laws, M&A Rules, and data security obligations affecting operations"
+   ],
+   "key_risks_ja": [
+    "資金needs for香港の運営子会社からの配当に依存",
+    "中国政府による海外上場企業への規制措置と監督のリスク",
+    "M&A規則や データセキュリティ等の中国法令の不確実性"
+   ],
+   "lockup_days": 180,
+   "net_income": null,
+   "net_income_prior_year": null,
+   "net_proceeds": 27510000,
+   "revenue": null,
+   "revenue_prior_year": null,
+   "underwriters": [],
+   "use_of_proceeds": [
+    "Leveraging technology to improve operational efficiency",
+    "Enhancing industry talent team and expanding operating scale",
+    "Enhancing brand in the aviation industry"
+   ],
+   "use_of_proceeds_ja": [
+    "技術活用による業務効率の向上",
     "業界人材チームの強化と事業規模の拡大",
     "航空業界におけるブランドの強化"
    ],
@@ -5825,6 +5928,41 @@
   "ipo_id": "EUEV",
   "pushed_to": []
  },
+ "0001213900-26-123776": {
+  "analyzed_at": "2026-11-26T06:26:32+00:00",
+  "data": {
+   "currency": "USD",
+   "fiscal_year": null,
+   "interim_net_income": null,
+   "interim_period": null,
+   "interim_revenue": null,
+   "key_risks": [
+    "Our operating results are likely to vary significantly and be unpredictable.",
+    "Our historical financial information may not be representative of our results as a public company.",
+    "If our fire detection, monitoring, prevention, early alarm transmitting products do not achieve sufficient market accept"
+   ],
+   "key_risks_ja": [
+    "経営成績が大きく変動し、予測が困難な可能性がある",
+    "過去の財務情報が上場企業としての業績を代表しない可能性がある",
+    "火災検知製品が市場に十分受け入れられない場合、業績と競争力が低下する"
+   ],
+   "lockup_days": null,
+   "net_income": null,
+   "net_income_prior_year": null,
+   "net_proceeds": null,
+   "revenue": null,
+   "revenue_prior_year": null,
+   "underwriters": [],
+   "use_of_proceeds": [],
+   "use_of_proceeds_ja": [],
+   "v": 3
+  },
+  "empty": false,
+  "ipo_id": "RZAI",
+  "pushed_to": [
+   "RZAI"
+  ]
+ },
  "0001477932-26-005904": {
   "analyzed_at": "2026-11-11T16:30:35+00:00",
   "data": {
@@ -6973,6 +7111,51 @@
   "ipo_id": "KOEI",
   "pushed_to": [
    "KOEI"
+  ]
+ },
+ "0001493152-26-054198": {
+  "analyzed_at": "2026-11-26T06:26:32+00:00",
+  "data": {
+   "currency": "USD",
+   "fiscal_year": null,
+   "interim_net_income": null,
+   "interim_period": null,
+   "interim_revenue": null,
+   "key_risks": [
+    "Clinical-stage company with no commercialization history and significant ongoing losses",
+    "Substantial doubt about ability to continue as a going concern",
+    "Material weaknesses in internal control over financial reporting"
+   ],
+   "key_risks_ja": [
+    "商業化実績がなく多額の損失が続く臨床段階企業",
+    "継続企業としての前提に重大な疑義がある",
+    "財務報告に係る内部統制の重大な不備"
+   ],
+   "lockup_days": 180,
+   "net_income": null,
+   "net_income_prior_year": null,
+   "net_proceeds": null,
+   "revenue": null,
+   "revenue_prior_year": null,
+   "underwriters": [
+    "Aegis Capital Corp."
+   ],
+   "use_of_proceeds": [
+    "Fund ongoing Phase 1 clinical trial of EBMC-710GO through top-line results",
+    "Working capital and other general corporate purposes",
+    "Reimbursement of amounts due to Endevica Bio under shared services agreement"
+   ],
+   "use_of_proceeds_ja": [
+    "EBMC-710GOの第1相臨床試験の継続（トップライン結果まで）",
+    "運転資金およびその他一般企業目的",
+    "Endevica Bioへのシェアードサービス契約に基づく未払金の償還"
+   ],
+   "v": 3
+  },
+  "empty": false,
+  "ipo_id": "0002135148",
+  "pushed_to": [
+   "0002135148"
   ]
  },
  "0001575872-26-000437": {

@@ -1,51 +1,15 @@
 {
- "batch_id": "msgbatch_01EwuHqbcwDkQFh8QUubDF7U",
+ "batch_id": "msgbatch_01EFrw3yFhF1SHgKUs6ATtNX",
  "items": {
-  "s1-0001104659-26-132022": {
-   "accession": "0001104659-26-132022",
+  "s1-0001171843-26-007729": {
+   "accession": "0001171843-26-007729",
    "hints": {
-    "currency": null,
-    "lockup_days": null,
-    "unit": "units"
-   },
-   "ipo_id": "KACQ"
-  },
-  "s1-0001185185-26-005604": {
-   "accession": "0001185185-26-005604",
-   "hints": {
-    "currency": null,
+    "currency": "CAD",
     "lockup_days": 180,
     "unit": "units"
    },
-   "ipo_id": "0002127447"
-  },
-  "s1-0001185185-26-005610": {
-   "accession": "0001185185-26-005610",
-   "hints": {
-    "currency": null,
-    "lockup_days": null,
-    "unit": "units"
-   },
-   "ipo_id": "TIWD"
-  },
-  "s1-0001213900-26-123776": {
-   "accession": "0001213900-26-123776",
-   "hints": {
-    "currency": null,
-    "lockup_days": null,
-    "unit": "units"
-   },
-   "ipo_id": "RZAI"
-  },
-  "s1-0001493152-26-054198": {
-   "accession": "0001493152-26-054198",
-   "hints": {
-    "currency": null,
-    "lockup_days": null,
-    "unit": "units"
-   },
-   "ipo_id": "0002135148"
+   "ipo_id": "0001889417"
   }
  },
- "submitted_at": "2026-11-25T21:16:03+00:00"
+ "submitted_at": "2026-11-26T06:26:39+00:00"
 }
