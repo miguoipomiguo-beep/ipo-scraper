@@ -1,15 +1,1 @@
-{
- "batch_id": "msgbatch_01EFrw3yFhF1SHgKUs6ATtNX",
- "items": {
-  "s1-0001171843-26-007729": {
-   "accession": "0001171843-26-007729",
-   "hints": {
-    "currency": "CAD",
-    "lockup_days": 180,
-    "unit": "units"
-   },
-   "ipo_id": "0001889417"
-  }
- },
- "submitted_at": "2026-11-26T06:26:39+00:00"
-}
+{}

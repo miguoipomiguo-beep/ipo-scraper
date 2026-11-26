@@ -992,6 +992,51 @@
    "VVVV"
   ]
  },
+ "0001171843-26-007729": {
+  "analyzed_at": "2026-11-26T21:28:24+00:00",
+  "data": {
+   "currency": "CAD",
+   "fiscal_year": "FY2025 (year ended September 30, 2025)",
+   "interim_net_income": -2953094,
+   "interim_period": "Six months ended March 31, 2026",
+   "interim_revenue": 3779960,
+   "key_risks": [
+    "Operates in evolving robotics and UAV markets with uncertain customer adoption",
+    "History of significant operating losses, substantial indebtedness, and limited commercial sales",
+    "Ability to continue as a going concern depends on raising capital and achieving profitability"
+   ],
+   "key_risks_ja": [
+    "ロボット・UAV市場は発展途上で顧客導入の不確実性が高い",
+    "営業損失の継続、多額の債務、商業販売の限定性",
+    "資金調達と収益化ができなければ継続企業の前提が損なわれる"
+   ],
+   "lockup_days": 180,
+   "net_income": -4425629,
+   "net_income_prior_year": -6392345,
+   "net_proceeds": null,
+   "revenue": 6235546,
+   "revenue_prior_year": 4705315,
+   "underwriters": [
+    "ThinkEquity"
+   ],
+   "use_of_proceeds": [
+    "Manufacturing expansion and equipment purchases",
+    "Research and development activities",
+    "Debt settlements and general corporate purposes"
+   ],
+   "use_of_proceeds_ja": [
+    "製造拡大と設備購入",
+    "研究開発活動",
+    "債務決済および一般企業目的"
+   ],
+   "v": 3
+  },
+  "empty": false,
+  "ipo_id": "0001889417",
+  "pushed_to": [
+   "0001889417"
+  ]
+ },
  "0001185185-26-002065": {
   "analyzed_at": "2026-11-11T16:30:35+00:00",
   "data": {
