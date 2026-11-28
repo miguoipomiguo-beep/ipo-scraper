@@ -1628,6 +1628,10 @@ async def main():
     # LLMで未補完分を補完
     enriched = await enrich_with_llm(merged) or merged
 
+    extras.clean_nullish(enriched)    # LLM が返した文字列の "null" を空に（FBLL の製品欄）
+    for entry in cache.values():
+        extras.clean_nullish([entry])
+
     # 企業概要・製品の日本語訳（アプリの日本語表示用）
     try:
         await translate_ja(enriched)
@@ -1664,6 +1668,26 @@ async def main():
         print(f"  ! lockups failed: {type(e).__name__}: {str(e)[:200]}")
     await detect_and_notify(enriched)
 
+    # ロックアップ一覧にあって今回の一覧に無い銘柄（上場から3か月超）にも訳と S-1 分析を付ける
+    lockup_extra = []
+    try:
+        lockup_extra = await extras.lockup_rows(httpx, WORKER_URL, [i.get("id") for i in enriched])
+        extras.clean_nullish(lockup_extra)
+        apply_enrichment_cache(lockup_extra, cache)          # 前に訳した分を戻す（英文が同じときだけ）
+        await translate_ja(lockup_extra)
+        await extras.translate_more(lockup_extra, _haiku_client, HAIKU_MODEL, _parse_llm_json)
+        for ipo in lockup_extra:
+            entry = cache.get(ipo["id"], {})
+            for key in ("description_ja", "products_services_ja", "ja_src", *extras.CACHE_KEYS):
+                if ipo.get(key):
+                    entry[key] = ipo[key]
+            if entry:
+                cache[ipo["id"]] = entry
+        save_enrichment_cache(cache)
+        await extras.push_rows(httpx, WORKER_URL, ADMIN_TOKEN, lockup_extra)
+    except Exception as e:
+        print(f"  ! lockup rows failed: {type(e).__name__}: {str(e)[:200]}")
+
     # S-1 分析（Pro 機能）。失敗してもほかの処理には影響させない
     try:
         import s1_analysis
@@ -1672,7 +1696,7 @@ async def main():
         except Exception as e:
             print(f"  ! S-1 ko/de translation failed: {type(e).__name__}: {str(e)[:150]}")
         async with httpx.AsyncClient(timeout=60, headers=SEC_HEADERS) as sec_client:
-            await s1_analysis.run(enriched, _fetch_filing_text, _s1_accession, sec_client,
+            await s1_analysis.run(enriched + lockup_extra, _fetch_filing_text, _s1_accession, sec_client,
                                   ANTHROPIC_KEY, WORKER_URL, ADMIN_TOKEN)
     except Exception as e:
         print(f"  S-1 analysis error: {type(e).__name__}: {str(e)[:200]}")

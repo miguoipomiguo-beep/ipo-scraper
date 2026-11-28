@@ -322,7 +322,8 @@ def _targets(ipos: list, cache: dict, accession_of) -> list:
         status = ipo.get("status")
         if status in ("withdrawn", "excluded") or not ipo.get("cik"):
             continue
-        if status == "listed" and (ipo.get("actual_date") or ipo.get("expected_date") or "") < recent:
+        if status == "listed" and (ipo.get("actual_date") or ipo.get("expected_date") or "") < recent \
+                and not ipo.get("_lockup_watch"):      # ロックアップ解除前の銘柄は古くても分析する（1.3）
             continue
         acc = accession_of(ipo)
         if not acc or acc in seen:

@@ -23,6 +23,22 @@ TR_CHUNK = 20
 
 _last_lockups = []         # 通知で使う（update_lockups が入れる）
 
+NULLISH = {"null", "none", "n/a", "na", "unknown", "-", ""}
+TEXT_KEYS = ["description", "products_services"] + [f"{k}_{l}" for k in ("description", "products_services")
+                                                     for l in ("ja", "ko", "de")]
+
+
+def clean_nullish(rows):
+    """LLM が文字列の "null" を返すことがある（FBLL の製品欄）。空として扱う"""
+    n = 0
+    for r in rows:
+        for k in TEXT_KEYS:
+            v = r.get(k)
+            if isinstance(v, str) and v.strip().lower() in NULLISH:
+                r[k] = None
+                n += 1
+    return n
+
 
 def _load(path, default):
     try:
@@ -58,6 +74,8 @@ def _is_spac(row):
     price = _num(row.get("proposedSharePrice"))
     if re.search(r"acquisition|blank check|\bspac\b|merger corp", name):
         return True
+    if price == 10.0 and re.search(r"\b(corp|corporation|co|company|inc)\.?\s+(i|ii|iii|iv|v|vi|vii|viii)\b", name):
+        return True          # "Research Alliance Corp III" のような番号付きの SPAC
     return price == 10.0 and len(t) == 5 and t.endswith("U")
 
 
@@ -112,7 +130,9 @@ async def update_lockups(httpx, headers, worker_url, admin_token):
     cutoff = (now - timedelta(days=60)).strftime("%Y-%m-%d")
     cache = {k: v for k, v in cache.items() if (v.get("lockup_date") or v.get("priced_date") or "9999") >= cutoff}
     _save(LOCKUP_CACHE, cache)
-    items = [v for v in cache.values() if v.get("lockup_date") and v.get("ticker")]
+    items = [v for v in cache.values() if v.get("lockup_date") and v.get("ticker")
+             and not _is_spac({"companyName": v.get("company_name"), "proposedTickerSymbol": v.get("ticker"),
+                               "proposedSharePrice": str(v.get("offer_price") or "")})]
     _last_lockups = items
     print(f"  priced deals {len(priced)}, new overviews {new}, with lockup date {len(items)}")
     if not worker_url or not admin_token or not items:
@@ -204,7 +224,8 @@ async def translate_more(ipos, client, model, parse_json):
 
         async def one(start, lang=lang, lang_name=lang_name, todo=todo):
             chunk = todo[start:start + TR_CHUNK]
-            items = {str(n): {"description": g[0].get("description"), "products_services": g[0].get("products_services")}
+            items = {str(n): {"description": g[0].get("description"),
+                              "products_services": _real(g[0].get("products_services"))}
                      for n, (_, g) in enumerate(chunk)}
             prompt = (
                 f"Translate each company's description and products_services into natural {lang_name} "
@@ -235,6 +256,8 @@ async def translate_more(ipos, client, model, parse_json):
                 if not isinstance(t, dict) or not isinstance(t.get("description"), str) or not t["description"].strip():
                     continue
                 p = t.get("products_services") if isinstance(t.get("products_services"), str) else None
+                if p and p.strip().lower() in NULLISH:
+                    p = None
                 for ipo in group:
                     ipo[f"description_{lang}"] = t["description"].strip()
                     if p and p.strip():
@@ -330,3 +353,66 @@ def _save_s1(path, data):
     # s1_analysis._save と同じ書き方（差分を小さく保つ）
     with open(path, "w") as f:
         f.write(json.dumps(data, ensure_ascii=False, indent=1, sort_keys=True))
+
+
+def _real(v):
+    return None if isinstance(v, str) and v.strip().lower() in NULLISH else v
+
+
+# ------------------------------------------------------------------ 4. lockup の銘柄の補完（1.3）
+# ロックアップ一覧の銘柄の約半数は上場から3か月以上たち、毎日の対象（NASDAQ の直近3か月）から外れている。
+# そのままだと日本語・韓国語・ドイツ語の訳も S-1 分析も付かないので、D1 の行を読んで補う。
+
+ROW_KEYS = ["id", "company_name", "ticker", "exchange", "cik", "industry", "description", "products_services",
+            "country", "filing_type", "filing_date", "expected_date", "actual_date", "price_range_low",
+            "price_range_high", "offer_price", "shares_offered", "offer_amount", "shares_outstanding",
+            "proposed_price_low", "proposed_price_high", "status", "sec_url", "ads_ratio"]
+
+
+async def lockup_rows(httpx, worker_url, current_ids):
+    """解除前のロックアップ銘柄のうち、今回の一覧に無いものの D1 の行（events 付き）"""
+    if not worker_url:
+        return []
+    today = datetime.now(ZoneInfo("America/New_York")).date().isoformat()
+    want = sorted({x.get("ipo_id") for x in _last_lockups
+                   if x.get("ipo_id") and (x.get("lockup_date") or "") >= today} - set(current_ids))
+    rows = []
+    async with httpx.AsyncClient(timeout=30) as client:
+        for i in want:
+            try:
+                r = await client.get(f"{worker_url}/api/ipos/{i}")
+                if r.status_code != 200:
+                    continue
+                d = r.json()
+            except Exception:
+                continue
+            row = {k: d.get(k) for k in ROW_KEYS}
+            for k in TEXT_KEYS:
+                if k not in ("description", "products_services"):
+                    row[k] = d.get(k)
+            row["events"] = d.get("events") or []
+            row["_lockup_watch"] = True
+            rows.append(row)
+            await asyncio.sleep(0.2)
+    print(f"  lockup rows outside today's list: {len(rows)} (wanted {len(want)})")
+    return rows
+
+
+async def push_rows(httpx, worker_url, admin_token, rows):
+    """D1 から読んだ行に訳を足して戻す。events は送らない（送ると作り直しになる）。
+    値は D1 の行そのままなので、COALESCE の upsert で他の列は変わらない"""
+    if not rows or not worker_url or not admin_token:
+        return
+    payload = []
+    for r in rows:
+        item = {k: v for k, v in r.items() if k in ROW_KEYS or k in TEXT_KEYS}
+        item["status"] = r.get("status") or "listed"
+        payload.append(item)
+    async with httpx.AsyncClient(timeout=90) as client:
+        for i in range(0, len(payload), 15):
+            try:
+                resp = await client.post(f"{worker_url}/api/admin/update", json={"ipos": payload[i:i + 15]},
+                                         headers={"Authorization": f"Bearer {admin_token}"})
+                print(f"  lockup rows push {i // 15 + 1}: {resp.status_code} {resp.text[:80]}")
+            except Exception as e:
+                print(f"  lockup rows push error: {type(e).__name__}")
