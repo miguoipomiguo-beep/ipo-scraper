@@ -1,1 +1,24 @@
-{}
+{
+ "batch_id": "msgbatch_01QUDqnnKQKPcwEoYujLwmdD",
+ "items": {
+  "s1-0001185185-26-005651": {
+   "accession": "0001185185-26-005651",
+   "hints": {
+    "currency": null,
+    "lockup_days": null,
+    "unit": "units"
+   },
+   "ipo_id": "0002152050"
+  },
+  "s1-0001628280-26-075026": {
+   "accession": "0001628280-26-075026",
+   "hints": {
+    "currency": null,
+    "lockup_days": 180,
+    "unit": "thousands"
+   },
+   "ipo_id": "SBE"
+  }
+ },
+ "submitted_at": "2026-11-28T04:06:02+00:00"
+}
