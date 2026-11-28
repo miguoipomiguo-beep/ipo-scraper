@@ -14,6 +14,7 @@ from datetime import datetime, timedelta
 from pathlib import Path
 
 import anthropic
+import extras
 import httpx
 from playwright.async_api import async_playwright
 
@@ -540,8 +541,9 @@ def _summarize_broadcasts(broadcasts: list) -> list:
     if len(broadcasts) <= BROADCAST_MAX:
         return broadcasts
     out = []
-    for kind, label, label_ja in (("new_upcoming", "new upcoming IPOs", "件の新しい上場予定"),
-                                  ("new_pending", "new IPO filings", "件の新しいIPO届出")):
+    for kind, label, label_ja, label_ko, label_de in (
+            ("new_upcoming", "new upcoming IPOs", "件の新しい上場予定", "건의 새 상장 예정", "neue geplante Börsengänge"),
+            ("new_pending", "new IPO filings", "件の新しいIPO届出", "건의 새 IPO 신청", "neue IPO-Anträge")):
         items = [b for b in broadcasts if b["type"] == kind]
         if not items:
             continue
@@ -556,6 +558,10 @@ def _summarize_broadcasts(broadcasts: list) -> list:
             "body": f"{names}{more}. Open the app to see them.",
             "title_ja": f"{len(items)}{label_ja}",
             "body_ja": f"{names}" + (f" ほか{len(items) - 3}件" if len(items) > 3 else "") + "。アプリで確認できます。",
+            "title_ko": f"{len(items)}{label_ko}",
+            "body_ko": f"{names}" + (f" 외 {len(items) - 3}건" if len(items) > 3 else "") + ". 앱에서 확인하세요.",
+            "title_de": f"{len(items)} {label_de}",
+            "body_de": f"{names}" + (f" und {len(items) - 3} weitere" if len(items) > 3 else "") + ". Details in der App.",
         })
     return out
 
@@ -617,6 +623,10 @@ async def detect_and_notify(ipos: list):
                 "body": f"{ipo.get('company_name', '')} has withdrawn their IPO filing.",
                 "title_ja": f"{ticker} - IPO撤回",
                 "body_ja": f"{ipo.get('company_name', '')} がIPOの届出を撤回しました。",
+                "title_ko": f"{ticker} - IPO 철회",
+                "body_ko": f"{ipo.get('company_name', '')}이(가) IPO 신청을 철회했습니다.",
+                "title_de": f"{ticker} - Börsengang zurückgezogen",
+                "body_de": f"{ipo.get('company_name', '')} hat den Börsengang zurückgezogen.",
             })
 
         # 2. 上場日決定（undated → dated）
@@ -627,6 +637,10 @@ async def detect_and_notify(ipos: list):
                 "body": f"{ipo.get('company_name', '')} IPO scheduled for {expected_date}.",
                 "title_ja": f"{ticker} - 上場日決定",
                 "body_ja": f"{ipo.get('company_name', '')} の上場予定日が {expected_date}（米国時間）に決まりました。",
+                "title_ko": f"{ticker} - 상장일 확정",
+                "body_ko": f"{ipo.get('company_name', '')}의 상장 예정일이 {expected_date}(미국 시간)로 정해졌습니다.",
+                "title_de": f"{ticker} - Termin steht fest",
+                "body_de": f"Der Börsengang von {ipo.get('company_name', '')} ist für den {expected_date} (US-Zeit) geplant.",
             })
 
         # 3. 上場日変更（延期）
@@ -637,6 +651,10 @@ async def detect_and_notify(ipos: list):
                 "body": f"IPO date changed from {prev['expected_date']} to {expected_date}.",
                 "title_ja": f"{ticker} - 上場日変更",
                 "body_ja": f"上場予定日が {prev['expected_date']} から {expected_date}（米国時間）に変わりました。",
+                "title_ko": f"{ticker} - 상장일 변경",
+                "body_ko": f"상장 예정일이 {prev['expected_date']}에서 {expected_date}(미국 시간)로 바뀌었습니다.",
+                "title_de": f"{ticker} - Termin geändert",
+                "body_de": f"Der Termin wurde von {prev['expected_date']} auf {expected_date} (US-Zeit) verschoben.",
             })
 
         # 4. 価格決定
@@ -647,6 +665,10 @@ async def detect_and_notify(ipos: list):
                 "body": f"{ipo.get('company_name', '')} IPO priced at ${offer_price} per share.",
                 "title_ja": f"{ticker} - 公開価格 ${offer_price}",
                 "body_ja": f"{ipo.get('company_name', '')} の公開価格が1株 ${offer_price} に決まりました。",
+                "title_ko": f"{ticker} - 공모가 ${offer_price}",
+                "body_ko": f"{ipo.get('company_name', '')}의 공모가가 주당 ${offer_price}로 확정됐습니다.",
+                "title_de": f"{ticker} - Ausgabepreis ${offer_price}",
+                "body_de": f"Der Ausgabepreis von {ipo.get('company_name', '')} liegt bei ${offer_price} je Aktie.",
             })
 
         # 4b. 仮条件（価格レンジ）の変更。価格決定前のみ
@@ -666,6 +688,10 @@ async def detect_and_notify(ipos: list):
                 "body": f"{ipo.get('company_name', '')} changed its price range from {old_rng} to {rng}.",
                 "title_ja": f"{ticker} - 仮条件 {rng}",
                 "body_ja": f"{ipo.get('company_name', '')} の仮条件が {old_rng} から {rng} に変わりました。",
+                "title_ko": f"{ticker} - 공모가 범위 {rng}",
+                "body_ko": f"{ipo.get('company_name', '')}의 공모가 범위가 {old_rng}에서 {rng}로 바뀌었습니다.",
+                "title_de": f"{ticker} - Preisspanne {rng}",
+                "body_de": f"{ipo.get('company_name', '')} hat die Preisspanne von {old_rng} auf {rng} geändert.",
             })
 
         # 5. タイムライン更新（新しいイベントが追加された）
@@ -676,6 +702,10 @@ async def detect_and_notify(ipos: list):
                 "body": f"{ipo.get('company_name', '')} has a new SEC filing update.",
                 "title_ja": f"{ticker} - 新しい届出",
                 "body_ja": f"{ipo.get('company_name', '')} がSECに新しい書類を提出しました。",
+                "title_ko": f"{ticker} - 새 공시",
+                "body_ko": f"{ipo.get('company_name', '')}이(가) SEC에 새 서류를 제출했습니다.",
+                "title_de": f"{ticker} - Neue Einreichung",
+                "body_de": f"{ipo.get('company_name', '')} hat ein neues Dokument bei der SEC eingereicht.",
             })
 
     # 6. 上場前日通知（明日上場する銘柄）。実行は1日2回以上あるので、送った分は覚えておいて1回だけにする
@@ -698,12 +728,20 @@ async def detect_and_notify(ipos: list):
                 "body": f"{ipo.get('company_name', '')} is scheduled to go public tomorrow ({tomorrow}).",
                 "title_ja": f"{ticker} - 明日上場",
                 "body_ja": f"{ipo.get('company_name', '')} は明日 {tomorrow}（米国時間）に上場予定です。",
+                "title_ko": f"{ticker} - 내일 상장",
+                "body_ko": f"{ipo.get('company_name', '')}은(는) 내일 {tomorrow}(미국 시간) 상장 예정입니다.",
+                "title_de": f"{ticker} - Börsengang morgen",
+                "body_de": f"{ipo.get('company_name', '')} geht morgen, am {tomorrow} (US-Zeit), an die Börse.",
             })
 
     today_s = now_et.strftime("%Y-%m-%d")
     sent_state["day_before"] = {k: v for k, v in day_before.items() if v >= today_s}
     live = {i.get("id") for i in ipos if i.get("status") not in ("listed", "withdrawn")}
     sent_state["ranges"] = {k: v for k, v in seen_ranges.items() if k in live}
+    try:
+        changes += extras.lockup_notices(ipos, sent_state)      # ロックアップ解除の3日前（ウォッチリスト）
+    except Exception as e:
+        print(f"  ! lockup notices failed: {type(e).__name__}: {str(e)[:150]}")
     _save_json(NOTIFY_STATE, sent_state)
 
     # 7. 新規IPO追加通知（全ユーザー向け、無料）
@@ -724,6 +762,10 @@ async def detect_and_notify(ipos: list):
                 "body": f"{name} has been added to upcoming IPOs ({ipo.get('expected_date')}).",
                 "title_ja": f"新しい上場予定: {ticker or name[:20]}",
                 "body_ja": f"{name} が上場予定に加わりました（{ipo.get('expected_date')}）。",
+                "title_ko": f"새 상장 예정: {ticker or name[:20]}",
+                "body_ko": f"{name}이(가) 상장 예정 목록에 추가됐습니다({ipo.get('expected_date')}).",
+                "title_de": f"Neuer Börsengang: {ticker or name[:20]}",
+                "body_de": f"{name} wurde zu den geplanten Börsengängen hinzugefügt ({ipo.get('expected_date')}).",
             })
         else:
             broadcasts.append({
@@ -732,6 +774,10 @@ async def detect_and_notify(ipos: list):
                 "body": f"{name} has filed for an IPO (date TBD).",
                 "title_ja": f"新しいIPO届出: {ticker or name[:20]}",
                 "body_ja": f"{name} がIPOを申請しました（上場日は未定）。",
+                "title_ko": f"새 IPO 신청: {ticker or name[:20]}",
+                "body_ko": f"{name}이(가) IPO를 신청했습니다(상장일 미정).",
+                "title_de": f"Neuer IPO-Antrag: {ticker or name[:20]}",
+                "body_de": f"{name} hat einen Börsengang beantragt (Termin offen).",
             })
 
     # 新規IPO通知の安全装置。前回の状態が欠けていると既存の銘柄まで「新規」になり、
@@ -1524,6 +1570,7 @@ def apply_enrichment_cache(ipos: list, cache: dict):
                         ipo[key] = cached[key]
             if changed:
                 applied += 1
+    extras.apply_cache(ipos, cache)   # 韓国語・ドイツ語訳
     print(f"  Cache applied: {applied} companies")
 
 
@@ -1586,6 +1633,10 @@ async def main():
         await translate_ja(enriched)
     except Exception as e:
         print(f"  ! translate_ja failed: {type(e).__name__}: {str(e)[:200]}")
+    try:
+        await extras.translate_more(enriched, _haiku_client, HAIKU_MODEL, _parse_llm_json)
+    except Exception as e:
+        print(f"  ! translate_more failed: {type(e).__name__}: {str(e)[:200]}")
 
     # キャッシュを更新保存
     for ipo in enriched:
@@ -1596,7 +1647,8 @@ async def main():
                 if ipo.get(key):
                     entry[key] = ipo[key]
             for key in ("shares_outstanding", "proposed_price_low", "proposed_price_high",
-                        "description_ja", "products_services_ja", "ja_src", "ads_ratio", "ads_checked"):
+                        "description_ja", "products_services_ja", "ja_src", "ads_ratio", "ads_checked",
+                        *extras.CACHE_KEYS):
                 if ipo.get(key):
                     entry[key] = ipo[key]
             cache[ipo_id] = entry
@@ -1606,11 +1658,19 @@ async def main():
         json.dump([{k:v for k,v in i.items() if k not in ("nasdaq_status","_latest_date")} for i in enriched], f, ensure_ascii=False, indent=2, default=str)
 
     await update_worker(enriched)
+    try:
+        await extras.update_lockups(httpx, NASDAQ_HEADERS, WORKER_URL, ADMIN_TOKEN)
+    except Exception as e:
+        print(f"  ! lockups failed: {type(e).__name__}: {str(e)[:200]}")
     await detect_and_notify(enriched)
 
     # S-1 分析（Pro 機能）。失敗してもほかの処理には影響させない
     try:
         import s1_analysis
+        try:
+            await extras.translate_s1_lists(s1_analysis.CACHE_PATH, _haiku_client, HAIKU_MODEL, _parse_llm_json)
+        except Exception as e:
+            print(f"  ! S-1 ko/de translation failed: {type(e).__name__}: {str(e)[:150]}")
         async with httpx.AsyncClient(timeout=60, headers=SEC_HEADERS) as sec_client:
             await s1_analysis.run(enriched, _fetch_filing_text, _s1_accession, sec_client,
                                   ANTHROPIC_KEY, WORKER_URL, ADMIN_TOKEN)
