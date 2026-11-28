@@ -222,10 +222,20 @@
     "No revenue, history of losses, and going concern opinion",
     "Requires substantial additional capital on acceptable terms"
    ],
+   "key_risks_de": [
+    "Der Gravity Reactor ist unbewiesen und könnte nicht wie erwartet funktionieren",
+    "Keine Umsätze, Verlusthistorie und Hinweis auf Unternehmensfortführungsrisiko",
+    "Erfordert erhebliches zusätzliches Kapital zu akzeptablen Bedingungen"
+   ],
    "key_risks_ja": [
     "グラビティ・リアクターは実証されておらず性能が期待通りでない可能性",
     "収益がなく損失の続く経営と監査人の継続企業の疑義",
     "受容可能な条件での大規模な追加資金調達が必要"
+   ],
+   "key_risks_ko": [
+    "Gravity Reactor는 검증되지 않았으며 기대한 성능을 내지 못할 수 있음",
+    "매출이 없고 손실 이력이 있으며 계속기업 의견 존재",
+    "수용 가능한 조건의 상당한 추가 자본 필요"
    ],
    "lockup_days": 180,
    "net_income": null,
@@ -243,10 +253,20 @@
     "Engineering, research and development of first pilot nuclear reactor",
     "Licensing and construction of first pilot nuclear reactor"
    ],
+   "use_of_proceeds_de": [
+    "Allgemeines Betriebskapital und allgemeine Unternehmenszwecke",
+    "Konstruktion, Forschung und Entwicklung des ersten Pilotkernreaktors",
+    "Lizenzierung und Bau des ersten Pilotkernreaktors"
+   ],
    "use_of_proceeds_ja": [
     "一般運転資金および全社的な目的",
     "初号パイロット原子炉の設計・研究開発",
     "初号パイロット原子炉のライセンス取得および建設"
+   ],
+   "use_of_proceeds_ko": [
+    "일반 운전자금 및 기업 일반 목적",
+    "첫 시범 원자로의 엔지니어링, 연구개발",
+    "첫 시범 원자로의 인허가 및 건설"
    ],
    "v": 3
   },
@@ -362,10 +382,20 @@
     "Revenue concentrated among few OEM and Tier 1 customers",
     "Reliance on third parties for critical processes and raw materials"
    ],
+   "key_risks_de": [
+    "Fertigung hängt von teuren Schlüsselanlagen mit begrenzten Alternativen ab",
+    "Umsätze konzentriert auf wenige OEM- und Tier-1-Kunden",
+    "Abhängigkeit von Drittanbietern für kritische Prozesse und Rohstoffe"
+   ],
    "key_risks_ja": [
     "重要な高コスト設備に依存し代替生産手段が限られる",
     "少数のOEM・Tier1顧客に売上が集中",
     "製造に不可欠な工程・原材料を第三者に依存"
+   ],
+   "key_risks_ko": [
+    "고비용 핵심 장비에 의존하며 생산 대안이 제한적",
+    "소수의 OEM 및 Tier 1 고객에 매출 집중",
+    "핵심 공정 및 원자재를 제3자에 의존"
    ],
    "lockup_days": 180,
    "net_income": -173000000,
@@ -385,9 +415,17 @@
     "Partially repay certain outstanding indebtedness",
     "Repay Shareholder PIK Loan"
    ],
+   "use_of_proceeds_de": [
+    "Teilweise Rückzahlung bestehender Verbindlichkeiten",
+    "Rückzahlung des Shareholder PIK Loan"
+   ],
    "use_of_proceeds_ja": [
     "一部の既存借入金の返済",
     "株主PIK融資の返済"
+   ],
+   "use_of_proceeds_ko": [
+    "기존 부채 일부 상환",
+    "Shareholder PIK Loan 상환"
    ],
    "v": 3
   },
@@ -410,10 +448,20 @@
     "Company is a controlled company exempt from certain NYSE governance requirements",
     "Significant debt and high interest expense relative to operating income"
    ],
+   "key_risks_de": [
+    "Brookfield wird nach dem Angebot rund 67,1 % der Stimmrechte kontrollieren",
+    "Als controlled company von bestimmten NYSE-Governance-Vorgaben befreit",
+    "Hohe Verschuldung und hohe Zinsaufwendungen im Verhältnis zum operativen Ergebnis"
+   ],
    "key_risks_ja": [
     "オファリング後、ブルックフィールドが議決権の約67.1%を保有",
     "NYSEの一部ガバナンス要件が免除される支配会社となる",
     "営業利益に比して多額の負債と高い支払利息"
+   ],
+   "key_risks_ko": [
+    "공모 후 Brookfield가 약 67.1%의 의결권 행사",
+    "NYSE 일부 지배구조 요건이 면제되는 controlled company",
+    "영업이익 대비 큰 부채 규모와 높은 이자비용"
    ],
    "lockup_days": null,
    "net_income": null,
@@ -433,9 +481,17 @@
     "Repay Revolving Credit Facility, Promissory Note and Series 2024-1 Variable Funding Notes ($921.0 million)",
     "Repay outstanding Series 2020-2 Class A-2 notes ($250.0 million)"
    ],
+   "use_of_proceeds_de": [
+    "Rückzahlung der Revolving Credit Facility, des Promissory Note und der Series 2024-1 Variable Funding Notes (921,0 Mio. ",
+    "Rückzahlung ausstehender Series 2020-2 Class A-2 Notes (250,0 Mio. $)"
+   ],
    "use_of_proceeds_ja": [
     "リボルビング信用枠・約束手形・シリーズ2024-1変動資金調達票の返済（9億2,100万ドル）",
     "シリーズ2020-2 クラスA-2社債の返済（2億5,000万ドル）"
+   ],
+   "use_of_proceeds_ko": [
+    "Revolving Credit Facility, Promissory Note 및 Series 2024-1 Variable Funding Notes 상환 (9억 2,100만 달러)",
+    "미상환 Series 2020-2 Class A-2 notes 상환 (2억 5,000만 달러)"
    ],
    "v": 3
   },
@@ -1391,10 +1447,20 @@
     "Controlling shareholder Electrum will control about 60.7% voting power",
     "Restart of Sunshine Mine and antimony plant depend on feasibility studies"
    ],
+   "key_risks_de": [
+    "Das Unternehmen hat Betriebsverluste verzeichnet und könnte nicht profitabel werden",
+    "Der Mehrheitsaktionär Electrum wird rund 60,7 % der Stimmrechte kontrollieren",
+    "Die Wiederinbetriebnahme der Sunshine Mine und der Antimonanlage hängt von Machbarkeitsstudien ab"
+   ],
    "key_risks_ja": [
     "営業損失が続いており、将来の黒字化が保証されない",
     "支配株主Electrumが議決権の約60.7%を保有する",
     "鉱山再開と工場開発は実現可能性調査の結果に依存する"
+   ],
+   "key_risks_ko": [
+    "영업손실 이력이 있으며 수익성 달성을 못 할 수 있음",
+    "지배주주 Electrum이 약 60.7%의 의결권 보유",
+    "Sunshine Mine 및 안티모니 공장 재가동은 타당성 조사에 의존"
    ],
    "lockup_days": null,
    "net_income": -34743000,
@@ -1415,10 +1481,20 @@
     "Feasibility Study for development of Sunshine Antimony Plant",
     "Feasibility Study for refurbishment and construction of additional facilities"
    ],
+   "use_of_proceeds_de": [
+    "Machbarkeitsstudie zur Wiederinbetriebnahme der Sunshine Mine einschließlich neuer Aufbereitungsanlage",
+    "Machbarkeitsstudie zur Entwicklung der Sunshine Antimony Plant",
+    "Machbarkeitsstudie zur Sanierung und zum Bau zusätzlicher Anlagen"
+   ],
    "use_of_proceeds_ja": [
     "Sunshine鉱山再開のための新工場建設を含む実現可能性調査",
     "Sunshineアンチモン工場開発のための実現可能性調査",
     "追加施設の改修・建設のための実現可能性調査"
+   ],
+   "use_of_proceeds_ko": [
+    "Sunshine Mine 재가동(신규 선광장 포함)을 위한 타당성 조사",
+    "Sunshine Antimony Plant 개발을 위한 타당성 조사",
+    "추가 시설의 개보수 및 건설을 위한 타당성 조사"
    ],
    "v": 3
   },
@@ -1441,10 +1517,20 @@
     "Difficulty fully integrating BM Tech into our business",
     "Significant dependence on conditions in real estate markets"
    ],
+   "key_risks_de": [
+    "Wirtschaftliche Bedingungen in unserem Marktgebiet könnten die Ergebnisse negativ beeinflussen",
+    "Schwierigkeiten bei der vollständigen Integration von BM Tech in unser Geschäft",
+    "Erhebliche Abhängigkeit von den Bedingungen auf den Immobilienmärkten"
+   ],
    "key_risks_ja": [
     "市場地域の経済状況が業績に悪影響を及ぼす可能性",
     "BM Techの事業への完全な統合の困難",
     "不動産市場の状況への高い依存度"
+   ],
+   "key_risks_ko": [
+    "당사 시장 지역의 경제 여건이 실적에 불리하게 작용할 수 있음",
+    "BM Tech의 사업 통합이 어려울 수 있음",
+    "부동산 시장 여건에 크게 의존"
    ],
    "lockup_days": null,
    "net_income": 12201000,
@@ -1462,10 +1548,20 @@
     "Supporting organic growth and potential acquisitions",
     "Refinancing outstanding indebtedness and working capital"
    ],
+   "use_of_proceeds_de": [
+    "Allgemeine Unternehmenszwecke",
+    "Unterstützung des organischen Wachstums und möglicher Akquisitionen",
+    "Refinanzierung bestehender Verbindlichkeiten und Betriebskapital"
+   ],
    "use_of_proceeds_ja": [
     "一般的な企業目的",
     "有機的成長および潜在的買収の支援",
     "負債の借り換えおよび運転資金"
+   ],
+   "use_of_proceeds_ko": [
+    "일반 기업 목적",
+    "유기적 성장 및 잠재적 인수 지원",
+    "기존 부채 및 운전자본 차환"
    ],
    "v": 3
   },
@@ -1488,10 +1584,20 @@
     "Company is an emerging growth company with reduced public reporting requirements",
     "Company has recorded net losses and negative operating cash flows in recent periods"
    ],
+   "key_risks_de": [
+    "Electrum kontrolliert rund 77,4 % der Stimmrechte, wodurch Sinda eine controlled company ist",
+    "Als emerging growth company gelten reduzierte Offenlegungspflichten",
+    "In letzter Zeit Nettoverluste und negativer operativer Cashflow"
+   ],
    "key_risks_ja": [
     "Electrumが議決権の約77.4%を支配し、当社は支配会社に該当する",
     "新興成長企業として公開会社向け報告義務が軽減されている",
     "直近期間において純損失及び営業キャッシュフローのマイナスを計上している"
+   ],
+   "key_risks_ko": [
+    "Electrum이 약 77.4%의 의결권을 보유하여 Sinda는 controlled company에 해당",
+    "신흥성장기업으로서 공시 의무가 축소되어 적용됨",
+    "최근 기간 순손실 및 영업현금흐름 적자 기록"
    ],
    "lockup_days": null,
    "net_income": -18695000,
@@ -1503,8 +1609,14 @@
    "use_of_proceeds": [
     "We will not receive any proceeds from the resale of shares being registered"
    ],
+   "use_of_proceeds_de": [
+    "Wir erhalten keine Erlöse aus dem Weiterverkauf der angemeldeten Aktien"
+   ],
    "use_of_proceeds_ja": [
     "本目論見書で登録される株式の再販売による収益は当社が受け取らない"
+   ],
+   "use_of_proceeds_ko": [
+    "이번 등록 대상 주식의 재매각으로 당사는 수익금을 받지 않음"
    ],
    "v": 3
   },
@@ -2834,10 +2946,20 @@
     "Defense spending and government budgets may change unpredictably",
     "Growth strategy relies on acquisitions with associated risks"
    ],
+   "key_risks_de": [
+    "Rückgang des Geschäfts mit Schlüsselkunden könnte die Ergebnisse erheblich belasten",
+    "Verteidigungsausgaben und Staatshaushalte können sich unvorhersehbar ändern",
+    "Wachstumsstrategie beruht auf Akquisitionen mit damit verbundenen Risiken"
+   ],
    "key_risks_ja": [
     "主要顧客との取引の大幅な減少が業績に重大な悪影響を及ぼすおそれ",
     "国防支出および政府予算の変動により業績が変動するおそれ",
     "買収を含む成長戦略に伴うリスク"
+   ],
+   "key_risks_ko": [
+    "핵심 고객의 사업 축소가 실적에 중대한 영향을 줄 수 있음",
+    "국방 지출 및 정부 예산이 예측하기 어렵게 변동 가능",
+    "성장 전략이 인수에 의존하며 이에 따른 위험 수반"
    ],
    "lockup_days": null,
    "net_income": -46882000,
@@ -2856,9 +2978,17 @@
     "Repay amounts outstanding under revolving credit facility (~$56.1 million)",
     "Repay term loan borrowings under Credit Agreement (~$532.8 million)"
    ],
+   "use_of_proceeds_de": [
+    "Rückzahlung ausstehender Beträge aus der revolvierenden Kreditfazilität (ca. 56,1 Mio. $)",
+    "Rückzahlung von Term-Loan-Krediten gemäß Kreditvereinbarung (ca. 532,8 Mio. $)"
+   ],
    "use_of_proceeds_ja": [
     "リボルビング・クレジット・ファシリティの未払残高の返済（約5,610万ドル）",
     "クレジット契約に基づくタームローンの返済（約5億3,280万ドル）"
+   ],
+   "use_of_proceeds_ko": [
+    "Revolving credit facility 미상환 잔액 상환 (약 5,610만 달러)",
+    "Credit Agreement에 따른 Term loan 차입금 상환 (약 5억 3,280만 달러)"
    ],
    "v": 3
   },
@@ -2943,7 +3073,9 @@
    "interim_period": "Three months ended March 31, 2026",
    "interim_revenue": 205642000,
    "key_risks": [],
+   "key_risks_de": [],
    "key_risks_ja": [],
+   "key_risks_ko": [],
    "lockup_days": 180,
    "net_income": -23145000,
    "net_income_prior_year": -48233000,
@@ -2963,10 +3095,20 @@
     "General corporate purposes",
     "Bear all expenses of this offering"
    ],
+   "use_of_proceeds_de": [
+    "Rückzahlung ausstehender Verbindlichkeiten aus der New Term Loan Facility (ca. 357,3 Mio. $)",
+    "Allgemeine Unternehmenszwecke",
+    "Übernahme sämtlicher Kosten dieses Angebots"
+   ],
    "use_of_proceeds_ja": [
     "新規タームローン・ファシリティに基づく既存借入金の返済（約3億5,730万ドル）",
     "一般事業目的",
     "本募集に伴う費用の負担"
+   ],
+   "use_of_proceeds_ko": [
+    "New Term Loan Facility에 따른 미상환 부채 상환 (약 3억 5,730만 달러)",
+    "일반 기업 목적",
+    "이번 공모의 모든 비용 부담"
    ],
    "v": 3
   },
@@ -2989,10 +3131,20 @@
     "Reliance on third-party operators to develop acreage",
     "Impairment charges from lower commodity prices or adjustments"
    ],
+   "key_risks_de": [
+    "Umsätze hängen von der Preisvolatilität bei Erdgas, NGL und Öl ab",
+    "Abhängigkeit von Drittbetreibern für die Erschließung der Flächen",
+    "Wertminderungen bei niedrigeren Rohstoffpreisen oder Anpassungen möglich"
+   ],
    "key_risks_ja": [
     "天然ガス・NGL・石油価格の変動に収益が左右される",
     "開発を第三者オペレーターに依存している",
     "価格低下や調整によって減損損失が発生する可能性"
+   ],
+   "key_risks_ko": [
+    "매출이 천연가스, NGL 및 원유 가격 변동성에 의존",
+    "광구 개발을 제3자 운영사에 의존",
+    "상품 가격 하락 또는 조정에 따른 감손 차손 발생 가능"
    ],
    "lockup_days": 180,
    "net_income": null,
@@ -3012,10 +3164,20 @@
     "Make-whole premium on Senior Notes prepayment",
     "Cash on hand and Revolving Credit Facility borrowings"
    ],
+   "use_of_proceeds_de": [
+    "Teilweise vorzeitige Tilgung des Nennbetrags der Senior Notes",
+    "Make-whole-Prämie bei vorzeitiger Tilgung der Senior Notes",
+    "Barmittel und Kreditaufnahmen unter der Revolving Credit Facility"
+   ],
    "use_of_proceeds_ja": [
     "Senior Notes元本の一部繰上返済",
     "Senior Notes繰上返済に伴うmake-wholeプレミアム",
     "手元現金およびリボルビング・クレジット・ファシリティからの借入"
+   ],
+   "use_of_proceeds_ko": [
+    "Senior Notes 원금 일부 조기상환",
+    "Senior Notes 조기상환에 따른 make-whole 프리미엄",
+    "보유 현금 및 Revolving Credit Facility 차입"
    ],
    "v": 3
   },
@@ -3034,7 +3196,9 @@
    "interim_period": null,
    "interim_revenue": null,
    "key_risks": [],
+   "key_risks_de": [],
    "key_risks_ja": [],
+   "key_risks_ko": [],
    "lockup_days": 180,
    "net_income": null,
    "net_income_prior_year": null,
@@ -3053,9 +3217,17 @@
     "Purchase Class A Units from ER Holdings",
     "Net proceeds from this offering"
    ],
+   "use_of_proceeds_de": [
+    "Erwerb von Class-A-Units von ER Holdings",
+    "Nettoerlöse aus diesem Angebot"
+   ],
    "use_of_proceeds_ja": [
     "ER Holdingsから Class A Unitsを購入",
     "本募集の純手取金"
+   ],
+   "use_of_proceeds_ko": [
+    "ER Holdings로부터 Class A Units 매입",
+    "이번 공모의 순수익금"
    ],
    "v": 3
   },
@@ -3078,10 +3250,20 @@
     "Dependence on the success of our product candidates in clinical trials",
     "Dependence on the concurrent private placement and strategic relationship with Regeneron"
    ],
+   "key_risks_de": [
+    "Unternehmen ohne Umsatz mit Historie erheblicher Nettoverluste",
+    "Abhängigkeit vom Erfolg unserer Produktkandidaten in klinischen Studien",
+    "Abhängigkeit von der gleichzeitigen Privatplatzierung und der strategischen Beziehung zu Regeneron"
+   ],
    "key_risks_ja": [
     "収益を生んでおらず、多額の純損失の履歴がある",
     "製品候補の臨床試験での成功への依存",
     "同時私募およびRegeneronとの戦略的関係への依存"
+   ],
+   "key_risks_ko": [
+    "매출 없음, 누적 순손실 이력이 있는 기업",
+    "임상시험에서 제품 후보물질의 성공 여부에 대한 의존",
+    "동시 사모 발행 및 Regeneron과의 전략적 관계에 대한 의존"
    ],
    "lockup_days": null,
    "net_income": -145889000,
@@ -3101,10 +3283,20 @@
     "Advance research and development programs",
     "General corporate purposes and working capital"
    ],
+   "use_of_proceeds_de": [
+    "Klinische Entwicklung unserer Produktkandidaten finanzieren",
+    "Forschungs- und Entwicklungsprogramme vorantreiben",
+    "Allgemeine Unternehmenszwecke und Betriebskapital"
+   ],
    "use_of_proceeds_ja": [
     "製品候補の臨床開発資金",
     "研究開発プログラムの推進",
     "一般企業目的および運転資金"
+   ],
+   "use_of_proceeds_ko": [
+    "제품 후보물질의 임상 개발 자금 조달",
+    "연구개발 프로그램 추진",
+    "일반 기업 목적 및 운전자본"
    ],
    "v": 3
   },
@@ -3127,10 +3319,20 @@
     "No product candidate has completed development or received regulatory approval",
     "May lack financial resources to continue development if regulatory or commercialization issues arise"
    ],
+   "key_risks_de": [
+    "Abhängigkeit vom Erfolg der Produktkandidaten Danicamtiv, Ataciguat und Tonlamarsen",
+    "Kein Produktkandidat hat die Entwicklung abgeschlossen oder eine behördliche Zulassung erhalten",
+    "Möglicher Mangel an finanziellen Mitteln zur Fortsetzung der Entwicklung bei regulatorischen oder kommerziellen Probleme"
+   ],
    "key_risks_ja": [
     "Danicamtiv、Ataciguat、Tonlamarsenの候補品の成功への依存",
     "いずれの候補品も開発完了や規制当局の承認を得ていない",
     "規制や商業化の問題で開発資金が不足する可能性"
+   ],
+   "key_risks_ko": [
+    "Danicamtiv, Ataciguat 및 Tonlamarsen 제품 후보물질의 성공에 대한 의존",
+    "개발을 완료하거나 규제 승인을 받은 제품 후보물질 없음",
+    "규제 또는 상업화 문제 발생 시 개발을 지속할 재정 자원 부족 가능성"
    ],
    "lockup_days": 180,
    "net_income": -191941000,
@@ -3148,9 +3350,17 @@
     "Clinical development of Danicamtiv, Ataciguat and Tonlamarsen",
     "Other research and development and general corporate purposes"
    ],
+   "use_of_proceeds_de": [
+    "Klinische Entwicklung von Danicamtiv, Ataciguat und Tonlamarsen",
+    "Sonstige Forschung und Entwicklung sowie allgemeine Unternehmenszwecke"
+   ],
    "use_of_proceeds_ja": [
     "Danicamtiv、Ataciguat、Tonlamarseの臨床開発",
     "その他の研究開発および一般的な企業目的"
+   ],
+   "use_of_proceeds_ko": [
+    "Danicamtiv, Ataciguat 및 Tonlamarsen 임상 개발",
+    "기타 연구개발 및 일반 기업 목적"
    ],
    "v": 3
   },
@@ -3173,10 +3383,20 @@
     "Top two customers accounted for 60% of 2025 revenues",
     "Unfavorable market conditions including inflation, interest rates, and tariffs"
    ],
+   "key_risks_de": [
+    "Hart umkämpfte Branche mit Druck auf das Geschäft",
+    "Die beiden größten Kunden machten 60 % der Umsätze 2025 aus",
+    "Ungünstige Marktbedingungen einschließlich Inflation, Zinsen und Zöllen"
+   ],
    "key_risks_ja": [
     "競争の激しい業界で事業への競争圧力が大きい",
     "2025年は上位2社の顧客が売上の60%を占める",
     "インフレ、金利、関税など不利な市場環境"
+   ],
+   "key_risks_ko": [
+    "경쟁이 매우 치열한 산업으로 인한 사업 압박",
+    "상위 두 고객이 2025년 매출의 60% 차지",
+    "인플레이션, 금리, 관세를 포함한 불리한 시장 여건"
    ],
    "lockup_days": null,
    "net_income": null,
@@ -3197,10 +3417,20 @@
     "Repay approximately $241.0 million under the Term Loan Facility",
     "General corporate purposes to support business growth"
    ],
+   "use_of_proceeds_de": [
+    "Rückzahlung von etwa 120,0 Mio. USD unter der Revolving Credit Facility",
+    "Rückzahlung von etwa 241,0 Mio. USD unter der Term Loan Facility",
+    "Allgemeine Unternehmenszwecke zur Unterstützung des Geschäftswachstums"
+   ],
    "use_of_proceeds_ja": [
     "リボルビング・クレジット・ファシリティの借入1億2,000万ドルを返済",
     "タームローン・ファシリティの借入2億4,100万ドルを返済",
     "事業成長を支えるための一般企業目的"
+   ],
+   "use_of_proceeds_ko": [
+    "리볼빙 신용 한도에 따른 약 1억 2,000만 달러 상환",
+    "기한부 대출 한도에 따른 약 2억 4,100만 달러 상환",
+    "사업 성장 지원을 위한 일반 기업 목적"
    ],
    "v": 3
   },
@@ -3223,10 +3453,20 @@
     "Intense competition in the memory semiconductor industry",
     "Dependence on increasing production capacity for long-term growth"
    ],
+   "key_risks_de": [
+    "Zyklizität der Speicherchipindustrie und wiederkehrende Phasen von Überkapazitäten",
+    "Intensiver Wettbewerb in der Speicherchipindustrie",
+    "Abhängigkeit von der Erweiterung der Produktionskapazitäten für langfristiges Wachstum"
+   ],
    "key_risks_ja": [
     "メモリ半導体業界の景気循環と定期的な供給過剰",
     "メモリ半導体業界における激しい競争",
     "長期成長のための生産能力拡大への依存"
+   ],
+   "key_risks_ko": [
+    "메모리 반도체 산업의 경기 순환성 및 반복적인 공급 과잉 기간",
+    "메모리 반도체 산업의 치열한 경쟁",
+    "장기 성장을 위한 생산 능력 확대에 대한 의존"
    ],
    "lockup_days": 90,
    "net_income": 42948,
@@ -3246,9 +3486,17 @@
     "General corporate purposes",
     "Capital expenditures"
    ],
+   "use_of_proceeds_de": [
+    "Allgemeine Unternehmenszwecke",
+    "Investitionsausgaben"
+   ],
    "use_of_proceeds_ja": [
     "一般事業目的",
     "設備投資"
+   ],
+   "use_of_proceeds_ko": [
+    "일반 기업 목적",
+    "설비투자"
    ],
    "v": 3
   },
@@ -3330,10 +3578,20 @@
     "Substantial indebtedness under Series 2026-1 Notes and related debt agreements",
     "Sponsor controls the company and may have interests conflicting with other stockholders"
    ],
+   "key_risks_de": [
+    "Jersey Mike's Subs Inc. hat neben seinen Beteiligungen an Jersey Mike's Holdings keine Geschäftstätigkeit",
+    "Erhebliche Verschuldung aus den Series 2026-1 Notes und damit verbundenen Schuldverträgen",
+    "Der Sponsor kontrolliert das Unternehmen und könnte Interessen haben, die denen anderer Aktionäre widersprechen"
+   ],
    "key_risks_ja": [
     "Jersey Mike's Subs Inc.は持株会社Jersey Mike's Holdings以外の事業を持たない",
     "Series 2026-1 Notesを含む多額の債務",
     "スポンサーが会社を支配し他の株主と利害が対立する可能性"
+   ],
+   "key_risks_ko": [
+    "Jersey Mike's Subs Inc.는 Jersey Mike's Holdings 지분 외 운영 사업 없음",
+    "Series 2026-1 Notes 및 관련 부채 계약에 따른 상당한 부채",
+    "스폰서가 회사를 지배하며 다른 주주와 이해가 상충할 수 있음"
    ],
    "lockup_days": 180,
    "net_income": null,
@@ -3354,10 +3612,20 @@
     "Repay portion of Series 2026-1 Notes indebtedness",
     "General corporate purposes"
    ],
+   "use_of_proceeds_de": [
+    "Erwerb neu ausgegebener Common Units von Jersey Mike's Holdings",
+    "Teilweise Rückzahlung der Verbindlichkeiten aus den Series 2026-1 Notes",
+    "Allgemeine Unternehmenszwecke"
+   ],
    "use_of_proceeds_ja": [
     "Jersey Mike's Holdingsから新規発行のCommon Unitsを取得",
     "Series 2026-1 Notesの債務の一部を返済",
     "一般事業目的"
+   ],
+   "use_of_proceeds_ko": [
+    "Jersey Mike's Holdings로부터 신규 발행 Common Units 취득",
+    "Series 2026-1 Notes 부채의 일부 상환",
+    "일반 기업 목적"
    ],
    "v": 3
   },
@@ -3380,10 +3648,20 @@
     "History of operating losses and substantial doubt about going concern",
     "Unproven epigenetic genetic medicine approach via ELXR and XE technologies"
    ],
+   "key_risks_de": [
+    "Begrenzte Betriebshistorie ohne abgeschlossene klinische Studien oder zugelassene Produkte",
+    "Historie operativer Verluste und erhebliche Zweifel an der Fortführung der Unternehmenstätigkeit",
+    "Nicht bewiesener epigenetischer Gentherapieansatz über die Technologien ELXR und XE"
+   ],
    "key_risks_ja": [
     "限定的な事業実績と臨床試験未完了、承認製品なし",
     "営業損失の継続と継続企業の疑義",
     "ELXR・XE技術によるエピジェネティック医薬の未検証性"
+   ],
+   "key_risks_ko": [
+    "임상시험 완료 및 승인 제품이 없는 제한된 영업 이력",
+    "영업손실 이력 및 계속기업 가정에 대한 상당한 의구심",
+    "ELXR 및 XE 기술을 통한 검증되지 않은 에피제네틱 유전자 의약품 접근법"
    ],
    "lockup_days": null,
    "net_income": -21808000,
@@ -3401,9 +3679,17 @@
     "Advance development of lead product candidate",
     "Working capital and general corporate purposes"
    ],
+   "use_of_proceeds_de": [
+    "Weiterentwicklung des führenden Produktkandidaten",
+    "Betriebskapital und allgemeine Unternehmenszwecke"
+   ],
    "use_of_proceeds_ja": [
     "主要候補品の開発推進",
     "運転資金および一般事業目的"
+   ],
+   "use_of_proceeds_ko": [
+    "주력 제품 후보물질의 개발 추진",
+    "운전자본 및 일반 기업 목적"
    ],
    "v": 3
   },
@@ -3934,10 +4220,20 @@
     "Nasdaq trading suspension and uplisting compliance uncertainty",
     "Heavy dependence on success of product candidate exaluren"
    ],
+   "key_risks_de": [
+    "Verzug bei den Veröffentlichungspflichten nach dem Exchange Act",
+    "Aussetzung des Handels an der Nasdaq und Ungewissheit über die Einhaltung der Anforderungen für den Übergang in einen hö",
+    "Starke Abhängigkeit vom Erfolg des Produktkandidaten exaluren"
+   ],
    "key_risks_ja": [
     "取引所法に基づく定期開示義務の延滞",
     "ナスダック取引停止と上場維持要件遵守の不確実性",
     "製品候補exaluren の成否への高い依存度"
+   ],
+   "key_risks_ko": [
+    "Exchange Act에 따른 공시 의무 연체",
+    "Nasdaq 거래 정지 및 상장 요건 충족 불확실성",
+    "제품 후보물질 exaluren의 성공에 대한 높은 의존도"
    ],
    "lockup_days": null,
    "net_income": null,
@@ -3950,9 +4246,17 @@
     "Resale proceeds not received by company",
     "Cash exercise proceeds from Pre-Funded Warrants"
    ],
+   "use_of_proceeds_de": [
+    "Von dem Unternehmen nicht erhaltene Erlöse aus dem Weiterverkauf",
+    "Barerlöse aus der Ausübung von Pre-Funded Warrants"
+   ],
    "use_of_proceeds_ja": [
     "resale収益は当社が受領しない",
     "プリファンデッド・ワランツの現金行使による収益"
+   ],
+   "use_of_proceeds_ko": [
+    "회사가 받지 않은 재판매 수익금",
+    "사전 자금 조달 워런트의 현금 행사 수익"
    ],
    "v": 3
   },
@@ -6035,10 +6339,20 @@
     "Sponsor, officers and directors will vote in favor regardless of public votes",
     "Large redemptions may prevent completing the most desirable business combination"
    ],
+   "key_risks_de": [
+    "Öffentliche Aktionäre dürfen über den vorgeschlagenen initialen Unternehmenszusammenschluss möglicherweise nicht abstimm",
+    "Sponsor, Führungskräfte und Direktoren stimmen unabhängig von den Stimmen der Öffentlichkeit zu",
+    "Hohe Rücknahmen könnten den Abschluss des attraktivsten Unternehmenszusammenschlusses verhindern"
+   ],
    "key_risks_ja": [
     "公募株主が初期事業統合に投票できない可能性がある",
     "スポンサー・役員は公募株主の投票に関係なく賛成票を投じる",
     "大量の償還により最も望ましい事業統合を完了できない可能性"
+   ],
+   "key_risks_ko": [
+    "공개 주주는 제안된 최초 기업결합에 대해 투표하지 않을 수 있음",
+    "스폰서, 임원 및 이사는 공개 주주의 투표와 관계없이 찬성 투표할 것임",
+    "대규모 상환으로 가장 바람직한 기업결합 완료가 불가능할 수 있음"
    ],
    "lockup_days": null,
    "net_income": null,
@@ -6048,7 +6362,9 @@
    "revenue_prior_year": null,
    "underwriters": [],
    "use_of_proceeds": [],
+   "use_of_proceeds_de": [],
    "use_of_proceeds_ja": [],
+   "use_of_proceeds_ko": [],
    "v": 3
   },
   "empty": false,
@@ -6359,10 +6675,20 @@
     "History of losses and negative operating cash flows",
     "Operating through VIE structure with PRC legal uncertainties"
    ],
+   "key_risks_de": [
+    "Abhängigkeit von Gebrauchtwagenhändlern und OEMs als Kunden",
+    "Historie von Verlusten und negativen operativen Cashflows",
+    "Geschäftstätigkeit über eine VIE-Struktur mit rechtlichen Unsicherheiten in der VR China"
+   ],
    "key_risks_ja": [
     "中古車販売業者とOEMへの依存",
     "損失の継続と営業キャッシュフローのマイナス",
     "VIE構造と中国法の不確実性"
+   ],
+   "key_risks_ko": [
+    "고객인 중고차 딜러 및 OEM에 대한 의존",
+    "손실 및 영업현금흐름 적자 이력",
+    "VIE 구조를 통한 영업과 중국 법률 관련 불확실성"
    ],
    "lockup_days": 180,
    "net_income": null,
@@ -6376,10 +6702,20 @@
     "Developing new services and technology",
     "General corporate purposes"
    ],
+   "use_of_proceeds_de": [
+    "Verbesserung unserer Dienstleistungen und des Kundenerlebnisses",
+    "Entwicklung neuer Dienstleistungen und Technologien",
+    "Allgemeine Unternehmenszwecke"
+   ],
    "use_of_proceeds_ja": [
     "サービスと顧客体験の強化",
     "新サービスと技術の開発",
     "一般企業目的"
+   ],
+   "use_of_proceeds_ko": [
+    "서비스 및 고객 경험 개선",
+    "신규 서비스 및 기술 개발",
+    "일반 기업 목적"
    ],
    "v": 3
   },
@@ -6824,7 +7160,9 @@
    "interim_period": "Three Months Ended March 31, 2026",
    "interim_revenue": 593802,
    "key_risks": [],
+   "key_risks_de": [],
    "key_risks_ja": [],
+   "key_risks_ko": [],
    "lockup_days": 180,
    "net_income": -15540945,
    "net_income_prior_year": -56596406,
@@ -6843,9 +7181,17 @@
     "Working capital and other general corporate purposes",
     "Acquire or invest in complementary businesses, products, services, technologies or assets"
    ],
+   "use_of_proceeds_de": [
+    "Betriebskapital und sonstige allgemeine Unternehmenszwecke",
+    "Erwerb oder Investition in ergänzende Geschäfte, Produkte, Dienstleistungen, Technologien oder Vermögenswerte"
+   ],
    "use_of_proceeds_ja": [
     "運転資金およびその他の一般企業目的",
     "補完的な事業・製品・サービス・技術・資産の取得または投資"
+   ],
+   "use_of_proceeds_ko": [
+    "운전자본 및 기타 일반 기업 목적",
+    "보완적 사업, 제품, 서비스, 기술 또는 자산의 인수 또는 투자"
    ],
    "v": 3
   },
@@ -9989,10 +10335,20 @@
     "Itarantim Project requires significant additional exploration and technical studies before development.",
     "Mineral resource is entirely classified as inferred and may not support economic viability."
    ],
+   "key_risks_de": [
+    "Das Unternehmen verfügt über eine begrenzte Betriebshistorie und erzielt derzeit keine Umsätze.",
+    "Das Projekt Itarantim erfordert vor einer Entwicklung umfangreiche zusätzliche Explorations- und technische Studien.",
+    "Die Mineralressource ist vollständig als abgeleitet eingestuft und könnte die wirtschaftliche Tragfähigkeit nicht stütze"
+   ],
    "key_risks_ja": [
     "操業実績が限られており、現在収益を生んでいません。",
     "イタランティン・プロジェクトは開発前に大規模な追加探鉱と技術調査が必要です。",
     "鉱物資源はすべて推定資源に分類され、経済的実現性を支えない可能性があります。"
+   ],
+   "key_risks_ko": [
+    "회사는 운영 이력이 제한적이며 현재 매출이 없습니다.",
+    "Itarantim 프로젝트는 개발 전 상당한 추가 탐사 및 기술 연구가 필요합니다.",
+    "광물 자원은 전부 추정 자원으로 분류되어 경제성을 뒷받침하지 못할 수 있습니다."
    ],
    "lockup_days": null,
    "net_income": null,
@@ -10004,8 +10360,14 @@
    "use_of_proceeds": [
     "The Company will not receive any proceeds from the sale of ordinary shares by the Resale Shareholder."
    ],
+   "use_of_proceeds_de": [
+    "Das Unternehmen erhält keinen Erlös aus dem Verkauf von Stammaktien durch den Weiterverkaufsaktionär."
+   ],
    "use_of_proceeds_ja": [
     "当社は、居住株主による普通株式の売却による収益を受け取りません。"
+   ],
+   "use_of_proceeds_ko": [
+    "회사는 재판매 주주의 보통주 매각으로 대금을 받지 않습니다."
    ],
    "v": 3
   },
@@ -10379,10 +10741,20 @@
     "Company has no operations and generates no revenues",
     "Offering not conducted under Rule 419 investor protections"
    ],
+   "key_risks_de": [
+    "Aktionäre können über den vorgeschlagenen initialen Unternehmenszusammenschluss möglicherweise nicht abstimmen.",
+    "Das Unternehmen hat keinen Geschäftsbetrieb und erzielt keine Umsätze.",
+    "Das Angebot wird nicht nach Rule 419 durchgeführt, sodass die Anlegerschutzregeln nach Rule 419 nicht gelten."
+   ],
    "key_risks_ja": [
     "株主が買収案に投票できない可能性",
     "事業運営がなく収益を生まない",
     "Rule 419の投資家保護が適用されない"
+   ],
+   "key_risks_ko": [
+    "주주들은 제안된 최초 사업결합에 대해 투표하지 못할 수 있습니다.",
+    "회사는 운영이 없으며 매출을 창출하지 않습니다.",
+    "이번 공모는 Rule 419 투자자 보호 조항에 따라 진행되지 않습니다."
    ],
    "lockup_days": null,
    "net_income": null,
@@ -10395,9 +10767,17 @@
     "Cash held in trust account",
     "Cash held outside the trust account for working capital"
    ],
+   "use_of_proceeds_de": [
+    "Auf einem Treuhandkonto gehaltene liquide Mittel",
+    "Außerhalb des Treuhandkontos für Betriebskapital gehaltene liquide Mittel"
+   ],
    "use_of_proceeds_ja": [
     "信託口座の現金",
     "信託外現金による運転資金"
+   ],
+   "use_of_proceeds_ko": [
+    "신탁 계좌에 보유된 현금",
+    "운전자본을 위해 신탁 계좌 외부에 보유된 현금"
    ],
    "v": 3
   },
@@ -10416,7 +10796,9 @@
    "interim_period": null,
    "interim_revenue": null,
    "key_risks": [],
+   "key_risks_de": [],
    "key_risks_ja": [],
+   "key_risks_ko": [],
    "lockup_days": 183,
    "net_income": null,
    "net_income_prior_year": null,
@@ -10429,10 +10811,20 @@
     "Further expansion of CSA arrangements for freight forwarding services",
     "Developing e-business leveraging Hong Kong and PRC network"
    ],
+   "use_of_proceeds_de": [
+    "Ausbau des Büronetzwerks der Betriebstochtergesellschaften zur Steigerung der Marktdurchdringung",
+    "Weiterer Ausbau der CSA-Vereinbarungen für Frachtspeditionsdienstleistungen",
+    "Entwicklung des E-Business unter Nutzung des Netzwerks in Hongkong und der VR China"
+   ],
    "use_of_proceeds_ja": [
     "営業子会社のオフィスネットワーク拡大による市場浸透の強化",
     "フレイトフォワーディング向けCSA契約のさらなる拡大",
     "香港・中国の既存ネットワークを活用したe-ビジネスの展開"
+   ],
+   "use_of_proceeds_ko": [
+    "시장 침투 확대를 위한 운영 자회사 사무소 네트워크 확장",
+    "화물 운송 주선 서비스를 위한 CSA 계약 추가 확대",
+    "홍콩 및 중국 네트워크를 활용한 e-비즈니스 개발"
    ],
    "v": 3
   },
@@ -10455,10 +10847,20 @@
     "Target may not meet stated investment criteria and guidelines",
     "Company is newly incorporated with no operations or revenues until a business combination"
    ],
+   "key_risks_de": [
+    "Aktionäre können über den Unternehmenszusammenschluss nicht abstimmen, sodass dieser trotz Mehrheitsablehnung abgeschlos",
+    "Das Zielunternehmen erfüllt möglicherweise nicht die genannten Investitionskriterien und Richtlinien.",
+    "Das Unternehmen wurde neu gegründet und hat bis zu einem Unternehmenszusammenschluss weder Geschäftstätigkeit noch Umsät"
+   ],
    "key_risks_ja": [
     "株主が事業統合に投票できず、過半数の反対があっても完了する可能性がある",
     "対象企業が公表された投資基準を満たさない可能性がある",
     "新設会社で、事業統合までは事業も収益もない"
+   ],
+   "key_risks_ko": [
+    "주주들은 사업결합에 대해 투표하지 못할 수 있어, 다수가 반대해도 완료될 수 있습니다.",
+    "대상 기업이 명시된 투자 기준과 지침을 충족하지 못할 수 있습니다.",
+    "회사는 신규 설립되었으며 사업결합 전까지 운영이나 매출이 없습니다."
    ],
    "lockup_days": null,
    "net_income": null,
@@ -10468,7 +10870,9 @@
    "revenue_prior_year": null,
    "underwriters": [],
    "use_of_proceeds": [],
+   "use_of_proceeds_de": [],
    "use_of_proceeds_ja": [],
+   "use_of_proceeds_ko": [],
    "v": 3
   },
   "empty": false,
@@ -10486,7 +10890,9 @@
    "interim_period": null,
    "interim_revenue": null,
    "key_risks": [],
+   "key_risks_de": [],
    "key_risks_ja": [],
+   "key_risks_ko": [],
    "lockup_days": 180,
    "net_income": null,
    "net_income_prior_year": null,
@@ -10499,10 +10905,20 @@
     "Further expansion of CSA arrangements for freight forwarding services",
     "Developing e-business leveraging current network in Hong Kong and the PRC"
    ],
+   "use_of_proceeds_de": [
+    "Ausbau des Büronetzwerks der Betriebstochtergesellschaften zur Steigerung der Marktdurchdringung",
+    "Weiterer Ausbau der CSA-Vereinbarungen für Frachtspeditionsdienstleistungen",
+    "Entwicklung des E-Business unter Nutzung des bestehenden Netzwerks in Hongkong und der VR China"
+   ],
    "use_of_proceeds_ja": [
     "営業子会社のオフィスネットワーク拡大による市場浸透の強化",
     "フレイトフォワーディング事業向けCSA契約のさらなる拡大",
     "香港および中国の既存ネットワークを活用したe-ビジネスの開発"
+   ],
+   "use_of_proceeds_ko": [
+    "시장 침투 확대를 위한 운영 자회사 사무소 네트워크 확장",
+    "화물 운송 주선 서비스를 위한 CSA 계약 추가 확대",
+    "홍콩 및 중국의 현재 네트워크를 활용한 e-비즈니스 개발"
    ],
    "v": 3
   },
@@ -10525,10 +10941,20 @@
     "Company has no operations and generates no revenue until a business combination",
     "Offering not conducted under Rule 419, so Rule 419 investor protections do not apply"
    ],
+   "key_risks_de": [
+    "Öffentliche Aktionäre erhalten möglicherweise kein Stimmrecht zum vorgeschlagenen Unternehmenszusammenschluss.",
+    "Das Unternehmen hat bis zum Unternehmenszusammenschluss keinen Geschäftsbetrieb und erzielt keine Umsätze.",
+    "Das Angebot wird nicht nach Rule 419 durchgeführt, daher gelten die Anlegerschutzregeln nach Rule 419 nicht."
+   ],
    "key_risks_ja": [
     "公開株主が買収案件について投票できない可能性がある",
     "事業統合完了まで事業を持たず収益も生まない",
     "Rule 419に基づかないため同規則の投資家保護が適用されない"
+   ],
+   "key_risks_ko": [
+    "공개 주주들은 제안된 사업결합에 대해 표결권을 갖지 못할 수 있습니다.",
+    "회사는 사업결합 전까지 운영이 없으며 매출을 창출하지 않습니다.",
+    "이번 공모는 Rule 419에 따라 진행되지 않아 Rule 419 투자자 보호 조항이 적용되지 않습니다."
    ],
    "lockup_days": null,
    "net_income": null,
@@ -10538,7 +10964,9 @@
    "revenue_prior_year": null,
    "underwriters": [],
    "use_of_proceeds": [],
+   "use_of_proceeds_de": [],
    "use_of_proceeds_ja": [],
+   "use_of_proceeds_ko": [],
    "v": 3
   },
   "empty": false,
@@ -10560,10 +10988,20 @@
     "Possible passive foreign investment company status with adverse U.S. tax consequences",
     "Data security risks from secure erasure and destruction of sensitive customer data"
    ],
+   "key_risks_de": [
+    "Die Holdinggesellschaft ist für ihre Cashflows von den operativen Tochtergesellschaften abhängig.",
+    "Mögliche Einstufung als passive ausländische Investmentgesellschaft (PFIC) mit nachteiligen US-steuerlichen Folgen.",
+    "Datensicherheitsrisiken im Zusammenhang mit der sicheren Löschung und Vernichtung sensibler Kundendaten."
+   ],
    "key_risks_ja": [
     "営業子会社からのキャッシュフローに依存する持株会社構造",
     "PFIC該当による米国税務上の不利益",
     "機密顧客データの消去・破棄に伴うデータセキュリティリスク"
+   ],
+   "key_risks_ko": [
+    "지주회사는 현금흐름을 운영 자회사에 의존합니다.",
+    "미국 세금상 불리한 결과를 초래할 수 있는 수동적 외국 투자회사(PFIC) 지위 가능성",
+    "민감한 고객 데이터의 안전한 삭제 및 파기와 관련된 데이터 보안 위험"
    ],
    "lockup_days": 183,
    "net_income": null,
@@ -10579,10 +11017,20 @@
     "Capital expenditures",
     "Working capital and general corporate purposes"
    ],
+   "use_of_proceeds_de": [
+    "Strategische Expansionsinitiativen, einschließlich möglicher Akquisitionen in Japan und auf internationalen Märkten",
+    "Investitionsausgaben",
+    "Betriebskapital und allgemeine Unternehmenszwecke"
+   ],
    "use_of_proceeds_ja": [
     "日本および海外市場での買収を含む戦略的拡大",
     "設備投資",
     "運転資金および一般事業目的"
+   ],
+   "use_of_proceeds_ko": [
+    "일본 및 해외 시장에서의 잠재적 인수를 포함한 전략적 확장 계획",
+    "자본적 지출",
+    "운전자본 및 일반 기업 목적"
    ],
    "v": 3
   },
@@ -10605,10 +11053,20 @@
     "Substantial doubt about ability to continue as a going concern",
     "Material weaknesses in internal control over financial reporting"
    ],
+   "key_risks_de": [
+    "Das Unternehmen befindet sich in klinischer Entwicklung, hat keine Kommerzialisierungserfahrung und erleidet erhebliche ",
+    "Es bestehen erhebliche Zweifel an der Fähigkeit, als Unternehmen in Fortführung der Geschäftstätigkeit weiterzubestehen.",
+    "Es bestehen wesentliche Schwächen im internen Kontrollsystem über die Finanzberichterstattung."
+   ],
    "key_risks_ja": [
     "商業化実績がなく多額の損失が続く臨床段階企業",
     "継続企業としての前提に重大な疑義がある",
     "財務報告に係る内部統制の重大な不備"
+   ],
+   "key_risks_ko": [
+    "상업화 이력이 없고 지속적인 큰 손실이 발생하는 임상 단계 기업입니다.",
+    "계속기업으로서 존속할 수 있는 능력에 대한 상당한 의구심이 있습니다.",
+    "재무보고에 대한 내부통제에 중대한 취약점이 있습니다."
    ],
    "lockup_days": 180,
    "net_income": null,
@@ -10624,10 +11082,20 @@
     "Working capital and other general corporate purposes",
     "Reimbursement of amounts due to Endevica Bio under shared services agreement"
    ],
+   "use_of_proceeds_de": [
+    "Finanzierung der laufenden Phase-1-Studie zu EBMC-710GO bis zu den Top-Line-Ergebnissen",
+    "Betriebskapital und sonstige allgemeine Unternehmenszwecke",
+    "Rückzahlung von Beträgen an Endevica Bio gemäß der Vereinbarung über gemeinsame Dienstleistungen"
+   ],
    "use_of_proceeds_ja": [
     "EBMC-710GOの第1相臨床試験の継続（トップライン結果まで）",
     "運転資金およびその他一般企業目的",
     "Endevica Bioへのシェアードサービス契約に基づく未払金の償還"
+   ],
+   "use_of_proceeds_ko": [
+    "EBMC-710GO의 1상 임상시험 진행 및 주요 결과 도출 자금 지원",
+    "운전자본 및 기타 일반 기업 목적",
+    "공유 서비스 계약에 따라 Endevica Bio에 지급해야 할 금액 상환"
    ],
    "v": 3
   },
@@ -10650,10 +11118,20 @@
     "All revenue derived from Zambian operations subject to government or third-party intervention",
     "Mineral Reserve and Resource estimates may prove materially lower than expected"
    ],
+   "key_risks_de": [
+    "Das Verfehlen der Produktionsschätzungen könnte Cashflows und Rentabilität erheblich beeinträchtigen.",
+    "Sämtliche Umsätze stammen aus dem Geschäftsbetrieb in Sambia und unterliegen Eingriffen durch Regierung oder Dritte.",
+    "Die Schätzungen der Mineralreserven und -ressourcen könnten sich als wesentlich niedriger erweisen als erwartet."
+   ],
    "key_risks_ja": [
     "生産見積もりの未達が収益性と資金繰りを大きく損なうおそれ",
     "全売上がザンビアでの事業に由来し政府等の介入を受けるおそれ",
     "鉱物埋蔵量・資源量の見積もりが大幅に下回るおそれ"
+   ],
+   "key_risks_ko": [
+    "생산 추정치를 달성하지 못하면 현금흐름과 수익성이 중대한 피해를 입을 수 있습니다.",
+    "모든 매출은 잠비아 운영에서 발생하며 정부 또는 제3자의 개입에 노출되어 있습니다.",
+    "광물 매장량 및 자원 추정치가 예상보다 상당히 낮을 수 있습니다."
    ],
    "lockup_days": null,
    "net_income": -339661000,
@@ -10673,9 +11151,17 @@
     "Loan funding to Konkola Plc under Capital Expenditures Support Loan",
     "Assumption of unfunded balance obligation via VRJL"
    ],
+   "use_of_proceeds_de": [
+    "Darlehensfinanzierung an Konkola Plc im Rahmen des Capital Expenditures Support Loan",
+    "Übernahme der nicht finanzierten Restverpflichtung über VRJL"
+   ],
    "use_of_proceeds_ja": [
     "Konkola Plcへの資本支出支援ローンの資金提供",
     "VRJL経由での未拠出残高債務の引受け"
+   ],
+   "use_of_proceeds_ko": [
+    "Konkola Plc에 대한 자본지출 지원 대출 자금 제공",
+    "VRJL을 통한 미자금 잔액 채무 인수"
    ],
    "v": 3
   },
@@ -10698,10 +11184,20 @@
     "Dependence on key customers for manpower outsourcing revenues",
     "Dependence on a small number of individuals constituting current management"
    ],
+   "key_risks_de": [
+    "Die Holdingstruktur macht uns abhängig von den Geschäftstätigkeiten der Tochtergesellschaften.",
+    "Abhängigkeit von wichtigen Kunden für Umsätze aus Personalauslagerung.",
+    "Abhängigkeit von einer kleinen Zahl von Personen, die das derzeitige Management bilden."
+   ],
    "key_risks_ja": [
     "持株会社構造により子会社の事業に依存",
     "人材派遣事業の主要顧客への依存",
     "少数の経営陣への依存"
+   ],
+   "key_risks_ko": [
+    "지주회사 구조로 인해 자회사의 운영에 의존합니다.",
+    "인력 아웃소싱 매출을 위해 주요 고객에 의존합니다.",
+    "현재 경영진을 구성하는 소수 개인에게 의존합니다."
    ],
    "lockup_days": 180,
    "net_income": 4180215,
@@ -10717,10 +11213,20 @@
     "Technology, digital infrastructure, and systems upgrades (40%)",
     "General corporate purposes, including working capital (remainder)"
    ],
+   "use_of_proceeds_de": [
+    "Geschäftsausbau durch Personalaufstockung und strategisches Wachstum (40 %)",
+    "Technologie, digitale Infrastruktur und Systemaktualisierungen (40 %)",
+    "Allgemeine Unternehmenszwecke, einschließlich Betriebskapital (Rest)"
+   ],
    "use_of_proceeds_ja": [
     "事業拡大（人員増強と戦略的成長）に40%",
     "技術・デジタル基盤・システム更新に40%",
     "運転資金を含む一般企業目的に残額"
+   ],
+   "use_of_proceeds_ko": [
+    "인력 확충 및 전략적 성장을 통한 사업 확장 (40%)",
+    "기술, 디지털 인프라 및 시스템 고도화 (40%)",
+    "운전자본을 포함한 일반 기업 목적 (잔액)"
    ],
    "v": 3
   },
@@ -10743,10 +11249,20 @@
     "Key manpower outsourcing customers contribute significant revenue; non-renewal could harm results",
     "Dependence on a small number of individuals constituting current management"
    ],
+   "key_risks_de": [
+    "Die Holdingstruktur macht uns abhängig von den Geschäften unserer Tochtergesellschaften",
+    "Wichtige Kunden im Personalauslagerungsgeschäft tragen erheblich zum Umsatz bei; Nichtverlängerung könnte die Ergebnisse",
+    "Abhängigkeit von wenigen Personen, die das aktuelle Management bilden"
+   ],
    "key_risks_ja": [
     "持株会社構造のため子会社の業績に依存している",
     "人材派遣事業の主要顧客が収益の大部分を占め、契約非更新は業績に重大な影響を及ぼしうる",
     "現経営陣を構成する少数の個人への依存"
+   ],
+   "key_risks_ko": [
+    "지주회사 구조로 인해 자회사 운영에 의존함",
+    "주요 인력 아웃소싱 고객이 상당한 매출을 차지하며, 계약 미갱신 시 실적에 악영향 가능",
+    "현 경영진을 구성하는 소수 인물에 대한 의존"
    ],
    "lockup_days": 180,
    "net_income": 3473279,
@@ -10762,10 +11278,20 @@
     "Technology, digital infrastructure, and systems upgrades (40%)",
     "General corporate purposes, including working capital (remainder)"
    ],
+   "use_of_proceeds_de": [
+    "Geschäftsausbau durch Personalaufstockung und strategisches Wachstum (40 %)",
+    "Technologie, digitale Infrastruktur und Systemaufrüstungen (40 %)",
+    "Allgemeine Unternehmenszwecke, einschließlich Betriebskapital (Restbetrag)"
+   ],
    "use_of_proceeds_ja": [
     "事業拡大（人員拡充と戦略的成長）に40%",
     "技術・デジタルインフラおよびシステム刷新に40%",
     "運転資金を含む一般企業目的に残額"
+   ],
+   "use_of_proceeds_ko": [
+    "인력 확대 및 전략적 성장을 통한 사업 확장 (40%)",
+    "기술, 디지털 인프라 및 시스템 고도화 (40%)",
+    "운전자본을 포함한 일반 기업 목적 (잔액)"
    ],
    "v": 3
   },
@@ -10788,10 +11314,20 @@
     "Past and future disruptions, outages, and defects in quantum systems and cloud",
     "Limited operating history and history of losses"
    ],
+   "key_risks_de": [
+    "Erhebliche technische Hürden bei der Herstellung großskaliger fehlertoleranter Quantencomputer",
+    "Vergangene und künftige Störungen, Ausfälle und Mängel bei Quantensystemen und in der Cloud",
+    "Begrenzte Betriebshistorie und Verlusthistorie"
+   ],
    "key_risks_ja": [
     "大規模な耐障害性量子コンピュータ実現への重大な技術的障壁",
     "量子システムやクラウドにおける過去及び将来の障害・欠陥",
     "限られた事業実績と過去の損失"
+   ],
+   "key_risks_ko": [
+    "대규모 결함 허용(fault-tolerant) 양자컴퓨터 생산에 있어 상당한 기술적 장벽 존재",
+    "양자 시스템 및 클라우드에서의 과거 및 향후 중단, 장애, 결함 발생 가능",
+    "제한된 영업 이력 및 손실 이력"
    ],
    "lockup_days": 180,
    "net_income": null,
@@ -10810,8 +11346,14 @@
    "use_of_proceeds": [
     "Purchase newly issued Common Units from Quantinuum Holdings"
    ],
+   "use_of_proceeds_de": [
+    "Erwerb neu ausgegebener Common Units von Quantinuum Holdings"
+   ],
    "use_of_proceeds_ja": [
     "新規発行のCommon Unitsを量子ホールディングスから購入"
+   ],
+   "use_of_proceeds_ko": [
+    "Quantinuum Holdings로부터 신규 발행되는 보통 단위(Common Units) 매입"
    ],
    "v": 3
   },
@@ -10830,7 +11372,9 @@
    "interim_period": "Three months ended March 31, 2026",
    "interim_revenue": null,
    "key_risks": [],
+   "key_risks_de": [],
    "key_risks_ja": [],
+   "key_risks_ko": [],
    "lockup_days": 180,
    "net_income": 87926000,
    "net_income_prior_year": 43366000,
@@ -10848,8 +11392,14 @@
    "use_of_proceeds": [
     "General corporate purposes"
    ],
+   "use_of_proceeds_de": [
+    "Allgemeine Unternehmenszwecke"
+   ],
    "use_of_proceeds_ja": [
     "一般企業目的"
+   ],
+   "use_of_proceeds_ko": [
+    "일반 기업 목적"
    ],
    "v": 3
   },
@@ -10872,10 +11422,20 @@
     "History of net losses; may not achieve or maintain profitability",
     "Dependence on securing and retaining permits to operate"
    ],
+   "key_risks_de": [
+    "Die begrenzte Betriebshistorie erschwert die Bewertung der künftigen Aussichten",
+    "Historie von Nettoverlusten; Rentabilität möglicherweise nicht erreichbar oder dauerhaft haltbar",
+    "Abhängigkeit von der Erlangung und dem Erhalt der für den Betrieb erforderlichen Genehmigungen"
+   ],
    "key_risks_ja": [
     "事業運営の歴史が浅く将来性の評価が困難",
     "純損失の計上が続き収益性の維持が不透明",
     "事業運営に必要な許可の取得・維持への依存"
+   ],
+   "key_risks_ko": [
+    "제한된 영업 이력으로 인해 향후 전망 평가가 어려움",
+    "순손실 이력이 있으며 수익성을 달성하거나 유지하지 못할 수 있음",
+    "사업 운영에 필요한 허가 확보 및 유지에 대한 의존"
    ],
    "lockup_days": null,
    "net_income": -59309000,
@@ -10889,10 +11449,20 @@
     "Create a public market for common stock",
     "Facilitate future access to public capital markets"
    ],
+   "use_of_proceeds_de": [
+    "Finanzierung des Betriebs und Beschaffung zusätzlichen Kapitals",
+    "Schaffung eines öffentlichen Marktes für Stammaktien",
+    "Erleichterung des künftigen Zugangs zu öffentlichen Kapitalmärkten"
+   ],
    "use_of_proceeds_ja": [
     "運営資金の調達と追加資本の確保",
     "普通株式の公開市場の創出",
     "将来の公開資本市場へのアクセス確保"
+   ],
+   "use_of_proceeds_ko": [
+    "운영 자금 조달 및 추가 자본 확보",
+    "보통주에 대한 공개 시장 조성",
+    "향후 공개 자본시장 접근 용이화"
    ],
    "v": 3
   },
@@ -10915,10 +11485,20 @@
     "Dependence on the success of BHB-1893 clinical development",
     "Requires substantial additional capital that may not be available"
    ],
+   "key_risks_de": [
+    "Vor-Umsatz-Unternehmen mit einer Historie erheblicher Nettoverluste",
+    "Abhängigkeit vom Erfolg der klinischen Entwicklung von BHB-1893",
+    "Erfordert erhebliches zusätzliches Kapital, das möglicherweise nicht verfügbar ist"
+   ],
    "key_risks_ja": [
     "売上がなく、多額の純損失を計上してきた歴史がある",
     "BHB-1893の臨床開発の成否への依存",
     "追加資金が必要だが調達できない可能性がある"
+   ],
+   "key_risks_ko": [
+    "매출 발생 전 단계이며 상당한 순손실 이력 보유",
+    "BHB-1893 임상 개발의 성공에 대한 의존",
+    "확보되지 않을 수 있는 상당한 추가 자본 필요"
    ],
    "lockup_days": null,
    "net_income": -66052000,
@@ -10934,10 +11514,20 @@
     "Fund other clinical development and research programs",
     "General corporate purposes"
    ],
+   "use_of_proceeds_de": [
+    "Weiterentwicklung von BHB-1893 bei obstruktiver hypertropher Kardiomyopathie",
+    "Finanzierung weiterer klinischer Entwicklungs- und Forschungsprogramme",
+    "Allgemeine Unternehmenszwecke"
+   ],
    "use_of_proceeds_ja": [
     "肥大型心筋症患者へのBHB-1893の開発推進",
     "その他の臨床開発および研究プログラムへの資金充当",
     "一般的な企業運転資金"
+   ],
+   "use_of_proceeds_ko": [
+    "폐쇄성 비대성 심근병증 치료제 BHB-1893의 개발 추진",
+    "기타 임상 개발 및 연구 프로그램 자금 지원",
+    "일반 기업 목적"
    ],
    "v": 3
   },
@@ -10960,10 +11550,20 @@
     "Dependence on third-party reinsurance on acceptable commercial terms",
     "Actual incurred losses may exceed loss and loss adjustment expense reserves"
    ],
+   "key_risks_de": [
+    "Abhängigkeit von Drittagenten zur Produktförderung und Pflege wichtiger Beziehungen",
+    "Abhängigkeit von Drittrückversicherung zu akzeptablen kommerziellen Bedingungen",
+    "Tatsächlich eingetretene Verluste könnten die Schaden- und Schadenregulierungsaufwandsrückstellungen übersteigen"
+   ],
    "key_risks_ja": [
     "第三者代理店による販売への依存と主要関係の維持リスク",
     "商業的に妥当な条件での再保険確保の困難さ",
     "実際の損失が損失準備金を上回るリスク"
+   ],
+   "key_risks_ko": [
+    "제품 판촉 및 주요 관계 유지를 위한 제3자 대리인에 대한 의존",
+    "합리적인 상업 조건에 따른 제3자 재보험에 대한 의존",
+    "실제 발생 손실이 손실 및 손해사정비용 준비금을 초과할 수 있음"
    ],
    "lockup_days": 180,
    "net_income": 16314000,
@@ -10973,7 +11573,9 @@
    "revenue_prior_year": 89284000,
    "underwriters": [],
    "use_of_proceeds": [],
+   "use_of_proceeds_de": [],
    "use_of_proceeds_ja": [],
+   "use_of_proceeds_ko": [],
    "v": 3
   },
   "empty": false,
@@ -10995,10 +11597,20 @@
     "Reliance on third-party producers for distribution of products",
     "Significant MGU business dependence on a single Program Partner"
    ],
+   "key_risks_de": [
+    "Abhängigkeit von Beziehungen zu Capacity Providers und deren Beendigung oder Reduzierung",
+    "Abhängigkeit von Drittproduzenten für den Vertrieb von Produkten",
+    "Das MGU-Geschäft hängt maßgeblich von einem einzigen Program Partner ab"
+   ],
    "key_risks_ja": [
     "Capacity Providerとの関係の終了または縮小への依存",
     "製品販売を担う第三者プロデューサーへの依存",
     "MGU事業の大部分を占める単一Program Partnerへの依存"
+   ],
+   "key_risks_ko": [
+    "Capacity Providers와의 관계 및 이들의 종료 또는 축소에 대한 의존",
+    "제품 유통을 위해 제3자 생산자에 의존",
+    "MGU 사업이 단일 Program Partner에 크게 의존"
    ],
    "lockup_days": null,
    "net_income": null,
@@ -11018,9 +11630,17 @@
     "Offering expenses (other than underwriting discounts) of approximately $12.4 million",
     "No proceeds to the company from selling stockholders' Class A common stock sales"
    ],
+   "use_of_proceeds_de": [
+    "Emissionskosten (ohne Emissionsabschläge) von etwa 12,4 Mio. USD",
+    "Keine Erlöse für das Unternehmen aus dem Verkauf von Class-A-Stammaktien durch verkaufende Aktionäre"
+   ],
    "use_of_proceeds_ja": [
     "引受手数料を除く発行費用約1,240万ドル",
     "selling stockholdersによるClass A普通株式売却代金は会社に入らない"
+   ],
+   "use_of_proceeds_ko": [
+    "약 1,240만 달러 규모의 발행 비용(인수 수수료 제외)",
+    "매각 주주의 Class A 보통주 매각에 따른 회사 수령 대금 없음"
    ],
    "v": 3
   },
@@ -11039,7 +11659,9 @@
    "interim_period": "Six months ended June 30, 2026",
    "interim_revenue": null,
    "key_risks": [],
+   "key_risks_de": [],
    "key_risks_ja": [],
+   "key_risks_ko": [],
    "lockup_days": 180,
    "net_income": null,
    "net_income_prior_year": null,
@@ -11058,9 +11680,17 @@
     "Acquire Series A Units of Holdings LLC",
     "Repay approximately outstanding indebtedness of Holdings LLC"
    ],
+   "use_of_proceeds_de": [
+    "Erwerb von Series-A-Units der Holdings LLC",
+    "Rückzahlung von ausstehenden Verbindlichkeiten der Holdings LLC in Höhe von etwa [Betrag]"
+   ],
    "use_of_proceeds_ja": [
     "Holdings LLCのシリーズAユニット取得",
     "Holdings LLCの借入金の一部返済"
+   ],
+   "use_of_proceeds_ko": [
+    "Holdings LLC의 Series A Units 매입",
+    "Holdings LLC의 약 [금액] 규모 미상환 채무 상환"
    ],
    "v": 3
   },
@@ -11083,10 +11713,20 @@
     "Significant operating losses since inception with no product revenue",
     "Substantial dependence on success of LYTAC platform and IgE portfolio"
    ],
+   "key_risks_de": [
+    "Begrenzte Betriebshistorie, keine abgeschlossenen klinischen Studien oder zugelassenen Produkte",
+    "Seit Gründung erhebliche operative Verluste ohne Produktumsätze",
+    "Wesentliche Abhängigkeit vom Erfolg der LYTAC-Plattform und des IgE-Portfolios"
+   ],
    "key_risks_ja": [
     "事業運営の実績が限られ、臨床試験・承認製品がない",
     "設立以来多額の営業損失を計上し製品収益がない",
     "LYTACプラットフォームとIgEパイプランの成功に大きく依存"
+   ],
+   "key_risks_ko": [
+    "영업 이력이 제한적이며 완료된 임상시험 및 승인 제품 없음",
+    "설립 이후 제품 매출 없이 지속적인 영업손실 발생",
+    "LYTAC 플랫폼 및 IgE 포트폴리오의 성공에 대한 높은 의존도"
    ],
    "lockup_days": null,
    "net_income": -36460000,
@@ -11106,10 +11746,20 @@
     "Advance clinical development of Gr... programs",
     "Working capital and general corporate purposes"
    ],
+   "use_of_proceeds_de": [
+    "Vorantreiben der klinischen Entwicklung des IgE-Portfolios (LCA-0061, LCA-0062)",
+    "Vorantreiben der klinischen Entwicklung der Gr...-Programme",
+    "Betriebskapital und allgemeine Unternehmenszwecke"
+   ],
    "use_of_proceeds_ja": [
     "IgE系パイプライン（LCA-0061、LCA-0062）の臨床開発推進",
     "Gr...プログラムの臨床開発推進",
     "運転資金および一般企業目的"
+   ],
+   "use_of_proceeds_ko": [
+    "IgE 포트폴리오(LCA-0061, LCA-0062)의 임상 개발 추진",
+    "Gr... 프로그램의 임상 개발 추진",
+    "운전자본 및 일반 기업 목적"
    ],
    "v": 3
   },
@@ -11132,10 +11782,20 @@
     "Significant ongoing losses and negative cash flows; may never achieve profitability",
     "Lead product candidates in early clinical development with uncertain regulatory approval"
    ],
+   "key_risks_de": [
+    "Begrenzte Betriebshistorie erschwert die Bewertung des aktuellen Geschäfts und des künftigen Erfolgs",
+    "Anhaltende erhebliche Verluste und negative Cashflows; Profitabilität wird möglicherweise nie erreicht",
+    "Leitkandidaten befinden sich in früher klinischer Entwicklung; regulatorische Zulassung ist ungewiss"
+   ],
    "key_risks_ja": [
     "事業の運営実績が限られ、将来の成功性の評価が困難",
     "継続的な多額の損失とマイナスのキャッシュフローにより収益化が不確実",
     "主力候補品は初期の臨床段階にあり、規制当局の承認が不確実"
+   ],
+   "key_risks_ko": [
+    "제한된 영업 이력으로 인해 현재 사업 및 향후 성공 평가가 어려움",
+    "지속적인 상당한 손실 및 마이너스 현금흐름; 수익성을 달성하지 못할 수 있음",
+    "주력 후보물질이 임상 초기 단계에 있어 규제 승인 여부가 불확실함"
    ],
    "lockup_days": 180,
    "net_income": -41087000,
@@ -11153,9 +11813,17 @@
     "approximately $90.0 million to fund continued development of lead product candidate BBTX",
     "Remaining proceeds with existing cash, cash equivalents, and marketable securities for other purposes"
    ],
+   "use_of_proceeds_de": [
+    "Etwa 90,0 Mio. USD zur Finanzierung der fortgesetzten Entwicklung des Leitkandidaten BBTX",
+    "Verbleibende Erlöse zusammen mit vorhandenen liquiden Mitteln, Zahlungsmitteläquivalenten und Wertpapieren für andere Zw"
+   ],
    "use_of_proceeds_ja": [
     "リードプロダクト候補BBTXの開発継続に約9,000万ドル",
     "既存の現金、現金同等物及び有価証券と合わせた一般事業目的"
+   ],
+   "use_of_proceeds_ko": [
+    "약 9,000만 달러를 주력 후보물질 BBTX의 지속적 개발에 사용",
+    "나머지 수익금은 기존 현금, 현금성 자산 및 유가증권과 함께 기타 목적에 사용"
    ],
    "v": 3
   },
@@ -11178,10 +11846,20 @@
     "Inability to secure adequate compute or direct it effectively",
     "Constraints on critical inputs supporting compute capacity"
    ],
+   "key_risks_de": [
+    "Abhängigkeit von der Entwicklung der fortschrittlichsten und leistungsfähigsten KI-Modelle",
+    "Unfähigkeit, ausreichende Rechenkapazität zu sichern oder effektiv zu steuern",
+    "Einschränkungen bei kritischen Inputs für die Rechenkapazität"
+   ],
    "key_risks_ja": [
     "最先端で高性能なAIモデルを開発し続ける能力への依存",
     "十分なコンピュートの確保や効果的な配分ができないリスク",
     "コンピュートを支える重要資源の制約"
+   ],
+   "key_risks_ko": [
+    "가장 발전되고 유능한 AI 모델 개발에 대한 의존",
+    "충분한 컴퓨팅 자원 확보 또는 효과적 운용 불능",
+    "컴퓨팅 용량을 뒷받침하는 핵심 投入 요소의 제약"
    ],
    "lockup_days": null,
    "net_income": -41965000000,
@@ -11201,9 +11879,17 @@
     "Increase capitalization and financial flexibility",
     "Create a public market for Class A common stock"
    ],
+   "use_of_proceeds_de": [
+    "Erhöhung der Kapitalausstattung und finanzielle Flexibilität",
+    "Schaffung eines öffentlichen Marktes für Class-A-Stammaktien"
+   ],
    "use_of_proceeds_ja": [
     "資本増強と財務の柔軟性の向上",
     "Class A普通株式の公開市場の創出"
+   ],
+   "use_of_proceeds_ko": [
+    "자본 증대 및 재무 유연성 확보",
+    "Class A 보통주의 공개 시장 조성"
    ],
    "v": 3
   },
@@ -11226,10 +11912,20 @@
     "Success depends on continually developing the most advanced and capable AI models",
     "Inability to secure or direct adequate compute could hurt competitiveness and service"
    ],
+   "key_risks_de": [
+    "Modelle könnten sich unbeabsichtigt, fehlgerichtet oder autonom verhalten und Schaden verursachen",
+    "Erfolg hängt von der kontinuierlichen Entwicklung der fortschrittlichsten KI-Modelle ab",
+    "Fehlende Rechenkapazität könnte Wettbewerbsfähigkeit und Service beeinträchtigen"
+   ],
    "key_risks_ja": [
     "モデルが意図しない、不整合または自律的な振る舞いをし有害な行動を取る恐れ",
     "最先端で高性能なAIモデルを継続開発できるかに事業が依存している",
     "十分な計算資源を確保・運用できないと競争力や顧客対応に支障が出る"
+   ],
+   "key_risks_ko": [
+    "모델이 의도하지 않았거나 불일치하거나 자율적인 방식으로 작동해 피해를 야기",
+    "지속적인 최첨단 AI 모델 개발에 성공 여부가 달려 있음",
+    "충분한 컴퓨팅 확보·운용 불능으로 경쟁력과 서비스에 피해"
    ],
    "lockup_days": 180,
    "net_income": -41965000000,
@@ -11246,14 +11942,14 @@
     "Wells Fargo Securities"
    ],
    "use_of_proceeds": [],
+   "use_of_proceeds_de": [],
    "use_of_proceeds_ja": [],
+   "use_of_proceeds_ko": [],
    "v": 3
   },
   "empty": false,
   "ipo_id": "ANT",
-  "pushed_to": [
-   "ANT"
-  ]
+  "pushed_to": []
  },
  "0001628280-26-074338": {
   "analyzed_at": "2026-11-18T05:36:22+00:00",
@@ -11268,10 +11964,20 @@
     "Success depends on developing the most advanced and capable AI models",
     "Inability to secure and direct adequate compute could hinder competitiveness"
    ],
+   "key_risks_de": [
+    "Modelle könnten sich unbeabsichtigt, fehlgerichtet oder autonom schädlich verhalten",
+    "Erfolg hängt von der Entwicklung der fortschrittlichsten KI-Modelle ab",
+    "Fehlende Rechenkapazität könnte die Wettbewerbsfähigkeit beeinträchtigen"
+   ],
    "key_risks_ja": [
     "モデルが意図しない、不整合、自律的な有害行動を取る恐れ",
     "最先端で高性能なAIモデルの開発能力への依存",
     "十分な計算資源を確保・活用できない場合の競争力低下"
+   ],
+   "key_risks_ko": [
+    "모델이 의도하지 않거나 불일치하거나 자율적으로 유해하게 작동할 수 있음",
+    "가장 발전되고 유능한 AI 모델 개발에 대한 성공 의존",
+    "충분한 컴퓨팅 확보·운용 불능으로 경쟁력 저해"
    ],
    "lockup_days": 180,
    "net_income": -41965000000,
@@ -11290,8 +11996,14 @@
    "use_of_proceeds": [
     "Not stated in the excerpt beyond net proceeds estimate"
    ],
+   "use_of_proceeds_de": [
+    "Über die geschätzten Nettoerlöse hinaus im Auszug nicht angegeben"
+   ],
    "use_of_proceeds_ja": [
     "開示抜粋に具体的な資金使途の記載なし"
+   ],
+   "use_of_proceeds_ko": [
+    "발행 순대금 추정치 외에는 발췌문에 명시되지 않음"
    ],
    "v": 3
   },
@@ -11348,10 +12060,20 @@
     "Dependence on CEO financial support to meet working capital requirements",
     "Reliance on commercial launch timing and performance of licensee NeuRX Health Inc."
    ],
+   "key_risks_de": [
+    "Vor Umsatz: Keine Erlöse bis zur BreastCheck-Einführung durch Lizenznehmer NeuRX Health Inc.",
+    "Abhängigkeit von finanzieller Unterstützung durch den CEO zur Deckung des Betriebskapitalbedarfs",
+    "Abhängigkeit vom Zeitpunkt und Erfolg der kommerziellen Einführung durch Lizenznehmer NeuRX Health Inc."
+   ],
    "key_risks_ja": [
     "BreastCheckのライセンシーによる商業化まで売上がない収益前企業",
     "運転資金確保のためCEOの財務支援に依存",
     "ライセンシーNeuRX Health Incの商業化時期と業績への依存"
+   ],
+   "key_risks_ko": [
+    "BreastCheck 출시 전까지 매출이 없는 기업(라이선시 NeuRX Health Inc.의 출시)",
+    "운전자본 요건 충족을 위한 CEO의 재정 지원 의존",
+    "라이선시 NeuRX Health Inc.의 상업 출시 시기 및 성과에 대한 의존"
    ],
    "lockup_days": 90,
    "net_income": -1300000,
@@ -11361,7 +12083,9 @@
    "revenue_prior_year": null,
    "underwriters": [],
    "use_of_proceeds": [],
+   "use_of_proceeds_de": [],
    "use_of_proceeds_ja": [],
+   "use_of_proceeds_ko": [],
    "v": 3
   },
   "empty": false,
@@ -11379,7 +12103,9 @@
    "interim_period": null,
    "interim_revenue": null,
    "key_risks": [],
+   "key_risks_de": [],
    "key_risks_ja": [],
+   "key_risks_ko": [],
    "lockup_days": null,
    "net_income": null,
    "net_income_prior_year": null,
@@ -11392,10 +12118,20 @@
     "Mergers and acquisitions",
     "Working capital"
    ],
+   "use_of_proceeds_de": [
+    "Internationale Expansion",
+    "Fusionen und Übernahmen",
+    "Betriebskapital"
+   ],
    "use_of_proceeds_ja": [
     "海外展開",
     "M&A（合併・買収）",
     "運転資金"
+   ],
+   "use_of_proceeds_ko": [
+    "해외 확장",
+    "인수합병",
+    "운전자본"
    ],
    "v": 3
   },
@@ -11418,10 +12154,20 @@
     "Initial shareholders and management agreed to vote in favor regardless of public vote",
     "Investment decision may be limited to exercising cash redemption rights"
    ],
+   "key_risks_de": [
+    "Öffentliche Aktionäre haben möglicherweise keine Gelegenheit zur Abstimmung über die initiale Unternehmenszusammenführun",
+    "Initiale Aktionäre und Management haben zugesagt, unabhängig vom öffentlichen Votum zuzustimmen",
+    "Investitionsentscheidung könnte auf die Ausübung des Barrückzugsrechts beschränkt sein"
+   ],
    "key_risks_ja": [
     "公募株主が初期事業統合に投票する機会がない可能性",
     "初期株主と経営陣は公募株主の投票に関係なく賛成することに合意",
     "投資判断は現金償還権の行使に限られる可能性"
+   ],
+   "key_risks_ko": [
+    "공모주주는 최초 기업결합에 대해 표결할 기회가 없을 수 있음",
+    "최초 주주 및 경영진은 공모주주 표결과 무관하게 찬성 투표하기로 합의",
+    "투자 결정이 현금 상환권 행사로만 제한될 수 있음"
    ],
    "lockup_days": null,
    "net_income": null,
@@ -11433,7 +12179,9 @@
     "Cantor"
    ],
    "use_of_proceeds": [],
+   "use_of_proceeds_de": [],
    "use_of_proceeds_ja": [],
+   "use_of_proceeds_ko": [],
    "v": 3
   },
   "empty": false,
@@ -11455,10 +12203,20 @@
     "Company has no operations and generates no revenues until business combination",
     "Offering not subject to Rule 419 blank check investor protections"
    ],
+   "key_risks_de": [
+    "Öffentliche Aktionäre können nicht über die vorgeschlagene initiale Unternehmenszusammenführung abstimmen",
+    "Das Unternehmen hat bis zur Unternehmenszusammenführung keinen Geschäftsbetrieb und erzielt keine Umsätze",
+    "Angebot unterliegt nicht den Anlegerschutzregeln von Rule 419 für Blankoscheck-Gesellschaften"
+   ],
    "key_risks_ja": [
     "公開株主が提案された企業結合に投票する機会がない可能性",
     "企業結合完了まで事業運営も収益もない",
     "Rule 419の投資家保護が適用されない"
+   ],
+   "key_risks_ko": [
+    "공모주주가 제안된 최초 기업결합에 대해 표결하지 못할 수 있음",
+    "기업결합 전까지 운영 사업이 없고 매출이 발생하지 않음",
+    "Rule 419 블랭크 체크 투자자 보호 적용 대상이 아님"
    ],
    "lockup_days": null,
    "net_income": null,
@@ -11468,7 +12226,9 @@
    "revenue_prior_year": null,
    "underwriters": [],
    "use_of_proceeds": [],
+   "use_of_proceeds_de": [],
    "use_of_proceeds_ja": [],
+   "use_of_proceeds_ko": [],
    "v": 3
   },
   "empty": false,
@@ -11491,10 +12251,20 @@
     "Public shareholders may not get a vote on initial business combination",
     "Sponsor controls appointment of board until business combination completed"
    ],
+   "key_risks_de": [
+    "Blankoscheck-Gesellschaft ohne Geschäftshistorie und ohne Umsätze",
+    "Öffentliche Aktionäre erhalten möglicherweise kein Stimmrecht zur initialen Unternehmenszusammenführung",
+    "Sponsor kontrolliert die Besetzung des Vorstands bis zum Abschluss der Unternehmenszusammenführung"
+   ],
    "key_risks_ja": [
     "運営実績も収益もないブランクチェック会社である",
     "公開株主が企業結合に投票できない可能性がある",
     "企業結合完了まで保証人が取締役の選任を支配する"
+   ],
+   "key_risks_ko": [
+    "영업 이력과 매출이 없는 블랭크 체크 회사",
+    "공모주주가 최초 기업결합에 대해 표결권을 갖지 못할 수 있음",
+    "기업결합 완료 전까지 스폰서가 이사회 선임을 통제"
    ],
    "lockup_days": null,
    "net_income": null,
@@ -11504,7 +12274,9 @@
    "revenue_prior_year": null,
    "underwriters": [],
    "use_of_proceeds": [],
+   "use_of_proceeds_de": [],
    "use_of_proceeds_ja": [],
+   "use_of_proceeds_ko": [],
    "v": 3
   },
   "empty": false,
@@ -11526,10 +12298,20 @@
     "Executive officers and directors also serve Quartzsea, a blank check company with a pending merger agreement, creating c",
     "Not conducted under Rule 419, so investors lack Rule 419 protections"
    ],
+   "key_risks_de": [
+    "Keine Geschäftshistorie und keine Umsätze; keine Grundlage zur Beurteilung der Fähigkeit, das Geschäftsziel zu erreichen",
+    "Führungskräfte und Direktoren sind auch für Quartzsea tätig, eine Blankoscheck-Gesellschaft mit laufendem Fusionsvertrag",
+    "Nicht nach Rule 419 durchgeführt, Anleger haben daher keinen Rule-419-Schutz"
+   ],
    "key_risks_ja": [
     "営業実績と売上がなく、事業目的の達成能力を評価する根拠がない",
     "経営陣がQuartzseaの役員も兼ね、合併契約締結済みのため利益相反が生じる",
     "Rule 419に準拠しないため、投資家はRule 419の保護を受けられない"
+   ],
+   "key_risks_ko": [
+    "영업 이력과 매출이 없어 사업 목표 달성 능력을 평가할 근거가 없음",
+    "임원 및 이사가 합병계약이 진행 중인 블랭크 체크 회사 Quartzsea도 겸직하여 상충 발생",
+    "Rule 419에 따라 진행되지 않아 투자자가 Rule 419 보호를 받지 못함"
    ],
    "lockup_days": 180,
    "net_income": null,
@@ -11539,7 +12321,9 @@
    "revenue_prior_year": null,
    "underwriters": [],
    "use_of_proceeds": [],
+   "use_of_proceeds_de": [],
    "use_of_proceeds_ja": [],
+   "use_of_proceeds_ko": [],
    "v": 3
   },
   "empty": false,
@@ -11562,10 +12346,20 @@
     "Blank check offering not subject to Rule 419 investor protections",
     "Shares may be redeemed only subject to 15% cap without consent"
    ],
+   "key_risks_de": [
+    "Neu gegründetes Unternehmen ohne bisherigen Geschäftsbetrieb und ohne Umsätze",
+    "Blankoscheck-Angebot unterliegt nicht den Anlegerschutzregeln nach Rule 419",
+    "Aktien dürfen ohne Zustimmung nur bis zu einer Obergrenze von 15 % zurückgekauft werden"
+   ],
    "key_risks_ja": [
     "設立したばかりで事業実績・収益がない",
     "Rule 419の投資家保護が適用されないブランクチェック型募集",
     "株主の償還権は同意なしでは発行株式の15%までに制限される"
+   ],
+   "key_risks_ko": [
+    "신설 회사로 운영 및 매출이 아직 없음",
+    "Rule 419 투자자 보호 대상이 아닌 블랭크 체크 공모",
+    "동의 없이는 15% 한도 내에서만 주식 상환 가능"
    ],
    "lockup_days": null,
    "net_income": null,
@@ -11575,7 +12369,9 @@
    "revenue_prior_year": null,
    "underwriters": [],
    "use_of_proceeds": [],
+   "use_of_proceeds_de": [],
    "use_of_proceeds_ja": [],
+   "use_of_proceeds_ko": [],
    "v": 3
   },
   "empty": false,
@@ -11597,10 +12393,20 @@
     "No operations or revenues; blank check company with no target identified",
     "Offering not conducted under Rule 419, so investor protections are limited"
    ],
+   "key_risks_de": [
+    "Zweifel an der Unternehmensfortführung wegen Betriebskapitaldefizit und fehlender Barmittel",
+    "Keine Geschäftstätigkeit oder Umsätze; Blankoscheck-Gesellschaft ohne identifiziertes Zielunternehmen",
+    "Angebot nicht nach Rule 419 durchgeführt, daher begrenzter Anlegerschutz"
+   ],
    "key_risks_ja": [
     "運転資金の赤字と現金ゼロにより継続企業の前提に重大な疑義がある",
     "事業運営も収益もなく、買収対象も未特定のブランクチェック会社である",
     "Rule 419に準拠しないため、投資家保護が限定的である"
+   ],
+   "key_risks_ko": [
+    "운전자본 부족 및 현금 잔고 없음으로 인한 계속기업 의문",
+    "영업활동 및 매출 없음; 목표 기업 미확정의 블랭크 체크 회사",
+    "Rule 419 미적용 공모로 투자자 보호 제한적"
    ],
    "lockup_days": 180,
    "net_income": null,
@@ -11612,7 +12418,9 @@
     "Chardan Capital Markets"
    ],
    "use_of_proceeds": [],
+   "use_of_proceeds_de": [],
    "use_of_proceeds_ja": [],
+   "use_of_proceeds_ko": [],
    "v": 3
   },
   "empty": false,
@@ -11634,10 +12442,20 @@
     "Offering not conducted under Rule 419, limiting investor protections",
     "Shareholder redemption rights capped at 15% without consent"
    ],
+   "key_risks_de": [
+    "Neu gegründete Blankoscheck-Gesellschaft ohne Geschäftstätigkeit oder Umsätze",
+    "Angebot nicht nach Rule 419, was den Anlegerschutz einschränkt",
+    "Rückzahlungsrechte der Aktionäre ohne Zustimmung auf 15% begrenzt"
+   ],
    "key_risks_ja": [
     "設立直後のブランクチェック会社で事業実績・収益がない",
     "Rule 419に準拠しない募集のため投資家保護が限定される",
     "株主の償還権は同意なしでは15%を超えて行使できない"
+   ],
+   "key_risks_ko": [
+    "영업활동 및 매출이 없는 신설 블랭크 체크 회사",
+    "Rule 419 미적용 공모로 투자자 보호 제한적",
+    "동의 없이는 주주 상환권이 15%로 제한됨"
    ],
    "lockup_days": null,
    "net_income": null,
@@ -11647,7 +12465,9 @@
    "revenue_prior_year": null,
    "underwriters": [],
    "use_of_proceeds": [],
+   "use_of_proceeds_de": [],
    "use_of_proceeds_ja": [],
+   "use_of_proceeds_ko": [],
    "v": 3
   },
   "empty": false,
@@ -11669,10 +12489,20 @@
     "Public shareholders may not vote on initial business combination",
     "Sponsor controls board appointments and significant influence over approvals"
    ],
+   "key_risks_de": [
+    "Blankoscheck-Gesellschaft ohne Betriebshistorie und ohne Umsätze",
+    "Öffentliche Aktionäre können über den initialen Unternehmenszusammenschluss möglicherweise nicht abstimmen",
+    "Sponsor kontrolliert Vorstandsbesetzungen und hat erheblichen Einfluss auf Genehmigungen"
+   ],
    "key_risks_ja": [
     "運営実績も収益もないブランクチェック会社である",
     "公開株主が business combination に投票できない可能性がある",
     "スポンサーが取締役任命と承認に大きな影響力を持つ"
+   ],
+   "key_risks_ko": [
+    "operating history와 매출이 없는 블랭크 체크 회사",
+    "공개 주주는 최초 기업결합에 대해 투표하지 않을 수 있음",
+    "스폰서가 이사회 선임 및 승인에 상당한 영향력 행사"
    ],
    "lockup_days": null,
    "net_income": null,
@@ -11682,7 +12512,9 @@
    "revenue_prior_year": null,
    "underwriters": [],
    "use_of_proceeds": [],
+   "use_of_proceeds_de": [],
    "use_of_proceeds_ja": [],
+   "use_of_proceeds_ko": [],
    "v": 3
   },
   "empty": false,
@@ -11704,10 +12536,20 @@
     "Seasonality causing significant fluctuations in revenue, operating results and cash flows",
     "Dependence on collaboration with LEGO Education"
    ],
+   "key_risks_de": [
+    "Abhängigkeit von STEAM-Bildungszuschüssen der Regierung Hongkongs für Schulkunden",
+    "Saisonalität führt zu erheblichen Schwankungen bei Umsatz, Betriebsergebnis und Cashflows",
+    "Abhängigkeit von der Zusammenarbeit mit LEGO Education"
+   ],
    "key_risks_ja": [
     "顧客の学校が依存する香港政府のSTEAM教育補助金",
     "収益・業績・キャッシュフローの大きな変動を招く季節性",
     "LEGO Educationとの協業への依存"
+   ],
+   "key_risks_ko": [
+    "학교 고객의 홍콩 정부 STEAM 교육 보조금에 대한 의존",
+    "계절성으로 인한 매출, 영업실적 및 현금흐름의 큰 변동",
+    "LEGO Education과의 협력에 대한 의존"
    ],
    "lockup_days": 180,
    "net_income": null,
@@ -11717,7 +12559,9 @@
    "revenue_prior_year": null,
    "underwriters": [],
    "use_of_proceeds": [],
+   "use_of_proceeds_de": [],
    "use_of_proceeds_ja": [],
+   "use_of_proceeds_ko": [],
    "v": 3
   },
   "empty": false,
@@ -11739,10 +12583,20 @@
     "Ability to identify and complete an initial business combination",
     "Significant ties to China may affect target opportunities"
    ],
+   "key_risks_de": [
+    "Begrenzte Betriebshistorie und keine Umsätze zur Bewertung",
+    "Fähigkeit, einen initialen Unternehmenszusammenschluss zu identifizieren und abzuschließen",
+    "Bedeutende Verbindungen zu China können Zielmöglichkeiten beeinflussen"
+   ],
    "key_risks_ja": [
     "営業実績が限られ評価材料がない",
     "初期の企業結合を特定・完了できるかが不透明",
     "中国との強い関係が対象企業の選定に影響する"
+   ],
+   "key_risks_ko": [
+    "제한된 영업 이력 및 평가할 매출 없음",
+    "최초 기업결합을 식별하고 완료하는 능력",
+    "중국과의 중요한 연계가 대상 기업 기회에 영향을 미칠 수 있음"
    ],
    "lockup_days": 180,
    "net_income": null,
@@ -11752,7 +12606,9 @@
    "revenue_prior_year": null,
    "underwriters": [],
    "use_of_proceeds": [],
+   "use_of_proceeds_de": [],
    "use_of_proceeds_ja": [],
+   "use_of_proceeds_ko": [],
    "v": 3
   },
   "empty": false,
@@ -11774,10 +12630,20 @@
     "Ability to identify and complete an initial business combination",
     "Significant ties to China may affect target selection and regulatory risk"
    ],
+   "key_risks_de": [
+    "Begrenzte Betriebshistorie und bisher keine wesentlichen Geschäftstätigkeiten",
+    "Fähigkeit, einen initialen Unternehmenszusammenschluss zu identifizieren und abzuschließen",
+    "Bedeutende Verbindungen zu China können Zielauswahl und regulatorische Risiken beeinflussen"
+   ],
    "key_risks_ja": [
     "事業運営実績が乏しく、これまで重要な事業活動はない",
     "初期の企業結合を特定し完了できるかどうか",
     "中国との強い結びつきが対象選定や規制リスクに影響する可能性"
+   ],
+   "key_risks_ko": [
+    "제한된 영업 이력 및 현재까지 중요한 영업활동 없음",
+    "최초 기업결합을 식별하고 완료하는 능력",
+    "중국과의 중요한 연계가 대상 선정 및 규제 위험에 영향을 미칠 수 있음"
    ],
    "lockup_days": 180,
    "net_income": null,
@@ -11787,7 +12653,9 @@
    "revenue_prior_year": null,
    "underwriters": [],
    "use_of_proceeds": [],
+   "use_of_proceeds_de": [],
    "use_of_proceeds_ja": [],
+   "use_of_proceeds_ko": [],
    "v": 3
   },
   "empty": false,
