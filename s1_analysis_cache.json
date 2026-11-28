@@ -6828,9 +6828,9 @@
     "Business operations conducted entirely in Hong Kong subject to local regulatory risks"
    ],
    "key_risks_de": [
-    "Duale Aktienstruktur konzentriert die Stimmrechtskontrolle bei bestehenden Aktionären",
-    "Anleger halten Anteile an der kaymanischen Holdinggesellschaft, nicht an der operativen Tochter in Hongkong",
-    "Der gesamte Geschäftsbetrieb erfolgt in Hongkong und unterliegt lokalen regulatorischen Risiken"
+    "Duale Aktienklassenstruktur konzentriert Stimmrechte bei bestehenden Aktionären",
+    "Anleger halten Anteile an einer kaimanischen Holdinggesellschaft, nicht an der Hongkonger Betriebstochter",
+    "Geschäftstätigkeit vollständig in Hongkong mit lokalen regulatorischen Risiken"
    ],
    "key_risks_ja": [
     "デュアルクラス構造により既存株主に議決権が集中する",
@@ -6855,9 +6855,9 @@
     "Recruitment of highly skilled professionals (about 20%)"
    ],
    "use_of_proceeds_de": [
-    "Potenzielle Investitionen in und/oder Übernahmen von Bauleistungsdienstleistern (ca. 40 %)",
-    "Beschaffung von Lackieranlagen und/oder moderner Maschinen (ca. 30 %)",
-    "Anwerbung hochqualifizierter Fachkräfte (ca. 20 %)"
+    "Potenzielle Investitionen und/oder Übernahmen von Anbietern von Bauleistungen (ca. 40 %)",
+    "Beschaffung von Lackierausrüstung und/oder moderner Maschinen (ca. 30 %)",
+    "Einstellung hochqualifizierter Fachkräfte (ca. 20 %)"
    ],
    "use_of_proceeds_ja": [
     "建設工事サービス提供者への潜在的な投資・買収（約40%）",
@@ -6865,9 +6865,9 @@
     "高度技能人材の採用（約20%）"
    ],
    "use_of_proceeds_ko": [
-    "건설공사 서비스 업체에 대한 잠재적 투자 및/또는 인수(약 40%)",
+    "건축 공사 서비스 제공업체 투자 및/또는 인수(약 40%)",
     "도장 장비 및/또는 첨단 기계 구매(약 30%)",
-    "고숙련 전문인력 채용(약 20%)"
+    "고숙련 전문 인력 채용(약 20%)"
    ],
    "v": 3
   },
@@ -11848,8 +11848,8 @@
    ],
    "key_risks_de": [
     "Abhängigkeit von der Entwicklung der fortschrittlichsten und leistungsfähigsten KI-Modelle",
-    "Unfähigkeit, ausreichende Rechenkapazität zu sichern oder effektiv zu steuern",
-    "Einschränkungen bei kritischen Inputs für die Rechenkapazität"
+    "Unfähigkeit, ausreichende Rechenkapazität zu sichern oder effektiv einzusetzen",
+    "Engpässe bei kritischen Vorprodukten für die Rechenkapazität"
    ],
    "key_risks_ja": [
     "最先端で高性能なAIモデルを開発し続ける能力への依存",
@@ -11858,8 +11858,8 @@
    ],
    "key_risks_ko": [
     "가장 발전되고 유능한 AI 모델 개발에 대한 의존",
-    "충분한 컴퓨팅 자원 확보 또는 효과적 운용 불능",
-    "컴퓨팅 용량을 뒷받침하는 핵심 投入 요소의 제약"
+    "충분한 컴퓨팅 자원 확보 또는 효과적 활용 실패",
+    "컴퓨팅 용량을 뒷받침하는 핵심 투입 요소의 제약"
    ],
    "lockup_days": null,
    "net_income": -41965000000,
@@ -11888,7 +11888,7 @@
     "Class A普通株式の公開市場の創出"
    ],
    "use_of_proceeds_ko": [
-    "자본 증대 및 재무 유연성 확보",
+    "자본금 증대 및 재무 유연성 확보",
     "Class A 보통주의 공개 시장 조성"
    ],
    "v": 3

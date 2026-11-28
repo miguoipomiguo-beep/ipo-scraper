@@ -111,6 +111,20 @@
   "shares_outstanding": 166480527.0,
   "ticker": "LFTO"
  },
+ "1151074-117610": {
+  "checked": "2026-11-28",
+  "company_name": "AMASS BRANDS",
+  "deal_id": "1151074-117610",
+  "exchange": "NASDAQ Global",
+  "lockup_date": null,
+  "lockup_days": null,
+  "offer_price": null,
+  "priced_date": "2026-05-20",
+  "quiet_period_date": "2026-06-29",
+  "shares_offered": 14293298.0,
+  "shares_outstanding": 14905865.0,
+  "ticker": "AMSS"
+ },
  "1153377-118598": {
   "checked": "2026-11-28",
   "company_name": "Scribe Therapeutics, Inc.",
@@ -166,6 +180,20 @@
   "shares_offered": 15500000.0,
   "shares_outstanding": 47174156.0,
   "ticker": "ODTX"
+ },
+ "1185928-117846": {
+  "checked": "2026-11-28",
+  "company_name": "First Breach, Inc.",
+  "deal_id": "1185928-117846",
+  "exchange": "NASDAQ Capital",
+  "lockup_date": null,
+  "lockup_days": null,
+  "offer_price": null,
+  "priced_date": "2026-08-20",
+  "quiet_period_date": null,
+  "shares_offered": 70728866.0,
+  "shares_outstanding": 45090202.0,
+  "ticker": "FBDT"
  },
  "1207270-118102": {
   "checked": "2026-11-28",
@@ -293,6 +321,20 @@
   "shares_outstanding": 324978625.0,
   "ticker": "BSP"
  },
+ "1284271-118539": {
+  "checked": "2026-11-28",
+  "company_name": "Ionic Digital Inc.",
+  "deal_id": "1284271-118539",
+  "exchange": "NASDAQ Global Select",
+  "lockup_date": null,
+  "lockup_days": null,
+  "offer_price": null,
+  "priced_date": "2026-07-28",
+  "quiet_period_date": null,
+  "shares_offered": 10800164.0,
+  "shares_outstanding": 44921427.0,
+  "ticker": "IOND"
+ },
  "1299328-117295": {
   "checked": "2026-11-28",
   "company_name": "PERSHING SQUARE INC.",
@@ -377,6 +419,20 @@
   "shares_outstanding": 63238030.0,
   "ticker": "LTGO"
  },
+ "1334636-116207": {
+  "checked": "2026-11-28",
+  "company_name": "Conexeu Sciences Inc.",
+  "deal_id": "1334636-116207",
+  "exchange": "NASDAQ Capital",
+  "lockup_date": null,
+  "lockup_days": null,
+  "offer_price": null,
+  "priced_date": "2026-05-21",
+  "quiet_period_date": "2026-06-30",
+  "shares_offered": 9481123.0,
+  "shares_outstanding": 25269996.0,
+  "ticker": "CNXU"
+ },
  "1341730-116804": {
   "checked": "2026-11-28",
   "company_name": "SILVER BOW MINING CORP.",
@@ -447,6 +503,34 @@
   "shares_outstanding": 148936013.0,
   "ticker": "SIND"
  },
+ "1358859-116305": {
+  "checked": "2026-11-28",
+  "company_name": "Advasa Holdings, Inc.",
+  "deal_id": "1358859-116305",
+  "exchange": "NASDAQ Global",
+  "lockup_date": null,
+  "lockup_days": null,
+  "offer_price": null,
+  "priced_date": "2026-08-25",
+  "quiet_period_date": "2026-10-05",
+  "shares_offered": 94046357.0,
+  "shares_outstanding": 487065702.0,
+  "ticker": "ADBT"
+ },
+ "1361894-116559": {
+  "checked": "2026-11-28",
+  "company_name": "QumulusAI, Inc.",
+  "deal_id": "1361894-116559",
+  "exchange": "NASDAQ Global",
+  "lockup_date": null,
+  "lockup_days": null,
+  "offer_price": null,
+  "priced_date": "2026-07-16",
+  "quiet_period_date": null,
+  "shares_offered": 39472531.0,
+  "shares_outstanding": 31727001.0,
+  "ticker": "QMLS"
+ },
  "1362439-118718": {
   "checked": "2026-11-28",
   "company_name": "Vogenx, Inc.",
@@ -461,6 +545,34 @@
   "shares_outstanding": 13917587.0,
   "ticker": "VOGX"
  },
+ "1362950-116648": {
+  "checked": "2026-11-28",
+  "company_name": "Lakewood-Amedex Biotherapeutics Inc.",
+  "deal_id": "1362950-116648",
+  "exchange": "NASDAQ Capital",
+  "lockup_date": null,
+  "lockup_days": null,
+  "offer_price": null,
+  "priced_date": "2026-04-23",
+  "quiet_period_date": "2026-06-02",
+  "shares_offered": 4689177.0,
+  "shares_outstanding": 14018673.0,
+  "ticker": "LABT"
+ },
+ "1365053-116821": {
+  "checked": "2026-11-28",
+  "company_name": "AIAI Holdings Corp",
+  "deal_id": "1365053-116821",
+  "exchange": "NASDAQ Global",
+  "lockup_date": null,
+  "lockup_days": null,
+  "offer_price": null,
+  "priced_date": "2026-05-14",
+  "quiet_period_date": "2026-06-23",
+  "shares_offered": 69483430.0,
+  "shares_outstanding": 70313990.0,
+  "ticker": "AIAI"
+ },
  "1367272-118447": {
   "checked": "2026-11-28",
   "company_name": "Standard Nuclear, Inc.",
@@ -474,6 +586,20 @@
   "shares_offered": 10000000.0,
   "shares_outstanding": 149095234.0,
   "ticker": "STDN"
+ },
+ "1370042-117181": {
+  "checked": "2026-11-28",
+  "company_name": "Metals Royalty Co Inc.",
+  "deal_id": "1370042-117181",
+  "exchange": "NASDAQ Capital",
+  "lockup_date": null,
+  "lockup_days": null,
+  "offer_price": null,
+  "priced_date": "2026-04-08",
+  "quiet_period_date": "2026-05-18",
+  "shares_offered": 55061113.0,
+  "shares_outstanding": 55061113.0,
+  "ticker": "TMCR"
  },
  "1370912-117258": {
   "checked": "2026-11-28",
@@ -502,6 +628,20 @@
   "shares_offered": 82692308.0,
   "shares_outstanding": 164484267.0,
   "ticker": "MAIR"
+ },
+ "1371606-117318": {
+  "checked": "2026-11-28",
+  "company_name": "Turbogen Ltd.",
+  "deal_id": "1371606-117318",
+  "exchange": "NASDAQ Capital",
+  "lockup_date": null,
+  "lockup_days": null,
+  "offer_price": null,
+  "priced_date": "2026-09-03",
+  "quiet_period_date": "2026-10-13",
+  "shares_offered": 2066243.0,
+  "shares_outstanding": 25455990.0,
+  "ticker": "TRBG"
  },
  "1376143-117394": {
   "checked": "2026-11-28",
@@ -922,6 +1062,20 @@
   "shares_offered": 9098800.0,
   "shares_outstanding": 21160000.0,
   "ticker": "NARA"
+ },
+ "1390217-118378": {
+  "checked": "2026-11-28",
+  "company_name": "Game Your Game Inc.",
+  "deal_id": "1390217-118378",
+  "exchange": "NASDAQ Capital",
+  "lockup_date": null,
+  "lockup_days": null,
+  "offer_price": null,
+  "priced_date": "2026-07-30",
+  "quiet_period_date": "2026-09-08",
+  "shares_offered": 16072730.0,
+  "shares_outstanding": 14388000.0,
+  "ticker": "GYGY"
  },
  "1390595-118406": {
   "checked": "2026-11-28",
