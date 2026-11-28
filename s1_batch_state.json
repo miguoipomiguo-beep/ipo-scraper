@@ -1,24 +1,240 @@
 {
- "batch_id": "msgbatch_01QUDqnnKQKPcwEoYujLwmdD",
+ "batch_id": "msgbatch_01Wnj61xVmhENAvg1qTpV5cU",
  "items": {
-  "s1-0001185185-26-005651": {
-   "accession": "0001185185-26-005651",
+  "s1-0001104659-26-072286": {
+   "accession": "0001104659-26-072286",
+   "hints": {
+    "currency": null,
+    "lockup_days": 180,
+    "unit": "units"
+   },
+   "ipo_id": "FISN"
+  },
+  "s1-0001104659-26-076487": {
+   "accession": "0001104659-26-076487",
    "hints": {
     "currency": null,
     "lockup_days": null,
     "unit": "units"
    },
-   "ipo_id": "0002152050"
+   "ipo_id": "BSP"
   },
-  "s1-0001628280-26-075026": {
-   "accession": "0001628280-26-075026",
+  "s1-0001104659-26-076488": {
+   "accession": "0001104659-26-076488",
+   "hints": {
+    "currency": null,
+    "lockup_days": 180,
+    "unit": "millions"
+   },
+   "ipo_id": "DPC"
+  },
+  "s1-0001104659-26-080556": {
+   "accession": "0001104659-26-080556",
+   "hints": {
+    "currency": null,
+    "lockup_days": null,
+    "unit": "thousands"
+   },
+   "ipo_id": "CSQR"
+  },
+  "s1-0001104659-26-086075": {
+   "accession": "0001104659-26-086075",
+   "hints": {
+    "currency": null,
+    "lockup_days": null,
+    "unit": "units"
+   },
+   "ipo_id": "REF"
+  },
+  "s1-0001140361-26-022717": {
+   "accession": "0001140361-26-022717",
+   "hints": {
+    "currency": null,
+    "lockup_days": null,
+    "unit": "thousands"
+   },
+   "ipo_id": "SSMR"
+  },
+  "s1-0001140361-26-024973": {
+   "accession": "0001140361-26-024973",
+   "hints": {
+    "currency": null,
+    "lockup_days": null,
+    "unit": "thousands"
+   },
+   "ipo_id": "FCBM"
+  },
+  "s1-0001140361-26-029787": {
+   "accession": "0001140361-26-029787",
+   "hints": {
+    "currency": null,
+    "lockup_days": null,
+    "unit": "thousands"
+   },
+   "ipo_id": "SIND"
+  },
+  "s1-0001193125-26-237828": {
+   "accession": "0001193125-26-237828",
+   "hints": {
+    "currency": null,
+    "lockup_days": null,
+    "unit": "thousands"
+   },
+   "ipo_id": "AADX"
+  },
+  "s1-0001193125-26-253016": {
+   "accession": "0001193125-26-253016",
    "hints": {
     "currency": null,
     "lockup_days": 180,
     "unit": "thousands"
    },
-   "ipo_id": "SBE"
+   "ipo_id": "LFTO"
+  },
+  "s1-0001193125-26-258901": {
+   "accession": "0001193125-26-258901",
+   "hints": {
+    "currency": null,
+    "lockup_days": 180,
+    "unit": "units"
+   },
+   "ipo_id": "WHK"
+  },
+  "s1-0001193125-26-258942": {
+   "accession": "0001193125-26-258942",
+   "hints": {
+    "currency": null,
+    "lockup_days": 180,
+    "unit": "units"
+   },
+   "ipo_id": "EROC"
+  },
+  "s1-0001193125-26-262880": {
+   "accession": "0001193125-26-262880",
+   "hints": {
+    "currency": null,
+    "lockup_days": null,
+    "unit": "thousands"
+   },
+   "ipo_id": "PBLS"
+  },
+  "s1-0001193125-26-266629": {
+   "accession": "0001193125-26-266629",
+   "hints": {
+    "currency": null,
+    "lockup_days": 180,
+    "unit": "thousands"
+   },
+   "ipo_id": "KARD"
+  },
+  "s1-0001193125-26-285598": {
+   "accession": "0001193125-26-285598",
+   "hints": {
+    "currency": null,
+    "lockup_days": null,
+    "unit": "thousands"
+   },
+   "ipo_id": "ITG"
+  },
+  "s1-0001193125-26-295501": {
+   "accession": "0001193125-26-295501",
+   "hints": {
+    "currency": null,
+    "lockup_days": 90,
+    "unit": "units"
+   },
+   "ipo_id": "SKHYV"
+  },
+  "s1-0001193125-26-308260": {
+   "accession": "0001193125-26-308260",
+   "hints": {
+    "currency": null,
+    "lockup_days": null,
+    "unit": "units"
+   },
+   "ipo_id": "JMKE"
+  },
+  "s1-0001193125-26-308330": {
+   "accession": "0001193125-26-308330",
+   "hints": {
+    "currency": null,
+    "lockup_days": null,
+    "unit": "thousands"
+   },
+   "ipo_id": "SCTX"
+  },
+  "s1-0001193125-26-389422": {
+   "accession": "0001193125-26-389422",
+   "hints": {
+    "currency": null,
+    "lockup_days": null,
+    "unit": "units"
+   },
+   "ipo_id": "ELOX"
+  },
+  "s1-0001213900-26-066499": {
+   "accession": "0001213900-26-066499",
+   "hints": {
+    "currency": null,
+    "lockup_days": null,
+    "unit": "units"
+   },
+   "ipo_id": "CAES"
+  },
+  "s1-0001213900-26-070374": {
+   "accession": "0001213900-26-070374",
+   "hints": {
+    "currency": null,
+    "lockup_days": 180,
+    "unit": "units"
+   },
+   "ipo_id": "DSC"
+  },
+  "s1-0001213900-26-078128": {
+   "accession": "0001213900-26-078128",
+   "hints": {
+    "currency": null,
+    "lockup_days": 180,
+    "unit": "units"
+   },
+   "ipo_id": "STDN"
+  },
+  "s1-0001493152-26-038495": {
+   "accession": "0001493152-26-038495",
+   "hints": {
+    "currency": null,
+    "lockup_days": null,
+    "unit": "units"
+   },
+   "ipo_id": "IMC"
+  },
+  "s1-0001628280-26-039286": {
+   "accession": "0001628280-26-039286",
+   "hints": {
+    "currency": null,
+    "lockup_days": 180,
+    "unit": "thousands"
+   },
+   "ipo_id": "QNT"
+  },
+  "s1-0001628280-26-041472": {
+   "accession": "0001628280-26-041472",
+   "hints": {
+    "currency": null,
+    "lockup_days": 180,
+    "unit": "thousands"
+   },
+   "ipo_id": "FRBT"
+  },
+  "s1-0001628280-26-044471": {
+   "accession": "0001628280-26-044471",
+   "hints": {
+    "currency": null,
+    "lockup_days": null,
+    "unit": "thousands"
+   },
+   "ipo_id": "LIME"
   }
  },
- "submitted_at": "2026-11-28T04:06:02+00:00"
+ "submitted_at": "2026-11-28T05:40:27+00:00"
 }

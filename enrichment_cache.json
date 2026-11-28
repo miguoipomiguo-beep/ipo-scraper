@@ -2094,7 +2094,16 @@
     "industry": "Energy, Power Generation, Gas Engine Technology",
     "shares_outstanding": 750000000,
     "proposed_price_low": 24.0,
-    "proposed_price_high": 27.0
+    "proposed_price_high": 27.0,
+    "description_ja": "INNIO Holding GmbHはガスエンジンおよび発電システムの開発・製造を手がける大手エネルギーソリューション企業。低炭素経済への移行を支える持続可能なエネルギー技術に注力する。",
+    "products_services_ja": "ガスエンジン、発電システム、エネルギーソリューション。分散型電源や非常用電源など多様な用途向けのサービスを含む。",
+    "ja_src": "b482427bc22d",
+    "description_ko": "INNIO Holding GmbH는 가스 엔진 및 발전 시스템의 개발과 제조를 전문으로 하는 혁신 에너지 솔루션 선도 기업이다. 저탄소 경제로의 전환을 지원하기 위해 지속 가능한 에너지 기술에 주력한다.",
+    "products_services_ko": "가스 엔진, 발전 시스템, 에너지 솔루션, 분산형 에너지 및 비상 전원 등 다양한 용도의 서비스.",
+    "description_de": "INNIO Holding GmbH ist ein führender Anbieter innovativer Energielösungen und entwickelt sowie fertigt Gasmotoren und Stromerzeugungssysteme. Das Unternehmen konzentriert sich auf nachhaltige Energietechnologien, die den Übergang zu einer kohlenstoffarmen Wirtschaft unterstützen.",
+    "products_services_de": "Gasmotoren, Stromerzeugungssysteme, Energielösungen und Dienstleistungen für verschiedene Anwendungen, unter anderem dezentrale Energieversorgung und Notstromversorgung.",
+    "ko_src": "b482427bc22d",
+    "de_src": "b482427bc22d"
   },
   "FISN": {
     "description": "Deep Fission, Inc. is an innovative biotechnology company focused on developing advanced gene editing technologies to enhance therapeutic applications. The company aims to revolutionize the treatment of genetic disorders through its proprietary platform.",
@@ -2102,7 +2111,16 @@
     "industry": "Biotechnology",
     "shares_outstanding": 6000000,
     "proposed_price_low": 24.0,
-    "proposed_price_high": 26.0
+    "proposed_price_high": 26.0,
+    "description_ja": "Deep Fission, Inc.は治療応用を高める先進的な遺伝子編集技術を開発するバイオテクノロジー企業。独自のプラットフォームによって遺伝性疾患の治療を変革することを目指す。",
+    "products_services_ja": "遺伝子編集技術、遺伝性疾患向けの治療ソリューション、研究開発サービス。",
+    "ja_src": "2e5fedc6fbac",
+    "description_ko": "Deep Fission, Inc.는 치료 응용을 강화하기 위해 첨단 유전자 편집 기술을 개발하는 혁신 바이오기술 기업이다. 독자적인 플랫폼을 통해 유전 질환의 치료 방식을 혁신하는 것을 목표로 한다.",
+    "products_services_ko": "유전자 편집 기술, 유전 질환 치료 솔루션, 연구개발 서비스.",
+    "description_de": "Deep Fission, Inc. ist ein innovatives Biotechnologieunternehmen, das fortschrittliche Gene-Editing-Technologien für therapeutische Anwendungen entwickelt. Ziel ist es, die Behandlung genetischer Erkrankungen mithilfe seiner proprietären Plattform grundlegend zu verändern.",
+    "products_services_de": "Gene-Editing-Technologien, therapeutische Lösungen für genetische Erkrankungen sowie Forschungs- und Entwicklungsdienstleistungen.",
+    "ko_src": "2e5fedc6fbac",
+    "de_src": "2e5fedc6fbac"
   },
   "DGACU": {
     "description": "DISCIPLINED GROWTH ACQUISITION Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with high-growth companies in dynamic sectors. The firm aims to leverage its management team's expertise to drive value creation and sustainable growth post-merger.",
@@ -2117,7 +2135,16 @@
     "products_services": "Investment management, income generation strategies, and portfolio diversification services.",
     "industry": "Financial Services",
     "proposed_price_low": 25.0,
-    "proposed_price_high": 27.0
+    "proposed_price_high": 27.0,
+    "description_ja": "WhiteHawk Income Corp.は、多様な資産クラスへの戦略的投資を通じて収益の創出を図る金融サービス企業。リスクを効果的に管理しながら、投資家に魅力的なリターンを提供することを目指す。",
+    "products_services_ja": "投資運用、収益創出戦略、ポートフォリオ分散サービス。",
+    "ja_src": "97dc14918059",
+    "description_ko": "WhiteHawk Income Corp.은 다양한 자산군에 대한 전략적 투자를 통해 수익을 창출하는 금융 서비스 기업이다. 리스크를 효과적으로 관리하면서 투자자에게 매력적인 수익을 제공하는 것을 목표로 한다.",
+    "products_services_ko": "투자 관리, 수익 창출 전략, 포트폴리오 분산 서비스.",
+    "description_de": "WhiteHawk Income Corp. ist ein Finanzdienstleistungsunternehmen, das durch strategische Investitionen in verschiedene Anlageklassen Erträge erzielen will. Ziel ist es, seinen Anlegern attraktive Renditen bei effektivem Risikomanagement zu bieten.",
+    "products_services_de": "Vermögensverwaltung, Ertragsstrategien und Dienstleistungen zur Portfoliodiversifikation.",
+    "ko_src": "97dc14918059",
+    "de_src": "97dc14918059"
   },
   "SFPT": {
     "description": "Safepoint Holdings, Inc. is a technology-driven company focused on providing innovative solutions for risk management and insurance services. The company aims to enhance safety and reduce losses for businesses through its advanced analytics and data-driven approach.",
@@ -2142,7 +2169,16 @@
     "industry": "Quantum Computing and Technology",
     "shares_outstanding": 21052632,
     "proposed_price_low": 45.0,
-    "proposed_price_high": 50.0
+    "proposed_price_high": 50.0,
+    "description_ja": "Quantinuum Inc.は先進的な量子ハードウェアとソフトウェアソリューションを開発する大手量子コンピューティング企業。量子技術の力で複雑な課題解決を実現し、各産業の変革を目指す。",
+    "products_services_ja": "量子コンピュータのハードウェア、量子ソフトウェアプラットフォーム、量子コンピューティングのクラウド提供（QaaS）。",
+    "ja_src": "046ebc153620",
+    "description_ko": "Quantinuum Inc.는 첨단 양자 컴퓨팅 하드웨어와 소프트웨어 솔루션을 개발하는 선도 양자 컴퓨팅 기업이다. 양자 기술을 활용해 복잡한 문제를 해결함으로써 산업 전반을 혁신하는 것을 목표로 한다.",
+    "products_services_ko": "양자 컴퓨팅 하드웨어, 양자 소프트웨어 플랫폼, 서비스형 양자 컴퓨팅(QaaS).",
+    "description_de": "Quantinuum Inc. ist ein führendes Unternehmen für Quantencomputing, das fortschrittliche Quantenhardware und Softwarelösungen entwickelt. Ziel ist es, Branchen durch die Nutzung der Quantentechnologie für die Lösung komplexer Probleme grundlegend zu verändern.",
+    "products_services_de": "Quantencomputer-Hardware, Software-Plattformen für Quantencomputing und Quantum-as-a-Service-Angebote.",
+    "ko_src": "046ebc153620",
+    "de_src": "046ebc153620"
   },
   "SSMR": {
     "description": "Sunshine Silver Mining & Refining Co. is focused on the exploration and development of silver mining projects, primarily in North America. The company aims to leverage its expertise in mining and refining to deliver high-quality silver products to the market.",
@@ -2150,7 +2186,16 @@
     "industry": "Mining and Metals",
     "shares_outstanding": 20000000,
     "proposed_price_low": 13.5,
-    "proposed_price_high": 16.5
+    "proposed_price_high": 16.5,
+    "description_ja": "Sunshine Silver Mining & Refining Co.は、主に北米での銀鉱山プロジェクトの探鉱・開発に注力する企業。採掘・精錬の専門性を活かし、高品質な銀製品を市場に供給することを目指す。",
+    "products_services_ja": "銀の採掘・精錬、銀資源の探鉱、銀地金の生産。",
+    "ja_src": "6d7a4116ee03",
+    "description_ko": "Sunshine Silver Mining & Refining Co.은 주로 북미 지역에서 은광 프로젝트의 탐사와 개발에 집중하는 기업이다. 광산 및 정련 분야의 전문성을 바탕으로 고품질 은 제품을 시장에 공급하는 것을 목표로 한다.",
+    "products_services_ko": "은 채굴 및 정련, 은 자원 탐사, 은괴 생산.",
+    "description_de": "Sunshine Silver Mining & Refining Co. konzentriert sich auf die Exploration und Erschließung von Silberbergbauprojekten, vor allem in Nordamerika. Das Unternehmen nutzt seine Expertise in Bergbau und Raffination, um hochwertige Silberprodukte für den Markt bereitzustellen.",
+    "products_services_de": "Silberbergbau und -raffination, Exploration von Silbervorkommen und Produktion von Silberbarren.",
+    "ko_src": "6d7a4116ee03",
+    "de_src": "6d7a4116ee03"
   },
   "AADX": {
     "description": "Applied Aerospace & Defense, Inc. is a leading provider of innovative solutions for the aerospace and defense sectors, focusing on advanced technology and engineering services. The company aims to enhance operational efficiency and mission success for its clients through cutting-edge products and strategic partnerships.",
@@ -2158,7 +2203,16 @@
     "industry": "Aerospace and Defense",
     "shares_outstanding": 32500000,
     "proposed_price_low": 18.0,
-    "proposed_price_high": 21.0
+    "proposed_price_high": 21.0,
+    "description_ja": "Applied Aerospace & Defense, Inc.は航空宇宙・防衛分野向けの革新的ソリューションを手がける大手企業。先端技術とエンジニアリングサービスに注力。製品や戦略的提携を通じて顧客の運用効率化とミッション成功を支援する。",
+    "products_services_ja": "航空宇宙エンジニアリング、防衛システム統合、先端製造ソリューションなどの製品・サービスを提供。",
+    "ja_src": "c543a35d6b8f",
+    "description_ko": "Applied Aerospace & Defense, Inc.는 항공우주 및 국방 분야를 위한 혁신적인 솔루션을 제공하는 선도 기업이다. 첨단 기술과 엔지니어링 서비스에 주력하며, 고객에게 최첨단 제품과 전략적 파트너십을 통해 운영 효율성과 임무 성공을 높이는 것을 목표로 한다.",
+    "products_services_ko": "항공우주 엔지니어링, 국방 시스템 통합, 첨단 제조 솔루션 등 다양한 제품과 서비스를 제공한다.",
+    "description_de": "Applied Aerospace & Defense, Inc. ist ein führender Anbieter innovativer Lösungen für die Luft- und Raumfahrt sowie den Verteidigungssektor mit Schwerpunkt auf fortschrittlicher Technologie und Ingenieurdienstleistungen. Das Unternehmen will die Betriebseffizienz und den Missionserfolg seiner Kunden durch modernste Produkte und strategische Partnerschaften steigern.",
+    "products_services_de": "Das Unternehmen bietet unter anderem Luft- und Raumfahrttechnik, Integration von Verteidigungssystemen und moderne Fertigungslösungen an.",
+    "ko_src": "c543a35d6b8f",
+    "de_src": "c543a35d6b8f"
   },
   "IDIAU": {
     "description": "Innovative Digital Investors Acquisition Corp. is a blank check company formed for the purpose of effecting a merger, capital stock exchange, asset acquisition, stock purchase, reorganization or similar business combination with one or more businesses.",
@@ -2377,7 +2431,16 @@
     "industry": "Construction and Mining Technology",
     "shares_outstanding": 27906977,
     "proposed_price_low": 20,
-    "proposed_price_high": 23
+    "proposed_price_high": 23,
+    "description_ja": "ERock, Inc.は建設・鉱業向けの先進的な岩石掘削ソリューションを手がける技術企業。効率性と持続可能性に重点を置き、先端技術で従来の掘削手法の革新を目指す。",
+    "products_services_ja": "先進的な岩石掘削機器、掘削ソフトウェアソリューション、保守サービス。",
+    "ja_src": "898c42097665",
+    "description_ko": "ERock, Inc.는 건설 및 광업 분야를 위한 첨단 암석 굴착 솔루션을 전문으로 하는 혁신 기술 기업이다. 효율성과 지속 가능성에 중점을 두고, 첨단 기술을 통해 기존 굴착 방식을 혁신하는 것을 목표로 한다.",
+    "products_services_ko": "첨단 암석 굴착 장비, 굴착 소프트웨어 솔루션, 유지보수 서비스.",
+    "description_de": "ERock, Inc. ist ein innovatives Technologieunternehmen, das auf fortschrittliche Gesteinsbohrlösungen für die Bau- und Bergbauindustrie spezialisiert ist. Mit Fokus auf Effizienz und Nachhaltigkeit will ERock herkömmliche Bohrverfahren durch modernste Technologie revolutionieren.",
+    "products_services_de": "Moderne Gesteinsbohrgeräte, Bohrsoftwarelösungen und Wartungsdienstleistungen.",
+    "ko_src": "898c42097665",
+    "de_src": "898c42097665"
   },
   "LFTO": {
     "description": "Liftoff Mobile, Inc. is a leading mobile marketing platform that specializes in user acquisition and engagement for app developers and marketers. The company leverages advanced data analytics and machine learning to optimize advertising campaigns and drive growth for mobile applications.",
@@ -2385,7 +2448,16 @@
     "industry": "Mobile Advertising and Marketing",
     "shares_outstanding": 19000000,
     "proposed_price_low": 20.0,
-    "proposed_price_high": 22.0
+    "proposed_price_high": 22.0,
+    "description_ja": "Liftoff Mobile, Inc.はアプリ開発者やマーケター向けに、ユーザー獲得とエンゲージメントを支援する大手モバイルマーケティングプラットフォーム。高度なデータ分析と機械学習で広告キャンペーンを最適化し、アプリの成長を後押しする。",
+    "products_services_ja": "モバイルマーケティングプラットフォーム、ユーザー獲得サービス、アプリエンゲージメントソリューション、データ分析ツール。",
+    "ja_src": "1c811a3a5997",
+    "description_ko": "Liftoff Mobile, Inc.는 앱 개발자와 마케터를 위한 사용자 확보 및 참여 솔루션을 제공하는 선도 모바일 마케팅 플랫폼이다. 고급 데이터 분석과 머신러닝을 활용해 광고 캠페인을 최적화하고 모바일 애플리케이션의 성장을 촉진한다.",
+    "products_services_ko": "모바일 마케팅 플랫폼, 사용자 확보 서비스, 앱 참여 솔루션, 데이터 분석 도구.",
+    "description_de": "Liftoff Mobile, Inc. ist eine führende Plattform für mobiles Marketing, die auf Nutzergewinnung und Nutzerbindung für App-Entwickler und Vermarkter spezialisiert ist. Das Unternehmen nutzt fortschrittliche Datenanalyse und maschinelles Lernen, um Werbekampagnen zu optimieren und das Wachstum mobiler Anwendungen zu fördern.",
+    "products_services_de": "Plattform für mobiles Marketing, Dienstleistungen zur Nutzergewinnung, Lösungen zur App-Nutzerbindung und Tools für Datenanalyse.",
+    "ko_src": "1c811a3a5997",
+    "de_src": "1c811a3a5997"
   },
   "0002013100": {
     "description": "VISTEK LTD. is a leading provider of innovative imaging solutions, specializing in advanced camera systems and software for various applications. The company focuses on delivering high-quality products that enhance visual technology across multiple industries.",
@@ -2431,7 +2503,16 @@
     "industry": "Financial Technology / Renewable Energy Financing",
     "shares_outstanding": 40847557,
     "proposed_price_low": 18.0,
-    "proposed_price_high": 20.0
+    "proposed_price_high": 20.0,
+    "description_ja": "Forbright, Inc.は持続可能なエネルギー向け資金調達の革新的ソリューションを提供する金融テクノロジー企業。企業や消費者に合わせた金融商品を通じてクリーンエネルギーへの移行を後押しする。",
+    "products_services_ja": "持続可能エネルギーの資金調達ソリューション。再生可能エネルギープロジェクト向けの融資や投資商品を含む。",
+    "ja_src": "bc3b3d3d2947",
+    "description_ko": "Forbright, Inc.는 지속 가능한 에너지 금융을 위한 혁신 솔루션을 제공하는 핀테크 기업이다. 기업과 소비자에게 맞춤형 금융 상품과 서비스를 제공해 청정에너지로의 전환을 촉진하는 것을 목표로 한다.",
+    "products_services_ko": "지속 가능한 에너지 금융 솔루션, 재생에너지 사업을 위한 대출 및 투자 상품.",
+    "description_de": "Forbright, Inc. ist ein Finanztechnologieunternehmen, das innovative Lösungen für die Finanzierung nachhaltiger Energie anbietet. Das Unternehmen will den Übergang zu sauberer Energie fördern, indem es Unternehmen und Verbrauchern maßgeschneiderte Finanzprodukte und -dienstleistungen bereitstellt.",
+    "products_services_de": "Finanzierungslösungen für nachhaltige Energie, darunter Kredite und Anlageprodukte für Projekte im Bereich erneuerbarer Energien.",
+    "ko_src": "bc3b3d3d2947",
+    "de_src": "bc3b3d3d2947"
   },
   "APMCU": {
     "description": "AmperCap Acquisition Co. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in high-growth sectors. The firm aims to leverage its expertise to create value for shareholders through strategic partnerships and acquisitions.",
@@ -2522,7 +2603,16 @@
     "industry": "Biopharmaceuticals",
     "shares_outstanding": 4629629,
     "proposed_price_low": 18.0,
-    "proposed_price_high": 18.0
+    "proposed_price_high": 18.0,
+    "description_ja": "Parabilis Medicines, Inc.は希少疾患や複雑な疾患向けの革新的治療法を開発するバイオ医薬品企業。先進的な創薬技術を活用し、満たされていない医療ニーズに応える標的治療薬の創出を目指す。",
+    "products_services_ja": "希少疾患の治療を目的とした新規治療薬・候補薬を開発。精密医療に重点を置く。",
+    "ja_src": "09ffede3bce7",
+    "description_ko": "Parabilis Medicines, Inc.는 희귀 및 복합 질환을 위한 혁신 치료제를 개발하는 바이오의약품 기업이다. 첨단 신약 발굴 기술을 활용해 충족되지 않은 의료 수요를 해결하는 표적 치료제를 만드는 것을 목표로 한다.",
+    "products_services_ko": "Parabilis Medicines는 희귀질환 치료를 목표로 한 신규 치료제와 후보물질을 개발하며, 정밀의학에 중점을 둔다.",
+    "description_de": "Parabilis Medicines, Inc. ist ein Biopharmaunternehmen, das innovative Therapien für seltene und komplexe Erkrankungen entwickelt. Das Unternehmen nutzt fortschrittliche Technologien zur Wirkstoffforschung, um gezielte Behandlungen zu entwickeln, die bisher ungedeckte medizinische Bedürfnisse adressieren.",
+    "products_services_de": "Parabilis Medicines entwickelt neuartige Therapeutika und Wirkstoffkandidaten zur Behandlung seltener Erkrankungen, mit Schwerpunkt auf Präzisionsmedizin.",
+    "ko_src": "09ffede3bce7",
+    "de_src": "09ffede3bce7"
   },
   "ISNR": {
     "description": "Snow Rothschild Acquisition Corp. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the technology and financial sectors. The firm aims to leverage its expertise and network to drive growth and create value for shareholders.",
@@ -2578,7 +2668,16 @@
     "industry": "Financial Services",
     "shares_outstanding": 30245752,
     "proposed_price_low": 14.0,
-    "proposed_price_high": 16.0
+    "proposed_price_high": 16.0,
+    "description_ja": "First Carolina Financial Services, Inc.は個人および法人向けに幅広い銀行・金融サービスを提供する金融機関。革新的なソリューションと個別対応により顧客体験の向上を図る。",
+    "products_services_ja": "個人・法人向け銀行業務、融資、住宅ローン、投資サービスなど。",
+    "ja_src": "f10ecfba3f5e",
+    "description_ko": "First Carolina Financial Services, Inc.는 개인과 기업에 다양한 은행 및 금융 서비스를 제공하는 금융기관이다. 혁신적인 솔루션과 맞춤형 서비스를 통해 고객 경험을 높이는 것을 목표로 한다.",
+    "products_services_ko": "개인 및 기업 금융, 대출, 모기지, 투자 서비스 등을 제공한다.",
+    "description_de": "First Carolina Financial Services, Inc. ist ein Finanzinstitut, das Privatpersonen und Unternehmen ein breites Spektrum an Bank- und Finanzdienstleistungen anbietet. Das Unternehmen will das Kundenerlebnis durch innovative Lösungen und persönliche Betreuung verbessern.",
+    "products_services_de": "Das Unternehmen bietet unter anderem Privat- und Firmenkundenbankgeschäft, Kredite, Hypotheken und Anlagedienstleistungen an.",
+    "ko_src": "f10ecfba3f5e",
+    "de_src": "f10ecfba3f5e"
   },
   "MDAT": {
     "description": "Web3Labs Global Inc. is a pioneering technology company focused on developing decentralized applications and solutions leveraging blockchain technology. The company aims to empower businesses and individuals by providing innovative tools and platforms that enhance digital interactions and transactions.",
@@ -2628,7 +2727,16 @@
     "industry": "Biopharmaceuticals",
     "shares_outstanding": 10200000,
     "proposed_price_low": 10.0,
-    "proposed_price_high": 12.0
+    "proposed_price_high": 12.0,
+    "description_ja": "Eloxx Pharmaceuticals, Inc.はナンセンス変異に起因する遺伝性疾患向けの新規治療法を開発する臨床段階のバイオ医薬品企業。主力候補ELX-02は、タンパク質合成の回復を通じて嚢胞性線維症などの希少疾患の治療を目指す。",
+    "products_services_ja": "遺伝性疾患を対象とした治療薬を開発。主力はナンセンス変異による嚢胞性線維症などに対するELX-02。",
+    "ja_src": "96d3e7263205",
+    "description_ko": "Eloxx Pharmaceuticals, Inc.는 무의미 돌연변이(nonsense mutation)로 인한 유전 질환을 위한 신약을 개발하는 임상 단계 바이오의약품 기업이다. 주력 후보물질인 ELX-02는 단백질 합성을 회복시켜 낭포성 섬유증 및 기타 희귀질환을 치료하는 것을 목표로 한다.",
+    "products_services_ko": "Eloxx Pharmaceuticals는 유전 질환을 겨냥한 치료제를 개발하며, 주력 제품은 낭포성 섬유증 및 무의미 돌연변이로 인한 질환을 위한 ELX-02이다.",
+    "description_de": "Eloxx Pharmaceuticals, Inc. ist ein klinisch tätiges Biopharmaunternehmen, das neuartige Therapien für genetische Erkrankungen entwickelt, die durch Nonsense-Mutationen verursacht werden. Der Leitkandidat ELX-02 soll Mukoviszidose und andere seltene Erkrankungen behandeln, indem er die Proteinsynthese wiederherstellt.",
+    "products_services_de": "Eloxx Pharmaceuticals entwickelt Therapien für genetische Störungen, mit Schwerpunkt auf ELX-02 für Mukoviszidose und weitere durch Nonsense-Mutationen bedingte Erkrankungen.",
+    "ko_src": "96d3e7263205",
+    "de_src": "96d3e7263205"
   },
   "JABRU": {
     "description": "JAB Acquisition Corp I is a special purpose acquisition company (SPAC) focused on identifying and merging with high-growth consumer brands. The company aims to leverage its management team's expertise to create value through strategic acquisitions in the consumer sector.",
@@ -2687,7 +2795,16 @@
     "industry": "Apparel and Fashion",
     "shares_outstanding": 23333334,
     "proposed_price_low": 15.0,
-    "proposed_price_high": 15.0
+    "proposed_price_high": 15.0,
+    "description_ja": "Kardigan, Inc.は現代のライフスタイルに合わせた、スタイリッシュで快適なニットウェアを手がける革新的アパレル企業。持続可能性と品質を重視し、快適さと上品さを兼ね備えたカジュアルファッションの再定義を目指す。",
+    "products_services_ja": "カーディガン、セーター、アクセサリーなどのニット製品を提供。環境に配慮した素材を使用。",
+    "ja_src": "156e276c94e4",
+    "description_ko": "Kardigan, Inc.는 현대인의 라이프스타일을 위해 디자인된 세련되고 편안한 니트웨어를 전문으로 하는 혁신 의류 기업이다. 지속 가능성과 품질에 중점을 두며, 편안함과 우아함을 모두 추구하는 소비자를 위해 캐주얼 패션을 새롭게 정의하는 것을 목표로 한다.",
+    "products_services_ko": "Kardigan은 친환경 소재로 만든 카디건, 스웨터, 액세서리 등 다양한 니트웨어 제품을 제공한다.",
+    "description_de": "Kardigan, Inc. ist ein innovatives Modeunternehmen, das auf stilvolle und bequeme Strickwaren für einen modernen Lebensstil spezialisiert ist. Mit Fokus auf Nachhaltigkeit und Qualität will Kardigan die Freizeitmode für Kunden neu definieren, die Komfort und Eleganz verbinden möchten.",
+    "products_services_de": "Kardigan bietet ein Sortiment an Strickwaren an, darunter Strickjacken, Pullover und Accessoires aus umweltfreundlichen Materialien.",
+    "ko_src": "156e276c94e4",
+    "de_src": "156e276c94e4"
   },
   "0002113481": {
     "description": "Osprey Acquisition Corp. III is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in the technology and healthcare sectors. The firm aims to leverage its management team's expertise to drive growth and create value for shareholders post-merger.",
@@ -2720,14 +2837,32 @@
     "industry": "Investment and asset management.",
     "shares_outstanding": 138470227,
     "proposed_price_low": 28.0,
-    "proposed_price_high": 32.0
+    "proposed_price_high": 32.0,
+    "description_ja": "DPC Holdings Ltd.は多様な分野の企業を取得・運営する投資会社。持続的成長と革新に取り組み、戦略的投資と業務の卓越性を通じて株主価値の向上を目指す。",
+    "products_services_ja": "投資運用、ポートフォリオ分散、戦略的買収、傘下企業への業務支援。",
+    "ja_src": "3c84e109a29d",
+    "description_ko": "DPC Holdings Ltd.는 다양한 업종의 기업 포트폴리오를 인수하고 관리하는 데 주력하는 투자 회사이다. 지속 가능한 성장과 혁신에 대한 의지를 바탕으로, 전략적 투자와 운영 우수성을 통해 주주 가치를 높이는 것을 목표로 한다.",
+    "products_services_ko": "투자 관리, 포트폴리오 분산, 전략적 인수, 자회사 운영 지원.",
+    "description_de": "DPC Holdings Ltd. ist eine dynamische Investmentgesellschaft, die ein diversifiziertes Portfolio von Unternehmen aus verschiedenen Branchen erwirbt und verwaltet. Das Unternehmen strebt nachhaltiges Wachstum und Innovation an und will den Aktionärswert durch strategische Investitionen und operative Exzellenz steigern.",
+    "products_services_de": "Investmentmanagement, Portfoliodiversifikation, strategische Akquisitionen und operative Unterstützung für Tochtergesellschaften.",
+    "ko_src": "3c84e109a29d",
+    "de_src": "3c84e109a29d"
   },
   "CAES": {
     "description": "Cantor Equity Partners VII, Inc. is a special purpose acquisition company (SPAC) focused on identifying and merging with innovative companies in high-growth sectors. The firm aims to leverage its extensive network and industry expertise to drive value creation for shareholders.",
     "products_services": "Investment and acquisition services targeting high-growth companies.",
     "industry": "Financial Services / Special Purpose Acquisition Companies (SPACs)",
     "proposed_price_low": 10.0,
-    "proposed_price_high": 10.0
+    "proposed_price_high": 10.0,
+    "description_ja": "Cantor Equity Partners VII, Inc.は高成長分野の革新的企業との合併を目指す特別目的買収会社（SPAC）。広範なネットワークと業界知識を活用し、株主価値の創出を図る。",
+    "products_services_ja": "高成長企業を対象とした投資・買収サービス。",
+    "ja_src": "a15113666313",
+    "description_ko": "Cantor Equity Partners VII, Inc.는 고성장 분야의 혁신 기업을 발굴하고 합병하는 데 주력하는 기업인수목적회사(SPAC)이다. 폭넓은 네트워크와 업계 전문성을 활용해 주주를 위한 가치 창출을 추진하는 것을 목표로 한다.",
+    "products_services_ko": "고성장 기업을 대상으로 한 투자 및 인수 서비스.",
+    "description_de": "Cantor Equity Partners VII, Inc. ist eine Special Purpose Acquisition Company (SPAC), die innovative Unternehmen in Wachstumsbranchen identifizieren und mit ihnen fusionieren will. Das Unternehmen nutzt sein umfangreiches Netzwerk und seine Branchenexpertise, um Mehrwert für die Aktionäre zu schaffen.",
+    "products_services_de": "Investment- und Akquisitionsdienstleistungen für Unternehmen mit hohem Wachstumspotenzial.",
+    "ko_src": "a15113666313",
+    "de_src": "a15113666313"
   },
   "WLCO": {
     "description": "Wilco 63 Corp. is an innovative technology company focused on developing cutting-edge software solutions for various industries. With a commitment to enhancing operational efficiency and user experience, the company aims to revolutionize the way businesses leverage technology.",
@@ -2802,7 +2937,16 @@
     "products_services": "ITG, Inc. offers a range of products including data analytics platforms, business intelligence tools, and customized software solutions tailored to meet specific client needs.",
     "industry": "Technology / Software Development",
     "proposed_price_low": 19.0,
-    "proposed_price_high": 22.0
+    "proposed_price_high": 22.0,
+    "description_ja": "ITG, Inc.はデータ分析およびビジネスインテリジェンス向けの革新的ソフトウェアソリューションを手がける技術企業。各分野の顧客の業務効率と意思決定の向上を目指す。",
+    "products_services_ja": "データ分析プラットフォーム、ビジネスインテリジェンスツール、顧客ニーズに合わせたカスタムソフトウェアなど。",
+    "ja_src": "0f4d561c95c2",
+    "description_ko": "ITG, Inc.는 데이터 분석 및 비즈니스 인텔리전스를 위한 혁신 소프트웨어 솔루션을 전문으로 하는 기술 기업이다. 다양한 업종의 고객을 위해 운영 효율성과 의사결정 과정을 개선하는 것을 목표로 한다.",
+    "products_services_ko": "ITG, Inc.는 데이터 분석 플랫폼, 비즈니스 인텔리전스 도구, 고객 맞춤형 소프트웨어 솔루션 등 다양한 제품을 제공한다.",
+    "description_de": "ITG, Inc. ist ein Technologieunternehmen, das auf innovative Softwarelösungen für Datenanalyse und Business Intelligence spezialisiert ist. Das Unternehmen will die betriebliche Effizienz und Entscheidungsprozesse seiner Kunden in verschiedenen Branchen verbessern.",
+    "products_services_de": "ITG, Inc. bietet ein Produktportfolio mit Datenanalyseplattformen, Business-Intelligence-Tools und maßgeschneiderten Softwarelösungen für spezifische Kundenanforderungen.",
+    "ko_src": "0f4d561c95c2",
+    "de_src": "0f4d561c95c2"
   },
   "DSC": {
     "description": "DSC Holdings Ltd. is a diversified investment company focused on acquiring and managing a portfolio of businesses across various sectors. The company aims to create long-term value for its shareholders through strategic investments and operational efficiencies.",
@@ -2810,7 +2954,16 @@
     "industry": "Investment and asset management.",
     "shares_outstanding": 941449847,
     "proposed_price_low": 16.0,
-    "proposed_price_high": 18.0
+    "proposed_price_high": 18.0,
+    "description_ja": "DSC Holdings Ltd.は様々な分野の事業を取得・運営する多角的投資会社。戦略的投資と業務効率化により、株主に長期的な価値を創出することを目指す。",
+    "products_services_ja": "投資運用、ポートフォリオ分散、戦略的事業買収。",
+    "ja_src": "30e7f28d05db",
+    "description_ko": "DSC Holdings Ltd.는 다양한 분야의 사업체 포트폴리오를 인수하고 관리하는 다각화된 투자 회사이다. 전략적 투자와 운영 효율화를 통해 주주에게 장기적인 가치를 창출하는 것을 목표로 한다.",
+    "products_services_ko": "투자 관리, 포트폴리오 분산, 전략적 사업 인수.",
+    "description_de": "DSC Holdings Ltd. ist ein diversifiziertes Beteiligungsunternehmen, das ein Portfolio von Unternehmen in verschiedenen Branchen erwirbt und verwaltet. Ziel ist es, durch strategische Investitionen und operative Effizienzsteigerungen langfristigen Wert für die Aktionäre zu schaffen.",
+    "products_services_de": "Investmentmanagement, Portfoliodiversifikation und strategische Unternehmensakquisitionen.",
+    "ko_src": "30e7f28d05db",
+    "de_src": "30e7f28d05db"
   },
   "GHXIU": {
     "description": "Gores Holdings XI, Inc. is a special purpose acquisition company (SPAC) focused on identifying and merging with a high-growth company in the technology sector. The company aims to leverage its management team's expertise to create value for shareholders through strategic acquisitions.",
@@ -2826,7 +2979,16 @@
     "industry": "Transportation and Mobility Services",
     "shares_outstanding": 16436019,
     "proposed_price_low": 24.0,
-    "proposed_price_high": 26.0
+    "proposed_price_high": 26.0,
+    "description_ja": "Neutron Holdings, Inc.は電動スクーターやシェアサイクルサービスを通じて都市の移動を支援する技術企業。都市の交通選択肢を広げ、持続可能性の向上と交通渋滞の緩和を目指す。",
+    "products_services_ja": "電動スクーターおよびシェアサイクルサービス、レンタル用モバイルアプリ、都市交通ソリューション。",
+    "ja_src": "34920e0851ec",
+    "description_ko": "Neutron Holdings, Inc.는 전동 킥보드 및 자전거 공유 서비스를 통해 도시 이동성을 위한 혁신 솔루션을 제공하는 기술 기업이다. 지속 가능성을 높이고 교통 혼잡을 줄이면서 도시의 교통 선택지를 확대하는 것을 목표로 한다.",
+    "products_services_ko": "전동 킥보드 및 자전거 공유 서비스, 대여용 모바일 애플리케이션, 도시 이동 솔루션.",
+    "description_de": "Neutron Holdings, Inc. ist ein Technologieunternehmen, das mit seinen Diensten für E-Scooter und Fahrrad-Sharing innovative Lösungen für urbane Mobilität anbietet. Das Unternehmen will die Transportmöglichkeiten in Städten verbessern, Nachhaltigkeit fördern und Verkehrsstaus verringern.",
+    "products_services_de": "E-Scooter und Fahrrad-Sharing-Dienste, mobile Anwendung für die Ausleihe sowie Lösungen für urbane Mobilität.",
+    "ko_src": "34920e0851ec",
+    "de_src": "34920e0851ec"
   },
   "CUX": {
     "description": "CopperTech Metals Inc. is a leading provider of innovative copper-based solutions aimed at enhancing efficiency and sustainability in various industries. The company focuses on the extraction, processing, and distribution of high-quality copper products to meet the growing demand for advanced materials.",
@@ -2851,7 +3013,16 @@
     "industry": "Technology",
     "shares_outstanding": 93400000,
     "proposed_price_low": 11.25,
-    "proposed_price_high": 13.25
+    "proposed_price_high": 13.25,
+    "description_ja": "Sinda Ltd.は、各業界向けの革新的なソフトウェアソリューションを手がける主要テクノロジー企業。業務効率の向上とデジタルトランスフォーメーションの推進に注力し、先端技術を通じて企業の成長を支援する。",
+    "products_services_ja": "ソフトウェア開発、クラウドコンピューティングソリューション、データ分析、統合基幹業務システム(ERP)。",
+    "ja_src": "0f4c9250ff34",
+    "description_ko": "Sinda Ltd.은 여러 산업을 위한 혁신적인 소프트웨어 솔루션을 전문으로 하는 선도 기술 기업이다. 운영 효율성 향상과 디지털 전환 촉진에 주력하며, 최신 기술로 기업들의 역량을 강화하는 것을 목표로 한다.",
+    "products_services_ko": "소프트웨어 개발, 클라우드 컴퓨팅 솔루션, 데이터 분석, 전사적 자원 관리(ERP) 시스템.",
+    "description_de": "Sinda Ltd. ist ein führendes Technologieunternehmen, das auf innovative Softwarelösungen für verschiedene Branchen spezialisiert ist. Mit dem Fokus auf die Steigerung der betrieblichen Effizienz und die Vorantreibung der digitalen Transformation will Sinda Unternehmen mit modernster Technologie stärken.",
+    "products_services_de": "Softwareentwicklung, Cloud-Computing-Lösungen, Datenanalyse und Enterprise-Resource-Planning-(ERP-)Systeme.",
+    "ko_src": "0f4c9250ff34",
+    "de_src": "0f4c9250ff34"
   },
   "BSP": {
     "description": "Bending Spoons S.p.A. is a leading mobile app development company known for creating innovative and user-friendly applications. With a focus on enhancing user experience, the company has gained significant traction in the tech industry.",
@@ -2859,7 +3030,16 @@
     "industry": "Technology / Mobile Applications",
     "shares_outstanding": 324978625,
     "proposed_price_low": 10.0,
-    "proposed_price_high": 10.0
+    "proposed_price_high": 10.0,
+    "description_ja": "Bending Spoons S.p.A.は革新的で使いやすいモバイルアプリの開発で知られる大手企業。ユーザー体験の向上に注力し、テック業界で大きな注目を集めている。",
+    "products_services_ja": "モバイルアプリ、アプリ開発サービス、デジタルソリューション。",
+    "ja_src": "7f6e4a9b82cc",
+    "description_ko": "Bending Spoons S.p.A.는 혁신적이고 사용하기 쉬운 애플리케이션을 개발하는 것으로 알려진 모바일 앱 개발 기업이다. 사용자 경험 향상에 주력하며 기술 업계에서 상당한 주목을 받고 있다.",
+    "products_services_ko": "모바일 애플리케이션, 앱 개발 서비스, 디지털 솔루션.",
+    "description_de": "Bending Spoons S.p.A. ist ein führendes Unternehmen für die Entwicklung mobiler Apps, das für innovative und benutzerfreundliche Anwendungen bekannt ist. Mit dem Fokus auf ein verbessertes Nutzererlebnis hat das Unternehmen in der Technologiebranche erheblich an Bedeutung gewonnen.",
+    "products_services_de": "Mobile Anwendungen, Dienstleistungen für die App-Entwicklung und digitale Lösungen.",
+    "ko_src": "7f6e4a9b82cc",
+    "de_src": "7f6e4a9b82cc"
   },
   "CGCFU": {
     "shares_outstanding": 25000000,
@@ -3145,7 +3325,16 @@
     "industry": "Technology",
     "shares_outstanding": 154144,
     "proposed_price_low": 23.0,
-    "proposed_price_high": 27.0
+    "proposed_price_high": 27.0,
+    "description_ja": "Csquare, Inc.はデータ分析とクラウドコンピューティング向けの先端ソリューションを提供する技術企業。ビジネスインテリジェンスの強化を通じて、組織のデータに基づく迅速な意思決定を支援する。",
+    "products_services_ja": "データ分析プラットフォーム、クラウドコンピューティングソリューション、ビジネスインテリジェンスツール。",
+    "ja_src": "ed6ad41f8801",
+    "description_ko": "Csquare, Inc.는 데이터 분석과 클라우드 컴퓨팅을 위한 첨단 솔루션을 제공하는 혁신 기술 기업이다. 비즈니스 인텔리전스 강화에 힘쓰며, 기업이 데이터 기반 의사결정을 효율적으로 내릴 수 있도록 지원한다.",
+    "products_services_ko": "데이터 분석 플랫폼, 클라우드 컴퓨팅 솔루션, 비즈니스 인텔리전스 도구.",
+    "description_de": "Csquare, Inc. ist ein innovatives Technologieunternehmen mit Fokus auf modernen Lösungen für Datenanalyse und Cloud Computing. Csquare unterstützt Unternehmen dabei, die Business Intelligence zu verbessern und Entscheidungen effizient auf Basis von Daten zu treffen.",
+    "products_services_de": "Datenanalyseplattformen, Cloud-Computing-Lösungen und Tools für Business Intelligence.",
+    "ko_src": "ed6ad41f8801",
+    "de_src": "ed6ad41f8801"
   },
   "SKHY": {
     "description": "SK hynix Inc. is a leading global semiconductor manufacturer specializing in memory chips and storage solutions. The company plays a crucial role in the technology supply chain, providing essential components for various electronic devices.",
@@ -3202,7 +3391,16 @@
     "industry": "Nuclear Energy",
     "shares_outstanding": 18250000,
     "proposed_price_low": 18.0,
-    "proposed_price_high": 21.0
+    "proposed_price_high": 21.0,
+    "description_ja": "Standard Nuclear, Inc.は、原子力技術と持続可能なエネルギーソリューションの発展に取り組む先駆的企業。安全性と革新性への強いコミットメントのもと、原子力発電産業の変革を目指す。",
+    "products_services_ja": "原子炉設計、安全システム、原子力エネルギープロジェクト向けコンサルティングサービス。",
+    "ja_src": "91ee378ac89c",
+    "description_ko": "Standard Nuclear, Inc.은 원자력 기술과 지속가능 에너지 솔루션의 발전을 추구하는 선구적 기업이다. 안전성과 혁신에 대한 헌신을 바탕으로 원자력 발전 산업의 변화를 이끄는 것을 목표로 한다.",
+    "products_services_ko": "원자로 설계, 안전 시스템, 원자력 에너지 프로젝트를 위한 컨설팅 서비스.",
+    "description_de": "Standard Nuclear, Inc. ist ein Pionierunternehmen, das die Kerntechnik und nachhaltige Energielösungen voranbringt. Mit einem Bekenntnis zu Sicherheit und Innovation will es die Kernkraftindustrie revolutionieren.",
+    "products_services_de": "Auslegung von Kernreaktoren, Sicherheitssysteme und Beratungsleistungen für Kernenergieprojekte.",
+    "ko_src": "91ee378ac89c",
+    "de_src": "91ee378ac89c"
   },
   "CCCTU": {
     "description": "Columbus Circle Capital Corp III is a special purpose acquisition company (SPAC) focused on identifying and merging with a target business in the technology sector. The company aims to leverage its management team's expertise to drive growth and create value for shareholders.",
@@ -3309,7 +3507,16 @@
     "industry": "Semiconductors",
     "shares_outstanding": 728865500,
     "proposed_price_low": 158.14,
-    "proposed_price_high": 158.14
+    "proposed_price_high": 158.14,
+    "description_ja": "SK hynix Inc.は、メモリチップおよびストレージソリューションを専門とする世界有数の半導体メーカー。電子機器に不可欠な部品を供給し、テクノロジーのサプライチェーンで重要な役割を担う。",
+    "products_services_ja": "DRAM、NANDフラッシュメモリ、その他の半導体製品。",
+    "ja_src": "b667a42dfb33",
+    "description_ko": "SK hynix Inc.은 메모리 칩과 저장장치 솔루션을 전문으로 하는 글로벌 선도 반도체 제조사이다. 기술 공급망에서 핵심적인 역할을 하며, 다양한 전자기기에 필수 부품을 공급한다.",
+    "products_services_ko": "DRAM, NAND 플래시 메모리 및 기타 반도체 제품.",
+    "description_de": "SK hynix Inc. ist ein führender globaler Halbleiterhersteller mit Schwerpunkt auf Speicherchips und Speicherlösungen. Das Unternehmen spielt eine zentrale Rolle in der Technologie-Lieferkette und liefert wesentliche Komponenten für verschiedene elektronische Geräte.",
+    "products_services_de": "DRAM, NAND-Flash-Speicher und weitere Halbleiterprodukte.",
+    "ko_src": "b667a42dfb33",
+    "de_src": "b667a42dfb33"
   },
   "0002111453": {
     "description": "Verdera Energy Corp. is a renewable energy company focused on developing innovative solutions for sustainable energy production. The company aims to revolutionize the energy sector by leveraging advanced technologies to harness clean energy sources.",
@@ -3661,7 +3868,13 @@
     "proposed_price_high": 17.0,
     "description_ja": "Reformation Inc. は、女性向けに環境に配慮したスタイリッシュな衣料を手がけるサステナブル・ファッションブランド。サプライチェーンの透明性を重視し、環境負荷の低減とファッション業界における倫理的な取り組みの推進を目指す。",
     "products_services_ja": "ドレス、トップス、ボトムス、アクティブウェアを含む女性向け衣料。持続可能な素材で製造。",
-    "ja_src": "53355104f026"
+    "ja_src": "53355104f026",
+    "description_ko": "Reformation Inc.은 여성용 스타일 의류를 친환경적으로 만드는 지속가능 패션 브랜드이다. 공급망의 투명성을 강조하며, 환경 영향을 줄이고 패션 산업의 윤리적 관행을 확산하는 것을 목표로 한다.",
+    "products_services_ko": "지속가능한 소재로 만든 여성의류. 드레스, 상의, 하의, 액티브웨어 등을 포함한다.",
+    "description_de": "Reformation Inc. ist eine Modemarke für nachhaltige Mode, die stilvolle, umweltfreundliche Damenbekleidung entwickelt. Das Unternehmen legt Wert auf Transparenz in seiner Lieferkette, strebt eine Verringerung seiner Umweltbelastung an und fördert ethische Praktiken in der Modeindustrie.",
+    "products_services_de": "Damenbekleidung, darunter Kleider, Oberteile, Hosen und Sportbekleidung, hergestellt aus nachhaltigen Materialien.",
+    "ko_src": "53355104f026",
+    "de_src": "53355104f026"
   },
   "0002089447": {
     "description": "Advance JV Group Ltd. is a dynamic company focused on innovative solutions in the joint venture sector, aiming to enhance collaboration and growth opportunities for businesses.",
@@ -3681,7 +3894,16 @@
     "proposed_price_high": 25.0,
     "description": "Jersey Mike's Subs Inc. is a fast-casual restaurant chain specializing in fresh, made-to-order submarine sandwiches. The company emphasizes quality ingredients and a community-focused approach, aiming to provide a superior dining experience.",
     "products_services": "Freshly made subs, sandwiches, salads, and catering services.",
-    "industry": "Restaurant/Food Service"
+    "industry": "Restaurant/Food Service",
+    "description_ja": "Jersey Mike's Subs Inc.は新鮮な食材を使い注文ごとに作る潜水艦型サンドイッチを提供するファストカジュアルチェーン。高品質な食材と地域密着型の姿勢で優れた食体験を目指す。",
+    "products_services_ja": "注文ごとに作るサブサンド、サンドイッチ、サラダ、ケータリングサービス。",
+    "ja_src": "aaab8df2cfff",
+    "description_ko": "Jersey Mike's Subs Inc.는 신선한 주문 제작형 서브마리나 샌드위치를 전문으로 하는 패스트 캐주얼 레스토랑 체인이다. 고품질 식재료와 지역사회 중심의 접근 방식을 강조하며, 우수한 식사 경험을 제공하는 것을 목표로 한다.",
+    "products_services_ko": "신선하게 만든 서브 샌드위치, 샌드위치, 샐러드 및 케이터링 서비스.",
+    "description_de": "Jersey Mike's Subs Inc. ist eine Fast-Casual-Restaurantkette, die auf frisch zubereitete U-Boot-Sandwiches spezialisiert ist. Das Unternehmen setzt auf hochwertige Zutaten und einen gemeinschaftsorientierten Ansatz, um ein überzeugendes Speiseerlebnis zu bieten.",
+    "products_services_de": "Frisch zubereitete Subs, Sandwiches, Salate und Catering-Dienstleistungen.",
+    "ko_src": "aaab8df2cfff",
+    "de_src": "aaab8df2cfff"
   },
   "SCTX": {
     "shares_outstanding": 535714,
@@ -3689,7 +3911,16 @@
     "proposed_price_high": 15.0,
     "description": "Scribe Therapeutics, Inc. is a biotechnology company focused on developing next-generation gene editing technologies to treat genetic diseases. The company leverages its proprietary platform to create precise and efficient therapeutic solutions.",
     "products_services": "Gene editing technologies and therapeutic solutions for genetic diseases.",
-    "industry": "Biotechnology"
+    "industry": "Biotechnology",
+    "description_ja": "Scribe Therapeutics, Inc.は遺伝性疾患の治療を目指す次世代遺伝子編集技術を開発するバイオテクノロジー企業。独自のプラットフォームを活用し、精密で効率的な治療ソリューションを創出する。",
+    "products_services_ja": "遺伝子編集技術および遺伝性疾患向けの治療ソリューション。",
+    "ja_src": "3a12903dceea",
+    "description_ko": "Scribe Therapeutics, Inc.은 유전병 치료를 위한 차세대 유전자 편집 기술을 개발하는 바이오테크 기업이다. 자체 플랫폼을 활용해 정밀하고 효율적인 치료 솔루션을 만드는 것을 목표로 한다.",
+    "products_services_ko": "유전병을 위한 유전자 편집 기술 및 치료 솔루션.",
+    "description_de": "Scribe Therapeutics, Inc. ist ein Biotechnologieunternehmen, das next-generation Gen-Editing-Technologien zur Behandlung genetischer Erkrankungen entwickelt. Das Unternehmen nutzt seine proprietäre Plattform, um präzise und effiziente therapeutische Lösungen zu schaffen.",
+    "products_services_de": "Gen-Editing-Technologien und therapeutische Lösungen für genetische Erkrankungen.",
+    "ko_src": "3a12903dceea",
+    "de_src": "3a12903dceea"
   },
   "BRTMU": {
     "shares_outstanding": 325000000,
@@ -3993,7 +4224,13 @@
     "description_ja": "IMC Rare Earths Ltd は、2025 年 9 月設立のケイマン諸島の鉱物探査・開発会社。ブラジルのイオン吸着型粘土レアアース事業 Itarantim プロジェクトを開発中で、営業収益はない。米国および欧州市場向けに、ネオジム、プラセオジム、ジスプロシウム、テルビウムなどの磁石用レアアース元素の供給を目指す。",
     "products_services_ja": "レアアース元素の探査・開発。ブラジルの Itarantim プロジェクトからの磁石用レアアース（NdPr および DyTb）の長期供給に注力。",
     "ja_src": "d47a660db9b0",
-    "ads_checked": true
+    "ads_checked": true,
+    "description_ko": "IMC Rare Earths Ltd는 2025년 9월 설립된 케이맨 제도 소재 광물 탐사 및 개발 기업으로, 브라질의 Itarantim 이온흡착형 점토 희토류 프로젝트를 개발하고 있으며 영업 수익은 없다. 네오디뮴, 프라세오디뮴, 디스프로슘, 테르븀 등 자석용 희토류 원소를 미국 및 유럽 시장에 공급하는 것을 목표로 한다.",
+    "products_services_ko": "희토류 원소의 광물 탐사 및 개발, 브라질 Itarantim 프로젝트를 통한 자석용 희토류 원소(NdPr 및 DyTb)의 장기 공급에 주력한다.",
+    "description_de": "IMC Rare Earths Ltd ist ein Explorations- und Entwicklungsunternehmen für Mineralien mit Sitz auf den Cayman-Inseln, das im September 2025 gegründet wurde. Es entwickelt sein Seltenerdenprojekt Itarantim (ionenadsorbierter Ton) in Brasilien und erzielt keine operativen Umsatzerlöse. Ziel ist die Belieferung der Märkte in den Vereinigten Staaten und Europa mit Seltenerdelementen für Magnete, etwa Neodym, Praseodym, Dysprosium und Terbium.",
+    "products_services_de": "Exploration und Entwicklung von Seltenerdelementen mit Fokus auf der langfristigen Versorgung mit Seltenerdelementen für Magnete (NdPr und DyTb) aus dem Projekt Itarantim in Brasilien.",
+    "ko_src": "d47a660db9b0",
+    "de_src": "d47a660db9b0"
   },
   "AEIB": {
     "description": "AEI CapForce II Investment Corp. is a closed-end management investment company focused on strategic capital allocation. The company seeks to generate long-term capital appreciation through diversified investments in growth-oriented assets.",
@@ -5064,8 +5301,8 @@
     "products_services_ja": "センサーアーキテクチャ設計、独自のセンサー・アンテナサブシステム（RF、レーダー、電源・熱管理）、データの取り込み・融合・可視化および指揮統制を支援するデータ・ソフトウェアプラットフォーム。",
     "ja_src": "75a079da324b",
     "ads_checked": true,
-    "proposed_price_low": 19.0,
-    "proposed_price_high": 22.0,
+    "proposed_price_low": 20.5,
+    "proposed_price_high": 20.5,
     "description_ko": "Lyntris Inc.는 '센스 투 액트(sense-to-act)' 연결 솔루션을 제공하는 방산 기술 기업이다. 미 국방부(Department of War) 및 동맹국 군 고객을 대상으로 해양 영역 인식, 공중 및 미사일 방어, 우주 정찰·감시 및 회복력 있는 통신 임무를 지원한다. 제품은 센서 아키텍처, 자체 개발 센서 및 안테나 하드웨어, 데이터 융합, 지휘통제 및 임무 수행을 위한 데이터 및 소프트웨어 플랫폼으로 구성된다.",
     "products_services_ko": "센서 아키텍처 엔지니어링, 자체 개발 센서 및 안테나 서브시스템(RF, 레이더, 전력 및 열관리 포함), 데이터 수집·융합·시각화 및 지휘통제 지원을 위한 데이터 및 소프트웨어 플랫폼.",
     "description_de": "Lyntris Inc. ist ein Verteidigungstechnologieunternehmen, das Konnektivitätslösungen \"Sense-to-Act\" für das vernetzte Gefechtsfeld liefert und Kunden des US-Verteidigungsministeriums (Department of War) sowie verbündeter Streitkräfte in den Bereichen Maritime Domain Awareness, Luft- und Raketenabwehr sowie Weltraum-ISR und widerstandsfähige Kommunikation bedient. Das Angebot umfasst Sensorarchitektur, eigene Sensor- und Antennenhardware sowie Daten- und Softwareplattformen für Datenfusion, Führungs- und Kommandosysteme und Missionsdurchführung.",
@@ -5156,7 +5393,8 @@
     "description_de": "TCGX Acquisition Corp. II ist eine Blank-Check-Gesellschaft, auch Special Purpose Acquisition Company (SPAC) genannt. Sie wurde gegründet, um einen Unternehmenszusammenschluss, Anteilstausch oder eine vergleichbare Transaktion mit einem oder mehreren operativen Unternehmen durchzuführen. Die Gesellschaft hat keine eigene operative Geschäftstätigkeit und sammelt Kapital über einen Börsengang, um ein Zielunternehmen zu identifizieren und zu übernehmen.",
     "products_services_de": "Keine Produkte oder Dienstleistungen; die einzige Tätigkeit besteht darin, ein privates Zielunternehmen zu identifizieren, zu bewerten und einen Unternehmenszusammenschluss mit diesem abzuschließen.",
     "ko_src": "a8993827b3e5",
-    "de_src": "a8993827b3e5"
+    "de_src": "a8993827b3e5",
+    "ads_checked": true
   },
   "FJDIU": {
     "description": "ARC Group Securities Acquisition II is a special purpose acquisition company (SPAC) formed to effect a merger, share exchange, asset acquisition, or similar business combination with one or more operating businesses. As a blank check company, it has no commercial operations of its own and seeks to raise capital through an initial public offering to fund a future acquisition target.",
@@ -5170,7 +5408,10 @@
     "description_de": "ARC Group Securities Acquisition II ist eine Special Purpose Acquisition Company (SPAC), die gegründet wurde, um einen Unternehmenszusammenschluss, Anteilstausch, Vermögenserwerb oder eine vergleichbare Transaktion mit einem oder mehreren operativen Unternehmen durchzuführen. Als Blank-Check-Gesellschaft hat sie keine eigene operative Geschäftstätigkeit und plant, über einen Börsengang Kapital für die spätere Übernahme eines Zielunternehmens einzuwerben.",
     "products_services_de": "Keine operativen Produkte oder Dienstleistungen; Zweck der Gesellschaft ist es, ein Zielunternehmen zu identifizieren und einen Unternehmenszusammenschluss mit einem privaten operativen Unternehmen abzuschließen und diesem so den Weg an die Kapitalmärkte zu eröffnen.",
     "ko_src": "5b32c2db9772",
-    "de_src": "5b32c2db9772"
+    "de_src": "5b32c2db9772",
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0,
+    "ads_checked": true
   },
   "ADRX": {
     "description": "ADARx Pharmaceuticals, Inc. is a clinical-stage biopharmaceutical company developing RNA-targeting therapeutics designed to address diseases with significant unmet medical need. The company leverages proprietary platforms to advance its pipeline toward clinical development and potential commercialization.",
@@ -5184,7 +5425,10 @@
     "description_de": "ADARx Pharmaceuticals, Inc. ist ein klinisch frühes Biopharmaunternehmen, das RNA-zielende Therapeutika entwickelt, um Krankheiten mit erheblichem ungedecktem medizinischem Bedarf zu adressieren. Das Unternehmen nutzt proprietäre Plattformen, um seine Pipeline in Richtung klinischer Entwicklung und möglicher Kommerzialisierung voranzubringen.",
     "products_services_de": "RNA-zielende Wirkstoffkandidaten und proprietäre Therapie-Plattformtechnologien für Wirkstoffforschung und -entwicklung",
     "ko_src": "2d04084ff4d2",
-    "de_src": "2d04084ff4d2"
+    "de_src": "2d04084ff4d2",
+    "proposed_price_low": 15.0,
+    "proposed_price_high": 17.0,
+    "ads_checked": true
   },
   "OIG": {
     "description": "Orion180 Insurance Group Inc. is an insurance holding company preparing for an initial public offering, offering a range of property, casualty, and specialty insurance solutions to individual and commercial clients. The company aims to leverage its underwriting expertise and distribution network to deliver risk protection and long-term value to shareholders.",
@@ -5198,7 +5442,10 @@
     "description_de": "Orion180 Insurance Group Inc. ist eine Versicherungsholding, die sich auf einen Börsengang vorbereitet. Das Unternehmen bietet privaten und gewerblichen Kunden ein Spektrum an Sach-, Haftpflicht- und Spezialversicherungslösungen. Ziel ist es, mit seiner Zeichnungsexpertise und seinem Vertriebsnetz Risikoschutz zu bieten und langfristigen Mehrwert für die Aktionäre zu schaffen.",
     "products_services_de": "Sach- und Haftpflichtversicherungen, gewerbliche Haftpflichtdeckung, Spezialversicherungsprodukte, Risikomanagement und Zeichnungsdienstleistungen",
     "ko_src": "232e95554ceb",
-    "de_src": "232e95554ceb"
+    "de_src": "232e95554ceb",
+    "proposed_price_low": 15.0,
+    "proposed_price_high": 17.0,
+    "ads_checked": true
   },
   "ETRA": {
     "description": "Electra Therapeutics, Inc. is a biopharmaceutical company focused on developing novel therapeutics. Details about its specific pipeline, leadership, and IPO terms should be verified against its official SEC filings or prospectus.",
@@ -5212,7 +5459,10 @@
     "description_de": "Electra Therapeutics, Inc. ist ein Biopharmaunternehmen, das sich auf die Entwicklung neuartiger Therapeutika konzentriert. Angaben zur konkreten Pipeline, zur Führungsebene und zu den Konditionen des Börsengangs sollten anhand der offiziellen SEC-Einreichungen bzw. des Prospekts überprüft werden.",
     "products_services_de": "Entwicklung therapeutischer Wirkstoffkandidaten; konkrete Produkte und Dienstleistungen nicht verifiziert.",
     "ko_src": "3ed35267f403",
-    "de_src": "3ed35267f403"
+    "de_src": "3ed35267f403",
+    "proposed_price_low": 14.0,
+    "proposed_price_high": 16.0,
+    "ads_checked": true
   },
   "TLACU": {
     "description": "Three Lions Acquisition Corp. is a blank check company, also known as a special purpose acquisition company (SPAC), formed to effect a merger, share exchange, asset acquisition, or similar business combination with one or more operating businesses. Its management team intends to target companies with strong growth potential, though specific sector focus and offering details should be confirmed through its SEC filings.",
@@ -5226,7 +5476,10 @@
     "description_de": "Three Lions Acquisition Corp. ist eine Blank-Check-Gesellschaft, auch Special Purpose Acquisition Company (SPAC) genannt. Sie wurde gegründet, um einen Unternehmenszusammenschluss, Anteilstausch, Vermögenserwerb oder eine vergleichbare Transaktion mit einem oder mehreren operativen Unternehmen durchzuführen. Das Management beabsichtigt, Unternehmen mit starkem Wachstumspotenzial anzusprechen; der konkrete Branchenfokus und die Angebotsdetails sollten anhand der SEC-Einreichungen bestätigt werden.",
     "products_services_de": "Als SPAC bietet Three Lions Acquisition Corp. keine eigenen Produkte oder Dienstleistungen an; die Haupttätigkeit besteht darin, ein privates operatives Unternehmen zu identifizieren und einen Unternehmenszusammenschluss mit ihm abzuschließen.",
     "ko_src": "d6cb51e265d0",
-    "de_src": "d6cb51e265d0"
+    "de_src": "d6cb51e265d0",
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0,
+    "ads_checked": true
   },
   "ASPE": {
     "description": "Aspen Neuroscience, Inc. is a clinical-stage biotechnology company developing autologous, patient-derived cell therapies for neurodegenerative diseases, with a focus on Parkinson's disease. The company uses its proprietary stem cell and neural differentiation platform to create dopamine-producing neurons intended to replace cells lost in the disease.",
@@ -5240,7 +5493,10 @@
     "description_de": "Aspen Neuroscience, Inc. ist ein klinisch frühes Biotechnologieunternehmen, das autologe, aus Patientenzellen gewonnene Zelltherapien für neurodegenerative Erkrankungen entwickelt, mit Schwerpunkt auf der Parkinson-Krankheit. Das Unternehmen nutzt eine proprietäre Stammzell- und Plattform zur neuronalen Differenzierung, um dopaminproduzierende Neuronen herzustellen, die die durch die Krankheit verlorenen Zellen ersetzen sollen.",
     "products_services_de": "Autologe (aus Patientenzellen gewonnene) induzierte pluripotente Stammzell-basierte neuronale Zelltherapien für die Parkinson-Krankheit; ANPD001 ist der Leitkandidat und befindet sich in der klinischen Entwicklung.",
     "ko_src": "f637b23d5549",
-    "de_src": "f637b23d5549"
+    "de_src": "f637b23d5549",
+    "proposed_price_low": 15.0,
+    "proposed_price_high": 17.0,
+    "ads_checked": true
   },
   "SCQCU": {
     "description": "SPACCircle Acquisition Corp. is a special purpose acquisition company (SPAC) formed to effect a merger, share exchange, or similar business combination with one or more operating businesses. It raises capital through an initial public offering and seeks a target company to take public, with specifics about its strategy and any target not confirmed here.",
@@ -5254,7 +5510,10 @@
     "description_de": "SPACCircle Acquisition Corp. ist eine Special Purpose Acquisition Company (SPAC), die gegründet wurde, um einen Unternehmenszusammenschluss, Anteilstausch oder eine vergleichbare Transaktion mit einem oder mehreren operativen Unternehmen durchzuführen. Sie sammelt Kapital über einen Börsengang und sucht ein Zielunternehmen, das an die Börse gebracht werden soll. Angaben zu Strategie und möglichem Ziel sind hier nicht bestätigt.",
     "products_services_de": "Als Blank-Check-Gesellschaft bietet sie keine eigenen Produkte oder Dienstleistungen an; ihr Zweck ist die Identifizierung und der Abschluss eines Unternehmenszusammenschlusses mit einem privaten operativen Unternehmen.",
     "ko_src": "95bbe1d9689f",
-    "de_src": "95bbe1d9689f"
+    "de_src": "95bbe1d9689f",
+    "proposed_price_low": 10.0,
+    "proposed_price_high": 10.0,
+    "ads_checked": true
   },
   "AMRO": {
     "description": "Amaero Inc. is a company that has pursued an initial public offering, positioning itself for public market investors. Specific business details could not be verified from the information provided, so the description is limited to this general characterization.",
@@ -6024,7 +6283,10 @@
     "description_de": "Attovia Therapeutics ist ein klinisch frühes Biopharmaunternehmen, das next-generation Biotherapeutika für immunvermittelte Erkrankungen entwickelt. Mit seiner ATTOBODY-Biologika-Plattform entwirft das Unternehmen Kandidaten wie ATTO-1310, ein gegen IL-31 gerichtetes Fc-Fusionsprotein, das bei Patienten mit chronisch pruriginösen Erkrankungen untersucht wird. Die Pipeline umfasst außerdem den bispezifischen Kandidaten ATTO-2306 (gegen IL-13 und IL-31) und den trispezifischen Kandidaten ATTO-1091 (gegen TL1A, IL-23 und Integrin α4β7), die sich beide in einer früheren Entwicklungsphase befinden.",
     "products_services_de": "Klinisch frühe Biologika-Kandidaten (ATTO-1310, ATTO-2306, ATTO-1091), entdeckt mithilfe der lizenzierten ATTOBODY-Plattform für biparatope Biologika; es werden keine kommerziellen Produkte beschrieben.",
     "ko_src": "c6f4843d56f3",
-    "de_src": "c6f4843d56f3"
+    "de_src": "c6f4843d56f3",
+    "proposed_price_low": 17.0,
+    "proposed_price_high": 17.0,
+    "ads_checked": true
   },
   "ACCV": {
     "description": "Accelevation Holdings Corp. is a vertically integrated infrastructure platform that designs, manufactures, and installs power distribution and white space infrastructure products for mission-critical data center environments serving hyperscale, colocation, AI, and cloud customers. The company offers integrated, factory-built solutions such as modular white space infrastructure (e.g., SkyBridge), structural and infrastructure products (e.g., TechFrame steel structures, conveyance systems, rack support), and turnkey field-built deployments.",
@@ -6038,7 +6300,10 @@
     "description_de": "Accelevation Holdings Corp. ist eine vertikal integrierte Infrastrukturplattform, die Stromverteilungs- und White-Space-Infrastrukturprodukte für geschäftskritische Rechenzentrumsumgebungen entwickelt, fertigt und installiert. Kunden sind Hyperscale-, Colocation-, KI- und Cloud-Anbieter. Das Unternehmen bietet integrierte, werksseitig gefertigte Lösungen an, darunter modulare White-Space-Infrastruktur (z. B. SkyBridge), Strukturen und Infrastrukturprodukte (z. B. TechFrame-Stahlkonstruktionen, Fördersysteme, Racktragwerke) sowie schlüsselfertige Installationen vor Ort.",
     "products_services_de": "Integrierte White-Space-Infrastrukturlösungen (modular werksseitig gefertigt und vor Ort gebaut); Infrastrukturprodukte wie Stahlkonstruktionen, Fördersysteme, Rack- und Schrankhalterungen, Cabinet-Docking, Käfig- und Gehäusesysteme sowie Kabel- und Glasfaserführungskomponenten; außerdem Stromverteilungsprodukte sowie Planung, Fertigung, Elektroarbeiten, Installation und Projektkoordination.",
     "ko_src": "e4b2b501eae6",
-    "de_src": "e4b2b501eae6"
+    "de_src": "e4b2b501eae6",
+    "proposed_price_low": 20.0,
+    "proposed_price_high": 24.0,
+    "ads_checked": true
   },
   "BBTX": {
     "description": "Bambusa Therapeutics is a clinical-stage biopharmaceutical company developing next-generation, long-acting precision bispecific antibodies for immunology and inflammation, with a lead candidate BBT001 targeting IL-4Rα and IL-31 for atopic dermatitis and other inflammatory skin diseases. The company is advancing these candidates through clinical trials, including high-concentration subcutaneous formulations.",
@@ -6052,7 +6317,10 @@
     "description_de": "Bambusa Therapeutics ist ein klinisch frühes Biopharmaunternehmen, das langwirksame, präzise bispezifische Antikörper der nächsten Generation für Immunologie und Entzündungserkrankungen entwickelt. Der Leitkandidat BBT001 richtet sich gegen IL-4Rα und IL-31 und wird bei atopischer Dermatitis und anderen entzündlichen Hauterkrankungen untersucht. Die Kandidaten werden in klinischen Studien weiterentwickelt, unter anderem in hochkonzentrierten subkutanen Formulierungen.",
     "products_services_de": "Bispezifische Antikörper-Wirkstoffkandidaten (z. B. BBT001, BBT002, BBT003, BBT004) für die hochkonzentrierte subkutane Verabreichung; keiner davon wird als kommerziell zugelassenes Produkt beschrieben.",
     "ko_src": "dcc0aae867cc",
-    "de_src": "dcc0aae867cc"
+    "de_src": "dcc0aae867cc",
+    "proposed_price_low": 15.0,
+    "proposed_price_high": 17.0,
+    "ads_checked": true
   },
   "GBC": {
     "description": "Georgia Banking Company, Inc. is a bank holding company headquartered in Atlanta, Georgia, operating through its bank subsidiary to serve businesses, professionals, entrepreneurs and consumers in the Atlanta MSA with approximately $3.3 billion in total assets across 10 full-service banking offices and three loan production offices. It emphasizes a relationship banking model combining local decision-making with the products and lending capacity of larger institutions.",
@@ -6066,7 +6334,8 @@
     "description_de": "Georgia Banking Company, Inc. ist eine Bankholding mit Sitz in Atlanta, Georgia. Über ihre Bank-Tochtergesellschaft betreut sie Unternehmen, Freiberufler, Unternehmer und Privatkunden im Großraum Atlanta. Die Bilanzsumme beträgt rund 3,3 Mrd. USD; das Netz umfasst 10 Filialen mit vollem Leistungsumfang und drei Kreditberatungsbüros. Das Unternehmen setzt auf ein Relationship-Banking-Modell, das lokale Entscheidungsfindung mit dem Produkt- und Kreditangebot größerer Institute verbindet.",
     "products_services_de": "Firmenkundengeschäft, Privatkundengeschäft, Private Banking, gewerbliches Immobilienfinanzierungsgeschäft, Lagerfinanzierung für Hypotheken sowie Treasury-Dienstleistungen, ferner Kredit-, Einlagen- und gebührenbasierte Geschäftsfelder.",
     "ko_src": "ec08d951e023",
-    "de_src": "ec08d951e023"
+    "de_src": "ec08d951e023",
+    "ads_checked": true
   },
   "LYCA": {
     "description": "Lycia Therapeutics, Inc. is a clinical-stage biotechnology company developing therapeutics that degrade disease-causing extracellular proteins using its proprietary LYTAC (Lysosomal Targeting Chimera) platform, with an initial focus on autoimmune, inflammatory and allergic diseases. Its lead programs include IgE-targeting degraders (LCA-0061, LCA-0062) for food allergy and other allergic diseases, and LCA-0321 for Graves' disease, all in clinical or preclinical development.",
@@ -6080,7 +6349,10 @@
     "description_de": "Lycia Therapeutics, Inc. ist ein klinisch frühes Biotechnologieunternehmen, das Therapeutika entwickelt, die krankheitsverursachende extrazelluläre Proteine abbauen. Grundlage ist die proprietäre LYTAC-Plattform (Lysosomal Targeting Chimera), der Fokus liegt zunächst auf Autoimmun-, Entzündungs- und allergischen Erkrankungen. Zu den Leitprogrammen gehören IgE-gerichtete Degrader (LCA-0061, LCA-0062) für Nahrungsmittelallergien und andere allergische Erkrankungen sowie LCA-0321 für die Basedow-Krankheit; alle befinden sich in klinischer oder präklinischer Entwicklung.",
     "products_services_de": "Prüfpräparate auf LYTAC-Basis, sogenannte Protein-Degrader (LCA-0061, LCA-0062, LCA-0321); im Auszug werden keine kommerziellen Produkte oder Dienstleistungen beschrieben.",
     "ko_src": "7b6cf3291a59",
-    "de_src": "7b6cf3291a59"
+    "de_src": "7b6cf3291a59",
+    "proposed_price_low": 16.0,
+    "proposed_price_high": 18.0,
+    "ads_checked": true
   },
   "DAVI": {
     "description": "Davion Healthcare Plc is an Irish public limited company focused on developing and commercializing non-invasive, non-diagnostic home tests for early detection of potential health anomalies, including cancers. Its products (BreastCheck, FootFlow, Testic, and ThermaDerm) use thermography with liquid crystal film and AI analysis of smartphone images to flag areas that may warrant further clinical investigation.",
@@ -6389,20 +6661,15 @@
     "de_src": "a4c75fadb581"
   },
   "FBLL": {
-    "description": "Football Manager SPAC Inc. is a newly incorporated Cayman Islands blank check company formed to effect a business combination with an operating business, with no target selected yet. It intends to focus its search on a middle-tier European football club with a target enterprise value of approximately $200 million.",
-    "products_services": "null",
-    "industry": "Special purpose acquisition company (blank check company); its intended target is in the European professional football (soccer) club market.",
     "proposed_price_low": 10.0,
     "proposed_price_high": 10.0,
-    "description_ja": "Football Manager SPAC Inc.はケイマン諸島で新規設立されたブランクチェック会社（SPAC）で、事業会社との企業結合を目的とする。現時点で買収対象は未選定。中堅の欧州サッカークラブに絞って探索する方針で、目標企業価値は約2億ドル。",
-    "ja_src": "4a6cd67cb66d",
     "ads_checked": true,
-    "description_ko": "Football Manager SPAC Inc.는 운영 기업과의 기업결합을 목적으로 새로 설립된 케이맨 제도 소재 blank check(기업인수목적) 회사이며, 아직 대상 기업을 선정하지 않았다. 기업가치 약 2억 달러 규모의 유럽 중위권 축구 구단을 탐색 대상으로 삼을 계획이다.",
-    "products_services_ko": "null",
-    "description_de": "Football Manager SPAC Inc. ist eine neu gegründete Blankoscheck-Gesellschaft auf den Cayman-Inseln, die einen Unternehmenszusammenschluss mit einem operativen Unternehmen anstrebt; ein Ziel wurde noch nicht ausgewählt. Die Suche soll sich auf einen europäischen Fußballklub der mittleren Ligen mit einem angestrebten Unternehmenswert von etwa 200 Mio. USD konzentrieren.",
-    "products_services_de": "null",
-    "ko_src": "4a6cd67cb66d",
-    "de_src": "4a6cd67cb66d"
+    "description_ko": "Football Manager SPAC Inc.은 운영 사업체와의 기업결합을 목적으로 설립된 케이맨 제도 소재 신설 블랭크 체크 회사(SPAC)이다. 아직 인수 대상은 선정되지 않았다. 중위권 유럽 축구 클럽을 탐색 대상으로 삼고 있으며, 목표 기업가치는 약 2억 달러이다.",
+    "products_services_ko": null,
+    "description_de": "Football Manager SPAC Inc. ist eine neu gegründete Blank-Check-Gesellschaft (SPAC) mit Sitz auf den Cayman-Inseln, die zum Zweck eines Unternehmenszusammenschlusses mit einem operativen Geschäftsbetrieb gegründet wurde. Ein Zielunternehmen wurde noch nicht ausgewählt. Die Gesellschaft plant, ihre Suche auf einen Fußballverein der mittleren Liga in Europa zu konzentrieren, mit einem angestrebten Unternehmenswert (Enterprise Value) von rund 200 Mio. USD.",
+    "products_services_de": null,
+    "ko_src": "8065449729ba",
+    "de_src": "8065449729ba"
   },
   "0001490171": {
     "description": "Earlens Corp is a medical-device company that markets hearing aid products through a national network of company-owned hearing-loss centers (the Virsono network) located within independent ENT physician practices. Its core offering is the FDA-cleared Earlens system, a non-surgical hearing device that amplifies sound by directly vibrating the eardrum, alongside a full line of conventional air-conduction hearing aids.",
