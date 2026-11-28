@@ -100,8 +100,15 @@ async def update_lockups(httpx, headers, worker_url, admin_token):
                 if row.get("dealID") and not _is_spac(row):
                     priced[row["dealID"]] = row
         new = 0
+        soon = (now + timedelta(days=30)).strftime("%Y-%m-%d")
+        week_ago = (now - timedelta(days=7)).strftime("%Y-%m-%d")
         for did, row in priced.items():
-            if did in cache and cache[did].get("checked"):
+            c = cache.get(did) or {}
+            # 一度読んだ銘柄は読み直さない。ただし解除まで30日を切ったら週1回読み直す
+            # （延長・前倒し・段階的な解除で日付が変わることがある）
+            if c.get("checked") and not ((c.get("lockup_date") or "") <= soon
+                                         and (c.get("lockup_date") or "") >= now.strftime("%Y-%m-%d")
+                                         and c["checked"] < week_ago):
                 continue
             try:
                 r = await client.get("https://api.nasdaq.com/api/ipo/overview/", params={"dealId": did})
