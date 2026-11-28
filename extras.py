@@ -135,7 +135,11 @@ async def update_lockups(httpx, headers, worker_url, admin_token):
             await asyncio.sleep(0.4)
     # 解除から60日を過ぎたものは暦から外す（キャッシュも軽く保つ）
     cutoff = (now - timedelta(days=60)).strftime("%Y-%m-%d")
-    cache = {k: v for k, v in cache.items() if (v.get("lockup_date") or v.get("priced_date") or "9999") >= cutoff}
+    window = (now - timedelta(days=30 * LOCKUP_MONTHS + 31)).strftime("%Y-%m-%d")
+    # 解除日がある銘柄は解除から60日まで、無い銘柄は8か月の窓のあいだ残す（毎回読み直さないため）
+    cache = {k: v for k, v in cache.items()
+             if (v.get("lockup_date") or "") >= cutoff
+             or (not v.get("lockup_date") and (v.get("priced_date") or "9999") >= window)}
     _save(LOCKUP_CACHE, cache)
     items = [v for v in cache.values() if v.get("lockup_date") and v.get("ticker")
              and not _is_spac({"companyName": v.get("company_name"), "proposedTickerSymbol": v.get("ticker"),
@@ -223,7 +227,8 @@ async def translate_more(ipos, client, model, parse_json):
             if not ipo.get("description"):
                 continue
             h = src_hash(ipo)
-            if ipo.get(f"description_{lang}") and ipo.get(f"{lang}_src") == h:
+            if ipo.get(f"description_{lang}") and ipo.get(f"{lang}_src") == h \
+                    and not (lang == "ko" and _bad_ko([ipo.get("description_ko"), ipo.get("products_services_ko")])):
                 continue
             seen.setdefault(h, []).append(ipo)
         todo = list(seen.items())[:TR_MAX_PER_RUN]
@@ -263,6 +268,8 @@ async def translate_more(ipos, client, model, parse_json):
                 if not isinstance(t, dict) or not isinstance(t.get("description"), str) or not t["description"].strip():
                     continue
                 p = t.get("products_services") if isinstance(t.get("products_services"), str) else None
+                if lang == "ko" and _bad_ko([t["description"], p]):
+                    continue                     # 次の実行で訳し直す
                 if p and p.strip().lower() in NULLISH:
                     p = None
                 for ipo in group:
@@ -309,7 +316,8 @@ async def translate_s1_lists(cache_path, client, model, parse_json, max_items=60
         if not isinstance(entry, dict) or entry.get("empty") or not isinstance(entry.get("data"), dict):
             continue
         d = entry["data"]
-        if any(d.get(f) and d.get(f"{f}_{l}") is None for f in ("use_of_proceeds", "key_risks") for l in LANGS):
+        if any(d.get(f) and (d.get(f"{f}_{l}") is None or (l == "ko" and _bad_ko(d.get(f"{f}_{l}"))))
+               for f in ("use_of_proceeds", "key_risks") for l in LANGS):
             todo.append((entry, d))
     todo = todo[:max_items]
     print(f"  {len(todo)} analyses to translate")
@@ -345,7 +353,8 @@ async def translate_s1_lists(cache_path, client, model, parse_json, max_items=60
                 src = d.get(field) or []
                 for l in LANGS:
                     v = t.get(f"{field}_{l}")
-                    if isinstance(v, list) and len(v) == len(src) and all(isinstance(x, str) for x in v):
+                    if isinstance(v, list) and len(v) == len(src) and all(isinstance(x, str) for x in v) \
+                            and not (l == "ko" and _bad_ko(v)):
                         d[f"{field}_{l}"] = [x.strip()[:120] for x in v]
                         ok = True
             if ok:
@@ -360,6 +369,15 @@ def _save_s1(path, data):
     # s1_analysis._save と同じ書き方（差分を小さく保つ）
     with open(path, "w") as f:
         f.write(json.dumps(data, ensure_ascii=False, indent=1, sort_keys=True))
+
+
+HANJA = re.compile(r"[\u4e00-\u9fff]")
+
+
+def _bad_ko(v):
+    """韓国語の訳に漢字が混ざることがある（ANT のリスク「핵심 投入 요소」）。現代の韓国語ではほぼ使わないので失敗扱い"""
+    items = v if isinstance(v, list) else [v]
+    return any(isinstance(x, str) and HANJA.search(x) for x in items)
 
 
 def _real(v):
