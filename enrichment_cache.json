@@ -4357,7 +4357,13 @@
     "description_ja": "...",
     "products_services_ja": "...",
     "ja_src": "b5ff3d4e5ae0",
-    "ads_checked": true
+    "ads_checked": true,
+    "description_ko": "...",
+    "products_services_ko": "...",
+    "description_de": "...",
+    "products_services_de": "...",
+    "ko_src": "b5ff3d4e5ae0",
+    "de_src": "b5ff3d4e5ae0"
   },
   "TIWD": {
     "description": "Timwood Holdings Ltd. is a publicly traded company specializing in sustainable timber and wood-based materials. It delivers innovative forestry solutions and eco-friendly construction products to global markets.",
@@ -6664,12 +6670,16 @@
     "proposed_price_low": 10.0,
     "proposed_price_high": 10.0,
     "ads_checked": true,
-    "description_ko": "Football Manager SPAC Inc.은 운영 사업체와의 기업결합을 목적으로 설립된 케이맨 제도 소재 신설 블랭크 체크 회사(SPAC)이다. 아직 인수 대상은 선정되지 않았다. 중위권 유럽 축구 클럽을 탐색 대상으로 삼고 있으며, 목표 기업가치는 약 2억 달러이다.",
+    "description_ko": "Football Manager SPAC Inc.는 하나 이상의 사업체와 기업결합을 추진할 목적으로 새로 설립된 케이맨제도 기업인수목적회사(블랭크 체크 컴퍼니)이다. 아직 인수 대상을 선정하지 않았다. 기업가치(총 기업가치) 약 2억 달러 규모의 중위권 유럽 프로축구 구단을 중심으로 대상을 찾을 계획이다.",
     "products_services_ko": null,
-    "description_de": "Football Manager SPAC Inc. ist eine neu gegründete Blank-Check-Gesellschaft (SPAC) mit Sitz auf den Cayman-Inseln, die zum Zweck eines Unternehmenszusammenschlusses mit einem operativen Geschäftsbetrieb gegründet wurde. Ein Zielunternehmen wurde noch nicht ausgewählt. Die Gesellschaft plant, ihre Suche auf einen Fußballverein der mittleren Liga in Europa zu konzentrieren, mit einem angestrebten Unternehmenswert (Enterprise Value) von rund 200 Mio. USD.",
+    "description_de": "Football Manager SPAC Inc. ist eine neu gegründete Blankoscheck-Gesellschaft (SPAC) nach dem Recht der Cayman-Inseln, die zu dem Zweck gegründet wurde, einen Unternehmenszusammenschluss mit einem oder mehreren Unternehmen herbeizuführen. Ein Zielunternehmen wurde noch nicht ausgewählt. Die Suche soll sich auf einen europäischen Profifußballverein der mittleren Liga mit einem Unternehmenswert (Enterprise Value) von insgesamt etwa 200 Mio. USD konzentrieren.",
     "products_services_de": null,
-    "ko_src": "8065449729ba",
-    "de_src": "8065449729ba"
+    "ko_src": "2e466b84ae3b",
+    "de_src": "2e466b84ae3b",
+    "description": "Football Manager SPAC Inc. is a newly incorporated Cayman Islands blank check company formed to effect a business combination with one or more businesses, with no target selected yet. It intends to focus its search on a middle-tier European professional football club with an aggregate enterprise value of approximately $200 million.",
+    "industry": "Special purpose acquisition companies (blank check companies); the intended target focus is European professional football clubs.",
+    "description_ja": "Football Manager SPAC Inc.は、ケイマン諸島に新規設立されたブランクチェック会社（SPAC）であり、1つまたは複数の事業との企業結合を目的とする。まだ買収対象は決定していない。欧州の中堅プロサッカークラブを主な探索対象とし、企業価値の合計は約2億ドルを想定している。",
+    "ja_src": "2e466b84ae3b"
   },
   "0001490171": {
     "description": "Earlens Corp is a medical-device company that markets hearing aid products through a national network of company-owned hearing-loss centers (the Virsono network) located within independent ENT physician practices. Its core offering is the FDA-cleared Earlens system, a non-surgical hearing device that amplifies sound by directly vibrating the eardrum, alongside a full line of conventional air-conduction hearing aids.",
